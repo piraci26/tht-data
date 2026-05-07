@@ -1,0 +1,91 @@
+// =============================================================================
+// THT Dual Scan — Fair Value Bands (FVB)
+// =============================================================================
+// Companion to the THT Dual Scan dashboard (https://piraci26.github.io/tht-data/).
+// Mirrors the exact math used by scan.py — a flip on this indicator on TradingView
+// matches a flip in the dashboard's daily/weekly/monthly scan.
+//
+// What it does:
+//   · Plots Fair Value Bands: SMA(close, length) ± mult × stdev(close, length)
+//   · Fills the cloud green when close > basis (bull regime), red otherwise
+//   · Marks regime flips with dots on the basis line
+//   · Fires alertconditions on bullish/bearish flips
+//
+// Use with:
+//   THT Dual Scan — B-Xtrender (apply both on the same chart for the dual signal)
+//
+// =============================================================================
+//@version=6
+indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2)
+
+// === INPUTS ===========================================================
+length    = input.int(20, "Length", minval = 2, group = "Fair Value Bands")
+mult      = input.float(2.0, "StdDev Multiplier", minval = 0.0, step = 0.1, group = "Fair Value Bands")
+useClose  = input.bool(true, "Use close (uncheck for hl2)", group = "Fair Value Bands")
+showFlips = input.bool(true, "Show flip markers", group = "Display")
+showFill  = input.bool(true, "Show regime cloud", group = "Display")
+
+// === COLOR INPUTS =====================================================
+bullColor = input.color(color.new(#26a69a, 75), "Bull cloud", group = "Colors")
+bearColor = input.color(color.new(#ef5350, 75), "Bear cloud", group = "Colors")
+basisColor = input.color(#2962FF, "Basis line", group = "Colors")
+bandColor = input.color(color.new(color.gray, 60), "Band edges", group = "Colors")
+
+// === CALCULATIONS =====================================================
+src   = useClose ? close : hl2
+basis = ta.sma(src, length)
+sd    = ta.stdev(src, length)
+upper = basis + mult * sd
+lower = basis - mult * sd
+isBull = src > basis
+
+// Flip detection (regime change between yesterday and today)
+flipGreen = isBull and not isBull[1]
+flipRed   = not isBull and isBull[1]
+
+// Streak: bars held in the prior regime before today's flip
+var int streak = 0
+streak := isBull == isBull[1] ? streak + 1 : 1
+
+// === PLOTS ============================================================
+basisPlot = plot(basis, "Basis", color = basisColor, linewidth = 2)
+upperPlot = plot(upper, "Upper", color = bandColor)
+lowerPlot = plot(lower, "Lower", color = bandColor)
+
+// Cloud fill — regime colored
+fill(upperPlot, lowerPlot, color = showFill ? (isBull ? bullColor : bearColor) : na, title = "Cloud")
+
+// Flip markers ON the basis line (TV-style)
+plotshape(showFlips and flipGreen ? basis : na, "Bull Flip", shape.circle, location.absolute,
+          color = #26a69a, size = size.small)
+plotshape(showFlips and flipRed   ? basis : na, "Bear Flip", shape.circle, location.absolute,
+          color = #ef5350, size = size.small)
+
+// Last-value labels on basis (right-edge price tag)
+plot(basis, "", display = display.price_scale, color = basisColor)
+
+// === ALERTS ===========================================================
+alertcondition(flipGreen, "FVB flipped GREEN",
+    "{{ticker}} ({{interval}}) — FVB flipped GREEN at {{close}}")
+alertcondition(flipRed, "FVB flipped RED",
+    "{{ticker}} ({{interval}}) — FVB flipped RED at {{close}}")
+alertcondition(close > upper, "Price above upper band (overshoot)",
+    "{{ticker}} ({{interval}}) — close above upper band at {{close}}")
+alertcondition(close < lower, "Price below lower band (overshoot)",
+    "{{ticker}} ({{interval}}) — close below lower band at {{close}}")
+
+// === DASHBOARD (top-right corner) =====================================
+showTable = input.bool(true, "Show status table", group = "Display")
+if showTable and barstate.islast
+    var table tbl = table.new(position.top_right, 2, 4, bgcolor = color.new(color.black, 75), border_width = 1)
+    table.cell(tbl, 0, 0, "REGIME",  text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 0, isBull ? "BULL" : "BEAR",
+               text_color = isBull ? #26a69a : #ef5350, text_size = size.small, bgcolor = color.new(isBull ? #26a69a : #ef5350, 80))
+    table.cell(tbl, 0, 1, "BASIS",   text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 1, str.tostring(basis, "#.##"),  text_color = color.white, text_size = size.small)
+    table.cell(tbl, 0, 2, "Δ BASIS", text_color = color.gray, text_size = size.small)
+    delta = ((src - basis) / basis) * 100
+    table.cell(tbl, 1, 2, str.tostring(delta, "+#.##") + "%",
+               text_color = isBull ? #26a69a : #ef5350, text_size = size.small)
+    table.cell(tbl, 0, 3, "STREAK",  text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 3, str.tostring(streak) + " bars", text_color = color.white, text_size = size.small)

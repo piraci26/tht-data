@@ -1,0 +1,144 @@
+// =============================================================================
+// THT Dual Scan — Combined (FVB + B-Xtrender)
+// =============================================================================
+// Single-script combined indicator. Plots the FVB cloud + basis on the price
+// pane and shows BXT histogram + smoothed lines in a separate pane.
+//
+// Mirrors the EXACT math used by scan.py — flips here match the dashboard.
+// Use on its own, OR apply the two split scripts (THT Dual Scan — FVB and
+// THT Dual Scan — B-Xtrender) for more flexibility.
+//
+// Best with: TradingView ≥ Pine v6 (uses force_overlay=true on FVB plots).
+// =============================================================================
+//@version=6
+indicator("THT Dual Scan — Combined", "DualScan", overlay = false, format = format.price, precision = 2)
+
+// ─── INPUTS ──────────────────────────────────────────────────────────
+fvbLength = input.int(20, "Length", minval = 2, group = "Fair Value Bands")
+fvbMult   = input.float(2.0, "StdDev Multiplier", minval = 0.0, step = 0.1, group = "Fair Value Bands")
+
+shortFast = input.int(5,  "Short EMA Fast",   minval = 1, group = "B-Xtrender")
+shortSlow = input.int(20, "Short EMA Slow",   minval = 1, group = "B-Xtrender")
+shortRsi  = input.int(15, "Short RSI Length", minval = 1, group = "B-Xtrender")
+longRsi   = input.int(15, "Long RSI Length",  minval = 1, group = "B-Xtrender")
+smooth    = input.int(5,  "Smoothing WMA",    minval = 1, group = "B-Xtrender")
+
+showFlips = input.bool(true, "Show flip markers",        group = "Display")
+showFill  = input.bool(true, "Show FVB regime cloud",    group = "Display")
+showXover = input.bool(true, "Show BXT smoothed crosses",group = "Display")
+
+// ─── COLORS ──────────────────────────────────────────────────────────
+bullFill = input.color(color.new(#26a69a, 80), "Bull cloud", group = "Colors")
+bearFill = input.color(color.new(#ef5350, 80), "Bear cloud", group = "Colors")
+basisCol = input.color(#2962FF, "Basis line", group = "Colors")
+bandCol  = input.color(color.new(color.gray, 60), "Band edges", group = "Colors")
+bullSig  = input.color(#26a69a, "Bull signal",  group = "Colors")
+bearSig  = input.color(#ef5350, "Bear signal",  group = "Colors")
+shortCol = input.color(#00E676, "BXT smoothed short", group = "Colors")
+longCol  = input.color(#FF5252, "BXT smoothed long",  group = "Colors")
+
+// ─── FVB CALC ────────────────────────────────────────────────────────
+basis = ta.sma(close, fvbLength)
+sd    = ta.stdev(close, fvbLength)
+upper = basis + fvbMult * sd
+lower = basis - fvbMult * sd
+isBull = close > basis
+
+fvbFlipGreen = isBull and not isBull[1]
+fvbFlipRed   = not isBull and isBull[1]
+
+// ─── BXT CALC ────────────────────────────────────────────────────────
+emaDiff = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt = ta.rsi(emaDiff, shortRsi) - 50
+longBxt  = ta.wma(ta.rsi(close, longRsi) - 50, smooth)
+shortSmooth = ta.wma(shortBxt, smooth)
+
+bxtFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+bxtFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
+xoverUp      = ta.crossover (shortSmooth, longBxt)
+xoverDown    = ta.crossunder(shortSmooth, longBxt)
+
+// Combined dual-flip (the headline signal of the dashboard)
+dualGreen = fvbFlipGreen and bxtFlipGreen
+dualRed   = fvbFlipRed   and bxtFlipRed
+
+// ─── PLOTS ON PRICE PANE (FVB) ───────────────────────────────────────
+basisPlot = plot(basis, "Basis", color = basisCol, linewidth = 2, force_overlay = true)
+upperPlot = plot(upper, "Upper", color = bandCol, force_overlay = true)
+lowerPlot = plot(lower, "Lower", color = bandCol, force_overlay = true)
+
+fill(upperPlot, lowerPlot,
+     color = showFill ? (isBull ? bullFill : bearFill) : na,
+     title = "FVB Cloud")
+
+plotshape(showFlips and fvbFlipGreen ? basis : na, "FVB Bull Flip", shape.circle,
+          location.absolute, color = bullSig, size = size.small, force_overlay = true)
+plotshape(showFlips and fvbFlipRed   ? basis : na, "FVB Bear Flip", shape.circle,
+          location.absolute, color = bearSig, size = size.small, force_overlay = true)
+
+// Mark dual-flips with a bigger triangle on the price pane
+plotshape(showFlips and dualGreen ? low  : na, "DUAL GREEN", shape.triangleup,
+          location.belowbar, color = bullSig, size = size.normal, force_overlay = true,
+          text = "▲", textcolor = bullSig)
+plotshape(showFlips and dualRed   ? high : na, "DUAL RED",   shape.triangledown,
+          location.abovebar, color = bearSig, size = size.normal, force_overlay = true,
+          text = "▼", textcolor = bearSig)
+
+// ─── PLOTS ON OSCILLATOR PANE (BXT) ──────────────────────────────────
+histCol = shortBxt >= 0 ? color.new(bullSig, 30) : color.new(bearSig, 30)
+plot(shortBxt, "BXT Short Histogram", color = histCol, style = plot.style_columns)
+plot(shortSmooth, "Smoothed Short", color = shortCol, linewidth = 2)
+plot(longBxt, "Smoothed Long", color = longCol, linewidth = 2)
+hline(0, "Zero", color = color.new(color.gray, 40), linestyle = hline.style_dashed)
+
+plotshape(showXover and xoverUp   ? shortSmooth : na, "Xover Up",   shape.circle,
+          location.absolute, color = bullSig, size = size.tiny)
+plotshape(showXover and xoverDown ? shortSmooth : na, "Xover Down", shape.circle,
+          location.absolute, color = bearSig, size = size.tiny)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(fvbFlipGreen, "FVB flipped GREEN",
+    "{{ticker}} ({{interval}}) — FVB flipped GREEN at {{close}}")
+alertcondition(fvbFlipRed,   "FVB flipped RED",
+    "{{ticker}} ({{interval}}) — FVB flipped RED at {{close}}")
+alertcondition(bxtFlipGreen, "BXT crossed above zero (bullish)",
+    "{{ticker}} ({{interval}}) — BXT crossed above zero at {{close}}")
+alertcondition(bxtFlipRed,   "BXT crossed below zero (bearish)",
+    "{{ticker}} ({{interval}}) — BXT crossed below zero at {{close}}")
+alertcondition(dualGreen, "DUAL FLIP GREEN (the headline signal)",
+    "{{ticker}} ({{interval}}) — DUAL FLIP GREEN: both FVB and BXT flipped bullish at {{close}}")
+alertcondition(dualRed, "DUAL FLIP RED (the headline signal)",
+    "{{ticker}} ({{interval}}) — DUAL FLIP RED: both FVB and BXT flipped bearish at {{close}}")
+
+// ─── STATUS TABLE ───────────────────────────────────────────────────
+if barstate.islast
+    var table tbl = table.new(position.top_right, 3, 5, bgcolor = color.new(color.black, 75), border_width = 1)
+    table.cell(tbl, 0, 0, "",      text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 0, "FVB",   text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 2, 0, "BXT",   text_color = color.gray, text_size = size.small)
+
+    table.cell(tbl, 0, 1, "REGIME", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 1, isBull ? "BULL" : "BEAR",
+               text_color = isBull ? bullSig : bearSig, text_size = size.small,
+               bgcolor = color.new(isBull ? bullSig : bearSig, 80))
+    table.cell(tbl, 2, 1, shortBxt >= 0 ? "BULL" : "BEAR",
+               text_color = shortBxt >= 0 ? bullSig : bearSig, text_size = size.small,
+               bgcolor = color.new(shortBxt >= 0 ? bullSig : bearSig, 80))
+
+    table.cell(tbl, 0, 2, "VALUE",  text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 2, str.tostring(basis, "#.##"),       text_color = color.white, text_size = size.small)
+    table.cell(tbl, 2, 2, str.tostring(shortBxt, "+#.##"),   text_color = color.white, text_size = size.small)
+
+    table.cell(tbl, 0, 3, "Δ",      text_color = color.gray, text_size = size.small)
+    fvbDelta = ((close - basis) / basis) * 100
+    table.cell(tbl, 1, 3, str.tostring(fvbDelta, "+#.##") + "%",
+               text_color = isBull ? bullSig : bearSig, text_size = size.small)
+    bxtDeltaSign = shortBxt - shortBxt[1]
+    table.cell(tbl, 2, 3, str.tostring(bxtDeltaSign, "+#.##"),
+               text_color = bxtDeltaSign >= 0 ? bullSig : bearSig, text_size = size.small)
+
+    table.cell(tbl, 0, 4, "DUAL",   text_color = color.gray, text_size = size.small)
+    dualState = dualGreen ? "GREEN ▲" : dualRed ? "RED ▼" : (isBull == (shortBxt >= 0) ? "ALIGNED" : "MIXED")
+    dualColor = dualGreen ? bullSig : dualRed ? bearSig : (isBull == (shortBxt >= 0) ? color.gray : #FFAA00)
+    table.cell(tbl, 1, 4, dualState, text_color = dualColor, text_size = size.small)
+    table.cell(tbl, 2, 4, "", text_size = size.small)
