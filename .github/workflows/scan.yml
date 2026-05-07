@@ -1,0 +1,44 @@
+name: THT Dual Scan
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub's cron is best-effort; expect ±2-5 min slip under load.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:  # manual trigger button in GitHub UI
+
+concurrency:
+  group: scan
+  cancel-in-progress: false  # don't kill an in-flight scan if a new schedule fires
+
+permissions:
+  contents: write  # needed to commit + push results
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true  # keep auth for the push step
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scan
+        run: python scan.py
+
+      - name: Commit + push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain docs/)" ]]; then
+            git add docs/results.json docs/results_weekly.json docs/results_monthly.json \
+                    docs/bars docs/bars_weekly docs/bars_monthly
+            git commit -m "scan @ $(date -u +'%Y-%m-%d %H:%M UTC') [actions]"
+            git push
+          else
+            echo "no changes"
+          fi
