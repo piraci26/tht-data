@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T22:19:15.303610+00:00",
+  "updated_at": "2026-05-07T23:15:37.745044+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.08,
+  "scan_seconds": 13.95,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -328,23 +328,6 @@
       "pct_to_ath": 114.2
     },
     {
-      "sym": "CRNX",
-      "name": "Crinetics Pharmaceuticals, Inc.",
-      "mcap": 5,
-      "price": 43.49,
-      "basis": 42.84,
-      "bxt_today": -0.24,
-      "bxt_yest": -4.75,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": null,
-      "ath": 62.53,
-      "pct_to_ath": 43.8
-    },
-    {
       "sym": "VVV",
       "name": "Valvoline Inc.",
       "mcap": 5,
@@ -360,6 +343,23 @@
       "bxt_streak": null,
       "ath": 48.26,
       "pct_to_ath": 34.6
+    },
+    {
+      "sym": "CRNX",
+      "name": "Crinetics Pharmaceuticals, Inc.",
+      "mcap": 5,
+      "price": 43.49,
+      "basis": 42.84,
+      "bxt_today": -0.24,
+      "bxt_yest": -4.75,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": null,
+      "ath": 62.53,
+      "pct_to_ath": 43.8
     },
     {
       "sym": "SMG",
@@ -398,23 +398,6 @@
       "pct_to_ath": 109.4
     },
     {
-      "sym": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "mcap": 51,
-      "price": 192.96,
-      "basis": 194.29,
-      "bxt_today": 8.24,
-      "bxt_yest": 7.53,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 444.65,
-      "pct_to_ath": 130.4
-    },
-    {
       "sym": "MET",
       "name": "MetLife, Inc.",
       "mcap": 51,
@@ -430,6 +413,23 @@
       "bxt_streak": null,
       "ath": 89.05,
       "pct_to_ath": 13.0
+    },
+    {
+      "sym": "COIN",
+      "name": "Coinbase Global, Inc.",
+      "mcap": 51,
+      "price": 192.96,
+      "basis": 194.29,
+      "bxt_today": 8.24,
+      "bxt_yest": 7.53,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 444.65,
+      "pct_to_ath": 130.4
     },
     {
       "sym": "XYZ",
@@ -1779,23 +1779,6 @@
       "pct_to_ath": 24.1
     },
     {
-      "sym": "CHWY",
-      "name": "Chewy, Inc.",
-      "mcap": 10,
-      "price": 23.67,
-      "basis": 27.31,
-      "bxt_today": -1.55,
-      "bxt_yest": 0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 120.0,
-      "pct_to_ath": 407.0
-    },
-    {
       "sym": "ENSG",
       "name": "The Ensign Group, Inc.",
       "mcap": 10,
@@ -1811,6 +1794,23 @@
       "bxt_streak": 12,
       "ath": 218.0,
       "pct_to_ath": 25.1
+    },
+    {
+      "sym": "CHWY",
+      "name": "Chewy, Inc.",
+      "mcap": 10,
+      "price": 23.67,
+      "basis": 27.31,
+      "bxt_today": -1.55,
+      "bxt_yest": 0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 120.0,
+      "pct_to_ath": 407.0
     },
     {
       "sym": "TEM",
@@ -1915,21 +1915,21 @@
       "pct_to_ath": 14.8
     },
     {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
       "mcap": 6,
-      "price": 194.52,
-      "basis": 187.38,
-      "bxt_today": -0.88,
-      "bxt_yest": 2.33,
+      "price": 85.24,
+      "basis": 79.92,
+      "bxt_today": -0.29,
+      "bxt_yest": 1.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 30.7
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 5.5
     },
     {
       "sym": "APGE",
@@ -1949,21 +1949,21 @@
       "pct_to_ath": 16.5
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
       "mcap": 6,
-      "price": 85.24,
-      "basis": 79.92,
-      "bxt_today": -0.29,
-      "bxt_yest": 1.14,
+      "price": 194.52,
+      "basis": 187.38,
+      "bxt_today": -0.88,
+      "bxt_yest": 2.33,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 5.5
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 30.7
     },
     {
       "sym": "KVYO",
@@ -2017,23 +2017,6 @@
       "pct_to_ath": 16.4
     },
     {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 5,
-      "price": 64.49,
-      "basis": 59.47,
-      "bxt_today": -0.12,
-      "bxt_yest": 3.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 87.5,
-      "pct_to_ath": 35.7
-    },
-    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -2049,6 +2032,23 @@
       "bxt_streak": 7,
       "ath": 99.25,
       "pct_to_ath": 176.3
+    },
+    {
+      "sym": "PTCT",
+      "name": "PTC Therapeutics, Inc.",
+      "mcap": 5,
+      "price": 64.49,
+      "basis": 59.47,
+      "bxt_today": -0.12,
+      "bxt_yest": 3.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 87.5,
+      "pct_to_ath": 35.7
     },
     {
       "sym": "ALH",
@@ -2103,7 +2103,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T21:13:10.769409+00:00",
+    "compared_to": "2026-05-07T22:19:15.303610+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

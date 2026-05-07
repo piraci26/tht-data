@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T22:19:01.207600+00:00",
+  "updated_at": "2026-05-07T23:15:23.783253+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 29.09,
+  "scan_seconds": 8.71,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -687,23 +687,6 @@
       "pct_to_ath": 2614.9
     },
     {
-      "sym": "VMC",
-      "name": "Vulcan Materials Company (Holding Company)",
-      "mcap": 37,
-      "price": 288.93,
-      "basis": 293.94,
-      "bxt_today": -0.56,
-      "bxt_yest": 0.6,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 331.09,
-      "pct_to_ath": 14.6
-    },
-    {
       "sym": "WEC",
       "name": "WEC Energy Group, Inc.",
       "mcap": 37,
@@ -719,6 +702,23 @@
       "bxt_streak": null,
       "ath": 119.62,
       "pct_to_ath": 6.1
+    },
+    {
+      "sym": "VMC",
+      "name": "Vulcan Materials Company (Holding Company)",
+      "mcap": 37,
+      "price": 288.93,
+      "basis": 293.94,
+      "bxt_today": -0.56,
+      "bxt_yest": 0.6,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 331.09,
+      "pct_to_ath": 14.6
     },
     {
       "sym": "SYM",
@@ -942,23 +942,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "RBA",
-      "name": "RB Global, Inc.",
-      "mcap": 19,
-      "price": 103.43,
-      "basis": 104.89,
-      "bxt_today": 2.47,
-      "bxt_yest": 3.53,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 119.58,
-      "pct_to_ath": 15.6
-    },
-    {
       "sym": "BURL",
       "name": "Burlington Stores, Inc.",
       "mcap": 19,
@@ -974,6 +957,23 @@
       "bxt_streak": null,
       "ath": 357.34,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "RBA",
+      "name": "RB Global, Inc.",
+      "mcap": 19,
+      "price": 103.43,
+      "basis": 104.89,
+      "bxt_today": 2.47,
+      "bxt_yest": 3.53,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 119.58,
+      "pct_to_ath": 15.6
     },
     {
       "sym": "SNA",
@@ -1146,23 +1146,6 @@
       "pct_to_ath": 182.5
     },
     {
-      "sym": "OSK",
-      "name": "Oshkosh Corporation (Holding Company)Common Stock",
-      "mcap": 10,
-      "price": 153.06,
-      "basis": 153.31,
-      "bxt_today": -5.12,
-      "bxt_yest": -4.45,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 180.49,
-      "pct_to_ath": 17.9
-    },
-    {
       "sym": "BROS",
       "name": "Dutch Bros Inc.",
       "mcap": 10,
@@ -1178,6 +1161,23 @@
       "bxt_streak": null,
       "ath": 86.88,
       "pct_to_ath": 62.3
+    },
+    {
+      "sym": "OSK",
+      "name": "Oshkosh Corporation (Holding Company)Common Stock",
+      "mcap": 10,
+      "price": 153.06,
+      "basis": 153.31,
+      "bxt_today": -5.12,
+      "bxt_yest": -4.45,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 180.49,
+      "pct_to_ath": 17.9
     },
     {
       "sym": "SSB",
@@ -1214,23 +1214,6 @@
       "pct_to_ath": 40.8
     },
     {
-      "sym": "AGCO",
-      "name": "AGCO Corporation",
-      "mcap": 9,
-      "price": 117.71,
-      "basis": 119.79,
-      "bxt_today": -6.6,
-      "bxt_yest": -5.79,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 158.62,
-      "pct_to_ath": 34.8
-    },
-    {
       "sym": "CFR",
       "name": "Cullen/Frost Bankers, Inc.",
       "mcap": 9,
@@ -1246,6 +1229,23 @@
       "bxt_streak": 5,
       "ath": 160.6,
       "pct_to_ath": 15.9
+    },
+    {
+      "sym": "AGCO",
+      "name": "AGCO Corporation",
+      "mcap": 9,
+      "price": 117.71,
+      "basis": 119.79,
+      "bxt_today": -6.6,
+      "bxt_yest": -5.79,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 158.62,
+      "pct_to_ath": 34.8
     },
     {
       "sym": "JXN",
@@ -1503,6 +1503,23 @@
       "pct_to_ath": 155.1
     },
     {
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 24.29,
+      "basis": 25.99,
+      "bxt_today": -9.63,
+      "bxt_yest": -2.76,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 52.03,
+      "pct_to_ath": 114.2
+    },
+    {
       "sym": "HRI",
       "name": "Herc Holdings Inc.",
       "mcap": 4,
@@ -1535,23 +1552,6 @@
       "bxt_streak": null,
       "ath": 59.05,
       "pct_to_ath": 8.7
-    },
-    {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 24.29,
-      "basis": 25.99,
-      "bxt_today": -9.63,
-      "bxt_yest": -2.76,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 114.2
     },
     {
       "sym": "TREX",
@@ -2219,23 +2219,6 @@
       "pct_to_ath": 133.2
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 56.6,
-      "basis": 57.64,
-      "bxt_today": 1.78,
-      "bxt_yest": -0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 19.7
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -2251,6 +2234,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 267.8
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 56.6,
+      "basis": 57.64,
+      "bxt_today": 1.78,
+      "bxt_yest": -0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "QS",
@@ -2986,23 +2986,6 @@
       "pct_to_ath": 4.7
     },
     {
-      "sym": "IDA",
-      "name": "IDACORP, Inc.",
-      "mcap": 8,
-      "price": 143.17,
-      "basis": 139.98,
-      "bxt_today": -2.12,
-      "bxt_yest": 2.89,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 149.73,
-      "pct_to_ath": 4.6
-    },
-    {
       "sym": "JXN",
       "name": "Jackson Financial Inc.",
       "mcap": 8,
@@ -3018,6 +3001,23 @@
       "bxt_streak": 1,
       "ath": 123.61,
       "pct_to_ath": 12.3
+    },
+    {
+      "sym": "IDA",
+      "name": "IDACORP, Inc.",
+      "mcap": 8,
+      "price": 143.17,
+      "basis": 139.98,
+      "bxt_today": -2.12,
+      "bxt_yest": 2.89,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 149.73,
+      "pct_to_ath": 4.6
     },
     {
       "sym": "PCVX",
@@ -3071,23 +3071,6 @@
       "pct_to_ath": 14.8
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 81.81,
-      "basis": 76.14,
-      "bxt_today": -0.44,
-      "bxt_yest": 2.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "PTGX",
       "name": "Protagonist Therapeutics, Inc.",
       "mcap": 6,
@@ -3103,6 +3086,23 @@
       "bxt_streak": 8,
       "ath": 107.84,
       "pct_to_ath": 9.1
+    },
+    {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 81.81,
+      "basis": 76.14,
+      "bxt_today": -0.44,
+      "bxt_yest": 2.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "KVYO",
@@ -3310,7 +3310,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T21:13:03.183593+00:00",
+    "compared_to": "2026-05-07T22:19:01.207600+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
