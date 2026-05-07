@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T21:13:10.769409+00:00",
+  "updated_at": "2026-05-07T22:19:15.303610+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.57,
-  "scanned_count": 1510,
+  "scan_seconds": 14.08,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1779,23 +1779,6 @@
       "pct_to_ath": 24.1
     },
     {
-      "sym": "ENSG",
-      "name": "The Ensign Group, Inc.",
-      "mcap": 10,
-      "price": 174.3,
-      "basis": 163.32,
-      "bxt_today": -3.26,
-      "bxt_yest": 2.03,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 218.0,
-      "pct_to_ath": 25.1
-    },
-    {
       "sym": "CHWY",
       "name": "Chewy, Inc.",
       "mcap": 10,
@@ -1811,6 +1794,23 @@
       "bxt_streak": 4,
       "ath": 120.0,
       "pct_to_ath": 407.0
+    },
+    {
+      "sym": "ENSG",
+      "name": "The Ensign Group, Inc.",
+      "mcap": 10,
+      "price": 174.3,
+      "basis": 163.32,
+      "bxt_today": -3.26,
+      "bxt_yest": 2.03,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 218.0,
+      "pct_to_ath": 25.1
     },
     {
       "sym": "TEM",
@@ -1915,6 +1915,23 @@
       "pct_to_ath": 14.8
     },
     {
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
+      "mcap": 6,
+      "price": 194.52,
+      "basis": 187.38,
+      "bxt_today": -0.88,
+      "bxt_yest": 2.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 30.7
+    },
+    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1947,23 +1964,6 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 5.5
-    },
-    {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
-      "mcap": 6,
-      "price": 194.52,
-      "basis": 187.38,
-      "bxt_today": -0.88,
-      "bxt_yest": 2.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 30.7
     },
     {
       "sym": "KVYO",
@@ -2051,23 +2051,6 @@
       "pct_to_ath": 176.3
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.67,
-      "basis": 80.73,
-      "bxt_today": -1.05,
-      "bxt_yest": 2.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "ALH",
       "name": "Alliance Laundry Holdings Inc.",
       "mcap": 5,
@@ -2083,6 +2066,23 @@
       "bxt_streak": 26,
       "ath": 27.48,
       "pct_to_ath": 9.4
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.67,
+      "basis": 80.73,
+      "bxt_today": -1.05,
+      "bxt_yest": 2.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.3
     },
     {
       "sym": "OTTR",
@@ -2103,20 +2103,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T20:03:58.091920+00:00",
+    "compared_to": "2026-05-07T21:13:10.769409+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "KVUE",
-        "name": "Kenvue Inc.",
-        "mcap": 34,
-        "price": 17.74,
-        "basis": 17.72,
-        "bxt_today": 7.39,
-        "ath": 27.8,
-        "pct_to_ath": 56.7
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],

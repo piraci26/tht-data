@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T21:13:03.183593+00:00",
+  "updated_at": "2026-05-07T22:19:01.207600+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.0,
+  "scan_seconds": 29.09,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -942,23 +942,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "BURL",
-      "name": "Burlington Stores, Inc.",
-      "mcap": 19,
-      "price": 306.6,
-      "basis": 312.42,
-      "bxt_today": -6.16,
-      "bxt_yest": -0.33,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 357.34,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "RBA",
       "name": "RB Global, Inc.",
       "mcap": 19,
@@ -974,6 +957,23 @@
       "bxt_streak": null,
       "ath": 119.58,
       "pct_to_ath": 15.6
+    },
+    {
+      "sym": "BURL",
+      "name": "Burlington Stores, Inc.",
+      "mcap": 19,
+      "price": 306.6,
+      "basis": 312.42,
+      "bxt_today": -6.16,
+      "bxt_yest": -0.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 21,
+      "bxt_streak": null,
+      "ath": 357.34,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "SNA",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 17.9
     },
     {
-      "sym": "SSB",
-      "name": "SouthState Bank Corporation",
-      "mcap": 10,
-      "price": 97.36,
-      "basis": 97.66,
-      "bxt_today": 1.11,
-      "bxt_yest": 1.16,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 114.27,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "BROS",
       "name": "Dutch Bros Inc.",
       "mcap": 10,
@@ -1195,6 +1178,23 @@
       "bxt_streak": null,
       "ath": 86.88,
       "pct_to_ath": 62.3
+    },
+    {
+      "sym": "SSB",
+      "name": "SouthState Bank Corporation",
+      "mcap": 10,
+      "price": 97.36,
+      "basis": 97.66,
+      "bxt_today": 1.11,
+      "bxt_yest": 1.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 114.27,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "CART",
@@ -1214,23 +1214,6 @@
       "pct_to_ath": 40.8
     },
     {
-      "sym": "CFR",
-      "name": "Cullen/Frost Bankers, Inc.",
-      "mcap": 9,
-      "price": 138.56,
-      "basis": 138.58,
-      "bxt_today": -1.03,
-      "bxt_yest": 2.07,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 7,
-      "bxt_streak": 5,
-      "ath": 160.6,
-      "pct_to_ath": 15.9
-    },
-    {
       "sym": "AGCO",
       "name": "AGCO Corporation",
       "mcap": 9,
@@ -1246,6 +1229,23 @@
       "bxt_streak": null,
       "ath": 158.62,
       "pct_to_ath": 34.8
+    },
+    {
+      "sym": "CFR",
+      "name": "Cullen/Frost Bankers, Inc.",
+      "mcap": 9,
+      "price": 138.56,
+      "basis": 138.58,
+      "bxt_today": -1.03,
+      "bxt_yest": 2.07,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 7,
+      "bxt_streak": 5,
+      "ath": 160.6,
+      "pct_to_ath": 15.9
     },
     {
       "sym": "JXN",
@@ -1282,23 +1282,6 @@
       "pct_to_ath": 135.1
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 69.42,
-      "basis": 69.64,
-      "bxt_today": 2.64,
-      "bxt_yest": 2.38,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 25.0
-    },
-    {
       "sym": "BBUC",
       "name": "Brookfield Business Corporation Subordinate Voting Shares",
       "mcap": 7,
@@ -1314,6 +1297,23 @@
       "bxt_streak": null,
       "ath": 38.25,
       "pct_to_ath": 13.8
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 69.42,
+      "basis": 69.64,
+      "bxt_today": 2.64,
+      "bxt_yest": 2.38,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 25.0
     },
     {
       "sym": "GATX",
@@ -1503,23 +1503,6 @@
       "pct_to_ath": 155.1
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 24.29,
-      "basis": 25.99,
-      "bxt_today": -9.63,
-      "bxt_yest": -2.76,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 114.2
-    },
-    {
       "sym": "HRI",
       "name": "Herc Holdings Inc.",
       "mcap": 4,
@@ -1552,6 +1535,23 @@
       "bxt_streak": null,
       "ath": 59.05,
       "pct_to_ath": 8.7
+    },
+    {
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 24.29,
+      "basis": 25.99,
+      "bxt_today": -9.63,
+      "bxt_yest": -2.76,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 52.03,
+      "pct_to_ath": 114.2
     },
     {
       "sym": "TREX",
@@ -1896,23 +1896,6 @@
       "pct_to_ath": 44.3
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.89,
-      "basis": 13.16,
-      "bxt_today": 3.74,
-      "bxt_yest": -0.28,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 113.3
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -1928,6 +1911,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.3
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.89,
+      "basis": 13.16,
+      "bxt_today": 3.74,
+      "bxt_yest": -0.28,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 113.3
     },
     {
       "sym": "TPG",
@@ -2134,23 +2134,6 @@
       "pct_to_ath": 28.7
     },
     {
-      "sym": "KRYS",
-      "name": "Krystal Biotech, Inc.",
-      "mcap": 9,
-      "price": 296.7,
-      "basis": 267.86,
-      "bxt_today": 2.3,
-      "bxt_yest": -2.6,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 303.0,
-      "pct_to_ath": 2.1
-    },
-    {
       "sym": "AAL",
       "name": "American Airlines Group Inc.",
       "mcap": 9,
@@ -2166,6 +2149,23 @@
       "bxt_streak": 13,
       "ath": 63.27,
       "pct_to_ath": 380.0
+    },
+    {
+      "sym": "KRYS",
+      "name": "Krystal Biotech, Inc.",
+      "mcap": 9,
+      "price": 296.7,
+      "basis": 267.86,
+      "bxt_today": 2.3,
+      "bxt_yest": -2.6,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 303.0,
+      "pct_to_ath": 2.1
     },
     {
       "sym": "REXR",
@@ -2969,23 +2969,6 @@
       "pct_to_ath": 167.7
     },
     {
-      "sym": "JXN",
-      "name": "Jackson Financial Inc.",
-      "mcap": 8,
-      "price": 110.09,
-      "basis": 110.76,
-      "bxt_today": -1.17,
-      "bxt_yest": 1.07,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 1,
-      "ath": 123.61,
-      "pct_to_ath": 12.3
-    },
-    {
       "sym": "BOKF",
       "name": "BOK Financial Corporation",
       "mcap": 8,
@@ -3018,6 +3001,23 @@
       "bxt_streak": 14,
       "ath": 149.73,
       "pct_to_ath": 4.6
+    },
+    {
+      "sym": "JXN",
+      "name": "Jackson Financial Inc.",
+      "mcap": 8,
+      "price": 110.09,
+      "basis": 110.76,
+      "bxt_today": -1.17,
+      "bxt_yest": 1.07,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 1,
+      "ath": 123.61,
+      "pct_to_ath": 12.3
     },
     {
       "sym": "PCVX",
@@ -3071,23 +3071,6 @@
       "pct_to_ath": 14.8
     },
     {
-      "sym": "PTGX",
-      "name": "Protagonist Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 98.85,
-      "basis": 92.36,
-      "bxt_today": -3.07,
-      "bxt_yest": 1.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 107.84,
-      "pct_to_ath": 9.1
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -3103,6 +3086,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "PTGX",
+      "name": "Protagonist Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 98.85,
+      "basis": 92.36,
+      "bxt_today": -3.07,
+      "bxt_yest": 1.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 107.84,
+      "pct_to_ath": 9.1
     },
     {
       "sym": "KVYO",
@@ -3310,52 +3310,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T20:03:47.190333+00:00",
+    "compared_to": "2026-05-07T21:13:03.183593+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "KVUE",
-        "name": "Kenvue Inc.",
-        "mcap": 34,
-        "price": 17.74,
-        "basis": 17.72,
-        "bxt_today": 7.39,
-        "ath": 27.8,
-        "pct_to_ath": 56.7
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "GM",
-        "name": "General Motors Company",
-        "mcap": 71,
-        "price": 78.41,
-        "basis": 78.42,
-        "bxt_today": -10.13,
-        "ath": 87.62,
-        "pct_to_ath": 11.7
-      },
-      {
-        "sym": "OSK",
-        "name": "Oshkosh Corporation (Holding Company)Common Stock",
-        "mcap": 10,
-        "price": 153.06,
-        "basis": 153.31,
-        "bxt_today": -5.12,
-        "ath": 180.49,
-        "pct_to_ath": 17.9
-      },
-      {
-        "sym": "CFR",
-        "name": "Cullen/Frost Bankers, Inc.",
-        "mcap": 9,
-        "price": 138.56,
-        "basis": 138.58,
-        "bxt_today": -1.03,
-        "ath": 160.6,
-        "pct_to_ath": 15.9
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
