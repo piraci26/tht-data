@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T08:57:06.786659+00:00",
+  "updated_at": "2026-05-08T10:26:20.179940+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 17.14,
+  "scan_seconds": 7.63,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -808,23 +808,6 @@
       "pct_to_ath": 8.8
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -859,21 +842,21 @@
       "pct_to_ath": 217.1
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 56.6,
-      "basis": 57.6,
-      "bxt_today": 1.22,
-      "bxt_yest": -1.67,
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 19.7
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
     },
     {
       "sym": "ESTC",
@@ -908,6 +891,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.1
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 56.6,
+      "basis": 57.6,
+      "bxt_today": 1.22,
+      "bxt_yest": -1.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "CRNX",
@@ -1473,23 +1473,6 @@
       "pct_to_ath": 14.8
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.41,
-      "basis": 21.75,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.7
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1505,6 +1488,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.41,
+      "basis": 21.75,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.7
     },
     {
       "sym": "IMVT",
@@ -1558,23 +1558,6 @@
       "pct_to_ath": 450.2
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.9,
-      "basis": 7.37,
-      "bxt_today": -0.04,
-      "bxt_yest": 0.96,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 149.4
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1590,6 +1573,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 17.8
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.9,
+      "basis": 7.37,
+      "bxt_today": -0.04,
+      "bxt_yest": 0.96,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 149.4
     },
     {
       "sym": "PSMT",
@@ -1660,23 +1660,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "TDW",
-      "name": "Tidewater Inc.",
-      "mcap": 4,
-      "price": 77.86,
-      "basis": 73.77,
-      "bxt_today": -0.77,
-      "bxt_yest": 6.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 2580.65,
-      "pct_to_ath": 3214.5
-    },
-    {
       "sym": "BFAM",
       "name": "Bright Horizons Family Solutions Inc.",
       "mcap": 4,
@@ -1692,6 +1675,23 @@
       "bxt_streak": 6,
       "ath": 182.5,
       "pct_to_ath": 167.2
+    },
+    {
+      "sym": "TDW",
+      "name": "Tidewater Inc.",
+      "mcap": 4,
+      "price": 77.86,
+      "basis": 73.77,
+      "bxt_today": -0.77,
+      "bxt_yest": 6.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 2580.65,
+      "pct_to_ath": 3214.5
     },
     {
       "sym": "HP",
@@ -1763,7 +1763,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T07:27:48.936880+00:00",
+    "compared_to": "2026-05-08T08:57:06.786659+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
