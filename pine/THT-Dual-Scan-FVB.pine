@@ -79,16 +79,15 @@ plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 // Clean filled rectangles via box.new() — no speech-bubble tail. Positioned
 // via ATR-based offset so the box sits the same visual distance from the
 // candle on every chart / timeframe.
-atr14    = ta.atr(14)
-boxOff   = atr14 * 1.4   // distance from the bar's high/low to the box edge
-boxH     = atr14 * 1.0   // box height (in price units)
-int boxHalfW = 2         // box half-width in bars (must be int for box.new)
+atr14  = ta.atr(14)
+boxOff = atr14 * 1.4   // distance from the bar's high/low to the box edge
+boxH   = atr14 * 1.0   // box height (in price units)
 
 if showLabels and dualGreen
     yTop = low - boxOff
     box.new(
-        left  = bar_index - boxHalfW, right  = bar_index + boxHalfW,
-        top   = yTop,                  bottom = yTop - boxH,
+        left  = bar_index - 2, right  = bar_index + 2,
+        top   = yTop,           bottom = yTop - boxH,
         bgcolor      = buyCol,
         border_color = color.new(buyCol, 0),
         border_width = 0,
@@ -102,8 +101,8 @@ if showLabels and dualGreen
 if showLabels and dualRed
     yBot = high + boxOff
     box.new(
-        left  = bar_index - boxHalfW, right  = bar_index + boxHalfW,
-        top   = yBot + boxH,           bottom = yBot,
+        left  = bar_index - 2, right  = bar_index + 2,
+        top   = yBot + boxH,    bottom = yBot,
         bgcolor      = sellCol,
         border_color = color.new(sellCol, 0),
         border_width = 0,
