@@ -30,8 +30,8 @@ showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Displa
 showTable  = input.bool(true,  "Status table (top right)",       group = "Display")
 
 // Colors — IDENTICAL to BXT pane palette so the two visually unify
-bullCol  = input.color(#26a69a, "Bull regime",  group = "Colors")
-bearCol  = input.color(#ef5350, "Bear regime",  group = "Colors")
+bullCol  = input.color(#00D982, "Bull regime",  group = "Colors")
+bearCol  = input.color(#FF3D5E, "Bear regime",  group = "Colors")
 basisCol = input.color(#00E676, "Basis line (lime, matches BXT smooth-short)", group = "Colors")
 buyCol   = input.color(#00E676, "BUY label bg", group = "Colors")
 sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")

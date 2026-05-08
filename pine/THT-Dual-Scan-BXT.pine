@@ -30,8 +30,8 @@ showHalo  = input.bool(true, "Halo on smoothed lines", group = "Display")
 showTable = input.bool(true, "Status table",        group = "Display")
 
 // Colors — teal/coral throughout (matches the screenshot you liked)
-bullCol   = input.color(#26a69a, "Bull (histogram + smooth short)", group = "Colors")
-bearCol   = input.color(#ef5350, "Bear (histogram + smooth long)",  group = "Colors")
+bullCol   = input.color(#00D982, "Bull (histogram + smooth short)", group = "Colors")
+bearCol   = input.color(#FF3D5E, "Bear (histogram + smooth long)",  group = "Colors")
 amberCol  = input.color(#FFAA00, "Mixed/warning",                   group = "Colors")
 
 // ─── CALCULATIONS ────────────────────────────────────────────────────
