@@ -14,7 +14,7 @@
 // =============================================================================
 //@version=6
 indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2,
-          max_labels_count = 500)
+          max_labels_count = 500, max_boxes_count = 500)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
 fvbLen   = input.int(20,  "FVB Length",            minval = 2,   group = "Fair Value Bands")
@@ -75,24 +75,44 @@ fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Cloud")
 plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
 plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 
-// ─── BUY / SELL LABELS (dual flips only) ────────────────────────────
+// ─── BUY / SELL BOXES (dual flips only) ─────────────────────────────
+// Clean filled rectangles via box.new() — no speech-bubble tail. Positioned
+// via ATR-based offset so the box sits the same visual distance from the
+// candle on every chart / timeframe.
+atr14    = ta.atr(14)
+boxOff   = atr14 * 1.4   // distance from the bar's high/low to the box edge
+boxH     = atr14 * 1.0   // box height (in price units)
+boxHalfW = 1.6           // box half-width in bars
+
 if showLabels and dualGreen
-    label.new(bar_index, low, "BUY",
-              style       = label.style_label_up,
-              color       = buyCol,
-              textcolor   = color.white,
-              size        = size.normal,
-              text_font_family = font.family_default,
-              yloc        = yloc.belowbar)
+    yTop = low - boxOff
+    box.new(
+        left  = bar_index - boxHalfW, right  = bar_index + boxHalfW,
+        top   = yTop,                  bottom = yTop - boxH,
+        bgcolor      = buyCol,
+        border_color = color.new(buyCol, 0),
+        border_width = 0,
+        text         = "BUY",
+        text_color   = color.white,
+        text_size    = size.normal,
+        text_halign  = text.align_center,
+        text_valign  = text.align_center,
+        text_font_family = font.family_default)
 
 if showLabels and dualRed
-    label.new(bar_index, high, "SELL",
-              style       = label.style_label_down,
-              color       = sellCol,
-              textcolor   = color.white,
-              size        = size.normal,
-              text_font_family = font.family_default,
-              yloc        = yloc.abovebar)
+    yBot = high + boxOff
+    box.new(
+        left  = bar_index - boxHalfW, right  = bar_index + boxHalfW,
+        top   = yBot + boxH,           bottom = yBot,
+        bgcolor      = sellCol,
+        border_color = color.new(sellCol, 0),
+        border_width = 0,
+        text         = "SELL",
+        text_color   = color.white,
+        text_size    = size.normal,
+        text_halign  = text.align_center,
+        text_valign  = text.align_center,
+        text_font_family = font.family_default)
 
 // ─── ALERTS ─────────────────────────────────────────────────────────
 alertcondition(fvbFlipGreen, "FVB flipped GREEN",
