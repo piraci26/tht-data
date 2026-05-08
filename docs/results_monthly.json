@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T20:41:06.581779+00:00",
+  "updated_at": "2026-05-08T21:41:41.210965+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.08,
+  "scan_seconds": 13.56,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -209,23 +209,6 @@
       "pct_to_ath": 92.7
     },
     {
-      "sym": "XP",
-      "name": "XP Inc.",
-      "mcap": 10,
-      "price": 19.17,
-      "basis": 19.17,
-      "bxt_today": -2.98,
-      "bxt_yest": -2.46,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 53.08,
-      "pct_to_ath": 176.9
-    },
-    {
       "sym": "CART",
       "name": "Maplebear Inc.",
       "mcap": 10,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 53.5,
       "pct_to_ath": 32.6
+    },
+    {
+      "sym": "XP",
+      "name": "XP Inc.",
+      "mcap": 10,
+      "price": 19.17,
+      "basis": 19.17,
+      "bxt_today": -2.98,
+      "bxt_yest": -2.46,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 53.08,
+      "pct_to_ath": 176.9
     },
     {
       "sym": "MGM",
@@ -704,23 +704,6 @@
       "pct_to_ath": 15.8
     },
     {
-      "sym": "AS",
-      "name": "Amer Sports, Inc. Ordinary Shares",
-      "mcap": 21,
-      "price": 36.03,
-      "basis": 36.13,
-      "bxt_today": -0.51,
-      "bxt_yest": -1.02,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 42.76,
-      "pct_to_ath": 18.7
-    },
-    {
       "sym": "LH",
       "name": "Labcorp Holdings Inc.",
       "mcap": 21,
@@ -736,6 +719,23 @@
       "bxt_streak": null,
       "ath": 293.72,
       "pct_to_ath": 15.6
+    },
+    {
+      "sym": "AS",
+      "name": "Amer Sports, Inc. Ordinary Shares",
+      "mcap": 21,
+      "price": 36.03,
+      "basis": 36.13,
+      "bxt_today": -0.51,
+      "bxt_yest": -1.02,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 42.76,
+      "pct_to_ath": 18.7
     },
     {
       "sym": "DLTR",
@@ -857,6 +857,23 @@
       "pct_to_ath": 13.9
     },
     {
+      "sym": "SSB",
+      "name": "SouthState Bank Corporation",
+      "mcap": 9,
+      "price": 96.28,
+      "basis": 96.41,
+      "bxt_today": -3.66,
+      "bxt_yest": -2.86,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 114.27,
+      "pct_to_ath": 18.7
+    },
+    {
       "sym": "W",
       "name": "Wayfair Inc.",
       "mcap": 9,
@@ -889,23 +906,6 @@
       "bxt_streak": null,
       "ath": 34.24,
       "pct_to_ath": 27.1
-    },
-    {
-      "sym": "SSB",
-      "name": "SouthState Bank Corporation",
-      "mcap": 9,
-      "price": 96.28,
-      "basis": 96.41,
-      "bxt_today": -3.66,
-      "bxt_yest": -2.86,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 114.27,
-      "pct_to_ath": 18.7
     },
     {
       "sym": "SARO",
@@ -1949,23 +1949,6 @@
       "pct_to_ath": 90.4
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 133.09,
-      "bxt_today": -0.17,
-      "bxt_yest": 1.62,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1981,6 +1964,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 133.09,
+      "bxt_today": -0.17,
+      "bxt_yest": 1.62,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "ENSG",
@@ -2085,23 +2085,6 @@
       "pct_to_ath": 225.8
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.35,
-      "bxt_yest": 0.96,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -2117,6 +2100,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.35,
+      "bxt_yest": 0.96,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "OTF",
@@ -2256,211 +2256,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T19:42:18.721688+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "NWS",
-        "name": "News Corporation",
-        "mcap": 17,
-        "price": 31.31,
-        "basis": 31.28,
-        "bxt_today": -12.23,
-        "ath": 35.58,
-        "pct_to_ath": 13.6
-      },
-      {
-        "sym": "BMNR",
-        "name": "BitMine Immersion Technologies, Inc.",
-        "mcap": 12,
-        "price": 22.17,
-        "basis": 22.12,
-        "bxt_today": 3.07,
-        "ath": 161.0,
-        "pct_to_ath": 626.2
-      },
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 10,
-        "price": 19.17,
-        "basis": 19.17,
-        "bxt_today": -2.98,
-        "ath": 53.08,
-        "pct_to_ath": 176.9
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "DKNG",
-        "name": "DraftKings Inc.",
-        "mcap": 13,
-        "price": 25.9,
-        "basis": 25.82,
-        "bxt_today": 9.14,
-        "ath": 74.38,
-        "pct_to_ath": 187.2
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "LOW",
-        "name": "Lowe's Companies, Inc.",
-        "mcap": 128,
-        "price": 229.2,
-        "basis": 229.31,
-        "bxt_today": -11.44,
-        "ath": 293.06,
-        "pct_to_ath": 27.9
-      },
-      {
-        "sym": "PCG",
-        "name": "Pacific Gas & Electric Co.",
-        "mcap": 35,
-        "price": 16.07,
-        "basis": 16.1,
-        "bxt_today": 10.77,
-        "ath": 71.57,
-        "pct_to_ath": 345.4
-      },
-      {
-        "sym": "AM",
-        "name": "Antero Midstream Corporation",
-        "mcap": 10,
-        "price": 20.92,
-        "basis": 20.96,
-        "bxt_today": -9.07,
-        "ath": 23.83,
-        "pct_to_ath": 13.9
-      },
-      {
-        "sym": "XNDU",
-        "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
-        "mcap": 5,
-        "price": 15.71,
-        "basis": 15.86,
-        "bxt_today": 10.92,
-        "ath": 42.44,
-        "pct_to_ath": 170.1
-      },
-      {
-        "sym": "CRC",
-        "name": "California Resources Corporation",
-        "mcap": 5,
-        "price": 58.92,
-        "basis": 59.08,
-        "bxt_today": -4.46,
-        "ath": 71.98,
-        "pct_to_ath": 22.2
-      },
-      {
-        "sym": "OSIS",
-        "name": "OSI Systems, Inc. (DE)",
-        "mcap": 4,
-        "price": 230.83,
-        "basis": 232.75,
-        "bxt_today": -9.28,
-        "ath": 311.72,
-        "pct_to_ath": 35.0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "KTOS",
-        "name": "Kratos Defense & Security Solutions, Inc.",
-        "mcap": 11,
-        "price": 57.6,
-        "basis": 57.8,
-        "bxt_today": -8.4,
-        "ath": 1635.0,
-        "pct_to_ath": 2738.5
-      },
-      {
-        "sym": "AMRX",
-        "name": "Amneal Pharmaceuticals, Inc.",
-        "mcap": 4,
-        "price": 13.16,
-        "basis": 13.18,
-        "bxt_today": -8.24,
-        "ath": 24.48,
-        "pct_to_ath": 86.0
-      }
-    ],
+    "compared_to": "2026-05-08T20:41:06.581779+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "MDLZ",
-        "name": "Mondelez International, Inc.",
-        "mcap": 79,
-        "price": 61.74,
-        "basis": 61.87,
-        "bxt_today": 0.16,
-        "ath": 78.59,
-        "pct_to_ath": 27.3
-      },
-      {
-        "sym": "YSS",
-        "name": "York Space Systems Inc.",
-        "mcap": 5,
-        "price": 35.37,
-        "basis": 35.1,
-        "bxt_today": 0.6,
-        "ath": 44.54,
-        "pct_to_ath": 25.9
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CPNG",
-        "name": "Coupang, Inc.",
-        "mcap": 31,
-        "price": 16.98,
-        "basis": 19.5,
-        "bxt_today": -0.33,
-        "ath": 69.0,
-        "pct_to_ath": 306.4
-      },
-      {
-        "sym": "SKT",
-        "name": "Tanger Inc.",
-        "mcap": 4,
-        "price": 36.37,
-        "basis": 33.81,
-        "bxt_today": -0.32,
-        "ath": 42.2,
-        "pct_to_ath": 16.0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CRWV",
-        "name": "CoreWeave, Inc.",
-        "mcap": 61,
-        "price": 113.21,
-        "basis": 118.05,
-        "bxt_today": -0.17,
-        "ath": 187.0,
-        "pct_to_ath": 65.2
-      },
-      {
-        "sym": "LNG",
-        "name": "Cheniere Energy, Inc.",
-        "mcap": 50,
-        "price": 238.27,
-        "basis": 232.63,
-        "bxt_today": -0.22,
-        "ath": 300.89,
-        "pct_to_ath": 26.3
-      },
-      {
-        "sym": "WFRD",
-        "name": "Weatherford International plc Ordinary Shares",
-        "mcap": 7,
-        "price": 101.86,
-        "basis": 96.83,
-        "bxt_today": -0.01,
-        "ath": 135.0,
-        "pct_to_ath": 32.5
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
