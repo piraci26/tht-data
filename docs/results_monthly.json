@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T07:27:55.513707+00:00",
+  "updated_at": "2026-05-08T08:57:23.623189+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.57,
+  "scan_seconds": 16.83,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 73.1
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.34,
-      "basis": 18.18,
-      "bxt_today": 0.99,
-      "bxt_yest": -0.85,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 217.1
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 119.81,
       "pct_to_ath": 331.3
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.34,
+      "basis": 18.18,
+      "bxt_today": 0.99,
+      "bxt_yest": -0.85,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 217.1
     },
     {
       "sym": "CAI",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T05:54:55.206592+00:00",
+    "compared_to": "2026-05-08T07:27:55.513707+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
