@@ -1,20 +1,16 @@
 // =============================================================================
-// THT Dual Scan — FVB (price-pane indicator)  ·  v3
+// THT Dual Scan — FVB (price-pane indicator)  ·  v4
 // =============================================================================
-// Apply this to the price chart together with "THT Dual Scan — B-Xtrender" on
-// the oscillator pane. Both share the same color palette and signal logic.
+// Visual style now matches the BXT pane:
+//   · Same teal/coral palette (no separate "BUY-green / SELL-red" palette)
+//   · Cloud at histogram-level saturation (≈ 75% opacity instead of 35%)
+//   · Bands as halo'd lines (same treatment as BXT's smoothed lines)
+//   · Basis line uses identical halo + 2px treatment as BXT smoothed lines
+//   · Status table on price pane (top right), styled to match BXT pane
 //
-// What you'll see:
-//   · FVB cloud (regime-colored, no edges) — color change IS the signal
-//   · Basis line (TV blue with halo) — current 20-bar fair-value mid
-//   · BUY / SELL labels on dual-flip days (FVB and BXT both flip same bar)
-//   · Status table at top-right of the price pane (FVB + BXT regime + dual)
+// Apply this together with "THT Dual Scan — B-Xtrender" on the oscillator pane.
 //
-// Single-flip markers intentionally removed — the cloud color change carries
-// the signal. Dual-flip BUY/SELL labels remain because that's the headline
-// signal of the dashboard.
-//
-// Math identical to scan.py (https://github.com/piraci26/tht-data).
+// Math identical to scan.py.
 // =============================================================================
 //@version=6
 indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2,
@@ -28,16 +24,17 @@ shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "B-Xtrender (f
 shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "B-Xtrender (for BUY/SELL detection)")
 shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "B-Xtrender (for BUY/SELL detection)")
 
-showCloud  = input.bool(true,  "FVB cloud",                   group = "Display")
+showCloud  = input.bool(true,  "FVB cloud (regime fill)",        group = "Display")
+showBands  = input.bool(true,  "Band edges with halo",           group = "Display")
 showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Display")
-showTable  = input.bool(true,  "Status table (top right)",    group = "Display")
+showTable  = input.bool(true,  "Status table (top right)",       group = "Display")
 
-// Colors — unified with BXT pane (vivid, lively palette)
+// Colors — IDENTICAL to BXT pane palette so the two visually unify
 bullCol  = input.color(#26a69a, "Bull regime",  group = "Colors")
 bearCol  = input.color(#ef5350, "Bear regime",  group = "Colors")
+basisCol = input.color(#00E676, "Basis line (lime, matches BXT smooth-short)", group = "Colors")
 buyCol   = input.color(#00E676, "BUY label bg", group = "Colors")
 sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")
-basisCol = input.color(#2962FF, "Basis line",   group = "Colors")
 amberCol = input.color(#FFAA00, "Mixed/warning",group = "Colors")
 
 // ─── FVB ─────────────────────────────────────────────────────────────
@@ -61,21 +58,24 @@ dualRed   = fvbFlipRed   and bxtFlipRed
 
 aligned = isBull == (shortBxt >= 0)
 
-// ─── FVB CLOUD ──────────────────────────────────────────────────────
-// Invisible band plots used only as anchors for the fill (no edge lines —
-// user said the color change is enough)
-upperPlot = plot(upper, "Upper", display = display.none)
-lowerPlot = plot(lower, "Lower", display = display.none)
-cloudCol  = isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
-fill(upperPlot, lowerPlot, color = showCloud ? cloudCol : na, title = "Cloud")
+// ─── BANDS WITH HALOS (matches BXT smoothed-line treatment) ─────────
+bandColor = isBull ? bullCol : bearCol
 
-// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
+upperHalo = plot(showBands ? upper : na, "Upper halo", color = color.new(bandColor, 70), linewidth = 4)
+upperLine = plot(showBands ? upper : na, "Upper",      color = bandColor,                 linewidth = 2)
+lowerHalo = plot(showBands ? lower : na, "Lower halo", color = color.new(bandColor, 70), linewidth = 4)
+lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,                 linewidth = 2)
+
+// ─── CLOUD ─────────────────────────────────────────────────────────
+// Fill at histogram saturation (≈25% transparency, was 60-65% before)
+cloudCol  = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Cloud")
+
+// ─── BASIS LINE WITH HALO (same treatment as BXT smooth lines) ──────
 plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
-plot(basis, "Basis",      color = basisCol,                 linewidth = 2)
+plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 
 // ─── BUY / SELL LABELS (dual flips only) ────────────────────────────
-// Using label.new with text_font_family for the cleanest sans rendering
-// available in Pine (closest to Helvetica that TV will give us).
 if showLabels and dualGreen
     label.new(bar_index, low, "BUY",
               style       = label.style_label_up,
@@ -111,14 +111,12 @@ if showTable and barstate.islast
         border_color = color.new(color.gray, 70), border_width = 1,
         frame_color  = color.new(color.gray, 70), frame_width  = 1)
 
-    // Header row
     table.cell(tbl, 0, 0, "",      bgcolor = color.new(color.black, 60))
     table.cell(tbl, 1, 0, " FVB ", text_color = color.gray, text_size = size.small,
                text_halign = text.align_center, bgcolor = color.new(color.black, 60))
     table.cell(tbl, 2, 0, " BXT ", text_color = color.gray, text_size = size.small,
                text_halign = text.align_center, bgcolor = color.new(color.black, 60))
 
-    // Regime row — color-filled cells
     table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
     table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
                text_color = color.white, text_size = size.normal, text_halign = text.align_center,
@@ -127,7 +125,6 @@ if showTable and barstate.islast
                text_color = color.white, text_size = size.normal, text_halign = text.align_center,
                bgcolor = shortBxt >= 0 ? bullCol : bearCol)
 
-    // Numerical values
     table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
     fvbDelta = ((close - basis) / basis) * 100
     table.cell(tbl, 1, 2, " " + str.tostring(fvbDelta, "+#.##") + "% ",
@@ -137,7 +134,6 @@ if showTable and barstate.islast
                text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
                text_halign = text.align_right)
 
-    // Dual / aligned row
     dualText = dualGreen ? " BUY ▲ " : dualRed ? " SELL ▼ " : aligned ? (isBull ? " ALIGNED ▲ " : " ALIGNED ▼ ") : " MIXED "
     dualBg   = dualGreen ? buyCol : dualRed ? sellCol : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
 
