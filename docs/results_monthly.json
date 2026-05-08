@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T21:41:41.210965+00:00",
+  "updated_at": "2026-05-08T22:39:12.601673+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.56,
+  "scan_seconds": 18.01,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -687,23 +687,6 @@
       "pct_to_ath": 52.5
     },
     {
-      "sym": "FWONA",
-      "name": "Liberty Media Corporation Series A Liberty Formula One",
-      "mcap": 21,
-      "price": 85.95,
-      "basis": 86.19,
-      "bxt_today": -13.54,
-      "bxt_yest": -15.86,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 99.52,
-      "pct_to_ath": 15.8
-    },
-    {
       "sym": "LH",
       "name": "Labcorp Holdings Inc.",
       "mcap": 21,
@@ -719,6 +702,23 @@
       "bxt_streak": null,
       "ath": 293.72,
       "pct_to_ath": 15.6
+    },
+    {
+      "sym": "FWONA",
+      "name": "Liberty Media Corporation Series A Liberty Formula One",
+      "mcap": 21,
+      "price": 85.95,
+      "basis": 86.19,
+      "bxt_today": -13.54,
+      "bxt_yest": -15.86,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 99.52,
+      "pct_to_ath": 15.8
     },
     {
       "sym": "AS",
@@ -2256,7 +2256,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T20:41:06.581779+00:00",
+    "compared_to": "2026-05-08T21:41:41.210965+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

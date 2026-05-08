@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T21:41:27.642136+00:00",
+  "updated_at": "2026-05-08T22:38:54.582630+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.55,
+  "scan_seconds": 19.4,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1811,23 +1811,6 @@
       "pct_to_ath": 5.0
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 24.72,
-      "basis": 25.09,
-      "bxt_today": 3.46,
-      "bxt_yest": -2.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 123.5
-    },
-    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -1843,6 +1826,23 @@
       "bxt_streak": 13,
       "ath": 121.95,
       "pct_to_ath": 1006.6
+    },
+    {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 24.72,
+      "basis": 25.09,
+      "bxt_today": 3.46,
+      "bxt_yest": -2.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 123.5
     },
     {
       "sym": "RGTI",
@@ -1896,23 +1896,6 @@
       "pct_to_ath": 45.8
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 54.83,
-      "basis": 52.28,
-      "bxt_today": 2.34,
-      "bxt_yest": -0.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 301.6
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -1928,6 +1911,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 263.3
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 54.83,
+      "basis": 52.28,
+      "bxt_today": 2.34,
+      "bxt_yest": -0.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 301.6
     },
     {
       "sym": "LAZ",
@@ -2391,23 +2391,6 @@
       "pct_to_ath": 8.0
     },
     {
-      "sym": "LNT",
-      "name": "Alliant Energy Corporation",
-      "mcap": 19,
-      "price": 71.76,
-      "basis": 70.2,
-      "bxt_today": -0.68,
-      "bxt_yest": 3.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 75.76,
-      "pct_to_ath": 5.6
-    },
-    {
       "sym": "APG",
       "name": "APi Group Corporation",
       "mcap": 19,
@@ -2423,6 +2406,23 @@
       "bxt_streak": 4,
       "ath": 49.99,
       "pct_to_ath": 13.5
+    },
+    {
+      "sym": "LNT",
+      "name": "Alliant Energy Corporation",
+      "mcap": 19,
+      "price": 71.76,
+      "basis": 70.2,
+      "bxt_today": -0.68,
+      "bxt_yest": 3.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 75.76,
+      "pct_to_ath": 5.6
     },
     {
       "sym": "CLH",
@@ -2970,7 +2970,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T20:40:56.489829+00:00",
+    "compared_to": "2026-05-08T21:41:27.642136+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
