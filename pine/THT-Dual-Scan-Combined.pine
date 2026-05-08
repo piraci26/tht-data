@@ -1,19 +1,24 @@
 // =============================================================================
-// THT Dual Scan — Combined (FVB + B-Xtrender)  ·  v2 visual rewrite
+// THT Dual Scan — Combined  ·  v4 (single-script, both panes)
 // =============================================================================
-// Single-script combined indicator. Plots FVB cloud + basis on the price pane
-// and BXT histogram + smoothed lines in a separate oscillator pane.
+// One indicator that draws:
+//   · Price pane  : FVB cloud (saturated) + halo'd regime-colored bands
+//                   + halo'd basis line + BUY/SELL labels on dual flips
+//                   + status table at top-right
+//   · Oscillator  : BXT histogram + halo'd smoothed short/long lines
+//                   + crossover diamonds
 //
-// Math identical to scan.py (https://github.com/piraci26/tht-data).
-// Visuals tuned for legibility — bolder cloud, regime-colored bands, thicker
-// signal lines, prominent flip markers, optional candle coloring, clean table.
+// Visual treatment unified across both panes — same teal/coral palette,
+// same halo + 2px line treatment, same opacities.
+//
+// Math identical to scan.py.
 // =============================================================================
 //@version=6
 indicator("THT Dual Scan", "DualScan", overlay = false, format = format.price, precision = 2,
-          max_lines_count = 500, max_labels_count = 500)
+          max_labels_count = 500, max_boxes_count = 500)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
-fvbLen   = input.int(20,   "FVB Length",            minval = 2, group = "Fair Value Bands")
+fvbLen   = input.int(20,  "FVB Length",            minval = 2,   group = "Fair Value Bands")
 fvbMult  = input.float(2.0, "FVB StdDev Multiplier", minval = 0.0, step = 0.1, group = "Fair Value Bands")
 
 shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "B-Xtrender")
@@ -24,21 +29,20 @@ smoothLen = input.int(5,  "Smoothing WMA",    minval = 1, group = "B-Xtrender")
 
 // Display toggles
 showCloud   = input.bool(true,  "FVB cloud",                    group = "Display")
-showBands   = input.bool(true,  "FVB band edges (regime tint)", group = "Display")
-showFlips   = input.bool(true,  "Flip markers (FVB + BXT)",     group = "Display")
-showDual    = input.bool(true,  "DUAL FLIP triangles",          group = "Display")
+showBands   = input.bool(true,  "Band edges with halo",         group = "Display")
+showLabels  = input.bool(true,  "BUY / SELL labels",            group = "Display")
 showXover   = input.bool(true,  "BXT smoothed crossovers",      group = "Display")
-showBgPane  = input.bool(true,  "Tint BXT pane background",     group = "Display")
-colorBars   = input.bool(false, "Color price bars by regime (subtle)", group = "Display")
-showTable   = input.bool(true,  "Status table (top right)",     group = "Display")
+showHalo    = input.bool(true,  "Halo on smoothed lines",       group = "Display")
+showTable   = input.bool(true,  "Status table on price pane",   group = "Display")
 
-// Colors (defaults tuned for both light and dark)
-bullCol   = input.color(#26a69a, "Bull",       group = "Colors")
-bearCol   = input.color(#ef5350, "Bear",       group = "Colors")
-basisCol  = input.color(#2962FF, "Basis line", group = "Colors")
-amberCol  = input.color(#FFAA00, "Mixed/warning", group = "Colors")
+// Colors — unified across both panes
+bullCol   = input.color(#26a69a, "Bull (regime)",       group = "Colors")
+bearCol   = input.color(#ef5350, "Bear (regime)",       group = "Colors")
+shortCol  = input.color(#00E676, "Smoothed short / Basis", group = "Colors")
+longCol   = input.color(#FF5252, "Smoothed long",       group = "Colors")
+amberCol  = input.color(#FFAA00, "Mixed/warning",       group = "Colors")
 
-// ─── FVB ─────────────────────────────────────────────────────────────
+// ─── FVB CALC ────────────────────────────────────────────────────────
 basis  = ta.sma(close,  fvbLen)
 sd     = ta.stdev(close, fvbLen)
 upper  = basis + fvbMult * sd
@@ -48,7 +52,7 @@ isBull = close > basis
 fvbFlipGreen = isBull and not isBull[1]
 fvbFlipRed   = not isBull and isBull[1]
 
-// ─── BXT ─────────────────────────────────────────────────────────────
+// ─── BXT CALC ────────────────────────────────────────────────────────
 emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
 shortBxt     = ta.rsi(emaDiff, shortRsi) - 50
 longBxt      = ta.wma(ta.rsi(close, longRsi) - 50, smoothLen)
@@ -62,115 +66,157 @@ xoverDown    = ta.crossunder(shortSmooth, longBxt)
 dualGreen = fvbFlipGreen and bxtFlipGreen
 dualRed   = fvbFlipRed   and bxtFlipRed
 
-// ─── REGIME ALIGNMENT (used for table + bg tint) ─────────────────────
-fvbDir = isBull ? 1 : -1
-bxtDir = shortBxt >= 0 ? 1 : -1
-aligned   = fvbDir == bxtDir
-regimeStr = aligned ? (isBull ? "BULL" : "BEAR") : "MIXED"
-regimeCol = aligned ? (isBull ? bullCol : bearCol) : amberCol
+aligned = isBull == (shortBxt >= 0)
 
-// ─── PRICE PANE PLOTS ───────────────────────────────────────────────
-// Bands take a regime tint at modest opacity — visible without being loud
-bandTint = isBull ? color.new(bullCol, 40) : color.new(bearCol, 40)
-upperPlot = plot(showBands ? upper : na, "Upper", color = bandTint, linewidth = 1, force_overlay = true)
-lowerPlot = plot(showBands ? lower : na, "Lower", color = bandTint, linewidth = 1, force_overlay = true)
+// ─── PRICE PANE — FVB BANDS WITH HALOS (force_overlay) ──────────────
+bandColor = isBull ? bullCol : bearCol
 
-// Cloud — denser than v1 (60 instead of 80 transparency)
-cloudCol = isBull ? color.new(bullCol, 65) : color.new(bearCol, 65)
-fill(upperPlot, lowerPlot, color = showCloud ? cloudCol : na, title = "Cloud")
+upperHalo = plot(showBands ? upper : na, "Upper halo",
+                 color = color.new(bandColor, 70), linewidth = 4, force_overlay = true)
+upperLine = plot(showBands ? upper : na, "Upper",
+                 color = bandColor, linewidth = 2, force_overlay = true)
+lowerHalo = plot(showBands ? lower : na, "Lower halo",
+                 color = color.new(bandColor, 70), linewidth = 4, force_overlay = true)
+lowerLine = plot(showBands ? lower : na, "Lower",
+                 color = bandColor, linewidth = 2, force_overlay = true)
 
-// Basis with soft halo (two stacked plots = visual weight without 1px hairline look)
-plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4, force_overlay = true)
-plot(basis, "Basis",      color = basisCol,                linewidth = 2, force_overlay = true)
+// ─── PRICE PANE — CLOUD ─────────────────────────────────────────────
+cloudCol = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Cloud")
 
-// Subtle bar coloring (off by default)
-barcolor(colorBars ? (isBull ? color.new(bullCol, 70) : color.new(bearCol, 70)) : na)
+// ─── PRICE PANE — BASIS WITH HALO ───────────────────────────────────
+plot(basis, "Basis halo", color = color.new(shortCol, 70), linewidth = 4, force_overlay = true)
+plot(basis, "Basis",      color = shortCol,                linewidth = 2, force_overlay = true)
 
-// Flip dots ON the basis line (TV-style)
-plotshape(showFlips and fvbFlipGreen ? basis : na, "FVB Bull Flip", shape.circle,
-          location.absolute, color = bullCol, size = size.small, force_overlay = true)
-plotshape(showFlips and fvbFlipRed   ? basis : na, "FVB Bear Flip", shape.circle,
-          location.absolute, color = bearCol, size = size.small, force_overlay = true)
+// ─── PRICE PANE — BUY / SELL LABELS ─────────────────────────────────
+if showLabels and dualGreen
+    label.new(bar_index, low, "BUY",
+              style       = label.style_label_up,
+              color       = shortCol,
+              textcolor   = color.white,
+              size        = size.normal,
+              text_font_family = font.family_default,
+              yloc        = yloc.belowbar,
+              force_overlay = true)
 
-// DUAL FLIP triangles — the headline signal
-plotshape(showDual and dualGreen ? low  : na, "DUAL ▲", shape.labelup,
-          location.belowbar, color = bullCol, textcolor = color.white, text = "DUAL",
-          size = size.small, force_overlay = true)
-plotshape(showDual and dualRed   ? high : na, "DUAL ▼", shape.labeldown,
-          location.abovebar, color = bearCol, textcolor = color.white, text = "DUAL",
-          size = size.small, force_overlay = true)
+if showLabels and dualRed
+    label.new(bar_index, high, "SELL",
+              style       = label.style_label_down,
+              color       = longCol,
+              textcolor   = color.white,
+              size        = size.normal,
+              text_font_family = font.family_default,
+              yloc        = yloc.abovebar,
+              force_overlay = true)
 
-// ─── OSCILLATOR PANE (BXT) ──────────────────────────────────────────
-// Pane background tint based on combined regime
-bgcolor(showBgPane ? color.new(regimeCol, 92) : na, title = "Pane bg")
-
-// Histogram — saturated (was too transparent in v1)
+// ─── OSCILLATOR PANE — BXT ──────────────────────────────────────────
+// Histogram (saturated)
 histCol = shortBxt >= 0 ? color.new(bullCol, 25) : color.new(bearCol, 25)
-plot(shortBxt, "BXT Short Hist", color = histCol, style = plot.style_columns)
+plot(shortBxt, "BXT Short Histogram", color = histCol, style = plot.style_columns)
 
-// Smoothed lines — bolder, with halo
-plot(shortSmooth, "Smooth Short halo", color = color.new(bullCol, 70), linewidth = 4)
-plot(shortSmooth, "Smooth Short",       color = bullCol,                linewidth = 2)
-plot(longBxt,     "Smooth Long halo",   color = color.new(bearCol, 70), linewidth = 4)
-plot(longBxt,     "Smooth Long",        color = bearCol,                linewidth = 2)
+// Smoothed lines with halos
+plot(showHalo ? shortSmooth : na, "Smooth Short halo", color = color.new(shortCol, 70), linewidth = 4)
+plot(shortSmooth, "Smooth Short", color = shortCol, linewidth = 2)
+plot(showHalo ? longBxt : na, "Smooth Long halo", color = color.new(longCol, 70), linewidth = 4)
+plot(longBxt, "Smooth Long", color = longCol, linewidth = 2)
 
-// Reference levels
+// Reference lines
 hline( 0,  "Zero", color = color.new(color.gray, 30), linestyle = hline.style_solid)
 hline( 10, "+10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
 hline(-10, "−10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
 
-// Zero-cross flips
-plotshape(showFlips and bxtFlipGreen ? 0 : na, "BXT Bull Flip", shape.circle,
-          location.absolute, color = bullCol, size = size.small)
-plotshape(showFlips and bxtFlipRed   ? 0 : na, "BXT Bear Flip", shape.circle,
-          location.absolute, color = bearCol, size = size.small)
-
-// Smoothed crossovers (more conservative confirmations)
+// Smoothed crossovers (subtle confirmation signal)
 plotshape(showXover and xoverUp   ? shortSmooth : na, "X-Up",   shape.diamond,
-          location.absolute, color = bullCol, size = size.tiny)
+          location.absolute, color = shortCol, size = size.tiny)
 plotshape(showXover and xoverDown ? shortSmooth : na, "X-Down", shape.diamond,
-          location.absolute, color = bearCol, size = size.tiny)
+          location.absolute, color = longCol, size = size.tiny)
 
-// ─── STATUS TABLE (clean, mono, big text) ───────────────────────────
+// ─── STATUS TABLE ON PRICE PANE (table.new with force_overlay) ──────
+// Pine v6: tables in non-overlay indicators land on the indicator's pane by
+// default; we render manually via force_overlay'd box+label pairs to put
+// the status panel on the PRICE pane (top right).
+//
+// We pin to the most-recent bar and walk +1 bar offsets so the panel sits
+// just to the right of the last candle, near the top.
 if showTable and barstate.islast
-    var table tbl = table.new(position.top_right, 3, 4,
-        bgcolor = color.new(color.black, 80),
-        border_color = color.new(color.gray, 70), border_width = 1,
-        frame_color = color.new(color.gray, 70), frame_width = 1)
+    // Compute roughly "top of visible price range" + step for row spacing
+    rangeHi = ta.highest(high, 60)
+    rangeLo = ta.lowest(low, 60)
+    span = rangeHi - rangeLo
+    yTop = rangeHi + span * 0.08
+    yStep = span * 0.045
 
-    // Headers
-    table.cell(tbl, 0, 0, "",      bgcolor = color.new(color.black, 60))
-    table.cell(tbl, 1, 0, " FVB ", text_color = color.gray, text_size = size.normal,
-               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
-    table.cell(tbl, 2, 0, " BXT ", text_color = color.gray, text_size = size.normal,
-               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+    bg   = color.new(color.black, 75)
+    fr   = color.new(color.gray, 70)
 
-    // Regime row — color-filled cells
-    table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
-               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
-               bgcolor = isBull ? bullCol : bearCol)
-    table.cell(tbl, 2, 1, shortBxt >= 0 ? " BULL " : " BEAR ",
-               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
-               bgcolor = shortBxt >= 0 ? bullCol : bearCol)
+    xL = bar_index + 2     // start col
+    xR = bar_index + 11    // end col (panel width in bars)
 
-    // Numerical values
-    table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
+    // Background panel
+    box.new(left = xL - 1, top = yTop + yStep * 0.5,
+            right = xR + 1, bottom = yTop - yStep * 4.2,
+            bgcolor = bg, border_color = fr, border_width = 1,
+            force_overlay = true)
+
+    // ── HEADER row ─────────────────────────────────
+    label.new(xL, yTop, "FVB",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = color.gray, force_overlay = true)
+    label.new(xR - 4, yTop, "BXT",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = color.gray, force_overlay = true)
+
+    // ── REGIME row ─────────────────────────────────
+    yReg = yTop - yStep * 1.2
+    label.new(xL - 1, yReg, "REGIME",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = color.gray, force_overlay = true)
+    label.new(xL + 4, yReg, isBull ? "BULL" : "BEAR",
+              style = label.style_label_left,
+              color = isBull ? bullCol : bearCol,
+              textcolor = color.white,
+              text_font_family = font.family_default, size = size.small,
+              force_overlay = true)
+    label.new(xR - 1, yReg, shortBxt >= 0 ? "BULL" : "BEAR",
+              style = label.style_label_left,
+              color = shortBxt >= 0 ? bullCol : bearCol,
+              textcolor = color.white,
+              text_font_family = font.family_default, size = size.small,
+              force_overlay = true)
+
+    // ── VALUE row ──────────────────────────────────
+    yVal = yTop - yStep * 2.4
     fvbDelta = ((close - basis) / basis) * 100
-    table.cell(tbl, 1, 2, " " + str.tostring(fvbDelta, "+#.##") + "% ",
-               text_color = isBull ? bullCol : bearCol, text_size = size.normal,
-               text_halign = text.align_right)
-    table.cell(tbl, 2, 2, " " + str.tostring(shortBxt, "+#.##") + " ",
-               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
-               text_halign = text.align_right)
+    label.new(xL - 1, yVal, "VALUE",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = color.gray, force_overlay = true)
+    label.new(xL + 4, yVal, str.tostring(fvbDelta, "+#.##") + "%",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = isBull ? bullCol : bearCol, force_overlay = true)
+    label.new(xR - 1, yVal, str.tostring(shortBxt, "+#.##"),
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = shortBxt >= 0 ? bullCol : bearCol, force_overlay = true)
 
-    // Combined dual-state row
-    table.cell(tbl, 0, 3, " DUAL ", text_color = color.gray, text_size = size.small)
-    dualText = dualGreen ? "▲ FLIP GREEN" : dualRed ? "▼ FLIP RED" : aligned ? (isBull ? "ALIGNED ▲" : "ALIGNED ▼") : "MIXED"
-    dualBg   = dualGreen ? bullCol : dualRed ? bearCol : aligned ? color.new(regimeCol, 60) : color.new(amberCol, 50)
-    table.cell(tbl, 1, 3, " " + dualText + " ", text_color = color.white, text_size = size.normal,
-               text_halign = text.align_center, bgcolor = dualBg)
-    table.cell(tbl, 2, 3, "", bgcolor = color.new(color.black, 80))
+    // ── DUAL row ───────────────────────────────────
+    yDual = yTop - yStep * 3.6
+    dualText = dualGreen ? "BUY ▲" : dualRed ? "SELL ▼" : aligned ? (isBull ? "ALIGNED ▲" : "ALIGNED ▼") : "MIXED"
+    dualBg   = dualGreen ? shortCol : dualRed ? longCol : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
+    label.new(xL - 1, yDual, "DUAL",
+              style = label.style_none,
+              text_font_family = font.family_default, size = size.small,
+              textcolor = color.gray, force_overlay = true)
+    label.new((xL + xR) / 2, yDual, dualText,
+              style = label.style_label_center,
+              color = dualBg,
+              textcolor = color.white,
+              text_font_family = font.family_default, size = size.small,
+              force_overlay = true)
 
 // ─── ALERTS ─────────────────────────────────────────────────────────
 alertcondition(fvbFlipGreen, "FVB flipped GREEN",
@@ -181,10 +227,10 @@ alertcondition(bxtFlipGreen, "BXT crossed above zero",
     "{{ticker}} ({{interval}}) — BXT crossed above zero at {{close}}")
 alertcondition(bxtFlipRed,   "BXT crossed below zero",
     "{{ticker}} ({{interval}}) — BXT crossed below zero at {{close}}")
-alertcondition(dualGreen, "DUAL FLIP GREEN (headline signal)",
-    "{{ticker}} ({{interval}}) — DUAL FLIP GREEN: FVB and BXT both bullish at {{close}}")
-alertcondition(dualRed, "DUAL FLIP RED (headline signal)",
-    "{{ticker}} ({{interval}}) — DUAL FLIP RED: FVB and BXT both bearish at {{close}}")
+alertcondition(dualGreen, "BUY (dual flip green)",
+    "{{ticker}} ({{interval}}) — BUY signal: FVB and BXT both flipped bullish at {{close}}")
+alertcondition(dualRed, "SELL (dual flip red)",
+    "{{ticker}} ({{interval}}) — SELL signal: FVB and BXT both flipped bearish at {{close}}")
 alertcondition(xoverUp,   "BXT smoothed cross UP",
     "{{ticker}} ({{interval}}) — BXT smooth-short crossed above smooth-long at {{close}}")
 alertcondition(xoverDown, "BXT smoothed cross DOWN",
