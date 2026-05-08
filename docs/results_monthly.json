@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T23:15:37.745044+00:00",
+  "updated_at": "2026-05-08T00:11:19.410136+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.95,
+  "scan_seconds": 19.77,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -602,23 +602,6 @@
       "pct_to_ath": 21.6
     },
     {
-      "sym": "SOLS",
-      "name": "Solstice Advanced Materials Inc.",
-      "mcap": 12,
-      "price": 77.76,
-      "basis": 80.75,
-      "bxt_today": -10.43,
-      "bxt_yest": -1.85,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 84.99,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 337.9
+    },
+    {
+      "sym": "SOLS",
+      "name": "Solstice Advanced Materials Inc.",
+      "mcap": 12,
+      "price": 77.76,
+      "basis": 80.75,
+      "bxt_today": -10.43,
+      "bxt_yest": -1.85,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 84.99,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "BMNR",
@@ -1437,23 +1437,6 @@
       "pct_to_ath": 267.8
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.35,
-      "basis": 7.87,
-      "bxt_today": 0.11,
-      "bxt_yest": -0.97,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1705.9
-    },
-    {
       "sym": "IBOC",
       "name": "International Bancshares Corporation",
       "mcap": 5,
@@ -1469,6 +1452,23 @@
       "bxt_streak": 8,
       "ath": 76.91,
       "pct_to_ath": 5.0
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.35,
+      "basis": 7.87,
+      "bxt_today": 0.11,
+      "bxt_yest": -0.97,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1705.9
     },
     {
       "sym": "WSC",
@@ -1915,23 +1915,6 @@
       "pct_to_ath": 14.8
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 85.24,
-      "basis": 79.92,
-      "bxt_today": -0.29,
-      "bxt_yest": 1.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 5.5
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1947,6 +1930,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 85.24,
+      "basis": 79.92,
+      "bxt_today": -0.29,
+      "bxt_yest": 1.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 5.5
     },
     {
       "sym": "NXST",
@@ -2017,23 +2017,6 @@
       "pct_to_ath": 16.4
     },
     {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
-      "mcap": 5,
-      "price": 35.92,
-      "basis": 34.59,
-      "bxt_today": -3.84,
-      "bxt_yest": 0.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 176.3
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -2049,6 +2032,23 @@
       "bxt_streak": 25,
       "ath": 87.5,
       "pct_to_ath": 35.7
+    },
+    {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 35.92,
+      "basis": 34.59,
+      "bxt_today": -3.84,
+      "bxt_yest": 0.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 176.3
     },
     {
       "sym": "ALH",
@@ -2103,7 +2103,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T22:19:15.303610+00:00",
+    "compared_to": "2026-05-07T23:15:37.745044+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T23:15:23.783253+00:00",
+  "updated_at": "2026-05-08T00:10:59.625431+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.71,
+  "scan_seconds": 22.16,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -959,23 +959,6 @@
       "pct_to_ath": 16.5
     },
     {
-      "sym": "RBA",
-      "name": "RB Global, Inc.",
-      "mcap": 19,
-      "price": 103.43,
-      "basis": 104.89,
-      "bxt_today": 2.47,
-      "bxt_yest": 3.53,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 119.58,
-      "pct_to_ath": 15.6
-    },
-    {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
       "mcap": 19,
@@ -991,6 +974,23 @@
       "bxt_streak": 3,
       "ath": 400.88,
       "pct_to_ath": 8.2
+    },
+    {
+      "sym": "RBA",
+      "name": "RB Global, Inc.",
+      "mcap": 19,
+      "price": 103.43,
+      "basis": 104.89,
+      "bxt_today": 2.47,
+      "bxt_yest": 3.53,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 119.58,
+      "pct_to_ath": 15.6
     },
     {
       "sym": "CSAN",
@@ -1146,21 +1146,21 @@
       "pct_to_ath": 182.5
     },
     {
-      "sym": "BROS",
-      "name": "Dutch Bros Inc.",
+      "sym": "SSB",
+      "name": "SouthState Bank Corporation",
       "mcap": 10,
-      "price": 53.54,
-      "basis": 54.83,
-      "bxt_today": 7.08,
-      "bxt_yest": 10.7,
+      "price": 97.36,
+      "basis": 97.66,
+      "bxt_today": 1.11,
+      "bxt_yest": 1.16,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 86.88,
-      "pct_to_ath": 62.3
+      "ath": 114.27,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "OSK",
@@ -1180,21 +1180,21 @@
       "pct_to_ath": 17.9
     },
     {
-      "sym": "SSB",
-      "name": "SouthState Bank Corporation",
+      "sym": "BROS",
+      "name": "Dutch Bros Inc.",
       "mcap": 10,
-      "price": 97.36,
-      "basis": 97.66,
-      "bxt_today": 1.11,
-      "bxt_yest": 1.16,
+      "price": 53.54,
+      "basis": 54.83,
+      "bxt_today": 7.08,
+      "bxt_yest": 10.7,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 114.27,
-      "pct_to_ath": 17.4
+      "ath": 86.88,
+      "pct_to_ath": 62.3
     },
     {
       "sym": "CART",
@@ -1503,23 +1503,6 @@
       "pct_to_ath": 155.1
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 24.29,
-      "basis": 25.99,
-      "bxt_today": -9.63,
-      "bxt_yest": -2.76,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 114.2
-    },
-    {
       "sym": "HRI",
       "name": "Herc Holdings Inc.",
       "mcap": 4,
@@ -1535,6 +1518,23 @@
       "bxt_streak": null,
       "ath": 246.88,
       "pct_to_ath": 87.2
+    },
+    {
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 24.29,
+      "basis": 25.99,
+      "bxt_today": -9.63,
+      "bxt_yest": -2.76,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 52.03,
+      "pct_to_ath": 114.2
     },
     {
       "sym": "FHI",
@@ -3173,23 +3173,6 @@
       "pct_to_ath": 13.6
     },
     {
-      "sym": "PSMT",
-      "name": "PriceSmart, Inc.",
-      "mcap": 5,
-      "price": 156.54,
-      "basis": 149.58,
-      "bxt_today": -1.45,
-      "bxt_yest": 2.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 165.46,
-      "pct_to_ath": 5.7
-    },
-    {
       "sym": "CSW",
       "name": "CSW Industrials, Inc.",
       "mcap": 5,
@@ -3205,6 +3188,23 @@
       "bxt_streak": 3,
       "ath": 436.5,
       "pct_to_ath": 57.2
+    },
+    {
+      "sym": "PSMT",
+      "name": "PriceSmart, Inc.",
+      "mcap": 5,
+      "price": 156.54,
+      "basis": 149.58,
+      "bxt_today": -1.45,
+      "bxt_yest": 2.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 165.46,
+      "pct_to_ath": 5.7
     },
     {
       "sym": "UNF",
@@ -3310,7 +3310,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T22:19:01.207600+00:00",
+    "compared_to": "2026-05-07T23:15:23.783253+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
