@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T10:26:20.179940+00:00",
+  "updated_at": "2026-05-08T11:55:18.528278+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.63,
+  "scan_seconds": 6.79,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -876,23 +876,6 @@
       "pct_to_ath": 267.8
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 52.42,
-      "basis": 52.16,
-      "bxt_today": 0.2,
-      "bxt_yest": -0.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 320.1
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 52.42,
+      "basis": 52.16,
+      "bxt_today": 0.2,
+      "bxt_yest": -0.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 320.1
     },
     {
       "sym": "CRNX",
@@ -1116,23 +1116,6 @@
       "pct_to_ath": 6.7
     },
     {
-      "sym": "OXY",
-      "name": "Occidental Petroleum Corporation",
-      "mcap": 53,
-      "price": 53.94,
-      "basis": 52.56,
-      "bxt_today": -2.6,
-      "bxt_yest": 1.54,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 112.95,
-      "pct_to_ath": 109.4
-    },
-    {
       "sym": "CTVA",
       "name": "Corteva, Inc.",
       "mcap": 53,
@@ -1148,6 +1131,23 @@
       "bxt_streak": 19,
       "ath": 85.63,
       "pct_to_ath": 8.3
+    },
+    {
+      "sym": "OXY",
+      "name": "Occidental Petroleum Corporation",
+      "mcap": 53,
+      "price": 53.94,
+      "basis": 52.56,
+      "bxt_today": -2.6,
+      "bxt_yest": 1.54,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 112.95,
+      "pct_to_ath": 109.4
     },
     {
       "sym": "LNG",
@@ -1660,23 +1660,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "BFAM",
-      "name": "Bright Horizons Family Solutions Inc.",
-      "mcap": 4,
-      "price": 68.31,
-      "basis": 82.05,
-      "bxt_today": -3.09,
-      "bxt_yest": 0.75,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 182.5,
-      "pct_to_ath": 167.2
-    },
-    {
       "sym": "TDW",
       "name": "Tidewater Inc.",
       "mcap": 4,
@@ -1692,6 +1675,23 @@
       "bxt_streak": 18,
       "ath": 2580.65,
       "pct_to_ath": 3214.5
+    },
+    {
+      "sym": "BFAM",
+      "name": "Bright Horizons Family Solutions Inc.",
+      "mcap": 4,
+      "price": 68.31,
+      "basis": 82.05,
+      "bxt_today": -3.09,
+      "bxt_yest": 0.75,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 182.5,
+      "pct_to_ath": 167.2
     },
     {
       "sym": "HP",
@@ -1763,7 +1763,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T08:57:06.786659+00:00",
+    "compared_to": "2026-05-08T10:26:20.179940+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
