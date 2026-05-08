@@ -29,10 +29,14 @@ showHist  = input.bool(true, "Histogram",           group = "Display")
 showHalo  = input.bool(true, "Halo on smoothed lines", group = "Display")
 showTable = input.bool(true, "Status table",        group = "Display")
 
-// Colors — teal/coral throughout (matches the screenshot you liked)
-bullCol   = input.color(#00D982, "Bull (histogram + smooth short)", group = "Colors")
-bearCol   = input.color(#FF3D5E, "Bear (histogram + smooth long)",  group = "Colors")
-amberCol  = input.color(#FFAA00, "Mixed/warning",                   group = "Colors")
+// Colors — v2 "mouth-watering" mix
+//   · Histogram + dots: muted TradingView teal/coral
+//   · Smoothed lines:   vivid lime green + bright red on top
+bullCol   = input.color(#26a69a, "Bull (histogram + dots)",          group = "Colors")
+bearCol   = input.color(#ef5350, "Bear (histogram + dots)",          group = "Colors")
+shortCol  = input.color(#00E676, "Smoothed short line (lime)",       group = "Colors")
+longCol   = input.color(#FF5252, "Smoothed long line (bright red)",  group = "Colors")
+amberCol  = input.color(#FFAA00, "Mixed/warning",                    group = "Colors")
 
 // ─── CALCULATIONS ────────────────────────────────────────────────────
 emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
@@ -56,11 +60,11 @@ histCol = shortBxt >= 0 ? color.new(bullCol, 25) : color.new(bearCol, 25)
 plot(showHist ? shortBxt : na, "BXT Short Histogram",
      color = histCol, style = plot.style_columns)
 
-// Smoothed lines with halos (same teal/coral as histogram)
-plot(showHalo ? shortSmooth : na, "Smooth Short halo", color = color.new(bullCol, 70), linewidth = 4)
-plot(shortSmooth, "Smooth Short", color = bullCol, linewidth = 2)
-plot(showHalo ? longBxt : na, "Smooth Long halo", color = color.new(bearCol, 70), linewidth = 4)
-plot(longBxt, "Smooth Long", color = bearCol, linewidth = 2)
+// Smoothed lines with halos — vivid lime + bright red (the "mouth-watering" mix)
+plot(showHalo ? shortSmooth : na, "Smooth Short halo", color = color.new(shortCol, 70), linewidth = 4)
+plot(shortSmooth, "Smooth Short", color = shortCol, linewidth = 2)
+plot(showHalo ? longBxt : na, "Smooth Long halo", color = color.new(longCol, 70), linewidth = 4)
+plot(longBxt, "Smooth Long", color = longCol, linewidth = 2)
 
 // Reference lines
 hline( 0,  "Zero", color = color.new(color.gray, 30), linestyle = hline.style_solid)
