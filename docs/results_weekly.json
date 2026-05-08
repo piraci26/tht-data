@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T22:38:54.582630+00:00",
+  "updated_at": "2026-05-08T23:38:11.041904+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 19.4,
+  "scan_seconds": 8.42,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1010,23 +1010,6 @@
       "pct_to_ath": 11.6
     },
     {
-      "sym": "EXPE",
-      "name": "Expedia Group, Inc.",
-      "mcap": 28,
-      "price": 229.98,
-      "basis": 245.67,
-      "bxt_today": -5.09,
-      "bxt_yest": -0.24,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 303.8,
-      "pct_to_ath": 32.1
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 28,
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 256.36,
       "pct_to_ath": 32.0
+    },
+    {
+      "sym": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "mcap": 28,
+      "price": 229.98,
+      "basis": 245.67,
+      "bxt_today": -5.09,
+      "bxt_yest": -0.24,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 303.8,
+      "pct_to_ath": 32.1
     },
     {
       "sym": "CNP",
@@ -1692,23 +1692,6 @@
       "pct_to_ath": 109.2
     },
     {
-      "sym": "CTRE",
-      "name": "CareTrust REIT, Inc.",
-      "mcap": 9,
-      "price": 41.6,
-      "basis": 38.7,
-      "bxt_today": 0.82,
-      "bxt_yest": -7.81,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 41.72,
-      "pct_to_ath": 0.3
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -1724,6 +1707,23 @@
       "bxt_streak": 18,
       "ath": 380.17,
       "pct_to_ath": 29.6
+    },
+    {
+      "sym": "CTRE",
+      "name": "CareTrust REIT, Inc.",
+      "mcap": 9,
+      "price": 41.6,
+      "basis": 38.7,
+      "bxt_today": 0.82,
+      "bxt_yest": -7.81,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 41.72,
+      "pct_to_ath": 0.3
     },
     {
       "sym": "KRYS",
@@ -1811,23 +1811,6 @@
       "pct_to_ath": 5.0
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 11.02,
-      "basis": 10.96,
-      "bxt_today": 2.32,
-      "bxt_yest": -0.9,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 13,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1006.6
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -1843,6 +1826,23 @@
       "bxt_streak": 26,
       "ath": 55.25,
       "pct_to_ath": 123.5
+    },
+    {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 11.02,
+      "basis": 10.96,
+      "bxt_today": 2.32,
+      "bxt_yest": -0.9,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1006.6
     },
     {
       "sym": "RGTI",
@@ -2918,23 +2918,6 @@
       "pct_to_ath": 158.5
     },
     {
-      "sym": "OTTR",
-      "name": "Otter Tail Corporation",
-      "mcap": 4,
-      "price": 88.03,
-      "basis": 87.29,
-      "bxt_today": -1.29,
-      "bxt_yest": 1.07,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 100.84,
-      "pct_to_ath": 14.6
-    },
-    {
       "sym": "DAN",
       "name": "Dana Incorporated",
       "mcap": 4,
@@ -2950,6 +2933,23 @@
       "bxt_streak": 27,
       "ath": 39.56,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "OTTR",
+      "name": "Otter Tail Corporation",
+      "mcap": 4,
+      "price": 88.03,
+      "basis": 87.29,
+      "bxt_today": -1.29,
+      "bxt_yest": 1.07,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 100.84,
+      "pct_to_ath": 14.6
     },
     {
       "sym": "FSLY",
@@ -2970,7 +2970,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T21:41:27.642136+00:00",
+    "compared_to": "2026-05-08T22:38:54.582630+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

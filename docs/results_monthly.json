@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T22:39:12.601673+00:00",
+  "updated_at": "2026-05-08T23:38:20.013972+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.01,
+  "scan_seconds": 8.96,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -687,23 +687,6 @@
       "pct_to_ath": 52.5
     },
     {
-      "sym": "LH",
-      "name": "Labcorp Holdings Inc.",
-      "mcap": 21,
-      "price": 254.12,
-      "basis": 257.59,
-      "bxt_today": -7.82,
-      "bxt_yest": -4.88,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 23,
-      "bxt_streak": null,
-      "ath": 293.72,
-      "pct_to_ath": 15.6
-    },
-    {
       "sym": "FWONA",
       "name": "Liberty Media Corporation Series A Liberty Formula One",
       "mcap": 21,
@@ -736,6 +719,23 @@
       "bxt_streak": null,
       "ath": 42.76,
       "pct_to_ath": 18.7
+    },
+    {
+      "sym": "LH",
+      "name": "Labcorp Holdings Inc.",
+      "mcap": 21,
+      "price": 254.12,
+      "basis": 257.59,
+      "bxt_today": -7.82,
+      "bxt_yest": -4.88,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 23,
+      "bxt_streak": null,
+      "ath": 293.72,
+      "pct_to_ath": 15.6
     },
     {
       "sym": "DLTR",
@@ -1949,23 +1949,6 @@
       "pct_to_ath": 90.4
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 59.26,
-      "basis": 54.87,
-      "bxt_today": -1.46,
-      "bxt_yest": 1.88,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1981,6 +1964,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 59.26,
+      "basis": 54.87,
+      "bxt_today": -1.46,
+      "bxt_yest": 1.88,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "ENSG",
@@ -2256,7 +2256,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T21:41:41.210965+00:00",
+    "compared_to": "2026-05-08T22:39:12.601673+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
