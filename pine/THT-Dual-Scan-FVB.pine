@@ -82,7 +82,7 @@ plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 atr14    = ta.atr(14)
 boxOff   = atr14 * 1.4   // distance from the bar's high/low to the box edge
 boxH     = atr14 * 1.0   // box height (in price units)
-boxHalfW = 1.6           // box half-width in bars
+int boxHalfW = 2         // box half-width in bars (must be int for box.new)
 
 if showLabels and dualGreen
     yTop = low - boxOff
