@@ -1,91 +1,147 @@
 // =============================================================================
-// THT Dual Scan — Fair Value Bands (FVB)
+// THT Dual Scan — FVB (price-pane indicator)  ·  v3
 // =============================================================================
-// Companion to the THT Dual Scan dashboard (https://piraci26.github.io/tht-data/).
-// Mirrors the exact math used by scan.py — a flip on this indicator on TradingView
-// matches a flip in the dashboard's daily/weekly/monthly scan.
+// Apply this to the price chart together with "THT Dual Scan — B-Xtrender" on
+// the oscillator pane. Both share the same color palette and signal logic.
 //
-// What it does:
-//   · Plots Fair Value Bands: SMA(close, length) ± mult × stdev(close, length)
-//   · Fills the cloud green when close > basis (bull regime), red otherwise
-//   · Marks regime flips with dots on the basis line
-//   · Fires alertconditions on bullish/bearish flips
+// What you'll see:
+//   · FVB cloud (regime-colored, no edges) — color change IS the signal
+//   · Basis line (TV blue with halo) — current 20-bar fair-value mid
+//   · BUY / SELL labels on dual-flip days (FVB and BXT both flip same bar)
+//   · Status table at top-right of the price pane (FVB + BXT regime + dual)
 //
-// Use with:
-//   THT Dual Scan — B-Xtrender (apply both on the same chart for the dual signal)
+// Single-flip markers intentionally removed — the cloud color change carries
+// the signal. Dual-flip BUY/SELL labels remain because that's the headline
+// signal of the dashboard.
 //
+// Math identical to scan.py (https://github.com/piraci26/tht-data).
 // =============================================================================
 //@version=6
-indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2)
+indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2,
+          max_labels_count = 500)
 
-// === INPUTS ===========================================================
-length    = input.int(20, "Length", minval = 2, group = "Fair Value Bands")
-mult      = input.float(2.0, "StdDev Multiplier", minval = 0.0, step = 0.1, group = "Fair Value Bands")
-useClose  = input.bool(true, "Use close (uncheck for hl2)", group = "Fair Value Bands")
-showFlips = input.bool(true, "Show flip markers", group = "Display")
-showFill  = input.bool(true, "Show regime cloud", group = "Display")
+// ─── INPUTS ──────────────────────────────────────────────────────────
+fvbLen   = input.int(20,  "FVB Length",            minval = 2,   group = "Fair Value Bands")
+fvbMult  = input.float(2.0, "FVB StdDev Multiplier", minval = 0.0, step = 0.1, group = "Fair Value Bands")
 
-// === COLOR INPUTS =====================================================
-bullColor = input.color(color.new(#26a69a, 75), "Bull cloud", group = "Colors")
-bearColor = input.color(color.new(#ef5350, 75), "Bear cloud", group = "Colors")
-basisColor = input.color(#2962FF, "Basis line", group = "Colors")
-bandColor = input.color(color.new(color.gray, 60), "Band edges", group = "Colors")
+shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "B-Xtrender (for BUY/SELL detection)")
+shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "B-Xtrender (for BUY/SELL detection)")
+shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "B-Xtrender (for BUY/SELL detection)")
 
-// === CALCULATIONS =====================================================
-src   = useClose ? close : hl2
-basis = ta.sma(src, length)
-sd    = ta.stdev(src, length)
-upper = basis + mult * sd
-lower = basis - mult * sd
-isBull = src > basis
+showCloud  = input.bool(true,  "FVB cloud",                   group = "Display")
+showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Display")
+showTable  = input.bool(true,  "Status table (top right)",    group = "Display")
 
-// Flip detection (regime change between yesterday and today)
-flipGreen = isBull and not isBull[1]
-flipRed   = not isBull and isBull[1]
+// Colors — unified with BXT pane (vivid, lively palette)
+bullCol  = input.color(#26a69a, "Bull regime",  group = "Colors")
+bearCol  = input.color(#ef5350, "Bear regime",  group = "Colors")
+buyCol   = input.color(#00E676, "BUY label bg", group = "Colors")
+sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")
+basisCol = input.color(#2962FF, "Basis line",   group = "Colors")
+amberCol = input.color(#FFAA00, "Mixed/warning",group = "Colors")
 
-// Streak: bars held in the prior regime before today's flip
-var int streak = 0
-streak := isBull == isBull[1] ? streak + 1 : 1
+// ─── FVB ─────────────────────────────────────────────────────────────
+basis  = ta.sma(close,  fvbLen)
+sd     = ta.stdev(close, fvbLen)
+upper  = basis + fvbMult * sd
+lower  = basis - fvbMult * sd
+isBull = close > basis
 
-// === PLOTS ============================================================
-basisPlot = plot(basis, "Basis", color = basisColor, linewidth = 2)
-upperPlot = plot(upper, "Upper", color = bandColor)
-lowerPlot = plot(lower, "Lower", color = bandColor)
+fvbFlipGreen = isBull and not isBull[1]
+fvbFlipRed   = not isBull and isBull[1]
 
-// Cloud fill — regime colored
-fill(upperPlot, lowerPlot, color = showFill ? (isBull ? bullColor : bearColor) : na, title = "Cloud")
+// ─── BXT (computed for dual-flip detection only — not plotted) ──────
+emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt     = ta.rsi(emaDiff, shortRsi) - 50
+bxtFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+bxtFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
 
-// Flip markers ON the basis line (TV-style)
-plotshape(showFlips and flipGreen ? basis : na, "Bull Flip", shape.circle, location.absolute,
-          color = #26a69a, size = size.small)
-plotshape(showFlips and flipRed   ? basis : na, "Bear Flip", shape.circle, location.absolute,
-          color = #ef5350, size = size.small)
+dualGreen = fvbFlipGreen and bxtFlipGreen
+dualRed   = fvbFlipRed   and bxtFlipRed
 
-// Last-value labels on basis (right-edge price tag)
-plot(basis, "", display = display.price_scale, color = basisColor)
+aligned = isBull == (shortBxt >= 0)
 
-// === ALERTS ===========================================================
-alertcondition(flipGreen, "FVB flipped GREEN",
+// ─── FVB CLOUD ──────────────────────────────────────────────────────
+// Invisible band plots used only as anchors for the fill (no edge lines —
+// user said the color change is enough)
+upperPlot = plot(upper, "Upper", display = display.none)
+lowerPlot = plot(lower, "Lower", display = display.none)
+cloudCol  = isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
+fill(upperPlot, lowerPlot, color = showCloud ? cloudCol : na, title = "Cloud")
+
+// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
+plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
+plot(basis, "Basis",      color = basisCol,                 linewidth = 2)
+
+// ─── BUY / SELL LABELS (dual flips only) ────────────────────────────
+// Using label.new with text_font_family for the cleanest sans rendering
+// available in Pine (closest to Helvetica that TV will give us).
+if showLabels and dualGreen
+    label.new(bar_index, low, "BUY",
+              style       = label.style_label_up,
+              color       = buyCol,
+              textcolor   = color.white,
+              size        = size.normal,
+              text_font_family = font.family_default,
+              yloc        = yloc.belowbar)
+
+if showLabels and dualRed
+    label.new(bar_index, high, "SELL",
+              style       = label.style_label_down,
+              color       = sellCol,
+              textcolor   = color.white,
+              size        = size.normal,
+              text_font_family = font.family_default,
+              yloc        = yloc.abovebar)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(fvbFlipGreen, "FVB flipped GREEN",
     "{{ticker}} ({{interval}}) — FVB flipped GREEN at {{close}}")
-alertcondition(flipRed, "FVB flipped RED",
+alertcondition(fvbFlipRed,   "FVB flipped RED",
     "{{ticker}} ({{interval}}) — FVB flipped RED at {{close}}")
-alertcondition(close > upper, "Price above upper band (overshoot)",
-    "{{ticker}} ({{interval}}) — close above upper band at {{close}}")
-alertcondition(close < lower, "Price below lower band (overshoot)",
-    "{{ticker}} ({{interval}}) — close below lower band at {{close}}")
+alertcondition(dualGreen, "BUY (dual flip green)",
+    "{{ticker}} ({{interval}}) — BUY signal: FVB and BXT both flipped bullish at {{close}}")
+alertcondition(dualRed, "SELL (dual flip red)",
+    "{{ticker}} ({{interval}}) — SELL signal: FVB and BXT both flipped bearish at {{close}}")
 
-// === DASHBOARD (top-right corner) =====================================
-showTable = input.bool(true, "Show status table", group = "Display")
+// ─── STATUS TABLE (top-right of price pane) ─────────────────────────
 if showTable and barstate.islast
-    var table tbl = table.new(position.top_right, 2, 4, bgcolor = color.new(color.black, 75), border_width = 1)
-    table.cell(tbl, 0, 0, "REGIME",  text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 0, isBull ? "BULL" : "BEAR",
-               text_color = isBull ? #26a69a : #ef5350, text_size = size.small, bgcolor = color.new(isBull ? #26a69a : #ef5350, 80))
-    table.cell(tbl, 0, 1, "BASIS",   text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 1, str.tostring(basis, "#.##"),  text_color = color.white, text_size = size.small)
-    table.cell(tbl, 0, 2, "Δ BASIS", text_color = color.gray, text_size = size.small)
-    delta = ((src - basis) / basis) * 100
-    table.cell(tbl, 1, 2, str.tostring(delta, "+#.##") + "%",
-               text_color = isBull ? #26a69a : #ef5350, text_size = size.small)
-    table.cell(tbl, 0, 3, "STREAK",  text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 3, str.tostring(streak) + " bars", text_color = color.white, text_size = size.small)
+    var table tbl = table.new(position.top_right, 3, 4,
+        bgcolor      = color.new(color.black, 80),
+        border_color = color.new(color.gray, 70), border_width = 1,
+        frame_color  = color.new(color.gray, 70), frame_width  = 1)
+
+    // Header row
+    table.cell(tbl, 0, 0, "",      bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 1, 0, " FVB ", text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 2, 0, " BXT ", text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+
+    // Regime row — color-filled cells
+    table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = isBull ? bullCol : bearCol)
+    table.cell(tbl, 2, 1, shortBxt >= 0 ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = shortBxt >= 0 ? bullCol : bearCol)
+
+    // Numerical values
+    table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
+    fvbDelta = ((close - basis) / basis) * 100
+    table.cell(tbl, 1, 2, " " + str.tostring(fvbDelta, "+#.##") + "% ",
+               text_color = isBull ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+    table.cell(tbl, 2, 2, " " + str.tostring(shortBxt, "+#.##") + " ",
+               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+
+    // Dual / aligned row
+    dualText = dualGreen ? " BUY ▲ " : dualRed ? " SELL ▼ " : aligned ? (isBull ? " ALIGNED ▲ " : " ALIGNED ▼ ") : " MIXED "
+    dualBg   = dualGreen ? buyCol : dualRed ? sellCol : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
+
+    table.cell(tbl, 0, 3, " DUAL ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 3, dualText, text_color = color.white, text_size = size.normal,
+               text_halign = text.align_center, bgcolor = dualBg)
+    table.cell(tbl, 2, 3, "", bgcolor = color.new(color.black, 80))

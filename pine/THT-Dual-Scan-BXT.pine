@@ -1,118 +1,82 @@
 // =============================================================================
-// THT Dual Scan — B-Xtrender (BXT)
+// THT Dual Scan — B-Xtrender (oscillator pane)  ·  v3
 // =============================================================================
-// Companion to the THT Dual Scan dashboard (https://piraci26.github.io/tht-data/).
-// Mirrors the exact math used by scan.py — a flip on this indicator on TradingView
-// matches a flip in the dashboard's daily/weekly/monthly scan.
+// Apply this to the oscillator pane together with "THT Dual Scan — FVB" on
+// the price pane. They share the same vivid color palette.
 //
-// Math:
-//   short_term = RSI(EMA(close, 5) − EMA(close, 20), 15) − 50
-//   long_term  = WMA(RSI(close, 15) − 50, 5)
+// What you'll see:
+//   · Histogram bars: short-term BXT (green ≥ 0, red < 0)
+//   · Smoothed short-term line (lime, with halo)
+//   · Smoothed long-term line (red, with halo)
+//   · Crossover diamonds when smoothed-short crosses smoothed-long
+//   · Zero / ±10 reference lines
 //
-// What it shows:
-//   · Histogram bars: short-term BXT (green when ≥ 0, red when < 0)
-//   · Smoothed short-term line (bright green) — WMA(short_term, 5)
-//   · Smoothed long-term line (bright red)   — WMA(RSI(close, 15) − 50, 5)
-//   · Crossover dots when smoothed-short crosses smoothed-long
-//   · Zero-cross dots (the regime flip the dashboard tracks)
+// Single-flip dots removed — the histogram color change IS the signal.
+// Status table also removed — it lives on the price pane (FVB indicator).
 //
-// Use with:
-//   THT Dual Scan — FVB (apply both on the same chart for the dual signal)
-//
+// Math identical to scan.py.
 // =============================================================================
 //@version=6
 indicator("THT Dual Scan — B-Xtrender", "BXT", overlay = false, format = format.price, precision = 2)
 
-// === INPUTS ===========================================================
-shortFast = input.int(5,  "Short EMA Fast",     minval = 1, group = "Short-term BXT")
-shortSlow = input.int(20, "Short EMA Slow",     minval = 1, group = "Short-term BXT")
-shortRsi  = input.int(15, "Short RSI Length",   minval = 1, group = "Short-term BXT")
-longRsi   = input.int(15, "Long RSI Length",    minval = 1, group = "Long-term BXT")
-smooth    = input.int(5,  "Smoothing WMA",      minval = 1, group = "Smoothing")
+// ─── INPUTS ──────────────────────────────────────────────────────────
+shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "Short-term BXT")
+shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "Short-term BXT")
+shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "Short-term BXT")
+longRsi   = input.int(15, "Long RSI length",  minval = 1, group = "Long-term BXT")
+smoothLen = input.int(5,  "Smoothing WMA",    minval = 1, group = "Smoothing")
+
 showXover = input.bool(true, "Show smoothed crossovers", group = "Display")
-showFlips = input.bool(true, "Show zero-cross flips",   group = "Display")
-showHist  = input.bool(true, "Show histogram",          group = "Display")
+showHist  = input.bool(true, "Show histogram",           group = "Display")
+showHalo  = input.bool(true, "Halo on smoothed lines",   group = "Display")
 
-// === COLOR INPUTS =====================================================
-bullCol  = input.color(#00C853, "Bullish (positive)", group = "Colors")
-bearCol  = input.color(#B71C1C, "Bearish (negative)", group = "Colors")
-shortCol = input.color(#00E676, "Smoothed short line", group = "Colors")
-longCol  = input.color(#FF5252, "Smoothed long line",  group = "Colors")
+// Colors
+histBull  = input.color(#26a69a, "Histogram bull", group = "Colors")
+histBear  = input.color(#ef5350, "Histogram bear", group = "Colors")
+shortCol  = input.color(#00E676, "Smoothed short line", group = "Colors")
+longCol   = input.color(#FF5252, "Smoothed long line",  group = "Colors")
 
-// === CALCULATIONS =====================================================
-// Short-term: RSI of (fast EMA − slow EMA), then centered around 0
-emaFast    = ta.ema(close, shortFast)
-emaSlow    = ta.ema(close, shortSlow)
-emaDiff    = emaFast - emaSlow
-shortBxt   = ta.rsi(emaDiff, shortRsi) - 50
+// ─── CALCULATIONS ────────────────────────────────────────────────────
+emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt     = ta.rsi(emaDiff, shortRsi) - 50
+longBxt      = ta.wma(ta.rsi(close, longRsi) - 50, smoothLen)
+shortSmooth  = ta.wma(shortBxt, smoothLen)
 
-// Long-term: smoothed RSI of close, centered around 0
-longBxt    = ta.wma(ta.rsi(close, longRsi) - 50, smooth)
-
-// Smoothed short-term
-shortSmooth = ta.wma(shortBxt, smooth)
-
-// Zero-cross flips (mirror of dashboard "BXT green/red" flips)
-flipGreen = shortBxt > 0 and shortBxt[1] <= 0
-flipRed   = shortBxt < 0 and shortBxt[1] >= 0
-
-// Smoothed crossovers (a more conservative confirmation signal)
 xoverUp   = ta.crossover (shortSmooth, longBxt)
 xoverDown = ta.crossunder(shortSmooth, longBxt)
 
-// Streak in current zero-cross regime
-var int streak = 0
-streak := math.sign(shortBxt) == math.sign(shortBxt[1]) ? streak + 1 : 1
+bxtFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+bxtFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
 
-// === PLOTS ============================================================
-// Histogram (the actual short-term BXT)
-histCol = shortBxt >= 0 ? color.new(bullCol, 30) : color.new(bearCol, 30)
-plot(showHist ? shortBxt : na, "BXT Short", color = histCol, style = plot.style_columns)
+// ─── PLOTS ───────────────────────────────────────────────────────────
+// Histogram (saturated)
+histCol = shortBxt >= 0 ? color.new(histBull, 25) : color.new(histBear, 25)
+plot(showHist ? shortBxt : na, "BXT Short Histogram",
+     color = histCol, style = plot.style_columns)
 
-// Smoothed short-term line
-plot(shortSmooth, "Smoothed Short", color = shortCol, linewidth = 2)
-
-// Smoothed long-term line
-plot(longBxt, "Smoothed Long", color = longCol, linewidth = 2)
+// Smoothed lines with halos for visual weight
+plot(showHalo ? shortSmooth : na, "Smooth Short halo", color = color.new(shortCol, 70), linewidth = 4)
+plot(shortSmooth, "Smooth Short", color = shortCol, linewidth = 2)
+plot(showHalo ? longBxt : na, "Smooth Long halo", color = color.new(longCol, 70), linewidth = 4)
+plot(longBxt, "Smooth Long", color = longCol, linewidth = 2)
 
 // Reference lines
-hline( 0, "Zero",        color = color.new(color.gray, 40), linestyle = hline.style_dashed)
-hline( 10, "+10",        color = color.new(color.gray, 70), linestyle = hline.style_dotted)
-hline(-10, "−10",        color = color.new(color.gray, 70), linestyle = hline.style_dotted)
+hline( 0,  "Zero", color = color.new(color.gray, 30), linestyle = hline.style_solid)
+hline( 10, "+10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
+hline(-10, "−10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
 
-// Zero-cross flip markers
-plotshape(showFlips and flipGreen ? 0 : na, "Bull Flip", shape.circle, location.absolute,
-          color = bullCol, size = size.small)
-plotshape(showFlips and flipRed   ? 0 : na, "Bear Flip", shape.circle, location.absolute,
-          color = bearCol, size = size.small)
+// Smoothed-line crossovers (subtle confirmation signal)
+plotshape(showXover and xoverUp   ? shortSmooth : na, "X-Up",   shape.diamond,
+          location.absolute, color = shortCol, size = size.tiny)
+plotshape(showXover and xoverDown ? shortSmooth : na, "X-Down", shape.diamond,
+          location.absolute, color = longCol, size = size.tiny)
 
-// Smoothed-line crossover markers
-plotshape(showXover and xoverUp   ? shortSmooth : na, "Xover Up",   shape.circle, location.absolute,
-          color = bullCol, size = size.tiny)
-plotshape(showXover and xoverDown ? shortSmooth : na, "Xover Down", shape.circle, location.absolute,
-          color = bearCol, size = size.tiny)
-
-// === ALERTS ===========================================================
-alertcondition(flipGreen, "BXT flipped GREEN (zero-cross)",
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(bxtFlipGreen, "BXT crossed above zero",
     "{{ticker}} ({{interval}}) — BXT crossed above zero at {{close}}")
-alertcondition(flipRed, "BXT flipped RED (zero-cross)",
+alertcondition(bxtFlipRed,   "BXT crossed below zero",
     "{{ticker}} ({{interval}}) — BXT crossed below zero at {{close}}")
-alertcondition(xoverUp, "BXT smoothed cross UP",
+alertcondition(xoverUp,   "BXT smoothed cross UP",
     "{{ticker}} ({{interval}}) — BXT smooth-short crossed above smooth-long at {{close}}")
 alertcondition(xoverDown, "BXT smoothed cross DOWN",
     "{{ticker}} ({{interval}}) — BXT smooth-short crossed below smooth-long at {{close}}")
-
-// === STATUS TABLE =====================================================
-showTable = input.bool(true, "Show status table", group = "Display")
-if showTable and barstate.islast
-    var table tbl = table.new(position.top_right, 2, 4, bgcolor = color.new(color.black, 75), border_width = 1)
-    table.cell(tbl, 0, 0, "REGIME",  text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 0, shortBxt >= 0 ? "BULL" : "BEAR",
-               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.small,
-               bgcolor = color.new(shortBxt >= 0 ? bullCol : bearCol, 80))
-    table.cell(tbl, 0, 1, "SHORT",   text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 1, str.tostring(shortBxt, "+#.##"),  text_color = color.white, text_size = size.small)
-    table.cell(tbl, 0, 2, "LONG",    text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 2, str.tostring(longBxt,  "+#.##"),  text_color = color.white, text_size = size.small)
-    table.cell(tbl, 0, 3, "STREAK",  text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 3, str.tostring(streak) + " bars", text_color = color.white, text_size = size.small)
