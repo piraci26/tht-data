@@ -13,8 +13,7 @@
 // Math identical to scan.py.
 // =============================================================================
 //@version=6
-indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2,
-          max_labels_count = 500, max_boxes_count = 500)
+indicator("THT Dual Scan — FVB", "FVB", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
 fvbLen   = input.int(20,  "FVB Length",            minval = 2,   group = "Fair Value Bands")
