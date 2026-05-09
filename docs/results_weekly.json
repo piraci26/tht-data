@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T16:33:37.247541+00:00",
+  "updated_at": "2026-05-09T17:33:16.358946+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.61,
+  "scan_seconds": 7.26,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -330,23 +330,6 @@
       "pct_to_ath": 64.1
     },
     {
-      "sym": "XP",
-      "name": "XP Inc.",
-      "mcap": 10,
-      "price": 19.17,
-      "basis": 19.19,
-      "bxt_today": -2.46,
-      "bxt_yest": -1.47,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": null,
-      "ath": 53.08,
-      "pct_to_ath": 176.9
-    },
-    {
       "sym": "AM",
       "name": "Antero Midstream Corporation",
       "mcap": 10,
@@ -362,6 +345,23 @@
       "bxt_streak": null,
       "ath": 23.83,
       "pct_to_ath": 13.9
+    },
+    {
+      "sym": "XP",
+      "name": "XP Inc.",
+      "mcap": 10,
+      "price": 19.17,
+      "basis": 19.19,
+      "bxt_today": -2.46,
+      "bxt_yest": -1.47,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 6,
+      "bxt_streak": null,
+      "ath": 53.08,
+      "pct_to_ath": 176.9
     },
     {
       "sym": "CRC",
@@ -553,23 +553,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 224.59,
-      "basis": 220.53,
-      "bxt_today": 1.32,
-      "bxt_yest": -1.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 11.7
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -585,6 +568,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 115.7
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 224.59,
+      "basis": 220.53,
+      "bxt_today": 1.32,
+      "bxt_yest": -1.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 11.7
     },
     {
       "sym": "NXT",
@@ -876,23 +876,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 7.85,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3
-    },
-    {
       "sym": "MRCY",
       "name": "Mercury Systems Inc",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 13,
       "ath": 103.84,
       "pct_to_ath": 14.9
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 7.85,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3
     },
     {
       "sym": "BILL",
@@ -1235,23 +1235,6 @@
       "pct_to_ath": 306.4
     },
     {
-      "sym": "DVN",
-      "name": "Devon Energy Corporation",
-      "mcap": 28,
-      "price": 45.61,
-      "basis": 44.39,
-      "bxt_today": -3.6,
-      "bxt_yest": 1.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 127.43,
-      "pct_to_ath": 179.4
-    },
-    {
       "sym": "FTI",
       "name": "TechnipFMC plc Ordinary Share",
       "mcap": 28,
@@ -1267,6 +1250,23 @@
       "bxt_streak": 28,
       "ath": 77.78,
       "pct_to_ath": 10.9
+    },
+    {
+      "sym": "DVN",
+      "name": "Devon Energy Corporation",
+      "mcap": 28,
+      "price": 45.61,
+      "basis": 44.39,
+      "bxt_today": -3.6,
+      "bxt_yest": 1.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 127.43,
+      "pct_to_ath": 179.4
     },
     {
       "sym": "CTRA",
@@ -1643,23 +1643,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 58.97,
-      "bxt_today": -5.45,
-      "bxt_yest": 0.69,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -1675,6 +1658,23 @@
       "bxt_streak": 2,
       "ath": 17.21,
       "pct_to_ath": 150.5
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 58.97,
+      "bxt_today": -5.45,
+      "bxt_yest": 0.69,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2
     },
     {
       "sym": "MUR",
@@ -1762,21 +1762,21 @@
       "pct_to_ath": 158.5
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
+      "sym": "LBTYA",
+      "name": "Liberty Global Ltd. Common Shares",
       "mcap": 4,
-      "price": 34.7,
-      "basis": 32.59,
-      "bxt_today": -3.6,
-      "bxt_yest": 1.08,
+      "price": 12.15,
+      "basis": 11.75,
+      "bxt_today": -0.17,
+      "bxt_yest": 0.36,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.0
+      "bxt_streak": 14,
+      "ath": 24.93,
+      "pct_to_ath": 105.1
     },
     {
       "sym": "OTTR",
@@ -1796,21 +1796,21 @@
       "pct_to_ath": 14.6
     },
     {
-      "sym": "LBTYA",
-      "name": "Liberty Global Ltd. Common Shares",
+      "sym": "DAN",
+      "name": "Dana Incorporated",
       "mcap": 4,
-      "price": 12.15,
-      "basis": 11.75,
-      "bxt_today": -0.17,
-      "bxt_yest": 0.36,
+      "price": 34.7,
+      "basis": 32.59,
+      "bxt_today": -3.6,
+      "bxt_yest": 1.08,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 24.93,
-      "pct_to_ath": 105.1
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.0
     },
     {
       "sym": "FSLY",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T15:35:34.942837+00:00",
+    "compared_to": "2026-05-09T16:33:37.247541+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
