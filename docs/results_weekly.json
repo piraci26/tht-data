@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T21:23:41.223466+00:00",
+  "updated_at": "2026-05-09T22:06:21.977510+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.15,
+  "scan_seconds": 12.82,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1006.6
     },
     {
-      "sym": "LAZ",
-      "name": "Lazard, Inc.",
-      "mcap": 5,
-      "price": 48.08,
-      "basis": 48.0,
-      "bxt_today": 3.18,
-      "bxt_yest": 1.24,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 61.14,
-      "pct_to_ath": 27.2
-    },
-    {
       "sym": "MC",
       "name": "Moelis & Company",
       "mcap": 5,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 82.89,
       "pct_to_ath": 27.4
+    },
+    {
+      "sym": "LAZ",
+      "name": "Lazard, Inc.",
+      "mcap": 5,
+      "price": 48.08,
+      "basis": 48.0,
+      "bxt_today": 3.18,
+      "bxt_yest": 1.24,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 61.14,
+      "pct_to_ath": 27.2
     },
     {
       "sym": "PAY",
@@ -553,23 +553,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.75,
-      "basis": 13.15,
-      "bxt_today": 2.38,
-      "bxt_yest": -0.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 115.7
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -585,6 +568,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 11.7
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.75,
+      "basis": 13.15,
+      "bxt_today": 2.38,
+      "bxt_yest": -0.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 115.7
     },
     {
       "sym": "NXT",
@@ -604,23 +604,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "PTC",
-      "name": "PTC Inc.",
-      "mcap": 17,
-      "price": 146.65,
-      "basis": 151.99,
-      "bxt_today": 0.73,
-      "bxt_yest": -5.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 219.69,
-      "pct_to_ath": 49.8
-    },
-    {
       "sym": "TPG",
       "name": "TPG Inc.",
       "mcap": 17,
@@ -636,6 +619,23 @@
       "bxt_streak": 15,
       "ath": 72.98,
       "pct_to_ath": 63.6
+    },
+    {
+      "sym": "PTC",
+      "name": "PTC Inc.",
+      "mcap": 17,
+      "price": 146.65,
+      "basis": 151.99,
+      "bxt_today": 0.73,
+      "bxt_yest": -5.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 219.69,
+      "pct_to_ath": 49.8
     },
     {
       "sym": "TRU",
@@ -774,23 +774,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 298.29,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -806,6 +789,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 298.29,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -876,23 +876,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 7.85,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3
-    },
-    {
       "sym": "MRCY",
       "name": "Mercury Systems Inc",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 13,
       "ath": 103.84,
       "pct_to_ath": 14.9
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 7.85,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3
     },
     {
       "sym": "BILL",
@@ -1235,23 +1235,6 @@
       "pct_to_ath": 306.4
     },
     {
-      "sym": "FTI",
-      "name": "TechnipFMC plc Ordinary Share",
-      "mcap": 28,
-      "price": 70.15,
-      "basis": 63.92,
-      "bxt_today": -0.37,
-      "bxt_yest": 7.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 77.78,
-      "pct_to_ath": 10.9
-    },
-    {
       "sym": "DVN",
       "name": "Devon Energy Corporation",
       "mcap": 28,
@@ -1267,6 +1250,23 @@
       "bxt_streak": 26,
       "ath": 127.43,
       "pct_to_ath": 179.4
+    },
+    {
+      "sym": "FTI",
+      "name": "TechnipFMC plc Ordinary Share",
+      "mcap": 28,
+      "price": 70.15,
+      "basis": 63.92,
+      "bxt_today": -0.37,
+      "bxt_yest": 7.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 28,
+      "ath": 77.78,
+      "pct_to_ath": 10.9
     },
     {
       "sym": "CTRA",
@@ -1303,23 +1303,6 @@
       "pct_to_ath": 4.8
     },
     {
-      "sym": "LNT",
-      "name": "Alliant Energy Corporation",
-      "mcap": 19,
-      "price": 71.76,
-      "basis": 70.21,
-      "bxt_today": -0.6,
-      "bxt_yest": 3.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 75.76,
-      "pct_to_ath": 5.6
-    },
-    {
       "sym": "APG",
       "name": "APi Group Corporation",
       "mcap": 19,
@@ -1335,6 +1318,23 @@
       "bxt_streak": 4,
       "ath": 49.99,
       "pct_to_ath": 13.5
+    },
+    {
+      "sym": "LNT",
+      "name": "Alliant Energy Corporation",
+      "mcap": 19,
+      "price": 71.76,
+      "basis": 70.21,
+      "bxt_today": -0.6,
+      "bxt_yest": 3.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 75.76,
+      "pct_to_ath": 5.6
     },
     {
       "sym": "CF",
@@ -1558,23 +1558,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 21.75,
-      "bxt_today": -0.44,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1590,6 +1573,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 14.8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 21.75,
+      "bxt_today": -0.44,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6
     },
     {
       "sym": "CENX",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T20:28:44.337926+00:00",
+    "compared_to": "2026-05-09T21:23:41.223466+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
