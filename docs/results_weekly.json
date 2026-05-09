@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T11:58:09.047409+00:00",
+  "updated_at": "2026-05-09T13:40:58.424311+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.57,
+  "scan_seconds": 9.73,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -553,23 +553,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 224.59,
-      "basis": 220.53,
-      "bxt_today": 1.32,
-      "bxt_yest": -1.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 11.7
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -585,6 +568,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 115.7
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 224.59,
+      "basis": 220.53,
+      "bxt_today": 1.32,
+      "bxt_yest": -1.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 11.7
     },
     {
       "sym": "NXT",
@@ -604,23 +604,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "TPG",
-      "name": "TPG Inc.",
-      "mcap": 17,
-      "price": 44.62,
-      "basis": 48.75,
-      "bxt_today": 0.24,
-      "bxt_yest": -2.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 72.98,
-      "pct_to_ath": 63.6
-    },
-    {
       "sym": "PTC",
       "name": "PTC Inc.",
       "mcap": 17,
@@ -636,6 +619,23 @@
       "bxt_streak": 31,
       "ath": 219.69,
       "pct_to_ath": 49.8
+    },
+    {
+      "sym": "TPG",
+      "name": "TPG Inc.",
+      "mcap": 17,
+      "price": 44.62,
+      "basis": 48.75,
+      "bxt_today": 0.24,
+      "bxt_yest": -2.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 72.98,
+      "pct_to_ath": 63.6
     },
     {
       "sym": "TRU",
@@ -1660,23 +1660,6 @@
       "pct_to_ath": 22.2
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "MUR",
       "name": "Murphy Oil Corporation",
       "mcap": 5,
@@ -1692,6 +1675,23 @@
       "bxt_streak": 13,
       "ath": 87.63,
       "pct_to_ath": 137.0
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "PSMT",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T11:02:26.530714+00:00",
+    "compared_to": "2026-05-09T11:58:09.047409+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T11:58:16.466900+00:00",
+  "updated_at": "2026-05-09T13:41:07.464703+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.41,
+  "scan_seconds": 9.03,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -602,23 +602,6 @@
       "pct_to_ath": 18.0
     },
     {
-      "sym": "OSIS",
-      "name": "OSI Systems, Inc. (DE)",
-      "mcap": 4,
-      "price": 230.83,
-      "basis": 232.23,
-      "bxt_today": -10.12,
-      "bxt_yest": -2.87,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 41,
-      "bxt_streak": null,
-      "ath": 311.72,
-      "pct_to_ath": 35.0
-    },
-    {
       "sym": "MTH",
       "name": "Meritage Homes Corporation",
       "mcap": 4,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 106.99,
       "pct_to_ath": 64.2
+    },
+    {
+      "sym": "OSIS",
+      "name": "OSI Systems, Inc. (DE)",
+      "mcap": 4,
+      "price": 230.83,
+      "basis": 232.23,
+      "bxt_today": -10.12,
+      "bxt_yest": -2.87,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 41,
+      "bxt_streak": null,
+      "ath": 311.72,
+      "pct_to_ath": 35.0
     },
     {
       "sym": "WBI",
@@ -757,23 +757,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "TSN",
-      "name": "Tyson Foods, Inc.",
-      "mcap": 24,
-      "price": 68.38,
-      "basis": 64.36,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 100.72,
-      "pct_to_ath": 47.3
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -789,6 +772,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "mcap": 24,
+      "price": 68.38,
+      "basis": 64.36,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 100.72,
+      "pct_to_ath": 47.3
     },
     {
       "sym": "NTAP",
@@ -1063,23 +1063,6 @@
       "pct_to_ath": 207.0
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 7.85,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3
-    },
-    {
       "sym": "RDN",
       "name": "Radian Group Inc.",
       "mcap": 5,
@@ -1114,6 +1097,23 @@
       "pct_to_ath": 5.0
     },
     {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 7.85,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3
+    },
+    {
       "sym": "CVSA",
       "name": "Covista Inc. Common Shares",
       "mcap": 5,
@@ -1131,23 +1131,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "BILL",
-      "name": "BILL Holdings, Inc.",
-      "mcap": 4,
-      "price": 41.83,
-      "basis": 43.18,
-      "bxt_today": 1.34,
-      "bxt_yest": -2.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 348.49,
-      "pct_to_ath": 733.1
-    },
-    {
       "sym": "KRC",
       "name": "Kilroy Realty Corporation",
       "mcap": 4,
@@ -1163,6 +1146,23 @@
       "bxt_streak": 4,
       "ath": 90.15,
       "pct_to_ath": 158.3
+    },
+    {
+      "sym": "BILL",
+      "name": "BILL Holdings, Inc.",
+      "mcap": 4,
+      "price": 41.83,
+      "basis": 43.18,
+      "bxt_today": 1.34,
+      "bxt_yest": -2.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 348.49,
+      "pct_to_ath": 733.1
     }
   ],
   "bxt_red": [
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T11:02:39.625462+00:00",
+    "compared_to": "2026-05-09T11:58:16.466900+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
