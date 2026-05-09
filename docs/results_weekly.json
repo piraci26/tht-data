@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T11:02:26.530714+00:00",
+  "updated_at": "2026-05-09T11:58:09.047409+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.83,
+  "scan_seconds": 7.57,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -774,23 +774,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 298.29,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -806,6 +789,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 298.29,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -1779,23 +1779,6 @@
       "pct_to_ath": 105.1
     },
     {
-      "sym": "OTTR",
-      "name": "Otter Tail Corporation",
-      "mcap": 4,
-      "price": 88.03,
-      "basis": 87.3,
-      "bxt_today": -1.12,
-      "bxt_yest": 1.41,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 100.84,
-      "pct_to_ath": 14.6
-    },
-    {
       "sym": "DAN",
       "name": "Dana Incorporated",
       "mcap": 4,
@@ -1811,6 +1794,23 @@
       "bxt_streak": 27,
       "ath": 39.56,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "OTTR",
+      "name": "Otter Tail Corporation",
+      "mcap": 4,
+      "price": 88.03,
+      "basis": 87.3,
+      "bxt_today": -1.12,
+      "bxt_yest": 1.41,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 100.84,
+      "pct_to_ath": 14.6
     },
     {
       "sym": "FSLY",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T09:57:44.307856+00:00",
+    "compared_to": "2026-05-09T11:02:26.530714+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
