@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T14:37:52.327760+00:00",
+  "updated_at": "2026-05-09T15:35:34.942837+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.28,
+  "scan_seconds": 17.0,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1006.6
     },
     {
-      "sym": "MC",
-      "name": "Moelis & Company",
-      "mcap": 5,
-      "price": 65.08,
-      "basis": 64.82,
-      "bxt_today": 5.82,
-      "bxt_yest": 5.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 82.89,
-      "pct_to_ath": 27.4
-    },
-    {
       "sym": "LAZ",
       "name": "Lazard, Inc.",
       "mcap": 5,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 61.14,
       "pct_to_ath": 27.2
+    },
+    {
+      "sym": "MC",
+      "name": "Moelis & Company",
+      "mcap": 5,
+      "price": 65.08,
+      "basis": 64.82,
+      "bxt_today": 5.82,
+      "bxt_yest": 5.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 82.89,
+      "pct_to_ath": 27.4
     },
     {
       "sym": "PAY",
@@ -502,23 +502,6 @@
       "pct_to_ath": 3.3
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.95,
-      "basis": 215.54,
-      "bxt_today": 0.39,
-      "bxt_yest": -3.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.1
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.95,
+      "basis": 215.54,
+      "bxt_today": 0.39,
+      "bxt_yest": -3.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.1
     },
     {
       "sym": "SW",
@@ -1558,23 +1558,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 76.13,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1609,6 +1592,23 @@
       "pct_to_ath": 36.7
     },
     {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 76.13,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8
+    },
+    {
       "sym": "KVYO",
       "name": "Klaviyo, Inc. Series A",
       "mcap": 5,
@@ -1624,23 +1624,6 @@
       "bxt_streak": 2,
       "ath": 49.55,
       "pct_to_ath": 225.8
-    },
-    {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
     },
     {
       "sym": "CAR",
@@ -1675,6 +1658,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "MUR",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T13:40:58.424311+00:00",
+    "compared_to": "2026-05-09T14:37:52.327760+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
