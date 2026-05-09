@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T18:35:41.175918+00:00",
+  "updated_at": "2026-05-09T19:43:46.860027+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.92,
+  "scan_seconds": 6.51,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -502,23 +502,6 @@
       "pct_to_ath": 3.3
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.95,
-      "basis": 215.54,
-      "bxt_today": 0.39,
-      "bxt_yest": -3.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.1
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.95,
+      "basis": 215.54,
+      "bxt_today": 0.39,
+      "bxt_yest": -3.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.1
     },
     {
       "sym": "SW",
@@ -553,23 +553,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.75,
-      "basis": 13.15,
-      "bxt_today": 2.38,
-      "bxt_yest": -0.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 115.7
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -585,6 +568,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 11.7
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.75,
+      "basis": 13.15,
+      "bxt_today": 2.38,
+      "bxt_yest": -0.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 115.7
     },
     {
       "sym": "NXT",
@@ -774,23 +774,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "CTRE",
-      "name": "CareTrust REIT, Inc.",
-      "mcap": 9,
-      "price": 41.6,
-      "basis": 38.81,
-      "bxt_today": 4.07,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 41.72,
-      "pct_to_ath": 0.3
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -806,6 +789,23 @@
       "bxt_streak": 18,
       "ath": 380.17,
       "pct_to_ath": 29.6
+    },
+    {
+      "sym": "CTRE",
+      "name": "CareTrust REIT, Inc.",
+      "mcap": 9,
+      "price": 41.6,
+      "basis": 38.81,
+      "bxt_today": 4.07,
+      "bxt_yest": -0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 41.72,
+      "pct_to_ath": 0.3
     },
     {
       "sym": "IBRX",
@@ -1558,23 +1558,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 21.75,
-      "bxt_today": -0.44,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1590,6 +1573,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 14.8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 21.75,
+      "bxt_today": -0.44,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6
     },
     {
       "sym": "CENX",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T17:33:16.358946+00:00",
+    "compared_to": "2026-05-09T18:35:41.175918+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
