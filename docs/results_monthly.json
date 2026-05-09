@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T06:58:34.443997+00:00",
+  "updated_at": "2026-05-09T08:47:04.092719+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.24,
+  "scan_seconds": 13.09,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -602,23 +602,6 @@
       "pct_to_ath": 18.0
     },
     {
-      "sym": "MTH",
-      "name": "Meritage Homes Corporation",
-      "mcap": 4,
-      "price": 65.16,
-      "basis": 65.61,
-      "bxt_today": -10.88,
-      "bxt_yest": -9.97,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 106.99,
-      "pct_to_ath": 64.2
-    },
-    {
       "sym": "OSIS",
       "name": "OSI Systems, Inc. (DE)",
       "mcap": 4,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 311.72,
       "pct_to_ath": 35.0
+    },
+    {
+      "sym": "MTH",
+      "name": "Meritage Homes Corporation",
+      "mcap": 4,
+      "price": 65.16,
+      "basis": 65.61,
+      "bxt_today": -10.88,
+      "bxt_yest": -9.97,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 106.99,
+      "pct_to_ath": 64.2
     },
     {
       "sym": "WBI",
@@ -1131,23 +1131,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "KRC",
-      "name": "Kilroy Realty Corporation",
-      "mcap": 4,
-      "price": 34.9,
-      "basis": 36.31,
-      "bxt_today": 0.55,
-      "bxt_yest": -1.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 90.15,
-      "pct_to_ath": 158.3
-    },
-    {
       "sym": "BILL",
       "name": "BILL Holdings, Inc.",
       "mcap": 4,
@@ -1163,6 +1146,23 @@
       "bxt_streak": 16,
       "ath": 348.49,
       "pct_to_ath": 733.1
+    },
+    {
+      "sym": "KRC",
+      "name": "Kilroy Realty Corporation",
+      "mcap": 4,
+      "price": 34.9,
+      "basis": 36.31,
+      "bxt_today": 0.55,
+      "bxt_yest": -1.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 90.15,
+      "pct_to_ath": 158.3
     }
   ],
   "bxt_red": [
@@ -1422,23 +1422,6 @@
       "pct_to_ath": 13.9
     },
     {
-      "sym": "APG",
-      "name": "APi Group Corporation",
-      "mcap": 19,
-      "price": 44.04,
-      "basis": 43.1,
-      "bxt_today": -2.36,
-      "bxt_yest": 1.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 49.99,
-      "pct_to_ath": 13.5
-    },
-    {
       "sym": "USFD",
       "name": "US Foods Holding Corp.",
       "mcap": 19,
@@ -1454,6 +1437,23 @@
       "bxt_streak": 5,
       "ath": 102.13,
       "pct_to_ath": 21.0
+    },
+    {
+      "sym": "APG",
+      "name": "APi Group Corporation",
+      "mcap": 19,
+      "price": 44.04,
+      "basis": 43.1,
+      "bxt_today": -2.36,
+      "bxt_yest": 1.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 49.99,
+      "pct_to_ath": 13.5
     },
     {
       "sym": "TOST",
@@ -1592,23 +1592,6 @@
       "pct_to_ath": 225.8
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1624,6 +1607,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "OTF",
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T04:41:48.198325+00:00",
+    "compared_to": "2026-05-09T06:58:34.443997+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
