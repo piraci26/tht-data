@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T23:38:11.041904+00:00",
+  "updated_at": "2026-05-09T01:22:01.696443+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.42,
+  "scan_seconds": 10.63,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -549,23 +549,6 @@
       "pct_to_ath": 37.0
     },
     {
-      "sym": "FHI",
-      "name": "Federated Hermes, Inc.",
-      "mcap": 4,
-      "price": 55.95,
-      "basis": 55.02,
-      "bxt_today": -12.11,
-      "bxt_yest": -14.32,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 59.05,
-      "pct_to_ath": 5.5
-    },
-    {
       "sym": "TREX",
       "name": "Trex Company, Inc.",
       "mcap": 4,
@@ -581,6 +564,23 @@
       "bxt_streak": null,
       "ath": 140.98,
       "pct_to_ath": 250.7
+    },
+    {
+      "sym": "FHI",
+      "name": "Federated Hermes, Inc.",
+      "mcap": 4,
+      "price": 55.95,
+      "basis": 55.02,
+      "bxt_today": -12.11,
+      "bxt_yest": -14.32,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 59.05,
+      "pct_to_ath": 5.5
     },
     {
       "sym": "SKE",
@@ -976,23 +976,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "DTE",
-      "name": "DTE Energy Company",
-      "mcap": 29,
-      "price": 140.6,
-      "basis": 142.31,
-      "bxt_today": -6.23,
-      "bxt_yest": -0.55,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 13,
-      "bxt_streak": null,
-      "ath": 154.63,
-      "pct_to_ath": 10.0
-    },
-    {
       "sym": "TDY",
       "name": "Teledyne Technologies Incorporated",
       "mcap": 29,
@@ -1010,21 +993,21 @@
       "pct_to_ath": 11.6
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 28,
-      "price": 194.24,
-      "basis": 209.75,
-      "bxt_today": -6.91,
-      "bxt_yest": -2.77,
+      "sym": "DTE",
+      "name": "DTE Energy Company",
+      "mcap": 29,
+      "price": 140.6,
+      "basis": 142.31,
+      "bxt_today": -6.23,
+      "bxt_yest": -0.55,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 13,
       "bxt_streak": null,
-      "ath": 256.36,
-      "pct_to_ath": 32.0
+      "ath": 154.63,
+      "pct_to_ath": 10.0
     },
     {
       "sym": "EXPE",
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 303.8,
       "pct_to_ath": 32.1
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 28,
+      "price": 194.24,
+      "basis": 209.75,
+      "bxt_today": -6.91,
+      "bxt_yest": -2.77,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 256.36,
+      "pct_to_ath": 32.0
     },
     {
       "sym": "CNP",
@@ -1692,23 +1692,6 @@
       "pct_to_ath": 109.2
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 298.4,
-      "bxt_today": 0.71,
-      "bxt_yest": -1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -1724,6 +1707,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 298.4,
+      "bxt_today": 0.71,
+      "bxt_yest": -1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "KRYS",
@@ -1896,23 +1896,6 @@
       "pct_to_ath": 45.8
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 52.25,
-      "basis": 56.93,
-      "bxt_today": 4.56,
-      "bxt_yest": -0.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 263.3
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -1928,6 +1911,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 301.6
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 52.25,
+      "basis": 56.93,
+      "bxt_today": 4.56,
+      "bxt_yest": -0.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 263.3
     },
     {
       "sym": "LAZ",
@@ -2340,23 +2340,6 @@
       "pct_to_ath": 28.3
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 22,
-      "price": 43.49,
-      "basis": 51.47,
-      "bxt_today": -1.02,
-      "bxt_yest": 0.81,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 158.21,
-      "pct_to_ath": 263.8
-    },
-    {
       "sym": "NI",
       "name": "NiSource Inc",
       "mcap": 22,
@@ -2372,6 +2355,23 @@
       "bxt_streak": 15,
       "ath": 48.98,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 22,
+      "price": 43.49,
+      "basis": 51.47,
+      "bxt_today": -1.02,
+      "bxt_yest": 0.81,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 158.21,
+      "pct_to_ath": 263.8
     },
     {
       "sym": "ATI",
@@ -2680,23 +2680,6 @@
       "pct_to_ath": 134.0
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 21.75,
-      "bxt_today": -0.46,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -2712,6 +2695,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 14.8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 21.75,
+      "bxt_today": -0.46,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6
     },
     {
       "sym": "CENX",
@@ -2748,40 +2748,6 @@
       "pct_to_ath": 225.8
     },
     {
-      "sym": "CAR",
-      "name": "Avis Budget Group, Inc.",
-      "mcap": 5,
-      "price": 145.75,
-      "basis": 158.59,
-      "bxt_today": -0.71,
-      "bxt_yest": 4.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 847.7,
-      "pct_to_ath": 481.6
-    },
-    {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 59.08,
-      "bxt_today": -4.46,
-      "bxt_yest": 3.12,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -2814,6 +2780,40 @@
       "bxt_streak": 13,
       "ath": 87.63,
       "pct_to_ath": 137.0
+    },
+    {
+      "sym": "CAR",
+      "name": "Avis Budget Group, Inc.",
+      "mcap": 5,
+      "price": 145.75,
+      "basis": 158.59,
+      "bxt_today": -0.71,
+      "bxt_yest": 4.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 847.7,
+      "pct_to_ath": 481.6
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 59.08,
+      "bxt_today": -4.46,
+      "bxt_yest": 3.12,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2
     },
     {
       "sym": "PSMT",
@@ -2918,23 +2918,6 @@
       "pct_to_ath": 158.5
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.7,
-      "basis": 32.58,
-      "bxt_today": -3.72,
-      "bxt_yest": 0.81,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.0
-    },
-    {
       "sym": "OTTR",
       "name": "Otter Tail Corporation",
       "mcap": 4,
@@ -2950,6 +2933,23 @@
       "bxt_streak": 6,
       "ath": 100.84,
       "pct_to_ath": 14.6
+    },
+    {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.7,
+      "basis": 32.58,
+      "bxt_today": -3.72,
+      "bxt_yest": 0.81,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.0
     },
     {
       "sym": "FSLY",
@@ -2970,7 +2970,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T22:38:54.582630+00:00",
+    "compared_to": "2026-05-08T23:38:11.041904+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

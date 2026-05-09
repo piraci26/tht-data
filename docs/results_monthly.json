@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T23:38:20.013972+00:00",
+  "updated_at": "2026-05-09T01:22:11.233059+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.96,
+  "scan_seconds": 9.52,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -209,23 +209,6 @@
       "pct_to_ath": 92.7
     },
     {
-      "sym": "CART",
-      "name": "Maplebear Inc.",
-      "mcap": 10,
-      "price": 40.35,
-      "basis": 38.87,
-      "bxt_today": 7.61,
-      "bxt_yest": 7.18,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 53.5,
-      "pct_to_ath": 32.6
-    },
-    {
       "sym": "XP",
       "name": "XP Inc.",
       "mcap": 10,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 53.08,
       "pct_to_ath": 176.9
+    },
+    {
+      "sym": "CART",
+      "name": "Maplebear Inc.",
+      "mcap": 10,
+      "price": 40.35,
+      "basis": 38.87,
+      "bxt_today": 7.61,
+      "bxt_yest": 7.18,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 53.5,
+      "pct_to_ath": 32.6
     },
     {
       "sym": "MGM",
@@ -687,23 +687,6 @@
       "pct_to_ath": 52.5
     },
     {
-      "sym": "FWONA",
-      "name": "Liberty Media Corporation Series A Liberty Formula One",
-      "mcap": 21,
-      "price": 85.95,
-      "basis": 86.19,
-      "bxt_today": -13.54,
-      "bxt_yest": -15.86,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 99.52,
-      "pct_to_ath": 15.8
-    },
-    {
       "sym": "AS",
       "name": "Amer Sports, Inc. Ordinary Shares",
       "mcap": 21,
@@ -719,6 +702,23 @@
       "bxt_streak": null,
       "ath": 42.76,
       "pct_to_ath": 18.7
+    },
+    {
+      "sym": "FWONA",
+      "name": "Liberty Media Corporation Series A Liberty Formula One",
+      "mcap": 21,
+      "price": 85.95,
+      "basis": 86.19,
+      "bxt_today": -13.54,
+      "bxt_yest": -15.86,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 99.52,
+      "pct_to_ath": 15.8
     },
     {
       "sym": "LH",
@@ -2256,7 +2256,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-08T22:39:12.601673+00:00",
+    "compared_to": "2026-05-08T23:38:20.013972+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
