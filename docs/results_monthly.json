@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T17:33:31.850038+00:00",
+  "updated_at": "2026-05-09T18:35:48.311437+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.48,
+  "scan_seconds": 7.13,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -757,23 +757,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "TSN",
-      "name": "Tyson Foods, Inc.",
-      "mcap": 24,
-      "price": 68.38,
-      "basis": 64.36,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 100.72,
-      "pct_to_ath": 47.3
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -789,6 +772,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "mcap": 24,
+      "price": 68.38,
+      "basis": 64.36,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 100.72,
+      "pct_to_ath": 47.3
     },
     {
       "sym": "NTAP",
@@ -1131,23 +1131,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "KRC",
-      "name": "Kilroy Realty Corporation",
-      "mcap": 4,
-      "price": 34.9,
-      "basis": 36.31,
-      "bxt_today": 0.55,
-      "bxt_yest": -1.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 90.15,
-      "pct_to_ath": 158.3
-    },
-    {
       "sym": "BILL",
       "name": "BILL Holdings, Inc.",
       "mcap": 4,
@@ -1163,6 +1146,23 @@
       "bxt_streak": 16,
       "ath": 348.49,
       "pct_to_ath": 733.1
+    },
+    {
+      "sym": "KRC",
+      "name": "Kilroy Realty Corporation",
+      "mcap": 4,
+      "price": 34.9,
+      "basis": 36.31,
+      "bxt_today": 0.55,
+      "bxt_yest": -1.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 90.15,
+      "pct_to_ath": 158.3
     }
   ],
   "bxt_red": [
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 30.7
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 133.05,
-      "bxt_today": -0.28,
-      "bxt_yest": 1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 133.05,
+      "bxt_today": -0.28,
+      "bxt_yest": 1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "ENSG",
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T16:33:46.702370+00:00",
+    "compared_to": "2026-05-09T17:33:31.850038+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
