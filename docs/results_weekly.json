@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T19:43:46.860027+00:00",
+  "updated_at": "2026-05-09T20:28:44.337926+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.51,
+  "scan_seconds": 12.15,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1006.6
     },
     {
-      "sym": "MC",
-      "name": "Moelis & Company",
-      "mcap": 5,
-      "price": 65.08,
-      "basis": 64.82,
-      "bxt_today": 5.82,
-      "bxt_yest": 5.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 82.89,
-      "pct_to_ath": 27.4
-    },
-    {
       "sym": "LAZ",
       "name": "Lazard, Inc.",
       "mcap": 5,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 61.14,
       "pct_to_ath": 27.2
+    },
+    {
+      "sym": "MC",
+      "name": "Moelis & Company",
+      "mcap": 5,
+      "price": 65.08,
+      "basis": 64.82,
+      "bxt_today": 5.82,
+      "bxt_yest": 5.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 82.89,
+      "pct_to_ath": 27.4
     },
     {
       "sym": "PAY",
@@ -502,23 +502,6 @@
       "pct_to_ath": 3.3
     },
     {
-      "sym": "ZS",
-      "name": "Zscaler, Inc.",
-      "mcap": 24,
-      "price": 152.13,
-      "basis": 164.3,
-      "bxt_today": 4.48,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 376.11,
-      "pct_to_ath": 147.2
-    },
-    {
       "sym": "FSLR",
       "name": "First Solar, Inc.",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 18,
       "ath": 317.0,
       "pct_to_ath": 44.1
+    },
+    {
+      "sym": "ZS",
+      "name": "Zscaler, Inc.",
+      "mcap": 24,
+      "price": 152.13,
+      "basis": 164.3,
+      "bxt_today": 4.48,
+      "bxt_yest": -0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 376.11,
+      "pct_to_ath": 147.2
     },
     {
       "sym": "SW",
@@ -774,23 +774,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 298.29,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -806,6 +789,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 298.29,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -1643,23 +1643,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 58.97,
-      "bxt_today": -5.45,
-      "bxt_yest": 0.69,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -1675,6 +1658,23 @@
       "bxt_streak": 2,
       "ath": 17.21,
       "pct_to_ath": 150.5
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 58.97,
+      "bxt_today": -5.45,
+      "bxt_yest": 0.69,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2
     },
     {
       "sym": "MUR",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T18:35:41.175918+00:00",
+    "compared_to": "2026-05-09T19:43:46.860027+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
