@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T13:40:58.424311+00:00",
+  "updated_at": "2026-05-09T14:37:52.327760+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.73,
+  "scan_seconds": 9.28,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -604,23 +604,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "PTC",
-      "name": "PTC Inc.",
-      "mcap": 17,
-      "price": 146.65,
-      "basis": 151.99,
-      "bxt_today": 0.73,
-      "bxt_yest": -5.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 219.69,
-      "pct_to_ath": 49.8
-    },
-    {
       "sym": "TPG",
       "name": "TPG Inc.",
       "mcap": 17,
@@ -636,6 +619,23 @@
       "bxt_streak": 15,
       "ath": 72.98,
       "pct_to_ath": 63.6
+    },
+    {
+      "sym": "PTC",
+      "name": "PTC Inc.",
+      "mcap": 17,
+      "price": 146.65,
+      "basis": 151.99,
+      "bxt_today": 0.73,
+      "bxt_yest": -5.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 219.69,
+      "pct_to_ath": 49.8
     },
     {
       "sym": "TRU",
@@ -1558,23 +1558,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 21.75,
-      "bxt_today": -0.44,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1590,6 +1573,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 14.8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 21.75,
+      "bxt_today": -0.44,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6
     },
     {
       "sym": "CENX",
@@ -1624,6 +1624,23 @@
       "bxt_streak": 2,
       "ath": 49.55,
       "pct_to_ath": 225.8
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "CAR",
@@ -1675,23 +1692,6 @@
       "bxt_streak": 13,
       "ath": 87.63,
       "pct_to_ath": 137.0
-    },
-    {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
     },
     {
       "sym": "PSMT",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T11:58:09.047409+00:00",
+    "compared_to": "2026-05-09T13:40:58.424311+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

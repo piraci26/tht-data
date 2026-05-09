@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T13:41:07.464703+00:00",
+  "updated_at": "2026-05-09T14:38:01.429316+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.03,
+  "scan_seconds": 9.09,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -602,23 +602,6 @@
       "pct_to_ath": 18.0
     },
     {
-      "sym": "MTH",
-      "name": "Meritage Homes Corporation",
-      "mcap": 4,
-      "price": 65.16,
-      "basis": 65.61,
-      "bxt_today": -10.88,
-      "bxt_yest": -9.97,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 106.99,
-      "pct_to_ath": 64.2
-    },
-    {
       "sym": "OSIS",
       "name": "OSI Systems, Inc. (DE)",
       "mcap": 4,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 311.72,
       "pct_to_ath": 35.0
+    },
+    {
+      "sym": "MTH",
+      "name": "Meritage Homes Corporation",
+      "mcap": 4,
+      "price": 65.16,
+      "basis": 65.61,
+      "bxt_today": -10.88,
+      "bxt_yest": -9.97,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 106.99,
+      "pct_to_ath": 64.2
     },
     {
       "sym": "WBI",
@@ -757,23 +757,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "ZS",
-      "name": "Zscaler, Inc.",
-      "mcap": 24,
-      "price": 152.13,
-      "basis": 164.3,
-      "bxt_today": 4.48,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 376.11,
-      "pct_to_ath": 147.2
-    },
-    {
       "sym": "TSN",
       "name": "Tyson Foods, Inc.",
       "mcap": 24,
@@ -789,6 +772,23 @@
       "bxt_streak": 16,
       "ath": 100.72,
       "pct_to_ath": 47.3
+    },
+    {
+      "sym": "ZS",
+      "name": "Zscaler, Inc.",
+      "mcap": 24,
+      "price": 152.13,
+      "basis": 164.3,
+      "bxt_today": 4.48,
+      "bxt_yest": -0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 376.11,
+      "pct_to_ath": 147.2
     },
     {
       "sym": "NTAP",
@@ -1080,23 +1080,6 @@
       "pct_to_ath": 77.0
     },
     {
-      "sym": "IBOC",
-      "name": "International Bancshares Corporation",
-      "mcap": 5,
-      "price": 73.27,
-      "basis": 67.63,
-      "bxt_today": 1.17,
-      "bxt_yest": -0.28,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 76.91,
-      "pct_to_ath": 5.0
-    },
-    {
       "sym": "QS",
       "name": "QuantumScape Corporation",
       "mcap": 5,
@@ -1112,6 +1095,23 @@
       "bxt_streak": 25,
       "ath": 132.73,
       "pct_to_ath": 1660.3
+    },
+    {
+      "sym": "IBOC",
+      "name": "International Bancshares Corporation",
+      "mcap": 5,
+      "price": 73.27,
+      "basis": 67.63,
+      "bxt_today": 1.17,
+      "bxt_yest": -0.28,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 76.91,
+      "pct_to_ath": 5.0
     },
     {
       "sym": "CVSA",
@@ -1131,23 +1131,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "KRC",
-      "name": "Kilroy Realty Corporation",
-      "mcap": 4,
-      "price": 34.9,
-      "basis": 36.31,
-      "bxt_today": 0.55,
-      "bxt_yest": -1.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 90.15,
-      "pct_to_ath": 158.3
-    },
-    {
       "sym": "BILL",
       "name": "BILL Holdings, Inc.",
       "mcap": 4,
@@ -1163,6 +1146,23 @@
       "bxt_streak": 16,
       "ath": 348.49,
       "pct_to_ath": 733.1
+    },
+    {
+      "sym": "KRC",
+      "name": "Kilroy Realty Corporation",
+      "mcap": 4,
+      "price": 34.9,
+      "basis": 36.31,
+      "bxt_today": 0.55,
+      "bxt_yest": -1.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 90.15,
+      "pct_to_ath": 158.3
     }
   ],
   "bxt_red": [
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T11:58:16.466900+00:00",
+    "compared_to": "2026-05-09T13:41:07.464703+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
