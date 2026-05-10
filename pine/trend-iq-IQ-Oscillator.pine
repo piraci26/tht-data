@@ -16,7 +16,7 @@
 // dual-flip signal set.
 // =============================================================================
 //@version=6
-indicator("trend-iq · IQ Oscillator", "IQ Oscillator", overlay = false, format = format.price, precision = 2)
+indicator("trend-iq · IQ Oscillator", "IQ Osc", overlay = false, format = format.price, precision = 2)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
 shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "Short-term Oscillator")
