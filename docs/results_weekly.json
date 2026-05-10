@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-10T15:38:35.163563+00:00",
+  "updated_at": "2026-05-10T16:35:19.946686+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 23.2,
-  "scanned_count": 1510,
+  "scan_seconds": 6.92,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "FAST",
@@ -502,23 +502,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 323.76,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -534,6 +517,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 323.76,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -963,23 +963,6 @@
       "pct_to_ath": 306.4
     },
     {
-      "sym": "FTI",
-      "name": "TechnipFMC plc Ordinary Share",
-      "mcap": 28,
-      "price": 70.15,
-      "basis": 54.47,
-      "bxt_today": -0.37,
-      "bxt_yest": 7.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 77.78,
-      "pct_to_ath": 10.9
-    },
-    {
       "sym": "DVN",
       "name": "Devon Energy Corporation",
       "mcap": 28,
@@ -995,6 +978,23 @@
       "bxt_streak": 26,
       "ath": 127.43,
       "pct_to_ath": 179.4
+    },
+    {
+      "sym": "FTI",
+      "name": "TechnipFMC plc Ordinary Share",
+      "mcap": 28,
+      "price": 70.15,
+      "basis": 54.47,
+      "bxt_today": -0.37,
+      "bxt_yest": 7.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 28,
+      "ath": 77.78,
+      "pct_to_ath": 10.9
     },
     {
       "sym": "CTRA",
@@ -1286,23 +1286,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 22.45,
-      "bxt_today": -0.44,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1318,6 +1301,23 @@
       "bxt_streak": 6,
       "ath": 95.32,
       "pct_to_ath": 14.8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 22.45,
+      "bxt_today": -0.44,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6
     },
     {
       "sym": "CENX",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.81,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1403,6 +1386,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.81,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "MUR",
@@ -1559,7 +1559,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T14:42:18.338524+00:00",
+    "compared_to": "2026-05-10T15:38:35.163563+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
