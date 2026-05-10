@@ -4,7 +4,7 @@
 // Momentum oscillator built from RSI of an EMA difference, with smoothed
 // short and long lines, halo'd renders, zero-cross dots and crossover diamonds.
 //
-//   · Histogram: short-term oscillator value, teal/coral by sign
+//   · Histogram: short-term oscillator value, vivid lime/red by sign
 //   · Smooth Short: vivid lime, halo'd
 //   · Smooth Long:  vivid red, halo'd
 //   · Zero-cross dots
@@ -31,9 +31,9 @@ showHist  = input.bool(true, "Histogram",               group = "Display")
 showHalo  = input.bool(true, "Halo on smoothed lines",  group = "Display")
 showTable = input.bool(true, "Status table",            group = "Display")
 
-// Colors
-bullCol   = input.color(#26a69a, "Bull (histogram + dots)",         group = "Colors")
-bearCol   = input.color(#ef5350, "Bear (histogram + dots)",         group = "Colors")
+// Colors — unified vivid lime/red palette to match IQ Bands
+bullCol   = input.color(#00E676, "Bull (histogram + dots)",         group = "Colors")
+bearCol   = input.color(#FF5252, "Bear (histogram + dots)",         group = "Colors")
 shortCol  = input.color(#00E676, "Smoothed short line (lime)",      group = "Colors")
 longCol   = input.color(#FF5252, "Smoothed long line (bright red)", group = "Colors")
 amberCol  = input.color(#FFAA00, "Mixed/warning",                   group = "Colors")
