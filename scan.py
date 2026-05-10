@@ -62,7 +62,7 @@ def rsi_series(values, length=14):
         out.append(100 - 100/(1+rs))
     return out
 
-def fvb_prior_days(closes, length=20):
+def fvb_prior_days(closes, length=35):
     """If FVB flipped today, count how many bars the PRIOR regime lasted (yesterday looking back)."""
     n = len(closes)
     if n < length + 2: return None
@@ -114,7 +114,7 @@ def bxt_prior_days(closes, length=15):
             break
     return days
 
-def fvb_state(closes, length=20):
+def fvb_state(closes, length=35):
     if len(closes) < length + 2: return None
     basis_today = sma(closes, length)
     basis_yest  = sma(closes[:-1], length)
