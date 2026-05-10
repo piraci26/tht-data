@@ -1,0 +1,158 @@
+// =============================================================================
+// trend-iq · IQ Bands  (price-pane indicator)
+// =============================================================================
+// Bollinger-style bands with regime-tinted cloud and dual-flip BUY/SELL boxes.
+//   · IQ Bands: SMA(close, 20) ± 2σ, halo'd lines, regime-tinted cloud
+//   · Cloud regime fills (teal bull / coral bear)
+//   · Basis line with halo (matches IQ Oscillator's smoothed-line treatment)
+//   · BUY/SELL boxes on dual flips (IQ Bands flip + IQ Oscillator flip same bar)
+//   · Status table top-right, palette-matched to IQ Oscillator pane
+//
+// Apply alongside "trend-iq · IQ Oscillator" on the oscillator pane for the
+// full dual-flip signal set.
+// =============================================================================
+//@version=6
+indicator("trend-iq · IQ Bands", "IQ Bands", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
+
+// ─── INPUTS ──────────────────────────────────────────────────────────
+fvbLen   = input.int(20,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
+fvbMult  = input.float(2.0, "IQ Bands StdDev Multiplier", minval = 0.0, step = 0.1, group = "IQ Bands")
+
+shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
+shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
+shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
+
+showCloud  = input.bool(true,  "Bands cloud (regime fill)",      group = "Display")
+showBands  = input.bool(true,  "Band edges with halo",           group = "Display")
+showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Display")
+showTable  = input.bool(true,  "Status table (top right)",       group = "Display")
+
+// Colors — palette unifies IQ Bands and IQ Oscillator panes
+bullCol  = input.color(#26a69a, "Bull regime",  group = "Colors")
+bearCol  = input.color(#ef5350, "Bear regime",  group = "Colors")
+basisCol = input.color(#00E676, "Basis line",   group = "Colors")
+buyCol   = input.color(#00E676, "BUY label bg", group = "Colors")
+sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")
+amberCol = input.color(#FFAA00, "Mixed/warning",group = "Colors")
+
+// ─── IQ BANDS ────────────────────────────────────────────────────────
+basis  = ta.sma(close,  fvbLen)
+sd     = ta.stdev(close, fvbLen)
+upper  = basis + fvbMult * sd
+lower  = basis - fvbMult * sd
+isBull = close > basis
+
+bandsFlipGreen = isBull and not isBull[1]
+bandsFlipRed   = not isBull and isBull[1]
+
+// ─── IQ OSCILLATOR (computed here for dual-flip detection only) ──────
+emaDiff   = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt  = ta.rsi(emaDiff, shortRsi) - 50
+oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+oscFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
+
+dualGreen = bandsFlipGreen and oscFlipGreen
+dualRed   = bandsFlipRed   and oscFlipRed
+
+aligned = isBull == (shortBxt >= 0)
+
+// ─── BANDS WITH HALOS ───────────────────────────────────────────────
+bandColor = isBull ? bullCol : bearCol
+
+upperHalo = plot(showBands ? upper : na, "Upper halo", color = color.new(bandColor, 70), linewidth = 4)
+upperLine = plot(showBands ? upper : na, "Upper",      color = bandColor,                 linewidth = 2)
+lowerHalo = plot(showBands ? lower : na, "Lower halo", color = color.new(bandColor, 70), linewidth = 4)
+lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,                 linewidth = 2)
+
+// ─── CLOUD ───────────────────────────────────────────────────────────
+cloudCol  = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Cloud")
+
+// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
+plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
+plot(basis, "Basis",      color = basisCol,                linewidth = 2)
+
+// ─── BUY / SELL BOXES (dual flips only) ─────────────────────────────
+// Filled rectangles via box.new(). ATR-offset so distance from candle is
+// consistent across timeframes.
+atr14  = ta.atr(14)
+boxOff = atr14 * 1.4
+boxH   = atr14 * 1.0
+
+if showLabels and dualGreen
+    yTop = low - boxOff
+    box.new(
+        left  = bar_index - 2, right  = bar_index + 2,
+        top   = yTop,           bottom = yTop - boxH,
+        bgcolor      = buyCol,
+        border_color = color.new(buyCol, 0),
+        border_width = 0,
+        text         = "BUY",
+        text_color   = color.white,
+        text_size    = size.normal,
+        text_halign  = text.align_center,
+        text_valign  = text.align_center,
+        text_font_family = font.family_default)
+
+if showLabels and dualRed
+    yBot = high + boxOff
+    box.new(
+        left  = bar_index - 2, right  = bar_index + 2,
+        top   = yBot + boxH,    bottom = yBot,
+        bgcolor      = sellCol,
+        border_color = color.new(sellCol, 0),
+        border_width = 0,
+        text         = "SELL",
+        text_color   = color.white,
+        text_size    = size.normal,
+        text_halign  = text.align_center,
+        text_valign  = text.align_center,
+        text_font_family = font.family_default)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(bandsFlipGreen, "IQ Bands flipped GREEN",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped GREEN at {{close}}")
+alertcondition(bandsFlipRed,   "IQ Bands flipped RED",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped RED at {{close}}")
+alertcondition(dualGreen, "BUY (dual flip green)",
+    "{{ticker}} ({{interval}}) — BUY: IQ Bands and IQ Oscillator both flipped bullish at {{close}}")
+alertcondition(dualRed, "SELL (dual flip red)",
+    "{{ticker}} ({{interval}}) — SELL: IQ Bands and IQ Oscillator both flipped bearish at {{close}}")
+
+// ─── STATUS TABLE (top-right of price pane) ─────────────────────────
+if showTable and barstate.islast
+    var table tbl = table.new(position.top_right, 3, 4,
+        bgcolor      = color.new(color.black, 80),
+        border_color = color.new(color.gray, 70), border_width = 1,
+        frame_color  = color.new(color.gray, 70), frame_width  = 1)
+
+    table.cell(tbl, 0, 0, "",         bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 1, 0, " BANDS ",  text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 2, 0, " OSC ",    text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+
+    table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = isBull ? bullCol : bearCol)
+    table.cell(tbl, 2, 1, shortBxt >= 0 ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = shortBxt >= 0 ? bullCol : bearCol)
+
+    table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
+    bandsDelta = ((close - basis) / basis) * 100
+    table.cell(tbl, 1, 2, " " + str.tostring(bandsDelta, "+#.##") + "% ",
+               text_color = isBull ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+    table.cell(tbl, 2, 2, " " + str.tostring(shortBxt, "+#.##") + " ",
+               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+
+    dualText = dualGreen ? " BUY ▲ " : dualRed ? " SELL ▼ " : aligned ? (isBull ? " ALIGNED ▲ " : " ALIGNED ▼ ") : " MIXED "
+    dualBg   = dualGreen ? buyCol : dualRed ? sellCol : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
+
+    table.cell(tbl, 0, 3, " DUAL ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 3, dualText, text_color = color.white, text_size = size.normal,
+               text_halign = text.align_center, bgcolor = dualBg)
+    table.cell(tbl, 2, 3, "", bgcolor = color.new(color.black, 80))
