@@ -180,17 +180,43 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
         return sym, None
 
 def fetch_ath(sym):
+    """Returns (sym, ath, wk52_high, wk52_low, ath_30d_count). ath_30d_count = # days in last 30 trading days
+    that closed at a NEW all-time high (intraday high exceeded the prior all-time max)."""
     sym_q = sym.replace(".","-")
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=max&interval=1wk"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        # Weekly history (max) → ATH only
+        url_w = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=max&interval=1wk"
+        req = urllib.request.Request(url_w, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read())
-        result = data["chart"]["result"][0]
-        high = [c for c in result["indicators"]["quote"][0]["high"] if c is not None]
-        return sym, max(high) if high else None
+            wk_data = json.loads(r.read())
+        wk_highs = [c for c in wk_data["chart"]["result"][0]["indicators"]["quote"][0]["high"] if c is not None]
+        ath = max(wk_highs) if wk_highs else None
+
+        # Daily bars (1y) → 52w high/low + last-30-day new-ATH count
+        wk52_h = None
+        wk52_l = None
+        ath_30d = 0
+        url_d = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=1y&interval=1d"
+        req = urllib.request.Request(url_d, headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            d_data = json.loads(r.read())
+        d_quote = d_data["chart"]["result"][0]["indicators"]["quote"][0]
+        d_highs = [c for c in d_quote["high"] if c is not None]
+        d_lows  = [c for c in d_quote["low"]  if c is not None]
+        if d_highs: wk52_h = max(d_highs)
+        if d_lows:  wk52_l = min(d_lows)
+
+        if ath and wk_highs:
+            # Running max as of ~31 days ago: max of all weekly highs EXCLUDING last ~5 weeks (which overlap the 30-day window)
+            running_max = max(wk_highs[:-5]) if len(wk_highs) > 5 else 0.0
+            for h in d_highs[-30:]:
+                if h is not None and h > running_max:
+                    ath_30d += 1
+                    running_max = h
+
+        return sym, ath, wk52_h, wk52_l, ath_30d
     except Exception:
-        return sym, None
+        return sym, None, None, None, 0
 
 # ─── Hardcoded names + market caps ─────────────────────────────────────────
 NAMES = {
@@ -289,14 +315,25 @@ def run_scan(timeframe="daily"):
     # Fetch ATH for any flipped ticker (union across all 4 categories)
     flipped_syms = {r["sym"] for r in fvb_green_list + fvb_red_list + bxt_green_list + bxt_red_list}
     ath_map = {}
+    wk52h_map = {}
+    wk52l_map = {}
+    ath30d_map = {}
     with ThreadPoolExecutor(max_workers=15) as ex:
         for f in as_completed([ex.submit(fetch_ath, s) for s in flipped_syms]):
-            sym, ath = f.result()
+            sym, ath, wk52h, wk52l, ath30d = f.result()
             ath_map[sym] = ath
+            wk52h_map[sym] = wk52h
+            wk52l_map[sym] = wk52l
+            ath30d_map[sym] = ath30d
     for r in rows:
         ath = ath_map.get(r["sym"])
+        wk52h = wk52h_map.get(r["sym"])
+        wk52l = wk52l_map.get(r["sym"])
         r["ath"] = round(ath, 2) if ath else None
         r["pct_to_ath"] = round((ath - r["price"]) / r["price"] * 100, 1) if ath else None
+        r["wk52_high"] = round(wk52h, 2) if wk52h else None
+        r["wk52_low"]  = round(wk52l, 2) if wk52l else None
+        r["ath_30d"] = ath30d_map.get(r["sym"], 0)
 
     # Cache OHLC bars for ALL flipped tickers (one folder per timeframe)
     bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
@@ -345,6 +382,9 @@ def run_scan(timeframe="daily"):
             "price": src.get("price"), "basis": src.get("basis"),
             "bxt_today": src.get("bxt_today"),
             "ath": src.get("ath"), "pct_to_ath": src.get("pct_to_ath"),
+            "wk52_high": src.get("wk52_high"),
+            "wk52_low":  src.get("wk52_low"),
+            "ath_30d": src.get("ath_30d", 0),
         }
     def annotate(syms, action):
         items = [enrich(s, action) for s in syms]
