@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T04:05:13.505937+00:00",
+  "updated_at": "2026-05-10T06:41:14.080982+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.2,
+  "scan_seconds": 10.1,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -774,23 +774,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "CTRE",
-      "name": "CareTrust REIT, Inc.",
-      "mcap": 9,
-      "price": 41.6,
-      "basis": 38.81,
-      "bxt_today": 4.07,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 41.72,
-      "pct_to_ath": 0.3
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -806,6 +789,23 @@
       "bxt_streak": 18,
       "ath": 380.17,
       "pct_to_ath": 29.6
+    },
+    {
+      "sym": "CTRE",
+      "name": "CareTrust REIT, Inc.",
+      "mcap": 9,
+      "price": 41.6,
+      "basis": 38.81,
+      "bxt_today": 4.07,
+      "bxt_yest": -0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 41.72,
+      "pct_to_ath": 0.3
     },
     {
       "sym": "IBRX",
@@ -1643,23 +1643,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.37,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1675,6 +1658,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.37,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "MUR",
@@ -1831,7 +1831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T23:59:31.978987+00:00",
+    "compared_to": "2026-05-10T04:05:13.505937+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
