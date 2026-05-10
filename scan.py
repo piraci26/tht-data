@@ -181,10 +181,11 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
 
 def fetch_ath(sym):
     """Returns (sym, ath, wk52_high, wk52_low, ath_30d_count). ath_30d_count = # days in last 30 trading days
-    that closed at a NEW all-time high (intraday high exceeded the prior all-time max)."""
+    where the daily high exceeded the prior all-time max (intraday-resolution new-ATH days)."""
     sym_q = sym.replace(".","-")
     try:
-        # Weekly history (max) → ATH only
+        # range=max&interval=1wk returns true all-time high (Yahoo silently downsamples old data to
+        # quarterly bars, but the per-bar max is preserved, so max-of-array == absolute ATH).
         url_w = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=max&interval=1wk"
         req = urllib.request.Request(url_w, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -192,23 +193,25 @@ def fetch_ath(sym):
         wk_highs = [c for c in wk_data["chart"]["result"][0]["indicators"]["quote"][0]["high"] if c is not None]
         ath = max(wk_highs) if wk_highs else None
 
-        # Daily bars (1y) → 52w high/low + last-30-day new-ATH count
-        wk52_h = None
-        wk52_l = None
+        # Daily bars 5y → true daily resolution for 52w window + new-ATH counting.
+        wk52_h = wk52_l = None
         ath_30d = 0
-        url_d = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=1y&interval=1d"
+        url_d = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=5y&interval=1d"
         req = urllib.request.Request(url_d, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             d_data = json.loads(r.read())
         d_quote = d_data["chart"]["result"][0]["indicators"]["quote"][0]
         d_highs = [c for c in d_quote["high"] if c is not None]
         d_lows  = [c for c in d_quote["low"]  if c is not None]
-        if d_highs: wk52_h = max(d_highs)
-        if d_lows:  wk52_l = min(d_lows)
+        if d_highs: wk52_h = max(d_highs[-252:])  # ~252 trading days = 52 weeks
+        if d_lows:  wk52_l = min(d_lows[-252:])
 
-        if ath and wk_highs:
-            # Running max as of ~31 days ago: max of all weekly highs EXCLUDING last ~5 weeks (which overlap the 30-day window)
-            running_max = max(wk_highs[:-5]) if len(wk_highs) > 5 else 0.0
+        if len(d_highs) > 30:
+            # Baseline = highest daily high BEFORE the 30-day window
+            running_max = max(d_highs[:-30])
+            # If true ATH is older than the 5y window, it won't be in d_highs at all — use it as the floor.
+            if ath and ath > max(d_highs):
+                running_max = max(running_max, ath)
             for h in d_highs[-30:]:
                 if h is not None and h > running_max:
                     ath_30d += 1

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T22:04:39.736887+00:00",
+  "updated_at": "2026-05-10T22:13:40.627066+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.12,
+  "scan_seconds": 7.45,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -22,7 +22,7 @@
       "pct_to_ath": 14.6,
       "wk52_high": 50.63,
       "wk52_low": 38.97,
-      "ath_30d": 3
+      "ath_30d": 0
     },
     {
       "sym": "WAL",
@@ -61,7 +61,7 @@
       "ath": 228.92,
       "pct_to_ath": 11.1,
       "wk52_high": 228.92,
-      "wk52_low": 176.25,
+      "wk52_low": 175.8,
       "ath_30d": 0
     }
   ],
@@ -143,7 +143,7 @@
       "ath": 86.74,
       "pct_to_ath": 14.6,
       "wk52_high": 86.74,
-      "wk52_low": 32.0,
+      "wk52_low": 31.66,
       "ath_30d": 0
     },
     {
@@ -266,7 +266,7 @@
       "pct_to_ath": 3.3,
       "wk52_high": 154.94,
       "wk52_low": 105.65,
-      "ath_30d": 3
+      "ath_30d": 0
     },
     {
       "sym": "FSLR",
@@ -285,7 +285,7 @@
       "ath": 317.0,
       "pct_to_ath": 44.1,
       "wk52_high": 285.99,
-      "wk52_low": 133.75,
+      "wk52_low": 127.33,
       "ath_30d": 0
     },
     {
@@ -385,7 +385,7 @@
       "ath": 131.72,
       "pct_to_ath": 4.6,
       "wk52_high": 131.72,
-      "wk52_low": 44.75,
+      "wk52_low": 43.68,
       "ath_30d": 0
     },
     {
@@ -606,7 +606,7 @@
       "pct_to_ath": 0.3,
       "wk52_high": 41.72,
       "wk52_low": 27.72,
-      "ath_30d": 6
+      "ath_30d": 0
     },
     {
       "sym": "AYI",
@@ -645,7 +645,7 @@
       "ath": 45.42,
       "pct_to_ath": 433.7,
       "wk52_high": 12.43,
-      "wk52_low": 1.95,
+      "wk52_low": 1.91,
       "ath_30d": 0
     },
     {
@@ -685,7 +685,7 @@
       "ath": 58.15,
       "pct_to_ath": 207.0,
       "wk52_high": 58.15,
-      "wk52_low": 9.85,
+      "wk52_low": 9.3,
       "ath_30d": 0
     },
     {
@@ -705,7 +705,7 @@
       "ath": 117.62,
       "pct_to_ath": 43.9,
       "wk52_high": 90.25,
-      "wk52_low": 47.82,
+      "wk52_low": 46.12,
       "ath_30d": 0
     },
     {
@@ -808,7 +808,7 @@
       "pct_to_ath": 3.3,
       "wk52_high": 134.69,
       "wk52_low": 91.89,
-      "ath_30d": 10
+      "ath_30d": 0
     },
     {
       "sym": "BP",
@@ -827,7 +827,7 @@
       "ath": 79.77,
       "pct_to_ath": 84.1,
       "wk52_high": 48.27,
-      "wk52_low": 28.41,
+      "wk52_low": 28.13,
       "ath_30d": 0
     },
     {
@@ -868,7 +868,7 @@
       "pct_to_ath": 6.1,
       "wk52_high": 98.75,
       "wk52_low": 63.88,
-      "ath_30d": 8
+      "ath_30d": 5
     },
     {
       "sym": "ENB",
@@ -908,7 +908,7 @@
       "pct_to_ath": 6.7,
       "wk52_high": 404.03,
       "wk52_low": 214.35,
-      "ath_30d": 10
+      "ath_30d": 3
     },
     {
       "sym": "JCI",
@@ -927,8 +927,8 @@
       "ath": 147.32,
       "pct_to_ath": 5.6,
       "wk52_high": 147.32,
-      "wk52_low": 90.91,
-      "ath_30d": 10
+      "wk52_low": 90.35,
+      "ath_30d": 2
     },
     {
       "sym": "EPD",
@@ -968,7 +968,7 @@
       "pct_to_ath": 8.8,
       "wk52_high": 344.75,
       "wk52_low": 240.76,
-      "ath_30d": 9
+      "ath_30d": 1
     },
     {
       "sym": "NET",
@@ -987,7 +987,7 @@
       "ath": 260.0,
       "pct_to_ath": 32.6,
       "wk52_high": 260.0,
-      "wk52_low": 130.2,
+      "wk52_low": 121.46,
       "ath_30d": 0
     },
     {
@@ -1007,7 +1007,7 @@
       "ath": 134.31,
       "pct_to_ath": 5.8,
       "wk52_high": 134.31,
-      "wk52_low": 70.04,
+      "wk52_low": 67.5,
       "ath_30d": 4
     },
     {
@@ -1068,7 +1068,7 @@
       "pct_to_ath": 25.3,
       "wk52_high": 300.89,
       "wk52_low": 186.2,
-      "ath_30d": 2
+      "ath_30d": 1
     },
     {
       "sym": "FERG",
@@ -1087,8 +1087,8 @@
       "ath": 271.64,
       "pct_to_ath": 12.6,
       "wk52_high": 271.64,
-      "wk52_low": 170.23,
-      "ath_30d": 7
+      "wk52_low": 169.11,
+      "ath_30d": 0
     },
     {
       "sym": "DHI",
@@ -1168,7 +1168,7 @@
       "pct_to_ath": 10.9,
       "wk52_high": 77.78,
       "wk52_low": 28.87,
-      "ath_30d": 10
+      "ath_30d": 9
     },
     {
       "sym": "CTRA",
@@ -1208,7 +1208,7 @@
       "pct_to_ath": 4.8,
       "wk52_high": 48.98,
       "wk52_low": 37.22,
-      "ath_30d": 11
+      "ath_30d": 5
     },
     {
       "sym": "APG",
@@ -1227,7 +1227,7 @@
       "ath": 49.99,
       "pct_to_ath": 13.5,
       "wk52_high": 49.99,
-      "wk52_low": 29.01,
+      "wk52_low": 28.87,
       "ath_30d": 5
     },
     {
@@ -1248,7 +1248,7 @@
       "pct_to_ath": 5.6,
       "wk52_high": 75.76,
       "wk52_low": 58.98,
-      "ath_30d": 8
+      "ath_30d": 2
     },
     {
       "sym": "CF",
@@ -1268,7 +1268,7 @@
       "pct_to_ath": 23.4,
       "wk52_high": 141.96,
       "wk52_low": 75.42,
-      "ath_30d": 2
+      "ath_30d": 1
     },
     {
       "sym": "TOST",
@@ -1347,7 +1347,7 @@
       "ath": 149.23,
       "pct_to_ath": 319.7,
       "wk52_high": 45.66,
-      "wk52_low": 16.15,
+      "wk52_low": 15.59,
       "ath_30d": 0
     },
     {
@@ -1428,7 +1428,7 @@
       "pct_to_ath": 5.9,
       "wk52_high": 50.13,
       "wk52_low": 41.7,
-      "ath_30d": 6
+      "ath_30d": 1
     },
     {
       "sym": "CFR",
@@ -1468,7 +1468,7 @@
       "pct_to_ath": 4.7,
       "wk52_high": 345.5,
       "wk52_low": 186.0,
-      "ath_30d": 9
+      "ath_30d": 2
     },
     {
       "sym": "IDA",
@@ -1488,7 +1488,7 @@
       "pct_to_ath": 4.0,
       "wk52_high": 149.73,
       "wk52_low": 108.15,
-      "ath_30d": 9
+      "ath_30d": 3
     },
     {
       "sym": "VFC",
@@ -1511,6 +1511,26 @@
       "ath_30d": 0
     },
     {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 69.22,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8,
+      "wk52_high": 95.32,
+      "wk52_low": 34.34,
+      "ath_30d": 8
+    },
+    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1531,26 +1551,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 69.22,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8,
-      "wk52_high": 95.32,
-      "wk52_low": 34.34,
-      "ath_30d": 5
-    },
-    {
       "sym": "CENX",
       "name": "Century Aluminum Company",
       "mcap": 6,
@@ -1567,7 +1567,7 @@
       "ath": 80.52,
       "pct_to_ath": 36.7,
       "wk52_high": 68.69,
-      "wk52_low": 15.13,
+      "wk52_low": 14.77,
       "ath_30d": 0
     },
     {
@@ -1627,8 +1627,8 @@
       "ath": 71.98,
       "pct_to_ath": 22.2,
       "wk52_high": 71.98,
-      "wk52_low": 40.18,
-      "ath_30d": 0
+      "wk52_low": 38.96,
+      "ath_30d": 3
     },
     {
       "sym": "ADT",
@@ -1667,7 +1667,7 @@
       "ath": 87.63,
       "pct_to_ath": 137.0,
       "wk52_high": 43.34,
-      "wk52_low": 20.31,
+      "wk52_low": 20.2,
       "ath_30d": 0
     },
     {
@@ -1688,7 +1688,7 @@
       "pct_to_ath": 4.5,
       "wk52_high": 165.46,
       "wk52_low": 99.58,
-      "ath_30d": 6
+      "ath_30d": 2
     },
     {
       "sym": "UNF",
@@ -1708,7 +1708,7 @@
       "pct_to_ath": 12.4,
       "wk52_high": 283.77,
       "wk52_low": 147.66,
-      "ath_30d": 5
+      "ath_30d": 0
     },
     {
       "sym": "TPC",
@@ -1727,8 +1727,8 @@
       "ath": 100.0,
       "pct_to_ath": 20.7,
       "wk52_high": 100.0,
-      "wk52_low": 29.8,
-      "ath_30d": 17
+      "wk52_low": 25.36,
+      "ath_30d": 5
     },
     {
       "sym": "BFAM",
@@ -1787,8 +1787,8 @@
       "ath": 39.56,
       "pct_to_ath": 14.0,
       "wk52_high": 39.56,
-      "wk52_low": 15.09,
-      "ath_30d": 12
+      "wk52_low": 14.71,
+      "ath_30d": 11
     },
     {
       "sym": "OTTR",
@@ -1832,7 +1832,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T21:29:22.471285+00:00",
+    "compared_to": "2026-05-10T22:04:39.736887+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
