@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T19:44:45.491461+00:00",
+  "updated_at": "2026-05-10T20:32:10.568291+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.11,
+  "scan_seconds": 8.06,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -281,23 +281,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.75,
-      "basis": 13.66,
-      "bxt_today": 2.38,
-      "bxt_yest": -0.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 115.7
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -313,6 +296,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 11.7
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.75,
+      "basis": 13.66,
+      "bxt_today": 2.38,
+      "bxt_yest": -0.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 115.7
     },
     {
       "sym": "NXT",
@@ -502,23 +502,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 323.76,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -534,6 +517,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 323.76,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -1286,23 +1286,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 69.22,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1318,6 +1301,23 @@
       "bxt_streak": 3,
       "ath": 45.87,
       "pct_to_ath": 124.6
+    },
+    {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 69.22,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8
     },
     {
       "sym": "CENX",
@@ -1559,7 +1559,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T18:37:22.014355+00:00",
+    "compared_to": "2026-05-10T19:44:45.491461+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

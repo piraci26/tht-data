@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T19:44:52.424491+00:00",
+  "updated_at": "2026-05-10T20:32:18.431056+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.92,
+  "scan_seconds": 7.85,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -281,23 +281,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "TSN",
-      "name": "Tyson Foods, Inc.",
-      "mcap": 24,
-      "price": 68.38,
-      "basis": 67.27,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 100.72,
-      "pct_to_ath": 47.3
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -313,6 +296,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "mcap": 24,
+      "price": 68.38,
+      "basis": 67.27,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 100.72,
+      "pct_to_ath": 47.3
     },
     {
       "sym": "NTAP",
@@ -383,23 +383,6 @@
       "pct_to_ath": 63.6
     },
     {
-      "sym": "EG",
-      "name": "Everest Group, Ltd.",
-      "mcap": 16,
-      "price": 351.52,
-      "basis": 360.68,
-      "bxt_today": 0.23,
-      "bxt_yest": -1.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 417.92,
-      "pct_to_ath": 18.9
-    },
-    {
       "sym": "LOGI",
       "name": "Logitech International S.A. Ordinary Shares",
       "mcap": 16,
@@ -415,6 +398,23 @@
       "bxt_streak": 5,
       "ath": 140.17,
       "pct_to_ath": 28.1
+    },
+    {
+      "sym": "EG",
+      "name": "Everest Group, Ltd.",
+      "mcap": 16,
+      "price": 351.52,
+      "basis": 360.68,
+      "bxt_today": 0.23,
+      "bxt_yest": -1.93,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 417.92,
+      "pct_to_ath": 18.9
     },
     {
       "sym": "CNH",
@@ -1116,23 +1116,6 @@
       "pct_to_ath": 225.8
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 54.49,
-      "bxt_today": -5.45,
-      "bxt_yest": 0.69,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -1148,6 +1131,23 @@
       "bxt_streak": 2,
       "ath": 17.21,
       "pct_to_ath": 150.5
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 54.49,
+      "bxt_today": -5.45,
+      "bxt_yest": 0.69,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2
     },
     {
       "sym": "OTF",
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T18:37:28.825578+00:00",
+    "compared_to": "2026-05-10T19:44:52.424491+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
