@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-09T23:59:40.694980+00:00",
+  "updated_at": "2026-05-10T04:05:19.543900+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.71,
+  "scan_seconds": 6.03,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -791,23 +791,6 @@
       "pct_to_ath": 47.3
     },
     {
-      "sym": "CPAY",
-      "name": "Corpay, Inc.",
-      "mcap": 23,
-      "price": 343.99,
-      "basis": 325.86,
-      "bxt_today": 1.15,
-      "bxt_yest": -2.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 400.81,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NTAP",
       "name": "NetApp, Inc.",
       "mcap": 23,
@@ -823,6 +806,23 @@
       "bxt_streak": 16,
       "ath": 152.75,
       "pct_to_ath": 29.4
+    },
+    {
+      "sym": "CPAY",
+      "name": "Corpay, Inc.",
+      "mcap": 23,
+      "price": 343.99,
+      "basis": 325.86,
+      "bxt_today": 1.15,
+      "bxt_yest": -2.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 400.81,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "NXT",
@@ -1063,6 +1063,23 @@
       "pct_to_ath": 207.0
     },
     {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 7.85,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3
+    },
+    {
       "sym": "RDN",
       "name": "Radian Group Inc.",
       "mcap": 5,
@@ -1097,23 +1114,6 @@
       "pct_to_ath": 5.0
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 7.85,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3
-    },
-    {
       "sym": "CVSA",
       "name": "Covista Inc. Common Shares",
       "mcap": 5,
@@ -1131,23 +1131,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "KRC",
-      "name": "Kilroy Realty Corporation",
-      "mcap": 4,
-      "price": 34.9,
-      "basis": 36.31,
-      "bxt_today": 0.55,
-      "bxt_yest": -1.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 90.15,
-      "pct_to_ath": 158.3
-    },
-    {
       "sym": "BILL",
       "name": "BILL Holdings, Inc.",
       "mcap": 4,
@@ -1163,6 +1146,23 @@
       "bxt_streak": 16,
       "ath": 348.49,
       "pct_to_ath": 733.1
+    },
+    {
+      "sym": "KRC",
+      "name": "Kilroy Realty Corporation",
+      "mcap": 4,
+      "price": 34.9,
+      "basis": 36.31,
+      "bxt_today": 0.55,
+      "bxt_yest": -1.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 90.15,
+      "pct_to_ath": 158.3
     }
   ],
   "bxt_red": [
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 30.7
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 133.05,
-      "bxt_today": -0.28,
-      "bxt_yest": 1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 133.05,
+      "bxt_today": -0.28,
+      "bxt_yest": 1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "ENSG",
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-09T23:02:43.817236+00:00",
+    "compared_to": "2026-05-09T23:59:40.694980+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
