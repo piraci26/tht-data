@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T13:50:12.347226+00:00",
+  "updated_at": "2026-05-10T14:42:18.338524+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 27.82,
+  "scan_seconds": 11.87,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -230,23 +230,6 @@
       "pct_to_ath": 3.3
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.95,
-      "basis": 229.49,
-      "bxt_today": 0.39,
-      "bxt_yest": -3.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.1
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -262,6 +245,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 147.2
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.95,
+      "basis": 229.49,
+      "bxt_today": 0.39,
+      "bxt_yest": -3.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.1
     },
     {
       "sym": "SW",
@@ -281,23 +281,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.75,
-      "basis": 13.66,
-      "bxt_today": 2.38,
-      "bxt_yest": -0.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 115.7
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -313,6 +296,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 11.7
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.75,
+      "basis": 13.66,
+      "bxt_today": 2.38,
+      "bxt_yest": -0.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 115.7
     },
     {
       "sym": "NXT",
@@ -502,23 +502,6 @@
       "pct_to_ath": 119.5
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 293.33,
-      "basis": 323.76,
-      "bxt_today": 0.46,
-      "bxt_yest": -1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 29.6
-    },
-    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -534,6 +517,23 @@
       "bxt_streak": 8,
       "ath": 41.72,
       "pct_to_ath": 0.3
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 293.33,
+      "basis": 323.76,
+      "bxt_today": 0.46,
+      "bxt_yest": -1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 29.6
     },
     {
       "sym": "IBRX",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.81,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1403,6 +1386,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.81,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "MUR",
@@ -1507,23 +1507,6 @@
       "pct_to_ath": 105.1
     },
     {
-      "sym": "OTTR",
-      "name": "Otter Tail Corporation",
-      "mcap": 4,
-      "price": 88.03,
-      "basis": 84.64,
-      "bxt_today": -1.12,
-      "bxt_yest": 1.41,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 100.84,
-      "pct_to_ath": 14.6
-    },
-    {
       "sym": "DAN",
       "name": "Dana Incorporated",
       "mcap": 4,
@@ -1539,6 +1522,23 @@
       "bxt_streak": 27,
       "ath": 39.56,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "OTTR",
+      "name": "Otter Tail Corporation",
+      "mcap": 4,
+      "price": 88.03,
+      "basis": 84.64,
+      "bxt_today": -1.12,
+      "bxt_yest": 1.41,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 100.84,
+      "pct_to_ath": 14.6
     },
     {
       "sym": "FSLY",
@@ -1559,7 +1559,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T12:00:54.277355+00:00",
+    "compared_to": "2026-05-10T13:50:12.347226+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
