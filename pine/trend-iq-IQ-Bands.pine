@@ -27,9 +27,9 @@ showBands  = input.bool(true,  "Band edges with halo",           group = "Displa
 showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Display")
 showTable  = input.bool(true,  "Status table (top right)",       group = "Display")
 
-// Colors — palette unifies IQ Bands and IQ Oscillator panes
-bullCol  = input.color(#26a69a, "Bull regime",  group = "Colors")
-bearCol  = input.color(#ef5350, "Bear regime",  group = "Colors")
+// Colors — match IQ Oscillator's vivid smoothed-line palette
+bullCol  = input.color(#00E676, "Bull regime",  group = "Colors")
+bearCol  = input.color(#FF5252, "Bear regime",  group = "Colors")
 basisCol = input.color(#00E676, "Basis line",   group = "Colors")
 buyCol   = input.color(#00E676, "BUY label bg", group = "Colors")
 sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")
