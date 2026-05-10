@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T18:37:28.825578+00:00",
+  "updated_at": "2026-05-10T19:44:52.424491+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.8,
+  "scan_seconds": 6.92,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -315,23 +315,6 @@
       "pct_to_ath": 147.2
     },
     {
-      "sym": "CPAY",
-      "name": "Corpay, Inc.",
-      "mcap": 23,
-      "price": 343.99,
-      "basis": 307.32,
-      "bxt_today": 1.15,
-      "bxt_yest": -2.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 400.81,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NTAP",
       "name": "NetApp, Inc.",
       "mcap": 23,
@@ -347,6 +330,23 @@
       "bxt_streak": 16,
       "ath": 152.75,
       "pct_to_ath": 29.4
+    },
+    {
+      "sym": "CPAY",
+      "name": "Corpay, Inc.",
+      "mcap": 23,
+      "price": 343.99,
+      "basis": 307.32,
+      "bxt_today": 1.15,
+      "bxt_yest": -2.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 400.81,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "NXT",
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T17:35:10.275047+00:00",
+    "compared_to": "2026-05-10T18:37:28.825578+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

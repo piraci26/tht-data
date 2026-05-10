@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T18:37:22.014355+00:00",
+  "updated_at": "2026-05-10T19:44:45.491461+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.98,
+  "scan_seconds": 6.11,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -281,23 +281,6 @@
       "pct_to_ath": 44.6
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 224.59,
-      "basis": 213.64,
-      "bxt_today": 1.32,
-      "bxt_yest": -1.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 11.7
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -313,6 +296,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 115.7
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 224.59,
+      "basis": 213.64,
+      "bxt_today": 1.32,
+      "bxt_yest": -1.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 11.7
     },
     {
       "sym": "NXT",
@@ -1559,7 +1559,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T17:35:02.767940+00:00",
+    "compared_to": "2026-05-10T18:37:22.014355+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
