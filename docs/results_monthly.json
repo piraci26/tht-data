@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T20:32:18.431056+00:00",
+  "updated_at": "2026-05-10T21:29:30.914241+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.85,
+  "scan_seconds": 8.43,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -383,23 +383,6 @@
       "pct_to_ath": 63.6
     },
     {
-      "sym": "LOGI",
-      "name": "Logitech International S.A. Ordinary Shares",
-      "mcap": 16,
-      "price": 109.39,
-      "basis": 91.63,
-      "bxt_today": 2.32,
-      "bxt_yest": -0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 140.17,
-      "pct_to_ath": 28.1
-    },
-    {
       "sym": "EG",
       "name": "Everest Group, Ltd.",
       "mcap": 16,
@@ -415,6 +398,23 @@
       "bxt_streak": 26,
       "ath": 417.92,
       "pct_to_ath": 18.9
+    },
+    {
+      "sym": "LOGI",
+      "name": "Logitech International S.A. Ordinary Shares",
+      "mcap": 16,
+      "price": 109.39,
+      "basis": 91.63,
+      "bxt_today": 2.32,
+      "bxt_yest": -0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 140.17,
+      "pct_to_ath": 28.1
     },
     {
       "sym": "CNH",
@@ -587,23 +587,6 @@
       "pct_to_ath": 207.0
     },
     {
-      "sym": "RDN",
-      "name": "Radian Group Inc.",
-      "mcap": 5,
-      "price": 38.06,
-      "basis": 32.85,
-      "bxt_today": 1.36,
-      "bxt_yest": -2.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 67.35,
-      "pct_to_ath": 77.0
-    },
-    {
       "sym": "QS",
       "name": "QuantumScape Corporation",
       "mcap": 5,
@@ -619,6 +602,23 @@
       "bxt_streak": 25,
       "ath": 132.73,
       "pct_to_ath": 1660.3
+    },
+    {
+      "sym": "RDN",
+      "name": "Radian Group Inc.",
+      "mcap": 5,
+      "price": 38.06,
+      "basis": 32.85,
+      "bxt_today": 1.36,
+      "bxt_yest": -2.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 67.35,
+      "pct_to_ath": 77.0
     },
     {
       "sym": "IBOC",
@@ -1014,23 +1014,6 @@
       "pct_to_ath": 30.7
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 139.12,
-      "bxt_today": -0.28,
-      "bxt_yest": 1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1046,6 +1029,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 139.12,
+      "bxt_today": -0.28,
+      "bxt_yest": 1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "ENSG",
@@ -1116,23 +1116,6 @@
       "pct_to_ath": 225.8
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.81,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1148,6 +1131,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.81,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5
     },
     {
       "sym": "OTF",
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T19:44:52.424491+00:00",
+    "compared_to": "2026-05-10T20:32:18.431056+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
