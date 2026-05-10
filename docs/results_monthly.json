@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T14:42:30.018066+00:00",
+  "updated_at": "2026-05-10T15:38:56.966543+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.67,
+  "scan_seconds": 21.79,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -655,23 +655,6 @@
       "pct_to_ath": 16.8
     },
     {
-      "sym": "KRC",
-      "name": "Kilroy Realty Corporation",
-      "mcap": 4,
-      "price": 34.9,
-      "basis": 35.91,
-      "bxt_today": 0.55,
-      "bxt_yest": -1.3,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 90.15,
-      "pct_to_ath": 158.3
-    },
-    {
       "sym": "BILL",
       "name": "BILL Holdings, Inc.",
       "mcap": 4,
@@ -687,6 +670,23 @@
       "bxt_streak": 16,
       "ath": 348.49,
       "pct_to_ath": 733.1
+    },
+    {
+      "sym": "KRC",
+      "name": "Kilroy Realty Corporation",
+      "mcap": 4,
+      "price": 34.9,
+      "basis": 35.91,
+      "bxt_today": 0.55,
+      "bxt_yest": -1.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 90.15,
+      "pct_to_ath": 158.3
     }
   ],
   "bxt_red": [
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T13:50:36.421921+00:00",
+    "compared_to": "2026-05-10T14:42:30.018066+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

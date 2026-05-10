@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T14:42:06.452467+00:00",
+  "updated_at": "2026-05-10T15:38:11.955722+00:00",
   "timeframe": "daily",
-  "scan_seconds": 15.44,
+  "scan_seconds": 23.19,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1078,6 +1078,23 @@
       "pct_to_ath": 175.6
     },
     {
+      "sym": "HBAN",
+      "name": "Huntington Bancshares Incorporated",
+      "mcap": 33,
+      "price": 16.12,
+      "basis": 16.2,
+      "bxt_today": -8.92,
+      "bxt_yest": -5.87,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 30.89,
+      "pct_to_ath": 91.6
+    },
+    {
       "sym": "AXON",
       "name": "Axon Enterprise, Inc.",
       "mcap": 33,
@@ -1110,23 +1127,6 @@
       "bxt_streak": null,
       "ath": 179.57,
       "pct_to_ath": 55.3
-    },
-    {
-      "sym": "HBAN",
-      "name": "Huntington Bancshares Incorporated",
-      "mcap": 33,
-      "price": 16.12,
-      "basis": 16.2,
-      "bxt_today": -8.92,
-      "bxt_yest": -5.87,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 30.89,
-      "pct_to_ath": 91.6
     },
     {
       "sym": "SYM",
@@ -1503,21 +1503,21 @@
       "pct_to_ath": 346.5
     },
     {
-      "sym": "ZG",
-      "name": "Zillow Group, Inc.",
+      "sym": "Z",
+      "name": "Zillow Group, Inc. Class C Capital Stock",
       "mcap": 10,
-      "price": 41.94,
-      "basis": 43.33,
-      "bxt_today": -3.95,
-      "bxt_yest": 3.18,
+      "price": 41.43,
+      "basis": 43.24,
+      "bxt_today": -4.87,
+      "bxt_yest": 2.47,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": 17,
       "bxt_streak": 50,
-      "ath": 212.4,
-      "pct_to_ath": 406.4
+      "ath": 208.11,
+      "pct_to_ath": 402.3
     },
     {
       "sym": "STN",
@@ -1537,21 +1537,21 @@
       "pct_to_ath": 31.0
     },
     {
-      "sym": "Z",
-      "name": "Zillow Group, Inc. Class C Capital Stock",
+      "sym": "ZG",
+      "name": "Zillow Group, Inc.",
       "mcap": 10,
-      "price": 41.43,
-      "basis": 43.24,
-      "bxt_today": -4.87,
-      "bxt_yest": 2.47,
+      "price": 41.94,
+      "basis": 43.33,
+      "bxt_today": -3.95,
+      "bxt_yest": 3.18,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": 17,
       "bxt_streak": 50,
-      "ath": 208.11,
-      "pct_to_ath": 402.3
+      "ath": 212.4,
+      "pct_to_ath": 406.4
     },
     {
       "sym": "EDU",
@@ -1605,23 +1605,6 @@
       "pct_to_ath": 64.8
     },
     {
-      "sym": "SARO",
-      "name": "StandardAero, Inc.",
-      "mcap": 8,
-      "price": 25.14,
-      "basis": 25.81,
-      "bxt_today": 11.8,
-      "bxt_yest": 14.36,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 34.48,
-      "pct_to_ath": 37.2
-    },
-    {
       "sym": "ESE",
       "name": "ESCO Technologies Inc.",
       "mcap": 8,
@@ -1637,6 +1620,23 @@
       "bxt_streak": 4,
       "ath": 346.2,
       "pct_to_ath": 14.2
+    },
+    {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 8,
+      "price": 25.14,
+      "basis": 25.81,
+      "bxt_today": 11.8,
+      "bxt_yest": 14.36,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 34.48,
+      "pct_to_ath": 37.2
     },
     {
       "sym": "KNTK",
@@ -2013,23 +2013,6 @@
       "pct_to_ath": 55.6
     },
     {
-      "sym": "FOUR",
-      "name": "Shift4 Payments, Inc.",
-      "mcap": 3,
-      "price": 42.58,
-      "basis": 45.3,
-      "bxt_today": -2.76,
-      "bxt_yest": -0.06,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 127.5,
-      "pct_to_ath": 199.4
-    },
-    {
       "sym": "AGO",
       "name": "Assured Guaranty Ltd.",
       "mcap": 3,
@@ -2045,6 +2028,23 @@
       "bxt_streak": null,
       "ath": 96.6,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "mcap": 3,
+      "price": 42.58,
+      "basis": 45.3,
+      "bxt_today": -2.76,
+      "bxt_yest": -0.06,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 127.5,
+      "pct_to_ath": 199.4
     }
   ],
   "bxt_green": [
@@ -2236,23 +2236,6 @@
       "pct_to_ath": 15.0
     },
     {
-      "sym": "PHG",
-      "name": "Koninklijke Philips N.V. NY Registry Shares",
-      "mcap": 26,
-      "price": 27.21,
-      "basis": 27.47,
-      "bxt_today": 1.6,
-      "bxt_yest": -1.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 61.23,
-      "pct_to_ath": 125.0
-    },
-    {
       "sym": "VRSN",
       "name": "VeriSign, Inc.",
       "mcap": 26,
@@ -2268,6 +2251,23 @@
       "bxt_streak": 10,
       "ath": 310.6,
       "pct_to_ath": 7.8
+    },
+    {
+      "sym": "PHG",
+      "name": "Koninklijke Philips N.V. NY Registry Shares",
+      "mcap": 26,
+      "price": 27.21,
+      "basis": 27.47,
+      "bxt_today": 1.6,
+      "bxt_yest": -1.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 61.23,
+      "pct_to_ath": 125.0
     },
     {
       "sym": "ALB",
@@ -2372,23 +2372,6 @@
       "pct_to_ath": 13.6
     },
     {
-      "sym": "LSCC",
-      "name": "Lattice Semiconductor Corporation",
-      "mcap": 17,
-      "price": 127.19,
-      "basis": 108.79,
-      "bxt_today": 2.21,
-      "bxt_yest": -0.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 127.95,
-      "pct_to_ath": 0.6
-    },
-    {
       "sym": "MGA",
       "name": "Magna International, Inc.",
       "mcap": 17,
@@ -2404,6 +2387,23 @@
       "bxt_streak": 1,
       "ath": 104.28,
       "pct_to_ath": 65.2
+    },
+    {
+      "sym": "LSCC",
+      "name": "Lattice Semiconductor Corporation",
+      "mcap": 17,
+      "price": 127.19,
+      "basis": 108.79,
+      "bxt_today": 2.21,
+      "bxt_yest": -0.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 127.95,
+      "pct_to_ath": 0.6
     },
     {
       "sym": "OHI",
@@ -2661,23 +2661,6 @@
       "pct_to_ath": 85.7
     },
     {
-      "sym": "MCY",
-      "name": "Mercury General Corporation",
-      "mcap": 6,
-      "price": 99.67,
-      "basis": 93.13,
-      "bxt_today": 4.53,
-      "bxt_yest": -1.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 100.69,
-      "pct_to_ath": 1.0
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 6,
@@ -2693,6 +2676,23 @@
       "bxt_streak": 11,
       "ath": 87.5,
       "pct_to_ath": 18.7
+    },
+    {
+      "sym": "MCY",
+      "name": "Mercury General Corporation",
+      "mcap": 6,
+      "price": 99.67,
+      "basis": 93.13,
+      "bxt_today": 4.53,
+      "bxt_yest": -1.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 100.69,
+      "pct_to_ath": 1.0
     },
     {
       "sym": "LYFT",
@@ -3292,23 +3292,6 @@
       "pct_to_ath": 11.2
     },
     {
-      "sym": "EVRG",
-      "name": "Evergy, Inc.",
-      "mcap": 19,
-      "price": 81.78,
-      "basis": 81.7,
-      "bxt_today": -0.99,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 85.27,
-      "pct_to_ath": 4.3
-    },
-    {
       "sym": "DLTR",
       "name": "Dollar Tree Inc.",
       "mcap": 19,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 1,
       "ath": 177.19,
       "pct_to_ath": 88.0
+    },
+    {
+      "sym": "EVRG",
+      "name": "Evergy, Inc.",
+      "mcap": 19,
+      "price": 81.78,
+      "basis": 81.7,
+      "bxt_today": -0.99,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 85.27,
+      "pct_to_ath": 4.3
     },
     {
       "sym": "BR",
@@ -3513,21 +3513,21 @@
       "pct_to_ath": 143.4
     },
     {
-      "sym": "ZG",
-      "name": "Zillow Group, Inc.",
+      "sym": "Z",
+      "name": "Zillow Group, Inc. Class C Capital Stock",
       "mcap": 10,
-      "price": 41.94,
-      "basis": 43.33,
-      "bxt_today": -3.95,
-      "bxt_yest": 3.18,
+      "price": 41.43,
+      "basis": 43.24,
+      "bxt_today": -4.87,
+      "bxt_yest": 2.47,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": 17,
       "bxt_streak": 50,
-      "ath": 212.4,
-      "pct_to_ath": 406.4
+      "ath": 208.11,
+      "pct_to_ath": 402.3
     },
     {
       "sym": "STN",
@@ -3547,21 +3547,21 @@
       "pct_to_ath": 31.0
     },
     {
-      "sym": "Z",
-      "name": "Zillow Group, Inc. Class C Capital Stock",
+      "sym": "ZG",
+      "name": "Zillow Group, Inc.",
       "mcap": 10,
-      "price": 41.43,
-      "basis": 43.24,
-      "bxt_today": -4.87,
-      "bxt_yest": 2.47,
+      "price": 41.94,
+      "basis": 43.33,
+      "bxt_today": -3.95,
+      "bxt_yest": 3.18,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": 17,
       "bxt_streak": 50,
-      "ath": 208.11,
-      "pct_to_ath": 402.3
+      "ath": 212.4,
+      "pct_to_ath": 406.4
     },
     {
       "sym": "DCI",
@@ -3615,23 +3615,6 @@
       "pct_to_ath": 9.1
     },
     {
-      "sym": "TTEK",
-      "name": "Tetra Tech, Inc.",
-      "mcap": 8,
-      "price": 30.29,
-      "basis": 31.14,
-      "bxt_today": -3.59,
-      "bxt_yest": 1.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 51.2,
-      "pct_to_ath": 69.0
-    },
-    {
       "sym": "ESE",
       "name": "ESCO Technologies Inc.",
       "mcap": 8,
@@ -3647,6 +3630,23 @@
       "bxt_streak": 4,
       "ath": 346.2,
       "pct_to_ath": 14.2
+    },
+    {
+      "sym": "TTEK",
+      "name": "Tetra Tech, Inc.",
+      "mcap": 8,
+      "price": 30.29,
+      "basis": 31.14,
+      "bxt_today": -3.59,
+      "bxt_yest": 1.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 51.2,
+      "pct_to_ath": 69.0
     },
     {
       "sym": "NXE",
@@ -3836,23 +3836,6 @@
       "pct_to_ath": 133.2
     },
     {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 5,
-      "price": 10.92,
-      "basis": 11.67,
-      "bxt_today": -0.93,
-      "bxt_yest": 2.86,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 21.62,
-      "pct_to_ath": 98.0
-    },
-    {
       "sym": "HASI",
       "name": "HA Sustainable Infrastructure Capital, Inc.",
       "mcap": 5,
@@ -3868,6 +3851,23 @@
       "bxt_streak": 26,
       "ath": 72.42,
       "pct_to_ath": 76.4
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 5,
+      "price": 10.92,
+      "basis": 11.67,
+      "bxt_today": -0.93,
+      "bxt_yest": 2.86,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 21.62,
+      "pct_to_ath": 98.0
     },
     {
       "sym": "GLBE",
@@ -4125,23 +4125,6 @@
       "pct_to_ath": 1182.8
     },
     {
-      "sym": "LION",
-      "name": "Lionsgate Studios Corp Common Shares",
-      "mcap": 4,
-      "price": 12.24,
-      "basis": 11.0,
-      "bxt_today": -2.67,
-      "bxt_yest": 2.85,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 23,
-      "ath": 13.0,
-      "pct_to_ath": 6.2
-    },
-    {
       "sym": "BHF",
       "name": "Brighthouse Financial, Inc.",
       "mcap": 4,
@@ -4157,6 +4140,23 @@
       "bxt_streak": 33,
       "ath": 75.0,
       "pct_to_ath": 22.2
+    },
+    {
+      "sym": "LION",
+      "name": "Lionsgate Studios Corp Common Shares",
+      "mcap": 4,
+      "price": 12.24,
+      "basis": 11.0,
+      "bxt_today": -2.67,
+      "bxt_yest": 2.85,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 23,
+      "ath": 13.0,
+      "pct_to_ath": 6.2
     },
     {
       "sym": "CTRI",
@@ -4176,23 +4176,6 @@
       "pct_to_ath": 24.5
     },
     {
-      "sym": "HWKN",
-      "name": "Hawkins, Inc.",
-      "mcap": 3,
-      "price": 167.16,
-      "basis": 156.21,
-      "bxt_today": -0.4,
-      "bxt_yest": 1.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 186.15,
-      "pct_to_ath": 11.4
-    },
-    {
       "sym": "WBI",
       "name": "WaterBridge Infrastructure LLC Shares Representing Limited Liability Company Interests",
       "mcap": 3,
@@ -4208,6 +4191,23 @@
       "bxt_streak": 12,
       "ath": 30.81,
       "pct_to_ath": 12.7
+    },
+    {
+      "sym": "HWKN",
+      "name": "Hawkins, Inc.",
+      "mcap": 3,
+      "price": 167.16,
+      "basis": 156.21,
+      "bxt_today": -0.4,
+      "bxt_yest": 1.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 186.15,
+      "pct_to_ath": 11.4
     },
     {
       "sym": "GMAB",
@@ -4228,7 +4228,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T13:49:44.514075+00:00",
+    "compared_to": "2026-05-10T14:42:06.452467+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
