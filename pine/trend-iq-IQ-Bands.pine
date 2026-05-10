@@ -73,10 +73,11 @@ plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
 plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 
 // ─── BUY / SELL LABELS (dual flips only) ─────────────────────────────
-// Tail-less filled pills via label.new() with style_label_center. Auto-sized
-// to text — the bg always wraps the text exactly. ATR-offset distance from
-// candle is consistent across timeframes.
-atr14  = ta.atr(14)
+// Filled pills auto-sized to text, with a small directional arrow pointing
+// at the exact bar where the dual flip fired.
+//   · BUY  →  style_label_up    (pill below bar, arrow points UP at bar)
+//   · SELL →  style_label_down  (pill above bar, arrow points DOWN at bar)
+atr14    = ta.atr(14)
 labelOff = atr14 * 1.4
 
 if showLabels and dualGreen
@@ -86,7 +87,7 @@ if showLabels and dualGreen
         text      = "BUY",
         color     = buyCol,
         textcolor = color.white,
-        style     = label.style_label_center,
+        style     = label.style_label_up,
         size      = size.normal,
         text_font_family = font.family_default)
 
@@ -97,7 +98,7 @@ if showLabels and dualRed
         text      = "SELL",
         color     = sellCol,
         textcolor = color.white,
-        style     = label.style_label_center,
+        style     = label.style_label_down,
         size      = size.normal,
         text_font_family = font.family_default)
 
