@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T22:26:09.819189+00:00",
+  "updated_at": "2026-05-10T23:26:37.280454+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.76,
+  "scan_seconds": 7.38,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -689,26 +689,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 10.42,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3,
-      "wk52_high": 19.07,
-      "wk52_low": 3.8,
-      "ath_30d": 0
-    },
-    {
       "sym": "RDN",
       "name": "Radian Group Inc.",
       "mcap": 5,
@@ -726,6 +706,26 @@
       "pct_to_ath": 77.0,
       "wk52_high": 38.84,
       "wk52_low": 31.5,
+      "ath_30d": 0
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 10.42,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3,
+      "wk52_high": 19.07,
+      "wk52_low": 3.8,
       "ath_30d": 0
     },
     {
@@ -1191,26 +1191,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 139.12,
-      "bxt_today": -0.28,
-      "bxt_yest": 1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7,
-      "wk52_high": 179.32,
-      "wk52_low": 104.69,
-      "ath_30d": 0
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1228,6 +1208,26 @@
       "pct_to_ath": 24.4,
       "wk52_high": 73.7,
       "wk52_low": 46.0,
+      "ath_30d": 0
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 139.12,
+      "bxt_today": -0.28,
+      "bxt_yest": 1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7,
+      "wk52_high": 179.32,
+      "wk52_low": 104.69,
       "ath_30d": 0
     },
     {
@@ -1311,26 +1311,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 54.49,
-      "bxt_today": -5.45,
-      "bxt_yest": 0.69,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2,
-      "wk52_high": 71.98,
-      "wk52_low": 38.96,
-      "ath_30d": 3
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -1349,6 +1329,26 @@
       "wk52_high": 8.94,
       "wk52_low": 6.25,
       "ath_30d": 0
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 54.49,
+      "bxt_today": -5.45,
+      "bxt_yest": 0.69,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2,
+      "wk52_high": 71.98,
+      "wk52_low": 38.96,
+      "ath_30d": 3
     },
     {
       "sym": "OTF",
@@ -1492,7 +1492,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T22:13:47.792155+00:00",
+    "compared_to": "2026-05-10T22:26:09.819189+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

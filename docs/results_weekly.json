@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T22:25:55.054031+00:00",
+  "updated_at": "2026-05-10T23:26:29.890238+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 15.77,
+  "scan_seconds": 8.02,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -329,26 +329,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 224.59,
-      "basis": 213.64,
-      "bxt_today": 1.32,
-      "bxt_yest": -1.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 11.7,
-      "wk52_high": 249.51,
-      "wk52_low": 178.32,
-      "ath_30d": 0
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -366,6 +346,26 @@
       "pct_to_ath": 115.7,
       "wk52_high": 16.74,
       "wk52_low": 11.69,
+      "ath_30d": 0
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 224.59,
+      "basis": 213.64,
+      "bxt_today": 1.32,
+      "bxt_yest": -1.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 11.7,
+      "wk52_high": 249.51,
+      "wk52_low": 178.32,
       "ath_30d": 0
     },
     {
@@ -1511,26 +1511,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.42,
-      "basis": 22.45,
-      "bxt_today": -0.44,
-      "bxt_yest": 0.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 45.87,
-      "pct_to_ath": 124.6,
-      "wk52_high": 27.34,
-      "wk52_low": 19.49,
-      "ath_30d": 0
-    },
-    {
       "sym": "APGE",
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 6,
@@ -1549,6 +1529,26 @@
       "wk52_high": 95.32,
       "wk52_low": 34.34,
       "ath_30d": 8
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.42,
+      "basis": 22.45,
+      "bxt_today": -0.44,
+      "bxt_yest": 0.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 45.87,
+      "pct_to_ath": 124.6,
+      "wk52_high": 27.34,
+      "wk52_low": 19.49,
+      "ath_30d": 0
     },
     {
       "sym": "CENX",
@@ -1832,7 +1832,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T22:13:40.627066+00:00",
+    "compared_to": "2026-05-10T22:25:55.054031+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
