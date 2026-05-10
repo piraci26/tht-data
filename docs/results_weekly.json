@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T12:00:54.277355+00:00",
+  "updated_at": "2026-05-10T13:50:12.347226+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.78,
+  "scan_seconds": 27.82,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1507,23 +1507,6 @@
       "pct_to_ath": 105.1
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.7,
-      "basis": 27.61,
-      "bxt_today": -3.6,
-      "bxt_yest": 1.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.0
-    },
-    {
       "sym": "OTTR",
       "name": "Otter Tail Corporation",
       "mcap": 4,
@@ -1539,6 +1522,23 @@
       "bxt_streak": 6,
       "ath": 100.84,
       "pct_to_ath": 14.6
+    },
+    {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.7,
+      "basis": 27.61,
+      "bxt_today": -3.6,
+      "bxt_yest": 1.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.0
     },
     {
       "sym": "FSLY",
@@ -1559,335 +1559,11 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T11:03:10.928208+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "FAST",
-        "name": "Fastenal Company",
-        "mcap": 51,
-        "price": 44.17,
-        "basis": 44.15,
-        "bxt_today": -6.82,
-        "ath": 50.63,
-        "pct_to_ath": 14.6
-      },
-      {
-        "sym": "WAL",
-        "name": "Western Alliance Bancorporation (DE)",
-        "mcap": 9,
-        "price": 81.9,
-        "basis": 81.84,
-        "bxt_today": 3.57,
-        "ath": 124.93,
-        "pct_to_ath": 52.5
-      },
-      {
-        "sym": "AN",
-        "name": "AutoNation, Inc.",
-        "mcap": 7,
-        "price": 205.97,
-        "basis": 205.61,
-        "bxt_today": 4.96,
-        "ath": 228.92,
-        "pct_to_ath": 11.1
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "MSFT",
-        "name": "Microsoft Corporation",
-        "mcap": 3084,
-        "price": 415.12,
-        "basis": 414.02,
-        "bxt_today": 8.85,
-        "ath": 555.45,
-        "pct_to_ath": 33.8
-      },
-      {
-        "sym": "NVO",
-        "name": "Novo Nordisk A/S",
-        "mcap": 205,
-        "price": 46.07,
-        "basis": 45.93,
-        "bxt_today": 11.66,
-        "ath": 148.15,
-        "pct_to_ath": 221.6
-      },
-      {
-        "sym": "APP",
-        "name": "Applovin Corporation",
-        "mcap": 158,
-        "price": 468.55,
-        "basis": 468.39,
-        "bxt_today": -0.74,
-        "ath": 745.61,
-        "pct_to_ath": 59.1
-      },
-      {
-        "sym": "CEG",
-        "name": "Constellation Energy Corporation",
-        "mcap": 110,
-        "price": 303.63,
-        "basis": 302.46,
-        "bxt_today": 0.77,
-        "ath": 412.7,
-        "pct_to_ath": 35.9
-      },
-      {
-        "sym": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "mcap": 13,
-        "price": 11.09,
-        "basis": 11.04,
-        "bxt_today": 4.66,
-        "ath": 101.97,
-        "pct_to_ath": 819.5
-      },
-      {
-        "sym": "BXP",
-        "name": "BXP, Inc.",
-        "mcap": 11,
-        "price": 59.43,
-        "basis": 59.29,
-        "bxt_today": 9.69,
-        "ath": 147.83,
-        "pct_to_ath": 148.7
-      },
-      {
-        "sym": "LAD",
-        "name": "Lithia Motors, Inc.",
-        "mcap": 7,
-        "price": 293.99,
-        "basis": 291.75,
-        "bxt_today": 6.46,
-        "ath": 417.98,
-        "pct_to_ath": 42.2
-      },
-      {
-        "sym": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "mcap": 6,
-        "price": 11.02,
-        "basis": 10.98,
-        "bxt_today": 2.81,
-        "ath": 121.95,
-        "pct_to_ath": 1006.6
-      },
-      {
-        "sym": "MC",
-        "name": "Moelis & Company",
-        "mcap": 5,
-        "price": 65.08,
-        "basis": 64.82,
-        "bxt_today": 5.82,
-        "ath": 82.89,
-        "pct_to_ath": 27.4
-      },
-      {
-        "sym": "LAZ",
-        "name": "Lazard, Inc.",
-        "mcap": 5,
-        "price": 48.08,
-        "basis": 48.0,
-        "bxt_today": 3.18,
-        "ath": 61.14,
-        "pct_to_ath": 27.2
-      },
-      {
-        "sym": "PAY",
-        "name": "Paymentus Holdings, Inc.",
-        "mcap": 3,
-        "price": 26.64,
-        "basis": 26.4,
-        "bxt_today": 7.9,
-        "ath": 40.43,
-        "pct_to_ath": 51.8
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "REGN",
-        "name": "Regeneron Pharmaceuticals, Inc.",
-        "mcap": 73,
-        "price": 714.89,
-        "basis": 717.12,
-        "bxt_today": -17.97,
-        "ath": 1211.2,
-        "pct_to_ath": 69.4
-      },
-      {
-        "sym": "EA",
-        "name": "Electronic Arts Inc.",
-        "mcap": 50,
-        "price": 200.44,
-        "basis": 200.77,
-        "bxt_today": -22.93,
-        "ath": 204.89,
-        "pct_to_ath": 2.2
-      },
-      {
-        "sym": "SBSW",
-        "name": "D/B/A Sibanye-Stillwater Limited ADS",
-        "mcap": 38,
-        "price": 13.32,
-        "basis": 13.38,
-        "bxt_today": -14.08,
-        "ath": 21.29,
-        "pct_to_ath": 59.8
-      },
-      {
-        "sym": "ELS",
-        "name": "Equity Lifestyle Properties, Inc.",
-        "mcap": 13,
-        "price": 63.24,
-        "basis": 63.24,
-        "bxt_today": -9.29,
-        "ath": 88.7,
-        "pct_to_ath": 40.3
-      },
-      {
-        "sym": "IONS",
-        "name": "Ionis Pharmaceuticals, Inc.",
-        "mcap": 13,
-        "price": 75.71,
-        "basis": 75.8,
-        "bxt_today": -18.41,
-        "ath": 86.74,
-        "pct_to_ath": 14.6
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "COP",
-        "name": "ConocoPhillips",
-        "mcap": 139,
-        "price": 113.87,
-        "basis": 113.98,
-        "bxt_today": -6.79,
-        "ath": 138.49,
-        "pct_to_ath": 21.6
-      },
-      {
-        "sym": "KMI",
-        "name": "Kinder Morgan, Inc.",
-        "mcap": 70,
-        "price": 31.41,
-        "basis": 31.51,
-        "bxt_today": -9.85,
-        "ath": 44.71,
-        "pct_to_ath": 42.3
-      },
-      {
-        "sym": "LNG",
-        "name": "Cheniere Energy, Inc.",
-        "mcap": 50,
-        "price": 240.11,
-        "basis": 240.2,
-        "bxt_today": -2.99,
-        "ath": 300.89,
-        "pct_to_ath": 25.3
-      },
-      {
-        "sym": "ESLT",
-        "name": "Elbit Systems Ltd. Ordinary Shares",
-        "mcap": 36,
-        "price": 782.21,
-        "basis": 788.26,
-        "bxt_today": -12.95,
-        "ath": 1016.06,
-        "pct_to_ath": 29.9
-      },
-      {
-        "sym": "TDY",
-        "name": "Teledyne Technologies Incorporated",
-        "mcap": 29,
-        "price": 621.38,
-        "basis": 623.53,
-        "bxt_today": -6.93,
-        "ath": 693.38,
-        "pct_to_ath": 11.6
-      },
-      {
-        "sym": "CNP",
-        "name": "CenterPoint Energy, Inc (Holding Co)",
-        "mcap": 27,
-        "price": 41.72,
-        "basis": 41.76,
-        "bxt_today": -10.1,
-        "ath": 44.47,
-        "pct_to_ath": 6.6
-      },
-      {
-        "sym": "BAP",
-        "name": "Credicorp Ltd.",
-        "mcap": 26,
-        "price": 330.5,
-        "basis": 330.98,
-        "bxt_today": -13.93,
-        "ath": 380.2,
-        "pct_to_ath": 15.0
-      },
-      {
-        "sym": "CNH",
-        "name": "CNH Industrial N.V. Common Shares",
-        "mcap": 14,
-        "price": 10.96,
-        "basis": 11.02,
-        "bxt_today": 0.43,
-        "ath": 17.98,
-        "pct_to_ath": 64.1
-      },
-      {
-        "sym": "AM",
-        "name": "Antero Midstream Corporation",
-        "mcap": 10,
-        "price": 20.92,
-        "basis": 20.94,
-        "bxt_today": -9.59,
-        "ath": 23.83,
-        "pct_to_ath": 13.9
-      },
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 10,
-        "price": 19.17,
-        "basis": 19.19,
-        "bxt_today": -2.46,
-        "ath": 53.08,
-        "pct_to_ath": 176.9
-      },
-      {
-        "sym": "CRC",
-        "name": "California Resources Corporation",
-        "mcap": 5,
-        "price": 58.92,
-        "basis": 58.97,
-        "bxt_today": -5.45,
-        "ath": 71.98,
-        "pct_to_ath": 22.2
-      },
-      {
-        "sym": "SON",
-        "name": "Sonoco Products Company",
-        "mcap": 5,
-        "price": 51.56,
-        "basis": 51.69,
-        "bxt_today": -6.61,
-        "ath": 69.83,
-        "pct_to_ath": 35.4
-      },
-      {
-        "sym": "LB",
-        "name": "LandBridge Company LLC Shares Representing Limited Liability Company Interests",
-        "mcap": 5,
-        "price": 64.98,
-        "basis": 65.08,
-        "bxt_today": -4.86,
-        "ath": 87.6,
-        "pct_to_ath": 34.8
-      }
-    ],
+    "compared_to": "2026-05-10T12:00:54.277355+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
