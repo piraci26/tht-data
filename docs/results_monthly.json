@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T16:35:26.663401+00:00",
+  "updated_at": "2026-05-10T17:35:10.275047+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.71,
+  "scan_seconds": 7.5,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -915,9 +915,9 @@
       "sym": "ULTA",
       "name": "Ulta Beauty, Inc.",
       "mcap": 23,
-      "price": 521.58,
+      "price": 521.65,
       "basis": 465.78,
-      "bxt_today": -1.48,
+      "bxt_today": -1.47,
       "bxt_yest": 1.55,
       "fvb_g": false,
       "fvb_r": false,
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T15:38:56.966543+00:00",
+    "compared_to": "2026-05-10T16:35:26.663401+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

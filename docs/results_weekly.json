@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T16:35:19.946686+00:00",
+  "updated_at": "2026-05-10T17:35:02.767940+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.92,
+  "scan_seconds": 7.08,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -437,9 +437,9 @@
       "sym": "TXRH",
       "name": "Texas Roadhouse, Inc.",
       "mcap": 12,
-      "price": 177.38,
+      "price": 177.4,
       "basis": 171.99,
-      "bxt_today": 2.32,
+      "bxt_today": 2.33,
       "bxt_yest": -3.68,
       "fvb_g": false,
       "fvb_r": false,
@@ -448,7 +448,7 @@
       "fvb_streak": null,
       "bxt_streak": 10,
       "ath": 206.04,
-      "pct_to_ath": 16.2
+      "pct_to_ath": 16.1
     },
     {
       "sym": "JOBY",
@@ -711,9 +711,9 @@
       "sym": "NFLX",
       "name": "Netflix, Inc.",
       "mcap": 368,
-      "price": 87.49,
+      "price": 87.48,
       "basis": 98.58,
-      "bxt_today": -0.0,
+      "bxt_today": -0.01,
       "bxt_yest": 2.67,
       "fvb_g": false,
       "fvb_r": false,
@@ -1286,23 +1286,6 @@
       "pct_to_ath": 428.2
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 69.22,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1318,6 +1301,23 @@
       "bxt_streak": 3,
       "ath": 45.87,
       "pct_to_ath": 124.6
+    },
+    {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 69.22,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8
     },
     {
       "sym": "CENX",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 481.6
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 58.92,
-      "basis": 54.49,
-      "bxt_today": -5.45,
-      "bxt_yest": 0.69,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 22.2
-    },
-    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 5,
@@ -1403,6 +1386,23 @@
       "bxt_streak": 2,
       "ath": 17.21,
       "pct_to_ath": 150.5
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 58.92,
+      "basis": 54.49,
+      "bxt_today": -5.45,
+      "bxt_yest": 0.69,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 22.2
     },
     {
       "sym": "MUR",
@@ -1559,7 +1559,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T15:38:35.163563+00:00",
+    "compared_to": "2026-05-10T16:35:19.946686+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
