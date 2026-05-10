@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T06:41:20.076707+00:00",
+  "updated_at": "2026-05-10T08:30:52.408431+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 5.99,
+  "scan_seconds": 8.7,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -757,23 +757,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "ZS",
-      "name": "Zscaler, Inc.",
-      "mcap": 24,
-      "price": 152.13,
-      "basis": 164.3,
-      "bxt_today": 4.48,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 376.11,
-      "pct_to_ath": 147.2
-    },
-    {
       "sym": "TSN",
       "name": "Tyson Foods, Inc.",
       "mcap": 24,
@@ -789,6 +772,23 @@
       "bxt_streak": 16,
       "ath": 100.72,
       "pct_to_ath": 47.3
+    },
+    {
+      "sym": "ZS",
+      "name": "Zscaler, Inc.",
+      "mcap": 24,
+      "price": 152.13,
+      "basis": 164.3,
+      "bxt_today": 4.48,
+      "bxt_yest": -0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 376.11,
+      "pct_to_ath": 147.2
     },
     {
       "sym": "NTAP",
@@ -1063,23 +1063,6 @@
       "pct_to_ath": 207.0
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.54,
-      "basis": 7.85,
-      "bxt_today": 0.05,
-      "bxt_yest": -2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1660.3
-    },
-    {
       "sym": "RDN",
       "name": "Radian Group Inc.",
       "mcap": 5,
@@ -1112,6 +1095,23 @@
       "bxt_streak": 8,
       "ath": 76.91,
       "pct_to_ath": 5.0
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.54,
+      "basis": 7.85,
+      "bxt_today": 0.05,
+      "bxt_yest": -2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1660.3
     },
     {
       "sym": "CVSA",
@@ -1746,7 +1746,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T04:05:19.543900+00:00",
+    "compared_to": "2026-05-10T06:41:20.076707+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
