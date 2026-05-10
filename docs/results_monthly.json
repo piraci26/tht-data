@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T17:35:10.275047+00:00",
+  "updated_at": "2026-05-10T18:37:28.825578+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.5,
+  "scan_seconds": 6.8,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -281,23 +281,6 @@
       "pct_to_ath": 43.9
     },
     {
-      "sym": "ZS",
-      "name": "Zscaler, Inc.",
-      "mcap": 24,
-      "price": 152.13,
-      "basis": 215.22,
-      "bxt_today": 4.48,
-      "bxt_yest": -0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 376.11,
-      "pct_to_ath": 147.2
-    },
-    {
       "sym": "TSN",
       "name": "Tyson Foods, Inc.",
       "mcap": 24,
@@ -315,21 +298,21 @@
       "pct_to_ath": 47.3
     },
     {
-      "sym": "NTAP",
-      "name": "NetApp, Inc.",
-      "mcap": 23,
-      "price": 118.0,
-      "basis": 105.27,
-      "bxt_today": 0.14,
-      "bxt_yest": -2.73,
+      "sym": "ZS",
+      "name": "Zscaler, Inc.",
+      "mcap": 24,
+      "price": 152.13,
+      "basis": 215.22,
+      "bxt_today": 4.48,
+      "bxt_yest": -0.1,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 152.75,
-      "pct_to_ath": 29.4
+      "bxt_streak": 26,
+      "ath": 376.11,
+      "pct_to_ath": 147.2
     },
     {
       "sym": "CPAY",
@@ -347,6 +330,23 @@
       "bxt_streak": 12,
       "ath": 400.81,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "NTAP",
+      "name": "NetApp, Inc.",
+      "mcap": 23,
+      "price": 118.0,
+      "basis": 105.27,
+      "bxt_today": 0.14,
+      "bxt_yest": -2.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 152.75,
+      "pct_to_ath": 29.4
     },
     {
       "sym": "NXT",
@@ -1014,23 +1014,6 @@
       "pct_to_ath": 30.7
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 59.26,
-      "basis": 47.17,
-      "bxt_today": -1.52,
-      "bxt_yest": 1.75,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1046,6 +1029,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 59.26,
+      "basis": 47.17,
+      "bxt_today": -1.52,
+      "bxt_yest": 1.75,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "ENSG",
@@ -1270,7 +1270,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T16:35:26.663401+00:00",
+    "compared_to": "2026-05-10T17:35:10.275047+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
