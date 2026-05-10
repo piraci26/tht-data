@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T22:13:47.792155+00:00",
+  "updated_at": "2026-05-10T22:26:09.819189+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.16,
+  "scan_seconds": 14.76,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -689,26 +689,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "RDN",
-      "name": "Radian Group Inc.",
-      "mcap": 5,
-      "price": 38.06,
-      "basis": 32.85,
-      "bxt_today": 1.36,
-      "bxt_yest": -2.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 67.35,
-      "pct_to_ath": 77.0,
-      "wk52_high": 38.84,
-      "wk52_low": 31.5,
-      "ath_30d": 0
-    },
-    {
       "sym": "QS",
       "name": "QuantumScape Corporation",
       "mcap": 5,
@@ -726,6 +706,26 @@
       "pct_to_ath": 1660.3,
       "wk52_high": 19.07,
       "wk52_low": 3.8,
+      "ath_30d": 0
+    },
+    {
+      "sym": "RDN",
+      "name": "Radian Group Inc.",
+      "mcap": 5,
+      "price": 38.06,
+      "basis": 32.85,
+      "bxt_today": 1.36,
+      "bxt_yest": -2.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 67.35,
+      "pct_to_ath": 77.0,
+      "wk52_high": 38.84,
+      "wk52_low": 31.5,
       "ath_30d": 0
     },
     {
@@ -1191,26 +1191,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 59.26,
-      "basis": 47.17,
-      "bxt_today": -1.52,
-      "bxt_yest": 1.75,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 24.4,
-      "wk52_high": 73.7,
-      "wk52_low": 46.0,
-      "ath_30d": 0
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1228,6 +1208,26 @@
       "pct_to_ath": 28.7,
       "wk52_high": 179.32,
       "wk52_low": 104.69,
+      "ath_30d": 0
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 59.26,
+      "basis": 47.17,
+      "bxt_today": -1.52,
+      "bxt_yest": 1.75,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 24.4,
+      "wk52_high": 73.7,
+      "wk52_low": 46.0,
       "ath_30d": 0
     },
     {
@@ -1492,7 +1492,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T22:04:51.496422+00:00",
+    "compared_to": "2026-05-10T22:13:47.792155+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
