@@ -15,7 +15,7 @@
 indicator("trend-iq · IQ Bands", "IQ Bands", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
-fvbLen   = input.int(20,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
+fvbLen   = input.int(35,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
 fvbMult  = input.float(2.0, "IQ Bands StdDev Multiplier", minval = 0.0, step = 0.1, group = "IQ Bands")
 
 shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
