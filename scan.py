@@ -265,22 +265,26 @@ def fetch_ath(sym):
         if d_lows:   last_low   = d_lows[-1]
         if d_closes: last_close = d_closes[-1]
 
-        if len(d_highs) > 30:
-            # ATH count: baseline = highest daily high BEFORE the 30-day window
-            running_max = max(d_highs[:-30])
-            if ath and ath > max(d_highs):
-                running_max = max(running_max, ath)
-            for h in d_highs[-30:]:
+        # ATH count over last 30 trading days (or whatever history exists if shorter).
+        # Short-history stocks (recent IPOs): every bar is a candidate new ATH.
+        if d_highs:
+            window = d_highs[-30:]
+            baseline_pool = d_highs[:-30] if len(d_highs) > 30 else []
+            running_max = max(baseline_pool) if baseline_pool else -float("inf")
+            if ath and ath > (max(d_highs) if d_highs else -float("inf")):
+                running_max = max(running_max, ath)  # true ATH older than 5y window
+            for h in window:
                 if h is not None and h > running_max:
                     ath_30d += 1
                     running_max = h
 
-        if len(d_lows) > 30:
-            # ATL count: baseline = lowest daily low BEFORE the 30-day window
-            running_min = min(d_lows[:-30])
-            if atl and atl < min(d_lows):
+        if d_lows:
+            window = d_lows[-30:]
+            baseline_pool = d_lows[:-30] if len(d_lows) > 30 else []
+            running_min = min(baseline_pool) if baseline_pool else float("inf")
+            if atl and atl < (min(d_lows) if d_lows else float("inf")):
                 running_min = min(running_min, atl)
-            for l in d_lows[-30:]:
+            for l in window:
                 if l is not None and l < running_min:
                     atl_30d += 1
                     running_min = l

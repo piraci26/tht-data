@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-11T17:09:05.248470+00:00",
+  "updated_at": "2026-05-11T17:13:45.805436+00:00",
   "count": 4,
   "list": [
     {
       "sym": "KVYO",
       "name": "Klaviyo, Inc. Series A",
       "mcap": 5,
-      "price": 14.93,
+      "price": 15.07,
       "ath": 49.55,
       "atl": 14.91,
-      "pct_to_ath": 231.9,
-      "pct_to_atl": 0.1,
+      "pct_to_ath": 228.8,
+      "pct_to_atl": 1.1,
       "wk52_high": 37.79,
       "wk52_low": 14.91,
       "ath_30d": 0,
@@ -21,13 +21,31 @@
       "made_atl_today": true
     },
     {
+      "sym": "LBRDA",
+      "name": "Liberty Broadband Corporation",
+      "mcap": 5,
+      "price": 34.69,
+      "ath": 176.91,
+      "atl": 34.38,
+      "pct_to_ath": 410.0,
+      "pct_to_atl": 0.9,
+      "wk52_high": 95.95,
+      "wk52_low": 34.38,
+      "ath_30d": 0,
+      "atl_30d": 9,
+      "last_high": 35.82,
+      "last_low": 34.38,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
       "sym": "LBRDK",
       "name": "Liberty Broadband Corporation Class C",
       "mcap": 5,
-      "price": 34.84,
+      "price": 34.85,
       "ath": 181.69,
       "atl": 34.44,
-      "pct_to_ath": 421.5,
+      "pct_to_ath": 421.4,
       "pct_to_atl": 1.2,
       "wk52_high": 97.38,
       "wk52_low": 34.44,
@@ -39,32 +57,14 @@
       "made_atl_today": true
     },
     {
-      "sym": "LBRDA",
-      "name": "Liberty Broadband Corporation",
-      "mcap": 5,
-      "price": 34.72,
-      "ath": 176.91,
-      "atl": 34.38,
-      "pct_to_ath": 409.5,
-      "pct_to_atl": 1.0,
-      "wk52_high": 95.95,
-      "wk52_low": 34.38,
-      "ath_30d": 0,
-      "atl_30d": 9,
-      "last_high": 35.82,
-      "last_low": 34.38,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
       "sym": "CAI",
       "name": "Caris Life Sciences, Inc.",
       "mcap": 5,
-      "price": 16.13,
+      "price": 16.14,
       "ath": 42.5,
       "atl": 15.7,
-      "pct_to_ath": 163.5,
-      "pct_to_atl": 2.7,
+      "pct_to_ath": 163.3,
+      "pct_to_atl": 2.8,
       "wk52_high": 42.5,
       "wk52_low": 15.7,
       "ath_30d": 0,
@@ -456,7 +456,5 @@
       "first_seen_at": "2026-05-11T17:09:05.248470+00:00"
     }
   ],
-  "added_this_run": [
-    "KVYO"
-  ]
+  "added_this_run": []
 }
