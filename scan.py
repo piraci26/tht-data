@@ -62,38 +62,88 @@ def rsi_series(values, length=14):
         out.append(100 - 100/(1+rs))
     return out
 
-def fvb_prior_days(closes, length=35):
-    """If FVB flipped today, count how many bars the PRIOR regime lasted (yesterday looking back)."""
+def _iq_bands_regimes(ohlc, length=33, mult=0.25):
+    """Compute the full sticky-regime series for IQ Bands.
+    Source: OHLC4 for basis (SMA length=33), close for stdev. Sticky regime:
+      bull turns on when close > basis + mult*sd; bear when close < basis - mult*sd; else stays.
+    Returns (regimes_list, basis_today, price_today) or None.
+    """
+    opens = ohlc["opens"]; highs = ohlc["highs"]; lows = ohlc["lows"]; closes = ohlc["closes"]
     n = len(closes)
     if n < length + 2: return None
-    # Rolling SMA series
+    ohlc4 = [(opens[i] + highs[i] + lows[i] + closes[i]) / 4 for i in range(n)]
+
+    # Rolling SMA on OHLC4
     basis = [None] * n
-    s = sum(closes[:length])
+    s = sum(ohlc4[:length])
     basis[length - 1] = s / length
     for i in range(length, n):
-        s += closes[i] - closes[i - length]
+        s += ohlc4[i] - ohlc4[i - length]
         basis[i] = s / length
-    if basis[-1] is None or basis[-2] is None: return None
-    today_bull = closes[-1] > basis[-1]
-    yest_bull  = closes[-2] > basis[-2]
-    if today_bull == yest_bull: return None
-    prior_bull = yest_bull
+
+    # Rolling sample-style stdev on close (Pine ta.stdev uses population by default; close-window variance)
+    sd = [None] * n
+    for i in range(length - 1, n):
+        window = closes[i - length + 1:i + 1]
+        m = sum(window) / length
+        var = sum((c - m) ** 2 for c in window) / length
+        sd[i] = var ** 0.5
+
+    # Sticky regime walk
+    regimes = [None] * n
+    is_bull = closes[length - 1] > basis[length - 1]
+    regimes[length - 1] = is_bull
+    for i in range(length, n):
+        if basis[i] is None or sd[i] is None:
+            regimes[i] = is_bull; continue
+        tu = basis[i] + mult * sd[i]
+        tl = basis[i] - mult * sd[i]
+        if closes[i] > tu:
+            is_bull = True
+        elif closes[i] < tl:
+            is_bull = False
+        regimes[i] = is_bull
+    return regimes, basis[-1], closes[-1]
+
+def iq_bands_state(ohlc, length=33, mult=0.25):
+    """IQ Bands sticky-regime state for today vs yesterday."""
+    out = _iq_bands_regimes(ohlc, length, mult)
+    if out is None: return None
+    regimes, basis_today, price_today = out
+    if regimes[-1] is None or regimes[-2] is None: return None
+    return {
+        "today_bull": regimes[-1],
+        "yest_bull":  regimes[-2],
+        "basis": basis_today,
+        "price": price_today,
+    }
+
+def iq_bands_prior_days(ohlc, length=33, mult=0.25):
+    """Count how many bars the prior regime lasted before today's flip."""
+    out = _iq_bands_regimes(ohlc, length, mult)
+    if out is None: return None
+    regimes, _, _ = out
+    if regimes[-1] is None or regimes[-2] is None: return None
+    if regimes[-1] == regimes[-2]: return None
+    prior_bull = regimes[-2]
     days = 0
-    for i in range(n - 2, length - 2, -1):
-        if (closes[i] > basis[i]) == prior_bull:
+    for i in range(len(regimes) - 2, length - 2, -1):
+        if regimes[i] == prior_bull:
             days += 1
         else:
             break
     return days
 
-def bxt_prior_days(closes, length=15):
-    """If BXT flipped today (crossed zero), count how many bars the PRIOR sign lasted."""
-    e5  = ema_series(closes, 5)
-    e20 = ema_series(closes, 20)
-    diff = [a - b if a is not None and b is not None else None for a, b in zip(e5, e20)]
+def iq_osc_prior_days(closes, short_fast=5, short_slow=20, short_rsi=5):
+    """If IQ Oscillator flipped today (shortBxt crossed zero), count how many bars the PRIOR sign lasted.
+    shortBxt = RSI(EMA(close, short_fast) - EMA(close, short_slow), short_rsi) - 50.
+    """
+    e_fast = ema_series(closes, short_fast)
+    e_slow = ema_series(closes, short_slow)
+    diff = [a - b if a is not None and b is not None else None for a, b in zip(e_fast, e_slow)]
     valid = [d for d in diff if d is not None]
-    if len(valid) < length + 2: return None
-    rsi_vals = rsi_series(valid, length)
+    if len(valid) < short_rsi + 2: return None
+    rsi_vals = rsi_series(valid, short_rsi)
     bxt = [None] * len(closes)
     j = 0
     for i in range(len(closes)):
@@ -114,30 +164,20 @@ def bxt_prior_days(closes, length=15):
             break
     return days
 
-def fvb_state(closes, length=35):
-    if len(closes) < length + 2: return None
-    basis_today = sma(closes, length)
-    basis_yest  = sma(closes[:-1], length)
-    return {
-        "today_bull": closes[-1] > basis_today,
-        "yest_bull":  closes[-2] > basis_yest,
-        "basis": basis_today,
-        "price": closes[-1],
-    }
-
-def bxt_state(closes):
+def iq_osc_state(closes, short_fast=5, short_slow=20, short_rsi=5):
+    """IQ Oscillator shortBxt today vs yesterday (zero-cross is the flip)."""
     if len(closes) < 80: return None
-    e5  = ema_series(closes, 5)
-    e20 = ema_series(closes, 20)
+    e_fast = ema_series(closes, short_fast)
+    e_slow = ema_series(closes, short_slow)
     diff = []
     for i in range(len(closes)):
-        if e5[i] is not None and e20[i] is not None:
-            diff.append(e5[i] - e20[i])
+        if e_fast[i] is not None and e_slow[i] is not None:
+            diff.append(e_fast[i] - e_slow[i])
         else:
             diff.append(None)
     diff_clean = [d for d in diff if d is not None]
-    if len(diff_clean) < 16: return None
-    rsi_vals = rsi_series(diff_clean, 15)
+    if len(diff_clean) < short_rsi + 2: return None
+    rsi_vals = rsi_series(diff_clean, short_rsi)
     short_term = [r - 50 if r is not None else None for r in rsi_vals]
     short_clean = [s for s in short_term if s is not None]
     if len(short_clean) < 2: return None
@@ -145,6 +185,7 @@ def bxt_state(closes):
 
 # ─── Yahoo fetch ───────────────────────────────────────────────────────────
 def fetch(sym, interval="1d", rng="1y"):
+    """Returns (sym, ohlc) where ohlc = dict of {opens, highs, lows, closes} aligned arrays."""
     sym_q = sym.replace(".", "-")
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range={rng}&interval={interval}"
     try:
@@ -152,8 +193,15 @@ def fetch(sym, interval="1d", rng="1y"):
         with urllib.request.urlopen(req, timeout=15) as r:
             data = json.loads(r.read())
         result = data["chart"]["result"][0]
-        closes = [c for c in result["indicators"]["quote"][0]["close"] if c is not None]
-        return sym, closes
+        q = result["indicators"]["quote"][0]
+        n = len(q["close"])
+        opens = []; highs = []; lows = []; closes = []
+        for i in range(n):
+            o, h, l, c = q["open"][i], q["high"][i], q["low"][i], q["close"][i]
+            if c is None or o is None or h is None or l is None:
+                continue
+            opens.append(o); highs.append(h); lows.append(l); closes.append(c)
+        return sym, {"opens": opens, "highs": highs, "lows": lows, "closes": closes}
     except Exception:
         return sym, None
 
@@ -277,10 +325,13 @@ def run_scan(timeframe="daily"):
     t0 = time.time()
     MIN_OK = 100  # below this, treat as Yahoo rate-limit / network failure and skip the write
     closes_map = {}
+    ohlc_map = {}
     with ThreadPoolExecutor(max_workers=25) as ex:
         for f in as_completed([ex.submit(fetch, s, interval, rng) for s in TICKERS]):
-            sym, closes = f.result()
-            if closes: closes_map[sym] = closes
+            sym, ohlc = f.result()
+            if ohlc and ohlc.get("closes"):
+                ohlc_map[sym] = ohlc
+                closes_map[sym] = ohlc["closes"]
 
     if len(closes_map) < MIN_OK:
         print(f"[{datetime.now(timezone.utc).isoformat()}] [{timeframe}] ABORT — only {len(closes_map)} tickers fetched "
@@ -288,9 +339,10 @@ def run_scan(timeframe="daily"):
         return
 
     rows = []
-    for sym, closes in closes_map.items():
-        fvb = fvb_state(closes)
-        bxt = bxt_state(closes)
+    for sym, ohlc in ohlc_map.items():
+        closes = ohlc["closes"]
+        fvb = iq_bands_state(ohlc)
+        bxt = iq_osc_state(closes)
         if not fvb or not bxt: continue
         fvb_g = fvb["today_bull"] and not fvb["yest_bull"]
         fvb_r = (not fvb["today_bull"]) and fvb["yest_bull"]
@@ -298,8 +350,8 @@ def run_scan(timeframe="daily"):
         bxt_r = bxt["today"] < 0 and bxt["yest"] >= 0
         if not (fvb_g or fvb_r or bxt_g or bxt_r): continue
         nm = UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym)
-        fvb_streak = fvb_prior_days(closes) if (fvb_g or fvb_r) else None
-        bxt_streak = bxt_prior_days(closes) if (bxt_g or bxt_r) else None
+        fvb_streak = iq_bands_prior_days(ohlc) if (fvb_g or fvb_r) else None
+        bxt_streak = iq_osc_prior_days(closes) if (bxt_g or bxt_r) else None
         rows.append({
             "sym": sym, "name": nm, "mcap": live_mcap(sym, fvb["price"]),
             "price": round(fvb["price"], 2), "basis": round(fvb["basis"], 2),
