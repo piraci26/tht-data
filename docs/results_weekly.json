@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T23:26:29.890238+00:00",
+  "updated_at": "2026-05-11T01:23:42.983651+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.02,
+  "scan_seconds": 14.6,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1131,26 +1131,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "DVN",
-      "name": "Devon Energy Corporation",
-      "mcap": 28,
-      "price": 45.61,
-      "basis": 40.33,
-      "bxt_today": -3.6,
-      "bxt_yest": 1.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 127.43,
-      "pct_to_ath": 179.4,
-      "wk52_high": 52.71,
-      "wk52_low": 30.24,
-      "ath_30d": 0
-    },
-    {
       "sym": "FTI",
       "name": "TechnipFMC plc Ordinary Share",
       "mcap": 28,
@@ -1169,6 +1149,26 @@
       "wk52_high": 77.78,
       "wk52_low": 28.87,
       "ath_30d": 9
+    },
+    {
+      "sym": "DVN",
+      "name": "Devon Energy Corporation",
+      "mcap": 28,
+      "price": 45.61,
+      "basis": 40.33,
+      "bxt_today": -3.6,
+      "bxt_yest": 1.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 127.43,
+      "pct_to_ath": 179.4,
+      "wk52_high": 52.71,
+      "wk52_low": 30.24,
+      "ath_30d": 0
     },
     {
       "sym": "CTRA",
@@ -1511,26 +1511,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 69.22,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8,
-      "wk52_high": 95.32,
-      "wk52_low": 34.34,
-      "ath_30d": 8
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1549,6 +1529,26 @@
       "wk52_high": 27.34,
       "wk52_low": 19.49,
       "ath_30d": 0
+    },
+    {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 69.22,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8,
+      "wk52_high": 95.32,
+      "wk52_low": 34.34,
+      "ath_30d": 8
     },
     {
       "sym": "CENX",
@@ -1832,7 +1832,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T22:25:55.054031+00:00",
+    "compared_to": "2026-05-10T23:26:29.890238+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

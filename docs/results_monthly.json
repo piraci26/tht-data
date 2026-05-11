@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-10T23:26:37.280454+00:00",
+  "updated_at": "2026-05-11T01:23:56.473480+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.38,
+  "scan_seconds": 13.48,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1311,26 +1311,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.81,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5,
-      "wk52_high": 8.94,
-      "wk52_low": 6.25,
-      "ath_30d": 0
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1349,6 +1329,26 @@
       "wk52_high": 71.98,
       "wk52_low": 38.96,
       "ath_30d": 3
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.81,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5,
+      "wk52_high": 8.94,
+      "wk52_low": 6.25,
+      "ath_30d": 0
     },
     {
       "sym": "OTF",
@@ -1492,7 +1492,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-10T22:26:09.819189+00:00",
+    "compared_to": "2026-05-10T23:26:37.280454+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
