@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-11T08:38:45.517756+00:00",
+  "updated_at": "2026-05-11T11:47:29.595467+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.96,
+  "scan_seconds": 14.55,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1671,26 +1671,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "TW",
-      "name": "Tradeweb Markets Inc.",
-      "mcap": 26,
-      "price": 108.81,
-      "basis": 112.01,
-      "bxt_today": -4.03,
-      "bxt_yest": 0.82,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 152.65,
-      "pct_to_ath": 40.3,
-      "wk52_high": 149.25,
-      "wk52_low": 97.06,
-      "ath_30d": 0
-    },
-    {
       "sym": "FE",
       "name": "FirstEnergy Corp.",
       "mcap": 26,
@@ -1708,6 +1688,26 @@
       "pct_to_ath": 89.5,
       "wk52_high": 52.34,
       "wk52_low": 39.28,
+      "ath_30d": 0
+    },
+    {
+      "sym": "TW",
+      "name": "Tradeweb Markets Inc.",
+      "mcap": 26,
+      "price": 108.81,
+      "basis": 112.01,
+      "bxt_today": -4.03,
+      "bxt_yest": 0.82,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 152.65,
+      "pct_to_ath": 40.3,
+      "wk52_high": 149.25,
+      "wk52_low": 97.06,
       "ath_30d": 0
     },
     {
@@ -1791,26 +1791,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 143.2,
-      "basis": 139.12,
-      "bxt_today": -0.28,
-      "bxt_yest": 1.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 28.7,
-      "wk52_high": 179.32,
-      "wk52_low": 104.69,
-      "ath_30d": 0
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1828,6 +1808,26 @@
       "pct_to_ath": 24.4,
       "wk52_high": 73.7,
       "wk52_low": 46.0,
+      "ath_30d": 0
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 143.2,
+      "basis": 139.12,
+      "bxt_today": -0.28,
+      "bxt_yest": 1.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 28.7,
+      "wk52_high": 179.32,
+      "wk52_low": 104.69,
       "ath_30d": 0
     },
     {
@@ -2072,7 +2072,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-11T05:13:03.052263+00:00",
+    "compared_to": "2026-05-11T08:38:45.517756+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
