@@ -583,6 +583,21 @@ def run_ath_atl_universe():
     ath_list.sort(key=lambda x: -(x.get("mcap") or 0))
     atl_list.sort(key=lambda x: -(x.get("mcap") or 0))
 
+    # Cache OHLC bars for every ATH/ATL maker so the dashboard expand-chart works.
+    # bars/ is the daily folder — same one the daily flip rows use, no folder ambiguity.
+    bars_dir = os.path.join(HERE, "docs", "bars")
+    os.makedirs(bars_dir, exist_ok=True)
+    ath_atl_syms = {r["sym"] for r in ath_list} | {r["sym"] for r in atl_list}
+    missing_syms = [s for s in ath_atl_syms
+                    if not os.path.exists(os.path.join(bars_dir, f"{s}.json"))]
+    if missing_syms:
+        with ThreadPoolExecutor(max_workers=15) as ex:
+            for f in as_completed([ex.submit(fetch_ohlc, s, "1d", "1y") for s in missing_syms]):
+                sym, bars = f.result()
+                if bars:
+                    with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
+                        json.dump(bars, fh, separators=(',', ':'))
+
     def write_with_accumulator(path, cur_list):
         """Persist current list + an append-only accumulator of newly-seen symbols."""
         prev_syms = set()
