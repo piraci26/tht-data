@@ -228,36 +228,43 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
         return sym, None
 
 def fetch_ath(sym):
-    """Returns (sym, ath, wk52_high, wk52_low, ath_30d_count). ath_30d_count = # days in last 30 trading days
-    where the daily high exceeded the prior all-time max (intraday-resolution new-ATH days)."""
+    """Returns (sym, ath, atl, wk52_high, wk52_low, ath_30d_count, atl_30d_count, last_high, last_low, last_close)."""
     sym_q = sym.replace(".","-")
     try:
-        # range=max&interval=1wk returns true all-time high (Yahoo silently downsamples old data to
-        # quarterly bars, but the per-bar max is preserved, so max-of-array == absolute ATH).
+        # range=max&interval=1wk → true all-time high/low (Yahoo silently downsamples old data to
+        # quarterly bars; per-bar min/max are preserved, so max/min-of-array are correct).
         url_w = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=max&interval=1wk"
         req = urllib.request.Request(url_w, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             wk_data = json.loads(r.read())
-        wk_highs = [c for c in wk_data["chart"]["result"][0]["indicators"]["quote"][0]["high"] if c is not None]
+        wq = wk_data["chart"]["result"][0]["indicators"]["quote"][0]
+        wk_highs = [c for c in wq["high"] if c is not None]
+        wk_lows  = [c for c in wq["low"]  if c is not None]
         ath = max(wk_highs) if wk_highs else None
+        atl = min(wk_lows)  if wk_lows  else None
 
-        # Daily bars 5y → true daily resolution for 52w window + new-ATH counting.
+        # Daily bars 5y → true daily resolution for 52w window + new-ATH/ATL counting.
         wk52_h = wk52_l = None
         ath_30d = 0
+        atl_30d = 0
+        last_high = last_low = last_close = None
         url_d = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=5y&interval=1d"
         req = urllib.request.Request(url_d, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             d_data = json.loads(r.read())
         d_quote = d_data["chart"]["result"][0]["indicators"]["quote"][0]
-        d_highs = [c for c in d_quote["high"] if c is not None]
-        d_lows  = [c for c in d_quote["low"]  if c is not None]
-        if d_highs: wk52_h = max(d_highs[-252:])  # ~252 trading days = 52 weeks
-        if d_lows:  wk52_l = min(d_lows[-252:])
+        d_highs  = [c for c in d_quote["high"]  if c is not None]
+        d_lows   = [c for c in d_quote["low"]   if c is not None]
+        d_closes = [c for c in d_quote["close"] if c is not None]
+        if d_highs:  wk52_h = max(d_highs[-252:])  # ~252 trading days = 52 weeks
+        if d_lows:   wk52_l = min(d_lows[-252:])
+        if d_highs:  last_high  = d_highs[-1]
+        if d_lows:   last_low   = d_lows[-1]
+        if d_closes: last_close = d_closes[-1]
 
         if len(d_highs) > 30:
-            # Baseline = highest daily high BEFORE the 30-day window
+            # ATH count: baseline = highest daily high BEFORE the 30-day window
             running_max = max(d_highs[:-30])
-            # If true ATH is older than the 5y window, it won't be in d_highs at all — use it as the floor.
             if ath and ath > max(d_highs):
                 running_max = max(running_max, ath)
             for h in d_highs[-30:]:
@@ -265,9 +272,19 @@ def fetch_ath(sym):
                     ath_30d += 1
                     running_max = h
 
-        return sym, ath, wk52_h, wk52_l, ath_30d
+        if len(d_lows) > 30:
+            # ATL count: baseline = lowest daily low BEFORE the 30-day window
+            running_min = min(d_lows[:-30])
+            if atl and atl < min(d_lows):
+                running_min = min(running_min, atl)
+            for l in d_lows[-30:]:
+                if l is not None and l < running_min:
+                    atl_30d += 1
+                    running_min = l
+
+        return sym, ath, atl, wk52_h, wk52_l, ath_30d, atl_30d, last_high, last_low, last_close
     except Exception:
-        return sym, None, None, None, 0
+        return sym, None, None, None, None, 0, 0, None, None, None
 
 # ─── Hardcoded names + market caps ─────────────────────────────────────────
 NAMES = {
@@ -367,28 +384,33 @@ def run_scan(timeframe="daily"):
     bxt_green_list = sorted([r for r in rows if r["bxt_g"]], key=sort_mcap)
     bxt_red_list   = sorted([r for r in rows if r["bxt_r"]], key=sort_mcap)
 
-    # Fetch ATH for any flipped ticker (union across all 4 categories)
+    # Fetch ATH/ATL for any flipped ticker (union across all 4 categories)
     flipped_syms = {r["sym"] for r in fvb_green_list + fvb_red_list + bxt_green_list + bxt_red_list}
-    ath_map = {}
-    wk52h_map = {}
-    wk52l_map = {}
-    ath30d_map = {}
+    ath_map = {}; atl_map = {}
+    wk52h_map = {}; wk52l_map = {}
+    ath30d_map = {}; atl30d_map = {}
     with ThreadPoolExecutor(max_workers=15) as ex:
         for f in as_completed([ex.submit(fetch_ath, s) for s in flipped_syms]):
-            sym, ath, wk52h, wk52l, ath30d = f.result()
+            sym, ath, atl, wk52h, wk52l, ath30d, atl30d, _, _, _ = f.result()
             ath_map[sym] = ath
+            atl_map[sym] = atl
             wk52h_map[sym] = wk52h
             wk52l_map[sym] = wk52l
             ath30d_map[sym] = ath30d
+            atl30d_map[sym] = atl30d
     for r in rows:
         ath = ath_map.get(r["sym"])
+        atl = atl_map.get(r["sym"])
         wk52h = wk52h_map.get(r["sym"])
         wk52l = wk52l_map.get(r["sym"])
         r["ath"] = round(ath, 2) if ath else None
+        r["atl"] = round(atl, 2) if atl else None
         r["pct_to_ath"] = round((ath - r["price"]) / r["price"] * 100, 1) if ath else None
+        r["pct_to_atl"] = round((r["price"] - atl) / atl * 100, 1) if atl else None
         r["wk52_high"] = round(wk52h, 2) if wk52h else None
         r["wk52_low"]  = round(wk52l, 2) if wk52l else None
         r["ath_30d"] = ath30d_map.get(r["sym"], 0)
+        r["atl_30d"] = atl30d_map.get(r["sym"], 0)
 
     # Cache OHLC bars for ALL flipped tickers (one folder per timeframe)
     bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
@@ -467,7 +489,110 @@ def run_scan(timeframe="daily"):
     print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r ({n_changes} changes)")
 
+def run_ath_atl_universe():
+    """Scan FULL universe for stocks currently making ATHs / ATLs.
+    Writes docs/ath_list.json + docs/atl_list.json. Caches raw fetch results
+    for 60 minutes to avoid hammering Yahoo on every cron tick.
+    """
+    t0 = time.time()
+    ATH_REFRESH_MIN = 60
+    cache_path = os.path.join(HERE, "docs", "ath_atl_cache.json")
+    ath_path   = os.path.join(HERE, "docs", "ath_list.json")
+    atl_path   = os.path.join(HERE, "docs", "atl_list.json")
+
+    do_full_scan = True
+    cache_data = {}
+    try:
+        with open(cache_path) as f:
+            cache_data = json.load(f)
+        last_ts_iso = cache_data.get("updated_at")
+        if last_ts_iso:
+            last_ts = datetime.fromisoformat(last_ts_iso.replace("Z", "+00:00"))
+            if (datetime.now(timezone.utc) - last_ts).total_seconds() < ATH_REFRESH_MIN * 60:
+                do_full_scan = False
+    except Exception:
+        pass
+
+    if do_full_scan:
+        results = {}
+        with ThreadPoolExecutor(max_workers=20) as ex:
+            for f in as_completed([ex.submit(fetch_ath, s) for s in TICKERS]):
+                r = f.result()
+                if r[1] is None:  # ath is None — fetch failed
+                    continue
+                results[r[0]] = list(r[1:])  # drop sym from tuple
+        cache_data = {
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "results": results,
+        }
+        with open(cache_path, "w") as f:
+            json.dump(cache_data, f)
+
+    cached = cache_data.get("results", {})
+    ath_list, atl_list = [], []
+    for sym, vals in cached.items():
+        ath, atl, wk52h, wk52l, ath30d, atl30d, last_high, last_low, last_close = vals
+        if last_close is None: continue
+        nm = UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym)
+        mcap = live_mcap(sym, last_close)
+        row = {
+            "sym": sym, "name": nm, "mcap": mcap,
+            "price": round(last_close, 2),
+            "ath": round(ath, 2) if ath else None,
+            "atl": round(atl, 2) if atl else None,
+            "pct_to_ath": round((ath - last_close) / last_close * 100, 1) if ath else None,
+            "pct_to_atl": round((last_close - atl) / atl * 100, 1) if atl else None,
+            "wk52_high": round(wk52h, 2) if wk52h else None,
+            "wk52_low":  round(wk52l, 2) if wk52l else None,
+            "ath_30d": ath30d,
+            "atl_30d": atl30d,
+        }
+        if ath30d and ath30d > 0: ath_list.append(row)
+        if atl30d and atl30d > 0: atl_list.append(row)
+    ath_list.sort(key=lambda x: -(x.get("mcap") or 0))
+    atl_list.sort(key=lambda x: -(x.get("mcap") or 0))
+
+    def write_with_accumulator(path, cur_list):
+        """Persist current list + an append-only accumulator of newly-seen symbols."""
+        prev_syms = set()
+        accumulator = []
+        try:
+            with open(path) as f:
+                prev = json.load(f)
+                prev_syms = {r["sym"] for r in prev.get("list", [])}
+                accumulator = prev.get("accumulator", [])
+        except Exception:
+            pass
+        cur_lookup = {r["sym"]: r for r in cur_list}
+        new_syms = sorted({r["sym"] for r in cur_list} - prev_syms)
+        now_iso = datetime.now(timezone.utc).isoformat()
+        seen_in_acc = {e["sym"] for e in accumulator}
+        for s in new_syms:
+            entry = dict(cur_lookup[s])
+            entry["first_seen_at"] = now_iso
+            if s in seen_in_acc:
+                # Already in accumulator from a prior cycle — refresh, don't duplicate
+                accumulator = [e for e in accumulator if e["sym"] != s]
+            accumulator.append(entry)
+        accumulator = accumulator[-200:]  # cap
+
+        with open(path, "w") as f:
+            json.dump({
+                "updated_at": now_iso,
+                "count": len(cur_list),
+                "list": cur_list,
+                "accumulator": accumulator,
+                "added_this_run": new_syms,
+            }, f, indent=2)
+
+    write_with_accumulator(ath_path, ath_list)
+    write_with_accumulator(atl_path, atl_list)
+    print(f"[{datetime.now(timezone.utc).isoformat()}] [ath-atl-universe] "
+          f"{'FULL SCAN' if do_full_scan else 'cached'} in {round(time.time()-t0,1)}s — "
+          f"ath_list={len(ath_list)}, atl_list={len(atl_list)}")
+
 if __name__ == "__main__":
     run_scan("daily")
     run_scan("weekly")
     run_scan("monthly")
+    run_ath_atl_universe()
