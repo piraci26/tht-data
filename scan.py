@@ -228,7 +228,8 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
         return sym, None
 
 def fetch_ath(sym):
-    """Returns (sym, ath, atl, wk52_high, wk52_low, ath_30d_count, atl_30d_count, last_high, last_low, last_close)."""
+    """Returns (sym, ath, atl, wk52_high, wk52_low, ath_30d_count, atl_30d_count,
+                last_high, last_low, last_close, made_ath_today, made_atl_today)."""
     sym_q = sym.replace(".","-")
     try:
         # range=max&interval=1wk → true all-time high/low (Yahoo silently downsamples old data to
@@ -248,6 +249,8 @@ def fetch_ath(sym):
         ath_30d = 0
         atl_30d = 0
         last_high = last_low = last_close = None
+        made_ath_today = False
+        made_atl_today = False
         url_d = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=5y&interval=1d"
         req = urllib.request.Request(url_d, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -282,9 +285,27 @@ def fetch_ath(sym):
                     atl_30d += 1
                     running_min = l
 
-        return sym, ath, atl, wk52_h, wk52_l, ath_30d, atl_30d, last_high, last_low, last_close
+        # NEW: "made ATH today" — today's daily high strictly exceeds the prior all-time max.
+        # Prior max = max of all daily highs EXCLUDING today's bar.
+        if last_high is not None and len(d_highs) > 1:
+            prior_ath_5y = max(d_highs[:-1])
+            # If true ATH lives outside the 5y daily window, use it as the floor for the comparison.
+            prior_ath_floor = prior_ath_5y
+            if ath is not None and ath > max(d_highs):
+                prior_ath_floor = max(prior_ath_floor, ath)
+            made_ath_today = last_high > prior_ath_floor
+
+        if last_low is not None and len(d_lows) > 1:
+            prior_atl_5y = min(d_lows[:-1])
+            prior_atl_floor = prior_atl_5y
+            if atl is not None and atl < min(d_lows):
+                prior_atl_floor = min(prior_atl_floor, atl)
+            made_atl_today = last_low < prior_atl_floor
+
+        return (sym, ath, atl, wk52_h, wk52_l, ath_30d, atl_30d,
+                last_high, last_low, last_close, made_ath_today, made_atl_today)
     except Exception:
-        return sym, None, None, None, None, 0, 0, None, None, None
+        return sym, None, None, None, None, 0, 0, None, None, None, False, False
 
 # ─── Hardcoded names + market caps ─────────────────────────────────────────
 NAMES = {
@@ -391,7 +412,7 @@ def run_scan(timeframe="daily"):
     ath30d_map = {}; atl30d_map = {}
     with ThreadPoolExecutor(max_workers=15) as ex:
         for f in as_completed([ex.submit(fetch_ath, s) for s in flipped_syms]):
-            sym, ath, atl, wk52h, wk52l, ath30d, atl30d, _, _, _ = f.result()
+            sym, ath, atl, wk52h, wk52l, ath30d, atl30d, _, _, _, _, _ = f.result()
             ath_map[sym] = ath
             atl_map[sym] = atl
             wk52h_map[sym] = wk52h
@@ -531,7 +552,12 @@ def run_ath_atl_universe():
     cached = cache_data.get("results", {})
     ath_list, atl_list = [], []
     for sym, vals in cached.items():
-        ath, atl, wk52h, wk52l, ath30d, atl30d, last_high, last_low, last_close = vals
+        # Tolerate the older 9-field cache while we transition; default the new flags to False.
+        if len(vals) >= 11:
+            ath, atl, wk52h, wk52l, ath30d, atl30d, last_high, last_low, last_close, made_ath_today, made_atl_today = vals[:11]
+        else:
+            ath, atl, wk52h, wk52l, ath30d, atl30d, last_high, last_low, last_close = vals[:9]
+            made_ath_today = made_atl_today = False
         if last_close is None: continue
         nm = UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym)
         mcap = live_mcap(sym, last_close)
@@ -546,9 +572,14 @@ def run_ath_atl_universe():
             "wk52_low":  round(wk52l, 2) if wk52l else None,
             "ath_30d": ath30d,
             "atl_30d": atl30d,
+            "last_high": round(last_high, 2) if last_high else None,
+            "last_low":  round(last_low, 2)  if last_low  else None,
+            "made_ath_today": made_ath_today,
+            "made_atl_today": made_atl_today,
         }
-        if ath30d and ath30d > 0: ath_list.append(row)
-        if atl30d and atl30d > 0: atl_list.append(row)
+        # ATH / ATL list now strictly requires a NEW extremum printed TODAY.
+        if made_ath_today: ath_list.append(row)
+        if made_atl_today: atl_list.append(row)
     ath_list.sort(key=lambda x: -(x.get("mcap") or 0))
     atl_list.sort(key=lambda x: -(x.get("mcap") or 0))
 
