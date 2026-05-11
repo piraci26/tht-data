@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-11T05:12:54.944410+00:00",
+  "updated_at": "2026-05-11T08:38:30.551055+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.76,
+  "scan_seconds": 10.87,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -269,26 +269,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.95,
-      "basis": 229.49,
-      "bxt_today": 0.39,
-      "bxt_yest": -3.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.1,
-      "wk52_high": 285.99,
-      "wk52_low": 127.33,
-      "ath_30d": 0
-    },
-    {
       "sym": "ZS",
       "name": "Zscaler, Inc.",
       "mcap": 24,
@@ -306,6 +286,26 @@
       "pct_to_ath": 147.2,
       "wk52_high": 336.99,
       "wk52_low": 114.62,
+      "ath_30d": 0
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.95,
+      "basis": 229.49,
+      "bxt_today": 0.39,
+      "bxt_yest": -3.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.1,
+      "wk52_high": 285.99,
+      "wk52_low": 127.33,
       "ath_30d": 0
     },
     {
@@ -1511,26 +1511,6 @@
       "ath_30d": 0
     },
     {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 6,
-      "price": 83.03,
-      "basis": 69.22,
-      "bxt_today": -0.14,
-      "bxt_yest": 1.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 95.32,
-      "pct_to_ath": 14.8,
-      "wk52_high": 95.32,
-      "wk52_low": 34.34,
-      "ath_30d": 8
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6,
@@ -1549,6 +1529,26 @@
       "wk52_high": 27.34,
       "wk52_low": 19.49,
       "ath_30d": 0
+    },
+    {
+      "sym": "APGE",
+      "name": "Apogee Therapeutics, Inc.",
+      "mcap": 6,
+      "price": 83.03,
+      "basis": 69.22,
+      "bxt_today": -0.14,
+      "bxt_yest": 1.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 95.32,
+      "pct_to_ath": 14.8,
+      "wk52_high": 95.32,
+      "wk52_low": 34.34,
+      "ath_30d": 8
     },
     {
       "sym": "CENX",
@@ -1611,26 +1611,6 @@
       "ath_30d": 3
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
-      "mcap": 5,
-      "price": 6.87,
-      "basis": 7.81,
-      "bxt_today": -0.51,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 17.21,
-      "pct_to_ath": 150.5,
-      "wk52_high": 8.94,
-      "wk52_low": 6.25,
-      "ath_30d": 0
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1649,6 +1629,26 @@
       "wk52_high": 71.98,
       "wk52_low": 38.96,
       "ath_30d": 3
+    },
+    {
+      "sym": "ADT",
+      "name": "ADT Inc.",
+      "mcap": 5,
+      "price": 6.87,
+      "basis": 7.81,
+      "bxt_today": -0.51,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 17.21,
+      "pct_to_ath": 150.5,
+      "wk52_high": 8.94,
+      "wk52_low": 6.25,
+      "ath_30d": 0
     },
     {
       "sym": "MUR",
@@ -1832,7 +1832,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-11T01:23:42.983651+00:00",
+    "compared_to": "2026-05-11T05:12:54.944410+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
