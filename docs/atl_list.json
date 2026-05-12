@@ -1,34 +1,16 @@
 {
-  "updated_at": "2026-05-12T15:20:48.526243+00:00",
+  "updated_at": "2026-05-12T17:29:30.186888+00:00",
   "count": 4,
   "list": [
-    {
-      "sym": "KVYO",
-      "name": "Klaviyo, Inc. Series A",
-      "mcap": 5,
-      "price": 14.78,
-      "ath": 49.55,
-      "atl": 14.74,
-      "pct_to_ath": 235.3,
-      "pct_to_atl": 0.3,
-      "wk52_high": 37.79,
-      "wk52_low": 14.74,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 15.73,
-      "last_low": 14.74,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
     {
       "sym": "LBRDK",
       "name": "Liberty Broadband Corporation Class C",
       "mcap": 5,
-      "price": 34.37,
+      "price": 34.64,
       "ath": 181.69,
       "atl": 34.08,
-      "pct_to_ath": 428.6,
-      "pct_to_atl": 0.8,
+      "pct_to_ath": 424.5,
+      "pct_to_atl": 1.6,
       "wk52_high": 97.38,
       "wk52_low": 34.08,
       "ath_30d": 0,
@@ -42,11 +24,11 @@
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 5,
-      "price": 34.27,
+      "price": 34.51,
       "ath": 176.91,
       "atl": 33.96,
-      "pct_to_ath": 416.2,
-      "pct_to_atl": 0.9,
+      "pct_to_ath": 412.6,
+      "pct_to_atl": 1.6,
       "wk52_high": 95.95,
       "wk52_low": 33.96,
       "ath_30d": 0,
@@ -57,20 +39,38 @@
       "made_atl_today": true
     },
     {
+      "sym": "KVYO",
+      "name": "Klaviyo, Inc. Series A",
+      "mcap": 4,
+      "price": 14.45,
+      "ath": 49.55,
+      "atl": 14.42,
+      "pct_to_ath": 242.9,
+      "pct_to_atl": 0.2,
+      "wk52_high": 37.79,
+      "wk52_low": 14.42,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 15.73,
+      "last_low": 14.42,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
       "sym": "WAY",
       "name": "Waystar Holding Corp.",
       "mcap": 4,
-      "price": 19.8,
+      "price": 19.81,
       "ath": 48.11,
-      "atl": 19.73,
-      "pct_to_ath": 143.0,
+      "atl": 19.72,
+      "pct_to_ath": 142.9,
       "pct_to_atl": 0.4,
       "wk52_high": 42.55,
-      "wk52_low": 19.73,
+      "wk52_low": 19.72,
       "ath_30d": 0,
       "atl_30d": 3,
       "last_high": 20.16,
-      "last_low": 19.73,
+      "last_low": 19.72,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -460,7 +460,5 @@
       "first_seen_at": "2026-05-12T15:20:48.526243+00:00"
     }
   ],
-  "added_this_run": [
-    "WAY"
-  ]
+  "added_this_run": []
 }
