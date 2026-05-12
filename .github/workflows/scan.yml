@@ -36,6 +36,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain docs/)" ]]; then
             git add docs/results.json docs/results_weekly.json docs/results_monthly.json \
+                    docs/ath_list.json docs/atl_list.json docs/ath_atl_cache.json \
                     docs/bars docs/bars_weekly docs/bars_monthly
             git commit -m "scan @ $(date -u +'%Y-%m-%d %H:%M UTC') [actions]"
             git push
