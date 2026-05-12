@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T22:12:39.392582+00:00",
+  "updated_at": "2026-05-12T23:19:57.074122+00:00",
   "count": 30,
   "list": [
     {
@@ -507,24 +507,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MTRN",
-      "name": "Materion Corporation",
-      "mcap": 4,
-      "price": 203.65,
-      "ath": 206.54,
-      "atl": 4.09,
-      "pct_to_ath": 1.4,
-      "pct_to_atl": 4879.2,
-      "wk52_high": 206.54,
-      "wk52_low": 73.61,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 206.54,
-      "last_low": 198.77,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "COCO",
       "name": "The Vita Coco Company, Inc.",
       "mcap": 4,
@@ -539,6 +521,24 @@
       "atl_30d": 0,
       "last_high": 75.64,
       "last_low": 72.25,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MTRN",
+      "name": "Materion Corporation",
+      "mcap": 4,
+      "price": 203.65,
+      "ath": 206.54,
+      "atl": 4.09,
+      "pct_to_ath": 1.4,
+      "pct_to_atl": 4879.2,
+      "wk52_high": 206.54,
+      "wk52_low": 73.61,
+      "ath_30d": 9,
+      "atl_30d": 0,
+      "last_high": 206.54,
+      "last_low": 198.77,
       "made_ath_today": true,
       "made_atl_today": false
     }
