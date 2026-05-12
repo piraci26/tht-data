@@ -26,6 +26,30 @@ def live_mcap(sym, price):
         return round(price * s / 1e9)
     return MCAPS.get(sym, 0)
 
+# ─── Sector / industry metadata ───────────────────────────────────────────
+SECTORS_PATH = os.path.join(HERE, "universe_sectors.json")
+try:
+    UNIVERSE_SECTORS = json.load(open(SECTORS_PATH))
+except FileNotFoundError:
+    UNIVERSE_SECTORS = {}
+
+def sector_of(sym):
+    return UNIVERSE_SECTORS.get(sym, {}).get("sector")
+def industry_of(sym):
+    return UNIVERSE_SECTORS.get(sym, {}).get("industry")
+
+# ─── Append-only event + snapshot logs ────────────────────────────────────
+HISTORY_DIR = os.path.join(HERE, "docs", "history")
+EVENTS_PATH    = os.path.join(HISTORY_DIR, "events.jsonl")
+SNAPSHOTS_PATH = os.path.join(HISTORY_DIR, "snapshots.jsonl")
+
+def _append_jsonl(path, rows):
+    if not rows: return
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    with open(path, "a") as f:
+        for r in rows:
+            f.write(json.dumps(r, separators=(',', ':')) + "\n")
+
 # ─── Indicator math (ported from THT Pine source) ─────────────────────────
 def sma(values, length):
     if len(values) < length: return None
@@ -502,6 +526,59 @@ def run_scan(timeframe="daily"):
         json.dump(out, f, indent=2)
     n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
 
+    # ─── Append events + snapshot to history logs ──────────────────────
+    now_iso = out["updated_at"]
+    events = []
+    EVENT_TYPE = {
+        "fvb_green": "iq_bands_green",
+        "fvb_red":   "iq_bands_red",
+        "bxt_green": "iq_osc_green",
+        "bxt_red":   "iq_osc_red",
+    }
+    for k, etype in EVENT_TYPE.items():
+        for r in changes.get(f"{k}_added", []):
+            events.append({
+                "ts":   now_iso,
+                "tf":   timeframe,
+                "sym":  r["sym"],
+                "name": r.get("name"),
+                "event": etype,
+                "action": "flip",  # opened a new regime
+                "price":  r.get("price"),
+                "basis":  r.get("basis"),
+                "osc":    r.get("bxt_today"),
+                "mcap":   r.get("mcap"),
+                "sector":   sector_of(r["sym"]),
+                "industry": industry_of(r["sym"]),
+            })
+        for r in changes.get(f"{k}_removed", []):
+            events.append({
+                "ts":   now_iso,
+                "tf":   timeframe,
+                "sym":  r["sym"],
+                "name": r.get("name"),
+                "event": etype,
+                "action": "unflip",  # closed a prior regime
+                "price":  r.get("price"),
+                "basis":  r.get("basis"),
+                "osc":    r.get("bxt_today"),
+                "mcap":   r.get("mcap"),
+                "sector":   sector_of(r["sym"]),
+                "industry": industry_of(r["sym"]),
+            })
+    _append_jsonl(EVENTS_PATH, events)
+
+    _append_jsonl(SNAPSHOTS_PATH, [{
+        "ts":     now_iso,
+        "tf":     timeframe,
+        "scanned": out["scanned_count"],
+        "fvb_g":  len(fvb_green_list),
+        "fvb_r":  len(fvb_red_list),
+        "bxt_g":  len(bxt_green_list),
+        "bxt_r":  len(bxt_red_list),
+        "events": len(events),
+    }])
+
     # Cache OHLC bars for EVERY clickable ticker on the dashboard:
     # flipped tickers + every "removed" row in the changes table. Always re-fetch
     # so bars files never go stale even when a ticker stays in the changes
@@ -628,9 +705,50 @@ def run_ath_atl_universe():
                 "accumulator": accumulator,
                 "added_this_run": new_syms,
             }, f, indent=2)
+        return new_syms, cur_lookup
 
-    write_with_accumulator(ath_path, ath_list)
-    write_with_accumulator(atl_path, atl_list)
+    ath_new, ath_lookup = write_with_accumulator(ath_path, ath_list)
+    atl_new, atl_lookup = write_with_accumulator(atl_path, atl_list)
+
+    # Append ATH/ATL events to history log.
+    now_iso = datetime.now(timezone.utc).isoformat()
+    events = []
+    for s in ath_new:
+        r = ath_lookup[s]
+        events.append({
+            "ts":   now_iso, "tf": "ath", "sym": s, "name": r.get("name"),
+            "event": "ath_today", "action": "new",
+            "price":      r.get("price"),
+            "today_high": r.get("last_high"),
+            "ath":        r.get("ath"),
+            "ath_30d":    r.get("ath_30d"),
+            "mcap":       r.get("mcap"),
+            "sector":   sector_of(s),
+            "industry": industry_of(s),
+        })
+    for s in atl_new:
+        r = atl_lookup[s]
+        events.append({
+            "ts":   now_iso, "tf": "atl", "sym": s, "name": r.get("name"),
+            "event": "atl_today", "action": "new",
+            "price":     r.get("price"),
+            "today_low": r.get("last_low"),
+            "atl":       r.get("atl"),
+            "atl_30d":   r.get("atl_30d"),
+            "mcap":      r.get("mcap"),
+            "sector":   sector_of(s),
+            "industry": industry_of(s),
+        })
+    _append_jsonl(EVENTS_PATH, events)
+
+    _append_jsonl(SNAPSHOTS_PATH, [{
+        "ts":   now_iso,
+        "tf":   "ath_atl",
+        "ath":  len(ath_list),
+        "atl":  len(atl_list),
+        "ath_new": len(ath_new),
+        "atl_new": len(atl_new),
+    }])
 
     # Cache OHLC bars for every clickable ATH/ATL row — list + accumulator.
     # Always re-fetch so accumulator entries from prior days don't show stale charts.
