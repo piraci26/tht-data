@@ -437,16 +437,6 @@ def run_scan(timeframe="daily"):
         r["ath_30d"] = ath30d_map.get(r["sym"], 0)
         r["atl_30d"] = atl30d_map.get(r["sym"], 0)
 
-    # Cache OHLC bars for ALL flipped tickers (one folder per timeframe)
-    bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
-    os.makedirs(bars_dir, exist_ok=True)
-    with ThreadPoolExecutor(max_workers=15) as ex:
-        for f in as_completed([ex.submit(fetch_ohlc, s, interval, rng) for s in flipped_syms]):
-            sym, bars = f.result()
-            if bars:
-                with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
-                    json.dump(bars, fh, separators=(',', ':'))
-
     # Diff vs previous run — track all 4 categories
     out_path = os.path.join(HERE, "docs", "results.json" if timeframe == "daily" else f"results_{timeframe}.json")
     prev = {}
@@ -511,8 +501,27 @@ def run_scan(timeframe="daily"):
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
     n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
+
+    # Cache OHLC bars for EVERY clickable ticker on the dashboard:
+    # flipped tickers + every "removed" row in the changes table. Always re-fetch
+    # so bars files never go stale even when a ticker stays in the changes
+    # accumulator longer than a single cron tick.
+    clickable_syms = set(flipped_syms)
+    for k in cur_sets:
+        for r in changes.get(f"{k}_removed", []):
+            clickable_syms.add(r["sym"])
+    bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
+    os.makedirs(bars_dir, exist_ok=True)
+    with ThreadPoolExecutor(max_workers=15) as ex:
+        for f in as_completed([ex.submit(fetch_ohlc, s, interval, rng) for s in clickable_syms]):
+            sym, bars = f.result()
+            if bars:
+                with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
+                    json.dump(bars, fh, separators=(',', ':'))
+
     print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
-          f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r ({n_changes} changes)")
+          f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r "
+          f"({n_changes} changes, {len(clickable_syms)} bars refreshed)")
 
 def run_ath_atl_universe():
     """Scan FULL universe for stocks currently making ATHs / ATLs.
@@ -587,20 +596,6 @@ def run_ath_atl_universe():
     ath_list.sort(key=lambda x: -(x.get("mcap") or 0))
     atl_list.sort(key=lambda x: -(x.get("mcap") or 0))
 
-    # Cache OHLC bars for every ATH/ATL maker so the dashboard expand-chart works.
-    # ALWAYS re-fetch — a cached file from a prior cron run may be stale (charts
-    # would show the bars file's last date, not today's).
-    bars_dir = os.path.join(HERE, "docs", "bars")
-    os.makedirs(bars_dir, exist_ok=True)
-    ath_atl_syms = {r["sym"] for r in ath_list} | {r["sym"] for r in atl_list}
-    if ath_atl_syms:
-        with ThreadPoolExecutor(max_workers=15) as ex:
-            for f in as_completed([ex.submit(fetch_ohlc, s, "1d", "1y") for s in ath_atl_syms]):
-                sym, bars = f.result()
-                if bars:
-                    with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
-                        json.dump(bars, fh, separators=(',', ':'))
-
     def write_with_accumulator(path, cur_list):
         """Persist current list + an append-only accumulator of newly-seen symbols."""
         prev_syms = set()
@@ -636,9 +631,29 @@ def run_ath_atl_universe():
 
     write_with_accumulator(ath_path, ath_list)
     write_with_accumulator(atl_path, atl_list)
+
+    # Cache OHLC bars for every clickable ATH/ATL row — list + accumulator.
+    # Always re-fetch so accumulator entries from prior days don't show stale charts.
+    bars_dir = os.path.join(HERE, "docs", "bars")
+    os.makedirs(bars_dir, exist_ok=True)
+    clickable = {r["sym"] for r in ath_list} | {r["sym"] for r in atl_list}
+    for path in (ath_path, atl_path):
+        try:
+            with open(path) as f:
+                clickable |= {e["sym"] for e in json.load(f).get("accumulator", [])}
+        except Exception: pass
+    if clickable:
+        with ThreadPoolExecutor(max_workers=15) as ex:
+            for f in as_completed([ex.submit(fetch_ohlc, s, "1d", "1y") for s in clickable]):
+                sym, bars = f.result()
+                if bars:
+                    with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
+                        json.dump(bars, fh, separators=(',', ':'))
+
     print(f"[{datetime.now(timezone.utc).isoformat()}] [ath-atl-universe] "
           f"{'FULL SCAN' if do_full_scan else 'cached'} in {round(time.time()-t0,1)}s — "
-          f"ath_list={len(ath_list)}, atl_list={len(atl_list)}")
+          f"ath_list={len(ath_list)}, atl_list={len(atl_list)}, "
+          f"{len(clickable)} bars refreshed")
 
 if __name__ == "__main__":
     run_scan("daily")

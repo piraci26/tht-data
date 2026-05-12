@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-12T17:41:46.356651+00:00",
+  "updated_at": "2026-05-12T18:01:18.975930+00:00",
   "count": 4,
   "list": [
     {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 5,
-      "price": 34.49,
+      "price": 34.58,
       "ath": 176.91,
       "atl": 33.96,
-      "pct_to_ath": 412.9,
-      "pct_to_atl": 1.6,
+      "pct_to_ath": 411.6,
+      "pct_to_atl": 1.8,
       "wk52_high": 95.95,
       "wk52_low": 33.96,
       "ath_30d": 0,
@@ -42,17 +42,17 @@
       "sym": "KVYO",
       "name": "Klaviyo, Inc. Series A",
       "mcap": 4,
-      "price": 14.47,
+      "price": 14.46,
       "ath": 49.55,
-      "atl": 14.42,
-      "pct_to_ath": 242.4,
-      "pct_to_atl": 0.3,
+      "atl": 14.4,
+      "pct_to_ath": 242.7,
+      "pct_to_atl": 0.5,
       "wk52_high": 37.79,
-      "wk52_low": 14.42,
+      "wk52_low": 14.4,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 15.73,
-      "last_low": 14.42,
+      "last_low": 14.4,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -60,10 +60,10 @@
       "sym": "WAY",
       "name": "Waystar Holding Corp.",
       "mcap": 4,
-      "price": 19.78,
+      "price": 19.77,
       "ath": 48.11,
       "atl": 19.72,
-      "pct_to_ath": 143.2,
+      "pct_to_ath": 143.3,
       "pct_to_atl": 0.3,
       "wk52_high": 42.55,
       "wk52_low": 19.72,
@@ -460,7 +460,5 @@
       "first_seen_at": "2026-05-12T17:41:46.356651+00:00"
     }
   ],
-  "added_this_run": [
-    "WAY"
-  ]
+  "added_this_run": []
 }
