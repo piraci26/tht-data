@@ -1,0 +1,96 @@
+// =============================================================================
+// IQ Bands  (price-pane indicator)
+// =============================================================================
+// Sticky-regime trend envelope. Outer bands with a tight inner threshold cloud
+// that acts as the actual flip trigger. The regime stays bull until close prints
+// below the lower threshold — and vice versa. No whipsaws on minor basis crosses.
+//
+//   · Outer bands — statistical envelope, halo'd, regime-tinted
+//   · Inner threshold cloud — the flip trigger zone (more saturated fill)
+//   · Sticky regime walk — bull stays bull until close commits past the threshold
+//   · Basis line with halo
+//   · Bar-close locked, non-repainting
+//   · Built-in alerts: regime flips + dual-flip confluence
+//
+// Pairs with IQ Oscillator for the full dual-flip BUY/SELL workflow.
+// =============================================================================
+//@version=6
+indicator("IQ Bands", "IQ Bands", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
+
+// ─── INPUTS ──────────────────────────────────────────────────────────
+fvbLen     = input.int(33,  "Length",                            minval = 2,   group = "IQ Bands")
+fvbMult    = input.float(2.0, "Outer width",                     minval = 0.0, step = 0.1,  group = "IQ Bands")
+threshMult = input.float(0.25, "Threshold width (flip trigger)", minval = 0.0, step = 0.05, group = "IQ Bands")
+basisSrc   = input.source(ohlc4, "Basis source",                                            group = "IQ Bands")
+
+showCloud  = input.bool(true,  "Bands cloud (regime fill)", group = "Display")
+showBands  = input.bool(true,  "Band edges with halo",      group = "Display")
+
+bullCol  = input.color(#2EE89F, "Bull regime", group = "Colors")
+bearCol  = input.color(#FF6B6B, "Bear regime", group = "Colors")
+basisCol = input.color(#00E676, "Basis line",  group = "Colors")
+
+// ─── IQ BANDS ────────────────────────────────────────────────────────
+basis        = ta.sma(basisSrc, fvbLen)
+sd           = ta.stdev(close, fvbLen)
+upper        = basis + fvbMult * sd
+lower        = basis - fvbMult * sd
+threshUpper  = basis + threshMult * sd
+threshLower  = basis - threshMult * sd
+
+// Sticky regime: bull stays bull until close < threshLower; bear until close > threshUpper.
+var bool isBull       = false
+var bool initialized  = false
+if not initialized
+    isBull       := close > basis
+    initialized  := true
+else if close > threshUpper
+    isBull := true
+else if close < threshLower
+    isBull := false
+
+prevIsBull = bool(isBull[1])
+bandsFlipGreen = isBull and not prevIsBull
+bandsFlipRed   = not isBull and prevIsBull
+
+// ─── Internal momentum (for dual-flip alerts only) ──────────────────
+// Hardcoded to the standard tuning. Add the IQ Oscillator script to your chart
+// for the full visual oscillator with smoothed crossovers.
+emaDiff   = ta.ema(close, 5) - ta.ema(close, 20)
+shortBxt  = ta.rsi(emaDiff, 5) - 50
+oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+oscFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
+
+dualGreen = bandsFlipGreen and oscFlipGreen
+dualRed   = bandsFlipRed   and oscFlipRed
+
+// ─── BANDS WITH HALOS ───────────────────────────────────────────────
+bandColor = isBull ? bullCol : bearCol
+
+upperHalo = plot(showBands ? upper : na, "Upper halo", color = color.new(bandColor, 70), linewidth = 4, display = display.pane)
+upperLine = plot(showBands ? upper : na, "Upper",      color = bandColor,                 linewidth = 2)
+lowerHalo = plot(showBands ? lower : na, "Lower halo", color = color.new(bandColor, 70), linewidth = 4, display = display.pane)
+lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,                 linewidth = 2)
+
+threshUpperPlot = plot(showBands ? threshUpper : na, "Threshold upper", color = color.new(bandColor, 50), linewidth = 1)
+threshLowerPlot = plot(showBands ? threshLower : na, "Threshold lower", color = color.new(bandColor, 50), linewidth = 1)
+
+// ─── CLOUD ───────────────────────────────────────────────────────────
+cloudCol      = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+threshCloudCol= isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Outer cloud")
+fill(threshUpperPlot, threshLowerPlot, color = showCloud ? threshCloudCol : na, title = "Threshold cloud")
+
+// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
+plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4, display = display.pane)
+plot(basis, "Basis",      color = basisCol,                linewidth = 2)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(bandsFlipGreen, "IQ Bands flipped GREEN",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped GREEN at {{close}}")
+alertcondition(bandsFlipRed,   "IQ Bands flipped RED",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped RED at {{close}}")
+alertcondition(dualGreen, "BUY (dual flip green)",
+    "{{ticker}} ({{interval}}) — BUY: IQ Bands and IQ Oscillator both flipped bullish at {{close}}")
+alertcondition(dualRed, "SELL (dual flip red)",
+    "{{ticker}} ({{interval}}) — SELL: IQ Bands and IQ Oscillator both flipped bearish at {{close}}")

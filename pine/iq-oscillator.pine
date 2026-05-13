@@ -1,0 +1,84 @@
+// =============================================================================
+// IQ Oscillator  (separate-pane indicator)
+// =============================================================================
+// Leading momentum lens. Two centered curves: a short line that tracks immediate
+// momentum and a long line that holds slower context. Zero is the regime
+// boundary. Smoothed crossovers between the two are the highest-conviction
+// momentum signals.
+//
+//   * Histogram: short-term momentum, regime-colored by sign
+//   * Smooth Short: lime, halo'd, the actionable line
+//   * Smooth Long:  bright red, halo'd, slower context
+//   * Zero-cross dots
+//   * Smoothed crossover diamonds
+//   * Reference lines at 0, +10, -10
+//   * Bar-close locked, non-repainting
+//
+// Pairs with IQ Bands for the full dual-flip BUY/SELL workflow.
+// =============================================================================
+//@version=6
+indicator("IQ Oscillator", "IQ Oscillator", overlay = false, format = format.price, precision = 2)
+
+// ─── INPUTS ──────────────────────────────────────────────────────────
+shortFast = input.int(5,  "Fast length",        minval = 1, group = "IQ Oscillator")
+shortSlow = input.int(20, "Slow length",        minval = 1, group = "IQ Oscillator")
+shortRsi  = input.int(5,  "Short sensitivity",  minval = 1, group = "IQ Oscillator")
+longRsi   = input.int(15, "Long sensitivity",   minval = 1, group = "IQ Oscillator")
+smoothLen = input.int(5,  "Smoothing",          minval = 1, group = "IQ Oscillator")
+
+showXover = input.bool(true, "Smoothed crossovers",     group = "Display")
+showFlips = input.bool(true, "Zero-cross dots",         group = "Display")
+showHist  = input.bool(true, "Histogram",               group = "Display")
+showHalo  = input.bool(true, "Halo on smoothed lines",  group = "Display")
+
+bullCol   = input.color(#2EE89F, "Bull",         group = "Colors")
+bearCol   = input.color(#FF6B6B, "Bear",         group = "Colors")
+shortCol  = input.color(#00E676, "Short line",   group = "Colors")
+longCol   = input.color(#FF5252, "Long line",    group = "Colors")
+
+// ─── CALCULATIONS ────────────────────────────────────────────────────
+emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt     = ta.rsi(emaDiff, shortRsi) - 50
+longBxt      = ta.wma(ta.rsi(close, longRsi) - 50, smoothLen)
+shortSmooth  = ta.wma(shortBxt, smoothLen)
+
+xoverUp   = ta.crossover (shortSmooth, longBxt)
+xoverDown = ta.crossunder(shortSmooth, longBxt)
+
+oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+oscFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
+
+// ─── PLOTS ───────────────────────────────────────────────────────────
+// Halos render in the pane only — no price-scale label, no last-value tag.
+histCol = shortBxt >= 0 ? color.new(bullCol, 25) : color.new(bearCol, 25)
+plot(showHist ? shortBxt : na, "Histogram",
+     color = histCol, style = plot.style_columns)
+
+plot(showHalo ? shortSmooth : na, "Smooth Short halo", color = color.new(shortCol, 70), linewidth = 4, display = display.pane)
+plot(shortSmooth, "Smooth Short", color = shortCol, linewidth = 2)
+plot(showHalo ? longBxt : na, "Smooth Long halo", color = color.new(longCol, 70), linewidth = 4, display = display.pane)
+plot(longBxt, "Smooth Long", color = longCol, linewidth = 2)
+
+hline( 0,  "Zero", color = color.new(color.gray, 30), linestyle = hline.style_solid)
+hline( 10, "+10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
+hline(-10, "−10",  color = color.new(color.gray, 70), linestyle = hline.style_dotted)
+
+plotshape(showFlips and oscFlipGreen ? 0 : na, "Bull Flip", shape.circle,
+          location.absolute, color = bullCol, size = size.small)
+plotshape(showFlips and oscFlipRed   ? 0 : na, "Bear Flip", shape.circle,
+          location.absolute, color = bearCol, size = size.small)
+
+plotshape(showXover and xoverUp   ? shortSmooth : na, "X-Up",   shape.diamond,
+          location.absolute, color = bullCol, size = size.tiny)
+plotshape(showXover and xoverDown ? shortSmooth : na, "X-Down", shape.diamond,
+          location.absolute, color = bearCol, size = size.tiny)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(oscFlipGreen, "IQ Oscillator crossed above zero",
+    "{{ticker}} ({{interval}}) — IQ Oscillator crossed above zero at {{close}}")
+alertcondition(oscFlipRed,   "IQ Oscillator crossed below zero",
+    "{{ticker}} ({{interval}}) — IQ Oscillator crossed below zero at {{close}}")
+alertcondition(xoverUp,   "IQ Oscillator smoothed cross UP",
+    "{{ticker}} ({{interval}}) — IQ Oscillator smooth-short crossed above smooth-long at {{close}}")
+alertcondition(xoverDown, "IQ Oscillator smoothed cross DOWN",
+    "{{ticker}} ({{interval}}) — IQ Oscillator smooth-short crossed below smooth-long at {{close}}")
