@@ -1,40 +1,40 @@
 // =============================================================================
-// IQ Oscillator  (separate-pane indicator)
+// trend-iq · IQ Oscillator  (separate-pane indicator)  ·  v2 palette
 // =============================================================================
-// Leading momentum lens. Two centered curves: a short line that tracks immediate
-// momentum and a long line that holds slower context. Zero is the regime
-// boundary. Smoothed crossovers between the two are the highest-conviction
-// momentum signals.
+// Momentum oscillator built from RSI of an EMA difference, with smoothed
+// short and long lines, halo'd renders, zero-cross dots and crossover diamonds.
 //
-//   * Histogram: short-term momentum, regime-colored by sign
-//   * Smooth Short: lime, halo'd, the actionable line
-//   * Smooth Long:  bright red, halo'd, slower context
-//   * Zero-cross dots
-//   * Smoothed crossover diamonds
-//   * Reference lines at 0, +10, -10
-//   * Bar-close locked, non-repainting
+//   · Histogram: short-term oscillator value, dialed-down neon mint/coral
+//   · Smooth Short: vivid lime, halo'd
+//   · Smooth Long:  vivid red, halo'd
+//   · Zero-cross dots
+//   · Smoothed crossover diamonds
+//   · Reference lines at 0, +10, -10
 //
-// Pairs with IQ Bands for the full dual-flip BUY/SELL workflow.
+// Apply alongside "trend-iq · IQ Bands" on the price pane for the full
+// dual-flip signal set.
 // =============================================================================
 //@version=6
-indicator("IQ Oscillator", "IQ Oscillator", overlay = false, format = format.price, precision = 2)
+indicator("Trend-iq · IQ Bands", "Oscillator", overlay = false, format = format.price, precision = 2)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
-shortFast = input.int(5,  "Fast length",        minval = 1, group = "IQ Oscillator")
-shortSlow = input.int(20, "Slow length",        minval = 1, group = "IQ Oscillator")
-shortRsi  = input.int(5,  "Short sensitivity",  minval = 1, group = "IQ Oscillator")
-longRsi   = input.int(15, "Long sensitivity",   minval = 1, group = "IQ Oscillator")
-smoothLen = input.int(5,  "Smoothing",          minval = 1, group = "IQ Oscillator")
+shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "Short-term Oscillator")
+shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "Short-term Oscillator")
+shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "Short-term Oscillator")
+longRsi   = input.int(15, "Long RSI length",  minval = 1, group = "Long-term Oscillator")
+smoothLen = input.int(5,  "Smoothing WMA",    minval = 1, group = "Smoothing")
 
 showXover = input.bool(true, "Smoothed crossovers",     group = "Display")
 showFlips = input.bool(true, "Zero-cross dots",         group = "Display")
 showHist  = input.bool(true, "Histogram",               group = "Display")
 showHalo  = input.bool(true, "Halo on smoothed lines",  group = "Display")
 
-bullCol   = input.color(#2EE89F, "Bull",         group = "Colors")
-bearCol   = input.color(#FF6B6B, "Bear",         group = "Colors")
-shortCol  = input.color(#00E676, "Short line",   group = "Colors")
-longCol   = input.color(#FF5252, "Long line",    group = "Colors")
+// Colors (v2 palette: dialed-down neon)
+bullCol   = input.color(#2EE89F, "Bull (histogram + dots)",         group = "Colors")
+bearCol   = input.color(#FF6B6B, "Bear (histogram + dots)",         group = "Colors")
+shortCol  = input.color(#00E676, "Smoothed short line (lime)",      group = "Colors")
+longCol   = input.color(#FF5252, "Smoothed long line (bright red)", group = "Colors")
+amberCol  = input.color(#FFAA00, "Mixed/warning",                   group = "Colors")
 
 // ─── CALCULATIONS ────────────────────────────────────────────────────
 emaDiff      = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
@@ -48,8 +48,11 @@ xoverDown = ta.crossunder(shortSmooth, longBxt)
 oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
 oscFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
 
+// Streak: bars in current sign regime
+var int streak = 0
+streak := math.sign(shortBxt) == math.sign(shortBxt[1]) ? streak + 1 : 1
+
 // ─── PLOTS ───────────────────────────────────────────────────────────
-// Halos render in the pane only — no price-scale label, no last-value tag.
 histCol = shortBxt >= 0 ? color.new(bullCol, 25) : color.new(bearCol, 25)
 plot(showHist ? shortBxt : na, "Histogram",
      color = histCol, style = plot.style_columns)
