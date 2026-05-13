@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T21:06:40.535170+00:00",
+  "updated_at": "2026-05-13T22:24:42.973269+00:00",
   "count": 71,
   "list": [
     {
@@ -867,24 +867,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "LFUS",
-      "name": "Littelfuse, Inc.",
-      "mcap": 12,
-      "price": 481.02,
-      "ath": 481.32,
-      "atl": 5.75,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 8265.6,
-      "wk52_high": 481.32,
-      "wk52_low": 201.19,
-      "ath_30d": 14,
-      "atl_30d": 0,
-      "last_high": 481.32,
-      "last_low": 463.08,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "BTSG",
       "name": "BrightSpring Health Services, Inc.",
       "mcap": 12,
@@ -899,6 +881,24 @@
       "atl_30d": 0,
       "last_high": 56.97,
       "last_low": 55.21,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "LFUS",
+      "name": "Littelfuse, Inc.",
+      "mcap": 12,
+      "price": 481.02,
+      "ath": 481.32,
+      "atl": 5.75,
+      "pct_to_ath": 0.1,
+      "pct_to_atl": 8265.6,
+      "wk52_high": 481.32,
+      "wk52_low": 201.19,
+      "ath_30d": 14,
+      "atl_30d": 0,
+      "last_high": 481.32,
+      "last_low": 463.08,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1245,24 +1245,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "COCO",
-      "name": "The Vita Coco Company, Inc.",
-      "mcap": 4,
-      "price": 74.77,
-      "ath": 76.34,
-      "atl": 7.39,
-      "pct_to_ath": 2.1,
-      "pct_to_atl": 911.8,
-      "wk52_high": 76.34,
-      "wk52_low": 31.79,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 76.34,
-      "last_low": 73.83,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "MTRN",
       "name": "Materion Corporation",
       "mcap": 4,
@@ -1277,6 +1259,24 @@
       "atl_30d": 0,
       "last_high": 213.84,
       "last_low": 204.26,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "COCO",
+      "name": "The Vita Coco Company, Inc.",
+      "mcap": 4,
+      "price": 74.77,
+      "ath": 76.34,
+      "atl": 7.39,
+      "pct_to_ath": 2.1,
+      "pct_to_atl": 911.8,
+      "wk52_high": 76.34,
+      "wk52_low": 31.79,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 76.34,
+      "last_low": 73.83,
       "made_ath_today": true,
       "made_atl_today": false
     }
@@ -4587,8 +4587,5 @@
       "first_seen_at": "2026-05-13T21:06:40.535170+00:00"
     }
   ],
-  "added_this_run": [
-    "MS",
-    "TRP"
-  ]
+  "added_this_run": []
 }
