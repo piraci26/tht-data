@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-13T04:17:36.749528+00:00",
-  "count": 4,
+  "updated_at": "2026-05-13T07:32:32.923381+00:00",
+  "count": 3,
   "list": [
     {
       "sym": "LBRDK",
@@ -53,24 +53,6 @@
       "atl_30d": 4,
       "last_high": 15.74,
       "last_low": 14.29,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "WAY",
-      "name": "Waystar Holding Corp.",
-      "mcap": 4,
-      "price": 19.39,
-      "ath": 48.11,
-      "atl": 19.37,
-      "pct_to_ath": 148.1,
-      "pct_to_atl": 0.1,
-      "wk52_high": 42.55,
-      "wk52_low": 19.37,
-      "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 20.16,
-      "last_low": 19.37,
       "made_ath_today": false,
       "made_atl_today": true
     }
