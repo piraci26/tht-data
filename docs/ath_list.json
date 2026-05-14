@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T20:23:57.388463+00:00",
+  "updated_at": "2026-05-14T21:43:38.573815+00:00",
   "count": 81,
   "list": [
     {
@@ -453,24 +453,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VIK",
-      "name": "Viking Holdings Ltd Ordinary Shares",
-      "mcap": 39,
-      "price": 86.72,
-      "ath": 92.0,
-      "atl": 25.71,
-      "pct_to_ath": 6.1,
-      "pct_to_atl": 237.3,
-      "wk52_high": 92.0,
-      "wk52_low": 42.2,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 92.0,
-      "last_low": 86.33,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "IBKR",
       "name": "Interactive Brokers Group, Inc.",
       "mcap": 39,
@@ -485,6 +467,24 @@
       "atl_30d": 0,
       "last_high": 88.44,
       "last_low": 85.31,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VIK",
+      "name": "Viking Holdings Ltd Ordinary Shares",
+      "mcap": 39,
+      "price": 86.72,
+      "ath": 92.0,
+      "atl": 25.71,
+      "pct_to_ath": 6.1,
+      "pct_to_atl": 237.3,
+      "wk52_high": 92.0,
+      "wk52_low": 42.2,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 92.0,
+      "last_low": 86.33,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -907,15 +907,15 @@
       "name": "Knight-Swift Transportation Holdings Inc.",
       "mcap": 11,
       "price": 68.03,
-      "ath": 68.36,
+      "ath": 68.35,
       "atl": 1.51,
       "pct_to_ath": 0.5,
       "pct_to_atl": 4416.7,
-      "wk52_high": 68.36,
+      "wk52_high": 68.35,
       "wk52_low": 38.63,
       "ath_30d": 5,
       "atl_30d": 0,
-      "last_high": 68.36,
+      "last_high": 68.35,
       "last_low": 60.05,
       "made_ath_today": true,
       "made_atl_today": false
@@ -939,24 +939,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "AGX",
-      "name": "Argan, Inc.",
-      "mcap": 10,
-      "price": 740.91,
-      "ath": 748.42,
-      "atl": 0.23,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 316021.6,
-      "wk52_high": 748.42,
-      "wk52_low": 176.97,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 748.42,
-      "last_low": 716.5,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "LGN",
       "name": "Legence Corp. Common stock",
       "mcap": 10,
@@ -971,6 +953,24 @@
       "atl_30d": 0,
       "last_high": 107.24,
       "last_low": 86.72,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "AGX",
+      "name": "Argan, Inc.",
+      "mcap": 10,
+      "price": 740.91,
+      "ath": 748.42,
+      "atl": 0.23,
+      "pct_to_ath": 1.0,
+      "pct_to_atl": 316021.6,
+      "wk52_high": 748.42,
+      "wk52_low": 176.97,
+      "ath_30d": 11,
+      "atl_30d": 0,
+      "last_high": 748.42,
+      "last_low": 716.5,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1173,24 +1173,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "NPO",
-      "name": "Enpro Inc.",
-      "mcap": 7,
-      "price": 323.3,
-      "ath": 326.98,
-      "atl": 2.16,
-      "pct_to_ath": 1.1,
-      "pct_to_atl": 14867.6,
-      "wk52_high": 326.98,
-      "wk52_low": 173.63,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 326.98,
-      "last_low": 318.87,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "AVT",
       "name": "Avnet, Inc.",
       "mcap": 7,
@@ -1205,6 +1187,24 @@
       "atl_30d": 0,
       "last_high": 87.46,
       "last_low": 85.1,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "NPO",
+      "name": "Enpro Inc.",
+      "mcap": 7,
+      "price": 323.3,
+      "ath": 326.98,
+      "atl": 2.16,
+      "pct_to_ath": 1.1,
+      "pct_to_atl": 14867.6,
+      "wk52_high": 326.98,
+      "wk52_low": 173.63,
+      "ath_30d": 9,
+      "atl_30d": 0,
+      "last_high": 326.98,
+      "last_low": 318.87,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1263,24 +1263,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VCTR",
-      "name": "Victory Capital Holdings, Inc.",
-      "mcap": 6,
-      "price": 87.93,
-      "ath": 88.73,
-      "atl": 7.27,
-      "pct_to_ath": 0.9,
-      "pct_to_atl": 1109.5,
-      "wk52_high": 88.73,
-      "wk52_low": 57.03,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 88.73,
-      "last_low": 87.16,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PRM",
       "name": "Perimeter Solutions, SA",
       "mcap": 6,
@@ -1295,6 +1277,24 @@
       "atl_30d": 0,
       "last_high": 34.89,
       "last_low": 33.38,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "mcap": 6,
+      "price": 87.93,
+      "ath": 88.73,
+      "atl": 7.27,
+      "pct_to_ath": 0.9,
+      "pct_to_atl": 1109.5,
+      "wk52_high": 88.73,
+      "wk52_low": 57.03,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 88.73,
+      "last_low": 87.16,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4907,10 +4907,5 @@
       "first_seen_at": "2026-05-14T20:23:57.388463+00:00"
     }
   ],
-  "added_this_run": [
-    "FN",
-    "PL",
-    "RY",
-    "WCC"
-  ]
+  "added_this_run": []
 }
