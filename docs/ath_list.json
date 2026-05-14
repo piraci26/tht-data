@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T10:36:36.198837+00:00",
+  "updated_at": "2026-05-14T12:16:30.487742+00:00",
   "count": 71,
   "list": [
     {
@@ -867,24 +867,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "BTSG",
-      "name": "BrightSpring Health Services, Inc.",
-      "mcap": 12,
-      "price": 56.5,
-      "ath": 56.97,
-      "atl": 7.85,
-      "pct_to_ath": 0.8,
-      "pct_to_atl": 619.7,
-      "wk52_high": 56.97,
-      "wk52_low": 19.01,
-      "ath_30d": 12,
-      "atl_30d": 0,
-      "last_high": 56.97,
-      "last_low": 55.2,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "LFUS",
       "name": "Littelfuse, Inc.",
       "mcap": 12,
@@ -899,6 +881,24 @@
       "atl_30d": 0,
       "last_high": 481.32,
       "last_low": 463.08,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "BTSG",
+      "name": "BrightSpring Health Services, Inc.",
+      "mcap": 12,
+      "price": 56.5,
+      "ath": 56.97,
+      "atl": 7.85,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 619.7,
+      "wk52_high": 56.97,
+      "wk52_low": 19.01,
+      "ath_30d": 12,
+      "atl_30d": 0,
+      "last_high": 56.97,
+      "last_low": 55.2,
       "made_ath_today": true,
       "made_atl_today": false
     },
