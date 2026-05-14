@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-14T14:48:24.003186+00:00",
+  "updated_at": "2026-05-14T16:55:31.920395+00:00",
   "count": 3,
   "list": [
     {
       "sym": "PATH",
       "name": "UiPath, Inc.",
       "mcap": 5,
-      "price": 9.65,
+      "price": 9.72,
       "ath": 90.0,
       "atl": 9.2,
-      "pct_to_ath": 832.5,
-      "pct_to_atl": 4.9,
+      "pct_to_ath": 826.4,
+      "pct_to_atl": 5.6,
       "wk52_high": 19.84,
       "wk52_low": 9.2,
       "ath_30d": 0,
       "atl_30d": 2,
-      "last_high": 9.67,
+      "last_high": 9.83,
       "last_low": 9.2,
       "made_ath_today": false,
       "made_atl_today": true
@@ -24,11 +24,11 @@
       "sym": "WAY",
       "name": "Waystar Holding Corp.",
       "mcap": 4,
-      "price": 18.73,
+      "price": 18.65,
       "ath": 48.11,
       "atl": 18.19,
-      "pct_to_ath": 156.9,
-      "pct_to_atl": 3.0,
+      "pct_to_ath": 158.0,
+      "pct_to_atl": 2.5,
       "wk52_high": 41.49,
       "wk52_low": 18.19,
       "ath_30d": 0,
@@ -42,11 +42,11 @@
       "sym": "DOCS",
       "name": "Doximity, Inc.",
       "mcap": 3,
-      "price": 17.21,
+      "price": 17.73,
       "ath": 107.79,
       "atl": 17.15,
-      "pct_to_ath": 526.3,
-      "pct_to_atl": 0.4,
+      "pct_to_ath": 508.0,
+      "pct_to_atl": 3.4,
       "wk52_high": 76.51,
       "wk52_low": 17.15,
       "ath_30d": 0,
@@ -511,8 +511,5 @@
       "first_seen_at": "2026-05-14T14:48:24.003186+00:00"
     }
   ],
-  "added_this_run": [
-    "DOCS",
-    "PATH"
-  ]
+  "added_this_run": []
 }
