@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T08:13:32.067242+00:00",
+  "updated_at": "2026-05-14T10:36:36.198837+00:00",
   "count": 71,
   "list": [
     {
@@ -867,24 +867,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "LFUS",
-      "name": "Littelfuse, Inc.",
-      "mcap": 12,
-      "price": 481.02,
-      "ath": 481.32,
-      "atl": 5.75,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 8265.6,
-      "wk52_high": 481.32,
-      "wk52_low": 201.19,
-      "ath_30d": 14,
-      "atl_30d": 0,
-      "last_high": 481.32,
-      "last_low": 463.08,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "BTSG",
       "name": "BrightSpring Health Services, Inc.",
       "mcap": 12,
@@ -899,6 +881,24 @@
       "atl_30d": 0,
       "last_high": 56.97,
       "last_low": 55.2,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "LFUS",
+      "name": "Littelfuse, Inc.",
+      "mcap": 12,
+      "price": 481.02,
+      "ath": 481.32,
+      "atl": 5.75,
+      "pct_to_ath": 0.1,
+      "pct_to_atl": 8265.6,
+      "wk52_high": 481.32,
+      "wk52_low": 201.19,
+      "ath_30d": 14,
+      "atl_30d": 0,
+      "last_high": 481.32,
+      "last_low": 463.08,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1209,24 +1209,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MRX",
-      "name": "Marex Group plc Ordinary Shares",
-      "mcap": 4,
-      "price": 58.25,
-      "ath": 58.49,
-      "atl": 18.13,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 221.3,
-      "wk52_high": 58.49,
-      "wk52_low": 27.91,
-      "ath_30d": 10,
-      "atl_30d": 0,
-      "last_high": 58.49,
-      "last_low": 55.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "ANDG",
       "name": "Andersen Group Inc.",
       "mcap": 4,
@@ -1241,6 +1223,24 @@
       "atl_30d": 0,
       "last_high": 39.54,
       "last_low": 34.32,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MRX",
+      "name": "Marex Group plc Ordinary Shares",
+      "mcap": 4,
+      "price": 58.25,
+      "ath": 58.49,
+      "atl": 18.13,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 221.3,
+      "wk52_high": 58.49,
+      "wk52_low": 27.91,
+      "ath_30d": 10,
+      "atl_30d": 0,
+      "last_high": 58.49,
+      "last_low": 55.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
