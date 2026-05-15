@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T11:01:43.999035+00:00",
+  "updated_at": "2026-05-15T13:01:51.827659+00:00",
   "count": 79,
   "list": [
     {
@@ -435,24 +435,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VIK",
-      "name": "Viking Holdings Ltd Ordinary Shares",
-      "mcap": 39,
-      "price": 86.72,
-      "ath": 92.0,
-      "atl": 25.71,
-      "pct_to_ath": 6.1,
-      "pct_to_atl": 237.3,
-      "wk52_high": 92.0,
-      "wk52_low": 42.2,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 92.0,
-      "last_low": 86.31,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "IBKR",
       "name": "Interactive Brokers Group, Inc.",
       "mcap": 39,
@@ -467,6 +449,24 @@
       "atl_30d": 0,
       "last_high": 88.44,
       "last_low": 85.31,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VIK",
+      "name": "Viking Holdings Ltd Ordinary Shares",
+      "mcap": 39,
+      "price": 86.72,
+      "ath": 92.0,
+      "atl": 25.71,
+      "pct_to_ath": 6.1,
+      "pct_to_atl": 237.3,
+      "wk52_high": 92.0,
+      "wk52_low": 42.2,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 92.0,
+      "last_low": 86.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1227,24 +1227,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PRM",
-      "name": "Perimeter Solutions, SA",
-      "mcap": 6,
-      "price": 34.0,
-      "ath": 34.89,
-      "atl": 2.79,
-      "pct_to_ath": 2.6,
-      "pct_to_atl": 1118.6,
-      "wk52_high": 34.89,
-      "wk52_low": 11.55,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 34.89,
-      "last_low": 33.31,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "GTX",
       "name": "Garrett Motion Inc.",
       "mcap": 6,
@@ -1259,6 +1241,24 @@
       "atl_30d": 0,
       "last_high": 32.44,
       "last_low": 31.4,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "PRM",
+      "name": "Perimeter Solutions, SA",
+      "mcap": 6,
+      "price": 34.0,
+      "ath": 34.89,
+      "atl": 2.79,
+      "pct_to_ath": 2.6,
+      "pct_to_atl": 1118.6,
+      "wk52_high": 34.89,
+      "wk52_low": 11.55,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 34.89,
+      "last_low": 33.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1371,24 +1371,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MTRN",
-      "name": "Materion Corporation",
-      "mcap": 4,
-      "price": 211.09,
-      "ath": 215.62,
-      "atl": 4.09,
-      "pct_to_ath": 2.1,
-      "pct_to_atl": 5061.1,
-      "wk52_high": 215.62,
-      "wk52_low": 73.61,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 215.62,
-      "last_low": 210.01,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "COCO",
       "name": "The Vita Coco Company, Inc.",
       "mcap": 4,
@@ -1403,6 +1385,24 @@
       "atl_30d": 0,
       "last_high": 77.01,
       "last_low": 73.4,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MTRN",
+      "name": "Materion Corporation",
+      "mcap": 4,
+      "price": 211.09,
+      "ath": 215.62,
+      "atl": 4.09,
+      "pct_to_ath": 2.1,
+      "pct_to_atl": 5061.1,
+      "wk52_high": 215.62,
+      "wk52_low": 73.61,
+      "ath_30d": 11,
+      "atl_30d": 0,
+      "last_high": 215.62,
+      "last_low": 210.01,
       "made_ath_today": true,
       "made_atl_today": false
     },
