@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T05:38:14.759994+00:00",
+  "updated_at": "2026-05-15T08:29:30.691417+00:00",
   "count": 79,
   "list": [
     {
@@ -453,24 +453,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "IBKR",
-      "name": "Interactive Brokers Group, Inc.",
-      "mcap": 39,
-      "price": 88.28,
-      "ath": 88.44,
-      "atl": 3.17,
-      "pct_to_ath": 0.2,
-      "pct_to_atl": 2684.9,
-      "wk52_high": 88.44,
-      "wk52_low": 49.15,
-      "ath_30d": 7,
-      "atl_30d": 0,
-      "last_high": 88.44,
-      "last_low": 85.31,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "SATS",
       "name": "EchoStar  Corporation",
       "mcap": 39,
@@ -485,6 +467,24 @@
       "atl_30d": 0,
       "last_high": 139.54,
       "last_low": 132.6,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "IBKR",
+      "name": "Interactive Brokers Group, Inc.",
+      "mcap": 39,
+      "price": 88.28,
+      "ath": 88.44,
+      "atl": 3.17,
+      "pct_to_ath": 0.2,
+      "pct_to_atl": 2684.9,
+      "wk52_high": 88.44,
+      "wk52_low": 49.15,
+      "ath_30d": 7,
+      "atl_30d": 0,
+      "last_high": 88.44,
+      "last_low": 85.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -831,24 +831,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "LFUS",
-      "name": "Littelfuse, Inc.",
-      "mcap": 12,
-      "price": 459.99,
-      "ath": 483.95,
-      "atl": 5.75,
-      "pct_to_ath": 5.2,
-      "pct_to_atl": 7899.8,
-      "wk52_high": 483.95,
-      "wk52_low": 201.19,
-      "ath_30d": 15,
-      "atl_30d": 0,
-      "last_high": 483.95,
-      "last_low": 441.89,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "BTSG",
       "name": "BrightSpring Health Services, Inc.",
       "mcap": 12,
@@ -863,6 +845,24 @@
       "atl_30d": 0,
       "last_high": 58.67,
       "last_low": 56.5,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "LFUS",
+      "name": "Littelfuse, Inc.",
+      "mcap": 12,
+      "price": 459.99,
+      "ath": 483.95,
+      "atl": 5.75,
+      "pct_to_ath": 5.2,
+      "pct_to_atl": 7899.8,
+      "wk52_high": 483.95,
+      "wk52_low": 201.19,
+      "ath_30d": 15,
+      "atl_30d": 0,
+      "last_high": 483.95,
+      "last_low": 441.89,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -903,24 +903,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "LGN",
-      "name": "Legence Corp. Common stock",
-      "mcap": 10,
-      "price": 89.0,
-      "ath": 107.24,
-      "atl": 26.96,
-      "pct_to_ath": 20.5,
-      "pct_to_atl": 230.1,
-      "wk52_high": 107.24,
-      "wk52_low": 26.96,
-      "ath_30d": 21,
-      "atl_30d": 0,
-      "last_high": 107.24,
-      "last_low": 86.72,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "AGX",
       "name": "Argan, Inc.",
       "mcap": 10,
@@ -939,6 +921,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "LGN",
+      "name": "Legence Corp. Common stock",
+      "mcap": 10,
+      "price": 89.0,
+      "ath": 107.24,
+      "atl": 26.96,
+      "pct_to_ath": 20.5,
+      "pct_to_atl": 230.1,
+      "wk52_high": 107.24,
+      "wk52_low": 26.96,
+      "ath_30d": 21,
+      "atl_30d": 0,
+      "last_high": 107.24,
+      "last_low": 86.72,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "CTRE",
       "name": "CareTrust REIT, Inc.",
       "mcap": 9,
@@ -953,6 +953,24 @@
       "atl_30d": 0,
       "last_high": 43.08,
       "last_low": 41.83,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "ENS",
+      "name": "EnerSys",
+      "mcap": 9,
+      "price": 239.63,
+      "ath": 239.69,
+      "atl": 5.71,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 4096.7,
+      "wk52_high": 239.69,
+      "wk52_low": 76.6,
+      "ath_30d": 15,
+      "atl_30d": 0,
+      "last_high": 239.69,
+      "last_low": 233.2,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -989,24 +1007,6 @@
       "atl_30d": 0,
       "last_high": 55.09,
       "last_low": 53.49,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ENS",
-      "name": "EnerSys",
-      "mcap": 9,
-      "price": 239.63,
-      "ath": 239.69,
-      "atl": 5.71,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 4096.7,
-      "wk52_high": 239.69,
-      "wk52_low": 76.6,
-      "ath_30d": 15,
-      "atl_30d": 0,
-      "last_high": 239.69,
-      "last_low": 233.2,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1173,24 +1173,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MSM",
-      "name": "MSC Industrial Direct Company, Inc.",
-      "mcap": 6,
-      "price": 106.82,
-      "ath": 108.77,
-      "atl": 7.5,
-      "pct_to_ath": 1.8,
-      "pct_to_atl": 1324.3,
-      "wk52_high": 108.77,
-      "wk52_low": 77.78,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 108.77,
-      "last_low": 106.46,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "NJR",
       "name": "NewJersey Resources Corporation",
       "mcap": 6,
@@ -1209,20 +1191,20 @@
       "made_atl_today": false
     },
     {
-      "sym": "VCTR",
-      "name": "Victory Capital Holdings, Inc.",
+      "sym": "MSM",
+      "name": "MSC Industrial Direct Company, Inc.",
       "mcap": 6,
-      "price": 87.93,
-      "ath": 88.73,
-      "atl": 7.27,
-      "pct_to_ath": 0.9,
-      "pct_to_atl": 1109.5,
-      "wk52_high": 88.73,
-      "wk52_low": 57.03,
-      "ath_30d": 6,
+      "price": 106.82,
+      "ath": 108.77,
+      "atl": 7.5,
+      "pct_to_ath": 1.8,
+      "pct_to_atl": 1324.3,
+      "wk52_high": 108.77,
+      "wk52_low": 77.78,
+      "ath_30d": 4,
       "atl_30d": 0,
-      "last_high": 88.73,
-      "last_low": 87.16,
+      "last_high": 108.77,
+      "last_low": 106.46,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1241,6 +1223,24 @@
       "atl_30d": 0,
       "last_high": 34.89,
       "last_low": 33.31,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "mcap": 6,
+      "price": 87.93,
+      "ath": 88.73,
+      "atl": 7.27,
+      "pct_to_ath": 0.9,
+      "pct_to_atl": 1109.5,
+      "wk52_high": 88.73,
+      "wk52_low": 57.03,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 88.73,
+      "last_low": 87.16,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4871,14 +4871,5 @@
       "first_seen_at": "2026-05-15T05:38:14.759994+00:00"
     }
   ],
-  "added_this_run": [
-    "APLD",
-    "BE",
-    "BTSG",
-    "LTH",
-    "MDA",
-    "MRX",
-    "RKLB",
-    "VRT"
-  ]
+  "added_this_run": []
 }
