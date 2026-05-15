@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-05-15T01:32:21.354067+00:00",
-  "count": 2,
+  "updated_at": "2026-05-15T05:38:14.765061+00:00",
+  "count": 3,
   "list": [
+    {
+      "sym": "PATH",
+      "name": "UiPath, Inc.",
+      "mcap": 5,
+      "price": 9.67,
+      "ath": 90.0,
+      "atl": 9.2,
+      "pct_to_ath": 830.7,
+      "pct_to_atl": 5.1,
+      "wk52_high": 19.84,
+      "wk52_low": 9.2,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 9.83,
+      "last_low": 9.2,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "WAY",
       "name": "Waystar Holding Corp.",
@@ -33,7 +51,7 @@
       "wk52_low": 17.15,
       "ath_30d": 0,
       "atl_30d": 1,
-      "last_high": 18.39,
+      "last_high": 18.4,
       "last_low": 17.15,
       "made_ath_today": false,
       "made_atl_today": true
@@ -477,21 +495,23 @@
       "sym": "PATH",
       "name": "UiPath, Inc.",
       "mcap": 5,
-      "price": 9.65,
+      "price": 9.67,
       "ath": 90.0,
       "atl": 9.2,
-      "pct_to_ath": 832.5,
-      "pct_to_atl": 4.9,
+      "pct_to_ath": 830.7,
+      "pct_to_atl": 5.1,
       "wk52_high": 19.84,
       "wk52_low": 9.2,
       "ath_30d": 0,
       "atl_30d": 2,
-      "last_high": 9.67,
+      "last_high": 9.83,
       "last_low": 9.2,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-05-14T14:48:24.003186+00:00"
+      "first_seen_at": "2026-05-15T05:38:14.765061+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PATH"
+  ]
 }
