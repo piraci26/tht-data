@@ -1,14 +1,13 @@
 // =============================================================================
-// trend-iq · IQ Bands Pro  (price-pane indicator with backtest stats)
+// trend-iq · IQ Bands Pro  (price-pane indicator with full backtest stats)
 // =============================================================================
-// Bollinger-style bands with regime-tinted cloud, sticky threshold flips, and
-// an integrated backtest stats table.
+// Bollinger-style bands with regime-tinted cloud, sticky threshold flips, and a
+// comprehensive backtest stats table modelled on a full trade-journal layout.
 //   · IQ Bands: SMA(ohlc4, 33) ± outer/threshold σ, halo'd lines, regime cloud
 //   · Sticky regime: GREEN once close > basis + threshMult·σ, RED once close < basis - threshMult·σ
 //   · Trade tracking: each regime flip opens a trade, the next opposite flip closes it
-//   · Stats: trades, accuracy, W/L, avg win, avg loss, profit factor, RVR,
-//            cumulative return, avg hold bars, avg pullback
-//   · Current trade snapshot: direction, entry, live P&L, bars held
+//   · Stats split: OVERALL (all flips) vs ALIGNED (flips where Oscillator confirmed)
+//   · Multi-timeframe context: daily / weekly / monthly regime
 // =============================================================================
 //@version=6
 indicator("trend-iq · IQ Bands Pro", "IQ Bands Pro", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
@@ -23,10 +22,16 @@ shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "IQ Oscillator
 shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "IQ Oscillator (alignment detection)")
 shortRsi  = input.int(5,  "Short RSI length", minval = 1, group = "IQ Oscillator (alignment detection)")
 
+tpPct = input.float(2.0, "TP threshold (%)", minval = 0.1, step = 0.1, group = "Backtest")
+slPct = input.float(1.0, "SL threshold (%)", minval = 0.1, step = 0.1, group = "Backtest")
+
 showCloud  = input.bool(true,  "Bands cloud (regime fill)", group = "Display")
 showBands  = input.bool(true,  "Band edges with halo",      group = "Display")
-showTable  = input.bool(true,  "Status table (top right)",  group = "Display")
-showStats  = input.bool(true,  "Include backtest stats",    group = "Display")
+showTable  = input.bool(true,  "Stats table (top right)",   group = "Display")
+showWarrant     = input.bool(true,  "Show WARRANT section",   group = "Display")
+showConditions  = input.bool(true,  "Show CONDITIONS section (multi-TF)", group = "Display")
+showStats       = input.bool(true,  "Show STATS section",     group = "Display")
+showCurrent     = input.bool(true,  "Show CURRENT trade card",group = "Display")
 
 // Colors
 bullCol  = input.color(#2EE89F, "Bull regime",  group = "Colors")
@@ -57,7 +62,7 @@ prevIsBull = bool(isBull[1])
 bandsFlipGreen = isBull and not prevIsBull
 bandsFlipRed   = not isBull and prevIsBull
 
-// ─── IQ OSCILLATOR (computed here for alignment detection only) ─────
+// ─── IQ OSCILLATOR (for alignment detection) ─────
 emaDiff   = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
 shortBxt  = ta.rsi(emaDiff, shortRsi) - 50
 oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
@@ -67,6 +72,32 @@ dualGreen = bandsFlipGreen and oscFlipGreen
 dualRed   = bandsFlipRed   and oscFlipRed
 
 aligned = isBull == (shortBxt >= 0)
+
+// ─── MULTI-TIMEFRAME REGIME (Daily / Weekly / Monthly) ───────────────
+// We call ourselves at higher timeframes to get the regime state.
+htfRegime(tf) =>
+    src   = request.security(syminfo.tickerid, tf, ohlc4, lookahead = barmerge.lookahead_off, gaps = barmerge.gaps_off)
+    cl    = request.security(syminfo.tickerid, tf, close, lookahead = barmerge.lookahead_off, gaps = barmerge.gaps_off)
+    b     = ta.sma(src, fvbLen)
+    s     = ta.stdev(cl, fvbLen)
+    tu    = b + threshMult * s
+    tl    = b - threshMult * s
+    var bool bull = false
+    var bool init = false
+    if not init
+        bull := cl > b
+        init := true
+    else if cl > tu
+        bull := true
+    else if cl < tl
+        bull := false
+    bull
+
+dailyBull   = request.security(syminfo.tickerid, "D",  isBull, lookahead = barmerge.lookahead_off)
+weeklyBull  = request.security(syminfo.tickerid, "W",  isBull, lookahead = barmerge.lookahead_off)
+monthlyBull = request.security(syminfo.tickerid, "M",  isBull, lookahead = barmerge.lookahead_off)
+
+mtfAligned = (dailyBull == weeklyBull) and (weeklyBull == monthlyBull)
 
 // ─── BANDS WITH HALOS ───────────────────────────────────────────────
 bandColor = isBull ? bullCol : bearCol
@@ -79,13 +110,11 @@ lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,       
 threshUpperPlot = plot(showBands ? threshUpper : na, "Threshold upper", color = color.new(bandColor, 50), linewidth = 1)
 threshLowerPlot = plot(showBands ? threshLower : na, "Threshold lower", color = color.new(bandColor, 50), linewidth = 1)
 
-// ─── CLOUDS ──────────────────────────────────────────────────────────
 cloudCol      = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
 threshCloudCol= isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
 fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Outer cloud")
 fill(threshUpperPlot, threshLowerPlot, color = showCloud ? threshCloudCol : na, title = "Threshold cloud")
 
-// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
 plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4, display = display.pane)
 plot(basis, "Basis",      color = basisCol,                linewidth = 2)
 
@@ -100,110 +129,195 @@ alertcondition(dualRed, "SELL (dual flip red)",
     "{{ticker}} ({{interval}}) — SELL: IQ Bands and IQ Oscillator both flipped bearish at {{close}}")
 
 // =============================================================================
-// BACKTEST: track regime flips as trades
+// BACKTEST: track regime flips as trades, split overall vs aligned
 // =============================================================================
-// Trade rule: long opens on green flip @ close, closes on next red flip @ close.
-// Short opens on red flip @ close, closes on next green flip @ close.
 
+// Overall arrays — every flip-to-flip trade
 var array<float> tradePnls       = array.new<float>()
 var array<int>   tradeBarsHeld   = array.new<int>()
 var array<float> tradePullbacks  = array.new<float>()
+var array<int>   tradeBarsToLow  = array.new<int>()
+var array<bool>  tradeAligned    = array.new<bool>()
+var array<int>   tradeTpSlClass  = array.new<int>()  // 1 = TP hit, -1 = SL hit, 0 = neutral
 
-var float entryPrice = na
-var int   entryBar   = na
-var bool  inLong     = false
-var bool  inShort    = false
-var float maxAdverse = 0.0  // worst adverse % during open trade
+// Current trade state
+var float entryPrice  = na
+var int   entryBar    = na
+var bool  inLong      = false
+var bool  inShort     = false
+var float maxAdverse  = 0.0
+var int   maxAdvBar   = na
+var bool  alignAtEntry = false
+var int   barsInMkt   = 0
 
-// Track adverse excursion bar by bar while a trade is open
+// Bars-in-market tracking (every bar that has an open position counts)
+if inLong or inShort
+    barsInMkt := barsInMkt + 1
+
+// Adverse excursion update for open trade
 if inLong and not na(entryPrice)
     adv = (low - entryPrice) / entryPrice * 100
     if adv < maxAdverse
         maxAdverse := adv
+        maxAdvBar  := bar_index
 if inShort and not na(entryPrice)
     adv = (entryPrice - high) / entryPrice * 100
     if adv < maxAdverse
         maxAdverse := adv
+        maxAdvBar  := bar_index
 
-// Flip GREEN: close any open short, open a long
+closeTrade(float pnl, int holdBars, float pullback, int btl, bool wasAligned) =>
+    array.push(tradePnls, pnl)
+    array.push(tradeBarsHeld, holdBars)
+    array.push(tradePullbacks, pullback)
+    array.push(tradeBarsToLow, btl)
+    array.push(tradeAligned, wasAligned)
+    cls = pnl >= tpPct ? 1 : pnl <= -slPct ? -1 : 0
+    array.push(tradeTpSlClass, cls)
+
+// Flip GREEN: close any open short, open long
 if bandsFlipGreen and barstate.isconfirmed
     if inShort and not na(entryPrice)
         pnl = (entryPrice - close) / entryPrice * 100
-        array.push(tradePnls, pnl)
-        array.push(tradeBarsHeld, bar_index - entryBar)
-        array.push(tradePullbacks, maxAdverse)
+        bh  = bar_index - entryBar
+        btl = na(maxAdvBar) ? 0 : maxAdvBar - entryBar
+        closeTrade(pnl, bh, maxAdverse, btl, alignAtEntry)
     inShort := false
     inLong  := true
-    entryPrice := close
-    entryBar   := bar_index
-    maxAdverse := 0.0
+    entryPrice  := close
+    entryBar    := bar_index
+    maxAdverse  := 0.0
+    maxAdvBar   := bar_index
+    alignAtEntry := oscFlipGreen or (shortBxt > 0)
 
-// Flip RED: close any open long, open a short
+// Flip RED: close any open long, open short
 if bandsFlipRed and barstate.isconfirmed
     if inLong and not na(entryPrice)
         pnl = (close - entryPrice) / entryPrice * 100
-        array.push(tradePnls, pnl)
-        array.push(tradeBarsHeld, bar_index - entryBar)
-        array.push(tradePullbacks, maxAdverse)
+        bh  = bar_index - entryBar
+        btl = na(maxAdvBar) ? 0 : maxAdvBar - entryBar
+        closeTrade(pnl, bh, maxAdverse, btl, alignAtEntry)
     inLong  := false
     inShort := true
-    entryPrice := close
-    entryBar   := bar_index
-    maxAdverse := 0.0
+    entryPrice  := close
+    entryBar    := bar_index
+    maxAdverse  := 0.0
+    maxAdvBar   := bar_index
+    alignAtEntry := oscFlipRed or (shortBxt < 0)
 
 totalTrades = array.size(tradePnls)
 
 // =============================================================================
-// STATUS + STATS TABLE (top right)
+// STATS TABLE
 // =============================================================================
 if showTable and barstate.islast
-    // Aggregate stats from the trade arrays
-    int   wins         = 0
-    int   losses       = 0
-    float twin         = 0.0
-    float tloss        = 0.0
-    float cumR         = 1.0
+    // ── Aggregate computation: OVERALL pass
+    int   wins = 0,  losses = 0
+    int   tps  = 0,  sls    = 0
+    float twin = 0.0, tloss = 0.0
+    float cumR = 1.0
+    int   sumHold = 0
+    float sumPull = 0.0
+    int   sumBtl  = 0
     if totalTrades > 0
         for i = 0 to totalTrades - 1
             p = array.get(tradePnls, i)
             if p > 0
-                wins  := wins + 1
-                twin  := twin + p
+                wins := wins + 1
+                twin := twin + p
             else if p < 0
                 losses := losses + 1
-                tloss  := tloss + math.abs(p)
-            cumR := cumR * (1 + p / 100)
+                tloss := tloss + math.abs(p)
+            cumR    := cumR * (1 + p / 100)
+            sumHold := sumHold + array.get(tradeBarsHeld, i)
+            sumPull := sumPull + array.get(tradePullbacks, i)
+            sumBtl  := sumBtl + array.get(tradeBarsToLow, i)
+            cls = array.get(tradeTpSlClass, i)
+            if cls == 1
+                tps := tps + 1
+            else if cls == -1
+                sls := sls + 1
 
-    float accuracy       = totalTrades > 0 ? wins / float(totalTrades) * 100 : 0.0
-    float avgWin         = wins > 0 ? twin / wins : 0.0
-    float avgLoss        = losses > 0 ? tloss / losses : 0.0
-    float profitFactor   = tloss > 0 ? twin / tloss : na
-    float rvr            = avgLoss > 0 ? avgWin / avgLoss : na
-    float totalReturnPct = (cumR - 1) * 100
-    float avgHold        = totalTrades > 0 ? array.sum(tradeBarsHeld) / float(totalTrades) : 0.0
-    float avgPullback    = totalTrades > 0 ? array.avg(tradePullbacks) : 0.0
+    float accuracyAll       = totalTrades > 0 ? wins / float(totalTrades) * 100 : 0.0
+    float avgWinAll         = wins > 0 ? twin / wins : 0.0
+    float avgLossAll        = losses > 0 ? tloss / losses : 0.0
+    float profitFactorAll   = tloss > 0 ? twin / tloss : na
+    float rvrAll            = avgLossAll > 0 ? avgWinAll / avgLossAll : na
+    float totalReturnAll    = (cumR - 1) * 100
+    float avgHoldAll        = totalTrades > 0 ? sumHold / float(totalTrades) : 0.0
+    float avgPullbackAll    = totalTrades > 0 ? sumPull / float(totalTrades) : 0.0
+    float avgBtlAll         = totalTrades > 0 ? sumBtl / float(totalTrades) : 0.0
+    float timeInMktPct      = bar_index > 0 ? barsInMkt / float(bar_index) * 100 : 0.0
+    float capEffAll         = timeInMktPct > 0 ? totalReturnAll / (timeInMktPct / 100) : na
 
-    // Current trade snapshot
-    string curDir  = inLong ? "LONG" : inShort ? "SHORT" : "FLAT"
-    float  curPnl  = inLong and not na(entryPrice)  ? (close - entryPrice) / entryPrice * 100 :
-                     inShort and not na(entryPrice) ? (entryPrice - close) / entryPrice * 100 : 0.0
-    int    curBars = (inLong or inShort) and not na(entryBar) ? bar_index - entryBar : 0
+    // ── Aggregate computation: ALIGNED pass (only trades that opened with osc alignment)
+    int   winsA = 0, lossesA = 0
+    int   tpsA = 0,  slsA = 0
+    float twinA = 0.0, tlossA = 0.0
+    float cumRA = 1.0
+    int   sumHoldA = 0, alignedCount = 0
+    float sumPullA = 0.0
+    int   sumBtlA  = 0
+    if totalTrades > 0
+        for i = 0 to totalTrades - 1
+            if array.get(tradeAligned, i)
+                alignedCount := alignedCount + 1
+                p = array.get(tradePnls, i)
+                if p > 0
+                    winsA := winsA + 1
+                    twinA := twinA + p
+                else if p < 0
+                    lossesA := lossesA + 1
+                    tlossA := tlossA + math.abs(p)
+                cumRA   := cumRA * (1 + p / 100)
+                sumHoldA := sumHoldA + array.get(tradeBarsHeld, i)
+                sumPullA := sumPullA + array.get(tradePullbacks, i)
+                sumBtlA  := sumBtlA + array.get(tradeBarsToLow, i)
+                cls = array.get(tradeTpSlClass, i)
+                if cls == 1
+                    tpsA := tpsA + 1
+                else if cls == -1
+                    slsA := slsA + 1
 
-    // Build the table — 3 cols × (4 if !showStats else 20) rows
-    int rows = showStats ? 20 : 4
-    var table tbl = table.new(position.top_right, 3, 20,
+    float accuracyAln       = alignedCount > 0 ? winsA / float(alignedCount) * 100 : 0.0
+    float avgWinAln         = winsA > 0 ? twinA / winsA : 0.0
+    float avgLossAln        = lossesA > 0 ? tlossA / lossesA : 0.0
+    float profitFactorAln   = tlossA > 0 ? twinA / tlossA : na
+    float rvrAln            = avgLossAln > 0 ? avgWinAln / avgLossAln : na
+    float totalReturnAln    = (cumRA - 1) * 100
+    float avgHoldAln        = alignedCount > 0 ? sumHoldA / float(alignedCount) : 0.0
+    float avgPullbackAln    = alignedCount > 0 ? sumPullA / float(alignedCount) : 0.0
+    float avgBtlAln         = alignedCount > 0 ? sumBtlA / float(alignedCount) : 0.0
+    float capEffAln         = timeInMktPct > 0 ? totalReturnAln / (timeInMktPct / 100) : na
+
+    // ── Current trade snapshot
+    string curDir   = inLong ? "LONG" : inShort ? "SHORT" : "FLAT"
+    float  curPnlPct = inLong and not na(entryPrice)  ? (close - entryPrice) / entryPrice * 100 :
+                       inShort and not na(entryPrice) ? (entryPrice - close) / entryPrice * 100 : 0.0
+    float  curPnlAbs = (inLong or inShort) and not na(entryPrice) ? (curPnlPct / 100) * entryPrice : 0.0
+    int    curBars  = (inLong or inShort) and not na(entryBar) ? bar_index - entryBar : 0
+
+    // ── Table size: fixed at 36 rows × 3 cols. Sections render only if enabled.
+    var table tbl = table.new(position.top_right, 3, 36,
         bgcolor      = color.new(color.black, 80),
         border_color = color.new(color.gray, 70), border_width = 1,
         frame_color  = color.new(color.gray, 70), frame_width  = 1)
 
-    // ── Header row 0
-    table.cell(tbl, 0, 0, "",         bgcolor = color.new(color.black, 60))
-    table.cell(tbl, 1, 0, " BANDS ",  text_color = color.gray, text_size = size.small,
+    // Helper colors
+    accColAll = totalTrades == 0 ? color.gray : accuracyAll >= 60 ? bullCol : accuracyAll >= 50 ? amberCol : bearCol
+    accColAln = alignedCount == 0 ? color.gray : accuracyAln >= 60 ? bullCol : accuracyAln >= 50 ? amberCol : bearCol
+    pfColAll  = na(profitFactorAll) ? color.gray : profitFactorAll >= 1.5 ? bullCol : profitFactorAll >= 1.0 ? amberCol : bearCol
+    pfColAln  = na(profitFactorAln) ? color.gray : profitFactorAln >= 1.5 ? bullCol : profitFactorAln >= 1.0 ? amberCol : bearCol
+
+    // ──────────────────────────────────────────────────────────────────
+    // Row 0 — header
+    table.cell(tbl, 0, 0, "",          bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 1, 0, " OVERALL ", text_color = color.gray, text_size = size.small,
                text_halign = text.align_center, bgcolor = color.new(color.black, 60))
-    table.cell(tbl, 2, 0, " OSC ",    text_color = color.gray, text_size = size.small,
+    table.cell(tbl, 2, 0, " ALIGNED ", text_color = color.gray, text_size = size.small,
                text_halign = text.align_center, bgcolor = color.new(color.black, 60))
 
-    // ── Row 1: REGIME
+    // ─── STATUS QUICK (rows 1-3) — same as before but using OVERALL/ALIGNED columns
     table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
     table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
                text_color = color.white, text_size = size.normal, text_halign = text.align_center,
@@ -212,132 +326,203 @@ if showTable and barstate.islast
                text_color = color.white, text_size = size.normal, text_halign = text.align_center,
                bgcolor = shortBxt >= 0 ? bullCol : bearCol)
 
-    // ── Row 2: VALUE
     bandsDelta = ((close - basis) / basis) * 100
     table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
     table.cell(tbl, 1, 2, " " + str.tostring(bandsDelta, "+#.##") + "% ",
-               text_color = isBull ? bullCol : bearCol, text_size = size.normal,
-               text_halign = text.align_right)
+               text_color = isBull ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
     table.cell(tbl, 2, 2, " " + str.tostring(shortBxt, "+#.##") + " ",
-               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
-               text_halign = text.align_right)
+               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
 
-    // ── Row 3: DUAL
     dualText = dualGreen ? " BUY ▲ " : dualRed ? " SELL ▼ " : aligned ? (isBull ? " ALIGNED ▲ " : " ALIGNED ▼ ") : " MIXED "
     dualBg   = dualGreen ? color.new(bullCol, 30) : dualRed ? color.new(bearCol, 30) : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
     table.cell(tbl, 0, 3, " DUAL ", text_color = color.gray, text_size = size.small)
-    table.cell(tbl, 1, 3, dualText, text_color = color.white, text_size = size.normal,
-               text_halign = text.align_center, bgcolor = dualBg)
+    table.cell(tbl, 1, 3, dualText, text_color = color.white, text_size = size.normal, text_halign = text.align_center, bgcolor = dualBg)
     table.cell(tbl, 2, 3, "", bgcolor = color.new(color.black, 80))
 
-    // ── If stats disabled, blank rows 4-19 so the bottom of the table is clean
-    if not showStats
-        for r = 4 to 19
-            table.cell(tbl, 0, r, "")
-            table.cell(tbl, 1, r, "")
-            table.cell(tbl, 2, r, "")
-
-    // ── Backtest section (rows 4–14)
-    if showStats
-        // Section header
-        table.cell(tbl, 0, 4, " BACKTEST ", text_color = color.gray, text_size = size.small,
-                   bgcolor = color.new(color.black, 60))
+    // ─── WARRANT (rows 4-8)
+    if showWarrant
+        table.cell(tbl, 0, 4, " WARRANT ", text_color = color.gray, text_size = size.small, bgcolor = color.new(color.black, 60))
         table.cell(tbl, 1, 4, "", bgcolor = color.new(color.black, 60))
         table.cell(tbl, 2, 4, "", bgcolor = color.new(color.black, 60))
 
-        // TRADES
-        table.cell(tbl, 0, 5, " TRADES ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 5, " " + str.tostring(totalTrades) + " ",
-                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 5, " Length ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 5, " " + str.tostring(fvbLen) + " ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
         table.cell(tbl, 2, 5, "")
 
-        // ACCURACY (colored by tier)
-        accCol = totalTrades == 0 ? color.gray : accuracy >= 60 ? bullCol : accuracy >= 50 ? amberCol : bearCol
-        table.cell(tbl, 0, 6, " ACCURACY ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 6, totalTrades == 0 ? " — " : " " + str.tostring(accuracy, "#.#") + "% ",
-                   text_color = accCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 6, " Outer σ ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 6, " " + str.tostring(fvbMult, "#.#") + " ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
         table.cell(tbl, 2, 6, "")
 
-        // W/L
-        table.cell(tbl, 0, 7, " W/L ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 7, " " + str.tostring(wins) + "/" + str.tostring(losses) + " ",
-                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 7, " Threshold σ ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 7, " " + str.tostring(threshMult, "#.##") + " ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
         table.cell(tbl, 2, 7, "")
 
-        // AVG WIN
-        table.cell(tbl, 0, 8, " AVG WIN ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 8, wins == 0 ? " — " : " " + str.tostring(avgWin, "+#.##") + "% ",
-                   text_color = bullCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 8, " Basis src ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 8, " OHLC4 ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
         table.cell(tbl, 2, 8, "")
 
-        // AVG LOSS
-        table.cell(tbl, 0, 9, " AVG LOSS ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 9, losses == 0 ? " — " : " -" + str.tostring(avgLoss, "#.##") + "% ",
-                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
-        table.cell(tbl, 2, 9, "")
+    // ─── CONDITIONS (rows 9-13) — multi-timeframe regime
+    if showConditions
+        table.cell(tbl, 0, 9, " CONDITIONS ", text_color = color.gray, text_size = size.small, bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 1, 9, "", bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 2, 9, "", bgcolor = color.new(color.black, 60))
 
-        // PROFIT FACTOR
-        pfCol  = na(profitFactor) ? color.gray : profitFactor >= 1.5 ? bullCol : profitFactor >= 1.0 ? amberCol : bearCol
-        pfText = na(profitFactor) ? " — " : " " + str.tostring(profitFactor, "#.##") + " "
-        table.cell(tbl, 0, 10, " PROF.F. ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 10, pfText, text_color = pfCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 10, " Daily ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 10, dailyBull ? " BULL " : " BEAR ", text_color = color.white, text_size = size.normal,
+                   text_halign = text.align_center, bgcolor = dailyBull ? color.new(bullCol, 40) : color.new(bearCol, 40))
         table.cell(tbl, 2, 10, "")
 
-        // RVR (reward:risk = avg win / avg loss)
-        rvrText = na(rvr) ? " — " : " " + str.tostring(rvr, "#.##") + ":1 "
-        table.cell(tbl, 0, 11, " RVR ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 11, rvrText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 11, " Weekly ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 11, weeklyBull ? " BULL " : " BEAR ", text_color = color.white, text_size = size.normal,
+                   text_halign = text.align_center, bgcolor = weeklyBull ? color.new(bullCol, 40) : color.new(bearCol, 40))
         table.cell(tbl, 2, 11, "")
 
-        // RETURN (cumulative compounded)
-        retCol = totalReturnPct >= 0 ? bullCol : bearCol
-        table.cell(tbl, 0, 12, " RETURN ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 12, totalTrades == 0 ? " — " : " " + str.tostring(totalReturnPct, "+#.#") + "% ",
-                   text_color = retCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 12, " Monthly ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 12, monthlyBull ? " BULL " : " BEAR ", text_color = color.white, text_size = size.normal,
+                   text_halign = text.align_center, bgcolor = monthlyBull ? color.new(bullCol, 40) : color.new(bearCol, 40))
         table.cell(tbl, 2, 12, "")
 
-        // AVG HOLD
-        table.cell(tbl, 0, 13, " AVG HOLD ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 13, totalTrades == 0 ? " — " : " " + str.tostring(math.round(avgHold)) + " bars ",
-                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 0, 13, " MTF Align ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 13, mtfAligned ? " ARMED " : " MIXED ", text_color = color.white, text_size = size.normal,
+                   text_halign = text.align_center, bgcolor = mtfAligned ? color.new(bullCol, 40) : color.new(amberCol, 50))
         table.cell(tbl, 2, 13, "")
 
-        // AVG PULLBACK (mean adverse excursion)
-        table.cell(tbl, 0, 14, " PULLBACK ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 14, totalTrades == 0 ? " — " : " " + str.tostring(avgPullback, "#.##") + "% ",
-                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
-        table.cell(tbl, 2, 14, "")
+    // ─── STATS (rows 14-28)
+    if showStats
+        table.cell(tbl, 0, 14, " STATS ", text_color = color.gray, text_size = size.small, bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 1, 14, " OVERALL ", text_color = color.gray, text_size = size.small, text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 2, 14, " ALIGNED ", text_color = color.gray, text_size = size.small, text_halign = text.align_center, bgcolor = color.new(color.black, 60))
 
-        // ── CURRENT TRADE section (rows 15–19)
-        table.cell(tbl, 0, 15, " CURRENT ", text_color = color.gray, text_size = size.small,
-                   bgcolor = color.new(color.black, 60))
-        table.cell(tbl, 1, 15, "", bgcolor = color.new(color.black, 60))
-        table.cell(tbl, 2, 15, "", bgcolor = color.new(color.black, 60))
+        // TRADES
+        table.cell(tbl, 0, 15, " Trades ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 15, " " + str.tostring(totalTrades) + " ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 15, " " + str.tostring(alignedCount) + " ", text_color = color.white, text_size = size.normal, text_halign = text.align_right)
 
-        // DIR
-        table.cell(tbl, 0, 16, " DIR ", text_color = color.gray, text_size = size.small)
-        dirBg = inLong ? color.new(bullCol, 60) : inShort ? color.new(bearCol, 60) : color.new(color.gray, 80)
-        table.cell(tbl, 1, 16, " " + curDir + " ",
-                   text_color = color.white, text_size = size.normal, text_halign = text.align_center,
-                   bgcolor = dirBg)
-        table.cell(tbl, 2, 16, "")
+        // ACCURACY
+        table.cell(tbl, 0, 16, " Accuracy ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 16, totalTrades == 0 ? " — " : " " + str.tostring(accuracyAll, "#.#") + "% ",
+                   text_color = accColAll, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 16, alignedCount == 0 ? " — " : " " + str.tostring(accuracyAln, "#.#") + "% ",
+                   text_color = accColAln, text_size = size.normal, text_halign = text.align_right)
 
-        // ENTRY
-        entryText = na(entryPrice) ? " — " : " " + str.tostring(entryPrice, format.mintick) + " "
-        table.cell(tbl, 0, 17, " ENTRY ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 17, entryText,
+        // W/L
+        table.cell(tbl, 0, 17, " W/L ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 17, " " + str.tostring(wins) + "W/" + str.tostring(losses) + "L ",
                    text_color = color.white, text_size = size.normal, text_halign = text.align_right)
-        table.cell(tbl, 2, 17, "")
+        table.cell(tbl, 2, 17, " " + str.tostring(winsA) + "W/" + str.tostring(lossesA) + "L ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
 
-        // P&L (live)
-        pnlCol  = curPnl >= 0 ? bullCol : bearCol
-        pnlText = (inLong or inShort) ? " " + str.tostring(curPnl, "+#.##") + "% " : " — "
-        table.cell(tbl, 0, 18, " P&L ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 18, pnlText, text_color = pnlCol, text_size = size.normal, text_halign = text.align_right)
-        table.cell(tbl, 2, 18, "")
+        // TP/SL
+        table.cell(tbl, 0, 18, " TP/SL ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 18, " " + str.tostring(tps) + "TP/" + str.tostring(sls) + "SL ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 18, " " + str.tostring(tpsA) + "TP/" + str.tostring(slsA) + "SL ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
 
-        // BARS held
+        // AVG WIN
+        table.cell(tbl, 0, 19, " Avg WIN ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 19, wins == 0 ? " — " : " " + str.tostring(avgWinAll, "+#.##") + "% ",
+                   text_color = bullCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 19, winsA == 0 ? " — " : " " + str.tostring(avgWinAln, "+#.##") + "% ",
+                   text_color = bullCol, text_size = size.normal, text_halign = text.align_right)
+
+        // AVG LOSS
+        table.cell(tbl, 0, 20, " Avg LOSS ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 20, losses == 0 ? " — " : " -" + str.tostring(avgLossAll, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 20, lossesA == 0 ? " — " : " -" + str.tostring(avgLossAln, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+
+        // RVR
+        table.cell(tbl, 0, 21, " RVR ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 21, na(rvrAll) ? " — " : " " + str.tostring(rvrAll, "#.##") + ":1 ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 21, na(rvrAln) ? " — " : " " + str.tostring(rvrAln, "#.##") + ":1 ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+
+        // RETURN
+        table.cell(tbl, 0, 22, " Return ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 22, totalTrades == 0 ? " — " : " " + str.tostring(totalReturnAll, "+#.#") + "% ",
+                   text_color = totalReturnAll >= 0 ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 22, alignedCount == 0 ? " — " : " " + str.tostring(totalReturnAln, "+#.#") + "% ",
+                   text_color = totalReturnAln >= 0 ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
+
+        // PROF.FACTOR
+        table.cell(tbl, 0, 23, " Prof.Factor ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 23, na(profitFactorAll) ? " — " : " " + str.tostring(profitFactorAll, "#.##") + " ",
+                   text_color = pfColAll, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 23, na(profitFactorAln) ? " — " : " " + str.tostring(profitFactorAln, "#.##") + " ",
+                   text_color = pfColAln, text_size = size.normal, text_halign = text.align_right)
+
+        // AVG HOLD
+        table.cell(tbl, 0, 24, " Avg Hold ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 24, totalTrades == 0 ? " — " : " " + str.tostring(math.round(avgHoldAll)) + " bars ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 24, alignedCount == 0 ? " — " : " " + str.tostring(math.round(avgHoldAln)) + " bars ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+
+        // PULLBACK
+        table.cell(tbl, 0, 25, " Pullback ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 25, totalTrades == 0 ? " — " : " " + str.tostring(avgPullbackAll, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 25, alignedCount == 0 ? " — " : " " + str.tostring(avgPullbackAln, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+
+        // BARS TO LOW
+        table.cell(tbl, 0, 26, " Bars to Low ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 26, totalTrades == 0 ? " — " : " " + str.tostring(math.round(avgBtlAll)) + " bars ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 26, alignedCount == 0 ? " — " : " " + str.tostring(math.round(avgBtlAln)) + " bars ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+
+        // TIME IN MKT
+        table.cell(tbl, 0, 27, " Time in Mkt ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 27, " " + str.tostring(timeInMktPct, "#.#") + "% ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 27, "")
+
+        // CAP EFF (return per unit exposure)
+        table.cell(tbl, 0, 28, " Cap Eff ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 28, na(capEffAll) ? " — " : " " + str.tostring(capEffAll, "+#.#") + "% ",
+                   text_color = capEffAll >= 0 ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 28, na(capEffAln) ? " — " : " " + str.tostring(capEffAln, "+#.#") + "% ",
+                   text_color = capEffAln >= 0 ? bullCol : bearCol, text_size = size.normal, text_halign = text.align_right)
+
+    // ─── CURRENT TRADE (rows 29-35)
+    if showCurrent
+        table.cell(tbl, 0, 29, " CURRENT ", text_color = color.gray, text_size = size.small, bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 1, 29, "", bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 2, 29, "", bgcolor = color.new(color.black, 60))
+
+        dirBg = inLong ? color.new(bullCol, 60) : inShort ? color.new(bearCol, 60) : color.new(color.gray, 80)
+        table.cell(tbl, 0, 30, " Direction ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 30, " " + curDir + " ", text_color = color.white, text_size = size.normal,
+                   text_halign = text.align_center, bgcolor = dirBg)
+        table.cell(tbl, 2, 30, "")
+
+        entryText = na(entryPrice) ? " — " : " " + str.tostring(entryPrice, format.mintick) + " "
+        table.cell(tbl, 0, 31, " Entry Price ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 31, entryText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 31, "")
+
+        table.cell(tbl, 0, 32, " Current ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 32, " " + str.tostring(close, format.mintick) + " ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 32, "")
+
+        pnlAbsText = (inLong or inShort) ? " " + str.tostring(curPnlAbs, "+#.##") + " " : " — "
+        table.cell(tbl, 0, 33, " P&L $ ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 33, pnlAbsText, text_color = curPnlPct >= 0 ? bullCol : bearCol,
+                   text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 33, "")
+
+        pnlPctText = (inLong or inShort) ? " " + str.tostring(curPnlPct, "+#.##") + "% " : " — "
+        table.cell(tbl, 0, 34, " P&L % ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 34, pnlPctText, text_color = curPnlPct >= 0 ? bullCol : bearCol,
+                   text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 34, "")
+
         barsText = (inLong or inShort) ? " " + str.tostring(curBars) + " bars " : " — "
-        table.cell(tbl, 0, 19, " BARS ", text_color = color.gray, text_size = size.small)
-        table.cell(tbl, 1, 19, barsText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
-        table.cell(tbl, 2, 19, "")
+        table.cell(tbl, 0, 35, " Bars Held ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 35, barsText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 35, "")
