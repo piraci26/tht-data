@@ -1,0 +1,343 @@
+// =============================================================================
+// trend-iq · IQ Bands Pro  (price-pane indicator with backtest stats)
+// =============================================================================
+// Bollinger-style bands with regime-tinted cloud, sticky threshold flips, and
+// an integrated backtest stats table.
+//   · IQ Bands: SMA(ohlc4, 33) ± outer/threshold σ, halo'd lines, regime cloud
+//   · Sticky regime: GREEN once close > basis + threshMult·σ, RED once close < basis - threshMult·σ
+//   · Trade tracking: each regime flip opens a trade, the next opposite flip closes it
+//   · Stats: trades, accuracy, W/L, avg win, avg loss, profit factor, RVR,
+//            cumulative return, avg hold bars, avg pullback
+//   · Current trade snapshot: direction, entry, live P&L, bars held
+// =============================================================================
+//@version=6
+indicator("trend-iq · IQ Bands Pro", "IQ Bands Pro", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
+
+// ─── INPUTS ──────────────────────────────────────────────────────────
+fvbLen     = input.int(33,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
+fvbMult    = input.float(2.0, "IQ Bands StdDev Multiplier (outer)", minval = 0.0, step = 0.1, group = "IQ Bands")
+threshMult = input.float(0.25, "Threshold (inner cloud σ — flip trigger)", minval = 0.0, step = 0.05, group = "IQ Bands")
+basisSrc   = input.source(ohlc4, "Basis source", group = "IQ Bands")
+
+shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "IQ Oscillator (alignment detection)")
+shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "IQ Oscillator (alignment detection)")
+shortRsi  = input.int(5,  "Short RSI length", minval = 1, group = "IQ Oscillator (alignment detection)")
+
+showCloud  = input.bool(true,  "Bands cloud (regime fill)", group = "Display")
+showBands  = input.bool(true,  "Band edges with halo",      group = "Display")
+showTable  = input.bool(true,  "Status table (top right)",  group = "Display")
+showStats  = input.bool(true,  "Include backtest stats",    group = "Display")
+
+// Colors
+bullCol  = input.color(#2EE89F, "Bull regime",  group = "Colors")
+bearCol  = input.color(#FF6B6B, "Bear regime",  group = "Colors")
+basisCol = input.color(#00E676, "Basis line",   group = "Colors")
+amberCol = input.color(#FFAA00, "Mixed/warning",group = "Colors")
+
+// ─── IQ BANDS ────────────────────────────────────────────────────────
+basis        = ta.sma(basisSrc, fvbLen)
+sd           = ta.stdev(close, fvbLen)
+upper        = basis + fvbMult * sd
+lower        = basis - fvbMult * sd
+threshUpper  = basis + threshMult * sd
+threshLower  = basis - threshMult * sd
+
+// Sticky regime — flip happens when close closes OUTSIDE the threshold cloud.
+var bool isBull       = false
+var bool initialized  = false
+if not initialized
+    isBull       := close > basis
+    initialized  := true
+else if close > threshUpper
+    isBull := true
+else if close < threshLower
+    isBull := false
+
+prevIsBull = bool(isBull[1])
+bandsFlipGreen = isBull and not prevIsBull
+bandsFlipRed   = not isBull and prevIsBull
+
+// ─── IQ OSCILLATOR (computed here for alignment detection only) ─────
+emaDiff   = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
+shortBxt  = ta.rsi(emaDiff, shortRsi) - 50
+oscFlipGreen = shortBxt > 0 and shortBxt[1] <= 0
+oscFlipRed   = shortBxt < 0 and shortBxt[1] >= 0
+
+dualGreen = bandsFlipGreen and oscFlipGreen
+dualRed   = bandsFlipRed   and oscFlipRed
+
+aligned = isBull == (shortBxt >= 0)
+
+// ─── BANDS WITH HALOS ───────────────────────────────────────────────
+bandColor = isBull ? bullCol : bearCol
+
+upperHalo = plot(showBands ? upper : na, "Upper halo", color = color.new(bandColor, 70), linewidth = 4, display = display.pane)
+upperLine = plot(showBands ? upper : na, "Upper",      color = bandColor,                 linewidth = 2)
+lowerHalo = plot(showBands ? lower : na, "Lower halo", color = color.new(bandColor, 70), linewidth = 4, display = display.pane)
+lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,                 linewidth = 2)
+
+threshUpperPlot = plot(showBands ? threshUpper : na, "Threshold upper", color = color.new(bandColor, 50), linewidth = 1)
+threshLowerPlot = plot(showBands ? threshLower : na, "Threshold lower", color = color.new(bandColor, 50), linewidth = 1)
+
+// ─── CLOUDS ──────────────────────────────────────────────────────────
+cloudCol      = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+threshCloudCol= isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Outer cloud")
+fill(threshUpperPlot, threshLowerPlot, color = showCloud ? threshCloudCol : na, title = "Threshold cloud")
+
+// ─── BASIS LINE WITH HALO ───────────────────────────────────────────
+plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4, display = display.pane)
+plot(basis, "Basis",      color = basisCol,                linewidth = 2)
+
+// ─── ALERTS ─────────────────────────────────────────────────────────
+alertcondition(bandsFlipGreen, "IQ Bands flipped GREEN",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped GREEN at {{close}}")
+alertcondition(bandsFlipRed,   "IQ Bands flipped RED",
+    "{{ticker}} ({{interval}}) — IQ Bands flipped RED at {{close}}")
+alertcondition(dualGreen, "BUY (dual flip green)",
+    "{{ticker}} ({{interval}}) — BUY: IQ Bands and IQ Oscillator both flipped bullish at {{close}}")
+alertcondition(dualRed, "SELL (dual flip red)",
+    "{{ticker}} ({{interval}}) — SELL: IQ Bands and IQ Oscillator both flipped bearish at {{close}}")
+
+// =============================================================================
+// BACKTEST: track regime flips as trades
+// =============================================================================
+// Trade rule: long opens on green flip @ close, closes on next red flip @ close.
+// Short opens on red flip @ close, closes on next green flip @ close.
+
+var array<float> tradePnls       = array.new<float>()
+var array<int>   tradeBarsHeld   = array.new<int>()
+var array<float> tradePullbacks  = array.new<float>()
+
+var float entryPrice = na
+var int   entryBar   = na
+var bool  inLong     = false
+var bool  inShort    = false
+var float maxAdverse = 0.0  // worst adverse % during open trade
+
+// Track adverse excursion bar by bar while a trade is open
+if inLong and not na(entryPrice)
+    adv = (low - entryPrice) / entryPrice * 100
+    if adv < maxAdverse
+        maxAdverse := adv
+if inShort and not na(entryPrice)
+    adv = (entryPrice - high) / entryPrice * 100
+    if adv < maxAdverse
+        maxAdverse := adv
+
+// Flip GREEN: close any open short, open a long
+if bandsFlipGreen and barstate.isconfirmed
+    if inShort and not na(entryPrice)
+        pnl = (entryPrice - close) / entryPrice * 100
+        array.push(tradePnls, pnl)
+        array.push(tradeBarsHeld, bar_index - entryBar)
+        array.push(tradePullbacks, maxAdverse)
+    inShort := false
+    inLong  := true
+    entryPrice := close
+    entryBar   := bar_index
+    maxAdverse := 0.0
+
+// Flip RED: close any open long, open a short
+if bandsFlipRed and barstate.isconfirmed
+    if inLong and not na(entryPrice)
+        pnl = (close - entryPrice) / entryPrice * 100
+        array.push(tradePnls, pnl)
+        array.push(tradeBarsHeld, bar_index - entryBar)
+        array.push(tradePullbacks, maxAdverse)
+    inLong  := false
+    inShort := true
+    entryPrice := close
+    entryBar   := bar_index
+    maxAdverse := 0.0
+
+totalTrades = array.size(tradePnls)
+
+// =============================================================================
+// STATUS + STATS TABLE (top right)
+// =============================================================================
+if showTable and barstate.islast
+    // Aggregate stats from the trade arrays
+    int   wins         = 0
+    int   losses       = 0
+    float twin         = 0.0
+    float tloss        = 0.0
+    float cumR         = 1.0
+    if totalTrades > 0
+        for i = 0 to totalTrades - 1
+            p = array.get(tradePnls, i)
+            if p > 0
+                wins  := wins + 1
+                twin  := twin + p
+            else if p < 0
+                losses := losses + 1
+                tloss  := tloss + math.abs(p)
+            cumR := cumR * (1 + p / 100)
+
+    float accuracy       = totalTrades > 0 ? wins / float(totalTrades) * 100 : 0.0
+    float avgWin         = wins > 0 ? twin / wins : 0.0
+    float avgLoss        = losses > 0 ? tloss / losses : 0.0
+    float profitFactor   = tloss > 0 ? twin / tloss : na
+    float rvr            = avgLoss > 0 ? avgWin / avgLoss : na
+    float totalReturnPct = (cumR - 1) * 100
+    float avgHold        = totalTrades > 0 ? array.sum(tradeBarsHeld) / float(totalTrades) : 0.0
+    float avgPullback    = totalTrades > 0 ? array.avg(tradePullbacks) : 0.0
+
+    // Current trade snapshot
+    string curDir  = inLong ? "LONG" : inShort ? "SHORT" : "FLAT"
+    float  curPnl  = inLong and not na(entryPrice)  ? (close - entryPrice) / entryPrice * 100 :
+                     inShort and not na(entryPrice) ? (entryPrice - close) / entryPrice * 100 : 0.0
+    int    curBars = (inLong or inShort) and not na(entryBar) ? bar_index - entryBar : 0
+
+    // Build the table — 3 cols × (4 if !showStats else 20) rows
+    int rows = showStats ? 20 : 4
+    var table tbl = table.new(position.top_right, 3, 20,
+        bgcolor      = color.new(color.black, 80),
+        border_color = color.new(color.gray, 70), border_width = 1,
+        frame_color  = color.new(color.gray, 70), frame_width  = 1)
+
+    // ── Header row 0
+    table.cell(tbl, 0, 0, "",         bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 1, 0, " BANDS ",  text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+    table.cell(tbl, 2, 0, " OSC ",    text_color = color.gray, text_size = size.small,
+               text_halign = text.align_center, bgcolor = color.new(color.black, 60))
+
+    // ── Row 1: REGIME
+    table.cell(tbl, 0, 1, " REGIME ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 1, isBull ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = isBull ? bullCol : bearCol)
+    table.cell(tbl, 2, 1, shortBxt >= 0 ? " BULL " : " BEAR ",
+               text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+               bgcolor = shortBxt >= 0 ? bullCol : bearCol)
+
+    // ── Row 2: VALUE
+    bandsDelta = ((close - basis) / basis) * 100
+    table.cell(tbl, 0, 2, " VALUE ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 2, " " + str.tostring(bandsDelta, "+#.##") + "% ",
+               text_color = isBull ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+    table.cell(tbl, 2, 2, " " + str.tostring(shortBxt, "+#.##") + " ",
+               text_color = shortBxt >= 0 ? bullCol : bearCol, text_size = size.normal,
+               text_halign = text.align_right)
+
+    // ── Row 3: DUAL
+    dualText = dualGreen ? " BUY ▲ " : dualRed ? " SELL ▼ " : aligned ? (isBull ? " ALIGNED ▲ " : " ALIGNED ▼ ") : " MIXED "
+    dualBg   = dualGreen ? color.new(bullCol, 30) : dualRed ? color.new(bearCol, 30) : aligned ? color.new(isBull ? bullCol : bearCol, 60) : color.new(amberCol, 50)
+    table.cell(tbl, 0, 3, " DUAL ", text_color = color.gray, text_size = size.small)
+    table.cell(tbl, 1, 3, dualText, text_color = color.white, text_size = size.normal,
+               text_halign = text.align_center, bgcolor = dualBg)
+    table.cell(tbl, 2, 3, "", bgcolor = color.new(color.black, 80))
+
+    // ── If stats disabled, blank rows 4-19 so the bottom of the table is clean
+    if not showStats
+        for r = 4 to 19
+            table.cell(tbl, 0, r, "")
+            table.cell(tbl, 1, r, "")
+            table.cell(tbl, 2, r, "")
+
+    // ── Backtest section (rows 4–14)
+    if showStats
+        // Section header
+        table.cell(tbl, 0, 4, " BACKTEST ", text_color = color.gray, text_size = size.small,
+                   bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 1, 4, "", bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 2, 4, "", bgcolor = color.new(color.black, 60))
+
+        // TRADES
+        table.cell(tbl, 0, 5, " TRADES ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 5, " " + str.tostring(totalTrades) + " ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 5, "")
+
+        // ACCURACY (colored by tier)
+        accCol = totalTrades == 0 ? color.gray : accuracy >= 60 ? bullCol : accuracy >= 50 ? amberCol : bearCol
+        table.cell(tbl, 0, 6, " ACCURACY ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 6, totalTrades == 0 ? " — " : " " + str.tostring(accuracy, "#.#") + "% ",
+                   text_color = accCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 6, "")
+
+        // W/L
+        table.cell(tbl, 0, 7, " W/L ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 7, " " + str.tostring(wins) + "/" + str.tostring(losses) + " ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 7, "")
+
+        // AVG WIN
+        table.cell(tbl, 0, 8, " AVG WIN ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 8, wins == 0 ? " — " : " " + str.tostring(avgWin, "+#.##") + "% ",
+                   text_color = bullCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 8, "")
+
+        // AVG LOSS
+        table.cell(tbl, 0, 9, " AVG LOSS ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 9, losses == 0 ? " — " : " -" + str.tostring(avgLoss, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 9, "")
+
+        // PROFIT FACTOR
+        pfCol  = na(profitFactor) ? color.gray : profitFactor >= 1.5 ? bullCol : profitFactor >= 1.0 ? amberCol : bearCol
+        pfText = na(profitFactor) ? " — " : " " + str.tostring(profitFactor, "#.##") + " "
+        table.cell(tbl, 0, 10, " PROF.F. ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 10, pfText, text_color = pfCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 10, "")
+
+        // RVR (reward:risk = avg win / avg loss)
+        rvrText = na(rvr) ? " — " : " " + str.tostring(rvr, "#.##") + ":1 "
+        table.cell(tbl, 0, 11, " RVR ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 11, rvrText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 11, "")
+
+        // RETURN (cumulative compounded)
+        retCol = totalReturnPct >= 0 ? bullCol : bearCol
+        table.cell(tbl, 0, 12, " RETURN ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 12, totalTrades == 0 ? " — " : " " + str.tostring(totalReturnPct, "+#.#") + "% ",
+                   text_color = retCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 12, "")
+
+        // AVG HOLD
+        table.cell(tbl, 0, 13, " AVG HOLD ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 13, totalTrades == 0 ? " — " : " " + str.tostring(math.round(avgHold)) + " bars ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 13, "")
+
+        // AVG PULLBACK (mean adverse excursion)
+        table.cell(tbl, 0, 14, " PULLBACK ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 14, totalTrades == 0 ? " — " : " " + str.tostring(avgPullback, "#.##") + "% ",
+                   text_color = bearCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 14, "")
+
+        // ── CURRENT TRADE section (rows 15–19)
+        table.cell(tbl, 0, 15, " CURRENT ", text_color = color.gray, text_size = size.small,
+                   bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 1, 15, "", bgcolor = color.new(color.black, 60))
+        table.cell(tbl, 2, 15, "", bgcolor = color.new(color.black, 60))
+
+        // DIR
+        table.cell(tbl, 0, 16, " DIR ", text_color = color.gray, text_size = size.small)
+        dirBg = inLong ? color.new(bullCol, 60) : inShort ? color.new(bearCol, 60) : color.new(color.gray, 80)
+        table.cell(tbl, 1, 16, " " + curDir + " ",
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_center,
+                   bgcolor = dirBg)
+        table.cell(tbl, 2, 16, "")
+
+        // ENTRY
+        entryText = na(entryPrice) ? " — " : " " + str.tostring(entryPrice, format.mintick) + " "
+        table.cell(tbl, 0, 17, " ENTRY ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 17, entryText,
+                   text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 17, "")
+
+        // P&L (live)
+        pnlCol  = curPnl >= 0 ? bullCol : bearCol
+        pnlText = (inLong or inShort) ? " " + str.tostring(curPnl, "+#.##") + "% " : " — "
+        table.cell(tbl, 0, 18, " P&L ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 18, pnlText, text_color = pnlCol, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 18, "")
+
+        // BARS held
+        barsText = (inLong or inShort) ? " " + str.tostring(curBars) + " bars " : " — "
+        table.cell(tbl, 0, 19, " BARS ", text_color = color.gray, text_size = size.small)
+        table.cell(tbl, 1, 19, barsText, text_color = color.white, text_size = size.normal, text_halign = text.align_right)
+        table.cell(tbl, 2, 19, "")
