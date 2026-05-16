@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-16T17:59:15.943618+00:00",
+  "updated_at": "2026-05-16T19:19:08.462046+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 17.5,
+  "scan_seconds": 19.85,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1897,29 +1897,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PECO",
-      "name": "Phillips Edison & Company, Inc.",
-      "mcap": 5,
-      "price": 39.29,
-      "basis": 36.68,
-      "bxt_today": -3.84,
-      "bxt_yest": 5.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 40.71,
-      "atl": 5.75,
-      "pct_to_ath": 3.6,
-      "pct_to_atl": 583.3,
-      "wk52_high": 40.71,
-      "wk52_low": 32.84,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -1940,6 +1917,29 @@
       "wk52_high": 90.25,
       "wk52_low": 48.83,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PECO",
+      "name": "Phillips Edison & Company, Inc.",
+      "mcap": 5,
+      "price": 39.29,
+      "basis": 36.68,
+      "bxt_today": -3.84,
+      "bxt_yest": 5.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 40.71,
+      "atl": 5.75,
+      "pct_to_ath": 3.6,
+      "pct_to_atl": 583.3,
+      "wk52_high": 40.71,
+      "wk52_low": 32.84,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2150,29 +2150,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "BNL",
-      "name": "Broadstone Net Lease, Inc.",
-      "mcap": 4,
-      "price": 19.89,
-      "basis": 18.68,
-      "bxt_today": -0.41,
-      "bxt_yest": 4.5,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 28.0,
-      "atl": 13.68,
-      "pct_to_ath": 40.8,
-      "pct_to_atl": 45.4,
-      "wk52_high": 20.48,
-      "wk52_low": 15.28,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "WSFS",
       "name": "WSFS Financial Corporation",
       "mcap": 4,
@@ -2193,6 +2170,29 @@
       "wk52_high": 73.22,
       "wk52_low": 49.92,
       "ath_30d": 4,
+      "atl_30d": 0
+    },
+    {
+      "sym": "BNL",
+      "name": "Broadstone Net Lease, Inc.",
+      "mcap": 4,
+      "price": 19.89,
+      "basis": 18.68,
+      "bxt_today": -0.41,
+      "bxt_yest": 4.5,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 28.0,
+      "atl": 13.68,
+      "pct_to_ath": 40.8,
+      "pct_to_atl": 45.4,
+      "wk52_high": 20.48,
+      "wk52_low": 15.28,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2220,7 +2220,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-16T16:57:49.360555+00:00",
+    "compared_to": "2026-05-16T17:59:15.943618+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
