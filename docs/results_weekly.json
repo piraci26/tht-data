@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-17T10:42:42.651632+00:00",
+  "updated_at": "2026-05-17T11:46:27.724974+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 17.2,
+  "scan_seconds": 21.96,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1253,29 +1253,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "FHN",
-      "name": "First Horizon Corporation",
-      "mcap": 11,
-      "price": 23.57,
-      "basis": 23.32,
-      "bxt_today": -4.57,
-      "bxt_yest": 3.69,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 46.47,
-      "atl": 2.83,
-      "pct_to_ath": 97.1,
-      "pct_to_atl": 734.2,
-      "wk52_high": 26.56,
-      "wk52_low": 19.04,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SF",
       "name": "Stifel Financial Corporation",
       "mcap": 11,
@@ -1295,6 +1272,29 @@
       "pct_to_atl": 20817.9,
       "wk52_high": 89.83,
       "wk52_low": 60.62,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "FHN",
+      "name": "First Horizon Corporation",
+      "mcap": 11,
+      "price": 23.57,
+      "basis": 23.32,
+      "bxt_today": -4.57,
+      "bxt_yest": 3.69,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 46.47,
+      "atl": 2.83,
+      "pct_to_ath": 97.1,
+      "pct_to_atl": 734.2,
+      "wk52_high": 26.56,
+      "wk52_low": 19.04,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2220,7 +2220,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-17T09:16:22.800704+00:00",
+    "compared_to": "2026-05-17T10:42:42.651632+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
