@@ -166,38 +166,61 @@ confirmBear = bandsFlipDn and isConf
 contrBull = isContr and close < zonesLo and oscFlipUp
 contrBear = isContr and close > zonesUp and oscFlipDn
 
-// Conviction Tier (1-4): rules-based confluence rating
+// Conviction Tier (1-4): stricter confluence — tier 4 is genuinely rare
 convictionBull() =>
     score = 1
-    if oscBull
+    // +1 if oscillator JUST flipped up (within last 3 bars), not merely positive
+    if ta.barssince(oscFlipUp) <= 3
         score := score + 1
-    if close > tracer
+    // +1 if tracer is rising (slope positive over last 5 bars)
+    if tracer > tracer[5]
         score := score + 1
-    if close > catcher
+    // +1 if catcher is above tracer (alignment of fast and slow)
+    if catcher > tracer
         score := score + 1
     score
 
 convictionBear() =>
     score = 1
-    if oscBear
+    if ta.barssince(oscFlipDn) <= 3
         score := score + 1
-    if close < tracer
+    if tracer < tracer[5]
         score := score + 1
-    if close < catcher
+    if catcher < tracer
         score := score + 1
     score
 
-bullTier = (confirmBull or contrBull) and useConviction ? convictionBull() : (confirmBull or contrBull) ? 1 : 0
-bearTier = (confirmBear or contrBear) and useConviction ? convictionBear() : (confirmBear or contrBear) ? 1 : 0
+// Cooldown — suppress repeat signals within N bars (scales with sensitivity)
+cooldown = math.max(5, math.round(15 / sf))
 
-isBullSig  = confirmBull or contrBull
-isBearSig  = confirmBear or contrBear
-isBullPlus = isBullSig and bullTier >= 3
-isBearPlus = isBearSig and bearTier >= 3
+var int barsSinceBullSig = 999
+var int barsSinceBearSig = 999
+barsSinceBullSig := barsSinceBullSig + 1
+barsSinceBearSig := barsSinceBearSig + 1
 
-// Exits — close break vs IQ Trail
-exitBull = ta.crossunder(close, iqTrail) and isBull[1]
-exitBear = ta.crossover(close, iqTrail) and not isBull[1]
+rawBullSig = confirmBull or contrBull
+rawBearSig = confirmBear or contrBear
+
+bullTier = rawBullSig and useConviction ? convictionBull() : rawBullSig ? 1 : 0
+bearTier = rawBearSig and useConviction ? convictionBear() : rawBearSig ? 1 : 0
+
+// Only fire signal if tier >= 2 AND cooldown passed
+isBullSig  = rawBullSig and bullTier >= 2 and barsSinceBullSig > cooldown
+isBearSig  = rawBearSig and bearTier >= 2 and barsSinceBearSig > cooldown
+
+if isBullSig
+    barsSinceBullSig := 0
+if isBearSig
+    barsSinceBearSig := 0
+
+// "+" tier — only at conviction 4 (genuine high-confidence)
+isBullPlus = isBullSig and bullTier >= 4
+isBearPlus = isBearSig and bearTier >= 4
+
+// Exits — Oscillator turns against the regime while regime still holds.
+// This is the early-warning signal, like LuxAlgo. Independent of Trail.
+exitBull = isBull and oscFlipDn  // bands still bull but osc just flipped bear
+exitBear = not isBull and oscFlipUp  // bands still bear but osc just flipped bull
 
 // =============================================================================
 // PLOTS
