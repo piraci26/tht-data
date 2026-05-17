@@ -1,0 +1,29 @@
+//@version=6
+// LuxAlgo Meta — small reader that pulls LuxAlgo Signals & Overlays plots and
+// emits "bars since last green flip" / "bars since last red flip" so the
+// nightly CDP scan can capture flip-age alongside the current signal.
+//
+// USAGE — add this to a chart that already has "LuxAlgo Signals & Overlays" applied:
+//   Settings → set Bullish / Bullish+ / Bearish / Bearish+ to the matching
+//   LuxAlgo plot names (the dropdowns will list them).
+//
+// Output plots (display only in Data Window, never on the chart):
+//   "Days Since Green" — bars since the most recent Bullish OR Bullish+ alert
+//   "Days Since Red"   — bars since the most recent Bearish OR Bearish+ alert
+//
+// On the timeframe of the chart, "days" == bars (daily TF → calendar days etc.)
+indicator("LuxAlgo Meta", overlay = false, format = format.inherit)
+
+bullish      = input.source(close, "Bullish")
+bullish_plus = input.source(close, "Bullish+")
+bearish      = input.source(close, "Bearish")
+bearish_plus = input.source(close, "Bearish+")
+
+green_fire = bullish == 1 or bullish_plus == 1
+red_fire   = bearish == 1 or bearish_plus == 1
+
+days_since_green = ta.barssince(green_fire)
+days_since_red   = ta.barssince(red_fire)
+
+plot(days_since_green, "Days Since Green", display = display.data_window)
+plot(days_since_red,   "Days Since Red",   display = display.data_window)
