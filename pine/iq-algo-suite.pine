@@ -53,8 +53,8 @@ tracerSens  = input.int(3,  "  Tracer sensitivity", minval = 1, maxval = 10, gro
 showCloud   = input.bool(false, "IQ Cloud (swing zone)",             group = "Overlays")
 cloudSens   = input.int(2,  "  Cloud sensitivity",  minval = 1, maxval = 10, group = "Overlays")
 
-showBandsCloud = input.bool(true,  "Bands threshold cloud",  group = "Overlays")
-showBasis      = input.bool(true,  "Basis line",             group = "Overlays")
+showBandsCloud = input.bool(false, "Bands threshold cloud",  group = "Overlays")
+showBasis      = input.bool(false, "Basis line",             group = "Overlays")
 
 // Preset filter overrides
 if preset == "Trend Trader"
