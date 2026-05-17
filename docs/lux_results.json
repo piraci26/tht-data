@@ -1,0 +1,343 @@
+{
+  "updated_at": "2026-05-17T18:21:20.730623+00:00",
+  "threshold_b": 50.0,
+  "tickers_in_scope": 293,
+  "timeframes": {
+    "D": {
+      "greens": [
+        {
+          "sym": "GOOGL",
+          "name": "Alphabet Inc.",
+          "mcap": 4807.16591663476,
+          "trend_strength": "18.73",
+          "is_plus": false
+        },
+        {
+          "sym": "XOM",
+          "name": "Exxon Mobil Corporation",
+          "mcap": 654.570048233415,
+          "trend_strength": "1.18",
+          "is_plus": false
+        },
+        {
+          "sym": "CB",
+          "name": "Chubb Limited",
+          "mcap": 125.72485099258978,
+          "trend_strength": "18.73",
+          "is_plus": false
+        },
+        {
+          "sym": "CNQ",
+          "name": "Canadian Natural Resources Limited",
+          "mcap": 100.07236484523773,
+          "trend_strength": "32.69",
+          "is_plus": true
+        },
+        {
+          "sym": "NOW",
+          "name": "ServiceNow, Inc.",
+          "mcap": 98.04645124526978,
+          "trend_strength": "48.58",
+          "is_plus": false
+        },
+        {
+          "sym": "WM",
+          "name": "Waste Management, Inc.",
+          "mcap": 88.27438474586866,
+          "trend_strength": "31.70",
+          "is_plus": false
+        },
+        {
+          "sym": "OKE",
+          "name": "ONEOK, Inc.",
+          "mcap": 58.16,
+          "trend_strength": "28.28",
+          "is_plus": true
+        },
+        {
+          "sym": "SNOW",
+          "name": "Snowflake Inc.",
+          "mcap": 54.44,
+          "trend_strength": "56.25",
+          "is_plus": false
+        }
+      ],
+      "reds": [
+        {
+          "sym": "INTC",
+          "name": "Intel Corporation",
+          "mcap": 546.6780031280517,
+          "trend_strength": "66.33",
+          "is_plus": false
+        },
+        {
+          "sym": "BA",
+          "name": "Boeing Company (The)",
+          "mcap": 173.81278529246404,
+          "trend_strength": "2.29",
+          "is_plus": false
+        },
+        {
+          "sym": "GLW",
+          "name": "Corning Incorporated",
+          "mcap": 165.07893911208345,
+          "trend_strength": "67.13",
+          "is_plus": false
+        },
+        {
+          "sym": "GILD",
+          "name": "Gilead Sciences, Inc.",
+          "mcap": 160.88262654630233,
+          "trend_strength": "81.81",
+          "is_plus": true
+        },
+        {
+          "sym": "WELL",
+          "name": "Welltower Inc.",
+          "mcap": 150.8821584207039,
+          "trend_strength": "27.44",
+          "is_plus": false
+        },
+        {
+          "sym": "NEM",
+          "name": "Newmont Corporation",
+          "mcap": 116.42730183551001,
+          "trend_strength": "10.66",
+          "is_plus": true
+        },
+        {
+          "sym": "HWM",
+          "name": "Howmet Aerospace Inc.",
+          "mcap": 104.16798564111227,
+          "trend_strength": "14.69",
+          "is_plus": false
+        },
+        {
+          "sym": "EMR",
+          "name": "Emerson Electric Company",
+          "mcap": 74.52,
+          "trend_strength": "23.11",
+          "is_plus": true
+        },
+        {
+          "sym": "PSA",
+          "name": "Public Storage",
+          "mcap": 51.34,
+          "trend_strength": "3.77",
+          "is_plus": false
+        }
+      ],
+      "scanned": 293
+    },
+    "W": {
+      "greens": [
+        {
+          "sym": "KO",
+          "name": "Coca-Cola Company (The)",
+          "mcap": 347.7266277097466,
+          "trend_strength": "51.18",
+          "is_plus": true
+        },
+        {
+          "sym": "BTI",
+          "name": "British American Tobacco  Industries, p.l.c. ADR",
+          "mcap": 140.79474710464132,
+          "trend_strength": "85.27",
+          "is_plus": true
+        },
+        {
+          "sym": "VLO",
+          "name": "Valero Energy Corporation",
+          "mcap": 74.45,
+          "trend_strength": "81.89",
+          "is_plus": true
+        },
+        {
+          "sym": "IMO",
+          "name": "Imperial Oil Limited",
+          "mcap": 66.99,
+          "trend_strength": "87.38",
+          "is_plus": true
+        },
+        {
+          "sym": "AFL",
+          "name": "AFLAC Incorporated",
+          "mcap": 59.45,
+          "trend_strength": "45.64",
+          "is_plus": true
+        }
+      ],
+      "reds": [
+        {
+          "sym": "TMUS",
+          "name": "T-Mobile US, Inc.",
+          "mcap": 200.44595900379068,
+          "trend_strength": "56.39",
+          "is_plus": true
+        },
+        {
+          "sym": "T",
+          "name": "AT&T Inc.",
+          "mcap": 166.96858697609565,
+          "trend_strength": "0.8726",
+          "is_plus": true
+        },
+        {
+          "sym": "APH",
+          "name": "Amphenol Corporation",
+          "mcap": 153.779305625,
+          "trend_strength": "85.74",
+          "is_plus": false
+        },
+        {
+          "sym": "PBR",
+          "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+          "mcap": 128.43622393999453,
+          "trend_strength": "34.85",
+          "is_plus": false
+        },
+        {
+          "sym": "BKNG",
+          "name": "Booking Holdings Inc.",
+          "mcap": 119.43201712426611,
+          "trend_strength": "10.40",
+          "is_plus": true
+        },
+        {
+          "sym": "DUK",
+          "name": "Duke Energy Corporation (Holding Company)",
+          "mcap": 94.29216006701115,
+          "trend_strength": "52.00",
+          "is_plus": true
+        },
+        {
+          "sym": "MELI",
+          "name": "MercadoLibre, Inc.",
+          "mcap": 78.418911059958,
+          "trend_strength": "15.43",
+          "is_plus": true
+        },
+        {
+          "sym": "ROST",
+          "name": "Ross Stores, Inc.",
+          "mcap": 68.81,
+          "trend_strength": "76.50",
+          "is_plus": false
+        },
+        {
+          "sym": "PCAR",
+          "name": "PACCAR Inc.",
+          "mcap": 58.06,
+          "trend_strength": "40.17",
+          "is_plus": false
+        }
+      ],
+      "scanned": 293
+    },
+    "M": {
+      "greens": [
+        {
+          "sym": "QCOM",
+          "name": "QUALCOMM Incorporated",
+          "mcap": 212.37046578979493,
+          "trend_strength": "21.27",
+          "is_plus": true
+        },
+        {
+          "sym": "PANW",
+          "name": "Palo Alto Networks, Inc.",
+          "mcap": 196.93513148498536,
+          "trend_strength": "89.93",
+          "is_plus": true
+        },
+        {
+          "sym": "CRWD",
+          "name": "CrowdStrike Holdings, Inc.",
+          "mcap": 151.21506074566938,
+          "trend_strength": "62.54",
+          "is_plus": true
+        },
+        {
+          "sym": "UBS",
+          "name": "UBS Group AG Registered Ordinary Shares",
+          "mcap": 149.27125016948025,
+          "trend_strength": "90.78",
+          "is_plus": true
+        },
+        {
+          "sym": "FTNT",
+          "name": "Fortinet, Inc.",
+          "mcap": 89.95,
+          "trend_strength": "71.21",
+          "is_plus": true
+        },
+        {
+          "sym": "MNST",
+          "name": "Monster Beverage Corporation",
+          "mcap": 85.17,
+          "trend_strength": "71.40",
+          "is_plus": true
+        }
+      ],
+      "reds": [
+        {
+          "sym": "AZN",
+          "name": "AstraZeneca PLC Ordinary Shares",
+          "mcap": 281.6029977508276,
+          "trend_strength": "75.47",
+          "is_plus": false
+        },
+        {
+          "sym": "T",
+          "name": "AT&T Inc.",
+          "mcap": 166.96858697609565,
+          "trend_strength": "19.35",
+          "is_plus": false
+        },
+        {
+          "sym": "LOW",
+          "name": "Lowe's Companies, Inc.",
+          "mcap": 122.32893606355421,
+          "trend_strength": "58.74",
+          "is_plus": false
+        },
+        {
+          "sym": "MCK",
+          "name": "McKesson Corporation",
+          "mcap": 91.42359594947077,
+          "trend_strength": "95.00",
+          "is_plus": false
+        },
+        {
+          "sym": "ORLY",
+          "name": "O'Reilly Automotive, Inc.",
+          "mcap": 73.33,
+          "trend_strength": "95.46",
+          "is_plus": false
+        },
+        {
+          "sym": "ECL",
+          "name": "Ecolab Inc.",
+          "mcap": 69.69,
+          "trend_strength": "38.58",
+          "is_plus": false
+        },
+        {
+          "sym": "TEL",
+          "name": "TE Connectivity plc Ordinary Shares",
+          "mcap": 59.87,
+          "trend_strength": "59.85",
+          "is_plus": false
+        },
+        {
+          "sym": "SRE",
+          "name": "DBA Sempra",
+          "mcap": 59.11,
+          "trend_strength": "63.49",
+          "is_plus": false
+        }
+      ],
+      "scanned": 293
+    }
+  }
+}
