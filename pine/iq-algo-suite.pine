@@ -1,0 +1,452 @@
+// =============================================================================
+// IQ Algo Suite — Signals, Overlays, Cockpit, TP/SL
+// =============================================================================
+// One indicator. Multiple modes. Multiple overlays. One cockpit.
+//
+// Signals: Confirmation (trend-following) and Contrarian (mean-reversion)
+// Conviction Tier: 1-4 rating per signal based on confluence
+// Overlays: IQ Trail / IQ Zones / IQ Catcher / IQ Tracer / IQ Cloud
+// TP/SL: auto levels anchored to any chosen overlay
+// Cockpit: Trend Strength · Volatility · Squeeze · Volume Sentiment · Optimal Sensitivity
+// Presets: None / Trend Trader / Swing Trader / Scalper / Contrarian Trader
+// All signals bar-close locked. No repaint.
+// =============================================================================
+//@version=6
+indicator("IQ Algo Suite", "IQ Algo", overlay = true,
+          max_labels_count = 500, max_boxes_count = 500, max_lines_count = 500)
+
+// ─── PRESETS & MODE ──────────────────────────────────────────────────
+preset = input.string("None", "Preset",
+    options = ["None", "Trend Trader", "Swing Trader", "Scalper", "Contrarian Trader"],
+    group = "Mode")
+
+signalModeInput = input.string("Confirmation + Exits", "Signal Mode",
+    options = ["Confirmation + Exits", "Contrarian + Exits", "None"],
+    group = "Mode")
+
+useConviction = input.bool(true, "Conviction Tier (1-4 confluence rating)", group = "Mode")
+sensitivityIn = input.int(8, "Sensitivity", minval = 1, maxval = 15, group = "Mode")
+
+candleMode = input.string("None", "Candle Coloring",
+    options = ["None", "Confirmation Simple", "Confirmation Gradient", "Contrarian Gradient"],
+    group = "Mode")
+
+// Apply preset overrides
+sensitivity = preset == "Scalper"           ? 4 :
+              preset == "Trend Trader"      ? 10 :
+              preset == "Swing Trader"      ? 12 :
+              preset == "Contrarian Trader" ? 6  : sensitivityIn
+
+signalMode = preset == "Contrarian Trader" ? "Contrarian + Exits" : signalModeInput
+
+sf = sensitivity / 8.0  // sensitivity factor, normalized around default
+
+// ─── OVERLAYS ENABLES ────────────────────────────────────────────────
+showTrail   = input.bool(false, "IQ Trail (adaptive trailing stop)", group = "Overlays")
+trailSens   = input.int(3,  "  Trail sensitivity",  minval = 1, maxval = 10, group = "Overlays")
+showZones   = input.bool(false, "IQ Zones (reversal zones)",         group = "Overlays")
+zonesSens   = input.int(3,  "  Zones sensitivity",  minval = 1, maxval = 10, group = "Overlays")
+showCatcher = input.bool(false, "IQ Catcher (fast trend)",           group = "Overlays")
+catcherSens = input.int(3,  "  Catcher sensitivity",minval = 1, maxval = 10, group = "Overlays")
+showTracer  = input.bool(false, "IQ Tracer (stable trend)",          group = "Overlays")
+tracerSens  = input.int(3,  "  Tracer sensitivity", minval = 1, maxval = 10, group = "Overlays")
+showCloud   = input.bool(false, "IQ Cloud (swing zone)",             group = "Overlays")
+cloudSens   = input.int(2,  "  Cloud sensitivity",  minval = 1, maxval = 10, group = "Overlays")
+
+showBandsCloud = input.bool(true,  "Bands threshold cloud",  group = "Overlays")
+showBasis      = input.bool(true,  "Basis line",             group = "Overlays")
+
+// Preset filter overrides
+if preset == "Trend Trader"
+    showTracer := true
+if preset == "Scalper"
+    showCatcher := true
+if preset == "Swing Trader"
+    showCloud := true
+if preset == "Contrarian Trader"
+    showZones := true
+
+// ─── TP/SL ───────────────────────────────────────────────────────────
+tpslAnchor = input.string("None", "TP/SL anchor",
+    options = ["None", "IQ Trail", "IQ Catcher", "IQ Tracer"],
+    group = "TP/SL")
+tpslDist = input.float(2.0, "TP/SL distance (× ATR)", minval = 0.5, step = 0.5, group = "TP/SL")
+
+// ─── COCKPIT (DASHBOARD) ─────────────────────────────────────────────
+showCockpit = input.bool(true,  "Show IQ Cockpit", group = "Cockpit")
+dashLoc = input.string("Bottom right", "Location",
+    options = ["Top right", "Top left", "Bottom right", "Bottom left", "Middle right", "Middle left"],
+    group = "Cockpit")
+dashSize = input.string("Small", "Size",
+    options = ["Tiny", "Small", "Normal", "Large"],
+    group = "Cockpit")
+showDashMode    = input.bool(true, "Mode",              group = "Cockpit")
+showDashTrend   = input.bool(true, "Trend Strength",    group = "Cockpit")
+showDashVol     = input.bool(true, "Volatility",        group = "Cockpit")
+showDashSqueeze = input.bool(true, "Squeeze",           group = "Cockpit")
+showDashVolume  = input.bool(true, "Volume Sentiment",  group = "Cockpit")
+showDashOptSens = input.bool(true, "Optimal Sensitivity",group = "Cockpit")
+
+// ─── COLORS ──────────────────────────────────────────────────────────
+bullCol   = input.color(#2EE89F, "Bull",                    group = "Colors")
+bearCol   = input.color(#FF6B6B, "Bear",                    group = "Colors")
+purpleCol = input.color(#7C5CFF, "Neutral / weak (purple)", group = "Colors")
+basisCol  = input.color(#00E676, "Basis",                   group = "Colors")
+amberCol  = input.color(#FFAA00, "Mixed / warning",         group = "Colors")
+
+// =============================================================================
+// CORE — IQ BANDS engine
+// =============================================================================
+basisLen = math.max(5, math.round(33 * (0.6 + 0.4 * sf)))
+basisSrc = (open + high + low + close) / 4
+basis    = ta.sma(basisSrc, basisLen)
+sd       = ta.stdev(close, basisLen)
+threshUp = basis + 0.25 * sd
+threshLo = basis - 0.25 * sd
+outerUp  = basis + 2.0  * sd
+outerLo  = basis - 2.0  * sd
+
+var bool isBull = false
+var bool init   = false
+if not init
+    isBull := close > basis
+    init   := true
+else if close > threshUp
+    isBull := true
+else if close < threshLo
+    isBull := false
+
+prevIsBull   = bool(isBull[1])
+bandsFlipUp  = isBull and not prevIsBull
+bandsFlipDn  = not isBull and prevIsBull
+
+// =============================================================================
+// CORE — IQ OSCILLATOR (internal, for confluence)
+// =============================================================================
+oscFast  = math.max(2,  math.round(5  / sf))
+oscSlow  = math.max(10, math.round(20 / sf))
+emaDiff  = ta.ema(close, oscFast) - ta.ema(close, oscSlow)
+shortBxt = ta.rsi(emaDiff, 5) - 50
+oscBull  = shortBxt > 0
+oscBear  = shortBxt < 0
+oscFlipUp = shortBxt > 0 and shortBxt[1] <= 0
+oscFlipDn = shortBxt < 0 and shortBxt[1] >= 0
+
+// =============================================================================
+// OVERLAYS
+// =============================================================================
+// IQ Tracer — slow trend EMA
+tracerLen = math.max(5, math.round(40 / tracerSens))
+tracer    = ta.ema(close, tracerLen)
+
+// IQ Catcher — fast trend EMA
+catcherLen = math.max(3, math.round(12 / catcherSens))
+catcher    = ta.ema(close, catcherLen)
+
+// IQ Trail — adaptive trailing stop
+atr14   = ta.atr(14)
+trailMx = 2.0 + (3 - trailSens) * 0.3
+var float iqTrail = na
+trailUpCand = close - atr14 * trailMx
+trailDnCand = close + atr14 * trailMx
+iqTrail := isBull ? math.max(nz(iqTrail[1], trailUpCand), trailUpCand)
+                  : math.min(nz(iqTrail[1], trailDnCand), trailDnCand)
+
+// IQ Zones — wider statistical extremes
+zonesMx    = 2.5 + (3 - zonesSens) * 0.3
+zonesUp    = basis + zonesMx * sd
+zonesLo    = basis - zonesMx * sd
+
+// IQ Cloud — long-horizon swing zone
+cloudLen   = math.max(15, math.round(80 / cloudSens))
+cloudUp    = ta.ema(high, cloudLen)
+cloudLo    = ta.ema(low,  cloudLen)
+
+// =============================================================================
+// SIGNAL GENERATION
+// =============================================================================
+isConf  = signalMode == "Confirmation + Exits"
+isContr = signalMode == "Contrarian + Exits"
+
+// Confirmation: regime flips (trend-following)
+confirmBull = bandsFlipUp and isConf
+confirmBear = bandsFlipDn and isConf
+
+// Contrarian: price stretched + oscillator turning back
+contrBull = isContr and close < zonesLo and oscFlipUp
+contrBear = isContr and close > zonesUp and oscFlipDn
+
+// Conviction Tier (1-4): rules-based confluence rating
+convictionBull() =>
+    score = 1
+    if oscBull
+        score := score + 1
+    if close > tracer
+        score := score + 1
+    if close > catcher
+        score := score + 1
+    score
+
+convictionBear() =>
+    score = 1
+    if oscBear
+        score := score + 1
+    if close < tracer
+        score := score + 1
+    if close < catcher
+        score := score + 1
+    score
+
+bullTier = (confirmBull or contrBull) and useConviction ? convictionBull() : (confirmBull or contrBull) ? 1 : 0
+bearTier = (confirmBear or contrBear) and useConviction ? convictionBear() : (confirmBear or contrBear) ? 1 : 0
+
+isBullSig  = confirmBull or contrBull
+isBearSig  = confirmBear or contrBear
+isBullPlus = isBullSig and bullTier >= 3
+isBearPlus = isBearSig and bearTier >= 3
+
+// Exits — close break vs IQ Trail
+exitBull = ta.crossunder(close, iqTrail) and isBull[1]
+exitBear = ta.crossover(close, iqTrail) and not isBull[1]
+
+// =============================================================================
+// PLOTS
+// =============================================================================
+bandColor = isBull ? bullCol : bearCol
+
+// Basis halo + line
+plot(showBasis ? basis : na, "Basis halo",
+     color = color.new(basisCol, 70), linewidth = 4, display = display.pane)
+plot(showBasis ? basis : na, "Basis", color = basisCol, linewidth = 2)
+
+// Threshold cloud
+tu = plot(showBandsCloud ? threshUp : na, "Threshold Up",
+          color = color.new(bandColor, 50), linewidth = 1)
+tl = plot(showBandsCloud ? threshLo : na, "Threshold Lo",
+          color = color.new(bandColor, 50), linewidth = 1)
+fill(tu, tl, color = showBandsCloud ? color.new(bandColor, 78) : na, title = "Threshold cloud")
+
+// IQ Tracer (blue)
+plot(showTracer ? tracer : na, "IQ Tracer halo",
+     color = color.new(#2962FF, 70), linewidth = 4, display = display.pane)
+plot(showTracer ? tracer : na, "IQ Tracer", color = #2962FF, linewidth = 2)
+
+// IQ Catcher (amber)
+plot(showCatcher ? catcher : na, "IQ Catcher halo",
+     color = color.new(amberCol, 70), linewidth = 4, display = display.pane)
+plot(showCatcher ? catcher : na, "IQ Catcher", color = amberCol, linewidth = 2)
+
+// IQ Trail — regime-tinted
+plot(showTrail ? iqTrail : na, "IQ Trail",
+     color = isBull ? bullCol : bearCol, linewidth = 2, style = plot.style_linebr)
+
+// IQ Zones
+plot(showZones ? zonesUp : na, "IQ Zone Up", color = color.new(bearCol, 40), linewidth = 1)
+plot(showZones ? zonesLo : na, "IQ Zone Lo", color = color.new(bullCol, 40), linewidth = 1)
+
+// IQ Cloud
+cu = plot(showCloud ? cloudUp : na, "IQ Cloud Up", color = color.new(purpleCol, 60))
+cl = plot(showCloud ? cloudLo : na, "IQ Cloud Lo", color = color.new(purpleCol, 60))
+fill(cu, cl, color = showCloud ? color.new(purpleCol, 85) : na, title = "IQ Cloud")
+
+// =============================================================================
+// SIGNAL MARKERS
+// =============================================================================
+plotshape(isBullSig and bullTier < 3 ? low : na, "Bull",
+          shape.labelup, location.belowbar, color = bullCol,
+          text = "▲", textcolor = color.white, size = size.small)
+plotshape(isBullPlus ? low : na, "Bull+",
+          shape.labelup, location.belowbar, color = bullCol,
+          text = "▲+", textcolor = color.white, size = size.normal)
+plotshape(isBearSig and bearTier < 3 ? high : na, "Bear",
+          shape.labeldown, location.abovebar, color = bearCol,
+          text = "▼", textcolor = color.white, size = size.small)
+plotshape(isBearPlus ? high : na, "Bear+",
+          shape.labeldown, location.abovebar, color = bearCol,
+          text = "▼+", textcolor = color.white, size = size.normal)
+
+// Exit X marks
+plotshape(exitBull ? high : na, "Bull Exit",
+          shape.xcross, location.abovebar, color = color.new(bearCol, 20), size = size.tiny)
+plotshape(exitBear ? low : na, "Bear Exit",
+          shape.xcross, location.belowbar, color = color.new(bullCol, 20), size = size.tiny)
+
+// =============================================================================
+// CANDLE COLORING
+// =============================================================================
+var color candleC = na
+candleC := na
+if candleMode == "Confirmation Simple"
+    candleC := isBullSig or (isBull and bullTier >= 3) ? bullCol :
+               isBearSig or (not isBull and bearTier >= 3) ? bearCol : purpleCol
+else if candleMode == "Confirmation Gradient"
+    tierG = isBull ? convictionBull() : convictionBear()
+    candleC := tierG >= 4 ? (isBull ? bullCol : bearCol) :
+               tierG == 3 ? color.new(isBull ? bullCol : bearCol, 30) :
+               tierG == 2 ? color.new(purpleCol, 30) : purpleCol
+else if candleMode == "Contrarian Gradient"
+    candleC := close > zonesUp ? bearCol :
+               close < zonesLo ? bullCol : purpleCol
+barcolor(candleC)
+
+// =============================================================================
+// TP/SL AUTOMATION
+// =============================================================================
+var float tp1 = na
+var float tp2 = na
+var float sl1 = na
+var float sl2 = na
+
+trailUp = ta.crossover(close, iqTrail)
+trailDn = ta.crossunder(close, iqTrail)
+catUp   = ta.crossover(close, catcher)
+catDn   = ta.crossunder(close, catcher)
+tracUp  = ta.crossover(close, tracer)
+tracDn  = ta.crossunder(close, tracer)
+
+anchorBull = tpslAnchor == "IQ Trail"   ? trailUp :
+             tpslAnchor == "IQ Catcher" ? catUp   :
+             tpslAnchor == "IQ Tracer"  ? tracUp  : false
+anchorBear = tpslAnchor == "IQ Trail"   ? trailDn :
+             tpslAnchor == "IQ Catcher" ? catDn   :
+             tpslAnchor == "IQ Tracer"  ? tracDn  : false
+
+if anchorBull and tpslAnchor != "None"
+    tp1 := close + atr14 * tpslDist
+    tp2 := close + atr14 * tpslDist * 1.5
+    sl1 := close - atr14 * tpslDist * 0.5
+    sl2 := close - atr14 * tpslDist
+if anchorBear and tpslAnchor != "None"
+    tp1 := close - atr14 * tpslDist
+    tp2 := close - atr14 * tpslDist * 1.5
+    sl1 := close + atr14 * tpslDist * 0.5
+    sl2 := close + atr14 * tpslDist
+
+showTpsl = tpslAnchor != "None"
+plot(showTpsl ? tp1 : na, "TP1", color = #2962FF, linewidth = 1, style = plot.style_linebr)
+plot(showTpsl ? tp2 : na, "TP2", color = #2962FF, linewidth = 1, style = plot.style_linebr)
+plot(showTpsl ? sl1 : na, "SL1", color = #FF5252, linewidth = 1, style = plot.style_linebr)
+plot(showTpsl ? sl2 : na, "SL2", color = #FF5252, linewidth = 1, style = plot.style_linebr)
+
+// =============================================================================
+// COCKPIT — 4 macro metrics
+// =============================================================================
+// Trend Strength: directional movement strength, 0-100
+plusDM   = math.max(high - high[1], 0)
+minusDM  = math.max(low[1] - low, 0)
+plusDI   = 100 * ta.rma(plusDM, 14) / ta.rma(ta.tr, 14)
+minusDI  = 100 * ta.rma(minusDM, 14) / ta.rma(ta.tr, 14)
+dx       = 100 * math.abs(plusDI - minusDI) / math.max(plusDI + minusDI, 1)
+adx      = ta.rma(dx, 14)
+trendStr = math.min(100, math.max(0, adx))
+
+// Volatility regime
+atr200      = ta.atr(200)
+volPctile   = atr200 > 0 ? atr14 / atr200 * 100 : 100
+volRising   = atr14 > atr14[10]
+volLabel    = volPctile >= 130 ? "High" : volPctile >= 90 ? "Med" : "Low"
+
+// Squeeze: compression of outer bands relative to history
+bw          = basis > 0 ? (outerUp - outerLo) / basis * 100 : 0
+bwAvg       = ta.sma(bw, 100)
+sqRaw       = bwAvg > 0 ? (1 - bw / bwAvg) * 100 : 0
+squeezePct  = math.min(100, math.max(0, sqRaw))
+
+// Volume Sentiment
+upV         = volume * (close > open ? 1 : 0)
+dnV         = volume * (close < open ? 1 : 0)
+upSum       = ta.sma(upV, 20)
+dnSum       = ta.sma(dnV, 20)
+volSent     = (upSum + dnSum) > 0 ? (upSum - dnSum) / (upSum + dnSum) * 100 : 0
+
+// Optimal sensitivity suggestion based on vol regime
+optSens     = volPctile > 150 ? 12 : volPctile > 110 ? 10 : volPctile > 80 ? 8 : volPctile > 55 ? 6 : 4
+
+// Render cockpit
+if barstate.islast and showCockpit
+    pos = dashLoc == "Top right"     ? position.top_right     :
+          dashLoc == "Top left"      ? position.top_left      :
+          dashLoc == "Bottom right"  ? position.bottom_right  :
+          dashLoc == "Bottom left"   ? position.bottom_left   :
+          dashLoc == "Middle right"  ? position.middle_right  :
+                                       position.middle_left
+
+    txtSize = dashSize == "Tiny"   ? size.tiny :
+              dashSize == "Small"  ? size.small :
+              dashSize == "Normal" ? size.normal : size.large
+
+    var table dash = table.new(pos, 2, 7,
+        bgcolor      = color.new(#0e0e18, 10),
+        border_color = color.new(#1f2030, 40), border_width = 1,
+        frame_color  = color.new(#1f2030, 40), frame_width  = 1)
+
+    r = 0
+    if showDashMode
+        modeTxt = isConf  ? " Confirm "    :
+                  isContr ? " Contrarian " : " None "
+        table.cell(dash, 0, r, " Mode ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, modeTxt, text_color = color.white, text_size = txtSize,
+                   text_halign = text.align_right)
+        r := r + 1
+    if showDashTrend
+        tIcon = trendStr >= 40 ? "▲ " : "≈ "
+        tCol  = trendStr >= 50 ? bullCol : trendStr >= 30 ? amberCol : color.gray
+        table.cell(dash, 0, r, " Trend Strength ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, " " + tIcon + str.tostring(trendStr, "#.#") + "% ",
+                   text_color = tCol, text_size = txtSize, text_halign = text.align_right)
+        r := r + 1
+    if showDashVol
+        vIcon = volRising ? "▲ " : "▼ "
+        vCol  = volPctile >= 130 ? bearCol : volPctile >= 90 ? amberCol : bullCol
+        table.cell(dash, 0, r, " Volatility ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, " " + vIcon + volLabel + " ",
+                   text_color = vCol, text_size = txtSize, text_halign = text.align_right)
+        r := r + 1
+    if showDashSqueeze
+        sCol = squeezePct >= 70 ? amberCol : squeezePct >= 40 ? purpleCol : color.gray
+        table.cell(dash, 0, r, " Squeeze ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, " " + str.tostring(squeezePct, "#.#") + "% ",
+                   text_color = sCol, text_size = txtSize, text_halign = text.align_right)
+        r := r + 1
+    if showDashVolume
+        vsCol = volSent > 20 ? bullCol : volSent < -20 ? bearCol : color.gray
+        table.cell(dash, 0, r, " Volume Sentiment ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, " " + str.tostring(volSent, "+#.#") + "% ",
+                   text_color = vsCol, text_size = txtSize, text_halign = text.align_right)
+        r := r + 1
+    if showDashOptSens
+        table.cell(dash, 0, r, " Optimal Sensitivity ", text_color = color.gray, text_size = txtSize)
+        table.cell(dash, 1, r, " " + str.tostring(optSens) + " ",
+                   text_color = color.white, text_size = txtSize, text_halign = text.align_right)
+        r := r + 1
+
+// =============================================================================
+// ALERTS — alertcondition() + alert() function calls
+// =============================================================================
+alertcondition(isBullSig,  "Bullish Confirmation",
+    "{{ticker}} ({{interval}}) — IQ Algo bullish signal")
+alertcondition(isBullPlus, "Bullish+",
+    "{{ticker}} ({{interval}}) — IQ Algo bullish+ (high conviction)")
+alertcondition(isBearSig,  "Bearish Confirmation",
+    "{{ticker}} ({{interval}}) — IQ Algo bearish signal")
+alertcondition(isBearPlus, "Bearish+",
+    "{{ticker}} ({{interval}}) — IQ Algo bearish+ (high conviction)")
+alertcondition(exitBull,   "Bullish Exit",
+    "{{ticker}} ({{interval}}) — IQ Algo bullish exit")
+alertcondition(exitBear,   "Bearish Exit",
+    "{{ticker}} ({{interval}}) — IQ Algo bearish exit")
+
+// alert() function calls — fire one alert per chart, dynamic message routes by event
+if barstate.isconfirmed
+    if isBullPlus
+        alert("IQ Algo · BULLISH+ tier " + str.tostring(bullTier) + " · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
+    else if isBullSig
+        alert("IQ Algo · BULLISH tier " + str.tostring(bullTier) + " · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
+    if isBearPlus
+        alert("IQ Algo · BEARISH+ tier " + str.tostring(bearTier) + " · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
+    else if isBearSig
+        alert("IQ Algo · BEARISH tier " + str.tostring(bearTier) + " · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
+    if exitBull
+        alert("IQ Algo · BULL EXIT · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
+    if exitBear
+        alert("IQ Algo · BEAR EXIT · " + syminfo.ticker + " @ " + str.tostring(close, format.mintick), alert.freq_once_per_bar_close)
