@@ -18,9 +18,22 @@ try:
     UNIVERSE_NAMES = json.load(open(os.path.join(HERE, "universe_names.json")))
 except FileNotFoundError:
     UNIVERSE_NAMES = {}
+# Authoritative mcap cache built by build_universe_3_5b.py via yfinance.fast_info.
+# For ADRs (BCH, HDB, CUK, TSM…) the price × SHARES calc is junk because SHARES
+# holds total home-listing share count denominated in the home currency. The
+# cache holds Yahoo's marketCap field which represents the whole company in USD
+# — correct for sizing in every case I've checked.
+try:
+    MCAP_CACHE = {k: v["mcap_b"] for k, v in json.load(open(os.path.join(HERE, "docs", "mcap_cache.json"))).items() if isinstance(v, dict) and v.get("mcap_b")}
+except (FileNotFoundError, KeyError, ValueError):
+    MCAP_CACHE = {}
 
 def live_mcap(sym, price):
-    """Live mcap in $B = price × shares_outstanding / 1e9. Falls back to MCAPS dict."""
+    """Live mcap in $B. Prefer cached Yahoo marketCap (correct for ADRs and
+    US-only), fall back to price × shares (only safe for pure US single-class)."""
+    cached = MCAP_CACHE.get(sym)
+    if cached:
+        return round(cached, 2)
     s = SHARES.get(sym)
     if s and price:
         return round(price * s / 1e9)
