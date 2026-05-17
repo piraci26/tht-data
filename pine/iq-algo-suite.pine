@@ -1,6 +1,6 @@
 // =============================================================================
 // IQ Algo Suite — Signals, Overlays, Cockpit, TP/SL
-// VERSION: v6  (if you don't see this line, you have a cached copy)
+// VERSION: v7  (sparse signals: only regime-flip + osc confirmation within 5 bars)
 // =============================================================================
 // One indicator. Multiple modes. Multiple overlays. One cockpit.
 //
@@ -159,10 +159,10 @@ cloudLo    = ta.ema(low,  cloudLen)
 isConf  = signalMode == "Confirmation + Exits"
 isContr = signalMode == "Contrarian + Exits"
 
-// Confirmation: regime flip OR oscillator re-confirms within an established regime.
-// This is what gives the in-trend continuation signals LuxAlgo shows.
-confirmBull = isConf and (bandsFlipUp or (isBull and oscFlipUp))
-confirmBear = isConf and (bandsFlipDn or (not isBull and oscFlipDn))
+// Confirmation: bands regime flipped within last 5 bars AND osc just flipped same direction.
+// One signal per regime cycle — sparse, high-conviction.
+confirmBull = isConf and ta.barssince(bandsFlipUp) <= 5 and oscFlipUp
+confirmBear = isConf and ta.barssince(bandsFlipDn) <= 5 and oscFlipDn
 
 // Contrarian: price stretched + oscillator turning back
 contrBull = isContr and close < zonesLo and oscFlipUp
@@ -193,7 +193,7 @@ convictionBear() =>
     score
 
 // Cooldown — suppress repeat signals within N bars (scales with sensitivity)
-cooldown = math.max(3, math.round(8 / sf))
+cooldown = math.max(8, math.round(20 / sf))
 
 var int barsSinceBullSig = 999
 var int barsSinceBearSig = 999
