@@ -12,7 +12,7 @@
 //   "Days Since Red"   — bars since the most recent Bearish OR Bearish+ alert
 //
 // On the timeframe of the chart, "days" == bars (daily TF → calendar days etc.)
-indicator("LuxAlgo Meta", overlay = false, format = format.inherit)
+indicator("LuxAlgo Meta", overlay = true, format = format.inherit)
 
 bullish      = input.source(close, "Bullish")
 bullish_plus = input.source(close, "Bullish+")
