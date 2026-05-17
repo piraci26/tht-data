@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-17T20:37:49.201969+00:00",
+  "updated_at": "2026-05-17T21:19:27.477380+00:00",
   "count": 26,
   "list": [
     {
       "sym": "AAPL",
       "name": "Apple Inc.",
-      "mcap": 4407,
+      "mcap": 4409.59,
       "price": 300.23,
       "ath": 303.2,
       "atl": 0.06,
@@ -23,7 +23,7 @@
     {
       "sym": "PM",
       "name": "Philip Morris International Inc",
-      "mcap": 296,
+      "mcap": 295.52,
       "price": 189.61,
       "ath": 192.95,
       "atl": 32.04,
@@ -39,27 +39,9 @@
       "made_atl_today": false
     },
     {
-      "sym": "UMC",
-      "name": "United Microelectronics Corporation (NEW)",
-      "mcap": 216,
-      "price": 17.2,
-      "ath": 17.43,
-      "atl": 1.42,
-      "pct_to_ath": 1.3,
-      "pct_to_atl": 1111.3,
-      "wk52_high": 17.43,
-      "wk52_low": 6.56,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 17.43,
-      "last_low": 16.84,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "mcap": 197,
+      "mcap": 196.94,
       "price": 242.83,
       "ath": 245.8,
       "atl": 6.51,
@@ -77,7 +59,7 @@
     {
       "sym": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "mcap": 151,
+      "mcap": 151.22,
       "price": 594.08,
       "ath": 598.25,
       "atl": 31.95,
@@ -95,7 +77,7 @@
     {
       "sym": "WMB",
       "name": "Williams Companies, Inc. (The)",
-      "mcap": 95,
+      "mcap": 95.05,
       "price": 77.72,
       "ath": 78.24,
       "atl": 0.64,
@@ -113,7 +95,7 @@
     {
       "sym": "FTNT",
       "name": "Fortinet, Inc.",
-      "mcap": 90,
+      "mcap": 89.95,
       "price": 122.78,
       "ath": 123.33,
       "atl": 1.47,
@@ -131,7 +113,7 @@
     {
       "sym": "DDOG",
       "name": "Datadog, Inc.",
-      "mcap": 74,
+      "mcap": 74.03,
       "price": 207.98,
       "ath": 211.28,
       "atl": 27.55,
@@ -149,7 +131,7 @@
     {
       "sym": "TRP",
       "name": "TC Energy Corporation",
-      "mcap": 71,
+      "mcap": 71.09,
       "price": 68.24,
       "ath": 68.3,
       "atl": 6.75,
@@ -167,7 +149,7 @@
     {
       "sym": "IMO",
       "name": "Imperial Oil Limited",
-      "mcap": 65,
+      "mcap": 66.99,
       "price": 134.73,
       "ath": 135.04,
       "atl": 2.79,
@@ -185,7 +167,7 @@
     {
       "sym": "TRGP",
       "name": "Targa Resources, Inc.",
-      "mcap": 58,
+      "mcap": 58.38,
       "price": 271.99,
       "ath": 273.11,
       "atl": 3.66,
@@ -203,7 +185,7 @@
     {
       "sym": "EBAY",
       "name": "eBay Inc.",
-      "mcap": 52,
+      "mcap": 51.56,
       "price": 116.13,
       "ath": 116.83,
       "atl": 0.44,
@@ -219,9 +201,27 @@
       "made_atl_today": false
     },
     {
+      "sym": "UMC",
+      "name": "United Microelectronics Corporation (NEW)",
+      "mcap": 43.21,
+      "price": 17.2,
+      "ath": 17.43,
+      "atl": 1.42,
+      "pct_to_ath": 1.3,
+      "pct_to_atl": 1111.3,
+      "wk52_high": 17.43,
+      "wk52_low": 6.56,
+      "ath_30d": 9,
+      "atl_30d": 0,
+      "last_high": 17.43,
+      "last_low": 16.84,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "PBA",
       "name": "Pembina Pipeline Corp. Ordinary Shares (Canada)",
-      "mcap": 28,
+      "mcap": 28.48,
       "price": 48.99,
       "ath": 49.01,
       "atl": 10.58,
@@ -239,7 +239,7 @@
     {
       "sym": "JBHT",
       "name": "J.B. Hunt Transport Services, Inc.",
-      "mcap": 25,
+      "mcap": 24.73,
       "price": 262.21,
       "ath": 263.24,
       "atl": 1.67,
@@ -257,7 +257,7 @@
     {
       "sym": "FFIV",
       "name": "F5, Inc.",
-      "mcap": 19,
+      "mcap": 20.46,
       "price": 362.58,
       "ath": 365.83,
       "atl": 1.88,
@@ -275,7 +275,7 @@
     {
       "sym": "ARMK",
       "name": "Aramark",
-      "mcap": 14,
+      "mcap": 13.96,
       "price": 53.08,
       "ath": 53.57,
       "atl": 6.97,
@@ -293,7 +293,7 @@
     {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
-      "mcap": 13,
+      "mcap": 12.62,
       "price": 254.61,
       "ath": 257.17,
       "atl": 12.52,
@@ -311,7 +311,7 @@
     {
       "sym": "KNX",
       "name": "Knight-Swift Transportation Holdings Inc.",
-      "mcap": 11,
+      "mcap": 11.22,
       "price": 69.06,
       "ath": 69.35,
       "atl": 1.51,
@@ -329,7 +329,7 @@
     {
       "sym": "VIRT",
       "name": "Virtu Financial, Inc.",
-      "mcap": 8,
+      "mcap": 8.0,
       "price": 54.49,
       "ath": 55.33,
       "atl": 12.35,
@@ -347,7 +347,7 @@
     {
       "sym": "SOBO",
       "name": "South Bow Corporation Common Shares",
-      "mcap": 8,
+      "mcap": 8.0,
       "price": 37.28,
       "ath": 37.3,
       "atl": 21.12,
@@ -365,7 +365,7 @@
     {
       "sym": "VAL",
       "name": "Valaris Limited Common Shares",
-      "mcap": 7,
+      "mcap": 7.0,
       "price": 105.43,
       "ath": 105.52,
       "atl": 20.25,
@@ -383,7 +383,7 @@
     {
       "sym": "THG",
       "name": "Hanover Insurance Group Inc",
-      "mcap": 7,
+      "mcap": 7.0,
       "price": 194.64,
       "ath": 195.74,
       "atl": 7.04,
@@ -401,7 +401,7 @@
     {
       "sym": "MIAX",
       "name": "Miami International Holdings, Inc.",
-      "mcap": 5,
+      "mcap": 5.0,
       "price": 56.16,
       "ath": 57.14,
       "atl": 28.63,
@@ -419,7 +419,7 @@
     {
       "sym": "CNO",
       "name": "CNO Financial Group, Inc.",
-      "mcap": 4,
+      "mcap": 4.0,
       "price": 46.82,
       "ath": 47.35,
       "atl": 0.26,
@@ -437,7 +437,7 @@
     {
       "sym": "COCO",
       "name": "The Vita Coco Company, Inc.",
-      "mcap": 4,
+      "mcap": 4.0,
       "price": 78.44,
       "ath": 78.55,
       "atl": 7.39,
@@ -455,7 +455,7 @@
     {
       "sym": "WBI",
       "name": "WaterBridge Infrastructure LLC Shares Representing Limited Liability Company Interests",
-      "mcap": 4,
+      "mcap": 4.0,
       "price": 30.72,
       "ath": 30.87,
       "atl": 18.64,

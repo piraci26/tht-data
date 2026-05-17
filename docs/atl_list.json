@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-17T20:37:49.206397+00:00",
+  "updated_at": "2026-05-17T21:19:27.480349+00:00",
   "count": 5,
   "list": [
     {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
-      "mcap": 14,
+      "mcap": 14.0,
       "price": 3.42,
       "ath": 21.3,
       "atl": 3.3,
@@ -23,7 +23,7 @@
     {
       "sym": "BIRK",
       "name": "Birkenstock Holding plc Ordinary Shares",
-      "mcap": 6,
+      "mcap": 6.0,
       "price": 31.19,
       "ath": 64.78,
       "atl": 31.12,
@@ -39,27 +39,9 @@
       "made_atl_today": true
     },
     {
-      "sym": "LBRDK",
-      "name": "Liberty Broadband Corporation Class C",
-      "mcap": 5,
-      "price": 32.76,
-      "ath": 181.69,
-      "atl": 31.93,
-      "pct_to_ath": 454.6,
-      "pct_to_atl": 2.6,
-      "wk52_high": 97.38,
-      "wk52_low": 31.93,
-      "ath_30d": 0,
-      "atl_30d": 12,
-      "last_high": 34.85,
-      "last_low": 31.93,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
-      "mcap": 5,
+      "mcap": 5.0,
       "price": 32.73,
       "ath": 176.91,
       "atl": 31.91,
@@ -75,9 +57,27 @@
       "made_atl_today": true
     },
     {
+      "sym": "LBRDK",
+      "name": "Liberty Broadband Corporation Class C",
+      "mcap": 5.0,
+      "price": 32.76,
+      "ath": 181.69,
+      "atl": 31.93,
+      "pct_to_ath": 454.6,
+      "pct_to_atl": 2.6,
+      "wk52_high": 97.38,
+      "wk52_low": 31.93,
+      "ath_30d": 0,
+      "atl_30d": 12,
+      "last_high": 34.85,
+      "last_low": 31.93,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
       "sym": "WAY",
       "name": "Waystar Holding Corp.",
-      "mcap": 3,
+      "mcap": 3.44,
       "price": 17.93,
       "ath": 48.11,
       "atl": 17.89,
