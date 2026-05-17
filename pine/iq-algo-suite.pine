@@ -53,18 +53,8 @@ tracerSens  = input.int(3,  "  Tracer sensitivity", minval = 1, maxval = 10, gro
 showCloud   = input.bool(false, "IQ Cloud (swing zone)",             group = "Overlays")
 cloudSens   = input.int(2,  "  Cloud sensitivity",  minval = 1, maxval = 10, group = "Overlays")
 
-showBandsCloud = input.bool(false, "Bands threshold cloud",  group = "Overlays")
-showBasis      = input.bool(false, "Basis line",             group = "Overlays")
-
-// Preset filter overrides
-if preset == "Trend Trader"
-    showTracer := true
-if preset == "Scalper"
-    showCatcher := true
-if preset == "Swing Trader"
-    showCloud := true
-if preset == "Contrarian Trader"
-    showZones := true
+// Presets only adjust sensitivity — they don't auto-enable any overlay.
+// All overlays start OFF. The bare chart shows ONLY signal markers + exits.
 
 // ─── TP/SL ───────────────────────────────────────────────────────────
 tpslAnchor = input.string("None", "TP/SL anchor",
@@ -214,17 +204,8 @@ exitBear = ta.crossover(close, iqTrail) and not isBull[1]
 // =============================================================================
 bandColor = isBull ? bullCol : bearCol
 
-// Basis halo + line
-plot(showBasis ? basis : na, "Basis halo",
-     color = color.new(basisCol, 70), linewidth = 4, display = display.pane)
-plot(showBasis ? basis : na, "Basis", color = basisCol, linewidth = 2)
-
-// Threshold cloud
-tu = plot(showBandsCloud ? threshUp : na, "Threshold Up",
-          color = color.new(bandColor, 50), linewidth = 1)
-tl = plot(showBandsCloud ? threshLo : na, "Threshold Lo",
-          color = color.new(bandColor, 50), linewidth = 1)
-fill(tu, tl, color = showBandsCloud ? color.new(bandColor, 78) : na, title = "Threshold cloud")
+// Basis line and threshold cloud removed by default — bare chart shows
+// only signal markers + exits, matching the reference layout.
 
 // IQ Tracer (blue)
 plot(showTracer ? tracer : na, "IQ Tracer halo",
