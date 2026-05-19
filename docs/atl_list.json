@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-05-19T12:32:27.484527+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-05-19T16:01:58.910339+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "mcap": 5,
+      "price": 2.93,
+      "ath": 14.38,
+      "atl": 2.83,
+      "pct_to_ath": 389.9,
+      "pct_to_atl": 3.7,
+      "wk52_high": 7.14,
+      "wk52_low": 2.83,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 2.98,
+      "last_low": 2.83,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -462,7 +481,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-05-18T05:53:11.751098+00:00"
+    },
+    {
+      "sym": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "mcap": 5,
+      "price": 2.93,
+      "ath": 14.38,
+      "atl": 2.83,
+      "pct_to_ath": 389.9,
+      "pct_to_atl": 3.7,
+      "wk52_high": 7.14,
+      "wk52_low": 2.83,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 2.98,
+      "last_low": 2.83,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-05-19T16:01:58.910339+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "UWMC"
+  ]
 }
