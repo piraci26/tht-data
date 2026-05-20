@@ -15,16 +15,17 @@
 indicator("trend-iq · IQ Bands", "IQ Bands", overlay = true, format = format.price, precision = 2, max_labels_count = 500, max_boxes_count = 500)
 
 // ─── INPUTS ──────────────────────────────────────────────────────────
-fvbLen   = input.int(35,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
-fvbMult  = input.float(2.0, "IQ Bands StdDev Multiplier", minval = 0.0, step = 0.1, group = "IQ Bands")
+fvbLen     = input.int(33,  "IQ Bands Length",            minval = 2,   group = "IQ Bands")
+fvbMult    = input.float(2.0, "IQ Bands StdDev Multiplier (outer)", minval = 0.0, step = 0.1, group = "IQ Bands")
+threshMult = input.float(0.25, "Threshold (inner cloud σ — flip trigger)", minval = 0.0, step = 0.05, group = "IQ Bands")
+basisSrc   = input.source(ohlc4, "Basis source", group = "IQ Bands")
 
 shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
 shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
-shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
+shortRsi  = input.int(5,  "Short RSI length", minval = 1, group = "IQ Oscillator (for BUY/SELL detection)")
 
 showCloud  = input.bool(true,  "Bands cloud (regime fill)",      group = "Display")
 showBands  = input.bool(true,  "Band edges with halo",           group = "Display")
-showLabels = input.bool(true,  "BUY / SELL labels (dual flips)", group = "Display")
 showTable  = input.bool(true,  "Status table (top right)",       group = "Display")
 
 // Colors (v2 palette: dialed-down neon, matches IQ Oscillator histogram)
@@ -36,14 +37,28 @@ sellCol  = input.color(#FF5252, "SELL label bg",group = "Colors")
 amberCol = input.color(#FFAA00, "Mixed/warning",group = "Colors")
 
 // ─── IQ BANDS ────────────────────────────────────────────────────────
-basis  = ta.sma(close,  fvbLen)
-sd     = ta.stdev(close, fvbLen)
-upper  = basis + fvbMult * sd
-lower  = basis - fvbMult * sd
-isBull = close > basis
+basis        = ta.sma(basisSrc, fvbLen)
+sd           = ta.stdev(close, fvbLen)
+upper        = basis + fvbMult * sd
+lower        = basis - fvbMult * sd
+threshUpper  = basis + threshMult * sd
+threshLower  = basis - threshMult * sd
 
-bandsFlipGreen = isBull and not isBull[1]
-bandsFlipRed   = not isBull and isBull[1]
+// Sticky regime: bull stays bull until close < threshLower; bear until close > threshUpper.
+// Reference rule: GREEN when close closes ABOVE upper threshold band; RED when close closes BELOW lower threshold band.
+var bool isBull       = false
+var bool initialized  = false
+if not initialized
+    isBull       := close > basis
+    initialized  := true
+else if close > threshUpper
+    isBull := true
+else if close < threshLower
+    isBull := false
+
+prevIsBull = bool(isBull[1])
+bandsFlipGreen = isBull and not prevIsBull
+bandsFlipRed   = not isBull and prevIsBull
 
 // ─── IQ OSCILLATOR (computed here for dual-flip detection only) ──────
 emaDiff   = ta.ema(close, shortFast) - ta.ema(close, shortSlow)
@@ -64,43 +79,19 @@ upperLine = plot(showBands ? upper : na, "Upper",      color = bandColor,       
 lowerHalo = plot(showBands ? lower : na, "Lower halo", color = color.new(bandColor, 70), linewidth = 4)
 lowerLine = plot(showBands ? lower : na, "Lower",      color = bandColor,                 linewidth = 2)
 
+// Threshold (inner) band — the actual flip trigger
+threshUpperPlot = plot(showBands ? threshUpper : na, "Threshold upper", color = color.new(bandColor, 50), linewidth = 1)
+threshLowerPlot = plot(showBands ? threshLower : na, "Threshold lower", color = color.new(bandColor, 50), linewidth = 1)
+
 // ─── CLOUD ───────────────────────────────────────────────────────────
-cloudCol  = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
-fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Cloud")
+cloudCol      = isBull ? color.new(bullCol, 78) : color.new(bearCol, 78)
+threshCloudCol= isBull ? color.new(bullCol, 60) : color.new(bearCol, 60)
+fill(upperLine, lowerLine, color = showCloud ? cloudCol : na, title = "Outer cloud")
+fill(threshUpperPlot, threshLowerPlot, color = showCloud ? threshCloudCol : na, title = "Threshold cloud")
 
 // ─── BASIS LINE WITH HALO ───────────────────────────────────────────
 plot(basis, "Basis halo", color = color.new(basisCol, 70), linewidth = 4)
 plot(basis, "Basis",      color = basisCol,                linewidth = 2)
-
-// ─── BUY / SELL LABELS (dual flips only) ─────────────────────────────
-// Filled pills auto-sized to text, with a small directional arrow pointing
-// at the exact bar where the dual flip fired.
-//   · BUY  →  style_label_up    (pill below bar, arrow points UP at bar)
-//   · SELL →  style_label_down  (pill above bar, arrow points DOWN at bar)
-atr14    = ta.atr(14)
-labelOff = atr14 * 1.4
-
-if showLabels and dualGreen
-    label.new(
-        x         = bar_index,
-        y         = low - labelOff,
-        text      = "BUY",
-        color     = buyCol,
-        textcolor = color.white,
-        style     = label.style_label_up,
-        size      = size.normal,
-        text_font_family = font.family_default)
-
-if showLabels and dualRed
-    label.new(
-        x         = bar_index,
-        y         = high + labelOff,
-        text      = "SELL",
-        color     = sellCol,
-        textcolor = color.white,
-        style     = label.style_label_down,
-        size      = size.normal,
-        text_font_family = font.family_default)
 
 // ─── ALERTS ─────────────────────────────────────────────────────────
 alertcondition(bandsFlipGreen, "IQ Bands flipped GREEN",

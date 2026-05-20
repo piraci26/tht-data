@@ -21,7 +21,7 @@ indicator("trend-iq · IQ Oscillator", "Oscillator", overlay = false, format = f
 // ─── INPUTS ──────────────────────────────────────────────────────────
 shortFast = input.int(5,  "Short EMA fast",   minval = 1, group = "Short-term Oscillator")
 shortSlow = input.int(20, "Short EMA slow",   minval = 1, group = "Short-term Oscillator")
-shortRsi  = input.int(15, "Short RSI length", minval = 1, group = "Short-term Oscillator")
+shortRsi  = input.int(5,  "Short RSI length", minval = 1, group = "Short-term Oscillator")
 longRsi   = input.int(15, "Long RSI length",  minval = 1, group = "Long-term Oscillator")
 smoothLen = input.int(5,  "Smoothing WMA",    minval = 1, group = "Smoothing")
 
