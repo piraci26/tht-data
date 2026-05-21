@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T21:46:49.325010+00:00",
+  "updated_at": "2026-05-21T22:56:18.533093+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.13,
+  "scan_seconds": 25.33,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2864,56 +2864,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-21T20:06:00.105063+00:00",
+    "compared_to": "2026-05-21T21:46:49.325010+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "MANE",
-        "name": "Veradermics, Incorporated",
-        "mcap": 4.35,
-        "price": 104.7,
-        "basis": 101.93,
-        "bxt_today": 4.05,
-        "ath": 117.71,
-        "pct_to_ath": 12.4,
-        "wk52_high": 117.71,
-        "wk52_low": 32.0,
-        "ath_30d": 10
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 7,
-        "price": 26.73,
-        "basis": 26.65,
-        "bxt_today": 9.88,
-        "ath": 28.52,
-        "pct_to_ath": 6.7,
-        "wk52_high": 28.52,
-        "wk52_low": 22.76,
-        "ath_30d": 7
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "MDA",
-        "name": "MDA Space Ltd. Common Shares",
-        "mcap": 5.72,
-        "price": 41.19,
-        "basis": 39.62,
-        "bxt_today": -8.22,
-        "ath": 42.19,
-        "pct_to_ath": 2.4,
-        "wk52_high": 42.19,
-        "wk52_low": 23.23,
-        "ath_30d": 8
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-21T21:46:12.416693+00:00",
+  "updated_at": "2026-05-21T22:55:19.129462+00:00",
   "timeframe": "daily",
-  "scan_seconds": 21.88,
+  "scan_seconds": 33.79,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -7441,55 +7441,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-21T20:05:36.741296+00:00",
+    "compared_to": "2026-05-21T21:46:12.416693+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "CRBG",
-        "name": "Corebridge Financial Inc.",
-        "mcap": 12.59,
-        "price": 27.65,
-        "basis": 26.63,
-        "bxt_today": 0.02,
-        "ath": 36.57,
-        "pct_to_ath": 32.3,
-        "wk52_high": 36.57,
-        "wk52_low": 22.19,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MGM",
-        "name": "MGM Resorts International",
-        "mcap": 9.63,
-        "price": 37.66,
-        "basis": 38.07,
-        "bxt_today": 0.06,
-        "ath": 100.5,
-        "pct_to_ath": 166.9,
-        "wk52_high": 40.94,
-        "wk52_low": 29.19,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "LRN",
-        "name": "Stride, Inc.",
-        "mcap": 3.73,
-        "price": 87.65,
-        "basis": 92.75,
-        "bxt_today": -0.23,
-        "ath": 171.17,
-        "pct_to_ath": 95.3,
-        "wk52_high": 171.17,
-        "wk52_low": 60.61,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
