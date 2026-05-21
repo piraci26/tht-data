@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T23:43:05.814185+00:00",
-  "count": 35,
+  "updated_at": "2026-05-21T01:37:09.967621+00:00",
+  "count": 32,
   "list": [
     {
       "sym": "MS",
@@ -363,24 +363,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "mcap": 49,
-      "price": 287.48,
-      "ath": 287.7,
-      "atl": 36.22,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 693.8,
-      "wk52_high": 287.7,
-      "wk52_low": 84.78,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 287.7,
-      "last_low": 250.44,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PBA",
       "name": "Pembina Pipeline Corp. Ordinary Shares (Canada)",
       "mcap": 29,
@@ -413,24 +395,6 @@
       "atl_30d": 0,
       "last_high": 264.98,
       "last_low": 256.17,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ROIV",
-      "name": "Roivant Sciences Ltd. Common Shares",
-      "mcap": 23,
-      "price": 32.41,
-      "ath": 32.79,
-      "atl": 2.52,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 1186.1,
-      "wk52_high": 32.79,
-      "wk52_low": 10.59,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 32.79,
-      "last_low": 29.35,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -593,24 +557,6 @@
       "atl_30d": 0,
       "last_high": 28.32,
       "last_low": 27.56,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "KGS",
-      "name": "Kodiak Gas Services, Inc.",
-      "mcap": 6,
-      "price": 73.35,
-      "ath": 77.66,
-      "atl": 15.05,
-      "pct_to_ath": 5.9,
-      "pct_to_atl": 387.4,
-      "wk52_high": 77.66,
-      "wk52_low": 30.06,
-      "ath_30d": 17,
-      "atl_30d": 0,
-      "last_high": 77.66,
-      "last_low": 73.1,
       "made_ath_today": true,
       "made_atl_today": false
     },
