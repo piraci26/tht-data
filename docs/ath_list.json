@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-21T22:57:19.258825+00:00",
-  "count": 33,
+  "updated_at": "2026-05-22T00:05:19.438525+00:00",
+  "count": 34,
   "list": [
     {
       "sym": "AAPL",
@@ -233,6 +233,24 @@
       "atl_30d": 0,
       "last_high": 79.88,
       "last_low": 78.33,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 138.98,
+      "ath": 138.6,
+      "atl": 1.66,
+      "pct_to_ath": -0.3,
+      "pct_to_atl": 8291.0,
+      "wk52_high": 139.57,
+      "wk52_low": 87.41,
+      "ath_30d": 7,
+      "atl_30d": 0,
+      "last_high": 139.57,
+      "last_low": 135.22,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -598,21 +616,6 @@
     }
   ],
   "accumulator": [
-    {
-      "sym": "RMBS",
-      "name": "Rambus Inc.",
-      "mcap": 14,
-      "price": 132.51,
-      "ath": 161.8,
-      "atl": 3.08,
-      "pct_to_ath": 22.1,
-      "pct_to_atl": 4202.3,
-      "wk52_high": 161.8,
-      "wk52_low": 50.89,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "first_seen_at": "2026-05-11T15:41:47.606261+00:00"
-    },
     {
       "sym": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
@@ -4181,7 +4184,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-05-21T20:06:19.298830+00:00"
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 138.98,
+      "ath": 138.6,
+      "atl": 1.66,
+      "pct_to_ath": -0.3,
+      "pct_to_atl": 8291.0,
+      "wk52_high": 139.57,
+      "wk52_low": 87.41,
+      "ath_30d": 7,
+      "atl_30d": 0,
+      "last_high": 139.57,
+      "last_low": 135.22,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-05-22T00:05:19.438525+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "BK"
+  ]
 }
