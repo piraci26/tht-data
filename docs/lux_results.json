@@ -1,425 +1,535 @@
 {
-  "updated_at": "2026-05-21T01:25:21.011021+00:00",
+  "updated_at": "2026-05-22T01:22:10.699339+00:00",
   "threshold_b": 3.5,
-  "tickers_in_scope": 1463,
+  "tickers_in_scope": 1470,
   "timeframes": {
     "D": {
       "greens": [
         {
-          "sym": "PLTR",
-          "name": "Palantir Technologies Inc.",
-          "mcap": 327.7604964218462,
-          "trend_strength": "1.51",
+          "sym": "MRK",
+          "name": "Merck & Company, Inc. (new)",
+          "mcap": 286.252653467153,
+          "trend_strength": "45.48",
+          "days_since_green": 0,
+          "days_since_red": 54,
+          "is_plus": false,
+          "prior_regime_days": 54
+        },
+        {
+          "sym": "IBM",
+          "name": "International Business Machines Corporation",
+          "mcap": 237.28344409906495,
+          "trend_strength": "48.51",
           "days_since_green": 0,
           "days_since_red": 29,
-          "is_plus": false,
+          "is_plus": true,
           "prior_regime_days": 29
         },
         {
-          "sym": "GS",
-          "name": "Goldman Sachs Group, Inc. (The)",
-          "mcap": 289.6087887968648,
-          "trend_strength": "14.07",
+          "sym": "MCD",
+          "name": "McDonald's Corporation",
+          "mcap": 202.02878934467174,
+          "trend_strength": "89.31",
           "days_since_green": 0,
-          "days_since_red": 1,
+          "days_since_red": 54,
+          "is_plus": false,
+          "prior_regime_days": 54
+        },
+        {
+          "sym": "VZ",
+          "name": "Verizon Communications Inc.",
+          "mcap": 201.24106039317053,
+          "trend_strength": "34.83",
+          "days_since_green": 0,
+          "days_since_red": 45,
           "is_plus": true,
-          "prior_regime_days": 1
+          "prior_regime_days": 45
         },
         {
-          "sym": "TJX",
-          "name": "TJX Companies, Inc. (The)",
-          "mcap": 175.87422743402863,
-          "trend_strength": "7.56",
+          "sym": "T",
+          "name": "AT&T Inc.",
+          "mcap": 176.0361580233308,
+          "trend_strength": "66.58",
           "days_since_green": 0,
-          "days_since_red": 24,
+          "days_since_red": 30,
           "is_plus": false,
-          "prior_regime_days": 24
+          "prior_regime_days": 30
         },
         {
-          "sym": "MFG",
-          "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-          "mcap": 110.16028803635437,
-          "trend_strength": "7.07",
+          "sym": "BE",
+          "name": "Bloom Energy Corporation",
+          "mcap": 87.7025740010033,
+          "trend_strength": "67.98",
           "days_since_green": 0,
-          "days_since_red": 2,
+          "days_since_red": 3,
           "is_plus": true,
-          "prior_regime_days": 2
+          "prior_regime_days": 3
         },
         {
-          "sym": "WBD",
-          "name": "Warner Bros. Discovery, Inc. Series A",
-          "mcap": 68.65793915810805,
-          "trend_strength": "53.23",
+          "sym": "CIEN",
+          "name": "Ciena Corporation",
+          "mcap": 82.94926760398901,
+          "trend_strength": "92.98",
           "days_since_green": 0,
-          "days_since_red": 38,
-          "is_plus": false,
-          "prior_regime_days": 38
-        },
-        {
-          "sym": "NKE",
-          "name": "Nike, Inc.",
-          "mcap": 65.35894671583529,
-          "trend_strength": "87.96",
-          "days_since_green": 0,
-          "days_since_red": 56,
-          "is_plus": false,
-          "prior_regime_days": 56
-        },
-        {
-          "sym": "VST",
-          "name": "Vistra Corp.",
-          "mcap": 48.73972677839923,
-          "trend_strength": "37.97",
-          "days_since_green": 0,
-          "days_since_red": 8,
-          "is_plus": false,
-          "prior_regime_days": 8
-        },
-        {
-          "sym": "HEI",
-          "name": "Heico Corporation",
-          "mcap": 41.7833208019335,
-          "trend_strength": "48.24",
-          "days_since_green": 0,
-          "days_since_red": 18,
+          "days_since_red": 3,
           "is_plus": true,
-          "prior_regime_days": 18
+          "prior_regime_days": 3
         },
         {
-          "sym": "SLF",
-          "name": "Sun Life Financial Inc.",
-          "mcap": 40.42524875780922,
-          "trend_strength": "46.98",
+          "sym": "RACE",
+          "name": "Ferrari N.V. Common Shares",
+          "mcap": 61.58244799862247,
+          "trend_strength": "23.94",
+          "days_since_green": 0,
+          "days_since_red": 48,
+          "is_plus": true,
+          "prior_regime_days": 48
+        },
+        {
+          "sym": "XEL",
+          "name": "Xcel Energy Inc.",
+          "mcap": 50.022718128192444,
+          "trend_strength": "4.66",
           "days_since_green": 0,
           "days_since_red": 9,
-          "is_plus": true,
+          "is_plus": false,
           "prior_regime_days": 9
         },
         {
-          "sym": "HIG",
-          "name": "The Hartford Insurance Group, Inc.",
-          "mcap": 37.38870237248383,
-          "trend_strength": "36.49",
+          "sym": "EXC",
+          "name": "Exelon Corporation",
+          "mcap": 46.40248767840828,
+          "trend_strength": "29.41",
           "days_since_green": 0,
-          "days_since_red": 43,
+          "days_since_red": 44,
           "is_plus": false,
-          "prior_regime_days": 43
+          "prior_regime_days": 44
         },
         {
-          "sym": "UAL",
-          "name": "United Airlines Holdings, Inc.",
-          "mcap": 31.79809664836328,
-          "trend_strength": "37.39",
+          "sym": "GFS",
+          "name": "GlobalFoundries Inc. Ordinary Shares",
+          "mcap": 44.31205002563416,
+          "trend_strength": "65.78",
           "days_since_green": 0,
-          "days_since_red": 20,
+          "days_since_red": 3,
           "is_plus": true,
-          "prior_regime_days": 20
+          "prior_regime_days": 3
         },
         {
-          "sym": "NTRA",
-          "name": "Natera, Inc.",
-          "mcap": 29.10995775861441,
-          "trend_strength": "5.80",
+          "sym": "YUM",
+          "name": "Yum! Brands, Inc.",
+          "mcap": 42.53110700771668,
+          "trend_strength": "43.82",
           "days_since_green": 0,
-          "days_since_red": 8,
-          "is_plus": true,
-          "prior_regime_days": 8
+          "days_since_red": 18,
+          "is_plus": false,
+          "prior_regime_days": 18
         },
         {
-          "sym": "NRG",
-          "name": "NRG Energy, Inc.",
-          "mcap": 28.251087045240784,
-          "trend_strength": "41.60",
+          "sym": "SYY",
+          "name": "Sysco Corporation",
+          "mcap": 36.79137102695801,
+          "trend_strength": "77.03",
+          "days_since_green": 0,
+          "days_since_red": 54,
+          "is_plus": true,
+          "prior_regime_days": 54
+        },
+        {
+          "sym": "CPRT",
+          "name": "Copart, Inc. (DE)",
+          "mcap": 33.03665940258966,
+          "trend_strength": "56.62",
+          "days_since_green": 0,
+          "days_since_red": 50,
+          "is_plus": true,
+          "prior_regime_days": 50
+        },
+        {
+          "sym": "AEE",
+          "name": "Ameren Corporation",
+          "mcap": 30.39286238466211,
+          "trend_strength": "0.4405",
           "days_since_green": 0,
           "days_since_red": 21,
           "is_plus": false,
           "prior_regime_days": 21
         },
         {
-          "sym": "FSLR",
-          "name": "First Solar, Inc.",
-          "mcap": 25.374037073235673,
-          "trend_strength": "0.0793",
+          "sym": "MTSI",
+          "name": "MACOM Technology Solutions Holdings, Inc.",
+          "mcap": 28.83331808315143,
+          "trend_strength": "61.41",
           "days_since_green": 0,
-          "days_since_red": 1,
+          "days_since_red": 3,
           "is_plus": true,
-          "prior_regime_days": 1
+          "prior_regime_days": 3
         },
         {
-          "sym": "CHRW",
-          "name": "C.H. Robinson Worldwide, Inc.",
-          "mcap": 21.385705146732057,
-          "trend_strength": "20.64",
+          "sym": "BAP",
+          "name": "Credicorp Ltd.",
+          "mcap": 27.23567735680438,
+          "trend_strength": "30.84",
+          "days_since_green": 0,
+          "days_since_red": 26,
+          "is_plus": false,
+          "prior_regime_days": 26
+        },
+        {
+          "sym": "RPRX",
+          "name": "Royalty Pharma plc Ordinary Shares",
+          "mcap": 23.695218040979125,
+          "trend_strength": "88.13",
+          "days_since_green": 0,
+          "days_since_red": 3,
+          "is_plus": true,
+          "prior_regime_days": 3
+        },
+        {
+          "sym": "RL",
+          "name": "Ralph Lauren Corporation",
+          "mcap": 22.772993599029693,
+          "trend_strength": "2.07",
+          "days_since_green": 0,
+          "days_since_red": 17,
+          "is_plus": true,
+          "prior_regime_days": 17
+        },
+        {
+          "sym": "WSM",
+          "name": "Williams-Sonoma, Inc. (DE)",
+          "mcap": 22.45235002975769,
+          "trend_strength": "48.34",
           "days_since_green": 0,
           "days_since_red": 14,
           "is_plus": true,
           "prior_regime_days": 14
         },
         {
-          "sym": "WIT",
-          "name": "Wipro Limited",
-          "mcap": 20.708089326159467,
-          "trend_strength": "69.02",
+          "sym": "OMC",
+          "name": "Omnicom Group Inc.",
+          "mcap": 20.92515438845807,
+          "trend_strength": "5.62",
           "days_since_green": 0,
-          "days_since_red": 42,
+          "days_since_red": 45,
           "is_plus": false,
-          "prior_regime_days": 42
+          "prior_regime_days": 45
         },
         {
-          "sym": "LUV",
-          "name": "Southwest Airlines Company",
-          "mcap": 19.48740741524335,
-          "trend_strength": "60.85",
+          "sym": "GPN",
+          "name": "Global Payments Inc.",
+          "mcap": 19.86473022964968,
+          "trend_strength": "27.06",
           "days_since_green": 0,
-          "days_since_red": 53,
-          "is_plus": false,
-          "prior_regime_days": 53
-        },
-        {
-          "sym": "BURL",
-          "name": "Burlington Stores, Inc.",
-          "mcap": 19.41298336571054,
-          "trend_strength": "1.17",
-          "days_since_green": 0,
-          "days_since_red": 19,
-          "is_plus": false,
-          "prior_regime_days": 19
-        },
-        {
-          "sym": "DLTR",
-          "name": "Dollar Tree Inc.",
-          "mcap": 18.195142412043822,
-          "trend_strength": "89.67",
-          "days_since_green": 0,
-          "days_since_red": 8,
-          "is_plus": false,
-          "prior_regime_days": 8
-        },
-        {
-          "sym": "WPC",
-          "name": "W. P. Carey Inc. REIT",
-          "mcap": 16.712114776251678,
-          "trend_strength": "3.68",
-          "days_since_green": 0,
-          "days_since_red": 3,
+          "days_since_red": 6,
           "is_plus": true,
-          "prior_regime_days": 3
+          "prior_regime_days": 6
         },
         {
-          "sym": "GH",
-          "name": "Guardant Health, Inc.",
-          "mcap": 15.148215605695992,
-          "trend_strength": "8.33",
+          "sym": "SW",
+          "name": "Smurfit WestRock plc Ordinary Shares",
+          "mcap": 19.73558381532807,
+          "trend_strength": "52.19",
           "days_since_green": 0,
-          "days_since_red": 3,
-          "is_plus": true,
-          "prior_regime_days": 3
+          "days_since_red": 15,
+          "is_plus": false,
+          "prior_regime_days": 15
         },
         {
-          "sym": "MAA",
-          "name": "Mid-America Apartment Communities, Inc.",
-          "mcap": 15.141663450556457,
-          "trend_strength": "22.49",
+          "sym": "EVRG",
+          "name": "Evergy, Inc.",
+          "mcap": 19.28472051566391,
+          "trend_strength": "5.40",
           "days_since_green": 0,
           "days_since_red": 4,
           "is_plus": true,
           "prior_regime_days": 4
         },
         {
-          "sym": "TIGO",
-          "name": "Millicom International Cellular S.A.",
-          "mcap": 14.100288540595093,
-          "trend_strength": "82.47",
+          "sym": "KIM",
+          "name": "Kimco Realty Corporation (HC)",
+          "mcap": 16.175239572734863,
+          "trend_strength": "24.31",
           "days_since_green": 0,
-          "days_since_red": 9,
+          "days_since_red": 6,
           "is_plus": true,
-          "prior_regime_days": 9
+          "prior_regime_days": 6
         },
         {
-          "sym": "BBY",
-          "name": "Best Buy Co., Inc.",
-          "mcap": 12.839764406434192,
-          "trend_strength": "57.18",
-          "days_since_green": 0,
-          "days_since_red": 18,
-          "is_plus": false,
-          "prior_regime_days": 18
-        },
-        {
-          "sym": "PNW",
-          "name": "Pinnacle West Capital Corporation",
-          "mcap": 12.363514268502731,
-          "trend_strength": "19.77",
-          "days_since_green": 0,
-          "days_since_red": 21,
-          "is_plus": true,
-          "prior_regime_days": 21
-        },
-        {
-          "sym": "TFII",
-          "name": "TFI International Inc. Common Shares",
-          "mcap": 12.018885624901351,
-          "trend_strength": "44.93",
-          "days_since_green": 0,
-          "days_since_red": 5,
-          "is_plus": true,
-          "prior_regime_days": 5
-        },
-        {
-          "sym": "CLX",
-          "name": "Clorox Company (The)",
-          "mcap": 10.94,
-          "trend_strength": "89.55",
-          "days_since_green": 0,
-          "days_since_red": 55,
-          "is_plus": false,
-          "prior_regime_days": 55
-        },
-        {
-          "sym": "AHR",
-          "name": "American Healthcare REIT, Inc.",
-          "mcap": 10.0,
-          "trend_strength": "11.76",
-          "days_since_green": 0,
-          "days_since_red": 3,
-          "is_plus": true,
-          "prior_regime_days": 3
-        },
-        {
-          "sym": "SIRI",
-          "name": "SiriusXM Holdings Inc.",
-          "mcap": 8.694892921197937,
-          "trend_strength": "84.95",
-          "days_since_green": 0,
-          "days_since_red": 16,
-          "is_plus": true,
-          "prior_regime_days": 16
-        },
-        {
-          "sym": "FRO",
-          "name": "Frontline Plc Ordinary Shares",
-          "mcap": 8.161355113430442,
-          "trend_strength": "41.64",
-          "days_since_green": 0,
-          "days_since_red": 7,
-          "is_plus": true,
-          "prior_regime_days": 7
-        },
-        {
-          "sym": "KEX",
-          "name": "Kirby Corporation",
-          "mcap": 8.0,
-          "trend_strength": "81.65",
-          "days_since_green": 0,
-          "days_since_red": 13,
-          "is_plus": true,
-          "prior_regime_days": 13
-        },
-        {
-          "sym": "LSTR",
-          "name": "Landstar System, Inc.",
-          "mcap": 6.103006580465088,
-          "trend_strength": "68.64",
-          "days_since_green": 0,
-          "days_since_red": 4,
-          "is_plus": true,
-          "prior_regime_days": 4
-        },
-        {
-          "sym": "LNTH",
-          "name": "Lantheus Holdings, Inc.",
-          "mcap": 6.084814364113602,
-          "trend_strength": "79.42",
-          "days_since_green": 0,
-          "days_since_red": 3,
-          "is_plus": true,
-          "prior_regime_days": 3
-        },
-        {
-          "sym": "RGEN",
-          "name": "Repligen Corporation",
-          "mcap": 5.89460883,
-          "trend_strength": "42.93",
-          "days_since_green": 0,
-          "days_since_red": 20,
-          "is_plus": false,
-          "prior_regime_days": 20
-        },
-        {
-          "sym": "CWEN",
-          "name": "Clearway Energy, Inc. Class C",
-          "mcap": 5.662671027595718,
-          "trend_strength": "4.31",
-          "days_since_green": 0,
-          "days_since_red": 9,
-          "is_plus": false,
-          "prior_regime_days": 9
-        },
-        {
-          "sym": "IMVT",
-          "name": "Immunovant, Inc.",
-          "mcap": 5.401744243539276,
-          "trend_strength": "16.33",
+          "sym": "APLD",
+          "name": "Applied Digital Corporation",
+          "mcap": 13.634064444060172,
+          "trend_strength": "27.10",
           "days_since_green": 0,
           "days_since_red": 2,
           "is_plus": true,
           "prior_regime_days": 2
         },
         {
-          "sym": "COGT",
-          "name": "Cogent Biosciences, Inc.",
-          "mcap": 5.370381417864777,
-          "trend_strength": "37.78",
+          "sym": "RRX",
+          "name": "Regal Rexnord Corporation",
+          "mcap": 13.100558996642471,
+          "trend_strength": "2.56",
           "days_since_green": 0,
-          "days_since_red": 9,
-          "is_plus": false,
-          "prior_regime_days": 9
+          "days_since_red": 10,
+          "is_plus": true,
+          "prior_regime_days": 10
         },
         {
-          "sym": "SBRA",
-          "name": "Sabra Health Care REIT, Inc.",
-          "mcap": 5.2795995041409585,
-          "trend_strength": "16.26",
+          "sym": "GL",
+          "name": "Globe Life Inc.",
+          "mcap": 12.113747340024398,
+          "trend_strength": "53.41",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
+          "sym": "APTV",
+          "name": "Aptiv PLC Ordinary Shares",
+          "mcap": 11.861330376896351,
+          "trend_strength": "68.10",
+          "days_since_green": 0,
+          "days_since_red": 16,
+          "is_plus": false,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "BMRN",
+          "name": "BioMarin Pharmaceutical Inc.",
+          "mcap": 10.421896543045623,
+          "trend_strength": "77.30",
+          "days_since_green": 0,
+          "days_since_red": 12,
+          "is_plus": false,
+          "prior_regime_days": 12
+        },
+        {
+          "sym": "WYNN",
+          "name": "Wynn Resorts, Limited Common stock",
+          "mcap": 10.187186258302216,
+          "trend_strength": "30.84",
+          "days_since_green": 0,
+          "days_since_red": 16,
+          "is_plus": false,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "GTLS",
+          "name": "Chart Industries, Inc.",
+          "mcap": 9.97328269765393,
+          "trend_strength": "28.01",
+          "days_since_green": 0,
+          "days_since_red": 6,
+          "is_plus": true,
+          "prior_regime_days": 6
+        },
+        {
+          "sym": "PRAX",
+          "name": "Praxis Precision Medicines, Inc.",
+          "mcap": 9.76649231187024,
+          "trend_strength": "8.47",
           "days_since_green": 0,
           "days_since_red": 3,
           "is_plus": true,
           "prior_regime_days": 3
         },
         {
-          "sym": "BIPC",
-          "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
-          "mcap": 5.107118080466309,
-          "trend_strength": "68.49",
+          "sym": "UHAL",
+          "name": "U-Haul Holding Company",
+          "mcap": 9.676523578694916,
+          "trend_strength": "7.28",
+          "days_since_green": 0,
+          "days_since_red": 16,
+          "is_plus": true,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "ENS",
+          "name": "EnerSys",
+          "mcap": 9.0,
+          "trend_strength": "74.42",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
+          "sym": "GAP",
+          "name": "Gap, Inc. (The)",
+          "mcap": 8.452145402404733,
+          "trend_strength": "47.40",
+          "days_since_green": 0,
+          "days_since_red": 16,
+          "is_plus": false,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "CAE",
+          "name": "CAE Inc. Ordinary Shares",
+          "mcap": 8.202816080214621,
+          "trend_strength": "67.57",
+          "days_since_green": 0,
+          "days_since_red": 23,
+          "is_plus": false,
+          "prior_regime_days": 23
+        },
+        {
+          "sym": "AAL",
+          "name": "American Airlines Group Inc.",
+          "mcap": 8.141651313998247,
+          "trend_strength": "4.79",
+          "days_since_green": 0,
+          "days_since_red": 4,
+          "is_plus": true,
+          "prior_regime_days": 4
+        },
+        {
+          "sym": "RGTI",
+          "name": "Rigetti Computing, Inc.",
+          "mcap": 7.1257994250625,
+          "trend_strength": "12.34",
+          "days_since_green": 0,
+          "days_since_red": 3,
+          "is_plus": true,
+          "prior_regime_days": 3
+        },
+        {
+          "sym": "NCLH",
+          "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
+          "mcap": 7.125389582963943,
+          "trend_strength": "78.35",
+          "days_since_green": 0,
+          "days_since_red": 57,
+          "is_plus": false,
+          "prior_regime_days": 57
+        },
+        {
+          "sym": "QBTS",
+          "name": "D-Wave Quantum Inc. Common Shares",
+          "mcap": 7.062179895129051,
+          "trend_strength": "8.38",
+          "days_since_green": 0,
+          "days_since_red": 4,
+          "is_plus": true,
+          "prior_regime_days": 4
+        },
+        {
+          "sym": "MOS",
+          "name": "Mosaic Company (The)",
+          "mcap": 6.916343046189324,
+          "trend_strength": "83.75",
+          "days_since_green": 0,
+          "days_since_red": 10,
+          "is_plus": false,
+          "prior_regime_days": 10
+        },
+        {
+          "sym": "LEA",
+          "name": "Lear Corporation",
+          "mcap": 6.912372266090622,
+          "trend_strength": "0.7872",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
+          "sym": "CELC",
+          "name": "Celcuity Inc.",
+          "mcap": 6.90189268111084,
+          "trend_strength": "74.04",
+          "days_since_green": 0,
+          "days_since_red": 7,
+          "is_plus": true,
+          "prior_regime_days": 7
+        },
+        {
+          "sym": "URBN",
+          "name": "Urban Outfitters, Inc.",
+          "mcap": 6.57561829881971,
+          "trend_strength": "12.00",
+          "days_since_green": 0,
+          "days_since_red": 8,
+          "is_plus": true,
+          "prior_regime_days": 8
+        },
+        {
+          "sym": "PPC",
+          "name": "Pilgrim's Pride Corporation",
+          "mcap": 6.557128566895975,
+          "trend_strength": "93.24",
+          "days_since_green": 0,
+          "days_since_red": 27,
+          "is_plus": false,
+          "prior_regime_days": 27
+        },
+        {
+          "sym": "GTX",
+          "name": "Garrett Motion Inc.",
+          "mcap": 6.224953867203892,
+          "trend_strength": "48.32",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
+          "sym": "RYN",
+          "name": "Rayonier Inc. REIT",
+          "mcap": 6.138250775539616,
+          "trend_strength": "36.52",
+          "days_since_green": 0,
+          "days_since_red": 13,
+          "is_plus": false,
+          "prior_regime_days": 13
+        },
+        {
+          "sym": "BIRK",
+          "name": "Birkenstock Holding plc Ordinary Shares",
+          "mcap": 6.0,
+          "trend_strength": "15.33",
+          "days_since_green": 0,
+          "days_since_red": 16,
+          "is_plus": true,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "EAT",
+          "name": "Brinker International, Inc.",
+          "mcap": 5.814298004419555,
+          "trend_strength": "20.83",
           "days_since_green": 0,
           "days_since_red": 20,
           "is_plus": false,
           "prior_regime_days": 20
         },
         {
-          "sym": "IPGP",
-          "name": "IPG Photonics Corporation",
-          "mcap": 4.4875636621604,
-          "trend_strength": "30.12",
+          "sym": "MTRN",
+          "name": "Materion Corporation",
+          "mcap": 4.370392125462189,
+          "trend_strength": "61.61",
           "days_since_green": 0,
-          "days_since_red": 11,
+          "days_since_red": 2,
           "is_plus": true,
-          "prior_regime_days": 11
+          "prior_regime_days": 2
         },
         {
-          "sym": "MTN",
-          "name": "Vail Resorts, Inc.",
-          "mcap": 4.486913716673935,
-          "trend_strength": "77.70",
+          "sym": "TWST",
+          "name": "Twist Bioscience Corporation",
+          "mcap": 3.6877072910947875,
+          "trend_strength": "36.26",
           "days_since_green": 0,
-          "days_since_red": 19,
-          "is_plus": false,
-          "prior_regime_days": 19
+          "days_since_red": 20,
+          "is_plus": true,
+          "prior_regime_days": 20
         },
         {
-          "sym": "HGV",
-          "name": "Hilton Grand Vacations Inc.",
-          "mcap": 3.8701429603930015,
-          "trend_strength": "1.06",
+          "sym": "CDP",
+          "name": "COPT Defense Properties Common Shares of Beneficial Interest",
+          "mcap": 3.665474834989273,
+          "trend_strength": "4.29",
           "days_since_green": 0,
           "days_since_red": 16,
           "is_plus": true,
@@ -428,105 +538,305 @@
       ],
       "reds": [
         {
-          "sym": "COST",
-          "name": "Costco Wholesale Corporation",
-          "mcap": 476.9309213579443,
-          "trend_strength": "27.00",
-          "days_since_green": 14,
+          "sym": "WMT",
+          "name": "Walmart Inc.",
+          "mcap": 971.9427089860989,
+          "trend_strength": "13.87",
+          "days_since_green": 5,
           "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 14
+          "is_plus": true,
+          "prior_regime_days": 5
         },
         {
-          "sym": "ADI",
-          "name": "Analog Devices, Inc.",
-          "mcap": 195.09614283653065,
-          "trend_strength": "55.18",
+          "sym": "UBER",
+          "name": "Uber Technologies, Inc.",
+          "mcap": 150.08492395690442,
+          "trend_strength": "12.46",
+          "days_since_green": 11,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 11
+        },
+        {
+          "sym": "CMI",
+          "name": "Cummins Inc.",
+          "mcap": 88.3364586631784,
+          "trend_strength": "49.15",
+          "days_since_green": 31,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 31
+        },
+        {
+          "sym": "WM",
+          "name": "Waste Management, Inc.",
+          "mcap": 87.4471335495985,
+          "trend_strength": "51.04",
+          "days_since_green": 4,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 4
+        },
+        {
+          "sym": "ALL",
+          "name": "Allstate Corporation (The)",
+          "mcap": 55.2631233669928,
+          "trend_strength": "52.66",
           "days_since_green": 32,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 32
         },
         {
-          "sym": "MSI",
-          "name": "Motorola Solutions, Inc.",
-          "mcap": 65.97660260330072,
-          "trend_strength": "44.19",
+          "sym": "AMP",
+          "name": "Ameriprise Financial, Inc.",
+          "mcap": 40.36940928375,
+          "trend_strength": "2.18",
+          "days_since_green": 31,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 31
+        },
+        {
+          "sym": "CHT",
+          "name": "Chunghwa Telecom Co., Ltd.",
+          "mcap": 33.95581760150282,
+          "trend_strength": "18.44",
+          "days_since_green": 26,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 26
+        },
+        {
+          "sym": "DOW",
+          "name": "Dow Inc.",
+          "mcap": 25.889031133243012,
+          "trend_strength": "51.12",
+          "days_since_green": 15,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 15
+        },
+        {
+          "sym": "GFL",
+          "name": "GFL Environmental Inc. Subordinate voting shares, no par value",
+          "mcap": 12.998575511011676,
+          "trend_strength": "64.65",
+          "days_since_green": null,
+          "days_since_red": null,
+          "is_plus": true,
+          "prior_regime_days": null
+        },
+        {
+          "sym": "CNH",
+          "name": "CNH Industrial N.V. Common Shares",
+          "mcap": 12.616496950476796,
+          "trend_strength": "55.60",
+          "days_since_green": 10,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 10
+        },
+        {
+          "sym": "HII",
+          "name": "Huntington Ingalls Industries, Inc.",
+          "mcap": 12.556488025441864,
+          "trend_strength": "76.98",
+          "days_since_green": 7,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 7
+        },
+        {
+          "sym": "BJ",
+          "name": "BJ's Wholesale Club Holdings, Inc.",
+          "mcap": 12.042672572930908,
+          "trend_strength": "45.74",
+          "days_since_green": 5,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 5
+        },
+        {
+          "sym": "AM",
+          "name": "Antero Midstream Corporation",
+          "mcap": 10.36401634552002,
+          "trend_strength": "0.9500",
+          "days_since_green": 17,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 17
+        },
+        {
+          "sym": "MUSA",
+          "name": "Murphy USA Inc.",
+          "mcap": 10.021038812243042,
+          "trend_strength": "92.17",
+          "days_since_green": 15,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 15
+        },
+        {
+          "sym": "DAR",
+          "name": "Darling Ingredients Inc.",
+          "mcap": 9.225733300898044,
+          "trend_strength": "76.12",
+          "days_since_green": null,
+          "days_since_red": null,
+          "is_plus": true,
+          "prior_regime_days": null
+        },
+        {
+          "sym": "ACI",
+          "name": "Albertsons Companies, Inc.",
+          "mcap": 8.11037122014993,
+          "trend_strength": "60.99",
+          "days_since_green": 6,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 6
+        },
+        {
+          "sym": "CHRD",
+          "name": "Chord Energy Corporation",
+          "mcap": 8.0,
+          "trend_strength": "76.63",
+          "days_since_green": 17,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 17
+        },
+        {
+          "sym": "RIG",
+          "name": "Transocean Ltd (Switzerland)",
+          "mcap": 7.8597458364511485,
+          "trend_strength": "27.19",
+          "days_since_green": 16,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "SM",
+          "name": "SM Energy Company",
+          "mcap": 7.813410202172749,
+          "trend_strength": "71.84",
+          "days_since_green": 16,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 16
+        },
+        {
+          "sym": "VAL",
+          "name": "Valaris Limited Common Shares",
+          "mcap": 7.0591800252282715,
+          "trend_strength": "34.74",
+          "days_since_green": 17,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 17
+        },
+        {
+          "sym": "OSCR",
+          "name": "Oscar Health, Inc.",
+          "mcap": 6.623801002981186,
+          "trend_strength": "64.37",
+          "days_since_green": 35,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 35
+        },
+        {
+          "sym": "GLNG",
+          "name": "Golar Lng Ltd",
+          "mcap": 5.339783757133427,
+          "trend_strength": "78.67",
+          "days_since_green": 14,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 14
+        },
+        {
+          "sym": "CNX",
+          "name": "CNX Resources Corporation",
+          "mcap": 5.047920597095535,
+          "trend_strength": "53.06",
           "days_since_green": 2,
           "days_since_red": 0,
           "is_plus": true,
           "prior_regime_days": 2
         },
         {
-          "sym": "NDAQ",
-          "name": "Nasdaq, Inc.",
-          "mcap": 51.05702255308258,
-          "trend_strength": "54.86",
-          "days_since_green": 4,
+          "sym": "MIAX",
+          "name": "Miami International Holdings, Inc.",
+          "mcap": 4.928525004943344,
+          "trend_strength": "61.83",
+          "days_since_green": 35,
           "days_since_red": 0,
           "is_plus": false,
-          "prior_regime_days": 4
+          "prior_regime_days": 35
         },
         {
-          "sym": "TWLO",
-          "name": "Twilio Inc.",
-          "mcap": 28.939481218677063,
-          "trend_strength": "72.50",
-          "days_since_green": 25,
+          "sym": "HRB",
+          "name": "H&R Block, Inc.",
+          "mcap": 4.816887866,
+          "trend_strength": "38.79",
+          "days_since_green": 10,
           "days_since_red": 0,
           "is_plus": false,
-          "prior_regime_days": 25
+          "prior_regime_days": 10
         },
         {
-          "sym": "RDDT",
-          "name": "Reddit, Inc.",
-          "mcap": 28.30941546722168,
-          "trend_strength": "32.73",
+          "sym": "HCC",
+          "name": "Warrior Met Coal, Inc.",
+          "mcap": 4.524600424071045,
+          "trend_strength": "18.58",
+          "days_since_green": 29,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 29
+        },
+        {
+          "sym": "BULL",
+          "name": "Webull Corporation Ordinary Shares",
+          "mcap": 3.5738213172200037,
+          "trend_strength": "29.00",
           "days_since_green": 13,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 13
-        },
-        {
-          "sym": "PTC",
-          "name": "PTC Inc.",
-          "mcap": 17.06598062025,
-          "trend_strength": "36.93",
-          "days_since_green": 28,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 28
-        },
-        {
-          "sym": "HXL",
-          "name": "Hexcel Corporation",
-          "mcap": 6.760538294753052,
-          "trend_strength": "3.83",
-          "days_since_green": 34,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 34
-        },
-        {
-          "sym": "STEP",
-          "name": "StepStone Group Inc.",
-          "mcap": 6.708570996354263,
-          "trend_strength": "2.97",
-          "days_since_green": 26,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 26
         }
       ],
-      "scanned": 1463
+      "scanned": 1470
     },
     "W": {
       "greens": [
         {
+          "sym": "LLY",
+          "name": "Eli Lilly and Company",
+          "mcap": 933.4124644855557,
+          "trend_strength": "41.49",
+          "days_since_green": 0,
+          "days_since_red": 13,
+          "is_plus": true,
+          "prior_regime_days": 13
+        },
+        {
+          "sym": "JNJ",
+          "name": "Johnson & Johnson",
+          "mcap": 557.1985152158674,
+          "trend_strength": "87.80",
+          "days_since_green": 0,
+          "days_since_red": 9,
+          "is_plus": true,
+          "prior_regime_days": 9
+        },
+        {
           "sym": "GE",
           "name": "GE Aerospace",
-          "mcap": 312.6130299718676,
-          "trend_strength": "76.01",
+          "mcap": 315.15195825459705,
+          "trend_strength": "76.10",
           "days_since_green": 0,
           "days_since_red": 10,
           "is_plus": true,
@@ -535,28 +845,58 @@
         {
           "sym": "MUFG",
           "name": "Mitsubishi UFJ Financial Group, Inc.",
-          "mcap": 220.7054335171892,
-          "trend_strength": "82.71",
+          "mcap": 219.60037248751902,
+          "trend_strength": "82.73",
           "days_since_green": 0,
           "days_since_red": 11,
           "is_plus": true,
           "prior_regime_days": 11
         },
         {
-          "sym": "PGR",
-          "name": "Progressive Corporation (The)",
-          "mcap": 118.45961323090674,
-          "trend_strength": "75.72",
+          "sym": "CNQ",
+          "name": "Canadian Natural Resources Limited",
+          "mcap": 101.75136203174591,
+          "trend_strength": "61.32",
           "days_since_green": 0,
-          "days_since_red": 49,
+          "days_since_red": 6,
+          "is_plus": true,
+          "prior_regime_days": 6
+        },
+        {
+          "sym": "MMM",
+          "name": "3M Company",
+          "mcap": 79.02787361509574,
+          "trend_strength": "17.83",
+          "days_since_green": 0,
+          "days_since_red": 11,
           "is_plus": false,
-          "prior_regime_days": 49
+          "prior_regime_days": 11
+        },
+        {
+          "sym": "AON",
+          "name": "Aon plc Ordinary Shares (Ireland)",
+          "mcap": 69.25873276100594,
+          "trend_strength": "68.54",
+          "days_since_green": 0,
+          "days_since_red": 56,
+          "is_plus": false,
+          "prior_regime_days": 56
+        },
+        {
+          "sym": "RACE",
+          "name": "Ferrari N.V. Common Shares",
+          "mcap": 61.58244799862247,
+          "trend_strength": "59.72",
+          "days_since_green": 0,
+          "days_since_red": 10,
+          "is_plus": false,
+          "prior_regime_days": 10
         },
         {
           "sym": "D",
           "name": "Dominion Energy, Inc.",
-          "mcap": 59.44624557268909,
-          "trend_strength": "72.92",
+          "mcap": 60.035524036681366,
+          "trend_strength": "72.74",
           "days_since_green": 0,
           "days_since_red": 9,
           "is_plus": true,
@@ -565,8 +905,8 @@
         {
           "sym": "MT",
           "name": "Arcelor Mittal NY Registry Shares NEW",
-          "mcap": 47.80049316646831,
-          "trend_strength": "86.43",
+          "mcap": 48.90311118337677,
+          "trend_strength": "86.40",
           "days_since_green": 0,
           "days_since_red": 11,
           "is_plus": true,
@@ -575,8 +915,8 @@
         {
           "sym": "CCI",
           "name": "Crown Castle Inc.",
-          "mcap": 40.4110875076351,
-          "trend_strength": "30.21",
+          "mcap": 40.24523695284628,
+          "trend_strength": "30.41",
           "days_since_green": 0,
           "days_since_red": 37,
           "is_plus": false,
@@ -585,8 +925,8 @@
         {
           "sym": "HIG",
           "name": "The Hartford Insurance Group, Inc.",
-          "mcap": 37.38870237248383,
-          "trend_strength": "72.63",
+          "mcap": 37.30372248754853,
+          "trend_strength": "72.46",
           "days_since_green": 0,
           "days_since_red": 4,
           "is_plus": true,
@@ -595,37 +935,47 @@
         {
           "sym": "PRU",
           "name": "Prudential Financial, Inc.",
-          "mcap": 35.84221431086979,
-          "trend_strength": "19.99",
+          "mcap": 36.27810636619789,
+          "trend_strength": "19.68",
           "days_since_green": 0,
           "days_since_red": 18,
           "is_plus": false,
           "prior_regime_days": 18
         },
         {
+          "sym": "ASTS",
+          "name": "AST SpaceMobile, Inc.",
+          "mcap": 28.39584461585161,
+          "trend_strength": "80.08",
+          "days_since_green": 0,
+          "days_since_red": 14,
+          "is_plus": true,
+          "prior_regime_days": 14
+        },
+        {
           "sym": "ZS",
           "name": "Zscaler, Inc.",
-          "mcap": 28.061194174531998,
-          "trend_strength": "10.79",
+          "mcap": 27.494405474374144,
+          "trend_strength": "10.87",
           "days_since_green": 0,
           "days_since_red": 26,
           "is_plus": false,
           "prior_regime_days": 26
         },
         {
-          "sym": "CPAY",
-          "name": "Corpay, Inc.",
-          "mcap": 22.84137565522751,
-          "trend_strength": "20.16",
+          "sym": "BRO",
+          "name": "Brown & Brown, Inc.",
+          "mcap": 19.814890474543983,
+          "trend_strength": "90.11",
           "days_since_green": 0,
-          "days_since_red": 9,
-          "is_plus": true,
-          "prior_regime_days": 9
+          "days_since_red": 56,
+          "is_plus": false,
+          "prior_regime_days": 56
         },
         {
           "sym": "WPC",
           "name": "W. P. Carey Inc. REIT",
-          "mcap": 16.712114776251678,
+          "mcap": 16.678703570628777,
           "trend_strength": "81.30",
           "days_since_green": 0,
           "days_since_red": 9,
@@ -635,8 +985,8 @@
         {
           "sym": "GH",
           "name": "Guardant Health, Inc.",
-          "mcap": 15.148215605695992,
-          "trend_strength": "75.47",
+          "mcap": 15.668008096235443,
+          "trend_strength": "75.51",
           "days_since_green": 0,
           "days_since_red": 15,
           "is_plus": true,
@@ -645,7 +995,7 @@
         {
           "sym": "OHI",
           "name": "Omega Healthcare Investors, Inc.",
-          "mcap": 14.598254176322937,
+          "mcap": 14.371924020149232,
           "trend_strength": "87.23",
           "days_since_green": 0,
           "days_since_red": 9,
@@ -653,19 +1003,9 @@
           "prior_regime_days": 9
         },
         {
-          "sym": "AHR",
-          "name": "American Healthcare REIT, Inc.",
-          "mcap": 10.0,
-          "trend_strength": "92.60",
-          "days_since_green": 0,
-          "days_since_red": 1,
-          "is_plus": true,
-          "prior_regime_days": 1
-        },
-        {
           "sym": "BPOP",
           "name": "Popular, Inc.",
-          "mcap": 9.0,
+          "mcap": 9.642901356937394,
           "trend_strength": "82.36",
           "days_since_green": 0,
           "days_since_red": 1,
@@ -673,9 +1013,59 @@
           "prior_regime_days": 1
         },
         {
+          "sym": "BXP",
+          "name": "BXP, Inc.",
+          "mcap": 9.579806828701363,
+          "trend_strength": "28.66",
+          "days_since_green": 0,
+          "days_since_red": 71,
+          "is_plus": false,
+          "prior_regime_days": 71
+        },
+        {
+          "sym": "RGTI",
+          "name": "Rigetti Computing, Inc.",
+          "mcap": 7.1257994250625,
+          "trend_strength": "18.87",
+          "days_since_green": 0,
+          "days_since_red": 28,
+          "is_plus": false,
+          "prior_regime_days": 28
+        },
+        {
+          "sym": "NEU",
+          "name": "NewMarket Corp",
+          "mcap": 6.605327394375,
+          "trend_strength": "19.83",
+          "days_since_green": 0,
+          "days_since_red": 30,
+          "is_plus": false,
+          "prior_regime_days": 30
+        },
+        {
+          "sym": "BIRK",
+          "name": "Birkenstock Holding plc Ordinary Shares",
+          "mcap": 6.0,
+          "trend_strength": "71.69",
+          "days_since_green": 0,
+          "days_since_red": 1,
+          "is_plus": false,
+          "prior_regime_days": 1
+        },
+        {
+          "sym": "SIGI",
+          "name": "Selective Insurance Group, Inc.",
+          "mcap": 5.42178358503418,
+          "trend_strength": "18.12",
+          "days_since_green": 0,
+          "days_since_red": 10,
+          "is_plus": true,
+          "prior_regime_days": 10
+        },
+        {
           "sym": "RLI",
           "name": "RLI Corp. (DE)",
-          "mcap": 4.828601186206028,
+          "mcap": 4.878247969118084,
           "trend_strength": "88.31",
           "days_since_green": 0,
           "days_since_red": 18,
@@ -683,92 +1073,52 @@
           "prior_regime_days": 18
         },
         {
-          "sym": "WSFS",
-          "name": "WSFS Financial Corporation",
-          "mcap": 3.728955975312912,
-          "trend_strength": "60.09",
-          "days_since_green": 0,
-          "days_since_red": 1,
-          "is_plus": true,
-          "prior_regime_days": 1
-        },
-        {
           "sym": "KTB",
           "name": "Kontoor Brands, Inc.",
-          "mcap": 3.572252410359932,
+          "mcap": 3.836454640603424,
           "trend_strength": "80.42",
           "days_since_green": 0,
           "days_since_red": 6,
           "is_plus": true,
           "prior_regime_days": 6
+        },
+        {
+          "sym": "WSFS",
+          "name": "WSFS Financial Corporation",
+          "mcap": 3.7315579393741762,
+          "trend_strength": "60.10",
+          "days_since_green": 0,
+          "days_since_red": 1,
+          "is_plus": true,
+          "prior_regime_days": 1
         }
       ],
       "reds": [
         {
-          "sym": "GEV",
-          "name": "GE Vernova Inc.",
-          "mcap": 275.5226259281128,
-          "trend_strength": "86.79",
-          "days_since_green": 24,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 24
-        },
-        {
-          "sym": "NEE",
-          "name": "NextEra Energy, Inc.",
-          "mcap": 184.24236968800506,
-          "trend_strength": "83.36",
-          "days_since_green": 16,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 16
-        },
-        {
           "sym": "ETN",
           "name": "Eaton Corporation, PLC Ordinary Shares",
-          "mcap": 147.03949776000977,
-          "trend_strength": "43.52",
+          "mcap": 148.233525,
+          "trend_strength": "43.61",
           "days_since_green": 15,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 15
-        },
-        {
-          "sym": "VRT",
-          "name": "Vertiv Holdings, LLC",
-          "mcap": 121.159441017583,
-          "trend_strength": "77.62",
-          "days_since_green": 53,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 53
         },
         {
           "sym": "TT",
           "name": "Trane Technologies plc",
-          "mcap": 99.75349670976489,
-          "trend_strength": "43.48",
+          "mcap": 98.75266884717672,
+          "trend_strength": "43.28",
           "days_since_green": 15,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 15
         },
         {
-          "sym": "IBN",
-          "name": "ICICI Bank Limited",
-          "mcap": 92.1724873598139,
-          "trend_strength": "17.03",
-          "days_since_green": 6,
-          "days_since_red": 0,
-          "is_plus": true,
-          "prior_regime_days": 6
-        },
-        {
           "sym": "REGN",
           "name": "Regeneron Pharmaceuticals, Inc.",
-          "mcap": 67.83556966875733,
-          "trend_strength": "28.37",
+          "mcap": 67.43980616227735,
+          "trend_strength": "28.16",
           "days_since_green": 40,
           "days_since_red": 0,
           "is_plus": false,
@@ -777,8 +1127,8 @@
         {
           "sym": "EME",
           "name": "EMCOR Group, Inc.",
-          "mcap": 37.98383068598126,
-          "trend_strength": "84.88",
+          "mcap": 37.81215850997296,
+          "trend_strength": "84.87",
           "days_since_green": 15,
           "days_since_red": 0,
           "is_plus": false,
@@ -787,17 +1137,27 @@
         {
           "sym": "LVS",
           "name": "Las Vegas Sands Corp.",
-          "mcap": 33.03909742894173,
-          "trend_strength": "45.98",
+          "mcap": 32.8005475875,
+          "trend_strength": "45.92",
           "days_since_green": 40,
           "days_since_red": 0,
           "is_plus": true,
           "prior_regime_days": 40
         },
         {
+          "sym": "ROL",
+          "name": "Rollins, Inc.",
+          "mcap": 25.536744920791627,
+          "trend_strength": "26.21",
+          "days_since_green": 5,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 5
+        },
+        {
           "sym": "EQR",
           "name": "Equity Residential Common Shares of Beneficial Interest",
-          "mcap": 24.840737173907396,
+          "mcap": 24.642158753201866,
           "trend_strength": "59.83",
           "days_since_green": 32,
           "days_since_red": 0,
@@ -807,18 +1167,28 @@
         {
           "sym": "HUBB",
           "name": "Hubbell Inc",
-          "mcap": 24.434037362279387,
-          "trend_strength": "68.30",
+          "mcap": 24.324918963766144,
+          "trend_strength": "68.18",
           "days_since_green": 6,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 6
         },
         {
+          "sym": "STRL",
+          "name": "Sterling Infrastructure, Inc.",
+          "mcap": 22.68673973603064,
+          "trend_strength": "76.38",
+          "days_since_green": 54,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 54
+        },
+        {
           "sym": "NXT",
           "name": "Nextpower Inc.",
-          "mcap": 18.471137067170073,
-          "trend_strength": "92.45",
+          "mcap": 18.229795831438963,
+          "trend_strength": "92.37",
           "days_since_green": 17,
           "days_since_red": 0,
           "is_plus": false,
@@ -827,17 +1197,27 @@
         {
           "sym": "CG",
           "name": "The Carlyle Group Inc.",
-          "mcap": 16.34823893177143,
-          "trend_strength": "5.10",
+          "mcap": 16.236646365051783,
+          "trend_strength": "5.07",
           "days_since_green": 5,
           "days_since_red": 0,
           "is_plus": true,
           "prior_regime_days": 5
         },
         {
+          "sym": "CLH",
+          "name": "Clean Harbors, Inc.",
+          "mcap": 14.997698398308106,
+          "trend_strength": "63.43",
+          "days_since_green": 20,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 20
+        },
+        {
           "sym": "PS",
           "name": "Pershing Square Inc.",
-          "mcap": 15.244000244140626,
+          "mcap": 14.702000427246094,
           "trend_strength": "",
           "days_since_green": null,
           "days_since_red": 0,
@@ -847,8 +1227,8 @@
         {
           "sym": "MOD",
           "name": "Modine Manufacturing Company",
-          "mcap": 13.403479180706727,
-          "trend_strength": "76.83",
+          "mcap": 13.338883947150252,
+          "trend_strength": "76.85",
           "days_since_green": 16,
           "days_since_red": 0,
           "is_plus": false,
@@ -857,28 +1237,18 @@
         {
           "sym": "IESC",
           "name": "IES Holdings, Inc.",
-          "mcap": 13.041379426077699,
-          "trend_strength": "86.99",
+          "mcap": 12.920541002780395,
+          "trend_strength": "87.05",
           "days_since_green": 6,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 6
         },
         {
-          "sym": "AGX",
-          "name": "Argan, Inc.",
-          "mcap": 10.0,
-          "trend_strength": "83.01",
-          "days_since_green": 18,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 18
-        },
-        {
           "sym": "GDS",
           "name": "GDS Holdings Limited ADS",
           "mcap": 9.0,
-          "trend_strength": "54.45",
+          "trend_strength": "53.77",
           "days_since_green": 20,
           "days_since_red": 0,
           "is_plus": false,
@@ -887,8 +1257,8 @@
         {
           "sym": "ALSN",
           "name": "Allison Transmission Holdings, Inc.",
-          "mcap": 8.899445466515052,
-          "trend_strength": "13.41",
+          "mcap": 8.994406886349472,
+          "trend_strength": "13.49",
           "days_since_green": 23,
           "days_since_red": 0,
           "is_plus": false,
@@ -898,7 +1268,7 @@
           "sym": "ROAD",
           "name": "Construction Partners, Inc.",
           "mcap": 8.0,
-          "trend_strength": "59.68",
+          "trend_strength": "59.49",
           "days_since_green": 14,
           "days_since_red": 0,
           "is_plus": true,
@@ -907,57 +1277,47 @@
         {
           "sym": "CAMT",
           "name": "Camtek Ltd. Ordinary Shares",
-          "mcap": 7.845863987401153,
-          "trend_strength": "75.94",
+          "mcap": 7.356065392590134,
+          "trend_strength": "75.99",
           "days_since_green": 19,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 19
         },
         {
-          "sym": "PCVX",
-          "name": "Vaxcyte, Inc.",
-          "mcap": 7.564994471846649,
-          "trend_strength": "2.33",
-          "days_since_green": 29,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 29
-        },
-        {
           "sym": "HASI",
           "name": "HA Sustainable Infrastructure Capital, Inc.",
-          "mcap": 5.20981037748642,
-          "trend_strength": "73.42",
+          "mcap": 5.18680614660463,
+          "trend_strength": "73.43",
           "days_since_green": 28,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 28
         },
         {
-          "sym": "USAR",
-          "name": "USA Rare Earth, Inc.",
-          "mcap": 4.760689734123768,
-          "trend_strength": "42.89",
-          "days_since_green": 17,
+          "sym": "IEP",
+          "name": "Icahn Enterprises, L.P.",
+          "mcap": 5.070621473658388,
+          "trend_strength": "62.98",
+          "days_since_green": 4,
           "days_since_red": 0,
           "is_plus": true,
-          "prior_regime_days": 17
+          "prior_regime_days": 4
         },
         {
           "sym": "UUUU",
           "name": "Energy Fuels Inc Ordinary Shares (Canada)",
-          "mcap": 4.36267759123993,
-          "trend_strength": "81.13",
+          "mcap": 4.440136704380035,
+          "trend_strength": "81.55",
           "days_since_green": 18,
           "days_since_red": 0,
-          "is_plus": true,
+          "is_plus": false,
           "prior_regime_days": 18
         },
         {
           "sym": "AZZ",
           "name": "AZZ Inc.",
-          "mcap": 4.128114053420013,
+          "mcap": 4.10346288968248,
           "trend_strength": "78.18",
           "days_since_green": 19,
           "days_since_red": 0,
@@ -965,15 +1325,15 @@
           "prior_regime_days": 19
         }
       ],
-      "scanned": 1463
+      "scanned": 1470
     },
     "M": {
       "greens": [
         {
           "sym": "QCOM",
           "name": "QUALCOMM Incorporated",
-          "mcap": 212.50747485351562,
-          "trend_strength": "21.30",
+          "mcap": 223.79582192993163,
+          "trend_strength": "21.61",
           "days_since_green": 0,
           "days_since_red": 13,
           "is_plus": true,
@@ -982,8 +1342,8 @@
         {
           "sym": "PANW",
           "name": "Palo Alto Networks, Inc.",
-          "mcap": 199.96015802001952,
-          "trend_strength": "89.84",
+          "mcap": 204.16114445495606,
+          "trend_strength": "89.68",
           "days_since_green": 0,
           "days_since_red": 3,
           "is_plus": true,
@@ -992,8 +1352,8 @@
         {
           "sym": "CRWD",
           "name": "CrowdStrike Holdings, Inc.",
-          "mcap": 165.35303888380372,
-          "trend_strength": "62.02",
+          "mcap": 164.7793063569159,
+          "trend_strength": "62.04",
           "days_since_green": 0,
           "days_since_red": 3,
           "is_plus": true,
@@ -1002,18 +1362,28 @@
         {
           "sym": "UBS",
           "name": "UBS Group AG Registered Ordinary Shares",
-          "mcap": 154.61406358403949,
-          "trend_strength": "90.61",
+          "mcap": 155.95797570496052,
+          "trend_strength": "90.57",
           "days_since_green": 0,
           "days_since_red": 3,
           "is_plus": true,
           "prior_regime_days": 3
         },
         {
+          "sym": "CDNS",
+          "name": "Cadence Design Systems, Inc.",
+          "mcap": 99.03725314013671,
+          "trend_strength": "90.09",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
           "sym": "FTNT",
           "name": "Fortinet, Inc.",
-          "mcap": 95.18567761720072,
-          "trend_strength": "70.75",
+          "mcap": 94.46035168555292,
+          "trend_strength": "70.79",
           "days_since_green": 0,
           "days_since_red": 9,
           "is_plus": true,
@@ -1022,8 +1392,8 @@
         {
           "sym": "MNST",
           "name": "Monster Beverage Corporation",
-          "mcap": 85.12582678979317,
-          "trend_strength": "71.44",
+          "mcap": 84.41187758638489,
+          "trend_strength": "71.54",
           "days_since_green": 0,
           "days_since_red": 2,
           "is_plus": true,
@@ -1032,8 +1402,8 @@
         {
           "sym": "ROK",
           "name": "Rockwell Automation, Inc.",
-          "mcap": 48.39193105015955,
-          "trend_strength": "40.99",
+          "mcap": 48.98001090345038,
+          "trend_strength": "40.97",
           "days_since_green": 0,
           "days_since_red": 2,
           "is_plus": true,
@@ -1042,8 +1412,8 @@
         {
           "sym": "CCI",
           "name": "Crown Castle Inc.",
-          "mcap": 40.4110875076351,
-          "trend_strength": "77.09",
+          "mcap": 40.24523695284628,
+          "trend_strength": "77.12",
           "days_since_green": 0,
           "days_since_red": 17,
           "is_plus": false,
@@ -1052,8 +1422,8 @@
         {
           "sym": "LYV",
           "name": "Live Nation Entertainment, Inc.",
-          "mcap": 38.27660018526365,
-          "trend_strength": "64.98",
+          "mcap": 38.53491153419028,
+          "trend_strength": "64.99",
           "days_since_green": 0,
           "days_since_red": 6,
           "is_plus": true,
@@ -1062,8 +1432,8 @@
         {
           "sym": "HUM",
           "name": "Humana Inc.",
-          "mcap": 36.689593345321654,
-          "trend_strength": "45.09",
+          "mcap": 36.20934734532165,
+          "trend_strength": "45.10",
           "days_since_green": 0,
           "days_since_red": 35,
           "is_plus": false,
@@ -1072,7 +1442,7 @@
         {
           "sym": "CRDO",
           "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-          "mcap": 33.4084953825,
+          "mcap": 35.69106339,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 3,
@@ -1080,10 +1450,20 @@
           "prior_regime_days": 3
         },
         {
+          "sym": "NTAP",
+          "name": "NetApp, Inc.",
+          "mcap": 24.529773797583893,
+          "trend_strength": "61.14",
+          "days_since_green": 0,
+          "days_since_red": 15,
+          "is_plus": true,
+          "prior_regime_days": 15
+        },
+        {
           "sym": "CPAY",
           "name": "Corpay, Inc.",
-          "mcap": 22.84137565522751,
-          "trend_strength": "37.81",
+          "mcap": 22.75771247869501,
+          "trend_strength": "37.74",
           "days_since_green": 0,
           "days_since_red": 13,
           "is_plus": true,
@@ -1092,18 +1472,38 @@
         {
           "sym": "ILMN",
           "name": "Illumina, Inc.",
-          "mcap": 21.404411184692382,
-          "trend_strength": "75.21",
+          "mcap": 21.871927630615236,
+          "trend_strength": "75.14",
           "days_since_green": 0,
           "days_since_red": 2,
           "is_plus": false,
           "prior_regime_days": 2
         },
         {
+          "sym": "IONQ",
+          "name": "IonQ, Inc.",
+          "mcap": 21.67765251488237,
+          "trend_strength": "",
+          "days_since_green": 0,
+          "days_since_red": 5,
+          "is_plus": true,
+          "prior_regime_days": 5
+        },
+        {
+          "sym": "WMG",
+          "name": "Warner Music Group Corp.",
+          "mcap": 18.027033364009917,
+          "trend_strength": "10.25",
+          "days_since_green": 0,
+          "days_since_red": 2,
+          "is_plus": true,
+          "prior_regime_days": 2
+        },
+        {
           "sym": "EG",
           "name": "Everest Group, Ltd.",
-          "mcap": 14.192750918235534,
-          "trend_strength": "85.71",
+          "mcap": 14.062560009519288,
+          "trend_strength": "85.65",
           "days_since_green": 0,
           "days_since_red": 5,
           "is_plus": true,
@@ -1112,7 +1512,7 @@
         {
           "sym": "AUR",
           "name": "Aurora Innovation, Inc.",
-          "mcap": 13.914735504978216,
+          "mcap": 14.01279603349802,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 52,
@@ -1122,8 +1522,8 @@
         {
           "sym": "DOC",
           "name": "Healthpeak Properties, Inc.",
-          "mcap": 13.578120820495803,
-          "trend_strength": "68.21",
+          "mcap": 13.509178587303058,
+          "trend_strength": "68.22",
           "days_since_green": 0,
           "days_since_red": 44,
           "is_plus": false,
@@ -1132,8 +1532,8 @@
         {
           "sym": "DVA",
           "name": "DaVita Inc.",
-          "mcap": 13.0,
-          "trend_strength": "39.06",
+          "mcap": 12.78886125,
+          "trend_strength": "39.04",
           "days_since_green": 0,
           "days_since_red": 8,
           "is_plus": true,
@@ -1142,7 +1542,7 @@
         {
           "sym": "AIZ",
           "name": "Assurant, Inc.",
-          "mcap": 12.675524084317612,
+          "mcap": 12.635638599430344,
           "trend_strength": "65.27",
           "days_since_green": 0,
           "days_since_red": 2,
@@ -1150,20 +1550,10 @@
           "prior_regime_days": 2
         },
         {
-          "sym": "TFII",
-          "name": "TFI International Inc. Common Shares",
-          "mcap": 12.018885624901351,
-          "trend_strength": "30.92",
-          "days_since_green": 0,
-          "days_since_red": 16,
-          "is_plus": true,
-          "prior_regime_days": 16
-        },
-        {
           "sym": "DT",
           "name": "Dynatrace, Inc.",
-          "mcap": 11.653523987247638,
-          "trend_strength": "0.2309",
+          "mcap": 11.484098315620278,
+          "trend_strength": "0.2494",
           "days_since_green": 0,
           "days_since_red": 51,
           "is_plus": false,
@@ -1173,7 +1563,7 @@
           "sym": "AAON",
           "name": "AAON, Inc.",
           "mcap": 11.098218037854462,
-          "trend_strength": "70.80",
+          "trend_strength": "70.85",
           "days_since_green": 0,
           "days_since_red": 15,
           "is_plus": true,
@@ -1182,8 +1572,8 @@
         {
           "sym": "SWKS",
           "name": "Skyworks Solutions, Inc.",
-          "mcap": 10.30732046078897,
-          "trend_strength": "74.62",
+          "mcap": 11.0548382805,
+          "trend_strength": "74.66",
           "days_since_green": 0,
           "days_since_red": 6,
           "is_plus": false,
@@ -1192,7 +1582,7 @@
         {
           "sym": "MICC",
           "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
-          "mcap": 9.0,
+          "mcap": 9.955539967328402,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 2,
@@ -1200,10 +1590,20 @@
           "prior_regime_days": 2
         },
         {
+          "sym": "SIRI",
+          "name": "SiriusXM Holdings Inc.",
+          "mcap": 9.723266928406188,
+          "trend_strength": "82.01",
+          "days_since_green": 0,
+          "days_since_red": 26,
+          "is_plus": false,
+          "prior_regime_days": 26
+        },
+        {
           "sym": "RIOT",
           "name": "Riot Platforms, Inc.",
           "mcap": 9.0,
-          "trend_strength": "5.45",
+          "trend_strength": "5.36",
           "days_since_green": 0,
           "days_since_red": 5,
           "is_plus": true,
@@ -1212,7 +1612,7 @@
         {
           "sym": "FROG",
           "name": "JFrog Ltd. Ordinary Shares",
-          "mcap": 8.220396000545257,
+          "mcap": 8.658848810020356,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 3,
@@ -1220,10 +1620,30 @@
           "prior_regime_days": 3
         },
         {
+          "sym": "ENPH",
+          "name": "Enphase Energy, Inc.",
+          "mcap": 8.2828592967865,
+          "trend_strength": "31.98",
+          "days_since_green": 0,
+          "days_since_red": 37,
+          "is_plus": false,
+          "prior_regime_days": 37
+        },
+        {
+          "sym": "AAL",
+          "name": "American Airlines Group Inc.",
+          "mcap": 8.141651313998247,
+          "trend_strength": "26.23",
+          "days_since_green": 0,
+          "days_since_red": 3,
+          "is_plus": false,
+          "prior_regime_days": 3
+        },
+        {
           "sym": "ORA",
           "name": "Ormat Technologies, Inc.",
           "mcap": 7.956391840866547,
-          "trend_strength": "20.89",
+          "trend_strength": "20.92",
           "days_since_green": 0,
           "days_since_red": 3,
           "is_plus": true,
@@ -1232,7 +1652,7 @@
         {
           "sym": "RAL",
           "name": "Ralliant Corporation",
-          "mcap": 6.576072445,
+          "mcap": 6.695281093903214,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 3,
@@ -1240,29 +1660,9 @@
           "prior_regime_days": 3
         },
         {
-          "sym": "DBX",
-          "name": "Dropbox, Inc.",
-          "mcap": 6.531251864548697,
-          "trend_strength": "16.04",
-          "days_since_green": 0,
-          "days_since_red": 4,
-          "is_plus": true,
-          "prior_regime_days": 4
-        },
-        {
-          "sym": "CACC",
-          "name": "Credit Acceptance Corporation",
-          "mcap": 5.793728879413696,
-          "trend_strength": "5.26",
-          "days_since_green": 0,
-          "days_since_red": 7,
-          "is_plus": true,
-          "prior_regime_days": 7
-        },
-        {
           "sym": "KLAR",
           "name": "Klarna Group plc Ordinary Shares",
-          "mcap": 5.0,
+          "mcap": 5.979864622427267,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 6,
@@ -1270,10 +1670,20 @@
           "prior_regime_days": 6
         },
         {
+          "sym": "CACC",
+          "name": "Credit Acceptance Corporation",
+          "mcap": 5.7478090145,
+          "trend_strength": "5.13",
+          "days_since_green": 0,
+          "days_since_red": 7,
+          "is_plus": true,
+          "prior_regime_days": 7
+        },
+        {
           "sym": "CMBT",
           "name": "CMB.TECH NV Ordinary Shares",
           "mcap": 4.980764350543358,
-          "trend_strength": "9.37",
+          "trend_strength": "9.34",
           "days_since_green": 0,
           "days_since_red": 19,
           "is_plus": true,
@@ -1282,7 +1692,7 @@
         {
           "sym": "NTSK",
           "name": "Netskope, Inc.",
-          "mcap": 4.705694736352337,
+          "mcap": 4.623630333753895,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 6,
@@ -1292,8 +1702,8 @@
         {
           "sym": "TFSL",
           "name": "TFS Financial Corporation",
-          "mcap": 4.402784560211814,
-          "trend_strength": "38.72",
+          "mcap": 4.44344734902846,
+          "trend_strength": "38.55",
           "days_since_green": 0,
           "days_since_red": 47,
           "is_plus": true,
@@ -1302,7 +1712,7 @@
         {
           "sym": "HNGE",
           "name": "Hinge Health, Inc.",
-          "mcap": 4.202901600369564,
+          "mcap": 4.228050201330918,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 6,
@@ -1312,7 +1722,7 @@
         {
           "sym": "BLLN",
           "name": "BillionToOne, Inc.",
-          "mcap": 3.826134224246338,
+          "mcap": 3.9261745423134156,
           "trend_strength": "",
           "days_since_green": 0,
           "days_since_red": 5,
@@ -1324,8 +1734,8 @@
         {
           "sym": "LOW",
           "name": "Lowe's Companies, Inc.",
-          "mcap": 123.60587877592368,
-          "trend_strength": "59.02",
+          "mcap": 121.93896034240723,
+          "trend_strength": "58.63",
           "days_since_green": 9,
           "days_since_red": 0,
           "is_plus": false,
@@ -1334,8 +1744,8 @@
         {
           "sym": "MCK",
           "name": "McKesson Corporation",
-          "mcap": 90.85262670722076,
-          "trend_strength": "94.97",
+          "mcap": 91.9813445069123,
+          "trend_strength": "95.02",
           "days_since_green": 18,
           "days_since_red": 0,
           "is_plus": false,
@@ -1344,28 +1754,18 @@
         {
           "sym": "ECL",
           "name": "Ecolab Inc.",
-          "mcap": 70.08356795047074,
-          "trend_strength": "38.63",
+          "mcap": 70.41425787419983,
+          "trend_strength": "38.71",
           "days_since_green": 29,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 29
         },
         {
-          "sym": "RCL",
-          "name": "Royal Caribbean Cruises Ltd.",
-          "mcap": 68.06110115073642,
-          "trend_strength": "73.44",
-          "days_since_green": 40,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 40
-        },
-        {
           "sym": "TEL",
           "name": "TE Connectivity plc Ordinary Shares",
-          "mcap": 58.95127752578963,
-          "trend_strength": "59.75",
+          "mcap": 58.949816621522174,
+          "trend_strength": "59.78",
           "days_since_green": 22,
           "days_since_red": 0,
           "is_plus": false,
@@ -1374,7 +1774,7 @@
         {
           "sym": "IDXX",
           "name": "IDEXX Laboratories, Inc.",
-          "mcap": 43.67278361459265,
+          "mcap": 43.71774750063898,
           "trend_strength": "6.86",
           "days_since_green": 29,
           "days_since_red": 0,
@@ -1382,19 +1782,9 @@
           "prior_regime_days": 29
         },
         {
-          "sym": "ED",
-          "name": "Consolidated Edison, Inc.",
-          "mcap": 39.19681964873268,
-          "trend_strength": "73.85",
-          "days_since_green": 53,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 53
-        },
-        {
           "sym": "RKT",
           "name": "Rocket Companies, Inc.",
-          "mcap": 38.42365540889165,
+          "mcap": 39.145160311804176,
           "trend_strength": "",
           "days_since_green": 22,
           "days_since_red": 0,
@@ -1404,8 +1794,8 @@
         {
           "sym": "XYL",
           "name": "Xylem Inc. New",
-          "mcap": 25.642373371995323,
-          "trend_strength": "43.45",
+          "mcap": 25.876501607676918,
+          "trend_strength": "43.54",
           "days_since_green": 10,
           "days_since_red": 0,
           "is_plus": false,
@@ -1414,8 +1804,8 @@
         {
           "sym": "INSM",
           "name": "Insmed Incorporated",
-          "mcap": 23.31064194590941,
-          "trend_strength": "55.88",
+          "mcap": 23.740895693439604,
+          "trend_strength": "55.94",
           "days_since_green": 29,
           "days_since_red": 0,
           "is_plus": false,
@@ -1424,8 +1814,8 @@
         {
           "sym": "MTD",
           "name": "Mettler-Toledo International, Inc.",
-          "mcap": 21.82299543990088,
-          "trend_strength": "2.73",
+          "mcap": 22.01335192935022,
+          "trend_strength": "2.77",
           "days_since_green": 7,
           "days_since_red": 0,
           "is_plus": true,
@@ -1434,28 +1824,18 @@
         {
           "sym": "ULTA",
           "name": "Ulta Beauty, Inc.",
-          "mcap": 21.525858266553865,
-          "trend_strength": "54.63",
+          "mcap": 22.00039964511502,
+          "trend_strength": "54.88",
           "days_since_green": 10,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 10
         },
         {
-          "sym": "MAIR",
-          "name": "Madison Air Solutions Corporation",
-          "mcap": 19.093770827686537,
-          "trend_strength": "",
-          "days_since_green": null,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": null
-        },
-        {
           "sym": "USFD",
           "name": "US Foods Holding Corp.",
-          "mcap": 17.929346324858948,
-          "trend_strength": "83.85",
+          "mcap": 17.897413243850526,
+          "trend_strength": "83.86",
           "days_since_green": 30,
           "days_since_red": 0,
           "is_plus": false,
@@ -1464,8 +1844,8 @@
         {
           "sym": "LDOS",
           "name": "Leidos Holdings, Inc.",
-          "mcap": 15.625070740066711,
-          "trend_strength": "66.33",
+          "mcap": 15.505573971566543,
+          "trend_strength": "66.17",
           "days_since_green": 9,
           "days_since_red": 0,
           "is_plus": false,
@@ -1474,7 +1854,7 @@
         {
           "sym": "ARXS",
           "name": "Arxis, Inc.",
-          "mcap": 14.31084862205935,
+          "mcap": 14.278016974877701,
           "trend_strength": "",
           "days_since_green": null,
           "days_since_red": 0,
@@ -1482,19 +1862,9 @@
           "prior_regime_days": null
         },
         {
-          "sym": "JBS",
-          "name": "JBS N.V. Common Shares",
-          "mcap": 13.830374644794288,
-          "trend_strength": "",
-          "days_since_green": 3,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 3
-        },
-        {
           "sym": "JLL",
           "name": "Jones Lang LaSalle Incorporated",
-          "mcap": 13.547851261804961,
+          "mcap": 13.54924301242218,
           "trend_strength": "49.07",
           "days_since_green": 23,
           "days_since_red": 0,
@@ -1502,9 +1872,19 @@
           "prior_regime_days": 23
         },
         {
+          "sym": "J",
+          "name": "Jacobs Solutions Inc.",
+          "mcap": 13.496644830054246,
+          "trend_strength": "62.40",
+          "days_since_green": 10,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 10
+        },
+        {
           "sym": "TOST",
           "name": "Toast, Inc.",
-          "mcap": 13.543000221252441,
+          "mcap": 13.360299911499023,
           "trend_strength": "",
           "days_since_green": 27,
           "days_since_red": 0,
@@ -1512,19 +1892,9 @@
           "prior_regime_days": 27
         },
         {
-          "sym": "J",
-          "name": "Jacobs Solutions Inc.",
-          "mcap": 13.442326832934906,
-          "trend_strength": "62.36",
-          "days_since_green": 10,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 10
-        },
-        {
           "sym": "PAYP",
           "name": "PayPay Corporation American Depository Shares",
-          "mcap": 13.393770890569478,
+          "mcap": 13.212571713048115,
           "trend_strength": "",
           "days_since_green": null,
           "days_since_red": 0,
@@ -1534,8 +1904,8 @@
         {
           "sym": "AEIS",
           "name": "Advanced Energy Industries, Inc.",
-          "mcap": 12.536538620557526,
-          "trend_strength": "42.73",
+          "mcap": 12.91744085665567,
+          "trend_strength": "42.62",
           "days_since_green": 12,
           "days_since_red": 0,
           "is_plus": false,
@@ -1544,7 +1914,7 @@
         {
           "sym": "GGG",
           "name": "Graco Inc.",
-          "mcap": 12.516490220403405,
+          "mcap": 12.512340762731064,
           "trend_strength": "55.19",
           "days_since_green": 35,
           "days_since_red": 0,
@@ -1554,7 +1924,7 @@
         {
           "sym": "NYT",
           "name": "New York Times Company (The)",
-          "mcap": 12.013449717366303,
+          "mcap": 11.97622075323397,
           "trend_strength": "38.50",
           "days_since_green": 42,
           "days_since_red": 0,
@@ -1562,19 +1932,19 @@
           "prior_regime_days": 42
         },
         {
-          "sym": "UHS",
-          "name": "Universal Health Services, Inc.",
-          "mcap": 10.208850195691543,
-          "trend_strength": "58.78",
-          "days_since_green": 6,
+          "sym": "KTOS",
+          "name": "Kratos Defense & Security Solutions, Inc.",
+          "mcap": 10.245154011093932,
+          "trend_strength": "39.09",
+          "days_since_green": 31,
           "days_since_red": 0,
           "is_plus": false,
-          "prior_regime_days": 6
+          "prior_regime_days": 31
         },
         {
           "sym": "EMBJ",
           "name": "Embraer S.A.",
-          "mcap": 10.059978807315826,
+          "mcap": 10.063538053478641,
           "trend_strength": "78.75",
           "days_since_green": 62,
           "days_since_red": 0,
@@ -1582,49 +1952,79 @@
           "prior_regime_days": 62
         },
         {
-          "sym": "RRC",
-          "name": "Range Resources Corporation",
-          "mcap": 10.0,
-          "trend_strength": "83.59",
-          "days_since_green": 12,
+          "sym": "ENSG",
+          "name": "The Ensign Group, Inc.",
+          "mcap": 10.047933060983276,
+          "trend_strength": "86.78",
+          "days_since_green": 11,
           "days_since_red": 0,
           "is_plus": false,
-          "prior_regime_days": 12
+          "prior_regime_days": 11
         },
         {
           "sym": "JKHY",
           "name": "Jack Henry & Associates, Inc.",
-          "mcap": 9.940003688340454,
-          "trend_strength": "0.0072",
+          "mcap": 9.920109556672363,
+          "trend_strength": "0.0080",
           "days_since_green": 5,
           "days_since_red": 0,
           "is_plus": true,
           "prior_regime_days": 5
         },
         {
+          "sym": "UHS",
+          "name": "Universal Health Services, Inc.",
+          "mcap": 9.838368023159195,
+          "trend_strength": "58.61",
+          "days_since_green": 6,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 6
+        },
+        {
           "sym": "EQX",
           "name": "Equinox Gold Corp. Common Shares",
-          "mcap": 9.74940592434588,
-          "trend_strength": "1.57",
+          "mcap": 9.76913402922603,
+          "trend_strength": "1.55",
           "days_since_green": 9,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 9
         },
         {
+          "sym": "RRC",
+          "name": "Range Resources Corporation",
+          "mcap": 9.688786668328286,
+          "trend_strength": "83.48",
+          "days_since_green": 12,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 12
+        },
+        {
           "sym": "CHWY",
           "name": "Chewy, Inc.",
-          "mcap": 8.87,
-          "trend_strength": "46.82",
+          "mcap": 8.310621919820282,
+          "trend_strength": "46.84",
           "days_since_green": 18,
           "days_since_red": 0,
           "is_plus": true,
           "prior_regime_days": 18
         },
         {
+          "sym": "OSK",
+          "name": "Oshkosh Corporation (Holding Company)Common Stock",
+          "mcap": 7.977849796268906,
+          "trend_strength": "29.42",
+          "days_since_green": 11,
+          "days_since_red": 0,
+          "is_plus": false,
+          "prior_regime_days": 11
+        },
+        {
           "sym": "XE",
           "name": "X-Energy, Inc.",
-          "mcap": 7.8847140641459195,
+          "mcap": 7.954442192184013,
           "trend_strength": "",
           "days_since_green": null,
           "days_since_red": 0,
@@ -1632,30 +2032,30 @@
           "prior_regime_days": null
         },
         {
-          "sym": "OSK",
-          "name": "Oshkosh Corporation (Holding Company)Common Stock",
-          "mcap": 7.506474052453781,
-          "trend_strength": "29.31",
-          "days_since_green": 11,
-          "days_since_red": 0,
-          "is_plus": false,
-          "prior_regime_days": 11
-        },
-        {
           "sym": "IDCC",
           "name": "InterDigital, Inc.",
           "mcap": 6.810681758138031,
-          "trend_strength": "70.77",
+          "trend_strength": "70.78",
           "days_since_green": 36,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 36
         },
         {
+          "sym": "RGEN",
+          "name": "Repligen Corporation",
+          "mcap": 6.407919177928619,
+          "trend_strength": "34.14",
+          "days_since_green": 6,
+          "days_since_red": 0,
+          "is_plus": true,
+          "prior_regime_days": 6
+        },
+        {
           "sym": "AN",
           "name": "AutoNation, Inc.",
           "mcap": 6.161934100017242,
-          "trend_strength": "90.91",
+          "trend_strength": "90.99",
           "days_since_green": 1,
           "days_since_red": 0,
           "is_plus": false,
@@ -1664,28 +2064,18 @@
         {
           "sym": "PRIM",
           "name": "Primoris Services Corporation",
-          "mcap": 6.0,
-          "trend_strength": "65.81",
+          "mcap": 5.9490537055364605,
+          "trend_strength": "65.91",
           "days_since_green": 39,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 39
         },
         {
-          "sym": "RGEN",
-          "name": "Repligen Corporation",
-          "mcap": 5.89460883,
-          "trend_strength": "34.20",
-          "days_since_green": 6,
-          "days_since_red": 0,
-          "is_plus": true,
-          "prior_regime_days": 6
-        },
-        {
           "sym": "PEGA",
           "name": "Pegasystems Inc.",
-          "mcap": 5.707848517905914,
-          "trend_strength": "6.92",
+          "mcap": 5.698657084101143,
+          "trend_strength": "6.93",
           "days_since_green": 27,
           "days_since_red": 0,
           "is_plus": false,
@@ -1694,8 +2084,8 @@
         {
           "sym": "G",
           "name": "Genpact Limited",
-          "mcap": 5.3250471668378445,
-          "trend_strength": "3.16",
+          "mcap": 5.430988735587845,
+          "trend_strength": "3.18",
           "days_since_green": 18,
           "days_since_red": 0,
           "is_plus": true,
@@ -1704,7 +2094,7 @@
         {
           "sym": "GOLF",
           "name": "Acushnet Holdings Corp.",
-          "mcap": 5.042089539568558,
+          "mcap": 5.170030002419327,
           "trend_strength": "82.89",
           "days_since_green": 35,
           "days_since_red": 0,
@@ -1714,7 +2104,7 @@
         {
           "sym": "RUSHB",
           "name": "Rush Enterprises, Inc.",
-          "mcap": 5.004671658979546,
+          "mcap": 5.083161238900909,
           "trend_strength": "92.65",
           "days_since_green": 18,
           "days_since_red": 0,
@@ -1724,8 +2114,8 @@
         {
           "sym": "FCN",
           "name": "FTI Consulting, Inc.",
-          "mcap": 4.6445942006353915,
-          "trend_strength": "41.97",
+          "mcap": 4.645347617725754,
+          "trend_strength": "41.83",
           "days_since_green": 5,
           "days_since_red": 0,
           "is_plus": true,
@@ -1734,8 +2124,8 @@
         {
           "sym": "CRK",
           "name": "Comstock Resources, Inc.",
-          "mcap": 4.315860161611145,
-          "trend_strength": "56.10",
+          "mcap": 4.166075500159676,
+          "trend_strength": "55.98",
           "days_since_green": 45,
           "days_since_red": 0,
           "is_plus": false,
@@ -1744,8 +2134,8 @@
         {
           "sym": "PHI",
           "name": "PLDT Inc. Sponsored ADR",
-          "mcap": 4.143213008716821,
-          "trend_strength": "41.37",
+          "mcap": 4.081551645855093,
+          "trend_strength": "41.48",
           "days_since_green": 3,
           "days_since_red": 0,
           "is_plus": true,
@@ -1754,8 +2144,8 @@
         {
           "sym": "BDC",
           "name": "Belden Inc",
-          "mcap": 4.0844508082369995,
-          "trend_strength": "90.43",
+          "mcap": 4.076272595491333,
+          "trend_strength": "90.37",
           "days_since_green": 24,
           "days_since_red": 0,
           "is_plus": false,
@@ -1764,7 +2154,7 @@
         {
           "sym": "VNT",
           "name": "Vontier Corporation",
-          "mcap": 3.984639892578125,
+          "mcap": 4.076160107421875,
           "trend_strength": "",
           "days_since_green": 9,
           "days_since_red": 0,
@@ -1774,15 +2164,15 @@
         {
           "sym": "SKY",
           "name": "Champion Homes, Inc.",
-          "mcap": 3.8846643280454254,
-          "trend_strength": "60.48",
+          "mcap": 3.8821508075,
+          "trend_strength": "60.45",
           "days_since_green": 9,
           "days_since_red": 0,
           "is_plus": false,
           "prior_regime_days": 9
         }
       ],
-      "scanned": 1463
+      "scanned": 1470
     }
   }
 }
