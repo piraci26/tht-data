@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-22T21:21:08.518417+00:00",
+  "updated_at": "2026-05-22T22:32:20.690370+00:00",
   "timeframe": "daily",
-  "scan_seconds": 23.9,
+  "scan_seconds": 24.78,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -6061,56 +6061,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-22T20:02:59.798027+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "ALL",
-        "name": "Allstate Corporation (The)",
-        "mcap": 55.26,
-        "price": 216.6,
-        "basis": 215.88,
-        "bxt_today": -11.04,
-        "ath": 227.62,
-        "pct_to_ath": 5.1,
-        "wk52_high": 227.62,
-        "wk52_low": 188.08,
-        "ath_30d": 5
-      }
-    ],
+    "compared_to": "2026-05-22T21:21:08.518417+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "ARW",
-        "name": "Arrow Electronics, Inc.",
-        "mcap": 10.81,
-        "price": 217.33,
-        "basis": 188.08,
-        "bxt_today": 0.12,
-        "ath": 219.01,
-        "pct_to_ath": 0.8,
-        "wk52_high": 219.01,
-        "wk52_low": 101.79,
-        "ath_30d": 15
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "GFL",
-        "name": "GFL Environmental Inc. Subordinate voting shares, no par value",
-        "mcap": 13.0,
-        "price": 35.7,
-        "basis": 38.79,
-        "bxt_today": -0.11,
-        "ath": 52.0,
-        "pct_to_ath": 45.7,
-        "wk52_high": 51.51,
-        "wk52_low": 35.46,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
