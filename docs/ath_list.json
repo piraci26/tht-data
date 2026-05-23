@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22T23:43:19.050199+00:00",
-  "count": 51,
+  "updated_at": "2026-05-23T01:28:45.873917+00:00",
+  "count": 49,
   "list": [
     {
       "sym": "AAPL",
@@ -381,24 +381,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "BE",
-      "name": "Bloom Energy Corporation",
-      "mcap": 87.7,
-      "price": 302.49,
-      "ath": 322.83,
-      "atl": 2.44,
-      "pct_to_ath": 6.7,
-      "pct_to_atl": 12297.1,
-      "wk52_high": 322.83,
-      "wk52_low": 17.01,
-      "ath_30d": 12,
-      "atl_30d": 0,
-      "last_high": 322.83,
-      "last_low": 301.85,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "DDOG",
       "name": "Datadog, Inc.",
       "mcap": 77.54,
@@ -485,24 +467,6 @@
       "atl_30d": 0,
       "last_high": 235.8,
       "last_low": 228.07,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "mcap": 51.05,
-      "price": 306.88,
-      "ath": 315.73,
-      "atl": 36.22,
-      "pct_to_ath": 2.9,
-      "pct_to_atl": 747.4,
-      "wk52_high": 315.73,
-      "wk52_low": 84.78,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 315.73,
-      "last_low": 299.94,
       "made_ath_today": true,
       "made_atl_today": false
     },
