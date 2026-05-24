@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-24T15:38:26.768500+00:00",
+  "updated_at": "2026-05-24T16:42:28.827678+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.26,
+  "scan_seconds": 13.72,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1920,29 +1920,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MSGS",
-      "name": "Madison Square Garden Sports Corp. (New)",
-      "mcap": 8.0,
-      "price": 353.87,
-      "basis": 283.4,
-      "bxt_today": -1.87,
-      "bxt_yest": 0.8,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 360.45,
-      "atl": 99.22,
-      "pct_to_ath": 1.9,
-      "pct_to_atl": 256.7,
-      "wk52_high": 360.45,
-      "wk52_low": 186.0,
-      "ath_30d": 6,
-      "atl_30d": 0
-    },
-    {
       "sym": "CHRD",
       "name": "Chord Energy Corporation",
       "mcap": 8.0,
@@ -1963,6 +1940,29 @@
       "wk52_high": 151.95,
       "wk52_low": 84.25,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MSGS",
+      "name": "Madison Square Garden Sports Corp. (New)",
+      "mcap": 8.0,
+      "price": 353.87,
+      "basis": 283.4,
+      "bxt_today": -1.87,
+      "bxt_yest": 0.8,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 360.45,
+      "atl": 99.22,
+      "pct_to_ath": 1.9,
+      "pct_to_atl": 256.7,
+      "wk52_high": 360.45,
+      "wk52_low": 186.0,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2312,7 +2312,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-24T14:17:04.762541+00:00",
+    "compared_to": "2026-05-24T15:38:26.768500+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
