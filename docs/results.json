@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-24T01:33:39.518957+00:00",
+  "updated_at": "2026-05-24T05:44:27.366136+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.63,
+  "scan_seconds": 11.9,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2235,7 +2235,7 @@
       "pct_to_ath": 20.6,
       "pct_to_atl": 17508.0,
       "wk52_high": 131.88,
-      "wk52_low": 90.05,
+      "wk52_low": 88.35,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6061,7 +6061,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-23T23:33:50.666453+00:00",
+    "compared_to": "2026-05-24T01:33:39.518957+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
