@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-25T04:55:43.016422+00:00",
+  "updated_at": "2026-05-25T08:57:23.895088+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.69,
+  "scan_seconds": 25.3,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3735,29 +3735,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CIFR",
-      "name": "Cipher Digital Inc.",
-      "mcap": 8.0,
-      "price": 21.97,
-      "basis": 18.93,
-      "bxt_today": 3.31,
-      "bxt_yest": -8.87,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 25.52,
-      "atl": 0.38,
-      "pct_to_ath": 16.2,
-      "pct_to_atl": 5651.3,
-      "wk52_high": 25.52,
-      "wk52_low": 3.08,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TKR",
       "name": "Timken Company (The)",
       "mcap": 8.0,
@@ -3778,6 +3755,29 @@
       "wk52_high": 123.67,
       "wk52_low": 67.14,
       "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CIFR",
+      "name": "Cipher Digital Inc.",
+      "mcap": 8.0,
+      "price": 21.97,
+      "basis": 18.93,
+      "bxt_today": 3.31,
+      "bxt_yest": -8.87,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 25.52,
+      "atl": 0.38,
+      "pct_to_ath": 16.2,
+      "pct_to_atl": 5651.3,
+      "wk52_high": 25.52,
+      "wk52_low": 3.08,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -6061,7 +6061,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-25T00:14:53.570695+00:00",
+    "compared_to": "2026-05-25T04:55:43.016422+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
