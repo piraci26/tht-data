@@ -190,34 +190,183 @@ def main():
     for k in groups:
         groups[k].sort(key=_sort)
 
+    # group_meta: each key → {name, kind, rule, summary}
+    #   name    — human-readable display name
+    #   kind    — 'state' (where regime stack stands; no fire required) or
+    #             'event' (something flipped today)
+    #   rule    — the precise predicate restated in plain English
+    #   summary — what it means / when to use
     group_meta = {
-        "A1": "Stack + D trigger — M[g] W[g] D[g!]",
-        "A2": "Stack + W trigger — M[g] W[g!] D[g]",
-        "A3": "Stack + W trigger, D neutral — M[g] W[g!] D[-]",
-        "A4_premium": "A1 with strong M backbone (M TS ≥ 60)",
-        "B1_triple_green": "Triple flip green — D[g!] W[g!] M[g!]",
-        "B2_WM_green_D_already": "W+M flip green, D already green",
-        "B3_DW_green_M_already": "D+W flip green inside existing M[g]",
-        "B4_DW_green_counter_macro": "D+W flip green, M not green (counter-macro)",
-        "C1_first_D_green_deep_red": "First D-green after a deep red structure (M[r] W[r], prior D-red ≥60)",
-        "C2_D_green_W_recently_g": "D fires green, W flipped green within 5 bars, M[r]",
-        "C3_first_D_red_deep_green": "First D-red in a deep green structure (top warning, prior D-green ≥60)",
-        "D1_pullback": "M[g] W[g] D[r!] — pullback in trend (watchlist)",
-        "D2_regreen": "M[g] W[g] D[g!] with D-red within last 10 bars (dip-buy completion)",
-        "E1_stack_red_D_trigger": "Stack red + D fires red — short trigger",
-        "E2_triple_red": "Triple flip red — D[r!] W[r!] M[r!]",
-        "E3_DW_red_M_already": "D+W flip red inside existing M[r]",
-        "G1_bull_stack": "Full bull stack — M[g] W[g] D[g], any age",
-        "G1_young": "G1 with ≥1 TF freshly flipped (D≤5, W≤4, M≤2)",
-        "G1_mature": "G1 with all TFs well past their flip (D≥20, W≥12, M≥6)",
-        "G1_premium": "G1 with M TS ≥ 60 AND W TS ≥ 60",
-        "G2_bear_stack": "Full bear stack — M[r] W[r] D[r]",
-        "G2_young": "G2 with ≥1 TF freshly flipped",
-        "G2_mature": "G2 with all TFs well past their flip",
-        "H1_bull_stack_cracking": "M[g] W[g] D[r] — daily rolled inside bull stack",
-        "H2_swing_rolled": "M[g] W[r] — weekly turned, backbone holding",
-        "H3_bottoms_forming": "M[r] D[g] — macro red, daily already green",
-        "H4_tops_forming": "M[g] D[r!] with prior green ≥30 bars",
+        # ── EVENT: confluence longs (backbone + fresh trigger) ────────────
+        "A1": {
+            "name": "Sniper Long",
+            "kind": "event",
+            "rule": "Monthly and weekly are both in green regime, and the daily fires green today.",
+            "summary": "The canonical 3-timeframe confluence entry — backbone up, swing up, today's daily flip is your fresh trigger. Highest-probability long setup.",
+        },
+        "A4_premium": {
+            "name": "Premium Sniper",
+            "kind": "event",
+            "rule": "A Sniper Long where the monthly Trend Strength is ≥60.",
+            "summary": "Sniper Long filtered to the strongest backbones. Removes weak 'technically aligned' names.",
+        },
+        "A2": {
+            "name": "Weekly Trigger Long",
+            "kind": "event",
+            "rule": "Monthly in green regime, weekly fires green today, daily already in green regime.",
+            "summary": "Slower, stronger confirmation than A1 — weekly flips are rarer and more durable. The trend has more room to run.",
+        },
+        "A3": {
+            "name": "Early Weekly Trigger",
+            "kind": "event",
+            "rule": "Monthly in green regime, weekly fires green today, daily neutral (no fire).",
+            "summary": "Weekly just turned but daily hasn't joined yet. Earlier than A2 — better price, slightly more risk.",
+        },
+        # ── EVENT: same-day cascades ──────────────────────────────────────
+        "B1_triple_green": {
+            "name": "Triple Green Cascade",
+            "kind": "event",
+            "rule": "Daily, weekly, AND monthly all fire green on the same bar.",
+            "summary": "Major regime shift across every timeframe simultaneously. Extremely rare, very loud — worth a dedicated alert.",
+        },
+        "B2_WM_green_D_already": {
+            "name": "Backbone + Swing Establishing",
+            "kind": "event",
+            "rule": "Weekly AND monthly fire green today; daily already in green regime.",
+            "summary": "The macro and swing trends are being established THIS bar. Stronger than A2 because the M backbone is fresh.",
+        },
+        "B3_DW_green_M_already": {
+            "name": "Daily + Weekly Burst (Bull Macro)",
+            "kind": "event",
+            "rule": "Daily AND weekly fire green today; monthly was already in green regime.",
+            "summary": "Inside an existing bull macro, both faster timeframes flip together. Sharp swing-trade entry.",
+        },
+        "B4_DW_green_counter_macro": {
+            "name": "Counter-Macro Burst",
+            "kind": "event",
+            "rule": "Daily AND weekly fire green; monthly NOT in green regime.",
+            "summary": "Faster TFs flip up against a non-bull macro. Short-term mean-reversion trade only — lower conviction.",
+        },
+        # ── EVENT: pullback / dip-buy ─────────────────────────────────────
+        "D2_regreen": {
+            "name": "Dip-Buy Completion",
+            "kind": "event",
+            "rule": "Monthly and weekly in green regime, daily fires green today, with a daily red fire within the last 10 bars.",
+            "summary": "The pullback finished and the trend resumed. A Sniper Long at a better price because you waited for the dip.",
+        },
+        "D1_pullback": {
+            "name": "Pullback in Bull Stack",
+            "kind": "event",
+            "rule": "Monthly and weekly in green regime; daily fires red today.",
+            "summary": "Healthy retrace inside a trend. Not an entry alone — watch this ticker for re-green (D2) at better price.",
+        },
+        # ── EVENT: early bottoms ──────────────────────────────────────────
+        "C2_D_green_W_recently_g": {
+            "name": "Weekly Turned, Daily Confirms",
+            "kind": "event",
+            "rule": "Monthly still red, weekly flipped green within last 5 bars, daily fires green today.",
+            "summary": "Two of three aligning bullish before the macro turns. Second-derivative bottom signal — confluence is building.",
+        },
+        "C1_first_D_green_deep_red": {
+            "name": "First Green After a Deep Red",
+            "kind": "event",
+            "rule": "Monthly and weekly in red regime, daily fires green today, prior daily-red regime was at least 60 bars deep.",
+            "summary": "First daily green after months of selling pressure. Early bottom-fishing — low hit rate, big payoff when right.",
+        },
+        # ── EVENT: tops / risk ────────────────────────────────────────────
+        "C3_first_D_red_deep_green": {
+            "name": "First Red After a Long Bull",
+            "kind": "event",
+            "rule": "Monthly and weekly in green regime, daily fires red today, prior daily-green regime was at least 60 bars deep.",
+            "summary": "First daily red after a sustained green run inside a bull. Doesn't mean exit — means tighten stops / take partials. Critical risk signal.",
+        },
+        "H4_tops_forming": {
+            "name": "Top Warning — Daily Red After Long Bull",
+            "kind": "event",
+            "rule": "Monthly in green regime, daily fires red today, with prior daily-green regime ≥30 bars.",
+            "summary": "Softer cousin of C3 — same idea (first daily red in a bull) with a less strict threshold and no W[g] requirement.",
+        },
+        # ── EVENT: shorts (bearish mirrors) ───────────────────────────────
+        "E1_stack_red_D_trigger": {
+            "name": "Sniper Short",
+            "kind": "event",
+            "rule": "Monthly and weekly in red regime; daily fires red today.",
+            "summary": "Mirror of Sniper Long. Highest-probability short trigger in an established bear.",
+        },
+        "E2_triple_red": {
+            "name": "Triple Red Cascade",
+            "kind": "event",
+            "rule": "Daily, weekly, AND monthly all fire red on the same bar.",
+            "summary": "Major bear regime shift across every timeframe. Mirror of B1.",
+        },
+        "E3_DW_red_M_already": {
+            "name": "Daily + Weekly Burst (Bear Macro)",
+            "kind": "event",
+            "rule": "Daily AND weekly fire red today; monthly already in red regime.",
+            "summary": "Sharp short-side momentum inside an existing bear macro. Mirror of B3.",
+        },
+        # ── STATE: full alignment ─────────────────────────────────────────
+        "G1_bull_stack": {
+            "name": "Full Bull Stack",
+            "kind": "state",
+            "rule": "Monthly, weekly, AND daily all currently in green regime (any age).",
+            "summary": "The healthiest names — long-only buy universe. Use this to hold winners rather than chase entries.",
+        },
+        "G1_young": {
+            "name": "Fresh Bull Stack",
+            "kind": "state",
+            "rule": "Full Bull Stack where at least one TF flipped recently (D ≤ 5 bars, W ≤ 4, M ≤ 2).",
+            "summary": "The stack just came together. Likely to have more upside ahead of it than an established stack.",
+        },
+        "G1_mature": {
+            "name": "Established Bull Stack",
+            "kind": "state",
+            "rule": "Full Bull Stack where every TF is well past its flip (D ≥ 20, W ≥ 12, M ≥ 6).",
+            "summary": "Stable, long-running bull. Use for momentum continuation rather than fresh entries.",
+        },
+        "G1_premium": {
+            "name": "Premium Bull Stack",
+            "kind": "state",
+            "rule": "Full Bull Stack with monthly Trend Strength ≥ 60 AND weekly TS ≥ 60.",
+            "summary": "Quality filter — keeps stacks where both higher TFs are showing real momentum, not just technical alignment.",
+        },
+        "G2_bear_stack": {
+            "name": "Full Bear Stack",
+            "kind": "state",
+            "rule": "Monthly, weekly, AND daily all currently in red regime.",
+            "summary": "The weakest names. Short universe or simply 'avoid going long.' Mirror of G1.",
+        },
+        "G2_young": {
+            "name": "Fresh Bear Stack",
+            "kind": "state",
+            "rule": "Full Bear Stack where ≥1 TF flipped recently.",
+            "summary": "Stack just came together — typically more downside ahead than an established bear stack.",
+        },
+        "G2_mature": {
+            "name": "Established Bear Stack",
+            "kind": "state",
+            "rule": "Full Bear Stack with every TF well past its flip.",
+            "summary": "Long-running bear. For continuation rather than fresh entries.",
+        },
+        # ── STATE: internal disagreement ──────────────────────────────────
+        "H1_bull_stack_cracking": {
+            "name": "Daily Currently Red in Bull Stack",
+            "kind": "state",
+            "rule": "Monthly and weekly in green regime; daily in red regime (not necessarily today's flip).",
+            "summary": "The state version of D1. A bull stack with the daily currently against — pullback-watch pool.",
+        },
+        "H2_swing_rolled": {
+            "name": "Swing Rolled, Backbone Holding",
+            "kind": "state",
+            "rule": "Monthly in green regime; weekly in red regime.",
+            "summary": "The weekly has already turned even though the monthly is still up. More serious than H1 — close watch.",
+        },
+        "H3_bottoms_forming": {
+            "name": "Macro Red, Daily Green",
+            "kind": "state",
+            "rule": "Monthly in red regime; daily in green regime.",
+            "summary": "Macro hasn't turned but the daily already has. Early bottom-watch list — pre-confluence.",
+        },
     }
 
     out = {
