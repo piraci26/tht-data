@@ -1,0 +1,3018 @@
+{
+  "updated_at": "2026-05-25T23:05:23.602359+00:00",
+  "source_updated_at": "2026-05-25T23:05:17.191601+00:00",
+  "threshold_b": 3.5,
+  "universe_size": 50,
+  "breadth": {
+    "universe_size": 50,
+    "pct_M_green": 78.0,
+    "pct_M_red": 22.0,
+    "pct_MW_green": 64.0,
+    "pct_MW_red": 10.0,
+    "pct_full_bull": 52.0,
+    "pct_full_bear": 6.0,
+    "D_fires_g_today": 1,
+    "D_fires_r_today": 0,
+    "W_fires_g_today": 4,
+    "W_fires_r_today": 0,
+    "M_fires_g_today": 1,
+    "M_fires_r_today": 0
+  },
+  "group_meta": {
+    "A1": "Stack + D trigger \u2014 M[g] W[g] D[g!]",
+    "A2": "Stack + W trigger \u2014 M[g] W[g!] D[g]",
+    "A3": "Stack + W trigger, D neutral \u2014 M[g] W[g!] D[-]",
+    "A4_premium": "A1 with strong M backbone (M TS \u2265 60)",
+    "B1_triple_green": "Triple flip green \u2014 D[g!] W[g!] M[g!]",
+    "B2_WM_green_D_already": "W+M flip green, D already green",
+    "B3_DW_green_M_already": "D+W flip green inside existing M[g]",
+    "B4_DW_green_counter_macro": "D+W flip green, M not green (counter-macro)",
+    "C1_first_D_green_deep_red": "First D-green after a deep red structure (M[r] W[r], prior D-red \u226560)",
+    "C2_D_green_W_recently_g": "D fires green, W flipped green within 5 bars, M[r]",
+    "C3_first_D_red_deep_green": "First D-red in a deep green structure (top warning, prior D-green \u226560)",
+    "D1_pullback": "M[g] W[g] D[r!] \u2014 pullback in trend (watchlist)",
+    "D2_regreen": "M[g] W[g] D[g!] with D-red within last 10 bars (dip-buy completion)",
+    "E1_stack_red_D_trigger": "Stack red + D fires red \u2014 short trigger",
+    "E2_triple_red": "Triple flip red \u2014 D[r!] W[r!] M[r!]",
+    "E3_DW_red_M_already": "D+W flip red inside existing M[r]",
+    "G1_bull_stack": "Full bull stack \u2014 M[g] W[g] D[g], any age",
+    "G1_young": "G1 with \u22651 TF freshly flipped (D\u22645, W\u22644, M\u22642)",
+    "G1_mature": "G1 with all TFs well past their flip (D\u226520, W\u226512, M\u22656)",
+    "G1_premium": "G1 with M TS \u2265 60 AND W TS \u2265 60",
+    "G2_bear_stack": "Full bear stack \u2014 M[r] W[r] D[r]",
+    "G2_young": "G2 with \u22651 TF freshly flipped",
+    "G2_mature": "G2 with all TFs well past their flip",
+    "H1_bull_stack_cracking": "M[g] W[g] D[r] \u2014 daily rolled inside bull stack",
+    "H2_swing_rolled": "M[g] W[r] \u2014 weekly turned, backbone holding",
+    "H3_bottoms_forming": "M[r] D[g] \u2014 macro red, daily already green",
+    "H4_tops_forming": "M[g] D[r!] with prior green \u226530 bars"
+  },
+  "groups": {
+    "A1": [
+      {
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 246.6743987438097,
+        "D": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 16.0,
+          "ts": 74.39,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 53.0,
+          "dsg": 53.0,
+          "dsr": 59.0,
+          "ts": 89.86,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 19.0,
+          "ts": 75.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "A2": [
+      {
+        "sym": "LLY",
+        "name": "Eli Lilly and Company",
+        "mcap": 949.70459739,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 20.0,
+          "ts": 8.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 13.0,
+          "ts": 41.76,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 18.0,
+          "ts": 91.26,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GE",
+        "name": "GE Aerospace",
+        "mcap": 316.4161931462397,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 50.0,
+          "ts": 45.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 10.0,
+          "ts": 76.16,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 63.0,
+          "dsg": 63.0,
+          "dsr": 74.0,
+          "ts": 82.05,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MRK",
+        "name": "Merck & Company, Inc. (new)",
+        "mcap": 302.33121568491714,
+        "D": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 55.0,
+          "ts": 39.45,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 4.0,
+          "ts": 54.17,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 19.0,
+          "ts": 35.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "A3": [
+      {
+        "sym": "LLY",
+        "name": "Eli Lilly and Company",
+        "mcap": 949.70459739,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 20.0,
+          "ts": 8.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 13.0,
+          "ts": 41.76,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 18.0,
+          "ts": 91.26,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GE",
+        "name": "GE Aerospace",
+        "mcap": 316.4161931462397,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 50.0,
+          "ts": 45.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 10.0,
+          "ts": 76.16,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 63.0,
+          "dsg": 63.0,
+          "dsr": 74.0,
+          "ts": 82.05,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MRK",
+        "name": "Merck & Company, Inc. (new)",
+        "mcap": 302.33121568491714,
+        "D": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 55.0,
+          "ts": 39.45,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 4.0,
+          "ts": 54.17,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 19.0,
+          "ts": 35.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "A4_premium": [
+      {
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 246.6743987438097,
+        "D": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 16.0,
+          "ts": 74.39,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 53.0,
+          "dsg": 53.0,
+          "dsr": 59.0,
+          "ts": 89.86,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 19.0,
+          "ts": 75.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "B1_triple_green": [],
+    "B2_WM_green_D_already": [],
+    "B3_DW_green_M_already": [],
+    "B4_DW_green_counter_macro": [],
+    "C1_first_D_green_deep_red": [],
+    "C2_D_green_W_recently_g": [],
+    "C3_first_D_red_deep_green": [],
+    "D1_pullback": [],
+    "D2_regreen": [],
+    "E1_stack_red_D_trigger": [],
+    "E2_triple_red": [],
+    "E3_DW_red_M_already": [],
+    "G1_bull_stack": [
+      {
+        "sym": "LLY",
+        "name": "Eli Lilly and Company",
+        "mcap": 949.70459739,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 20.0,
+          "ts": 8.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 13.0,
+          "ts": 41.76,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 18.0,
+          "ts": 91.26,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AAPL",
+        "name": "Apple Inc.",
+        "mcap": 4535.749387493408,
+        "D": {
+          "regime": "g",
+          "age": 37.0,
+          "dsg": 37.0,
+          "dsr": 69.0,
+          "ts": 43.68,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 41.0,
+          "dsg": 41.0,
+          "dsr": 69.0,
+          "ts": 56.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 8.0,
+          "dsg": 8.0,
+          "dsr": 12.0,
+          "ts": 85.74,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "NVDA",
+        "name": "NVIDIA Corporation",
+        "mcap": 5215.5079743499755,
+        "D": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 16.0,
+          "ts": 53.64,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 25.0,
+          "ts": 73.8,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 36.0,
+          "dsg": 36.0,
+          "dsr": 49.0,
+          "ts": 83.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GE",
+        "name": "GE Aerospace",
+        "mcap": 316.4161931462397,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 50.0,
+          "ts": 45.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 10.0,
+          "ts": 76.16,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 63.0,
+          "dsg": 63.0,
+          "dsr": 74.0,
+          "ts": 82.05,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AVGO",
+        "name": "Broadcom Inc.",
+        "mcap": 1960.815551077251,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 18.0,
+          "ts": 68.7,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 22.0,
+          "ts": 75.24,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 4.0,
+          "ts": 78.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "KO",
+        "name": "Coca-Cola Company (The)",
+        "mcap": 350.5662818617878,
+        "D": {
+          "regime": "g",
+          "age": 20.0,
+          "dsg": 20.0,
+          "dsr": 56.0,
+          "ts": 0.7633,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 11.0,
+          "ts": 51.22,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 24.0,
+          "dsg": 24.0,
+          "dsr": 32.0,
+          "ts": 77.83,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "RY",
+        "name": "Royal Bank Of Canada",
+        "mcap": 263.7948947404531,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 22.0,
+          "ts": 54.79,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 12.0,
+          "ts": 90.35,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 47.0,
+          "ts": 75.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 246.6743987438097,
+        "D": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 16.0,
+          "ts": 74.39,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 53.0,
+          "dsg": 53.0,
+          "dsr": 59.0,
+          "ts": 89.86,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 19.0,
+          "ts": 75.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GS",
+        "name": "Goldman Sachs Group, Inc. (The)",
+        "mcap": 294.0427409714663,
+        "D": {
+          "regime": "g",
+          "age": 2.0,
+          "dsg": 2.0,
+          "dsr": 3.0,
+          "ts": 24.18,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 14.0,
+          "ts": 82.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 74.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "PM",
+        "name": "Philip Morris International Inc",
+        "mcap": 294.5520448669595,
+        "D": {
+          "regime": "g",
+          "age": 22.0,
+          "dsg": 22.0,
+          "dsr": 57.0,
+          "ts": 2.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 16.0,
+          "dsg": 16.0,
+          "dsr": 43.0,
+          "ts": 19.34,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 7.0,
+          "ts": 71.14,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MS",
+        "name": "Morgan Stanley",
+        "mcap": 317.0815648361135,
+        "D": {
+          "regime": "g",
+          "age": 44.0,
+          "dsg": 44.0,
+          "dsr": 59.0,
+          "ts": 57.55,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 17.0,
+          "ts": 77.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 70.71,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "CAT",
+        "name": "Caterpillar, Inc.",
+        "mcap": 405.27028666882285,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 56.93,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 55.0,
+          "dsg": 55.0,
+          "dsr": 66.0,
+          "ts": 88.13,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 17.0,
+          "ts": 68.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GOOG",
+        "name": "Alphabet Inc. Class C Capital Stock",
+        "mcap": 4596.357262301962,
+        "D": {
+          "regime": "g",
+          "age": 22.0,
+          "dsg": 22.0,
+          "dsr": 23.0,
+          "ts": 64.11,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 8.0,
+          "ts": 83.34,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 9.0,
+          "dsg": 9.0,
+          "dsr": 14.0,
+          "ts": 64.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GOOGL",
+        "name": "Alphabet Inc.",
+        "mcap": 4639.85166244674,
+        "D": {
+          "regime": "g",
+          "age": 20.0,
+          "dsg": 20.0,
+          "dsr": 23.0,
+          "ts": 65.87,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 11.0,
+          "ts": 83.7,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 9.0,
+          "dsg": 9.0,
+          "dsr": 14.0,
+          "ts": 63.75,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+        "mcap": 2098.032405499695,
+        "D": {
+          "regime": "g",
+          "age": 33.0,
+          "dsg": 33.0,
+          "dsr": 58.0,
+          "ts": 37.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 11.0,
+          "ts": 89.01,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 14.0,
+          "ts": 61.0,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "mcap": 343.1175101763663,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 61.47,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 34.0,
+          "dsg": 34.0,
+          "dsr": 40.0,
+          "ts": 80.78,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 15.0,
+          "ts": 60.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "ASML",
+        "name": "ASML Holding N.V. New York Registry Shares",
+        "mcap": 629.348514588111,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 26.0,
+          "ts": 20.84,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 11.0,
+          "ts": 84.83,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 8.0,
+          "dsg": 8.0,
+          "dsr": 20.0,
+          "ts": 52.1,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "LRCX",
+        "name": "Lam Research Corporation",
+        "mcap": 381.85209128268434,
+        "D": {
+          "regime": "g",
+          "age": 13.0,
+          "dsg": 13.0,
+          "dsr": 17.0,
+          "ts": 58.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 11.0,
+          "ts": 88.37,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 34.0,
+          "dsg": 34.0,
+          "dsr": 51.0,
+          "ts": 52.03,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "CSCO",
+        "name": "Cisco Systems, Inc. (DE)",
+        "mcap": 474.5881624466149,
+        "D": {
+          "regime": "g",
+          "age": 17.0,
+          "dsg": 17.0,
+          "dsr": 18.0,
+          "ts": 63.18,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 16.0,
+          "dsg": 16.0,
+          "dsr": 19.0,
+          "ts": 70.12,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 18.0,
+          "dsg": 18.0,
+          "dsr": 47.0,
+          "ts": 46.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "mcap": 762.3221206627244,
+        "D": {
+          "regime": "g",
+          "age": 41.0,
+          "dsg": 41.0,
+          "dsr": 78.0,
+          "ts": 77.38,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 14.0,
+          "ts": 69.21,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 18.0,
+          "ts": 44.48,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "TSLA",
+        "name": "Tesla, Inc.",
+        "mcap": 1599.9759629617008,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 21.0,
+          "ts": 0.0014,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 36.0,
+          "dsg": 36.0,
+          "dsr": 65.0,
+          "ts": 35.17,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 8.0,
+          "dsg": 8.0,
+          "dsr": 14.0,
+          "ts": 35.4,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MRK",
+        "name": "Merck & Company, Inc. (new)",
+        "mcap": 302.33121568491714,
+        "D": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 55.0,
+          "ts": 39.45,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 4.0,
+          "ts": 54.17,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 19.0,
+          "ts": 35.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MU",
+        "name": "Micron Technology, Inc.",
+        "mcap": 846.928272301,
+        "D": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 41.0,
+          "ts": 60.07,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 8.0,
+          "ts": 77.8,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 8.0,
+          "dsg": 8.0,
+          "dsr": 17.0,
+          "ts": 33.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "TXN",
+        "name": "Texas Instruments Incorporated",
+        "mcap": 281.4097841284382,
+        "D": {
+          "regime": "g",
+          "age": 31.0,
+          "dsg": 31.0,
+          "dsr": 58.0,
+          "ts": 59.27,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 11.0,
+          "ts": 26.25,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 24.0,
+          "dsg": 24.0,
+          "dsr": 52.0,
+          "ts": 26.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "QCOM",
+        "name": "QUALCOMM Incorporated",
+        "mcap": 251.02064385986327,
+        "D": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 91.0,
+          "ts": 46.22,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 18.0,
+          "ts": 1.22,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 13.0,
+          "ts": 21.93,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "UNH",
+        "name": "UnitedHealth Group Incorporated (DE)",
+        "mcap": 352.7868577304547,
+        "D": {
+          "regime": "g",
+          "age": 35.0,
+          "dsg": 35.0,
+          "dsr": 50.0,
+          "ts": 74.09,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 8.0,
+          "ts": 38.99,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 2.0,
+          "ts": 0.1532,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G2_bear_stack": [
+      {
+        "sym": "META",
+        "name": "Meta Platforms, Inc.",
+        "mcap": 1549.0982302883301,
+        "D": {
+          "regime": "r",
+          "age": 9.0,
+          "dsg": 32.0,
+          "dsr": 9.0,
+          "ts": 5.42,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 10.0,
+          "dsg": 16.0,
+          "dsr": 10.0,
+          "ts": 0.1649,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 40.0,
+          "dsr": 2.0,
+          "ts": 62.72,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "HD",
+        "name": "Home Depot, Inc. (The)",
+        "mcap": 311.82638618518445,
+        "D": {
+          "regime": "r",
+          "age": 14.0,
+          "dsg": 25.0,
+          "dsr": 14.0,
+          "ts": 77.19,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 10.0,
+          "dsg": 14.0,
+          "dsr": 10.0,
+          "ts": 25.42,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 4.0,
+          "dsr": 2.0,
+          "ts": 40.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "PG",
+        "name": "Procter & Gamble Company (The)",
+        "mcap": 336.3428420673761,
+        "D": {
+          "regime": "r",
+          "age": 9.0,
+          "dsg": 31.0,
+          "dsr": 9.0,
+          "ts": 63.09,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 17.0,
+          "dsr": 11.0,
+          "ts": 62.18,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 21.0,
+          "dsr": 11.0,
+          "ts": 40.14,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G1_young": [
+      {
+        "sym": "AVGO",
+        "name": "Broadcom Inc.",
+        "mcap": 1960.815551077251,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 18.0,
+          "ts": 68.7,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 22.0,
+          "ts": 75.24,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 4.0,
+          "ts": 78.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "KO",
+        "name": "Coca-Cola Company (The)",
+        "mcap": 350.5662818617878,
+        "D": {
+          "regime": "g",
+          "age": 20.0,
+          "dsg": 20.0,
+          "dsr": 56.0,
+          "ts": 0.7633,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 11.0,
+          "ts": 51.22,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 24.0,
+          "dsg": 24.0,
+          "dsr": 32.0,
+          "ts": 77.83,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GS",
+        "name": "Goldman Sachs Group, Inc. (The)",
+        "mcap": 294.0427409714663,
+        "D": {
+          "regime": "g",
+          "age": 2.0,
+          "dsg": 2.0,
+          "dsr": 3.0,
+          "ts": 24.18,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 14.0,
+          "ts": 82.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 74.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MRK",
+        "name": "Merck & Company, Inc. (new)",
+        "mcap": 302.33121568491714,
+        "D": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 55.0,
+          "ts": 39.45,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 4.0,
+          "ts": 54.17,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 19.0,
+          "ts": 35.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "UNH",
+        "name": "UnitedHealth Group Incorporated (DE)",
+        "mcap": 352.7868577304547,
+        "D": {
+          "regime": "g",
+          "age": 35.0,
+          "dsg": 35.0,
+          "dsr": 50.0,
+          "ts": 74.09,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 8.0,
+          "ts": 38.99,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 2.0,
+          "ts": 0.1532,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G1_mature": [
+      {
+        "sym": "AAPL",
+        "name": "Apple Inc.",
+        "mcap": 4535.749387493408,
+        "D": {
+          "regime": "g",
+          "age": 37.0,
+          "dsg": 37.0,
+          "dsr": 69.0,
+          "ts": 43.68,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 41.0,
+          "dsg": 41.0,
+          "dsr": 69.0,
+          "ts": 56.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 8.0,
+          "dsg": 8.0,
+          "dsr": 12.0,
+          "ts": 85.74,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "CAT",
+        "name": "Caterpillar, Inc.",
+        "mcap": 405.27028666882285,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 56.93,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 55.0,
+          "dsg": 55.0,
+          "dsr": 66.0,
+          "ts": 88.13,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 17.0,
+          "ts": 68.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "mcap": 343.1175101763663,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 61.47,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 34.0,
+          "dsg": 34.0,
+          "dsr": 40.0,
+          "ts": 80.78,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 15.0,
+          "ts": 60.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G1_premium": [
+      {
+        "sym": "NVDA",
+        "name": "NVIDIA Corporation",
+        "mcap": 5215.5079743499755,
+        "D": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 16.0,
+          "ts": 53.64,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 25.0,
+          "ts": 73.8,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 36.0,
+          "dsg": 36.0,
+          "dsr": 49.0,
+          "ts": 83.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GE",
+        "name": "GE Aerospace",
+        "mcap": 316.4161931462397,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 50.0,
+          "ts": 45.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 10.0,
+          "ts": 76.16,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 63.0,
+          "dsg": 63.0,
+          "dsr": 74.0,
+          "ts": 82.05,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AVGO",
+        "name": "Broadcom Inc.",
+        "mcap": 1960.815551077251,
+        "D": {
+          "regime": "g",
+          "age": 15.0,
+          "dsg": 15.0,
+          "dsr": 18.0,
+          "ts": 68.7,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 22.0,
+          "ts": 75.24,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 4.0,
+          "ts": 78.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "RY",
+        "name": "Royal Bank Of Canada",
+        "mcap": 263.7948947404531,
+        "D": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 22.0,
+          "ts": 54.79,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 12.0,
+          "ts": 90.35,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 47.0,
+          "ts": 75.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 246.6743987438097,
+        "D": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 16.0,
+          "ts": 74.39,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 53.0,
+          "dsg": 53.0,
+          "dsr": 59.0,
+          "ts": 89.86,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 19.0,
+          "ts": 75.04,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GS",
+        "name": "Goldman Sachs Group, Inc. (The)",
+        "mcap": 294.0427409714663,
+        "D": {
+          "regime": "g",
+          "age": 2.0,
+          "dsg": 2.0,
+          "dsr": 3.0,
+          "ts": 24.18,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 14.0,
+          "ts": 82.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 74.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MS",
+        "name": "Morgan Stanley",
+        "mcap": 317.0815648361135,
+        "D": {
+          "regime": "g",
+          "age": 44.0,
+          "dsg": 44.0,
+          "dsr": 59.0,
+          "ts": 57.55,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 17.0,
+          "ts": 77.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 70.71,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "CAT",
+        "name": "Caterpillar, Inc.",
+        "mcap": 405.27028666882285,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 56.93,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 55.0,
+          "dsg": 55.0,
+          "dsr": 66.0,
+          "ts": 88.13,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 10.0,
+          "dsg": 10.0,
+          "dsr": 17.0,
+          "ts": 68.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GOOG",
+        "name": "Alphabet Inc. Class C Capital Stock",
+        "mcap": 4596.357262301962,
+        "D": {
+          "regime": "g",
+          "age": 22.0,
+          "dsg": 22.0,
+          "dsr": 23.0,
+          "ts": 64.11,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 8.0,
+          "ts": 83.34,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 9.0,
+          "dsg": 9.0,
+          "dsr": 14.0,
+          "ts": 64.32,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GOOGL",
+        "name": "Alphabet Inc.",
+        "mcap": 4639.85166244674,
+        "D": {
+          "regime": "g",
+          "age": 20.0,
+          "dsg": 20.0,
+          "dsr": 23.0,
+          "ts": 65.87,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 11.0,
+          "ts": 83.7,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 9.0,
+          "dsg": 9.0,
+          "dsr": 14.0,
+          "ts": 63.75,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+        "mcap": 2098.032405499695,
+        "D": {
+          "regime": "g",
+          "age": 33.0,
+          "dsg": 33.0,
+          "dsr": 58.0,
+          "ts": 37.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 11.0,
+          "ts": 89.01,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 14.0,
+          "ts": 61.0,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AMAT",
+        "name": "Applied Materials, Inc.",
+        "mcap": 343.1175101763663,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 57.0,
+          "ts": 61.47,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 34.0,
+          "dsg": 34.0,
+          "dsr": 40.0,
+          "ts": 80.78,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 15.0,
+          "ts": 60.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G2_young": [
+      {
+        "sym": "META",
+        "name": "Meta Platforms, Inc.",
+        "mcap": 1549.0982302883301,
+        "D": {
+          "regime": "r",
+          "age": 9.0,
+          "dsg": 32.0,
+          "dsr": 9.0,
+          "ts": 5.42,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 10.0,
+          "dsg": 16.0,
+          "dsr": 10.0,
+          "ts": 0.1649,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 40.0,
+          "dsr": 2.0,
+          "ts": 62.72,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "HD",
+        "name": "Home Depot, Inc. (The)",
+        "mcap": 311.82638618518445,
+        "D": {
+          "regime": "r",
+          "age": 14.0,
+          "dsg": 25.0,
+          "dsr": 14.0,
+          "ts": 77.19,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 10.0,
+          "dsg": 14.0,
+          "dsr": 10.0,
+          "ts": 25.42,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 4.0,
+          "dsr": 2.0,
+          "ts": 40.16,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "G2_mature": [],
+    "H1_bull_stack_cracking": [
+      {
+        "sym": "COST",
+        "name": "Costco Wholesale Corporation",
+        "mcap": 456.18128339705567,
+        "D": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 16.0,
+          "dsr": 2.0,
+          "ts": 31.82,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 18.0,
+          "dsg": 18.0,
+          "dsr": 34.0,
+          "ts": 0.0101,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 30.0,
+          "dsg": 30.0,
+          "dsr": 48.0,
+          "ts": 89.53,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "JPM",
+        "name": "JP Morgan Chase & Co.",
+        "mcap": 820.9487213303919,
+        "D": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 36.0,
+          "dsr": 11.0,
+          "ts": 7.15,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 17.0,
+          "ts": 56.5,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 44.0,
+          "ts": 77.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "WMT",
+        "name": "Walmart Inc.",
+        "mcap": 958.6710024809641,
+        "D": {
+          "regime": "r",
+          "age": 1.0,
+          "dsg": 6.0,
+          "dsr": 1.0,
+          "ts": 11.12,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 13.0,
+          "ts": 80.99,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 35.0,
+          "dsg": 35.0,
+          "dsr": 48.0,
+          "ts": 76.53,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "mcap": 2864.8334637829425,
+        "D": {
+          "regime": "r",
+          "age": 3.0,
+          "dsg": 32.0,
+          "dsr": 3.0,
+          "ts": 81.87,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 6.0,
+          "dsg": 6.0,
+          "dsr": 15.0,
+          "ts": 25.09,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 27.0,
+          "dsg": 27.0,
+          "dsr": 49.0,
+          "ts": 38.58,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "INTC",
+        "name": "Intel Corporation",
+        "mcap": 602.3158215942383,
+        "D": {
+          "regime": "r",
+          "age": 5.0,
+          "dsg": 36.0,
+          "dsr": 5.0,
+          "ts": 76.89,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 25.0,
+          "dsg": 25.0,
+          "dsr": 27.0,
+          "ts": 60.3,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 1.0,
+          "dsg": 1.0,
+          "dsr": 21.0,
+          "ts": 7.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "GEV",
+        "name": "GE Vernova Inc.",
+        "mcap": 279.1302049820813,
+        "D": {
+          "regime": "r",
+          "age": 17.0,
+          "dsg": 25.0,
+          "dsr": 17.0,
+          "ts": 77.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 24.0,
+          "dsg": 24.0,
+          "dsr": 37.0,
+          "ts": 86.76,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 22.0,
+          "dsg": 22.0,
+          "dsr": 23.0,
+          "ts": null,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "H2_swing_rolled": [
+      {
+        "sym": "XOM",
+        "name": "Exxon Mobil Corporation",
+        "mcap": 642.135206747415,
+        "D": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 36.0,
+          "ts": 0.4362,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 5.0,
+          "dsg": 28.0,
+          "dsr": 5.0,
+          "ts": 69.0,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 13.0,
+          "ts": 81.41,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "HSBC",
+        "name": "HSBC Holdings, plc.",
+        "mcap": 315.5955752997021,
+        "D": {
+          "regime": "g",
+          "age": 36.0,
+          "dsg": 36.0,
+          "dsr": 54.0,
+          "ts": 13.49,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 13.0,
+          "dsr": 11.0,
+          "ts": 91.39,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 52.0,
+          "dsg": 52.0,
+          "dsr": 81.0,
+          "ts": 79.6,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "AZN",
+        "name": "AstraZeneca PLC Ordinary Shares",
+        "mcap": 290.0551150703649,
+        "D": {
+          "regime": "r",
+          "age": 14.0,
+          "dsg": 35.0,
+          "dsr": 14.0,
+          "ts": 42.17,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 6.0,
+          "dsr": 2.0,
+          "ts": 80.73,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 9.0,
+          "dsg": 9.0,
+          "dsr": 20.0,
+          "ts": 75.46,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "NVS",
+        "name": "Novartis AG",
+        "mcap": 290.0490491181878,
+        "D": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 55.0,
+          "ts": 63.88,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 27.0,
+          "dsr": 11.0,
+          "ts": 88.29,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 11.0,
+          "dsg": 11.0,
+          "dsr": 17.0,
+          "ts": 74.71,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "CVX",
+        "name": "Chevron Corporation",
+        "mcap": 381.25153924986256,
+        "D": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 36.0,
+          "ts": 0.3105,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 7.0,
+          "dsg": 48.0,
+          "dsr": 7.0,
+          "ts": 52.29,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 4.0,
+          "dsg": 4.0,
+          "dsr": 17.0,
+          "ts": 55.83,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "TM",
+        "name": "Toyota Motor Corporation",
+        "mcap": 246.43522044068385,
+        "D": {
+          "regime": "r",
+          "age": 23.0,
+          "dsg": 25.0,
+          "dsr": 23.0,
+          "ts": 86.96,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 11.0,
+          "dsg": 30.0,
+          "dsr": 11.0,
+          "ts": 42.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 30.0,
+          "dsg": 30.0,
+          "dsr": 47.0,
+          "ts": 43.52,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "PLTR",
+        "name": "Palantir Technologies Inc.",
+        "mcap": 328.1440751173849,
+        "D": {
+          "regime": "g",
+          "age": 2.0,
+          "dsg": 2.0,
+          "dsr": 31.0,
+          "ts": 2.86,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 6.0,
+          "dsg": 11.0,
+          "dsr": 6.0,
+          "ts": 37.94,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 27.0,
+          "dsg": 27.0,
+          "dsr": 62.0,
+          "ts": null,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "H3_bottoms_forming": [
+      {
+        "sym": "ABBV",
+        "name": "AbbVie Inc.",
+        "mcap": 381.0972060978762,
+        "D": {
+          "regime": "g",
+          "age": 17.0,
+          "dsg": 17.0,
+          "dsr": 34.0,
+          "ts": 56.11,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 10.0,
+          "dsg": 40.0,
+          "dsr": 10.0,
+          "ts": 40.62,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 2.0,
+          "dsg": 15.0,
+          "dsr": 2.0,
+          "ts": 90.76,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "MSFT",
+        "name": "Microsoft Corporation",
+        "mcap": 3109.3199684607607,
+        "D": {
+          "regime": "g",
+          "age": 29.0,
+          "dsg": 29.0,
+          "dsr": 50.0,
+          "ts": 15.06,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "r",
+          "age": 26.0,
+          "dsg": 56.0,
+          "dsr": 26.0,
+          "ts": 0.0027,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 4.0,
+          "dsg": 36.0,
+          "dsr": 4.0,
+          "ts": 77.94,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "V",
+        "name": "Visa Inc.",
+        "mcap": 625.4455102298584,
+        "D": {
+          "regime": "g",
+          "age": 32.0,
+          "dsg": 32.0,
+          "dsr": 46.0,
+          "ts": 8.02,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 5.0,
+          "dsg": 5.0,
+          "dsr": 17.0,
+          "ts": 24.95,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 8.0,
+          "dsg": 40.0,
+          "dsr": 8.0,
+          "ts": 77.92,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "ORCL",
+        "name": "Oracle Corporation",
+        "mcap": 552.4309209461975,
+        "D": {
+          "regime": "g",
+          "age": 13.0,
+          "dsg": 13.0,
+          "dsr": 16.0,
+          "ts": 55.31,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 2.0,
+          "dsg": 2.0,
+          "dsr": 28.0,
+          "ts": 0.5836,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 3.0,
+          "dsg": 11.0,
+          "dsr": 3.0,
+          "ts": 74.34,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "JNJ",
+        "name": "Johnson & Johnson",
+        "mcap": 564.1072161686482,
+        "D": {
+          "regime": "g",
+          "age": 7.0,
+          "dsg": 7.0,
+          "dsr": 55.0,
+          "ts": 69.64,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 0.0,
+          "dsg": 0.0,
+          "dsr": 9.0,
+          "ts": 87.88,
+          "fired_g": true,
+          "fired_r": false,
+          "fired_g_plus": true,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "r",
+          "age": 1.0,
+          "dsg": 10.0,
+          "dsr": 1.0,
+          "ts": 23.51,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      }
+    ],
+    "H4_tops_forming": []
+  }
+}
