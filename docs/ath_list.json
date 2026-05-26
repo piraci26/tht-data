@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T16:30:17.610264+00:00",
+  "updated_at": "2026-05-26T16:59:28.923519+00:00",
   "count": 80,
   "list": [
     {
@@ -5153,53 +5153,5 @@
       "first_seen_at": "2026-05-26T16:30:17.610264+00:00"
     }
   ],
-  "added_this_run": [
-    "AMAT",
-    "APLD",
-    "AVT",
-    "AXTI",
-    "BTSG",
-    "CATY",
-    "DTM",
-    "ENLT",
-    "HUT",
-    "IESC",
-    "JBHT",
-    "JBL",
-    "KLAC",
-    "KLIC",
-    "KNX",
-    "MDA",
-    "MKSI",
-    "MOD",
-    "MPWR",
-    "MS",
-    "MSGS",
-    "MTRN",
-    "MTSI",
-    "MU",
-    "MXL",
-    "NUE",
-    "NVTS",
-    "ON",
-    "PECO",
-    "PL",
-    "PSMT",
-    "QCOM",
-    "RAL",
-    "RY",
-    "SNDK",
-    "SNDR",
-    "SNX",
-    "STLD",
-    "STT",
-    "STX",
-    "TIGO",
-    "TKR",
-    "UMC",
-    "VMI",
-    "WBI",
-    "WCC",
-    "WDC"
-  ]
+  "added_this_run": []
 }
