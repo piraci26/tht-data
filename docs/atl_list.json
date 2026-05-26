@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-05-26T09:45:20.981406+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-05-26T16:30:17.616123+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.42,
+      "price": 3.32,
+      "ath": 21.3,
+      "atl": 3.23,
+      "pct_to_ath": 542.5,
+      "pct_to_atl": 2.7,
+      "wk52_high": 6.25,
+      "wk52_low": 3.23,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 3.37,
+      "last_low": 3.23,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -430,25 +449,6 @@
       "first_seen_at": "2026-05-15T18:53:57.371075+00:00"
     },
     {
-      "sym": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "mcap": 13,
-      "price": 3.26,
-      "ath": 21.3,
-      "atl": 3.25,
-      "pct_to_ath": 553.4,
-      "pct_to_atl": 0.3,
-      "wk52_high": 6.25,
-      "wk52_low": 3.25,
-      "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 3.45,
-      "last_low": 3.25,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-05-20T06:00:59.760131+00:00"
-    },
-    {
       "sym": "UWMC",
       "name": "UWM Holdings Corporation",
       "mcap": 5,
@@ -485,7 +485,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-05-22T07:58:44.603942+00:00"
+    },
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.42,
+      "price": 3.32,
+      "ath": 21.3,
+      "atl": 3.23,
+      "pct_to_ath": 542.5,
+      "pct_to_atl": 2.7,
+      "wk52_high": 6.25,
+      "wk52_low": 3.23,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 3.37,
+      "last_low": 3.23,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-05-26T16:30:17.616123+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "CSAN"
+  ]
 }
