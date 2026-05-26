@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-26T16:59:28.927727+00:00",
+  "updated_at": "2026-05-26T19:03:36.595681+00:00",
   "count": 1,
   "list": [
     {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
       "mcap": 3.42,
-      "price": 3.32,
+      "price": 3.33,
       "ath": 21.3,
       "atl": 3.23,
-      "pct_to_ath": 542.5,
-      "pct_to_atl": 2.7,
+      "pct_to_ath": 540.6,
+      "pct_to_atl": 3.0,
       "wk52_high": 6.25,
       "wk52_low": 3.23,
       "ath_30d": 0,
