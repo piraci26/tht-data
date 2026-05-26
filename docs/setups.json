@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T02:07:27.075502+00:00",
+  "updated_at": "2026-05-26T15:50:36.385113+00:00",
   "source_updated_at": "2026-05-26T02:06:34.747287+00:00",
   "threshold_b": 3.5,
   "universe_size": 1472,
@@ -17083,44 +17083,6 @@
         }
       },
       {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 8.0,
-        "D": {
-          "regime": "g",
-          "age": 16.0,
-          "dsg": 16.0,
-          "dsr": 36.0,
-          "ts": 55.82,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        },
-        "W": {
-          "regime": "g",
-          "age": 3.0,
-          "dsg": 3.0,
-          "dsr": 7.0,
-          "ts": 71.59,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        },
-        "M": {
-          "regime": "g",
-          "age": 12.0,
-          "dsg": 12.0,
-          "dsr": 13.0,
-          "ts": null,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        }
-      },
-      {
         "sym": "CIFR",
         "name": "Cipher Digital Inc.",
         "mcap": 8.0,
@@ -17151,6 +17113,44 @@
           "age": 26.0,
           "dsg": 26.0,
           "dsr": 55.0,
+          "ts": null,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "SOBO",
+        "name": "South Bow Corporation Common Shares",
+        "mcap": 8.0,
+        "D": {
+          "regime": "g",
+          "age": 16.0,
+          "dsg": 16.0,
+          "dsr": 36.0,
+          "ts": 55.82,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 3.0,
+          "dsg": 3.0,
+          "dsr": 7.0,
+          "ts": 71.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 13.0,
           "ts": null,
           "fired_g": false,
           "fired_r": false,
@@ -33389,44 +33389,6 @@
         }
       },
       {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 8.0,
-        "D": {
-          "regime": "g",
-          "age": 16.0,
-          "dsg": 16.0,
-          "dsr": 36.0,
-          "ts": 55.82,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        },
-        "W": {
-          "regime": "g",
-          "age": 3.0,
-          "dsg": 3.0,
-          "dsr": 7.0,
-          "ts": 71.59,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        },
-        "M": {
-          "regime": "g",
-          "age": 12.0,
-          "dsg": 12.0,
-          "dsr": 13.0,
-          "ts": null,
-          "fired_g": false,
-          "fired_r": false,
-          "fired_g_plus": false,
-          "fired_r_plus": false
-        }
-      },
-      {
         "sym": "CIFR",
         "name": "Cipher Digital Inc.",
         "mcap": 8.0,
@@ -33457,6 +33419,44 @@
           "age": 26.0,
           "dsg": 26.0,
           "dsr": 55.0,
+          "ts": null,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        }
+      },
+      {
+        "sym": "SOBO",
+        "name": "South Bow Corporation Common Shares",
+        "mcap": 8.0,
+        "D": {
+          "regime": "g",
+          "age": 16.0,
+          "dsg": 16.0,
+          "dsr": 36.0,
+          "ts": 55.82,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "W": {
+          "regime": "g",
+          "age": 3.0,
+          "dsg": 3.0,
+          "dsr": 7.0,
+          "ts": 71.59,
+          "fired_g": false,
+          "fired_r": false,
+          "fired_g_plus": false,
+          "fired_r_plus": false
+        },
+        "M": {
+          "regime": "g",
+          "age": 12.0,
+          "dsg": 12.0,
+          "dsr": 13.0,
           "ts": null,
           "fired_g": false,
           "fired_r": false,

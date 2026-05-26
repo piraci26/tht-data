@@ -22,6 +22,7 @@ from lux_scan_full import (
     CDPClient, set_timeframe, set_symbol, is_loading, read_lux,
     load_universe, load_names, load_mcaps,
 )
+import supabase_client as sb  # no-op when SUPABASE_* env vars are unset
 
 
 def _num(s):
@@ -113,8 +114,9 @@ def main():
     finally:
         cdp.close()
 
+    finished_at = datetime.now(timezone.utc).isoformat()
     out = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "updated_at": finished_at,
         "threshold_b": args.threshold,
         "tfs": tfs,
         "scanned": len(tickers),
@@ -124,6 +126,30 @@ def main():
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
     print(f"\nSaved: {out_path}")
+
+    # ── Supabase dual-write ─────────────────────────────────────────────
+    # Flatten by_tf into one row per (symbol, tf). Upsert with the same
+    # primary key so each run overwrites the prior state cleanly.
+    rows = []
+    for tf, by_sym in by_tf.items():
+        for sym, r in by_sym.items():
+            rows.append({
+                "symbol": sym, "tf": tf,
+                "regime": r.get("regime"),
+                "dsg": r.get("dsg"), "dsr": r.get("dsr"), "ts": r.get("ts"),
+                "fired_g":      bool(r.get("fired_g")),
+                "fired_g_plus": bool(r.get("fired_g_plus")),
+                "fired_r":      bool(r.get("fired_r")),
+                "fired_r_plus": bool(r.get("fired_r_plus")),
+                "name": r.get("name") or "",
+                "mcap": r.get("mcap") or 0,
+                "scanned_at": finished_at,
+            })
+    n = sb.upsert("regime_state", rows, on_conflict="symbol,tf")
+    if n:
+        print(f"Supabase: upserted {n} regime_state rows")
+    sb.record_run("regime_scan", out.get("updated_at"), finished_at, True, n,
+                  f"{len(tickers)} tickers × {len(tfs)} TFs")
 
 
 if __name__ == "__main__":

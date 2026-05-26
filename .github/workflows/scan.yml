@@ -28,6 +28,11 @@ jobs:
           python-version: "3.12"
 
       - name: Run scan
+        env:
+          # Supabase dual-write. If these repo-secrets aren't set, scan.py
+          # silently skips Supabase and behaves exactly as before.
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python scan.py
 
       - name: Commit + push if anything changed

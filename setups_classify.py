@@ -14,10 +14,13 @@ Red. Some filters use the OPPOSITE-side days-since to gauge how deep the prior
 regime was right before today's flip (e.g. "first D-green after a long red"
 checks dsr right after a green fire — that is the depth of the prior red).
 """
-import json, os
+import json, os, sys
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import supabase_client as sb  # no-op when SUPABASE_* env vars are unset
+
 IN_PATH  = os.path.join(HERE, "docs", "regime_state.json")
 OUT_PATH = os.path.join(HERE, "docs", "setups.json")
 
@@ -388,6 +391,59 @@ def main():
         n = len(groups[k])
         if n:
             print(f"  {k:32s} {n}")
+
+    # ── Supabase dual-write ─────────────────────────────────────────────
+    finished_at = out["updated_at"]
+
+    # 1) setup_groups (metadata)
+    sb.upsert(
+        "setup_groups",
+        [{"group_key": k, "name": v.get("name"), "kind": v.get("kind"),
+          "rule": v.get("rule"), "summary": v.get("summary"),
+          "updated_at": finished_at}
+         for k, v in group_meta.items()],
+        on_conflict="group_key",
+    )
+
+    # 2) setup_hits (replace fully — wipe then upsert this run's hits)
+    sb.truncate("setup_hits")
+    hit_rows = []
+    for gk, entries in groups.items():
+        for e in entries:
+            hit_rows.append({
+                "symbol": e["sym"], "group_key": gk,
+                "name": e.get("name") or "", "mcap": e.get("mcap") or 0,
+                "m_ts": (e["M"].get("ts") if e.get("M") else None),
+                "d_regime": e["D"]["regime"], "w_regime": e["W"]["regime"], "m_regime": e["M"]["regime"],
+                "d_age": e["D"]["age"], "w_age": e["W"]["age"], "m_age": e["M"]["age"],
+                "d_fired_g": e["D"]["fired_g"], "w_fired_g": e["W"]["fired_g"], "m_fired_g": e["M"]["fired_g"],
+                "d_fired_r": e["D"]["fired_r"], "w_fired_r": e["W"]["fired_r"], "m_fired_r": e["M"]["fired_r"],
+                "scanned_at": finished_at,
+            })
+    n_hits = sb.upsert("setup_hits", hit_rows, on_conflict="symbol,group_key")
+
+    # 3) breadth_snapshots (append-only history)
+    b = breadth
+    sb.upsert(
+        "breadth_snapshots",
+        [{
+            "scanned_at": finished_at,
+            "threshold_b": src.get("threshold_b"),
+            "universe_size": len(rows),
+            "pct_m_green": b["pct_M_green"], "pct_m_red": b["pct_M_red"],
+            "pct_mw_green": b["pct_MW_green"], "pct_mw_red": b["pct_MW_red"],
+            "pct_full_bull": b["pct_full_bull"], "pct_full_bear": b["pct_full_bear"],
+            "d_fires_g_today": b["D_fires_g_today"], "d_fires_r_today": b["D_fires_r_today"],
+            "w_fires_g_today": b["W_fires_g_today"], "w_fires_r_today": b["W_fires_r_today"],
+            "m_fires_g_today": b["M_fires_g_today"], "m_fires_r_today": b["M_fires_r_today"],
+        }],
+        on_conflict="scanned_at",
+    )
+
+    sb.record_run("setups_classify", src.get("updated_at", finished_at), finished_at,
+                  True, n_hits, f"{len(rows)} universe, {n_hits} hits across {sum(1 for v in groups.values() if v)} groups")
+    if n_hits:
+        print(f"Supabase: upserted {n_hits} setup_hits + group metadata + breadth snapshot")
 
 
 if __name__ == "__main__":

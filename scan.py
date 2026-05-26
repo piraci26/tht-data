@@ -539,6 +539,34 @@ def run_scan(timeframe="daily"):
         json.dump(out, f, indent=2)
     n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
 
+    # ─── Supabase dual-write (no-op when SUPABASE_* env vars unset) ─────
+    try:
+        import supabase_client as sb
+        flip_rows = []
+        BUCKETS = (
+            ("fvb_green", "fvb", "green"),
+            ("fvb_red",   "fvb", "red"),
+            ("bxt_green", "bxt", "green"),
+            ("bxt_red",   "bxt", "red"),
+        )
+        # Wipe just THIS timeframe's rows so we don't kill the other slices.
+        sb.truncate("flip_results", where_filter=f"timeframe=eq.{timeframe}")
+        for key, product, side in BUCKETS:
+            for r in out[key]:
+                flip_rows.append({
+                    "timeframe": timeframe, "product": product, "side": side,
+                    "symbol": r.get("sym"), "name": r.get("name") or "",
+                    "mcap": r.get("mcap") or 0, "price": r.get("price"),
+                    "basis": r.get("basis"), "streak": r.get(f"{product}_streak"),
+                    "bxt_today": r.get("bxt_today"),
+                    "scanned_at": out["updated_at"],
+                })
+        n_flips = sb.upsert("flip_results", flip_rows, on_conflict="timeframe,product,side,symbol")
+        sb.record_run("scan_py", out["updated_at"], out["updated_at"], True, n_flips,
+                      f"{timeframe} · {len(closes_map)} scanned · {n_flips} flips")
+    except Exception as e:
+        print(f"  [supabase] dual-write skipped: {e}")
+
     # ─── Append events + snapshot to history logs ──────────────────────
     now_iso = out["updated_at"]
     events = []
