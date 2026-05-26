@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T22:26:30.015445+00:00",
+  "updated_at": "2026-05-26T23:41:42.559984+00:00",
   "count": 87,
   "list": [
     {
@@ -420,17 +420,17 @@
       "sym": "BK",
       "name": "The Bank of New York Mellon Corporation",
       "mcap": 94.14,
-      "price": 139.15,
+      "price": 141.05,
       "ath": 140.78,
       "atl": 1.66,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 8301.3,
-      "wk52_high": 140.78,
+      "pct_to_ath": -0.2,
+      "pct_to_atl": 8416.0,
+      "wk52_high": 141.65,
       "wk52_low": 87.41,
       "ath_30d": 8,
       "atl_30d": 0,
-      "last_high": 140.78,
-      "last_low": 139.11,
+      "last_high": 141.65,
+      "last_low": 139.48,
       "made_ath_today": true,
       "made_atl_today": false
     },
