@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-26T20:59:08.037582+00:00",
+  "updated_at": "2026-05-26T22:26:11.333942+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.02,
+  "scan_seconds": 9.06,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1021,29 +1021,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "GTES",
-      "name": "Gates Industrial Corporation plc Ordinary Shares",
-      "mcap": 6.14,
-      "price": 25.34,
-      "basis": 23.86,
-      "bxt_today": 3.72,
-      "bxt_yest": -0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 28.47,
-      "atl": 5.42,
-      "pct_to_ath": 12.4,
-      "pct_to_atl": 367.5,
-      "wk52_high": 28.47,
-      "wk52_low": 20.39,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "RYN",
       "name": "Rayonier Inc. REIT",
       "mcap": 6.14,
@@ -1063,6 +1040,29 @@
       "pct_to_atl": 311.3,
       "wk52_high": 27.34,
       "wk52_low": 19.49,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "GTES",
+      "name": "Gates Industrial Corporation plc Ordinary Shares",
+      "mcap": 6.14,
+      "price": 25.34,
+      "basis": 23.86,
+      "bxt_today": 3.72,
+      "bxt_yest": -0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 28.47,
+      "atl": 5.42,
+      "pct_to_ath": 12.4,
+      "pct_to_atl": 367.5,
+      "wk52_high": 28.47,
+      "wk52_low": 20.39,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1113,29 +1113,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "FND",
-      "name": "Floor & Decor Holdings, Inc.",
-      "mcap": 5.26,
-      "price": 48.3,
-      "basis": 60.71,
-      "bxt_today": 2.7,
-      "bxt_yest": -5.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 145.89,
-      "atl": 23.3,
-      "pct_to_ath": 202.0,
-      "pct_to_atl": 107.3,
-      "wk52_high": 92.4,
-      "wk52_low": 42.64,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "OZK",
       "name": "Bank OZK",
       "mcap": 5.26,
@@ -1155,6 +1132,29 @@
       "pct_to_atl": 7499.9,
       "wk52_high": 53.66,
       "wk52_low": 42.37,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "FND",
+      "name": "Floor & Decor Holdings, Inc.",
+      "mcap": 5.26,
+      "price": 48.3,
+      "basis": 60.71,
+      "bxt_today": 2.7,
+      "bxt_yest": -5.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 145.89,
+      "atl": 23.3,
+      "pct_to_ath": 202.0,
+      "pct_to_atl": 107.3,
+      "wk52_high": 92.4,
+      "wk52_low": 42.64,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1349,7 +1349,7 @@
       "name": "Costco Wholesale Corporation",
       "mcap": 466.42,
       "price": 1002.93,
-      "basis": 565.64,
+      "basis": 565.63,
       "bxt_today": -4.24,
       "bxt_yest": 3.94,
       "fvb_g": false,
@@ -2519,243 +2519,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-26T19:03:17.762237+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "KTB",
-        "name": "Kontoor Brands, Inc.",
-        "mcap": 3.84,
-        "price": 71.39,
-        "basis": 69.65,
-        "bxt_today": -4.12,
-        "ath": 96.8,
-        "pct_to_ath": 35.6,
-        "wk52_high": 87.0,
-        "wk52_low": 53.55,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "BIIB",
-        "name": "Biogen Inc.",
-        "mcap": 28.01,
-        "price": 193.46,
-        "basis": 183.51,
-        "bxt_today": 46.44,
-        "ath": 480.18,
-        "pct_to_ath": 148.2,
-        "wk52_high": 205.97,
-        "wk52_low": 121.05,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "PEP",
-        "name": "PepsiCo, Inc.",
-        "mcap": 203.05,
-        "price": 145.68,
-        "basis": 150.65,
-        "bxt_today": -24.02,
-        "ath": 196.88,
-        "pct_to_ath": 35.1,
-        "wk52_high": 171.48,
-        "wk52_low": 127.6,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRCL",
-        "name": "Circle Internet Group, Inc.",
-        "mcap": 28.72,
-        "price": 104.17,
-        "basis": 107.26,
-        "bxt_today": -36.13,
-        "ath": 298.99,
-        "pct_to_ath": 187.0,
-        "wk52_high": 298.99,
-        "wk52_low": 49.9,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CG",
-        "name": "The Carlyle Group Inc.",
-        "mcap": 16.24,
-        "price": 45.65,
-        "basis": 47.87,
-        "bxt_today": -36.5,
-        "ath": 69.85,
-        "pct_to_ath": 53.0,
-        "wk52_high": 69.85,
-        "wk52_low": 43.19,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 15.51,
-        "price": 124.43,
-        "basis": 126.31,
-        "bxt_today": -6.01,
-        "ath": 211.79,
-        "pct_to_ath": 70.2,
-        "wk52_high": 137.85,
-        "wk52_low": 115.53,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 31.91,
-        "price": 164.57,
-        "basis": 144.73,
-        "bxt_today": 1.92,
-        "ath": 171.52,
-        "pct_to_ath": 4.2,
-        "wk52_high": 171.52,
-        "wk52_low": 70.5,
-        "ath_30d": 7
-      },
-      {
-        "sym": "OZK",
-        "name": "Bank OZK",
-        "mcap": 5.26,
-        "price": 48.39,
-        "basis": 45.54,
-        "bxt_today": 0.13,
-        "ath": 56.86,
-        "pct_to_ath": 17.5,
-        "wk52_high": 53.66,
-        "wk52_low": 42.37,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "SNDK",
-        "name": "Sandisk Corporation",
-        "mcap": 227.25,
-        "price": 1629.36,
-        "basis": 1184.11,
-        "bxt_today": 3.97,
-        "ath": 1641.74,
-        "pct_to_ath": 0.8,
-        "wk52_high": 1641.74,
-        "wk52_low": 35.79,
-        "ath_30d": 13
-      },
-      {
-        "sym": "UHAL",
-        "name": "U-Haul Holding Company",
-        "mcap": 9.68,
-        "price": 51.2,
-        "basis": 61.37,
-        "bxt_today": 0.03,
-        "ath": 79.04,
-        "pct_to_ath": 54.4,
-        "wk52_high": 64.75,
-        "wk52_low": 41.95,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CVNA",
-        "name": "Carvana Co.",
-        "mcap": 45.94,
-        "price": 70.15,
-        "basis": 73.42,
-        "bxt_today": -0.38,
-        "ath": 97.38,
-        "pct_to_ath": 38.8,
-        "wk52_high": 97.38,
-        "wk52_low": 54.46,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WFRD",
-        "name": "Weatherford International plc Ordinary Shares",
-        "mcap": 8.02,
-        "price": 108.84,
-        "basis": 89.6,
-        "bxt_today": -1.1,
-        "ath": 135.0,
-        "pct_to_ath": 24.0,
-        "wk52_high": 113.15,
-        "wk52_low": 42.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 8.0,
-        "price": 37.59,
-        "basis": 34.39,
-        "bxt_today": -0.01,
-        "ath": 38.39,
-        "pct_to_ath": 2.1,
-        "wk52_high": 38.39,
-        "wk52_low": 25.01,
-        "ath_30d": 11
-      },
-      {
-        "sym": "XE",
-        "name": "X-Energy, Inc.",
-        "mcap": 7.95,
-        "price": 29.67,
-        "basis": 28.73,
-        "bxt_today": -1.12,
-        "ath": 37.1,
-        "pct_to_ath": 25.0,
-        "wk52_high": 37.1,
-        "wk52_low": 25.06,
-        "ath_30d": 3
-      },
-      {
-        "sym": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "mcap": 4.3,
-        "price": 18.0,
-        "basis": 22.54,
-        "bxt_today": -0.5,
-        "ath": 30.28,
-        "pct_to_ath": 68.2,
-        "wk52_high": 30.28,
-        "wk52_low": 16.84,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "AFL",
-        "name": "AFLAC Incorporated",
-        "mcap": 59.9,
-        "price": 116.71,
-        "basis": 70.97,
-        "bxt_today": -0.03,
-        "ath": 119.81,
-        "pct_to_ath": 2.7,
-        "wk52_high": 119.81,
-        "wk52_low": 96.95,
-        "ath_30d": 1
-      },
-      {
-        "sym": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "mcap": 11.74,
-        "price": 49.89,
-        "basis": 46.78,
-        "bxt_today": -7.25,
-        "ath": 51.0,
-        "pct_to_ath": 2.2,
-        "wk52_high": 51.0,
-        "wk52_low": 25.95,
-        "ath_30d": 7
-      }
-    ]
+    "compared_to": "2026-05-26T20:59:08.037582+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
