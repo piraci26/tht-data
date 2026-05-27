@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-27T21:25:38.652152+00:00",
+  "updated_at": "2026-05-27T22:56:52.182336+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.69,
+  "scan_seconds": 10.06,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2380,29 +2380,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5.17,
-      "price": 81.35,
-      "basis": 72.68,
-      "bxt_today": -6.59,
-      "bxt_yest": 6.18,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 96.97,
-      "atl": 31.94,
-      "pct_to_ath": 19.2,
-      "pct_to_atl": 154.7,
-      "wk52_high": 90.78,
-      "wk52_low": 70.87,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GOLF",
       "name": "Acushnet Holdings Corp.",
       "mcap": 5.17,
@@ -2422,6 +2399,29 @@
       "pct_to_atl": 496.4,
       "wk52_high": 104.81,
       "wk52_low": 67.14,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5.17,
+      "price": 81.35,
+      "basis": 72.68,
+      "bxt_today": -6.59,
+      "bxt_yest": 6.18,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 96.97,
+      "atl": 31.94,
+      "pct_to_ath": 19.2,
+      "pct_to_atl": 154.7,
+      "wk52_high": 90.78,
+      "wk52_low": 70.87,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2680,164 +2680,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-27T19:35:45.860004+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 14.7,
-        "price": 37.07,
-        "basis": 36.85,
-        "bxt_today": 36.09,
-        "ath": 54.94,
-        "pct_to_ath": 48.2,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 5
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "PVH",
-        "name": "PVH Corp.",
-        "mcap": 3.98,
-        "price": 97.53,
-        "basis": 91.64,
-        "bxt_today": 3.27,
-        "ath": 169.22,
-        "pct_to_ath": 73.5,
-        "wk52_high": 100.15,
-        "wk52_low": 59.6,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 15.51,
-        "price": 124.78,
-        "basis": 126.25,
-        "bxt_today": -7.96,
-        "ath": 211.79,
-        "pct_to_ath": 69.7,
-        "wk52_high": 137.85,
-        "wk52_low": 115.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "mcap": 11.74,
-        "price": 47.3,
-        "basis": 47.8,
-        "bxt_today": -39.62,
-        "ath": 51.0,
-        "pct_to_ath": 7.8,
-        "wk52_high": 51.0,
-        "wk52_low": 25.95,
-        "ath_30d": 7
-      }
-    ],
+    "compared_to": "2026-05-27T21:25:38.652152+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "BLLN",
-        "name": "BillionToOne, Inc.",
-        "mcap": 3.93,
-        "price": 91.02,
-        "basis": 83.92,
-        "bxt_today": 1.55,
-        "ath": 138.7,
-        "pct_to_ath": 52.4,
-        "wk52_high": 138.7,
-        "wk52_low": 61.96,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRNX",
-        "name": "Crinetics Pharmaceuticals, Inc.",
-        "mcap": 3.91,
-        "price": 36.79,
-        "basis": 42.75,
-        "bxt_today": 1.16,
-        "ath": 62.53,
-        "pct_to_ath": 70.0,
-        "wk52_high": 57.99,
-        "wk52_low": 25.83,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "mcap": 6.15,
-        "price": 12.93,
-        "basis": 13.85,
-        "bxt_today": 0.2,
-        "ath": 121.95,
-        "pct_to_ath": 843.2,
-        "wk52_high": 16.7,
-        "wk52_low": 5.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OPEN",
-        "name": "Opendoor Technologies Inc",
-        "mcap": 4.42,
-        "price": 4.85,
-        "basis": 5.79,
-        "bxt_today": 2.02,
-        "ath": 39.24,
-        "pct_to_ath": 709.1,
-        "wk52_high": 10.87,
-        "wk52_low": 0.51,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AAUC",
-        "name": "Allied Gold Corporation Common Shares",
-        "mcap": 3.34,
-        "price": 27.32,
-        "basis": 29.86,
-        "bxt_today": 1.42,
-        "ath": 32.2,
-        "pct_to_ath": 17.9,
-        "wk52_high": 32.2,
-        "wk52_low": 11.4,
-        "ath_30d": 1
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "SEI",
-        "name": "Solaris Energy Infrastructure, Inc.",
-        "mcap": 4.24,
-        "price": 71.49,
-        "basis": 56.68,
-        "bxt_today": -0.79,
-        "ath": 81.24,
-        "pct_to_ath": 13.6,
-        "wk52_high": 81.24,
-        "wk52_low": 24.57,
-        "ath_30d": 4
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 5.0,
-        "price": 27.18,
-        "basis": 26.8,
-        "bxt_today": -0.55,
-        "ath": 28.52,
-        "pct_to_ath": 4.9,
-        "wk52_high": 28.52,
-        "wk52_low": 22.76,
-        "ath_30d": 6
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

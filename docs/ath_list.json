@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T21:25:55.248669+00:00",
+  "updated_at": "2026-05-27T22:57:10.293885+00:00",
   "count": 75,
   "list": [
     {
@@ -1083,24 +1083,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MSGS",
-      "name": "Madison Square Garden Sports Corp. (New)",
-      "mcap": 8.0,
-      "price": 366.33,
-      "ath": 370.0,
-      "atl": 99.22,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 269.2,
-      "wk52_high": 370.0,
-      "wk52_low": 186.0,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 370.0,
-      "last_low": 363.38,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "mcap": 8.0,
@@ -1115,6 +1097,24 @@
       "atl_30d": 0,
       "last_high": 180.42,
       "last_low": 172.14,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MSGS",
+      "name": "Madison Square Garden Sports Corp. (New)",
+      "mcap": 8.0,
+      "price": 366.33,
+      "ath": 370.0,
+      "atl": 99.22,
+      "pct_to_ath": 1.0,
+      "pct_to_atl": 269.2,
+      "wk52_high": 370.0,
+      "wk52_low": 186.0,
+      "ath_30d": 8,
+      "atl_30d": 0,
+      "last_high": 370.0,
+      "last_low": 363.38,
       "made_ath_today": true,
       "made_atl_today": false
     },
