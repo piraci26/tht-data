@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 LuxAlgo regime scan — captures per-ticker regime state on D, W, M for every
-ticker in the universe (not just today's fires). Drives TradingView Desktop
-via CDP, reusing the same machinery as lux_scan_full.py without modifying it.
+ticker in the universe (not just today's fires). The single canonical
+CDP-driven scanner; replaces the older lux_scan_full / lux_scan runners.
 
 Output: docs/regime_state.json — the input to setups_classify.py.
 
@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from lux_scan_full import (
+from cdp_lib import (
     CDPClient, set_timeframe, set_symbol, is_loading, read_lux,
     load_universe, load_names, load_mcaps,
 )
