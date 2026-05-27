@@ -73,21 +73,35 @@ class CDPClient:
         self.ws = websocket.create_connection(ws_url, timeout=15, suppress_origin=True)
         print(f"Connected: {chart.get('title', '?')[:60]}")
 
-    def evaluate(self, expression, timeout=10):
-        self.msg_id += 1
-        self.ws.settimeout(timeout)
-        self.ws.send(json.dumps({
-            'id': self.msg_id,
-            'method': 'Runtime.evaluate',
-            'params': {'expression': expression, 'returnByValue': True},
-        }))
-        while True:
-            raw = self.ws.recv()
-            msg = json.loads(raw)
-            if msg.get('id') == self.msg_id:
-                if 'error' in msg:
-                    raise Exception(f"CDP error: {msg['error']}")
-                return msg['result']['result'].get('value')
+    def evaluate(self, expression, timeout=10, _retried=False):
+        """Run a JS expression on the chart. Auto-reconnects on broken pipe /
+        closed-socket errors so a single websocket drop doesn't abort the
+        whole ~4h scan."""
+        try:
+            self.msg_id += 1
+            self.ws.settimeout(timeout)
+            self.ws.send(json.dumps({
+                'id': self.msg_id,
+                'method': 'Runtime.evaluate',
+                'params': {'expression': expression, 'returnByValue': True},
+            }))
+            while True:
+                raw = self.ws.recv()
+                msg = json.loads(raw)
+                if msg.get('id') == self.msg_id:
+                    if 'error' in msg:
+                        raise Exception(f"CDP error: {msg['error']}")
+                    return msg['result']['result'].get('value')
+        except (BrokenPipeError, ConnectionResetError, websocket.WebSocketConnectionClosedException, OSError) as e:
+            if _retried:
+                raise
+            print(f"  [cdp] websocket dropped ({type(e).__name__}: {e}); reconnecting…")
+            try:
+                if self.ws: self.ws.close()
+            except Exception:
+                pass
+            self._connect()
+            return self.evaluate(expression, timeout=timeout, _retried=True)
 
     def close(self):
         if self.ws:

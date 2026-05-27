@@ -31,10 +31,29 @@ def _num(s):
     except (ValueError, TypeError): return None
 
 
+def _read_with_meta_retry(cdp, wait):
+    """read_lux can come back without Days Since Green/Red on the first read
+    after a TF switch or fast symbol-flip — the LuxAlgo Meta indicator depends
+    on Signals & Overlays and computes second. Retry once with a longer wait
+    if meta is empty but the symbol does have signals values."""
+    v = read_lux(cdp)
+    if v and v.get("found"):
+        meta = v.get("meta") or {}
+        if not meta.get("Days Since Green") and not meta.get("Days Since Red"):
+            time.sleep(max(wait, 1.8))
+            v2 = read_lux(cdp)
+            if v2 and v2.get("found") and (v2.get("meta") or {}).get("Days Since Green"):
+                return v2
+    return v
+
+
 def scan_one_tf(cdp, tickers, names, mcaps, tf, wait):
     print(f"\n>>> Timeframe {tf}")
     set_timeframe(cdp, tf)
-    time.sleep(1.5)
+    # Longer warm-up after TF change — the indicators recompute in cascade
+    # (Meta depends on Signals & Overlays) and the first ticker after a TF
+    # switch is most likely to come back with empty Meta values.
+    time.sleep(4.0)
     rows = {}
     started = time.time()
     for i, sym in enumerate(tickers):
@@ -49,7 +68,7 @@ def scan_one_tf(cdp, tickers, names, mcaps, tf, wait):
                 time.sleep(0.1)
             time.sleep(wait)
 
-            v = read_lux(cdp)
+            v = _read_with_meta_retry(cdp, wait)
             if not v or not v.get("found"):
                 continue
             vals = v["values"]
