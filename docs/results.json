@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T08:26:24.829833+00:00",
+  "updated_at": "2026-05-28T11:58:21.610129+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.91,
+  "scan_seconds": 26.73,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3229,29 +3229,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "GSAT",
-      "name": "Globalstar, Inc.",
-      "mcap": 10.66,
-      "price": 84.3,
-      "basis": 81.17,
-      "bxt_today": 3.33,
-      "bxt_yest": -15.66,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 225.15,
-      "atl": 2.25,
-      "pct_to_ath": 167.1,
-      "pct_to_atl": 3646.7,
-      "wk52_high": 84.67,
-      "wk52_low": 17.91,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ARWR",
       "name": "Arrowhead Pharmaceuticals, Inc.",
       "mcap": 10.66,
@@ -3271,6 +3248,29 @@
       "pct_to_atl": 6482.5,
       "wk52_high": 82.26,
       "wk52_low": 14.3,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "GSAT",
+      "name": "Globalstar, Inc.",
+      "mcap": 10.66,
+      "price": 84.3,
+      "basis": 81.17,
+      "bxt_today": 3.33,
+      "bxt_yest": -15.66,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 225.15,
+      "atl": 2.25,
+      "pct_to_ath": 167.1,
+      "pct_to_atl": 3646.7,
+      "wk52_high": 84.67,
+      "wk52_low": 17.91,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6199,7 +6199,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-28T04:24:28.018525+00:00",
+    "compared_to": "2026-05-28T08:26:24.829833+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
