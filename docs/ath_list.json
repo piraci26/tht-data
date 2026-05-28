@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T21:03:22.935966+00:00",
-  "count": 32,
+  "updated_at": "2026-05-28T22:44:59.063341+00:00",
+  "count": 34,
   "list": [
     {
       "sym": "LLY",
@@ -381,6 +381,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "ENLT",
+      "name": "Enlight Renewable Energy Ltd. Ordinary Shares",
+      "mcap": 12.75,
+      "price": 102.7,
+      "ath": 106.47,
+      "atl": 1.96,
+      "pct_to_ath": 3.7,
+      "pct_to_atl": 5139.8,
+      "wk52_high": 106.47,
+      "wk52_low": 18.22,
+      "ath_30d": 12,
+      "atl_30d": 0,
+      "last_high": 106.47,
+      "last_low": 101.0,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "EXEL",
       "name": "Exelixis, Inc.",
       "mcap": 12.48,
@@ -521,6 +539,24 @@
       "atl_30d": 0,
       "last_high": 110.5,
       "last_low": 106.04,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "SNDR",
+      "name": "Schneider National, Inc.",
+      "mcap": 5.83,
+      "price": 35.45,
+      "ath": 35.73,
+      "atl": 15.36,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 130.8,
+      "wk52_high": 35.73,
+      "wk52_low": 20.11,
+      "ath_30d": 3,
+      "atl_30d": 0,
+      "last_high": 35.73,
+      "last_low": 34.21,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -2837,25 +2873,6 @@
       "first_seen_at": "2026-05-26T16:30:17.610264+00:00"
     },
     {
-      "sym": "ENLT",
-      "name": "Enlight Renewable Energy Ltd. Ordinary Shares",
-      "mcap": 12.75,
-      "price": 103.5,
-      "ath": 103.5,
-      "atl": 1.96,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 5180.6,
-      "wk52_high": 103.5,
-      "wk52_low": 16.88,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 103.5,
-      "last_low": 100.76,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-05-26T16:30:17.610264+00:00"
-    },
-    {
       "sym": "JBHT",
       "name": "J.B. Hunt Transport Services, Inc.",
       "mcap": 24.32,
@@ -3231,25 +3248,6 @@
       "atl_30d": 0,
       "last_high": 1632.93,
       "last_low": 1520.0,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-05-26T16:30:17.610264+00:00"
-    },
-    {
-      "sym": "SNDR",
-      "name": "Schneider National, Inc.",
-      "mcap": 5.83,
-      "price": 34.56,
-      "ath": 34.65,
-      "atl": 15.36,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 125.0,
-      "wk52_high": 34.65,
-      "wk52_low": 20.11,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 34.65,
-      "last_low": 33.57,
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-05-26T16:30:17.610264+00:00"
@@ -4355,10 +4353,48 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-05-28T21:03:22.935966+00:00"
+    },
+    {
+      "sym": "ENLT",
+      "name": "Enlight Renewable Energy Ltd. Ordinary Shares",
+      "mcap": 12.75,
+      "price": 102.7,
+      "ath": 106.47,
+      "atl": 1.96,
+      "pct_to_ath": 3.7,
+      "pct_to_atl": 5139.8,
+      "wk52_high": 106.47,
+      "wk52_low": 18.22,
+      "ath_30d": 12,
+      "atl_30d": 0,
+      "last_high": 106.47,
+      "last_low": 101.0,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-05-28T22:44:59.063341+00:00"
+    },
+    {
+      "sym": "SNDR",
+      "name": "Schneider National, Inc.",
+      "mcap": 5.83,
+      "price": 35.45,
+      "ath": 35.73,
+      "atl": 15.36,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 130.8,
+      "wk52_high": 35.73,
+      "wk52_low": 20.11,
+      "ath_30d": 3,
+      "atl_30d": 0,
+      "last_high": 35.73,
+      "last_low": 34.21,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-05-28T22:44:59.063341+00:00"
     }
   ],
   "added_this_run": [
-    "ASTS",
-    "PSMT"
+    "ENLT",
+    "SNDR"
   ]
 }
