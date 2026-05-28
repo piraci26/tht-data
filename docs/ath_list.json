@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T04:25:48.765093+00:00",
-  "count": 75,
+  "updated_at": "2026-05-28T08:27:00.975030+00:00",
+  "count": 74,
   "list": [
     {
       "sym": "AAPL",
@@ -1083,24 +1083,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MSGS",
-      "name": "Madison Square Garden Sports Corp. (New)",
-      "mcap": 8.0,
-      "price": 366.33,
-      "ath": 370.0,
-      "atl": 99.22,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 269.2,
-      "wk52_high": 370.0,
-      "wk52_low": 186.0,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 370.0,
-      "last_low": 363.38,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "mcap": 8.0,
@@ -1115,6 +1097,24 @@
       "atl_30d": 0,
       "last_high": 180.42,
       "last_low": 172.14,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MSGS",
+      "name": "Madison Square Garden Sports Corp. (New)",
+      "mcap": 8.0,
+      "price": 366.33,
+      "ath": 370.0,
+      "atl": 99.22,
+      "pct_to_ath": 1.0,
+      "pct_to_atl": 269.2,
+      "wk52_high": 370.0,
+      "wk52_low": 186.0,
+      "ath_30d": 8,
+      "atl_30d": 0,
+      "last_high": 370.0,
+      "last_low": 363.38,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1331,24 +1331,6 @@
       "atl_30d": 0,
       "last_high": 171.48,
       "last_low": 167.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CATY",
-      "name": "Cathay General Bancorp",
-      "mcap": 3.84,
-      "price": 57.42,
-      "ath": 58.51,
-      "atl": 2.5,
-      "pct_to_ath": 1.9,
-      "pct_to_atl": 2196.8,
-      "wk52_high": 58.51,
-      "wk52_low": 42.01,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 58.51,
-      "last_low": 57.24,
       "made_ath_today": true,
       "made_atl_today": false
     }
@@ -5123,8 +5105,5 @@
       "first_seen_at": "2026-05-28T04:25:48.765093+00:00"
     }
   ],
-  "added_this_run": [
-    "CM",
-    "MDA"
-  ]
+  "added_this_run": []
 }
