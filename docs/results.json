@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T22:44:18.876942+00:00",
+  "updated_at": "2026-05-28T23:56:36.878667+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.83,
+  "scan_seconds": 14.35,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3850,29 +3850,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SLAB",
-      "name": "Silicon Laboratories, Inc.",
-      "mcap": 7.0,
-      "price": 218.41,
-      "basis": 215.85,
-      "bxt_today": 0.51,
-      "bxt_yest": -0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 219.2,
-      "atl": 10.12,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 2057.1,
-      "wk52_high": 219.2,
-      "wk52_low": 115.51,
-      "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
       "sym": "UEC",
       "name": "Uranium Energy Corp.",
       "mcap": 7.0,
@@ -3893,6 +3870,29 @@
       "wk52_high": 20.34,
       "wk52_low": 5.63,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SLAB",
+      "name": "Silicon Laboratories, Inc.",
+      "mcap": 7.0,
+      "price": 218.41,
+      "basis": 215.85,
+      "bxt_today": 0.51,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 219.2,
+      "atl": 10.12,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 2057.1,
+      "wk52_high": 219.2,
+      "wk52_low": 115.51,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -5831,55 +5831,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-28T21:01:21.589519+00:00",
+    "compared_to": "2026-05-28T22:44:18.876942+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "CNP",
-        "name": "CenterPoint Energy, Inc (Holding Co)",
-        "mcap": 27.73,
-        "price": 42.22,
-        "basis": 42.64,
-        "bxt_today": 12.29,
-        "ath": 44.47,
-        "pct_to_ath": 5.3,
-        "wk52_high": 44.47,
-        "wk52_low": 35.46,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "UDR",
-        "name": "UDR, Inc.",
-        "mcap": 12.24,
-        "price": 37.88,
-        "basis": 36.38,
-        "bxt_today": -12.67,
-        "ath": 61.06,
-        "pct_to_ath": 61.2,
-        "wk52_high": 42.22,
-        "wk52_low": 32.94,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNA",
-        "name": "CNA Financial Corporation",
-        "mcap": 11.98,
-        "price": 42.35,
-        "basis": 45.68,
-        "bxt_today": -9.33,
-        "ath": 55.62,
-        "pct_to_ath": 31.3,
-        "wk52_high": 50.72,
-        "wk52_low": 42.21,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-28T22:44:31.618570+00:00",
+  "updated_at": "2026-05-28T23:56:52.961504+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.21,
+  "scan_seconds": 12.1,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -373,29 +373,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 8.0,
-      "price": 10.41,
-      "basis": 9.96,
-      "bxt_today": 46.23,
-      "bxt_yest": 45.68,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 45,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "atl": 6.47,
-      "pct_to_ath": 362.2,
-      "pct_to_atl": 60.9,
-      "wk52_high": 20.18,
-      "wk52_low": 6.47,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ROAD",
       "name": "Construction Partners, Inc.",
       "mcap": 8.0,
@@ -416,6 +393,29 @@
       "wk52_high": 151.0,
       "wk52_low": 93.22,
       "ath_30d": 1,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 8.0,
+      "price": 10.41,
+      "basis": 9.96,
+      "bxt_today": 46.23,
+      "bxt_yest": 45.68,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 45,
+      "bxt_streak": null,
+      "ath": 48.11,
+      "atl": 6.47,
+      "pct_to_ath": 362.2,
+      "pct_to_atl": 60.9,
+      "wk52_high": 20.18,
+      "wk52_low": 6.47,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -3531,26 +3531,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-28T21:01:51.284310+00:00",
+    "compared_to": "2026-05-28T22:44:31.618570+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "CNM",
-        "name": "Core & Main, Inc.",
-        "mcap": 8.9,
-        "price": 49.17,
-        "basis": 51.71,
-        "bxt_today": 8.96,
-        "ath": 67.18,
-        "pct_to_ath": 36.6,
-        "wk52_high": 67.18,
-        "wk52_low": 43.96,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
