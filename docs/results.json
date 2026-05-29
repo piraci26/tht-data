@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T07:51:34.575135+00:00",
+  "updated_at": "2026-05-29T11:18:31.051281+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.75,
+  "scan_seconds": 25.03,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1270,29 +1270,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "BETA",
-      "name": "Beta Technologies, Inc.",
-      "mcap": 3.67,
-      "price": 18.33,
-      "basis": 16.67,
-      "bxt_today": 22.5,
-      "bxt_yest": 10.19,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 8,
-      "bxt_streak": null,
-      "ath": 39.5,
-      "atl": 13.43,
-      "pct_to_ath": 115.5,
-      "pct_to_atl": 36.5,
-      "wk52_high": 39.5,
-      "wk52_low": 13.43,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "DAN",
       "name": "Dana Incorporated",
       "mcap": 3.67,
@@ -1313,6 +1290,29 @@
       "wk52_high": 39.56,
       "wk52_low": 15.31,
       "ath_30d": 7,
+      "atl_30d": 0
+    },
+    {
+      "sym": "BETA",
+      "name": "Beta Technologies, Inc.",
+      "mcap": 3.67,
+      "price": 18.33,
+      "basis": 16.67,
+      "bxt_today": 22.5,
+      "bxt_yest": 10.19,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 8,
+      "bxt_streak": null,
+      "ath": 39.5,
+      "atl": 13.43,
+      "pct_to_ath": 115.5,
+      "pct_to_atl": 36.5,
+      "wk52_high": 39.5,
+      "wk52_low": 13.43,
+      "ath_30d": 0,
       "atl_30d": 0
     }
   ],
@@ -5831,7 +5831,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-29T03:54:12.248420+00:00",
+    "compared_to": "2026-05-29T07:51:34.575135+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
