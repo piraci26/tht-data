@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T22:01:07.177826+00:00",
+  "updated_at": "2026-05-29T23:24:14.089918+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.94,
+  "scan_seconds": 9.72,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3048,82 +3048,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-29T20:01:12.386559+00:00",
+    "compared_to": "2026-05-29T22:01:07.177826+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "ICE",
-        "name": "Intercontinental Exchange Inc.",
-        "mcap": 85.53,
-        "price": 147.82,
-        "basis": 152.62,
-        "bxt_today": -39.65,
-        "ath": 189.35,
-        "pct_to_ath": 28.1,
-        "wk52_high": 189.35,
-        "wk52_low": 143.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SUNB",
-        "name": "Sunbelt Rentals Holdings, Inc.",
-        "mcap": 31.03,
-        "price": 78.04,
-        "basis": 78.34,
-        "bxt_today": -11.58,
-        "ath": 80.25,
-        "pct_to_ath": 2.8,
-        "wk52_high": 80.25,
-        "wk52_low": 61.03,
-        "ath_30d": 4
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 8.6,
-        "price": 57.5,
-        "basis": 69.89,
-        "bxt_today": -0.14,
-        "ath": 118.38,
-        "pct_to_ath": 105.9,
-        "wk52_high": 118.38,
-        "wk52_low": 42.47,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "SUNB",
-        "name": "Sunbelt Rentals Holdings, Inc.",
-        "mcap": 31.03,
-        "price": 78.04,
-        "basis": 78.34,
-        "bxt_today": -11.58,
-        "ath": 80.25,
-        "pct_to_ath": 2.8,
-        "wk52_high": 80.25,
-        "wk52_low": 61.03,
-        "ath_30d": 4
-      },
-      {
-        "sym": "MAIR",
-        "name": "Madison Air Solutions Corporation",
-        "mcap": 19.48,
-        "price": 43.24,
-        "basis": 42.12,
-        "bxt_today": -1.46,
-        "ath": 44.25,
-        "pct_to_ath": 2.3,
-        "wk52_high": 44.25,
-        "wk52_low": 31.0,
-        "ath_30d": 11
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

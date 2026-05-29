@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T22:00:55.060110+00:00",
+  "updated_at": "2026-05-29T23:24:02.385944+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.91,
+  "scan_seconds": 9.92,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3439,110 +3439,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-29T20:00:43.298007+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "TGS",
-        "name": "Transportadora de Gas del Sur SA TGS",
-        "mcap": 4.5,
-        "price": 31.08,
-        "basis": 30.51,
-        "bxt_today": -7.12,
-        "ath": 36.35,
-        "pct_to_ath": 17.0,
-        "wk52_high": 36.35,
-        "wk52_low": 19.74,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-05-29T22:00:55.060110+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "STAG",
-        "name": "Stag Industrial, Inc.",
-        "mcap": 7.0,
-        "price": 37.87,
-        "basis": 38.12,
-        "bxt_today": -13.91,
-        "ath": 48.27,
-        "pct_to_ath": 27.5,
-        "wk52_high": 39.99,
-        "wk52_low": 33.72,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "WFC",
-        "name": "Wells Fargo & Company",
-        "mcap": 232.1,
-        "price": 77.54,
-        "basis": 84.61,
-        "bxt_today": 0.06,
-        "ath": 97.76,
-        "pct_to_ath": 26.1,
-        "wk52_high": 97.76,
-        "wk52_low": 71.93,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GPC",
-        "name": "Genuine Parts Company",
-        "mcap": 13.56,
-        "price": 98.7,
-        "basis": 119.46,
-        "bxt_today": 0.0,
-        "ath": 187.73,
-        "pct_to_ath": 90.2,
-        "wk52_high": 151.57,
-        "wk52_low": 90.78,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "TRP",
-        "name": "TC Energy Corporation",
-        "mcap": 73.67,
-        "price": 66.62,
-        "basis": 59.56,
-        "bxt_today": -0.12,
-        "ath": 71.47,
-        "pct_to_ath": 7.3,
-        "wk52_high": 71.47,
-        "wk52_low": 46.29,
-        "ath_30d": 10
-      },
-      {
-        "sym": "NNN",
-        "name": "NNN REIT, Inc.",
-        "mcap": 8.32,
-        "price": 44.51,
-        "basis": 42.63,
-        "bxt_today": -0.31,
-        "ath": 59.26,
-        "pct_to_ath": 33.1,
-        "wk52_high": 46.03,
-        "wk52_low": 38.9,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "HLI",
-        "name": "Houlihan Lokey, Inc.",
-        "mcap": 10.46,
-        "price": 141.35,
-        "basis": 165.8,
-        "bxt_today": -0.45,
-        "ath": 211.78,
-        "pct_to_ath": 49.8,
-        "wk52_high": 211.78,
-        "wk52_low": 134.41,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
