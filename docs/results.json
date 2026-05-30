@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-30T12:50:27.939778+00:00",
+  "updated_at": "2026-05-30T14:21:51.409019+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.46,
-  "scanned_count": 1499,
+  "scan_seconds": 10.18,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CRM",
@@ -110,12 +110,12 @@
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": 4,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 699.54,
+      "atl": 0.22,
+      "pct_to_ath": 169.9,
+      "pct_to_atl": 116317.3,
+      "wk52_high": 421.48,
+      "wk52_low": 224.13,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -392,6 +392,29 @@
       "pct_to_atl": 508.7,
       "wk52_high": 23.42,
       "wk52_low": 17.4,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "BMRN",
+      "name": "BioMarin Pharmaceutical Inc.",
+      "mcap": 10.42,
+      "price": 57.29,
+      "basis": 53.64,
+      "bxt_today": 36.05,
+      "bxt_yest": 20.24,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 17,
+      "bxt_streak": null,
+      "ath": 151.75,
+      "atl": 3.57,
+      "pct_to_ath": 164.9,
+      "pct_to_atl": 1504.8,
+      "wk52_high": 66.28,
+      "wk52_low": 49.26,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1630,12 +1653,12 @@
       "bxt_r": false,
       "fvb_streak": 27,
       "bxt_streak": null,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 38.49,
+      "atl": 0.75,
+      "pct_to_ath": 243.4,
+      "pct_to_atl": 1394.7,
+      "wk52_high": 13.08,
+      "wk52_low": 5.1,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1839,12 +1862,12 @@
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": 4,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 699.54,
+      "atl": 0.22,
+      "pct_to_ath": 169.9,
+      "pct_to_atl": 116317.3,
+      "wk52_high": 421.48,
+      "wk52_low": 224.13,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3037,12 +3060,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 11,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 406.19,
+      "atl": 0.34,
+      "pct_to_ath": 33.1,
+      "pct_to_atl": 90483.3,
+      "wk52_high": 404.87,
+      "wk52_low": 281.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4818,6 +4841,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "TRNO",
+      "name": "Terreno Realty Corporation",
+      "mcap": 7.0,
+      "price": 65.69,
+      "basis": 65.84,
+      "bxt_today": -3.99,
+      "bxt_yest": 23.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 86.0,
+      "atl": 11.41,
+      "pct_to_ath": 30.9,
+      "pct_to_atl": 475.7,
+      "wk52_high": 67.55,
+      "wk52_low": 53.0,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "BBUC",
       "name": "Brookfield Business Corporation Subordinate Voting Shares",
       "mcap": 6.99,
@@ -5245,12 +5291,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 160.36,
+      "atl": 10.48,
+      "pct_to_ath": 91.2,
+      "pct_to_atl": 700.3,
+      "wk52_high": 160.36,
+      "wk52_low": 82.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5578,9 +5624,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-30T11:44:21.196717+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-30T12:50:27.939778+00:00",
+    "fvb_green_added": [
       {
         "sym": "BMRN",
         "name": "BioMarin Pharmaceutical Inc.",
@@ -5595,12 +5640,12 @@
         "ath_30d": 0
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "TRNO",
         "name": "Terreno Realty Corporation",
@@ -5614,6 +5659,7 @@
         "wk52_low": 53.0,
         "ath_30d": 0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
