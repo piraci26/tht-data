@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-30T11:44:47.308618+00:00",
+  "updated_at": "2026-05-30T12:50:47.966676+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 20.43,
-  "scanned_count": 1511,
+  "scan_seconds": 14.08,
+  "scanned_count": 1502,
   "fvb_green": [],
   "fvb_red": [
     {
@@ -2360,7 +2360,7 @@
       "name": "Group 1 Automotive, Inc.",
       "mcap": 3.81,
       "price": 316.34,
-      "basis": 363.08,
+      "basis": 363.11,
       "bxt_today": -1.24,
       "bxt_yest": 1.75,
       "fvb_g": false,
@@ -2518,7 +2518,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-30T10:08:31.230740+00:00",
+    "compared_to": "2026-05-30T11:44:47.308618+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
