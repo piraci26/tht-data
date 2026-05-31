@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T17:49:01.523580+00:00",
+  "updated_at": "2026-05-31T18:56:31.815026+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.51,
+  "scan_seconds": 18.09,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4703,29 +4703,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "AMG",
-      "name": "Affiliated Managers Group, Inc.",
-      "mcap": 8.0,
-      "price": 302.85,
-      "basis": 299.13,
-      "bxt_today": -2.13,
-      "bxt_yest": 7.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 334.78,
-      "atl": 8.92,
-      "pct_to_ath": 10.5,
-      "pct_to_atl": 3296.4,
-      "wk52_high": 334.78,
-      "wk52_low": 172.54,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "REXR",
       "name": "Rexford Industrial Realty, Inc.",
       "mcap": 8.0,
@@ -4745,6 +4722,29 @@
       "pct_to_atl": 192.2,
       "wk52_high": 44.38,
       "wk52_low": 32.14,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "AMG",
+      "name": "Affiliated Managers Group, Inc.",
+      "mcap": 8.0,
+      "price": 302.85,
+      "basis": 299.13,
+      "bxt_today": -2.13,
+      "bxt_yest": 7.15,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 334.78,
+      "atl": 8.92,
+      "pct_to_ath": 10.5,
+      "pct_to_atl": 3296.4,
+      "wk52_high": 334.78,
+      "wk52_low": 172.54,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5624,7 +5624,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-31T16:48:11.413117+00:00",
+    "compared_to": "2026-05-31T17:49:01.523580+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
