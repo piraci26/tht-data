@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T15:46:13.349460+00:00",
+  "updated_at": "2026-05-31T16:48:11.413117+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.7,
+  "scan_seconds": 13.72,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3944,29 +3944,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "AMKR",
-      "name": "Amkor Technology, Inc.",
-      "mcap": 16.39,
-      "price": 69.56,
-      "basis": 70.65,
-      "bxt_today": -2.44,
-      "bxt_yest": 1.64,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 79.23,
-      "atl": 1.13,
-      "pct_to_ath": 13.9,
-      "pct_to_atl": 6055.8,
-      "wk52_high": 79.23,
-      "wk52_low": 17.79,
-      "ath_30d": 7,
-      "atl_30d": 0
-    },
-    {
       "sym": "NWS",
       "name": "News Corporation",
       "mcap": 16.39,
@@ -3987,6 +3964,29 @@
       "wk52_high": 35.58,
       "wk52_low": 25.49,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "AMKR",
+      "name": "Amkor Technology, Inc.",
+      "mcap": 16.39,
+      "price": 69.56,
+      "basis": 70.65,
+      "bxt_today": -2.44,
+      "bxt_yest": 1.64,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 79.23,
+      "atl": 1.13,
+      "pct_to_ath": 13.9,
+      "pct_to_atl": 6055.8,
+      "wk52_high": 79.23,
+      "wk52_low": 17.79,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -5624,7 +5624,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-31T14:23:05.842477+00:00",
+    "compared_to": "2026-05-31T15:46:13.349460+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
