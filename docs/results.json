@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-31T21:16:07.306032+00:00",
+  "updated_at": "2026-05-31T22:17:09.547994+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.11,
+  "scan_seconds": 12.38,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4795,29 +4795,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SLAB",
-      "name": "Silicon Laboratories, Inc.",
-      "mcap": 7.0,
-      "price": 217.6,
-      "basis": 216.05,
-      "bxt_today": -15.11,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 219.2,
-      "atl": 10.12,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 2049.1,
-      "wk52_high": 219.2,
-      "wk52_low": 115.51,
-      "ath_30d": 10,
-      "atl_30d": 0
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7.0,
@@ -4838,6 +4815,29 @@
       "wk52_high": 39.99,
       "wk52_low": 33.72,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SLAB",
+      "name": "Silicon Laboratories, Inc.",
+      "mcap": 7.0,
+      "price": 217.6,
+      "basis": 216.05,
+      "bxt_today": -15.11,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 219.2,
+      "atl": 10.12,
+      "pct_to_ath": 0.7,
+      "pct_to_atl": 2049.1,
+      "wk52_high": 219.2,
+      "wk52_low": 115.51,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -5624,7 +5624,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-31T20:12:00.054993+00:00",
+    "compared_to": "2026-05-31T21:16:07.306032+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
