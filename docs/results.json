@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T01:57:13.735482+00:00",
+  "updated_at": "2026-06-01T07:04:25.052949+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.32,
+  "scan_seconds": 26.18,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1914,7 +1914,7 @@
       "pct_to_atl": 797.8,
       "wk52_high": 249.81,
       "wk52_low": 98.01,
-      "ath_30d": 0,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -5624,7 +5624,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-31T23:34:24.951036+00:00",
+    "compared_to": "2026-06-01T01:57:13.735482+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
