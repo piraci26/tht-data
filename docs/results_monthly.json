@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T06:23:56.696340+00:00",
+  "updated_at": "2026-06-02T11:03:10.686513+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.84,
+  "scan_seconds": 9.4,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3715,56 +3715,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-02T01:43:16.278962+00:00",
+    "compared_to": "2026-06-02T06:23:56.696340+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "HPQ",
-        "name": "HP Inc.",
-        "mcap": 20.13,
-        "price": 29.34,
-        "basis": 26.66,
-        "bxt_today": -7.11,
-        "ath": 41.47,
-        "pct_to_ath": 41.3,
-        "wk52_high": 29.55,
-        "wk52_low": 17.56,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "NNN",
-        "name": "NNN REIT, Inc.",
-        "mcap": 8.32,
-        "price": 43.22,
-        "basis": 43.83,
-        "bxt_today": 5.64,
-        "ath": 59.26,
-        "pct_to_ath": 37.1,
-        "wk52_high": 46.03,
-        "wk52_low": 38.9,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "ECL",
-        "name": "Ecolab Inc.",
-        "mcap": 70.41,
-        "price": 250.47,
-        "basis": 205.74,
-        "bxt_today": -9.79,
-        "ath": 309.27,
-        "pct_to_ath": 23.5,
-        "wk52_high": 309.27,
-        "wk52_low": 243.15,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

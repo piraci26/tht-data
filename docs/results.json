@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T06:23:29.798024+00:00",
+  "updated_at": "2026-06-02T11:02:44.374391+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.93,
+  "scan_seconds": 12.35,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -7486,29 +7486,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CRUS",
-      "name": "Cirrus Logic, Inc.",
-      "mcap": 8.0,
-      "price": 167.73,
-      "basis": 167.62,
-      "bxt_today": -4.56,
-      "bxt_yest": 10.18,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 180.42,
-      "atl": 1.47,
-      "pct_to_ath": 7.6,
-      "pct_to_atl": 11310.2,
-      "wk52_high": 180.42,
-      "wk52_low": 92.02,
-      "ath_30d": 7,
-      "atl_30d": 0
-    },
-    {
       "sym": "COLB",
       "name": "Columbia Banking System, Inc.",
       "mcap": 8.0,
@@ -7529,6 +7506,29 @@
       "wk52_high": 32.7,
       "wk52_low": 21.91,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CRUS",
+      "name": "Cirrus Logic, Inc.",
+      "mcap": 8.0,
+      "price": 167.73,
+      "basis": 167.62,
+      "bxt_today": -4.56,
+      "bxt_yest": 10.18,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 180.42,
+      "atl": 1.47,
+      "pct_to_ath": 7.6,
+      "pct_to_atl": 11310.2,
+      "wk52_high": 180.42,
+      "wk52_low": 92.02,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -8660,42 +8660,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-02T01:42:51.239591+00:00",
+    "compared_to": "2026-06-02T06:23:29.798024+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "FDX",
-        "name": "FedEx Corporation",
-        "mcap": 92.87,
-        "price": 338.49,
-        "basis": 383.42,
-        "bxt_today": -19.92,
-        "ath": 413.87,
-        "pct_to_ath": 22.3,
-        "wk52_high": 413.87,
-        "wk52_low": 214.82,
-        "ath_30d": 5
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "FDX",
-        "name": "FedEx Corporation",
-        "mcap": 92.87,
-        "price": 338.49,
-        "basis": 383.42,
-        "bxt_today": -19.92,
-        "ath": 413.87,
-        "pct_to_ath": 22.3,
-        "wk52_high": 413.87,
-        "wk52_low": 214.82,
-        "ath_30d": 5
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
