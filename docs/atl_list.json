@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-06-02T15:05:25.620872+00:00",
+  "updated_at": "2026-06-02T18:54:07.599587+00:00",
   "count": 1,
   "list": [
     {
       "sym": "MDLN",
       "name": "Medline Inc.",
       "mcap": 31.66,
-      "price": 34.15,
+      "price": 33.49,
       "ath": 50.88,
-      "atl": 33.99,
-      "pct_to_ath": 49.0,
-      "pct_to_atl": 0.5,
+      "atl": 33.06,
+      "pct_to_ath": 51.9,
+      "pct_to_atl": 1.3,
       "wk52_high": 50.88,
-      "wk52_low": 33.99,
+      "wk52_low": 33.06,
       "ath_30d": 0,
       "atl_30d": 2,
       "last_high": 35.25,
-      "last_low": 33.99,
+      "last_low": 33.06,
       "made_ath_today": false,
       "made_atl_today": true
     }
