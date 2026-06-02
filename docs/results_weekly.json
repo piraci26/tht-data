@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-01T23:21:44.847339+00:00",
+  "updated_at": "2026-06-02T01:43:04.399039+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.74,
+  "scan_seconds": 9.45,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3323,29 +3323,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ECG",
-      "name": "Everus Construction Group, Inc.",
-      "mcap": 8.0,
-      "price": 145.13,
-      "basis": 110.44,
-      "bxt_today": -7.58,
-      "bxt_yest": 7.28,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 171.58,
-      "atl": 31.38,
-      "pct_to_ath": 18.2,
-      "pct_to_atl": 362.5,
-      "wk52_high": 171.58,
-      "wk52_low": 56.1,
-      "ath_30d": 8,
-      "atl_30d": 0
-    },
-    {
       "sym": "VIRT",
       "name": "Virtu Financial, Inc.",
       "mcap": 8.0,
@@ -3366,6 +3343,29 @@
       "wk52_high": 56.48,
       "wk52_low": 31.55,
       "ath_30d": 4,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ECG",
+      "name": "Everus Construction Group, Inc.",
+      "mcap": 8.0,
+      "price": 145.13,
+      "basis": 110.44,
+      "bxt_today": -7.58,
+      "bxt_yest": 7.28,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 171.58,
+      "atl": 31.38,
+      "pct_to_ath": 18.2,
+      "pct_to_atl": 362.5,
+      "wk52_high": 171.58,
+      "wk52_low": 56.1,
+      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -4014,7 +4014,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-01T21:52:20.668630+00:00",
+    "compared_to": "2026-06-01T23:21:44.847339+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
