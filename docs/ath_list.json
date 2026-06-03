@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T23:22:19.526429+00:00",
-  "count": 77,
+  "updated_at": "2026-06-03T02:05:05.989435+00:00",
+  "count": 74,
   "list": [
     {
       "sym": "AAPL",
@@ -294,17 +294,17 @@
       "sym": "BK",
       "name": "The Bank of New York Mellon Corporation",
       "mcap": 94.14,
-      "price": 142.59,
+      "price": 141.28,
       "ath": 141.65,
       "atl": 1.66,
-      "pct_to_ath": -0.7,
-      "pct_to_atl": 8508.9,
-      "wk52_high": 143.25,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 8429.9,
+      "wk52_high": 143.95,
       "wk52_low": 87.41,
-      "ath_30d": 5,
+      "ath_30d": 6,
       "atl_30d": 0,
-      "last_high": 143.25,
-      "last_low": 137.5,
+      "last_high": 143.95,
+      "last_low": 140.23,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -323,24 +323,6 @@
       "atl_30d": 0,
       "last_high": 72.09,
       "last_low": 67.72,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "NET",
-      "name": "Cloudflare, Inc.",
-      "mcap": 74.86,
-      "price": 272.66,
-      "ath": 274.63,
-      "atl": 14.5,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 1780.4,
-      "wk52_high": 274.63,
-      "wk52_low": 158.83,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "last_high": 274.63,
-      "last_low": 262.77,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -561,24 +543,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "CRDO",
-      "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-      "mcap": 35.69,
-      "price": 229.0,
-      "ath": 245.95,
-      "atl": 7.2,
-      "pct_to_ath": 7.4,
-      "pct_to_atl": 3082.8,
-      "wk52_high": 245.95,
-      "wk52_low": 59.88,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 245.95,
-      "last_low": 210.72,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "STLD",
       "name": "Steel Dynamics, Inc.",
       "mcap": 33.41,
@@ -755,24 +719,6 @@
       "atl_30d": 0,
       "last_high": 286.25,
       "last_low": 272.75,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "DOCN",
-      "name": "DigitalOcean Holdings, Inc.",
-      "mcap": 16.81,
-      "price": 173.07,
-      "ath": 176.95,
-      "atl": 19.39,
-      "pct_to_ath": 2.2,
-      "pct_to_atl": 792.6,
-      "wk52_high": 176.95,
-      "wk52_low": 25.56,
-      "ath_30d": 7,
-      "atl_30d": 0,
-      "last_high": 176.95,
-      "last_low": 166.5,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1227,24 +1173,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "SNDR",
-      "name": "Schneider National, Inc.",
-      "mcap": 5.83,
-      "price": 36.39,
-      "ath": 36.56,
-      "atl": 15.36,
-      "pct_to_ath": 0.5,
-      "pct_to_atl": 136.9,
-      "wk52_high": 36.56,
-      "wk52_low": 20.11,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 36.56,
-      "last_low": 35.69,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "MRCY",
       "name": "Mercury Systems Inc",
       "mcap": 5.78,
@@ -1387,28 +1315,27 @@
       "last_low": 224.15,
       "made_ath_today": true,
       "made_atl_today": false
+    },
+    {
+      "sym": "VSCO",
+      "name": "Victorias Secret & Co.",
+      "mcap": 3.99,
+      "price": 80.06,
+      "ath": 76.0,
+      "atl": 13.62,
+      "pct_to_ath": -5.1,
+      "pct_to_atl": 487.8,
+      "wk52_high": 81.28,
+      "wk52_low": 17.53,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 81.28,
+      "last_low": 74.26,
+      "made_ath_today": true,
+      "made_atl_today": false
     }
   ],
   "accumulator": [
-    {
-      "sym": "CTRE",
-      "name": "CareTrust REIT, Inc.",
-      "mcap": 9,
-      "price": 42.1,
-      "ath": 42.15,
-      "atl": 7.16,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 488.0,
-      "wk52_high": 42.15,
-      "wk52_low": 27.72,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 42.15,
-      "last_low": 41.38,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-05-13T19:24:44.361872+00:00"
-    },
     {
       "sym": "CW",
       "name": "Curtiss-Wright Corporation",
@@ -5189,7 +5116,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-02T21:41:58.738592+00:00"
+    },
+    {
+      "sym": "VSCO",
+      "name": "Victorias Secret & Co.",
+      "mcap": 3.99,
+      "price": 80.06,
+      "ath": 76.0,
+      "atl": 13.62,
+      "pct_to_ath": -5.1,
+      "pct_to_atl": 487.8,
+      "wk52_high": 81.28,
+      "wk52_low": 17.53,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 81.28,
+      "last_low": 74.26,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-03T02:05:05.989435+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "VSCO"
+  ]
 }

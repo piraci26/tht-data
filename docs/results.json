@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T23:21:39.478147+00:00",
+  "updated_at": "2026-06-03T02:04:22.292065+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.65,
+  "scan_seconds": 12.43,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1367,8 +1367,8 @@
       "mcap": 2.89,
       "price": 30.66,
       "basis": 29.31,
-      "bxt_today": 23.06,
-      "bxt_yest": 5.04,
+      "bxt_today": 23.08,
+      "bxt_yest": 5.15,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -2031,29 +2031,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "VIRT",
-      "name": "Virtu Financial, Inc.",
-      "mcap": 8.0,
-      "price": 49.51,
-      "basis": 50.84,
-      "bxt_today": -30.92,
-      "bxt_yest": -27.32,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 56.48,
-      "atl": 12.35,
-      "pct_to_ath": 14.1,
-      "pct_to_atl": 300.9,
-      "wk52_high": 56.48,
-      "wk52_low": 31.55,
-      "ath_30d": 4,
-      "atl_30d": 0
-    },
-    {
       "sym": "HALO",
       "name": "Halozyme Therapeutics, Inc.",
       "mcap": 8.0,
@@ -2074,6 +2051,29 @@
       "wk52_high": 82.22,
       "wk52_low": 51.06,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "VIRT",
+      "name": "Virtu Financial, Inc.",
+      "mcap": 8.0,
+      "price": 49.51,
+      "basis": 50.84,
+      "bxt_today": -30.92,
+      "bxt_yest": -27.32,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 56.48,
+      "atl": 12.35,
+      "pct_to_ath": 14.1,
+      "pct_to_atl": 300.9,
+      "wk52_high": 56.48,
+      "wk52_low": 31.55,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -3104,13 +3104,13 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 11,
-      "ath": 176.95,
+      "ath": 177.0,
       "atl": 19.39,
-      "pct_to_ath": 2.2,
+      "pct_to_ath": 2.3,
       "pct_to_atl": 792.6,
       "wk52_high": 176.95,
       "wk52_low": 25.56,
-      "ath_30d": 7,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -5969,7 +5969,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-02T21:41:15.533728+00:00",
+    "compared_to": "2026-06-02T23:21:39.478147+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
