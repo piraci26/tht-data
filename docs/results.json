@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-03T22:38:47.119084+00:00",
+  "updated_at": "2026-06-04T00:20:28.321393+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.84,
+  "scan_seconds": 15.88,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4565,6 +4565,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 140.57,
+      "basis": 135.89,
+      "bxt_today": -4.54,
+      "bxt_yest": 11.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 8387.0,
+      "wk52_high": 143.95,
+      "wk52_low": 87.41,
+      "ath_30d": 5,
+      "atl_30d": 0
+    },
+    {
       "sym": "CMCSA",
       "name": "Comcast Corporation",
       "mcap": 89.47,
@@ -7671,14 +7694,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-03T20:29:20.616107+00:00",
+    "compared_to": "2026-06-03T22:38:47.119084+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
+    "bxt_red_added": [
+      {
+        "sym": "BK",
+        "name": "The Bank of New York Mellon Corporation",
+        "mcap": 94.14,
+        "price": 140.57,
+        "basis": 135.89,
+        "bxt_today": -4.54,
+        "ath": 141.65,
+        "pct_to_ath": 0.8,
+        "wk52_high": 143.95,
+        "wk52_low": 87.41,
+        "ath_30d": 5
+      }
+    ],
     "bxt_red_removed": []
   }
 }

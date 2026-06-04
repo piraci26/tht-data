@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-03T22:39:27.232695+00:00",
-  "count": 68,
+  "updated_at": "2026-06-04T00:21:23.446840+00:00",
+  "count": 66,
   "list": [
     {
       "sym": "AAPL",
@@ -305,24 +305,6 @@
       "atl_30d": 0,
       "last_high": 324.15,
       "last_low": 294.01,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "BK",
-      "name": "The Bank of New York Mellon Corporation",
-      "mcap": 94.14,
-      "price": 141.28,
-      "ath": 141.65,
-      "atl": 1.66,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 8429.9,
-      "wk52_high": 143.95,
-      "wk52_low": 87.41,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 143.95,
-      "last_low": 140.23,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1205,24 +1187,6 @@
       "atl_30d": 0,
       "last_high": 121.96,
       "last_low": 112.54,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "VSCO",
-      "name": "Victorias Secret & Co.",
-      "mcap": 3.99,
-      "price": 80.06,
-      "ath": 76.0,
-      "atl": 13.62,
-      "pct_to_ath": -5.1,
-      "pct_to_atl": 487.8,
-      "wk52_high": 81.28,
-      "wk52_low": 17.53,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 81.28,
-      "last_low": 74.26,
       "made_ath_today": true,
       "made_atl_today": false
     }
