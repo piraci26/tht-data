@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04T20:20:05.867259+00:00",
+  "updated_at": "2026-06-04T21:57:51.955179+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.69,
+  "scan_seconds": 11.37,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1186,7 +1186,7 @@
       "name": "Hamilton Lane Incorporated",
       "mcap": 3.88,
       "price": 82.67,
-      "basis": 113.95,
+      "basis": 113.96,
       "bxt_today": 3.49,
       "bxt_yest": -1.85,
       "fvb_g": false,
@@ -1786,7 +1786,7 @@
       "name": "Woodward, Inc.",
       "mcap": 21.18,
       "price": 360.36,
-      "basis": 225.52,
+      "basis": 225.53,
       "bxt_today": -3.59,
       "bxt_yest": 3.97,
       "fvb_g": false,
@@ -1878,7 +1878,7 @@
       "name": "Joint Stock Company Kaspi.kz American Depository Shares",
       "mcap": 17.31,
       "price": 83.41,
-      "basis": 78.45,
+      "basis": 78.44,
       "bxt_today": -0.29,
       "bxt_yest": 19.42,
       "fvb_g": false,
@@ -2427,308 +2427,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-04T18:05:27.724501+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "AMRZ",
-        "name": "Amrize Ltd Ordinary Shares",
-        "mcap": 27.94,
-        "price": 54.36,
-        "basis": 53.42,
-        "bxt_today": 43.59,
-        "ath": 65.94,
-        "pct_to_ath": 21.3,
-        "wk52_high": 65.94,
-        "wk52_low": 44.12,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EQR",
-        "name": "Equity Residential Common Shares of Beneficial Interest",
-        "mcap": 24.64,
-        "price": 67.9,
-        "basis": 65.94,
-        "bxt_today": 26.77,
-        "ath": 94.32,
-        "pct_to_ath": 38.9,
-        "wk52_high": 70.21,
-        "wk52_low": 57.57,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "MWH",
-        "name": "SOLV Energy, Inc.",
-        "mcap": 9.0,
-        "price": 35.62,
-        "basis": 35.37,
-        "bxt_today": 23.73,
-        "ath": 48.4,
-        "pct_to_ath": 35.9,
-        "wk52_high": 48.4,
-        "wk52_low": 26.42,
-        "ath_30d": 7
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "ASR",
-        "name": "Grupo Aeroportuario del Sureste, S.A. de C.V.",
-        "mcap": 9.23,
-        "price": 292.8,
-        "basis": 300.54,
-        "bxt_today": -29.08,
-        "ath": 381.52,
-        "pct_to_ath": 30.3,
-        "wk52_high": 381.52,
-        "wk52_low": 291.73,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "mcap": 5.61,
-        "price": 27.5,
-        "basis": 28.5,
-        "bxt_today": -31.74,
-        "ath": 45.92,
-        "pct_to_ath": 67.0,
-        "wk52_high": 45.92,
-        "wk52_low": 16.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALH",
-        "name": "Alliance Laundry Holdings Inc.",
-        "mcap": 4.79,
-        "price": 24.63,
-        "basis": 24.99,
-        "bxt_today": -11.68,
-        "ath": 27.48,
-        "pct_to_ath": 11.6,
-        "wk52_high": 27.48,
-        "wk52_low": 18.64,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "PAYP",
-        "name": "PayPay Corporation American Depository Shares",
-        "mcap": 13.21,
-        "price": 15.74,
-        "basis": 17.81,
-        "bxt_today": 3.69,
-        "ath": 24.89,
-        "pct_to_ath": 58.1,
-        "wk52_high": 24.89,
-        "wk52_low": 15.69,
-        "ath_30d": 0
-      },
-      {
-        "sym": "APGE",
-        "name": "Apogee Therapeutics, Inc.",
-        "mcap": 6.2,
-        "price": 90.9,
-        "basis": 74.85,
-        "bxt_today": 2.03,
-        "ath": 95.32,
-        "pct_to_ath": 4.9,
-        "wk52_high": 95.32,
-        "wk52_low": 34.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.33,
-        "price": 40.06,
-        "basis": 36.2,
-        "bxt_today": 2.32,
-        "ath": 40.22,
-        "pct_to_ath": 0.4,
-        "wk52_high": 40.22,
-        "wk52_low": 18.12,
-        "ath_30d": 6
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "P",
-        "name": "Everpure, Inc. common stock",
-        "mcap": 26.14,
-        "price": 78.82,
-        "basis": 60.63,
-        "bxt_today": 0.07,
-        "ath": 100.59,
-        "pct_to_ath": 27.6,
-        "wk52_high": 100.59,
-        "wk52_low": 50.2,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PACS",
-        "name": "PACS Group, Inc.",
-        "mcap": 5.91,
-        "price": 37.66,
-        "basis": 33.05,
-        "bxt_today": 1.15,
-        "ath": 43.92,
-        "pct_to_ath": 16.6,
-        "wk52_high": 43.08,
-        "wk52_low": 7.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "XNDU",
-        "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
-        "mcap": 4.38,
-        "price": 14.53,
-        "basis": 15.82,
-        "bxt_today": 7.21,
-        "ath": 42.44,
-        "pct_to_ath": 192.1,
-        "wk52_high": 42.44,
-        "wk52_low": 6.97,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CCEP",
-        "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
-        "mcap": 41.8,
-        "price": 92.02,
-        "basis": 63.18,
-        "bxt_today": -0.9,
-        "ath": 110.9,
-        "pct_to_ath": 20.5,
-        "wk52_high": 110.9,
-        "wk52_low": 84.66,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AS",
-        "name": "Amer Sports, Inc. Ordinary Shares",
-        "mcap": 20.59,
-        "price": 34.49,
-        "basis": 35.58,
-        "bxt_today": -0.88,
-        "ath": 42.76,
-        "pct_to_ath": 24.0,
-        "wk52_high": 42.76,
-        "wk52_low": 28.92,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WMG",
-        "name": "Warner Music Group Corp.",
-        "mcap": 18.03,
-        "price": 30.0,
-        "basis": 29.46,
-        "bxt_today": -0.0,
-        "ath": 50.23,
-        "pct_to_ath": 67.4,
-        "wk52_high": 35.42,
-        "wk52_low": 23.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KSPI",
-        "name": "Joint Stock Company Kaspi.kz American Depository Shares",
-        "mcap": 17.31,
-        "price": 83.41,
-        "basis": 78.45,
-        "bxt_today": -0.29,
-        "ath": 143.72,
-        "pct_to_ath": 72.3,
-        "wk52_high": 99.2,
-        "wk52_low": 68.59,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FIVE",
-        "name": "Five Below, Inc.",
-        "mcap": 12.05,
-        "price": 192.17,
-        "basis": 148.59,
-        "bxt_today": -0.8,
-        "ath": 251.63,
-        "pct_to_ath": 30.9,
-        "wk52_high": 251.63,
-        "wk52_low": 119.06,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MRX",
-        "name": "Marex Group plc Ordinary Shares",
-        "mcap": 3.91,
-        "price": 54.48,
-        "basis": 42.41,
-        "bxt_today": -4.2,
-        "ath": 58.62,
-        "pct_to_ath": 7.6,
-        "wk52_high": 58.62,
-        "wk52_low": 27.91,
-        "ath_30d": 6
-      },
-      {
-        "sym": "YSS",
-        "name": "York Space Systems Inc.",
-        "mcap": 3.67,
-        "price": 29.67,
-        "basis": 32.15,
-        "bxt_today": -1.87,
-        "ath": 44.54,
-        "pct_to_ath": 50.1,
-        "wk52_high": 44.54,
-        "wk52_low": 16.93,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PPL",
-        "name": "PPL Corporation",
-        "mcap": 27.11,
-        "price": 35.0,
-        "basis": 30.47,
-        "bxt_today": -0.59,
-        "ath": 51.44,
-        "pct_to_ath": 47.0,
-        "wk52_high": 40.11,
-        "wk52_low": 33.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PTGX",
-        "name": "Protagonist Therapeutics, Inc.",
-        "mcap": 6.58,
-        "price": 102.04,
-        "basis": 54.73,
-        "bxt_today": -0.2,
-        "ath": 107.84,
-        "pct_to_ath": 5.7,
-        "wk52_high": 107.84,
-        "wk52_low": 49.38,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SKT",
-        "name": "Tanger Inc.",
-        "mcap": 4.12,
-        "price": 36.07,
-        "basis": 31.78,
-        "bxt_today": -1.39,
-        "ath": 42.2,
-        "pct_to_ath": 17.0,
-        "wk52_high": 37.95,
-        "wk52_low": 28.69,
-        "ath_30d": 0
-      }
-    ]
+    "compared_to": "2026-06-04T20:20:05.867259+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
