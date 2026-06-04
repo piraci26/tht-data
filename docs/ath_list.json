@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T05:16:07.259535+00:00",
-  "count": 62,
+  "updated_at": "2026-06-04T09:06:21.178670+00:00",
+  "count": 64,
   "list": [
     {
       "sym": "AAPL",
@@ -1097,6 +1097,42 @@
       "atl_30d": 0,
       "last_high": 36.89,
       "last_low": 36.05,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "NVTS",
+      "name": "Navitas Semiconductor Corporation",
+      "mcap": 5.73,
+      "price": 30.84,
+      "ath": 34.17,
+      "atl": 1.52,
+      "pct_to_ath": 10.8,
+      "pct_to_atl": 1928.9,
+      "wk52_high": 34.17,
+      "wk52_low": 5.44,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 34.17,
+      "last_low": 29.7,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VSH",
+      "name": "Vishay Intertechnology, Inc.",
+      "mcap": 5.72,
+      "price": 63.97,
+      "ath": 66.07,
+      "atl": 0.99,
+      "pct_to_ath": 3.3,
+      "pct_to_atl": 6357.6,
+      "wk52_high": 66.07,
+      "wk52_low": 11.77,
+      "ath_30d": 15,
+      "atl_30d": 0,
+      "last_high": 66.07,
+      "last_low": 60.99,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3382,25 +3418,6 @@
       "first_seen_at": "2026-06-01T18:32:13.132276+00:00"
     },
     {
-      "sym": "VSH",
-      "name": "Vishay Intertechnology, Inc.",
-      "mcap": 5.72,
-      "price": 56.51,
-      "ath": 57.54,
-      "atl": 0.99,
-      "pct_to_ath": 1.8,
-      "pct_to_atl": 5604.5,
-      "wk52_high": 57.54,
-      "wk52_low": 11.77,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 57.54,
-      "last_low": 50.3,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-01T18:32:13.132276+00:00"
-    },
-    {
       "sym": "WDC",
       "name": "Western Digital Corporation",
       "mcap": 166.75,
@@ -4693,25 +4710,6 @@
       "first_seen_at": "2026-06-03T17:14:57.943820+00:00"
     },
     {
-      "sym": "NVTS",
-      "name": "Navitas Semiconductor Corporation",
-      "mcap": 5.73,
-      "price": 31.64,
-      "ath": 34.16,
-      "atl": 1.52,
-      "pct_to_ath": 8.0,
-      "pct_to_atl": 1981.6,
-      "wk52_high": 34.16,
-      "wk52_low": 5.44,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 34.16,
-      "last_low": 29.7,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-03T17:14:57.943820+00:00"
-    },
-    {
       "sym": "ODFL",
       "name": "Old Dominion Freight Line, Inc.",
       "mcap": 43.18,
@@ -4919,7 +4917,48 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-03T20:30:33.805487+00:00"
+    },
+    {
+      "sym": "NVTS",
+      "name": "Navitas Semiconductor Corporation",
+      "mcap": 5.73,
+      "price": 30.84,
+      "ath": 34.17,
+      "atl": 1.52,
+      "pct_to_ath": 10.8,
+      "pct_to_atl": 1928.9,
+      "wk52_high": 34.17,
+      "wk52_low": 5.44,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 34.17,
+      "last_low": 29.7,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-04T09:06:21.178670+00:00"
+    },
+    {
+      "sym": "VSH",
+      "name": "Vishay Intertechnology, Inc.",
+      "mcap": 5.72,
+      "price": 63.97,
+      "ath": 66.07,
+      "atl": 0.99,
+      "pct_to_ath": 3.3,
+      "pct_to_atl": 6357.6,
+      "wk52_high": 66.07,
+      "wk52_low": 11.77,
+      "ath_30d": 15,
+      "atl_30d": 0,
+      "last_high": 66.07,
+      "last_low": 60.99,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-04T09:06:21.178670+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "NVTS",
+    "VSH"
+  ]
 }

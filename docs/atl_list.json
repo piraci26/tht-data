@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T05:16:07.264684+00:00",
-  "count": 5,
+  "updated_at": "2026-06-04T09:06:21.184071+00:00",
+  "count": 6,
   "list": [
     {
       "sym": "MDLN",
@@ -71,6 +71,24 @@
       "atl_30d": 13,
       "last_high": 32.67,
       "last_low": 30.11,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.42,
+      "price": 2.85,
+      "ath": 21.3,
+      "atl": 2.82,
+      "pct_to_ath": 647.4,
+      "pct_to_atl": 1.1,
+      "wk52_high": 6.25,
+      "wk52_low": 2.82,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 2.98,
+      "last_low": 2.82,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -521,25 +539,6 @@
       "first_seen_at": "2026-06-01T18:32:13.137366+00:00"
     },
     {
-      "sym": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "mcap": 3.42,
-      "price": 2.87,
-      "ath": 21.3,
-      "atl": 2.84,
-      "pct_to_ath": 643.5,
-      "pct_to_atl": 1.1,
-      "wk52_high": 6.25,
-      "wk52_low": 2.84,
-      "ath_30d": 0,
-      "atl_30d": 8,
-      "last_high": 2.98,
-      "last_low": 2.84,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-03T17:14:57.949332+00:00"
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 5.01,
@@ -614,7 +613,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-03T20:30:33.810922+00:00"
+    },
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.42,
+      "price": 2.85,
+      "ath": 21.3,
+      "atl": 2.82,
+      "pct_to_ath": 647.4,
+      "pct_to_atl": 1.1,
+      "wk52_high": 6.25,
+      "wk52_low": 2.82,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 2.98,
+      "last_low": 2.82,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-04T09:06:21.184071+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "CSAN"
+  ]
 }
