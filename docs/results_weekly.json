@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04T23:12:43.062617+00:00",
+  "updated_at": "2026-06-05T01:31:40.287998+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.02,
+  "scan_seconds": 11.74,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2014,9 +2014,9 @@
       "name": "Adeia Inc.",
       "mcap": 2.89,
       "price": 32.36,
-      "basis": 21.13,
-      "bxt_today": 0.51,
-      "bxt_yest": -5.74,
+      "basis": 21.14,
+      "bxt_today": 0.95,
+      "bxt_yest": -4.54,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -2933,7 +2933,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-04T21:57:38.661698+00:00",
+    "compared_to": "2026-06-04T23:12:43.062617+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

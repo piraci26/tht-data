@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-04T23:13:10.582649+00:00",
-  "count": 45,
+  "updated_at": "2026-06-05T01:32:08.793144+00:00",
+  "count": 46,
   "list": [
     {
       "sym": "ASML",
@@ -197,6 +197,24 @@
       "atl_30d": 0,
       "last_high": 150.07,
       "last_low": 144.32,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 144.02,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": -1.6,
+      "pct_to_atl": 8595.3,
+      "wk52_high": 144.98,
+      "wk52_low": 87.41,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 144.98,
+      "last_low": 140.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -2810,25 +2828,6 @@
       "first_seen_at": "2026-06-01T18:32:13.132276+00:00"
     },
     {
-      "sym": "BK",
-      "name": "The Bank of New York Mellon Corporation",
-      "mcap": 94.14,
-      "price": 142.59,
-      "ath": 141.65,
-      "atl": 1.66,
-      "pct_to_ath": -0.7,
-      "pct_to_atl": 8508.9,
-      "wk52_high": 143.25,
-      "wk52_low": 87.41,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 143.25,
-      "last_low": 137.5,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-02T01:43:33.640520+00:00"
-    },
-    {
       "sym": "FDX",
       "name": "FedEx Corporation",
       "mcap": 92.87,
@@ -4613,7 +4612,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-04T20:20:24.998117+00:00"
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 144.02,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": -1.6,
+      "pct_to_atl": 8595.3,
+      "wk52_high": 144.98,
+      "wk52_low": 87.41,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 144.98,
+      "last_low": 140.31,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-05T01:32:08.793144+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "BK"
+  ]
 }
