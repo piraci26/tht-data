@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T21:48:08.863183+00:00",
+  "updated_at": "2026-06-05T22:51:52.068284+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.73,
+  "scan_seconds": 18.25,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -11765,70 +11765,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-05T20:14:57.269961+00:00",
+    "compared_to": "2026-06-05T21:48:08.863183+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "BR",
-        "name": "Broadridge Financial Solutions, Inc.",
-        "mcap": 17.35,
-        "price": 151.34,
-        "basis": 152.51,
-        "bxt_today": 12.19,
-        "ath": 271.91,
-        "pct_to_ath": 79.7,
-        "wk52_high": 271.91,
-        "wk52_low": 139.79,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.11,
-        "basis": 64.35,
-        "bxt_today": 20.05,
-        "ath": 73.0,
-        "pct_to_ath": 13.9,
-        "wk52_high": 65.85,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "KIM",
-        "name": "Kimco Realty Corporation (HC)",
-        "mcap": 16.18,
-        "price": 24.24,
-        "basis": 23.73,
-        "bxt_today": 0.05,
-        "ath": 53.6,
-        "pct_to_ath": 121.1,
-        "wk52_high": 24.62,
-        "wk52_low": 19.76,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "ANET",
-        "name": "Arista Networks, Inc.",
-        "mcap": 186.31,
-        "price": 154.21,
-        "basis": 158.24,
-        "bxt_today": -0.02,
-        "ath": 179.8,
-        "pct_to_ath": 16.6,
-        "wk52_high": 179.8,
-        "wk52_low": 85.58,
-        "ath_30d": 1
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

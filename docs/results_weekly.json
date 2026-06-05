@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T21:48:25.351279+00:00",
+  "updated_at": "2026-06-05T22:52:10.561200+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.95,
+  "scan_seconds": 12.52,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3761,67 +3761,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-05T20:15:14.224645+00:00",
+    "compared_to": "2026-06-05T21:48:25.351279+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "TOL",
-        "name": "Toll Brothers, Inc.",
-        "mcap": 12.58,
-        "price": 137.91,
-        "basis": 141.05,
-        "bxt_today": 0.25,
-        "ath": 169.52,
-        "pct_to_ath": 22.9,
-        "wk52_high": 168.36,
-        "wk52_low": 104.09,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "MRK",
-        "name": "Merck & Company, Inc. (new)",
-        "mcap": 286.25,
-        "price": 120.86,
-        "basis": 110.43,
-        "bxt_today": 0.1,
-        "ath": 134.63,
-        "pct_to_ath": 11.4,
-        "wk52_high": 125.14,
-        "wk52_low": 76.66,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BCE",
-        "name": "BCE, Inc.",
-        "mcap": 22.72,
-        "price": 24.42,
-        "basis": 24.31,
-        "bxt_today": 0.07,
-        "ath": 136.27,
-        "pct_to_ath": 458.0,
-        "wk52_high": 26.52,
-        "wk52_low": 21.58,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SSB",
-        "name": "SouthState Bank Corporation",
-        "mcap": 9.18,
-        "price": 95.36,
-        "basis": 95.34,
-        "bxt_today": 0.21,
-        "ath": 114.27,
-        "pct_to_ath": 19.8,
-        "wk52_high": 108.46,
-        "wk52_low": 84.48,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
