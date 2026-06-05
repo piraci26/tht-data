@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T20:15:49.274016+00:00",
+  "updated_at": "2026-06-05T21:48:56.966205+00:00",
   "count": 31,
   "list": [
     {
@@ -114,17 +114,17 @@
       "sym": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
       "mcap": 73.29,
-      "price": 343.09,
-      "ath": 346.85,
+      "price": 343.1,
+      "ath": 346.8,
       "atl": 33.16,
       "pct_to_ath": 1.1,
-      "pct_to_atl": 934.6,
-      "wk52_high": 346.85,
+      "pct_to_atl": 934.7,
+      "wk52_high": 346.8,
       "wk52_low": 241.45,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 346.85,
-      "last_low": 338.99,
+      "last_high": 346.8,
+      "last_low": 339.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -232,7 +232,7 @@
       "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 195.04,
-      "last_low": 190.14,
+      "last_low": 190.22,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -286,7 +286,7 @@
       "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 159.36,
-      "last_low": 155.01,
+      "last_low": 155.15,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -322,7 +322,7 @@
       "ath_30d": 12,
       "atl_30d": 0,
       "last_high": 79.96,
-      "last_low": 77.37,
+      "last_low": 77.67,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -349,16 +349,16 @@
       "name": "Argan, Inc.",
       "mcap": 8.95,
       "price": 694.72,
-      "ath": 779.0,
+      "ath": 778.13,
       "atl": 0.23,
-      "pct_to_ath": 12.1,
+      "pct_to_ath": 12.0,
       "pct_to_atl": 296313.9,
-      "wk52_high": 779.0,
+      "wk52_high": 778.13,
       "wk52_low": 193.82,
       "ath_30d": 5,
       "atl_30d": 0,
-      "last_high": 779.0,
-      "last_low": 660.26,
+      "last_high": 778.13,
+      "last_low": 660.32,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -376,7 +376,7 @@
       "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 338.07,
-      "last_low": 328.38,
+      "last_low": 328.55,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -403,15 +403,15 @@
       "name": "Voya Financial, Inc.",
       "mcap": 7.38,
       "price": 86.69,
-      "ath": 87.17,
+      "ath": 87.14,
       "atl": 22.75,
-      "pct_to_ath": 0.6,
+      "pct_to_ath": 0.5,
       "pct_to_atl": 281.1,
-      "wk52_high": 87.17,
+      "wk52_high": 87.14,
       "wk52_low": 64.5,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 87.17,
+      "last_high": 87.14,
       "last_low": 84.1,
       "made_ath_today": true,
       "made_atl_today": false
@@ -493,16 +493,16 @@
       "name": "CNO Financial Group, Inc.",
       "mcap": 4.42,
       "price": 47.91,
-      "ath": 48.13,
+      "ath": 48.12,
       "atl": 0.26,
-      "pct_to_ath": 0.5,
+      "pct_to_ath": 0.4,
       "pct_to_atl": 18326.9,
-      "wk52_high": 48.13,
+      "wk52_high": 48.12,
       "wk52_low": 35.24,
       "ath_30d": 9,
       "atl_30d": 0,
-      "last_high": 48.13,
-      "last_low": 47.33,
+      "last_high": 48.12,
+      "last_low": 47.35,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -520,7 +520,7 @@
       "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 40.23,
-      "last_low": 38.48,
+      "last_low": 38.38,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4363,7 +4363,5 @@
       "first_seen_at": "2026-06-05T20:15:49.274016+00:00"
     }
   ],
-  "added_this_run": [
-    "CNO"
-  ]
+  "added_this_run": []
 }
