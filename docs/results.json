@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T22:51:52.068284+00:00",
+  "updated_at": "2026-06-05T23:58:14.916163+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.25,
+  "scan_seconds": 17.07,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4468,29 +4468,6 @@
       "wk52_high": 134.49,
       "wk52_low": 113.66,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "BK",
-      "name": "The Bank of New York Mellon Corporation",
-      "mcap": 94.14,
-      "price": 144.02,
-      "basis": 136.09,
-      "bxt_today": 11.91,
-      "bxt_yest": -4.54,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 141.65,
-      "atl": 1.66,
-      "pct_to_ath": -1.6,
-      "pct_to_atl": 8595.3,
-      "wk52_high": 144.98,
-      "wk52_low": 87.41,
-      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -10430,29 +10407,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 7.0,
-      "price": 12.65,
-      "basis": 14.31,
-      "bxt_today": -3.95,
-      "bxt_yest": 26.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 20.34,
-      "atl": 0.16,
-      "pct_to_ath": 60.8,
-      "pct_to_atl": 7806.3,
-      "wk52_high": 20.34,
-      "wk52_low": 5.9,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SLAB",
       "name": "Silicon Laboratories, Inc.",
       "mcap": 7.0,
@@ -10473,6 +10427,29 @@
       "wk52_high": 219.68,
       "wk52_low": 115.51,
       "ath_30d": 8,
+      "atl_30d": 0
+    },
+    {
+      "sym": "UEC",
+      "name": "Uranium Energy Corp.",
+      "mcap": 7.0,
+      "price": 12.65,
+      "basis": 14.31,
+      "bxt_today": -3.95,
+      "bxt_yest": 26.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 20.34,
+      "atl": 0.16,
+      "pct_to_ath": 60.8,
+      "pct_to_atl": 7806.3,
+      "wk52_high": 20.34,
+      "wk52_low": 5.9,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -11765,13 +11742,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-05T21:48:08.863183+00:00",
+    "compared_to": "2026-06-05T22:51:52.068284+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "BK",
+        "name": "The Bank of New York Mellon Corporation",
+        "mcap": 94.14,
+        "price": 144.02,
+        "basis": 136.09,
+        "bxt_today": 11.91,
+        "ath": 141.65,
+        "pct_to_ath": -1.6,
+        "wk52_high": 144.98,
+        "wk52_low": 87.41,
+        "ath_30d": 6
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

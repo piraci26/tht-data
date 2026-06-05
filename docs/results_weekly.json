@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T22:52:10.561200+00:00",
+  "updated_at": "2026-06-05T23:58:32.870803+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.52,
+  "scan_seconds": 12.06,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3093,29 +3093,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CRUS",
-      "name": "Cirrus Logic, Inc.",
-      "mcap": 8.0,
-      "price": 164.4,
-      "basis": 140.74,
-      "bxt_today": -12.61,
-      "bxt_yest": 8.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 180.42,
-      "atl": 1.47,
-      "pct_to_ath": 9.7,
-      "pct_to_atl": 11083.7,
-      "wk52_high": 180.42,
-      "wk52_low": 92.02,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "ECG",
       "name": "Everus Construction Group, Inc.",
       "mcap": 8.0,
@@ -3136,6 +3113,29 @@
       "wk52_high": 171.58,
       "wk52_low": 58.0,
       "ath_30d": 7,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CRUS",
+      "name": "Cirrus Logic, Inc.",
+      "mcap": 8.0,
+      "price": 164.4,
+      "basis": 140.74,
+      "bxt_today": -12.61,
+      "bxt_yest": 8.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 180.42,
+      "atl": 1.47,
+      "pct_to_ath": 9.7,
+      "pct_to_atl": 11083.7,
+      "wk52_high": 180.42,
+      "wk52_low": 92.02,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -3761,7 +3761,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-05T21:48:25.351279+00:00",
+    "compared_to": "2026-06-05T22:52:10.561200+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
