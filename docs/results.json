@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-06T16:47:33.305270+00:00",
+  "updated_at": "2026-06-06T17:55:22.859060+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.24,
+  "scan_seconds": 14.57,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5207,29 +5207,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CINF",
-      "name": "Cincinnati Financial Corporation",
-      "mcap": 26.02,
-      "price": 165.29,
-      "basis": 163.59,
-      "bxt_today": 7.44,
-      "bxt_yest": -20.08,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": 7,
-      "ath": 174.27,
-      "atl": 3.34,
-      "pct_to_ath": 5.4,
-      "pct_to_atl": 4854.0,
-      "wk52_high": 174.27,
-      "wk52_low": 143.37,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "STZ",
       "name": "Constellation Brands, Inc.",
       "mcap": 26.02,
@@ -5249,6 +5226,29 @@
       "pct_to_atl": 10386.3,
       "wk52_high": 178.14,
       "wk52_low": 126.45,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CINF",
+      "name": "Cincinnati Financial Corporation",
+      "mcap": 26.02,
+      "price": 165.29,
+      "basis": 163.59,
+      "bxt_today": 7.44,
+      "bxt_yest": -20.08,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": 7,
+      "ath": 174.27,
+      "atl": 3.34,
+      "pct_to_ath": 5.4,
+      "pct_to_atl": 4854.0,
+      "wk52_high": 174.27,
+      "wk52_low": 143.37,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -11765,7 +11765,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-06T15:41:31.041549+00:00",
+    "compared_to": "2026-06-06T16:47:33.305270+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
