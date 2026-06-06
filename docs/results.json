@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-06T17:55:22.859060+00:00",
+  "updated_at": "2026-06-06T19:21:56.601654+00:00",
   "timeframe": "daily",
-  "scan_seconds": 14.57,
+  "scan_seconds": 14.14,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -10430,29 +10430,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 7.0,
-      "price": 12.65,
-      "basis": 14.31,
-      "bxt_today": -3.95,
-      "bxt_yest": 26.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 20.34,
-      "atl": 0.16,
-      "pct_to_ath": 60.8,
-      "pct_to_atl": 7806.3,
-      "wk52_high": 20.34,
-      "wk52_low": 5.9,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SLAB",
       "name": "Silicon Laboratories, Inc.",
       "mcap": 7.0,
@@ -10473,6 +10450,29 @@
       "wk52_high": 219.68,
       "wk52_low": 115.51,
       "ath_30d": 8,
+      "atl_30d": 0
+    },
+    {
+      "sym": "UEC",
+      "name": "Uranium Energy Corp.",
+      "mcap": 7.0,
+      "price": 12.65,
+      "basis": 14.31,
+      "bxt_today": -3.95,
+      "bxt_yest": 26.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 20.34,
+      "atl": 0.16,
+      "pct_to_ath": 60.8,
+      "pct_to_atl": 7806.3,
+      "wk52_high": 20.34,
+      "wk52_low": 5.9,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -11765,7 +11765,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-06T16:47:33.305270+00:00",
+    "compared_to": "2026-06-06T17:55:22.859060+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

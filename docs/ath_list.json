@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-06T17:56:09.402114+00:00",
-  "count": 28,
+  "updated_at": "2026-06-06T19:22:37.394220+00:00",
+  "count": 26,
   "list": [
     {
       "sym": "LLY",
@@ -467,42 +467,6 @@
       "atl_30d": 0,
       "last_high": 48.13,
       "last_low": 47.33,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "HNGE",
-      "name": "Hinge Health, Inc.",
-      "mcap": 4.23,
-      "price": 63.62,
-      "ath": 66.55,
-      "atl": 30.08,
-      "pct_to_ath": 4.6,
-      "pct_to_atl": 111.5,
-      "wk52_high": 66.55,
-      "wk52_low": 30.08,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "last_high": 66.55,
-      "last_low": 63.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CATY",
-      "name": "Cathay General Bancorp",
-      "mcap": 3.84,
-      "price": 58.22,
-      "ath": 58.68,
-      "atl": 2.5,
-      "pct_to_ath": 0.8,
-      "pct_to_atl": 2228.8,
-      "wk52_high": 58.68,
-      "wk52_low": 42.01,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 58.68,
-      "last_low": 58.07,
       "made_ath_today": true,
       "made_atl_today": false
     }
