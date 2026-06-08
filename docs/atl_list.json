@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-08T21:08:08.920201+00:00",
-  "count": 3,
+  "updated_at": "2026-06-08T22:48:36.869070+00:00",
+  "count": 4,
   "list": [
     {
       "sym": "JBS",
@@ -17,6 +17,24 @@
       "atl_30d": 3,
       "last_high": 12.08,
       "last_low": 11.49,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "LBTYB",
+      "name": "Liberty Global Ltd. Common Shares",
+      "mcap": 4.82,
+      "price": 14.0,
+      "ath": 58.31,
+      "atl": null,
+      "pct_to_ath": 316.5,
+      "pct_to_atl": null,
+      "wk52_high": 29.01,
+      "wk52_low": null,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": null,
+      "last_low": null,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -635,7 +653,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-08T16:21:47.561087+00:00"
+    },
+    {
+      "sym": "LBTYB",
+      "name": "Liberty Global Ltd. Common Shares",
+      "mcap": 4.82,
+      "price": 14.0,
+      "ath": 58.31,
+      "atl": null,
+      "pct_to_ath": 316.5,
+      "pct_to_atl": null,
+      "wk52_high": 29.01,
+      "wk52_low": null,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": null,
+      "last_low": null,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-08T22:48:36.869070+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "LBTYB"
+  ]
 }

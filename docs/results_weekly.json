@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-08T21:07:26.249681+00:00",
+  "updated_at": "2026-06-08T22:48:03.499031+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.72,
+  "scan_seconds": 9.94,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -818,7 +818,7 @@
       "name": "Applied Optoelectronics, Inc.",
       "mcap": 14.18,
       "price": 196.64,
-      "basis": 85.35,
+      "basis": 85.34,
       "bxt_today": 1.1,
       "bxt_yest": -5.02,
       "fvb_g": false,
@@ -3048,280 +3048,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-08T18:41:02.647396+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "BXP",
-        "name": "BXP, Inc.",
-        "mcap": 9.58,
-        "price": 64.53,
-        "basis": 62.67,
-        "bxt_today": 43.78,
-        "ath": 147.83,
-        "pct_to_ath": 129.1,
-        "wk52_high": 79.33,
-        "wk52_low": 49.72,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRL",
-        "name": "Charles River Laboratories International, Inc.",
-        "mcap": 7.27,
-        "price": 186.44,
-        "basis": 180.5,
-        "bxt_today": 23.57,
-        "ath": 460.21,
-        "pct_to_ath": 146.8,
-        "wk52_high": 228.88,
-        "wk52_low": 143.06,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "CNH",
-        "name": "CNH Industrial N.V. Common Shares",
-        "mcap": 12.62,
-        "price": 10.86,
-        "basis": 10.58,
-        "bxt_today": 6.76,
-        "ath": 17.98,
-        "pct_to_ath": 65.6,
-        "wk52_high": 14.27,
-        "wk52_low": 9.0,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "EXP",
-        "name": "Eagle Materials Inc",
-        "mcap": 6.15,
-        "price": 206.79,
-        "basis": 211.03,
-        "bxt_today": 20.12,
-        "ath": 321.93,
-        "pct_to_ath": 55.7,
-        "wk52_high": 243.64,
-        "wk52_low": 171.99,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAAP",
-        "name": "Corporacion America Airports SA Common Shares",
-        "mcap": 4.13,
-        "price": 25.13,
-        "basis": 25.69,
-        "bxt_today": -5.01,
-        "ath": 30.5,
-        "pct_to_ath": 21.4,
-        "wk52_high": 30.5,
-        "wk52_low": 17.36,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-08T21:07:26.249681+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "SYK",
-        "name": "Stryker Corporation",
-        "mcap": 120.53,
-        "price": 303.07,
-        "basis": 345.34,
-        "bxt_today": 0.02,
-        "ath": 406.19,
-        "pct_to_ath": 34.0,
-        "wk52_high": 404.87,
-        "wk52_low": 281.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAH",
-        "name": "Cardinal Health, Inc.",
-        "mcap": 47.01,
-        "price": 205.43,
-        "basis": 206.88,
-        "bxt_today": 0.65,
-        "ath": 233.6,
-        "pct_to_ath": 13.7,
-        "wk52_high": 233.6,
-        "wk52_low": 137.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TCBI",
-        "name": "Texas Capital Bancshares, Inc.",
-        "mcap": 4.32,
-        "price": 101.49,
-        "basis": 95.89,
-        "bxt_today": 1.34,
-        "ath": 108.92,
-        "pct_to_ath": 7.3,
-        "wk52_high": 108.92,
-        "wk52_low": 73.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EBC",
-        "name": "Eastern Bankshares, Inc.",
-        "mcap": 4.26,
-        "price": 20.59,
-        "basis": 19.49,
-        "bxt_today": 0.07,
-        "ath": 23.03,
-        "pct_to_ath": 11.9,
-        "wk52_high": 22.58,
-        "wk52_low": 14.1,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ITRI",
-        "name": "Itron, Inc.",
-        "mcap": 3.63,
-        "price": 82.4,
-        "basis": 94.04,
-        "bxt_today": 1.76,
-        "ath": 142.0,
-        "pct_to_ath": 72.3,
-        "wk52_high": 142.0,
-        "wk52_low": 77.77,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "UBER",
-        "name": "Uber Technologies, Inc.",
-        "mcap": 150.08,
-        "price": 70.06,
-        "basis": 78.99,
-        "bxt_today": -1.73,
-        "ath": 101.99,
-        "pct_to_ath": 45.6,
-        "wk52_high": 101.99,
-        "wk52_low": 68.46,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MO",
-        "name": "Altria Group, Inc.",
-        "mcap": 122.88,
-        "price": 71.29,
-        "basis": 64.24,
-        "bxt_today": -0.32,
-        "ath": 90.5,
-        "pct_to_ath": 26.9,
-        "wk52_high": 74.56,
-        "wk52_low": 54.7,
-        "ath_30d": 0
-      },
-      {
-        "sym": "COF",
-        "name": "Capital One Financial Corporation",
-        "mcap": 115.67,
-        "price": 180.39,
-        "basis": 207.82,
-        "bxt_today": -0.23,
-        "ath": 259.64,
-        "pct_to_ath": 43.9,
-        "wk52_high": 259.64,
-        "wk52_low": 174.98,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VST",
-        "name": "Vistra Corp.",
-        "mcap": 50.02,
-        "price": 146.9,
-        "basis": 163.32,
-        "bxt_today": -0.05,
-        "ath": 219.82,
-        "pct_to_ath": 49.6,
-        "wk52_high": 219.82,
-        "wk52_low": 132.66,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GRAB",
-        "name": "Grab Holdings Limited Ordinary Shares",
-        "mcap": 14.56,
-        "price": 3.33,
-        "basis": 4.39,
-        "bxt_today": -0.31,
-        "ath": 18.11,
-        "pct_to_ath": 443.8,
-        "wk52_high": 6.62,
-        "wk52_low": 3.3,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EHC",
-        "name": "Encompass Health Corporation",
-        "mcap": 10.34,
-        "price": 101.11,
-        "basis": 106.18,
-        "bxt_today": -2.7,
-        "ath": 127.99,
-        "pct_to_ath": 26.6,
-        "wk52_high": 127.99,
-        "wk52_low": 92.77,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FRHC",
-        "name": "Freedom Holding Corp.",
-        "mcap": 9.06,
-        "price": 142.01,
-        "basis": 136.67,
-        "bxt_today": -1.44,
-        "ath": 194.01,
-        "pct_to_ath": 36.6,
-        "wk52_high": 194.01,
-        "wk52_low": 107.97,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SM",
-        "name": "SM Energy Company",
-        "mcap": 7.81,
-        "price": 32.37,
-        "basis": 24.26,
-        "bxt_today": -0.48,
-        "ath": 94.0,
-        "pct_to_ath": 190.4,
-        "wk52_high": 35.88,
-        "wk52_low": 17.45,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ABCB",
-        "name": "Ameris Bancorp",
-        "mcap": 5.71,
-        "price": 85.36,
-        "basis": 79.5,
-        "bxt_today": -1.48,
-        "ath": 87.99,
-        "pct_to_ath": 3.1,
-        "wk52_high": 87.99,
-        "wk52_low": 59.54,
-        "ath_30d": 1
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "VICR",
-        "name": "Vicor Corporation",
-        "mcap": 12.21,
-        "price": 273.05,
-        "basis": 170.97,
-        "bxt_today": -0.57,
-        "ath": 361.89,
-        "pct_to_ath": 32.5,
-        "wk52_high": 361.89,
-        "wk52_low": 41.76,
-        "ath_30d": 5
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
