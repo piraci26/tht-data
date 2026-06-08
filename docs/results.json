@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-08T22:47:50.310160+00:00",
+  "updated_at": "2026-06-08T23:54:36.220196+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.86,
+  "scan_seconds": 11.8,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3737,6 +3737,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 141.78,
+      "basis": 136.5,
+      "bxt_today": -8.53,
+      "bxt_yest": 3.96,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": -0.1,
+      "pct_to_atl": 8460.0,
+      "wk52_high": 144.98,
+      "wk52_low": 87.41,
+      "ath_30d": 6,
+      "atl_30d": 0
+    },
+    {
       "sym": "GD",
       "name": "General Dynamics Corporation",
       "mcap": 91.67,
@@ -6061,28 +6084,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-08T21:07:10.242011+00:00",
+    "compared_to": "2026-06-08T22:47:50.310160+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [
       {
-        "sym": "LBTYB",
-        "name": "Liberty Global Ltd. Common Shares",
-        "mcap": 4.82,
-        "price": 14.0,
-        "basis": 14.83,
-        "bxt_today": 5.32,
-        "ath": 58.31,
-        "pct_to_ath": 316.5,
-        "wk52_high": 29.01,
-        "wk52_low": null,
-        "ath_30d": 0
+        "sym": "BK",
+        "name": "The Bank of New York Mellon Corporation",
+        "mcap": 94.14,
+        "price": 141.78,
+        "basis": 136.5,
+        "bxt_today": -8.53,
+        "ath": 141.65,
+        "pct_to_ath": -0.1,
+        "wk52_high": 144.98,
+        "wk52_low": 87.41,
+        "ath_30d": 6
       }
     ],
-    "bxt_green_removed": [],
-    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
