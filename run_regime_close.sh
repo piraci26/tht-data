@@ -97,7 +97,16 @@ fi
 # ─── Scan ────────────────────────────────────────────────────────────────
 PYTHON="$HOME/.homebrew/Caskroom/miniconda/base/bin/python3"
 
-caffeinate -is "$PYTHON" regime_scan.py --threshold 3.5 --tfs D,W,M --wait 1.2
+# Multi-pane mode: requires the TATA layout (4 panes: 1D / 1W / 1M / 12h)
+# with LuxAlgo Signals & Overlays + LuxAlgo Meta on every pane and symbol
+# sync enabled. TV defaults to the last-used layout, which is TATA after
+# our 2026-06-09 4-pane save. One chart_set_symbol cascades to all panes,
+# one read_lux_all_panes returns D/W/M data — ~3x faster than the
+# single-pane scan (1470 tickers in ~40 min instead of ~3-4 hours).
+#
+# If the active layout isn't TATA-shaped, regime_scan exits fast with a
+# clear error and STATUS_REGIME != 0.
+caffeinate -is "$PYTHON" regime_scan.py --threshold 3.5 --tfs D,W,M --wait 1.2 --multi-pane
 STATUS_REGIME=$?
 
 # Always run the classifier even if the scan partially failed — it'll work

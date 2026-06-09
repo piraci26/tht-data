@@ -20,9 +20,19 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from cdp_lib import (
     CDPClient, set_timeframe, set_symbol, is_loading, read_lux,
+    read_lux_all_panes, enumerate_panes, enable_symbol_sync,
     load_universe, load_names, load_mcaps,
 )
 import supabase_client as sb  # no-op when SUPABASE_* env vars are unset
+
+
+# TradingView returns resolutions like '1D', '1W', '1M', '720'. Map them to
+# the scan's TF labels.
+_RESOLUTION_TO_TF = {
+    "1D": "D", "D": "D",
+    "1W": "W", "W": "W",
+    "1M": "M", "M": "M",
+}
 
 
 def _num(s):
@@ -106,12 +116,128 @@ def scan_one_tf(cdp, tickers, names, mcaps, tf, wait):
     return rows
 
 
+def _parse_pane_record(p, names, mcaps):
+    """Turn a single pane record from read_lux_all_panes() into the
+    standardised regime row used by scan_one_tf."""
+    if not p or not p.get("found"):
+        return None
+    vals = p.get("values") or {}
+    meta = p.get("meta") or {}
+    dsg = _num(meta.get("Days Since Green"))
+    dsr = _num(meta.get("Days Since Red"))
+    ts  = _num(vals.get("Trend Strength"))
+    b   = (vals.get("Bullish",  "0") or "0").startswith("1")
+    bp  = (vals.get("Bullish+", "0") or "0").startswith("1")
+    be  = (vals.get("Bearish",  "0") or "0").startswith("1")
+    bep = (vals.get("Bearish+", "0") or "0").startswith("1")
+    regime = None
+    if dsg is not None and dsr is not None:
+        if dsg < dsr:   regime = "g"
+        elif dsr < dsg: regime = "r"
+    return {
+        "regime": regime,
+        "dsg": dsg, "dsr": dsr, "ts": ts,
+        "fired_g": b or bp, "fired_g_plus": bp,
+        "fired_r": be or bep, "fired_r_plus": bep,
+    }
+
+
+def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set):
+    """Fast scan: relies on the TATA 4-pane layout with symbol sync ON.
+    One chart_set_symbol per ticker propagates to every pane; one
+    read_lux_all_panes() call returns D / W / M (and the 12H reference).
+
+    expected_tfs: list of TF labels we want to capture (e.g. ['D','W','M']).
+                  Pane resolutions not in this list (e.g. the 12H reference
+                  pane) are read but discarded.
+    """
+    # Discover the pane layout once.
+    panes_info = enumerate_panes(cdp) or []
+    if isinstance(panes_info, dict) and panes_info.get("error"):
+        sys.exit(f"enumerate_panes failed: {panes_info['error']}")
+    print("Panes:", panes_info)
+    res_to_pane = {p["resolution"]: p["pane"] for p in panes_info if "resolution" in p}
+    missing = [tf for tf in expected_tfs if f"1{tf}" not in res_to_pane and tf not in res_to_pane]
+    if missing:
+        sys.exit(f"TATA layout missing panes for: {missing}. Got: {res_to_pane}")
+
+    by_tf = {tf: {} for tf in expected_tfs}
+    started = time.time()
+
+    for i, sym in enumerate(tickers):
+        try:
+            # One setSymbol updates ALL panes (symbol sync is on).
+            r = sym_set(cdp, sym)
+            if not r or not r.get("ok"):
+                continue
+
+            # Wait for all panes to settle. The slowest pane drives this.
+            t0 = time.time()
+            while time.time() - t0 < 4:
+                if not is_loading(cdp):
+                    break
+                time.sleep(0.1)
+            time.sleep(wait)
+
+            panes = read_lux_all_panes(cdp)
+            if not panes or (isinstance(panes, dict) and panes.get("error")):
+                continue
+
+            # First pass: parse every pane. Retry once for any pane whose Meta
+            # came back empty (cascading-warm-up race condition).
+            parsed = {}
+            need_retry = False
+            for p in panes:
+                tf_label = _RESOLUTION_TO_TF.get(str(p.get("resolution")))
+                if tf_label not in expected_tfs:
+                    continue
+                rec = _parse_pane_record(p, names, mcaps)
+                if rec and (rec["dsg"] is not None or rec["dsr"] is not None):
+                    parsed[tf_label] = rec
+                else:
+                    need_retry = True
+
+            if need_retry:
+                time.sleep(max(wait, 1.5))
+                panes = read_lux_all_panes(cdp) or []
+                for p in panes:
+                    tf_label = _RESOLUTION_TO_TF.get(str(p.get("resolution")))
+                    if tf_label not in expected_tfs or tf_label in parsed:
+                        continue
+                    rec = _parse_pane_record(p, names, mcaps)
+                    if rec:
+                        parsed[tf_label] = rec
+
+            for tf_label, rec in parsed.items():
+                by_tf[tf_label][sym] = {
+                    **rec,
+                    "name": names.get(sym, ""),
+                    "mcap": mcaps.get(sym, 0),
+                }
+
+            if (i + 1) % 25 == 0:
+                el = time.time() - started
+                rate = (i + 1) / el
+                left = (len(tickers) - i - 1) / rate
+                captured = sum(len(v) for v in by_tf.values())
+                print(f"  [multi] {i+1}/{len(tickers)}  elapsed {el:.0f}s ~{left:.0f}s left  total captured={captured}")
+        except Exception as e:
+            print(f"  {sym}: ERR {e}")
+
+    for tf, sym_map in by_tf.items():
+        print(f"  [multi] {tf}: {len(sym_map)} captured")
+    return by_tf
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--threshold", type=float, default=3.5)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--wait", type=float, default=1.2)
     ap.add_argument("--tfs", default="D,W,M")
+    ap.add_argument("--multi-pane", action="store_true",
+                    help="Use the TATA 4-pane layout: one setSymbol cascades "
+                         "to all panes (requires symbol sync ON). ~3x faster.")
     args = ap.parse_args()
 
     tickers = load_universe(args.threshold)
@@ -121,15 +247,24 @@ def main():
         tickers = tickers[: args.limit]
     tfs = args.tfs.split(",")
 
-    print(f"Regime scan: {len(tickers)} tickers @ ${args.threshold}B × {len(tfs)} TFs ({','.join(tfs)})")
-    est = len(tickers) * (args.wait + 0.5) * len(tfs) / 60
+    mode = "multi-pane" if args.multi_pane else "single-pane"
+    print(f"Regime scan ({mode}): {len(tickers)} tickers @ ${args.threshold}B × {len(tfs)} TFs ({','.join(tfs)})")
+    if args.multi_pane:
+        est = len(tickers) * (args.wait + 0.5) / 60
+    else:
+        est = len(tickers) * (args.wait + 0.5) * len(tfs) / 60
     print(f"Estimated: ~{est:.1f} min")
 
     cdp = CDPClient()
     by_tf = {}
     try:
-        for tf in tfs:
-            by_tf[tf] = scan_one_tf(cdp, tickers, names, mcaps, tf, args.wait)
+        if args.multi_pane:
+            sync = enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False)
+            print(f"Sync state: {sync}")
+            by_tf = scan_multi_pane(cdp, tickers, names, mcaps, tfs, args.wait, set_symbol)
+        else:
+            for tf in tfs:
+                by_tf[tf] = scan_one_tf(cdp, tickers, names, mcaps, tf, args.wait)
     finally:
         cdp.close()
 

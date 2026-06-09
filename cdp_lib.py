@@ -139,6 +139,101 @@ def is_loading(cdp):
     """)
 
 
+def enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False):
+    """Toggle TradingView's per-layout symbol sync. With symbol sync ON,
+    a single setSymbol() call cascades to every pane in the layout. With
+    interval sync OFF, each pane keeps its own timeframe."""
+    return cdp.evaluate(f"""
+      (function() {{
+        try {{
+          window.TradingViewApi._symbolSync.setValue({"true" if enable_symbol else "false"});
+          window.TradingViewApi._intervalSync.setValue({"true" if enable_interval else "false"});
+          return {{
+            symbol_sync: window.TradingViewApi._symbolSync.value(),
+            interval_sync: window.TradingViewApi._intervalSync.value(),
+          }};
+        }} catch(e) {{ return {{ error: String(e) }}; }}
+      }})()
+    """)
+
+
+def enumerate_panes(cdp):
+    """Return [{pane, symbol, resolution}] for every chart pane in the
+    current layout. Used to verify the TATA 4-pane setup is loaded."""
+    return cdp.evaluate("""
+      (function() {
+        try {
+          var defs = window.TradingViewApi._chartWidgetCollection._chartWidgetsDefs;
+          var out = [];
+          for (var i = 0; i < defs.length; i++) {
+            var w = defs[i].chartWidget;
+            if (!w) { out.push({pane:i, err:'no widget'}); continue; }
+            var ms = w.model().model().mainSeries();
+            out.push({ pane: i, symbol: ms.symbol(), resolution: ms.interval() });
+          }
+          return out;
+        } catch(e) { return { error: String(e) }; }
+      })()
+    """)
+
+
+def read_lux_all_panes(cdp):
+    """Read LuxAlgo Signals & Overlays + LuxAlgo Meta data from every pane in
+    a single round-trip. Returns a list of pane-records:
+
+        [
+          {pane: 0, resolution: '1D', found: True, values: {...}, meta: {...}},
+          {pane: 1, resolution: '1W', ...},
+          ...
+        ]
+
+    Used by the 4-pane regime scan: one chart_set_symbol changes all panes
+    (when symbol sync is enabled), then one read_lux_all_panes call returns
+    every timeframe's regime data.
+    """
+    return cdp.evaluate("""
+      (function() {
+        try {
+          var defs = window.TradingViewApi._chartWidgetCollection._chartWidgetsDefs;
+          var out = [];
+          for (var i = 0; i < defs.length; i++) {
+            var widget = defs[i].chartWidget;
+            if (!widget) { out.push({ pane: i, found: false, err: 'no widget' }); continue; }
+            var sources = widget.model().model().dataSources();
+            var luxVals = null, metaVals = null;
+            for (var si = 0; si < sources.length; si++) {
+              var s = sources[si];
+              if (!s.metaInfo) continue;
+              var meta = s.metaInfo();
+              var name = meta.description || meta.shortDescription || '';
+              if (typeof name !== 'string') continue;
+              var dwv = s.dataWindowView();
+              if (!dwv) continue;
+              var items = dwv.items();
+              var values = {};
+              for (var j = 0; j < items.length; j++) {
+                var it = items[j];
+                if (it._title && it._value && it._value !== '∅') values[it._title] = it._value;
+              }
+              if (name.indexOf('LuxAlgo Meta') !== -1) metaVals = values;
+              else if (name.indexOf('LuxAlgo') !== -1 && name.indexOf('Signals') !== -1) luxVals = values;
+            }
+            var res = null, sym = null;
+            try { res = widget.model().model().mainSeries().interval(); } catch(e) {}
+            try { sym = widget.model().model().mainSeries().symbol(); } catch(e) {}
+            out.push({
+              pane: i, resolution: res, symbol: sym,
+              found: !!luxVals,
+              values: luxVals || {},
+              meta: metaVals || {},
+            });
+          }
+          return out;
+        } catch(e) { return { error: String(e) }; }
+      })()
+    """)
+
+
 def read_lux(cdp):
     # Reads BOTH LuxAlgo Signals & Overlays (Bullish/Bearish fires + Trend Strength)
     # AND the local "LuxAlgo Meta" helper (Days Since Green / Days Since Red).
