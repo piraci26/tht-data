@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T20:28:16.356495+00:00",
+  "updated_at": "2026-06-09T22:08:50.545310+00:00",
   "count": 57,
   "list": [
     {
@@ -205,16 +205,16 @@
       "name": "Hilton Worldwide Holdings Inc.",
       "mcap": 73.29,
       "price": 342.57,
-      "ath": 347.27,
+      "ath": 347.25,
       "atl": 33.16,
       "pct_to_ath": 1.4,
       "pct_to_atl": 933.1,
-      "wk52_high": 347.27,
+      "wk52_high": 347.25,
       "wk52_low": 241.45,
       "ath_30d": 2,
       "atl_30d": 0,
-      "last_high": 347.27,
-      "last_low": 339.21,
+      "last_high": 347.25,
+      "last_low": 339.28,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -669,24 +669,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8.0,
-      "price": 123.25,
-      "ath": 123.62,
-      "atl": 7.09,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 1638.4,
-      "wk52_high": 123.62,
-      "wk52_low": 71.13,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 123.62,
-      "last_low": 122.81,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "AMG",
       "name": "Affiliated Managers Group, Inc.",
       "mcap": 8.0,
@@ -701,6 +683,24 @@
       "atl_30d": 0,
       "last_high": 348.15,
       "last_low": 333.02,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8.0,
+      "price": 123.25,
+      "ath": 123.62,
+      "atl": 7.09,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 1638.4,
+      "wk52_high": 123.62,
+      "wk52_low": 71.13,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 123.62,
+      "last_low": 122.81,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4831,9 +4831,5 @@
       "first_seen_at": "2026-06-09T20:28:16.356495+00:00"
     }
   ],
-  "added_this_run": [
-    "MNST",
-    "RL",
-    "SUNB"
-  ]
+  "added_this_run": []
 }
