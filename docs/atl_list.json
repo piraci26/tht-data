@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-09T02:52:13.432588+00:00",
-  "count": 4,
+  "updated_at": "2026-06-09T06:37:58.554315+00:00",
+  "count": 3,
   "list": [
     {
       "sym": "JBS",
@@ -21,24 +21,6 @@
       "made_atl_today": true
     },
     {
-      "sym": "LBTYB",
-      "name": "Liberty Global Ltd. Common Shares",
-      "mcap": 4.82,
-      "price": 14.0,
-      "ath": 58.31,
-      "atl": null,
-      "pct_to_ath": 316.5,
-      "pct_to_atl": null,
-      "wk52_high": 29.01,
-      "wk52_low": null,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": null,
-      "last_low": null,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
       "mcap": 3.42,
@@ -51,7 +33,7 @@
       "wk52_low": 2.66,
       "ath_30d": 0,
       "atl_30d": 11,
-      "last_high": 2.78,
+      "last_high": 2.79,
       "last_low": 2.66,
       "made_ath_today": false,
       "made_atl_today": true
