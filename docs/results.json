@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T22:08:07.288626+00:00",
+  "updated_at": "2026-06-09T23:42:40.845442+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.97,
+  "scan_seconds": 28.69,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2422,29 +2422,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 8.0,
-      "price": 9.33,
-      "basis": 9.59,
-      "bxt_today": -41.42,
-      "bxt_yest": -37.9,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 38,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "atl": 6.47,
-      "pct_to_ath": 415.6,
-      "pct_to_atl": 44.2,
-      "wk52_high": 20.18,
-      "wk52_low": 6.47,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ECG",
       "name": "Everus Construction Group, Inc.",
       "mcap": 8.0,
@@ -2465,6 +2442,29 @@
       "wk52_high": 171.58,
       "wk52_low": 58.0,
       "ath_30d": 5,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 8.0,
+      "price": 9.33,
+      "basis": 9.59,
+      "bxt_today": -41.42,
+      "bxt_yest": -37.9,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 38,
+      "bxt_streak": null,
+      "ath": 48.11,
+      "atl": 6.47,
+      "pct_to_ath": 415.6,
+      "pct_to_atl": 44.2,
+      "wk52_high": 20.18,
+      "wk52_low": 6.47,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -6405,29 +6405,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "BK",
-      "name": "The Bank of New York Mellon Corporation",
-      "mcap": 94.14,
-      "price": 141.78,
-      "basis": 136.5,
-      "bxt_today": -8.53,
-      "bxt_yest": 3.96,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 141.65,
-      "atl": 1.66,
-      "pct_to_ath": -0.1,
-      "pct_to_atl": 8460.0,
-      "wk52_high": 144.98,
-      "wk52_low": 87.41,
-      "ath_30d": 6,
-      "atl_30d": 0
-    },
-    {
       "sym": "ADP",
       "name": "Automatic Data Processing, Inc.",
       "mcap": 87.97,
@@ -7533,7 +7510,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-09T20:27:33.736916+00:00",
+    "compared_to": "2026-06-09T22:08:07.288626+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -7541,6 +7518,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "BK",
+        "name": "The Bank of New York Mellon Corporation",
+        "mcap": 94.14,
+        "price": 141.78,
+        "basis": 136.5,
+        "bxt_today": -8.53,
+        "ath": 141.65,
+        "pct_to_ath": -0.1,
+        "wk52_high": 144.98,
+        "wk52_low": 87.41,
+        "ath_30d": 6
+      }
+    ]
   }
 }

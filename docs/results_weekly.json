@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T22:08:21.181291+00:00",
+  "updated_at": "2026-06-09T23:43:11.644303+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.98,
+  "scan_seconds": 23.57,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1642,29 +1642,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ALLY",
-      "name": "Ally Financial Inc.",
-      "mcap": 13.11,
-      "price": 43.35,
-      "basis": 41.92,
-      "bxt_today": 3.12,
-      "bxt_yest": -2.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 56.61,
-      "atl": 10.22,
-      "pct_to_ath": 30.6,
-      "pct_to_atl": 324.2,
-      "wk52_high": 47.27,
-      "wk52_low": 35.9,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SNN",
       "name": "Smith & Nephew SNATS, Inc.",
       "mcap": 13.11,
@@ -1684,6 +1661,29 @@
       "pct_to_atl": 526.1,
       "wk52_high": 38.79,
       "wk52_low": 28.4,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ALLY",
+      "name": "Ally Financial Inc.",
+      "mcap": 13.11,
+      "price": 43.35,
+      "basis": 41.92,
+      "bxt_today": 3.12,
+      "bxt_yest": -2.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 56.61,
+      "atl": 10.22,
+      "pct_to_ath": 30.6,
+      "pct_to_atl": 324.2,
+      "wk52_high": 47.27,
+      "wk52_low": 35.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3876,7 +3876,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-09T20:27:48.083688+00:00",
+    "compared_to": "2026-06-09T22:08:21.181291+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
