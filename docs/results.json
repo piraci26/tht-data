@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-08T23:54:36.220196+00:00",
+  "updated_at": "2026-06-09T02:50:39.558514+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.8,
+  "scan_seconds": 25.42,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -877,29 +877,6 @@
       "pct_to_atl": 3363.6,
       "wk52_high": 255.47,
       "wk52_low": 196.41,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CCZ",
-      "name": "Comcast Holdings ZONES",
-      "mcap": 61,
-      "price": 64.11,
-      "basis": 64.33,
-      "bxt_today": 20.05,
-      "bxt_yest": 21.94,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 73.0,
-      "atl": 49.75,
-      "pct_to_ath": 13.9,
-      "pct_to_atl": 28.9,
-      "wk52_high": 65.85,
-      "wk52_low": 59.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6084,28 +6061,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-08T22:47:50.310160+00:00",
+    "compared_to": "2026-06-08T23:54:36.220196+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "fvb_red_removed": [
       {
-        "sym": "BK",
-        "name": "The Bank of New York Mellon Corporation",
-        "mcap": 94.14,
-        "price": 141.78,
-        "basis": 136.5,
-        "bxt_today": -8.53,
-        "ath": 141.65,
-        "pct_to_ath": -0.1,
-        "wk52_high": 144.98,
-        "wk52_low": 87.41,
-        "ath_30d": 6
+        "sym": "CCZ",
+        "name": "Comcast Holdings ZONES",
+        "mcap": 61,
+        "price": 64.11,
+        "basis": 64.33,
+        "bxt_today": 20.05,
+        "ath": 73.0,
+        "pct_to_ath": 13.9,
+        "wk52_high": 65.85,
+        "wk52_low": 59.0,
+        "ath_30d": 0
       }
     ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

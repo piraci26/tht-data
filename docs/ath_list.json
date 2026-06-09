@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-08T23:55:20.266046+00:00",
-  "count": 31,
+  "updated_at": "2026-06-09T02:52:13.428016+00:00",
+  "count": 27,
   "list": [
     {
       "sym": "AAPL",
@@ -71,24 +71,6 @@
       "atl_30d": 0,
       "last_high": 166.55,
       "last_low": 163.79,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CSX",
-      "name": "CSX Corporation",
-      "mcap": 85.33,
-      "price": 47.11,
-      "ath": 47.39,
-      "atl": 0.61,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 7565.4,
-      "wk52_high": 47.39,
-      "wk52_low": 31.8,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 47.39,
-      "last_low": 46.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -255,24 +237,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "H",
-      "name": "Hyatt Hotels Corporation",
-      "mcap": 16.51,
-      "price": 193.72,
-      "ath": 195.8,
-      "atl": 24.02,
-      "pct_to_ath": 1.1,
-      "pct_to_atl": 706.5,
-      "wk52_high": 195.8,
-      "wk52_low": 127.59,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 195.8,
-      "last_low": 191.3,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "UNM",
       "name": "Unum Group",
       "mcap": 13.52,
@@ -323,24 +287,6 @@
       "atl_30d": 0,
       "last_high": 80.96,
       "last_low": 78.1,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "AIT",
-      "name": "Applied Industrial Technologies, Inc.",
-      "mcap": 11.28,
-      "price": 314.42,
-      "ath": 318.24,
-      "atl": 2.64,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 11800.9,
-      "wk52_high": 318.24,
-      "wk52_low": 223.13,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 318.24,
-      "last_low": 312.95,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -539,24 +485,6 @@
       "atl_30d": 0,
       "last_high": 58.93,
       "last_low": 55.58,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CATY",
-      "name": "Cathay General Bancorp",
-      "mcap": 3.84,
-      "price": 58.39,
-      "ath": 59.1,
-      "atl": 2.5,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 2235.6,
-      "wk52_high": 59.1,
-      "wk52_low": 42.01,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 59.1,
-      "last_low": 57.26,
       "made_ath_today": true,
       "made_atl_today": false
     }
