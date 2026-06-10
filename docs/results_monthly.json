@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T23:43:37.359185+00:00",
+  "updated_at": "2026-06-10T01:54:28.070764+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 21.63,
+  "scan_seconds": 15.59,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2403,29 +2403,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
-      "mcap": 4.54,
-      "price": 9.65,
-      "basis": 9.84,
-      "bxt_today": -9.58,
-      "bxt_yest": 0.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 16.0,
-      "atl": 0.31,
-      "pct_to_ath": 65.8,
-      "pct_to_atl": 2963.5,
-      "wk52_high": 15.28,
-      "wk52_low": 1.36,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "AQN",
       "name": "Algonquin Power & Utilities Corp. Common Shares",
       "mcap": 4.54,
@@ -2445,6 +2422,29 @@
       "pct_to_atl": 82.2,
       "wk52_high": 7.11,
       "wk52_low": 5.32,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 4.54,
+      "price": 9.65,
+      "basis": 9.84,
+      "bxt_today": -9.58,
+      "bxt_yest": 0.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 16.0,
+      "atl": 0.31,
+      "pct_to_ath": 65.8,
+      "pct_to_atl": 2963.5,
+      "wk52_high": 15.28,
+      "wk52_low": 1.36,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2611,7 +2611,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-09T22:08:31.983217+00:00",
+    "compared_to": "2026-06-09T23:43:37.359185+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T23:43:11.644303+00:00",
+  "updated_at": "2026-06-10T01:54:09.203934+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 23.57,
+  "scan_seconds": 14.15,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3530,29 +3530,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LUMN",
-      "name": "Lumen Technologies, Inc.",
-      "mcap": 9.72,
-      "price": 8.47,
-      "basis": 8.31,
-      "bxt_today": -9.85,
-      "bxt_yest": 2.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 49.94,
-      "atl": 0.78,
-      "pct_to_ath": 489.6,
-      "pct_to_atl": 985.9,
-      "wk52_high": 11.95,
-      "wk52_low": 3.37,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SIRI",
       "name": "SiriusXM Holdings Inc.",
       "mcap": 9.72,
@@ -3572,6 +3549,29 @@
       "pct_to_atl": 5422.0,
       "wk52_high": 30.11,
       "wk52_low": 19.77,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LUMN",
+      "name": "Lumen Technologies, Inc.",
+      "mcap": 9.72,
+      "price": 8.47,
+      "basis": 8.31,
+      "bxt_today": -9.85,
+      "bxt_yest": 2.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 49.94,
+      "atl": 0.78,
+      "pct_to_ath": 489.6,
+      "pct_to_atl": 985.9,
+      "wk52_high": 11.95,
+      "wk52_low": 3.37,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3876,7 +3876,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-09T22:08:21.181291+00:00",
+    "compared_to": "2026-06-09T23:43:11.644303+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

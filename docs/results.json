@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T23:42:40.845442+00:00",
+  "updated_at": "2026-06-10T01:53:49.950976+00:00",
   "timeframe": "daily",
-  "scan_seconds": 28.69,
+  "scan_seconds": 17.18,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -7510,7 +7510,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-09T22:08:07.288626+00:00",
+    "compared_to": "2026-06-09T23:42:40.845442+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -7518,20 +7518,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "BK",
-        "name": "The Bank of New York Mellon Corporation",
-        "mcap": 94.14,
-        "price": 141.78,
-        "basis": 136.5,
-        "bxt_today": -8.53,
-        "ath": 141.65,
-        "pct_to_ath": -0.1,
-        "wk52_high": 144.98,
-        "wk52_low": 87.41,
-        "ath_30d": 6
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
