@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T22:02:13.422129+00:00",
-  "count": 48,
+  "updated_at": "2026-06-10T23:44:25.050717+00:00",
+  "count": 47,
   "list": [
     {
       "sym": "KO",
@@ -395,24 +395,6 @@
       "atl_30d": 0,
       "last_high": 53.82,
       "last_low": 52.54,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "GL",
-      "name": "Globe Life Inc.",
-      "mcap": 12.11,
-      "price": 162.52,
-      "ath": 163.5,
-      "atl": 2.7,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 5911.0,
-      "wk52_high": 163.5,
-      "wk52_low": 116.73,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 163.5,
-      "last_low": 159.81,
       "made_ath_today": true,
       "made_atl_today": false
     },

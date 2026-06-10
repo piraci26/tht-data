@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T22:01:12.926967+00:00",
+  "updated_at": "2026-06-10T23:43:41.698739+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 19.26,
+  "scan_seconds": 14.44,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -371,29 +371,6 @@
       "pct_to_atl": 172.7,
       "wk52_high": 85.36,
       "wk52_low": 53.03,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 24.32,
-      "price": 467.59,
-      "basis": 481.29,
-      "bxt_today": -29.55,
-      "bxt_yest": -25.78,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 51,
-      "bxt_streak": null,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 20.9,
-      "pct_to_atl": 16627.6,
-      "wk52_high": 565.5,
-      "wk52_low": 380.86,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3646,162 +3623,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-10T19:55:23.333588+00:00",
+    "compared_to": "2026-06-10T22:01:12.926967+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "ELAN",
-        "name": "Elanco Animal Health Incorporated",
-        "mcap": 10.6,
-        "price": 22.87,
-        "basis": 23.25,
-        "bxt_today": 4.93,
-        "ath": 37.61,
-        "pct_to_ath": 64.5,
-        "wk52_high": 27.72,
-        "wk52_low": 13.16,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [
       {
-        "sym": "ES",
-        "name": "Eversource Energy (D/B/A)",
-        "mcap": 26.24,
-        "price": 68.88,
-        "basis": 69.55,
-        "bxt_today": 2.09,
-        "ath": 99.42,
-        "pct_to_ath": 44.3,
-        "wk52_high": 76.41,
-        "wk52_low": 61.53,
+        "sym": "HUBB",
+        "name": "Hubbell Inc",
+        "mcap": 24.32,
+        "price": 467.59,
+        "basis": 481.29,
+        "bxt_today": -29.55,
+        "ath": 565.5,
+        "pct_to_ath": 20.9,
+        "wk52_high": 565.5,
+        "wk52_low": 380.86,
         "ath_30d": 0
       }
     ],
-    "bxt_green_added": [
-      {
-        "sym": "CASY",
-        "name": "Casey's General Stores, Inc.",
-        "mcap": 30.52,
-        "price": 915.6,
-        "basis": 675.04,
-        "bxt_today": 1.19,
-        "ath": 917.47,
-        "pct_to_ath": 0.2,
-        "wk52_high": 917.47,
-        "wk52_low": 481.3,
-        "ath_30d": 10
-      },
-      {
-        "sym": "AXS",
-        "name": "Axis Capital Holdings Limited",
-        "mcap": 7.31,
-        "price": 99.88,
-        "basis": 101.38,
-        "bxt_today": 1.92,
-        "ath": 110.34,
-        "pct_to_ath": 10.5,
-        "wk52_high": 110.34,
-        "wk52_low": 88.07,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "DCI",
-        "name": "Donaldson Company, Inc.",
-        "mcap": 9.55,
-        "price": 83.88,
-        "basis": 90.76,
-        "bxt_today": 1.29,
-        "ath": 112.84,
-        "pct_to_ath": 34.5,
-        "wk52_high": 112.84,
-        "wk52_low": 67.71,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AOS",
-        "name": "A.O. Smith Corporation",
-        "mcap": 7.72,
-        "price": 57.46,
-        "basis": 66.59,
-        "bxt_today": 0.73,
-        "ath": 92.45,
-        "pct_to_ath": 60.9,
-        "wk52_high": 81.87,
-        "wk52_low": 54.16,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TRNO",
-        "name": "Terreno Realty Corporation",
-        "mcap": 7.0,
-        "price": 66.47,
-        "basis": 63.17,
-        "bxt_today": 1.4,
-        "ath": 86.0,
-        "pct_to_ath": 29.4,
-        "wk52_high": 67.83,
-        "wk52_low": 53.0,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "BDX",
-        "name": "Becton, Dickinson and Company",
-        "mcap": 40.35,
-        "price": 147.79,
-        "basis": 155.8,
-        "bxt_today": -0.91,
-        "ath": 225.88,
-        "pct_to_ath": 52.8,
-        "wk52_high": 187.35,
-        "wk52_low": 127.59,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NVTS",
-        "name": "Navitas Semiconductor Corporation",
-        "mcap": 5.73,
-        "price": 20.5,
-        "basis": 12.47,
-        "bxt_today": -0.1,
-        "ath": 34.17,
-        "pct_to_ath": 66.7,
-        "wk52_high": 34.17,
-        "wk52_low": 5.44,
-        "ath_30d": 5
-      },
-      {
-        "sym": "GVA",
-        "name": "Granite Construction Incorporated",
-        "mcap": 5.64,
-        "price": 135.76,
-        "basis": 123.33,
-        "bxt_today": -2.32,
-        "ath": 145.0,
-        "pct_to_ath": 6.8,
-        "wk52_high": 145.0,
-        "wk52_low": 87.72,
-        "ath_30d": 4
-      },
-      {
-        "sym": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "mcap": 3.43,
-        "price": 35.63,
-        "basis": 54.21,
-        "bxt_today": -0.66,
-        "ath": 127.5,
-        "pct_to_ath": 257.8,
-        "wk52_high": 108.5,
-        "wk52_low": 35.6,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

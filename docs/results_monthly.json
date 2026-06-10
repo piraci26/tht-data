@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T22:01:34.832228+00:00",
+  "updated_at": "2026-06-10T23:43:57.756125+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.82,
+  "scan_seconds": 13.2,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2081,29 +2081,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "DKS",
-      "name": "Dick's Sporting Goods Inc",
-      "mcap": 19.86,
-      "price": 214.97,
-      "basis": 203.39,
-      "bxt_today": -2.4,
-      "bxt_yest": 1.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 254.6,
-      "atl": 3.91,
-      "pct_to_ath": 18.4,
-      "pct_to_atl": 5394.4,
-      "wk52_high": 237.75,
-      "wk52_low": 170.73,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GPN",
       "name": "Global Payments Inc.",
       "mcap": 19.86,
@@ -2123,6 +2100,29 @@
       "pct_to_atl": 1437.7,
       "wk52_high": 90.64,
       "wk52_low": 62.24,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "DKS",
+      "name": "Dick's Sporting Goods Inc",
+      "mcap": 19.86,
+      "price": 214.97,
+      "basis": 203.39,
+      "bxt_today": -2.4,
+      "bxt_yest": 1.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 254.6,
+      "atl": 3.91,
+      "pct_to_ath": 18.4,
+      "pct_to_atl": 5394.4,
+      "wk52_high": 237.75,
+      "wk52_low": 170.73,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3025,136 +3025,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-10T19:55:36.505916+00:00",
+    "compared_to": "2026-06-10T22:01:34.832228+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "MLM",
-        "name": "Martin Marietta Materials, Inc.",
-        "mcap": 32.31,
-        "price": 552.87,
-        "basis": 565.68,
-        "bxt_today": -34.8,
-        "ath": 710.97,
-        "pct_to_ath": 28.6,
-        "wk52_high": 710.97,
-        "wk52_low": 525.38,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ELAN",
-        "name": "Elanco Animal Health Incorporated",
-        "mcap": 10.6,
-        "price": 22.87,
-        "basis": 23.25,
-        "bxt_today": 4.93,
-        "ath": 37.61,
-        "pct_to_ath": 64.5,
-        "wk52_high": 27.72,
-        "wk52_low": 13.16,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "LYV",
-        "name": "Live Nation Entertainment, Inc.",
-        "mcap": 38.53,
-        "price": 167.5,
-        "basis": 128.52,
-        "bxt_today": 0.24,
-        "ath": 175.25,
-        "pct_to_ath": 4.6,
-        "wk52_high": 175.25,
-        "wk52_low": 125.34,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "DGX",
-        "name": "Quest Diagnostics Incorporated",
-        "mcap": 21.43,
-        "price": 204.04,
-        "basis": 165.64,
-        "bxt_today": 0.08,
-        "ath": 213.5,
-        "pct_to_ath": 4.6,
-        "wk52_high": 213.5,
-        "wk52_low": 164.65,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MC",
-        "name": "Moelis & Company",
-        "mcap": 4.86,
-        "price": 67.0,
-        "basis": 63.16,
-        "bxt_today": 0.34,
-        "ath": 82.89,
-        "pct_to_ath": 23.7,
-        "wk52_high": 78.22,
-        "wk52_low": 51.06,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "LMT",
-        "name": "Lockheed Martin Corporation",
-        "mcap": 120.87,
-        "price": 525.02,
-        "basis": 421.42,
-        "bxt_today": -0.19,
-        "ath": 692.0,
-        "pct_to_ath": 31.8,
-        "wk52_high": 692.0,
-        "wk52_low": 410.11,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALSN",
-        "name": "Allison Transmission Holdings, Inc.",
-        "mcap": 8.99,
-        "price": 113.82,
-        "basis": 93.59,
-        "bxt_today": -0.02,
-        "ath": 137.62,
-        "pct_to_ath": 20.9,
-        "wk52_high": 137.62,
-        "wk52_low": 76.01,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FOUR",
-        "name": "Shift4 Payments, Inc.",
-        "mcap": 3.43,
-        "price": 35.63,
-        "basis": 54.21,
-        "bxt_today": -0.66,
-        "ath": 127.5,
-        "pct_to_ath": 257.8,
-        "wk52_high": 108.5,
-        "wk52_low": 35.6,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "AAUC",
-        "name": "Allied Gold Corporation Common Shares",
-        "mcap": 3.34,
-        "price": 24.81,
-        "basis": 28.09,
-        "bxt_today": -5.32,
-        "ath": 32.2,
-        "pct_to_ath": 29.8,
-        "wk52_high": 32.2,
-        "wk52_low": 11.4,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
