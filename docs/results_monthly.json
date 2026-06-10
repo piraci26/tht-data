@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T06:19:33.360965+00:00",
+  "updated_at": "2026-06-10T10:37:36.583783+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.0,
+  "scan_seconds": 8.31,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2334,29 +2334,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
-      "mcap": 4.54,
-      "price": 9.65,
-      "basis": 9.84,
-      "bxt_today": -9.58,
-      "bxt_yest": 0.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 16.0,
-      "atl": 0.31,
-      "pct_to_ath": 65.8,
-      "pct_to_atl": 2963.5,
-      "wk52_high": 15.28,
-      "wk52_low": 1.36,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "AQN",
       "name": "Algonquin Power & Utilities Corp. Common Shares",
       "mcap": 4.54,
@@ -2376,6 +2353,29 @@
       "pct_to_atl": 82.2,
       "wk52_high": 7.11,
       "wk52_low": 5.32,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 4.54,
+      "price": 9.65,
+      "basis": 9.84,
+      "bxt_today": -9.58,
+      "bxt_yest": 0.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 16.0,
+      "atl": 0.31,
+      "pct_to_ath": 65.8,
+      "pct_to_atl": 2963.5,
+      "wk52_high": 15.28,
+      "wk52_low": 1.36,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2542,268 +2542,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-10T01:54:28.070764+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "mcap": 5.61,
-        "price": 30.51,
-        "basis": 28.61,
-        "bxt_today": -9.73,
-        "ath": 45.92,
-        "pct_to_ath": 50.5,
-        "wk52_high": 45.92,
-        "wk52_low": 16.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MRP",
-        "name": "Millrose Properties, Inc.",
-        "mcap": 4.58,
-        "price": 28.9,
-        "basis": 28.52,
-        "bxt_today": 39.24,
-        "ath": 36.0,
-        "pct_to_ath": 24.6,
-        "wk52_high": 36.0,
-        "wk52_low": 26.3,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-10T06:19:33.360965+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "AMRZ",
-        "name": "Amrize Ltd Ordinary Shares",
-        "mcap": 27.94,
-        "price": 50.8,
-        "basis": 53.14,
-        "bxt_today": -5.0,
-        "ath": 65.94,
-        "pct_to_ath": 29.8,
-        "wk52_high": 65.94,
-        "wk52_low": 44.12,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "VG",
-        "name": "Venture Global, Inc. common stock",
-        "mcap": 33.81,
-        "price": 12.47,
-        "basis": 12.87,
-        "bxt_today": -4.53,
-        "ath": 24.0,
-        "pct_to_ath": 92.5,
-        "wk52_high": 19.5,
-        "wk52_low": 5.72,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 8.0,
-        "price": 146.58,
-        "basis": 150.79,
-        "bxt_today": -15.89,
-        "ath": 171.58,
-        "pct_to_ath": 17.1,
-        "wk52_high": 171.58,
-        "wk52_low": 58.0,
-        "ath_30d": 5
-      },
-      {
-        "sym": "BETA",
-        "name": "Beta Technologies, Inc.",
-        "mcap": 3.67,
-        "price": 16.47,
-        "basis": 16.83,
-        "bxt_today": -20.83,
-        "ath": 39.5,
-        "pct_to_ath": 139.8,
-        "wk52_high": 39.5,
-        "wk52_low": 13.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LB",
-        "name": "LandBridge Company LLC Shares Representing Limited Liability Company Interests",
-        "mcap": 2.13,
-        "price": 67.98,
-        "basis": 70.26,
-        "bxt_today": -32.09,
-        "ath": 87.6,
-        "pct_to_ath": 28.9,
-        "wk52_high": 85.6,
-        "wk52_low": 43.75,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "MDLN",
-        "name": "Medline Inc.",
-        "mcap": 31.66,
-        "price": 33.8,
-        "basis": 39.48,
-        "bxt_today": 6.17,
-        "ath": 50.88,
-        "pct_to_ath": 50.5,
-        "wk52_high": 50.88,
-        "wk52_low": 32.81,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 8.0,
-        "price": 152.73,
-        "basis": 150.24,
-        "bxt_today": 1.22,
-        "ath": 171.58,
-        "pct_to_ath": 12.3,
-        "wk52_high": 171.58,
-        "wk52_low": 58.0,
-        "ath_30d": 5
-      },
-      {
-        "sym": "ALH",
-        "name": "Alliance Laundry Holdings Inc.",
-        "mcap": 4.79,
-        "price": 25.77,
-        "basis": 24.95,
-        "bxt_today": 13.87,
-        "ath": 27.48,
-        "pct_to_ath": 6.6,
-        "wk52_high": 27.48,
-        "wk52_low": 18.64,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "GLXY",
-        "name": "Galaxy Digital Inc.",
-        "mcap": 5.61,
-        "price": 32.68,
-        "basis": 28.77,
-        "bxt_today": 11.0,
-        "ath": 45.92,
-        "pct_to_ath": 40.5,
-        "wk52_high": 45.92,
-        "wk52_low": 16.43,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "AMRZ",
-        "name": "Amrize Ltd Ordinary Shares",
-        "mcap": 27.94,
-        "price": 50.8,
-        "basis": 53.14,
-        "bxt_today": -5.0,
-        "ath": 65.94,
-        "pct_to_ath": 29.8,
-        "wk52_high": 65.94,
-        "wk52_low": 44.12,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SAIL",
-        "name": "SailPoint, Inc.",
-        "mcap": 8.48,
-        "price": 17.69,
-        "basis": 14.15,
-        "bxt_today": -12.71,
-        "ath": 26.35,
-        "pct_to_ath": 49.0,
-        "wk52_high": 24.95,
-        "wk52_low": 10.3,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "VG",
-        "name": "Venture Global, Inc. common stock",
-        "mcap": 33.81,
-        "price": 12.47,
-        "basis": 12.87,
-        "bxt_today": -4.53,
-        "ath": 24.0,
-        "pct_to_ath": 92.5,
-        "wk52_high": 19.5,
-        "wk52_low": 5.72,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FPS",
-        "name": "Forgent Power Solutions, Inc.",
-        "mcap": 11.74,
-        "price": 57.15,
-        "basis": 46.06,
-        "bxt_today": -3.91,
-        "ath": 65.56,
-        "pct_to_ath": 14.7,
-        "wk52_high": 65.56,
-        "wk52_low": 25.95,
-        "ath_30d": 12
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 8.0,
-        "price": 146.58,
-        "basis": 150.79,
-        "bxt_today": -15.89,
-        "ath": 171.58,
-        "pct_to_ath": 17.1,
-        "wk52_high": 171.58,
-        "wk52_low": 58.0,
-        "ath_30d": 5
-      },
-      {
-        "sym": "CHYM",
-        "name": "Chime Financial, Inc.",
-        "mcap": 6.74,
-        "price": 17.07,
-        "basis": 19.2,
-        "bxt_today": -5.65,
-        "ath": 44.94,
-        "pct_to_ath": 163.3,
-        "wk52_high": 44.94,
-        "wk52_low": 16.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "mcap": 5.82,
-        "price": 70.71,
-        "basis": 64.51,
-        "bxt_today": -5.22,
-        "ath": 131.33,
-        "pct_to_ath": 85.7,
-        "wk52_high": 119.99,
-        "wk52_low": 54.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AMTM",
-        "name": "Amentum Holdings, Inc.",
-        "mcap": 5.64,
-        "price": 22.51,
-        "basis": 24.16,
-        "bxt_today": -5.06,
-        "ath": 38.11,
-        "pct_to_ath": 69.3,
-        "wk52_high": 38.11,
-        "wk52_low": 21.11,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
