@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T21:04:21.335490+00:00",
+  "updated_at": "2026-06-11T22:55:42.564858+00:00",
   "count": 65,
   "list": [
     {
@@ -4975,19 +4975,5 @@
       "first_seen_at": "2026-06-11T21:04:21.335490+00:00"
     }
   ],
-  "added_this_run": [
-    "AIR",
-    "CATY",
-    "CSX",
-    "CW",
-    "HNGE",
-    "KLIC",
-    "LAUR",
-    "MRCY",
-    "RL",
-    "SNDK",
-    "SPHR",
-    "STLD",
-    "VOYA"
-  ]
+  "added_this_run": []
 }
