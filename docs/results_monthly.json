@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T23:43:57.756125+00:00",
+  "updated_at": "2026-06-11T02:05:43.912362+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.2,
+  "scan_seconds": 10.14,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2081,29 +2081,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "GPN",
-      "name": "Global Payments Inc.",
-      "mcap": 19.86,
-      "price": 62.47,
-      "basis": 95.42,
-      "bxt_today": -3.87,
-      "bxt_yest": 4.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.81,
-      "atl": 4.06,
-      "pct_to_ath": 253.5,
-      "pct_to_atl": 1437.7,
-      "wk52_high": 90.64,
-      "wk52_low": 62.24,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "DKS",
       "name": "Dick's Sporting Goods Inc",
       "mcap": 19.86,
@@ -2123,6 +2100,29 @@
       "pct_to_atl": 5394.4,
       "wk52_high": 237.75,
       "wk52_low": 170.73,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "GPN",
+      "name": "Global Payments Inc.",
+      "mcap": 19.86,
+      "price": 62.47,
+      "basis": 95.42,
+      "bxt_today": -3.87,
+      "bxt_yest": 4.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.81,
+      "atl": 4.06,
+      "pct_to_ath": 253.5,
+      "pct_to_atl": 1437.7,
+      "wk52_high": 90.64,
+      "wk52_low": 62.24,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3025,7 +3025,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-10T22:01:34.832228+00:00",
+    "compared_to": "2026-06-10T23:43:57.756125+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T23:44:25.050717+00:00",
-  "count": 47,
+  "updated_at": "2026-06-11T02:06:03.187440+00:00",
+  "count": 48,
   "list": [
     {
       "sym": "KO",
@@ -395,6 +395,24 @@
       "atl_30d": 0,
       "last_high": 53.82,
       "last_low": 52.54,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "GL",
+      "name": "Globe Life Inc.",
+      "mcap": 12.11,
+      "price": 162.52,
+      "ath": 163.5,
+      "atl": 2.7,
+      "pct_to_ath": 0.6,
+      "pct_to_atl": 5911.0,
+      "wk52_high": 163.5,
+      "wk52_low": 116.73,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 163.5,
+      "last_low": 159.81,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3815,25 +3833,6 @@
       "first_seen_at": "2026-06-09T16:18:14.970115+00:00"
     },
     {
-      "sym": "GL",
-      "name": "Globe Life Inc.",
-      "mcap": 12.11,
-      "price": 159.46,
-      "ath": 159.56,
-      "atl": 2.7,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 5797.6,
-      "wk52_high": 159.56,
-      "wk52_low": 116.73,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 159.56,
-      "last_low": 157.15,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-09T16:18:14.970115+00:00"
-    },
-    {
       "sym": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
       "mcap": 73.29,
@@ -4649,7 +4648,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-10T19:55:57.377346+00:00"
+    },
+    {
+      "sym": "GL",
+      "name": "Globe Life Inc.",
+      "mcap": 12.11,
+      "price": 162.52,
+      "ath": 163.5,
+      "atl": 2.7,
+      "pct_to_ath": 0.6,
+      "pct_to_atl": 5911.0,
+      "wk52_high": 163.5,
+      "wk52_low": 116.73,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 163.5,
+      "last_low": 159.81,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-11T02:06:03.187440+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "GL"
+  ]
 }
