@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-11T22:55:22.059219+00:00",
+  "updated_at": "2026-06-12T00:19:21.578145+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.54,
+  "scan_seconds": 21.54,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -9,9 +9,9 @@
       "name": "KLA Corporation",
       "mcap": 240.66,
       "price": 2411.64,
-      "basis": 521.13,
-      "bxt_today": 19.13,
-      "bxt_yest": -11.83,
+      "basis": 521.34,
+      "bxt_today": 19.51,
+      "bxt_yest": -11.26,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
@@ -427,9 +427,9 @@
       "name": "KLA Corporation",
       "mcap": 240.66,
       "price": 2411.64,
-      "basis": 521.13,
-      "bxt_today": 19.13,
-      "bxt_yest": -11.83,
+      "basis": 521.34,
+      "bxt_today": 19.51,
+      "bxt_yest": -11.26,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
@@ -2289,7 +2289,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-11T21:03:55.732745+00:00",
+    "compared_to": "2026-06-11T22:55:22.059219+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
