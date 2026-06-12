@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-12T09:12:32.219464+00:00",
+  "updated_at": "2026-06-12T12:32:39.277386+00:00",
   "timeframe": "daily",
-  "scan_seconds": 14.36,
+  "scan_seconds": 12.45,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5069,29 +5069,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SOBO",
-      "name": "South Bow Corporation Common Shares",
-      "mcap": 8.0,
-      "price": 37.76,
-      "basis": 36.04,
-      "bxt_today": 2.29,
-      "bxt_yest": -9.64,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 38.39,
-      "atl": 21.12,
-      "pct_to_ath": 1.7,
-      "pct_to_atl": 78.8,
-      "wk52_high": 38.39,
-      "wk52_low": 25.01,
-      "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
       "sym": "TKR",
       "name": "Timken Company (The)",
       "mcap": 8.0,
@@ -5112,6 +5089,29 @@
       "wk52_high": 139.77,
       "wk52_low": 69.26,
       "ath_30d": 12,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SOBO",
+      "name": "South Bow Corporation Common Shares",
+      "mcap": 8.0,
+      "price": 37.76,
+      "basis": 36.04,
+      "bxt_today": 2.29,
+      "bxt_yest": -9.64,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 38.39,
+      "atl": 21.12,
+      "pct_to_ath": 1.7,
+      "pct_to_atl": 78.8,
+      "wk52_high": 38.39,
+      "wk52_low": 25.01,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -7257,7 +7257,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-12T05:10:38.214447+00:00",
+    "compared_to": "2026-06-12T09:12:32.219464+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
