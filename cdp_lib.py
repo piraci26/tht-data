@@ -32,6 +32,13 @@ CDP_HTTP = "http://localhost:9222"
 CHART_API = "window.TradingViewApi._activeChartWidgetWV.value()"
 
 
+class TVCrashedError(RuntimeError):
+    """Raised when the CDP reconnect can't find a TradingView chart page.
+    This means TradingView Desktop itself died (not just the websocket).
+    Callers catch this to checkpoint progress and exit with a special code
+    so the wrapper can relaunch TV and resume the scan."""
+
+
 def load_universe(expected_threshold):
     if not os.path.exists(FILTERED):
         sys.exit(f"Missing {FILTERED}")
@@ -60,7 +67,10 @@ class CDPClient:
         self._connect()
 
     def _connect(self):
-        resp = urllib.request.urlopen(f"{CDP_HTTP}/json").read()
+        try:
+            resp = urllib.request.urlopen(f"{CDP_HTTP}/json", timeout=5).read()
+        except (urllib.error.URLError, OSError) as e:
+            raise TVCrashedError(f"CDP unreachable on {CDP_HTTP}: {e}")
         pages = json.loads(resp)
         chart = None
         for p in pages:
@@ -68,7 +78,10 @@ class CDPClient:
                 chart = p
                 break
         if chart is None:
-            sys.exit("No TradingView chart page found in CDP")
+            raise TVCrashedError(
+                "No TradingView chart page found in CDP "
+                f"(saw {len(pages)} pages but none on tradingview.com/chart/)"
+            )
         ws_url = chart['webSocketDebuggerUrl']
         self.ws = websocket.create_connection(ws_url, timeout=15, suppress_origin=True)
         print(f"Connected: {chart.get('title', '?')[:60]}")
@@ -100,6 +113,8 @@ class CDPClient:
                 if self.ws: self.ws.close()
             except Exception:
                 pass
+            # _connect() now raises TVCrashedError if TV itself is gone — we
+            # let that propagate so the scan can checkpoint + exit.
             self._connect()
             return self.evaluate(expression, timeout=timeout, _retried=True)
 

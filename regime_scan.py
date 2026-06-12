@@ -22,8 +22,15 @@ from cdp_lib import (
     CDPClient, set_timeframe, set_symbol, is_loading, read_lux,
     read_lux_all_panes, enumerate_panes, enable_symbol_sync,
     load_universe, load_names, load_mcaps,
+    TVCrashedError,
 )
 import supabase_client as sb  # no-op when SUPABASE_* env vars are unset
+
+# Exit code returned when TradingView Desktop dies mid-scan. The wrapper
+# script catches this and restarts TV, then re-runs with --resume.
+EXIT_TV_CRASHED = 87
+CHECKPOINT_PATH = os.path.join(HERE, "docs", "regime_state_checkpoint.json")
+CHECKPOINT_EVERY = 100  # tickers
 
 
 # TradingView returns resolutions like '1D', '1W', '1M', '720'. Map them to
@@ -142,7 +149,46 @@ def _parse_pane_record(p, names, mcaps):
     }
 
 
-def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set):
+def _save_checkpoint(by_tf, processed_syms, args_snapshot):
+    """Persist scan progress so a TV crash mid-run can be resumed."""
+    payload = {
+        "saved_at": datetime.now(timezone.utc).isoformat(),
+        "args": args_snapshot,
+        "processed_count": len(processed_syms),
+        "processed": list(processed_syms),
+        "by_tf": by_tf,
+    }
+    tmp = CHECKPOINT_PATH + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(payload, f)
+    os.replace(tmp, CHECKPOINT_PATH)
+
+
+def _load_checkpoint(args_snapshot):
+    """Return (by_tf_dict, processed_set) if a valid resumable checkpoint
+    exists for the same args; otherwise (None, None)."""
+    if not os.path.exists(CHECKPOINT_PATH):
+        return None, None
+    try:
+        d = json.load(open(CHECKPOINT_PATH))
+    except (json.JSONDecodeError, OSError):
+        return None, None
+    # Only resume if the args match — otherwise the old checkpoint is for
+    # a different universe / threshold / TF set and would corrupt this run.
+    if d.get("args") != args_snapshot:
+        return None, None
+    return d.get("by_tf") or {}, set(d.get("processed") or [])
+
+
+def _clear_checkpoint():
+    try:
+        os.remove(CHECKPOINT_PATH)
+    except FileNotFoundError:
+        pass
+
+
+def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set,
+                    resume_by_tf=None, resume_processed=None, args_snapshot=None):
     """Fast scan: relies on the TATA 4-pane layout with symbol sync ON.
     One chart_set_symbol per ticker propagates to every pane; one
     read_lux_all_panes() call returns D / W / M (and the 12H reference).
@@ -161,10 +207,21 @@ def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set):
     if missing:
         sys.exit(f"TATA layout missing panes for: {missing}. Got: {res_to_pane}")
 
+    # Seed from a previous checkpoint if resuming.
     by_tf = {tf: {} for tf in expected_tfs}
+    if resume_by_tf:
+        for tf in expected_tfs:
+            for sym, rec in (resume_by_tf.get(tf) or {}).items():
+                by_tf[tf][sym] = rec
+    processed = set(resume_processed or ())
+    if processed:
+        print(f"Resuming from checkpoint: {len(processed)} tickers already done")
+
     started = time.time()
 
     for i, sym in enumerate(tickers):
+        if sym in processed:
+            continue
         try:
             # One setSymbol updates ALL panes (symbol sync is on).
             r = sym_set(cdp, sym)
@@ -214,13 +271,25 @@ def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set):
                     "name": names.get(sym, ""),
                     "mcap": mcaps.get(sym, 0),
                 }
+            processed.add(sym)
 
             if (i + 1) % 25 == 0:
                 el = time.time() - started
-                rate = (i + 1) / el
-                left = (len(tickers) - i - 1) / rate
+                rate = (i + 1 - len(resume_processed or ())) / el if el else 0
+                left = (len(tickers) - i - 1) / rate if rate else 0
                 captured = sum(len(v) for v in by_tf.values())
                 print(f"  [multi] {i+1}/{len(tickers)}  elapsed {el:.0f}s ~{left:.0f}s left  total captured={captured}")
+
+            # Periodic checkpoint — survives TV crashes.
+            if (i + 1) % CHECKPOINT_EVERY == 0 and args_snapshot is not None:
+                _save_checkpoint(by_tf, processed, args_snapshot)
+        except TVCrashedError:
+            # Surface to caller — checkpoint is written below and the script
+            # exits with EXIT_TV_CRASHED so the wrapper can restart TV.
+            print(f"  [multi] TV CRASHED at ticker {i+1}/{len(tickers)} ({sym}) — writing checkpoint")
+            if args_snapshot is not None:
+                _save_checkpoint(by_tf, processed, args_snapshot)
+            raise
         except Exception as e:
             print(f"  {sym}: ERR {e}")
 
@@ -238,6 +307,10 @@ def main():
     ap.add_argument("--multi-pane", action="store_true",
                     help="Use the TATA 4-pane layout: one setSymbol cascades "
                          "to all panes (requires symbol sync ON). ~3x faster.")
+    ap.add_argument("--resume", action="store_true",
+                    help="Load docs/regime_state_checkpoint.json and skip "
+                         "tickers already captured there. Used by the wrapper "
+                         "to continue after a mid-scan TV crash.")
     args = ap.parse_args()
 
     tickers = load_universe(args.threshold)
@@ -246,6 +319,20 @@ def main():
     if args.limit:
         tickers = tickers[: args.limit]
     tfs = args.tfs.split(",")
+
+    # Identity tag for the checkpoint — only resume if the args match.
+    args_snapshot = {
+        "threshold": args.threshold, "limit": args.limit,
+        "tfs": tfs, "multi_pane": bool(args.multi_pane),
+        "universe_size": len(tickers),
+    }
+
+    resume_by_tf, resume_processed = (None, None)
+    if args.resume:
+        resume_by_tf, resume_processed = _load_checkpoint(args_snapshot)
+        if resume_by_tf is None:
+            print("--resume passed but no compatible checkpoint found; starting fresh")
+            resume_by_tf, resume_processed = ({}, set())
 
     mode = "multi-pane" if args.multi_pane else "single-pane"
     print(f"Regime scan ({mode}): {len(tickers)} tickers @ ${args.threshold}B × {len(tfs)} TFs ({','.join(tfs)})")
@@ -261,12 +348,29 @@ def main():
         if args.multi_pane:
             sync = enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False)
             print(f"Sync state: {sync}")
-            by_tf = scan_multi_pane(cdp, tickers, names, mcaps, tfs, args.wait, set_symbol)
+            by_tf = scan_multi_pane(cdp, tickers, names, mcaps, tfs, args.wait, set_symbol,
+                                    resume_by_tf=resume_by_tf,
+                                    resume_processed=resume_processed,
+                                    args_snapshot=args_snapshot)
         else:
             for tf in tfs:
                 by_tf[tf] = scan_one_tf(cdp, tickers, names, mcaps, tf, args.wait)
+    except TVCrashedError as e:
+        print(f"\nTV CRASHED: {e}")
+        print(f"Checkpoint saved at {CHECKPOINT_PATH}. Wrapper will restart TV and re-run with --resume.")
+        try:
+            cdp.close()
+        except Exception:
+            pass
+        sys.exit(EXIT_TV_CRASHED)
     finally:
-        cdp.close()
+        try:
+            cdp.close()
+        except Exception:
+            pass
+
+    # Successful completion — clear the checkpoint so the next run starts fresh.
+    _clear_checkpoint()
 
     finished_at = datetime.now(timezone.utc).isoformat()
     out = {

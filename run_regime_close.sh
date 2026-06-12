@@ -94,20 +94,48 @@ if ! ensure_cdp; then
   exit 78
 fi
 
-# ─── Scan ────────────────────────────────────────────────────────────────
+# ─── Scan with TV-crash retry loop ───────────────────────────────────────
+# TradingView Desktop occasionally crashes after a few thousand symbol
+# switches (June 10 + June 12 both died around the 25-min mark). regime_scan
+# now writes a checkpoint every 100 tickers and exits with code 87 if TV
+# dies. We catch that, restart TV via ensure_cdp, and resume — up to 3 attempts.
 PYTHON="$HOME/.homebrew/Caskroom/miniconda/base/bin/python3"
+EXIT_TV_CRASHED=87
+MAX_ATTEMPTS=3
+RESUME_FLAG=""
+STATUS_REGIME=1
 
-# Multi-pane mode: requires the TATA layout (4 panes: 1D / 1W / 1M / 12h)
-# with LuxAlgo Signals & Overlays + LuxAlgo Meta on every pane and symbol
-# sync enabled. TV defaults to the last-used layout, which is TATA after
-# our 2026-06-09 4-pane save. One chart_set_symbol cascades to all panes,
-# one read_lux_all_panes returns D/W/M data — ~3x faster than the
-# single-pane scan (1470 tickers in ~40 min instead of ~3-4 hours).
-#
-# If the active layout isn't TATA-shaped, regime_scan exits fast with a
-# clear error and STATUS_REGIME != 0.
-caffeinate -is "$PYTHON" regime_scan.py --threshold 3.5 --tfs D,W,M --wait 1.2 --multi-pane
-STATUS_REGIME=$?
+for attempt in 1 2 3; do
+  echo "  [attempt $attempt/$MAX_ATTEMPTS] regime_scan ${RESUME_FLAG}"
+  set +e
+  caffeinate -is "$PYTHON" regime_scan.py --threshold 3.5 --tfs D,W,M --wait 1.2 --multi-pane $RESUME_FLAG
+  STATUS_REGIME=$?
+  set -e
+
+  if [ $STATUS_REGIME -eq 0 ]; then
+    echo "  scan completed cleanly on attempt $attempt"
+    break
+  fi
+
+  if [ $STATUS_REGIME -eq $EXIT_TV_CRASHED ] && [ $attempt -lt $MAX_ATTEMPTS ]; then
+    notify "TV CRASHED" "attempt $attempt died, restarting TradingView and resuming"
+    echo "  TV crashed (exit 87) — restarting TV and resuming on attempt $((attempt+1))"
+    # Force a TV restart by killing it, ensure_cdp will relaunch with the flag.
+    /usr/bin/osascript -e 'quit app "TradingView"' >/dev/null 2>&1 || true
+    sleep 6
+    pkill -9 -f "/Applications/TradingView.app/Contents/MacOS/TradingView" 2>/dev/null || true
+    sleep 4
+    if ! ensure_cdp; then
+      echo "  could not bring TV back up — giving up"
+      break
+    fi
+    RESUME_FLAG="--resume"
+    continue
+  fi
+
+  echo "  scan failed with exit $STATUS_REGIME (not retriable) — giving up"
+  break
+done
 
 # Always run the classifier even if the scan partially failed — it'll work
 # off whatever made it into docs/regime_state.json.

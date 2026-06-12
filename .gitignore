@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 logs/
 .env
+docs/regime_state_checkpoint.json
