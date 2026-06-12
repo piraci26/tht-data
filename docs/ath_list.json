@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T22:02:16.367881+00:00",
-  "count": 91,
+  "updated_at": "2026-06-12T23:42:17.799715+00:00",
+  "count": 92,
   "list": [
     {
       "sym": "LRCX",
@@ -179,6 +179,24 @@
       "atl_30d": 0,
       "last_high": 403.25,
       "last_low": 396.98,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 143.98,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": -1.6,
+      "pct_to_atl": 8592.9,
+      "wk52_high": 145.02,
+      "wk52_low": 87.41,
+      "ath_30d": 7,
+      "atl_30d": 0,
+      "last_high": 145.02,
+      "last_low": 142.65,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -507,24 +525,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PFG",
-      "name": "Principal Financial Group Inc",
-      "mcap": 22.45,
-      "price": 111.11,
-      "ath": 111.51,
-      "atl": 5.41,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 1953.9,
-      "wk52_high": 111.51,
-      "wk52_low": 75.0,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 111.51,
-      "last_low": 109.86,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "WSM",
       "name": "Williams-Sonoma, Inc. (DE)",
       "mcap": 22.45,
@@ -539,6 +539,24 @@
       "atl_30d": 0,
       "last_high": 224.33,
       "last_low": 218.73,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "PFG",
+      "name": "Principal Financial Group Inc",
+      "mcap": 22.45,
+      "price": 111.11,
+      "ath": 111.51,
+      "atl": 5.41,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 1953.9,
+      "wk52_high": 111.51,
+      "wk52_low": 75.0,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 111.51,
+      "last_low": 109.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3201,25 +3219,6 @@
       "first_seen_at": "2026-06-04T20:20:24.998117+00:00"
     },
     {
-      "sym": "BK",
-      "name": "The Bank of New York Mellon Corporation",
-      "mcap": 94.14,
-      "price": 144.02,
-      "ath": 141.65,
-      "atl": 1.66,
-      "pct_to_ath": -1.6,
-      "pct_to_atl": 8595.3,
-      "wk52_high": 144.98,
-      "wk52_low": 87.41,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 144.98,
-      "last_low": 140.31,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-05T01:32:08.793144+00:00"
-    },
-    {
       "sym": "AGX",
       "name": "Argan, Inc.",
       "mcap": 8.95,
@@ -5441,9 +5440,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-12T22:02:16.367881+00:00"
+    },
+    {
+      "sym": "BK",
+      "name": "The Bank of New York Mellon Corporation",
+      "mcap": 94.14,
+      "price": 143.98,
+      "ath": 141.65,
+      "atl": 1.66,
+      "pct_to_ath": -1.6,
+      "pct_to_atl": 8592.9,
+      "wk52_high": 145.02,
+      "wk52_low": 87.41,
+      "ath_30d": 7,
+      "atl_30d": 0,
+      "last_high": 145.02,
+      "last_low": 142.65,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-12T23:42:17.799715+00:00"
     }
   ],
   "added_this_run": [
-    "AIZ"
+    "BK"
   ]
 }

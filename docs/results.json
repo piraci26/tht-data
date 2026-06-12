@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-12T22:01:35.302462+00:00",
+  "updated_at": "2026-06-12T23:41:39.028486+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.83,
+  "scan_seconds": 10.39,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5486,151 +5486,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-12T20:12:24.535427+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CHH",
-        "name": "Choice Hotels International, Inc.",
-        "mcap": 5.08,
-        "price": 109.56,
-        "basis": 108.31,
-        "bxt_today": -3.33,
-        "ath": 157.86,
-        "pct_to_ath": 44.1,
-        "wk52_high": 136.45,
-        "wk52_low": 84.04,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CET",
-        "name": "Central Securities Corporation",
-        "mcap": 1.56,
-        "price": 53.18,
-        "basis": 53.04,
-        "bxt_today": -0.7,
-        "ath": 54.28,
-        "pct_to_ath": 2.1,
-        "wk52_high": 54.28,
-        "wk52_low": 46.47,
-        "ath_30d": 3
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "BTI",
-        "name": "British American Tobacco  Industries, p.l.c. ADR",
-        "mcap": 142.29,
-        "price": 62.35,
-        "basis": 61.59,
-        "bxt_today": 14.97,
-        "ath": 73.41,
-        "pct_to_ath": 17.7,
-        "wk52_high": 67.3,
-        "wk52_low": 46.38,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.0,
-        "basis": 64.26,
-        "bxt_today": 11.97,
-        "ath": 73.0,
-        "pct_to_ath": 14.1,
-        "wk52_high": 65.85,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-12T22:01:35.302462+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "VIK",
-        "name": "Viking Holdings Ltd Ordinary Shares",
-        "mcap": 37.19,
-        "price": 92.25,
-        "basis": 85.96,
-        "bxt_today": 0.24,
-        "ath": 94.95,
-        "pct_to_ath": 2.9,
-        "wk52_high": 94.95,
-        "wk52_low": 46.06,
-        "ath_30d": 4
-      },
-      {
-        "sym": "JHG",
-        "name": "Janus Henderson Group plc Ordinary Shares",
-        "mcap": 7.97,
-        "price": 51.84,
-        "basis": 51.73,
-        "bxt_today": 2.81,
-        "ath": 53.76,
-        "pct_to_ath": 3.7,
-        "wk52_high": 53.76,
-        "wk52_low": 35.76,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "OC",
-        "name": "Owens Corning Inc New",
-        "mcap": 9.33,
-        "price": 121.52,
-        "basis": 119.98,
-        "bxt_today": 0.2,
-        "ath": 214.53,
-        "pct_to_ath": 76.5,
-        "wk52_high": 159.42,
-        "wk52_low": 97.53,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ETSY",
-        "name": "Etsy, Inc.",
-        "mcap": 5.78,
-        "price": 69.48,
-        "basis": 64.26,
-        "bxt_today": -0.29,
-        "ath": 307.75,
-        "pct_to_ath": 342.9,
-        "wk52_high": 76.51,
-        "wk52_low": 44.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HIMS",
-        "name": "Hims & Hers Health, Inc.",
-        "mcap": 5.49,
-        "price": 26.82,
-        "basis": 26.07,
-        "bxt_today": -0.04,
-        "ath": 72.98,
-        "pct_to_ath": 172.1,
-        "wk52_high": 70.43,
-        "wk52_low": 13.74,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "DOCS",
-        "name": "Doximity, Inc.",
-        "mcap": 3.55,
-        "price": 20.03,
-        "basis": 22.01,
-        "bxt_today": -0.0,
-        "ath": 107.79,
-        "pct_to_ath": 438.1,
-        "wk52_high": 76.51,
-        "wk52_low": 17.15,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
