@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-12T05:10:38.214447+00:00",
+  "updated_at": "2026-06-12T09:12:32.219464+00:00",
   "timeframe": "daily",
-  "scan_seconds": 19.89,
+  "scan_seconds": 14.36,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5069,29 +5069,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "TKR",
-      "name": "Timken Company (The)",
-      "mcap": 8.0,
-      "price": 137.4,
-      "basis": 120.32,
-      "bxt_today": 2.17,
-      "bxt_yest": -3.62,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 139.77,
-      "atl": 7.07,
-      "pct_to_ath": 1.7,
-      "pct_to_atl": 1843.8,
-      "wk52_high": 139.77,
-      "wk52_low": 69.26,
-      "ath_30d": 12,
-      "atl_30d": 0
-    },
-    {
       "sym": "SOBO",
       "name": "South Bow Corporation Common Shares",
       "mcap": 8.0,
@@ -5112,6 +5089,29 @@
       "wk52_high": 38.39,
       "wk52_low": 25.01,
       "ath_30d": 11,
+      "atl_30d": 0
+    },
+    {
+      "sym": "TKR",
+      "name": "Timken Company (The)",
+      "mcap": 8.0,
+      "price": 137.4,
+      "basis": 120.32,
+      "bxt_today": 2.17,
+      "bxt_yest": -3.62,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 139.77,
+      "atl": 7.07,
+      "pct_to_ath": 1.7,
+      "pct_to_atl": 1843.8,
+      "wk52_high": 139.77,
+      "wk52_low": 69.26,
+      "ath_30d": 12,
       "atl_30d": 0
     },
     {
@@ -7257,37 +7257,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-12T00:18:26.228656+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 62,
-        "price": 65.28,
-        "basis": 64.27,
-        "bxt_today": 24.66,
-        "ath": 73.0,
-        "pct_to_ath": 11.8,
-        "wk52_high": 65.85,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "KLAC",
-        "name": "KLA Corporation",
-        "mcap": 240.66,
-        "price": 2411.64,
-        "basis": 1726.04,
-        "bxt_today": -1.23,
-        "ath": 2431.29,
-        "pct_to_ath": 0.8,
-        "wk52_high": 2431.29,
-        "wk52_low": 199.55,
-        "ath_30d": 5
-      }
-    ],
+    "compared_to": "2026-06-12T05:10:38.214447+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],

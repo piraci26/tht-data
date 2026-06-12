@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T05:11:48.834528+00:00",
-  "count": 64,
+  "updated_at": "2026-06-12T09:13:22.599668+00:00",
+  "count": 65,
   "list": [
     {
       "sym": "ASML",
@@ -917,6 +917,24 @@
       "atl_30d": 0,
       "last_high": 24.5,
       "last_low": 22.03,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "SPHR",
+      "name": "Sphere Entertainment Co.",
+      "mcap": 4.64,
+      "price": 150.77,
+      "ath": 151.94,
+      "atl": 18.0,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 737.4,
+      "wk52_high": 151.94,
+      "wk52_low": 37.89,
+      "ath_30d": 4,
+      "atl_30d": 0,
+      "last_high": 151.94,
+      "last_low": 142.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4862,25 +4880,6 @@
       "first_seen_at": "2026-06-11T21:04:21.335490+00:00"
     },
     {
-      "sym": "SPHR",
-      "name": "Sphere Entertainment Co.",
-      "mcap": 4.64,
-      "price": 150.77,
-      "ath": 151.94,
-      "atl": 18.0,
-      "pct_to_ath": 0.8,
-      "pct_to_atl": 737.4,
-      "wk52_high": 151.94,
-      "wk52_low": 37.89,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 151.94,
-      "last_low": 143.5,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-11T21:04:21.335490+00:00"
-    },
-    {
       "sym": "STLD",
       "name": "Steel Dynamics, Inc.",
       "mcap": 33.41,
@@ -4955,10 +4954,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-12T05:11:48.834528+00:00"
+    },
+    {
+      "sym": "SPHR",
+      "name": "Sphere Entertainment Co.",
+      "mcap": 4.64,
+      "price": 150.77,
+      "ath": 151.94,
+      "atl": 18.0,
+      "pct_to_ath": 0.8,
+      "pct_to_atl": 737.4,
+      "wk52_high": 151.94,
+      "wk52_low": 37.89,
+      "ath_30d": 4,
+      "atl_30d": 0,
+      "last_high": 151.94,
+      "last_low": 142.0,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-12T09:13:22.599668+00:00"
     }
   ],
   "added_this_run": [
-    "BMO",
-    "KNX"
+    "SPHR"
   ]
 }
