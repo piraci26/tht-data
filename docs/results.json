@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T06:11:41.982603+00:00",
+  "updated_at": "2026-06-13T09:34:46.473662+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.55,
+  "scan_seconds": 12.12,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -846,12 +846,12 @@
       "bxt_r": false,
       "fvb_streak": 81,
       "bxt_streak": null,
-      "ath": 90.89,
-      "atl": 2.47,
-      "pct_to_ath": 163.4,
-      "pct_to_atl": 1299.1,
-      "wk52_high": 55.13,
-      "wk52_low": 31.75,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5186,29 +5186,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "TKR",
-      "name": "Timken Company (The)",
-      "mcap": 8.0,
-      "price": 137.06,
-      "basis": 121.21,
-      "bxt_today": -1.05,
-      "bxt_yest": 2.17,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 139.77,
-      "atl": 7.07,
-      "pct_to_ath": 2.0,
-      "pct_to_atl": 1839.0,
-      "wk52_high": 139.77,
-      "wk52_low": 69.26,
-      "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
       "sym": "HALO",
       "name": "Halozyme Therapeutics, Inc.",
       "mcap": 8.0,
@@ -5229,6 +5206,29 @@
       "wk52_high": 82.22,
       "wk52_low": 51.06,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "TKR",
+      "name": "Timken Company (The)",
+      "mcap": 8.0,
+      "price": 137.06,
+      "basis": 121.21,
+      "bxt_today": -1.05,
+      "bxt_yest": 2.17,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 139.77,
+      "atl": 7.07,
+      "pct_to_ath": 2.0,
+      "pct_to_atl": 1839.0,
+      "wk52_high": 139.77,
+      "wk52_low": 69.26,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -5486,7 +5486,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T01:53:29.533245+00:00",
+    "compared_to": "2026-06-13T06:11:41.982603+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

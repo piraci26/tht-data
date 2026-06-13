@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T06:12:51.176160+00:00",
+  "updated_at": "2026-06-13T09:35:26.081427+00:00",
   "count": 91,
   "list": [
     {
@@ -507,24 +507,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PFG",
-      "name": "Principal Financial Group Inc",
-      "mcap": 22.45,
-      "price": 111.12,
-      "ath": 111.51,
-      "atl": 5.41,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 1954.0,
-      "wk52_high": 111.51,
-      "wk52_low": 75.0,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 111.51,
-      "last_low": 109.86,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "WSM",
       "name": "Williams-Sonoma, Inc. (DE)",
       "mcap": 22.45,
@@ -539,6 +521,24 @@
       "atl_30d": 0,
       "last_high": 224.33,
       "last_low": 218.7,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "PFG",
+      "name": "Principal Financial Group Inc",
+      "mcap": 22.45,
+      "price": 111.12,
+      "ath": 111.51,
+      "atl": 5.41,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 1954.0,
+      "wk52_high": 111.51,
+      "wk52_low": 75.0,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 111.51,
+      "last_low": 109.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -5443,14 +5443,5 @@
       "first_seen_at": "2026-06-13T06:12:51.176160+00:00"
     }
   ],
-  "added_this_run": [
-    "ALAB",
-    "CRDO",
-    "LLYVK",
-    "PRM",
-    "SPHR",
-    "TBBB",
-    "TIGO",
-    "VIK"
-  ]
+  "added_this_run": []
 }
