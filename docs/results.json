@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-12T23:41:39.028486+00:00",
+  "updated_at": "2026-06-13T01:53:29.533245+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.39,
-  "scanned_count": 1511,
+  "scan_seconds": 12.32,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "HSBC",
@@ -2644,13 +2644,13 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 7,
-      "ath": 94.95,
+      "ath": 94.99,
       "atl": 25.71,
-      "pct_to_ath": 2.9,
+      "pct_to_ath": 3.0,
       "pct_to_atl": 258.8,
       "wk52_high": 94.95,
       "wk52_low": 46.06,
-      "ath_30d": 4,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -5486,7 +5486,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-12T22:01:35.302462+00:00",
+    "compared_to": "2026-06-12T23:41:39.028486+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

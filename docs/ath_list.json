@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T23:42:17.799715+00:00",
-  "count": 92,
+  "updated_at": "2026-06-13T01:54:13.092818+00:00",
+  "count": 83,
   "list": [
     {
       "sym": "LRCX",
@@ -53,24 +53,6 @@
       "atl_30d": 0,
       "last_high": 201.74,
       "last_low": 199.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "KLAC",
-      "name": "KLA Corporation",
-      "mcap": 240.66,
-      "price": 254.54,
-      "ath": 254.92,
-      "atl": 0.06,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 423216.1,
-      "wk52_high": 254.92,
-      "wk52_low": 83.22,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 254.92,
-      "last_low": 236.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -327,24 +309,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "mcap": 51.05,
-      "price": 367.15,
-      "ath": 390.99,
-      "atl": 36.22,
-      "pct_to_ath": 6.5,
-      "pct_to_atl": 913.8,
-      "wk52_high": 390.99,
-      "wk52_low": 84.78,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 390.99,
-      "last_low": 360.06,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "STT",
       "name": "State Street Corporation",
       "mcap": 42.63,
@@ -413,42 +377,6 @@
       "atl_30d": 0,
       "last_high": 93.1,
       "last_low": 89.95,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "VIK",
-      "name": "Viking Holdings Ltd Ordinary Shares",
-      "mcap": 37.19,
-      "price": 92.25,
-      "ath": 94.95,
-      "atl": 25.71,
-      "pct_to_ath": 2.9,
-      "pct_to_atl": 258.8,
-      "wk52_high": 94.95,
-      "wk52_low": 46.06,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 94.95,
-      "last_low": 91.94,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CRDO",
-      "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-      "mcap": 35.69,
-      "price": 250.81,
-      "ath": 270.21,
-      "atl": 7.2,
-      "pct_to_ath": 7.7,
-      "pct_to_atl": 3385.9,
-      "wk52_high": 270.21,
-      "wk52_low": 70.78,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 270.21,
-      "last_low": 241.12,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -525,24 +453,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "WSM",
-      "name": "Williams-Sonoma, Inc. (DE)",
-      "mcap": 22.45,
-      "price": 223.54,
-      "ath": 224.33,
-      "atl": 0.14,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 155100.5,
-      "wk52_high": 224.33,
-      "wk52_low": 152.2,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 224.33,
-      "last_low": 218.73,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PFG",
       "name": "Principal Financial Group Inc",
       "mcap": 22.45,
@@ -557,6 +467,24 @@
       "atl_30d": 0,
       "last_high": 111.51,
       "last_low": 109.86,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "WSM",
+      "name": "Williams-Sonoma, Inc. (DE)",
+      "mcap": 22.45,
+      "price": 223.54,
+      "ath": 224.33,
+      "atl": 0.14,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 155100.5,
+      "wk52_high": 224.33,
+      "wk52_low": 152.2,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 224.33,
+      "last_low": 218.73,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -737,24 +665,6 @@
       "atl_30d": 0,
       "last_high": 588.4,
       "last_low": 556.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "TIGO",
-      "name": "Millicom International Cellular S.A.",
-      "mcap": 14.54,
-      "price": 93.77,
-      "ath": 94.22,
-      "atl": 10.22,
-      "pct_to_ath": 0.5,
-      "pct_to_atl": 817.5,
-      "wk52_high": 94.22,
-      "wk52_low": 35.62,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 94.22,
-      "last_low": 91.23,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -971,24 +881,6 @@
       "atl_30d": 0,
       "last_high": 284.04,
       "last_low": 279.05,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9.06,
-      "price": 100.81,
-      "ath": 103.66,
-      "atl": 29.63,
-      "pct_to_ath": 2.8,
-      "pct_to_atl": 240.2,
-      "wk52_high": 103.66,
-      "wk52_low": 73.1,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "last_high": 103.66,
-      "last_low": 100.06,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1317,24 +1209,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PRM",
-      "name": "Perimeter Solutions, SA",
-      "mcap": 5.14,
-      "price": 35.47,
-      "ath": 36.0,
-      "atl": 2.79,
-      "pct_to_ath": 1.5,
-      "pct_to_atl": 1171.3,
-      "wk52_high": 36.0,
-      "wk52_low": 13.05,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 36.0,
-      "last_low": 34.93,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PSMT",
       "name": "PriceSmart, Inc.",
       "mcap": 5.05,
@@ -1349,24 +1223,6 @@
       "atl_30d": 0,
       "last_high": 183.19,
       "last_low": 180.52,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "SPHR",
-      "name": "Sphere Entertainment Co.",
-      "mcap": 4.64,
-      "price": 153.25,
-      "ath": 154.5,
-      "atl": 18.0,
-      "pct_to_ath": 0.8,
-      "pct_to_atl": 751.2,
-      "wk52_high": 154.5,
-      "wk52_low": 37.89,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 154.5,
-      "last_low": 148.34,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1439,24 +1295,6 @@
       "atl_30d": 0,
       "last_high": 50.71,
       "last_low": 49.94,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "TBBB",
-      "name": "BBB Foods Inc. Common Shares",
-      "mcap": 4.37,
-      "price": 42.12,
-      "ath": 42.7,
-      "atl": 18.71,
-      "pct_to_ath": 1.4,
-      "pct_to_atl": 125.1,
-      "wk52_high": 42.7,
-      "wk52_low": 23.81,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 42.7,
-      "last_low": 41.69,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -5461,7 +5299,5 @@
       "first_seen_at": "2026-06-12T23:42:17.799715+00:00"
     }
   ],
-  "added_this_run": [
-    "BK"
-  ]
+  "added_this_run": []
 }
