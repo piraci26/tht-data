@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-13T09:35:09.117031+00:00",
+  "updated_at": "2026-06-13T11:31:41.616164+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.86,
-  "scanned_count": 1510,
+  "scan_seconds": 13.42,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -1667,6 +1667,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "PS",
+      "name": "Pershing Square Inc.",
+      "mcap": 14.7,
+      "price": 33.55,
+      "basis": 33.35,
+      "bxt_today": -0.11,
+      "bxt_yest": 11.68,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 54.94,
+      "atl": 22.01,
+      "pct_to_ath": 63.8,
+      "pct_to_atl": 52.4,
+      "wk52_high": 54.94,
+      "wk52_low": 22.01,
+      "ath_30d": 3,
+      "atl_30d": 0
+    },
+    {
       "sym": "AUR",
       "name": "Aurora Innovation, Inc.",
       "mcap": 14.01,
@@ -2105,15 +2128,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T06:12:19.164011+00:00",
+    "compared_to": "2026-06-13T09:35:09.117031+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "PS",
         "name": "Pershing Square Inc.",
@@ -2127,6 +2149,7 @@
         "wk52_low": 22.01,
         "ath_30d": 3
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
