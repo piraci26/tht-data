@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T19:48:55.399054+00:00",
+  "updated_at": "2026-06-13T20:57:10.626553+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.95,
+  "scan_seconds": 8.13,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2128,7 +2128,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T18:00:18.584505+00:00",
+    "compared_to": "2026-06-13T19:48:55.399054+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2136,20 +2136,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "KLAC",
-        "name": "KLA Corporation",
-        "mcap": 240.66,
-        "price": 254.54,
-        "basis": 216.96,
-        "bxt_today": -10.3,
-        "ath": 2262.82,
-        "pct_to_ath": 789.0,
-        "wk52_high": 254.93,
-        "wk52_low": 83.22,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
