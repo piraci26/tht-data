@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-13T11:31:25.971583+00:00",
+  "updated_at": "2026-06-13T13:10:01.375328+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.77,
-  "scanned_count": 1511,
+  "scan_seconds": 11.95,
+  "scanned_count": 1510,
   "fvb_green": [],
   "fvb_red": [
     {
@@ -2311,39 +2311,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T09:34:58.918476+00:00",
+    "compared_to": "2026-06-13T11:31:25.971583+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "SNN",
-        "name": "Smith & Nephew SNATS, Inc.",
-        "mcap": 13.11,
-        "price": 30.57,
-        "basis": 32.77,
-        "bxt_today": 2.58,
-        "ath": 52.26,
-        "pct_to_ath": 71.0,
-        "wk52_high": 38.79,
-        "wk52_low": 28.4,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PLNT",
-        "name": "Planet Fitness, Inc.",
-        "mcap": 4.01,
-        "price": 51.01,
-        "basis": 83.34,
-        "bxt_today": 8.35,
-        "ath": 114.47,
-        "pct_to_ath": 124.4,
-        "wk52_high": 114.47,
-        "wk52_low": 37.03,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T11:32:10.764012+00:00",
+  "updated_at": "2026-06-13T13:10:30.655524+00:00",
   "count": 91,
   "list": [
     {
@@ -507,24 +507,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "WSM",
-      "name": "Williams-Sonoma, Inc. (DE)",
-      "mcap": 22.45,
-      "price": 223.54,
-      "ath": 224.33,
-      "atl": 0.14,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 155100.5,
-      "wk52_high": 224.33,
-      "wk52_low": 152.2,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 224.33,
-      "last_low": 218.7,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PFG",
       "name": "Principal Financial Group Inc",
       "mcap": 22.45,
@@ -539,6 +521,24 @@
       "atl_30d": 0,
       "last_high": 111.51,
       "last_low": 109.86,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "WSM",
+      "name": "Williams-Sonoma, Inc. (DE)",
+      "mcap": 22.45,
+      "price": 223.54,
+      "ath": 224.33,
+      "atl": 0.14,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 155100.5,
+      "wk52_high": 224.33,
+      "wk52_low": 152.2,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 224.33,
+      "last_low": 218.7,
       "made_ath_today": true,
       "made_atl_today": false
     },

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-13T11:31:41.616164+00:00",
+  "updated_at": "2026-06-13T13:10:12.911151+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.42,
-  "scanned_count": 1511,
+  "scan_seconds": 9.28,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -1299,6 +1299,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "KLAC",
+      "name": "KLA Corporation",
+      "mcap": 240.66,
+      "price": 254.54,
+      "basis": 368.0,
+      "bxt_today": -10.33,
+      "bxt_yest": 2.44,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 2262.82,
+      "atl": 0.6,
+      "pct_to_ath": 789.0,
+      "pct_to_atl": 42030.7,
+      "wk52_high": 254.93,
+      "wk52_low": 83.22,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "SCHW",
       "name": "Charles Schwab Corporation (The)",
       "mcap": 157.11,
@@ -2128,7 +2151,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T09:35:09.117031+00:00",
+    "compared_to": "2026-06-13T11:31:41.616164+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2137,17 +2160,17 @@
     "bxt_green_removed": [],
     "bxt_red_added": [
       {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 14.7,
-        "price": 33.55,
-        "basis": 33.35,
-        "bxt_today": -0.11,
-        "ath": 54.94,
-        "pct_to_ath": 63.8,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 3
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 240.66,
+        "price": 254.54,
+        "basis": 368.0,
+        "bxt_today": -10.33,
+        "ath": 2262.82,
+        "pct_to_ath": 789.0,
+        "wk52_high": 254.93,
+        "wk52_low": 83.22,
+        "ath_30d": 0
       }
     ],
     "bxt_red_removed": []
