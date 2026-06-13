@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T18:00:18.584505+00:00",
+  "updated_at": "2026-06-13T19:48:55.399054+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.13,
+  "scan_seconds": 10.95,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1299,29 +1299,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "KLAC",
-      "name": "KLA Corporation",
-      "mcap": 240.66,
-      "price": 254.54,
-      "basis": 216.96,
-      "bxt_today": -10.3,
-      "bxt_yest": 4.32,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 2262.82,
-      "atl": 0.14,
-      "pct_to_ath": 789.0,
-      "pct_to_atl": 176971.3,
-      "wk52_high": 254.93,
-      "wk52_low": 83.22,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SCHW",
       "name": "Charles Schwab Corporation (The)",
       "mcap": 157.11,
@@ -2151,7 +2128,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T16:46:45.219939+00:00",
+    "compared_to": "2026-06-13T18:00:18.584505+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2159,6 +2136,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "KLAC",
+        "name": "KLA Corporation",
+        "mcap": 240.66,
+        "price": 254.54,
+        "basis": 216.96,
+        "bxt_today": -10.3,
+        "ath": 2262.82,
+        "pct_to_ath": 789.0,
+        "wk52_high": 254.93,
+        "wk52_low": 83.22,
+        "ath_30d": 0
+      }
+    ]
   }
 }
