@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T15:10:17.379312+00:00",
+  "updated_at": "2026-06-13T16:46:45.219939+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.51,
+  "scan_seconds": 15.01,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -676,29 +676,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SARO",
-      "name": "StandardAero, Inc.",
-      "mcap": 8.0,
-      "price": 26.91,
-      "basis": 25.91,
-      "bxt_today": 9.01,
-      "bxt_yest": -10.61,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 8,
-      "bxt_streak": 8,
-      "ath": 34.48,
-      "atl": 21.31,
-      "pct_to_ath": 28.1,
-      "pct_to_atl": 26.3,
-      "wk52_high": 34.48,
-      "wk52_low": 23.83,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "REXR",
       "name": "Rexford Industrial Realty, Inc.",
       "mcap": 8.0,
@@ -718,6 +695,29 @@
       "pct_to_atl": 189.0,
       "wk52_high": 44.38,
       "wk52_low": 32.14,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 8.0,
+      "price": 26.91,
+      "basis": 25.91,
+      "bxt_today": 9.01,
+      "bxt_yest": -10.61,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 8,
+      "bxt_streak": 8,
+      "ath": 34.48,
+      "atl": 21.31,
+      "pct_to_ath": 28.1,
+      "pct_to_atl": 26.3,
+      "wk52_high": 34.48,
+      "wk52_low": 23.83,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2151,7 +2151,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T13:10:12.911151+00:00",
+    "compared_to": "2026-06-13T15:10:17.379312+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
