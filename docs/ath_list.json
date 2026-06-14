@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T23:25:17.181785+00:00",
-  "count": 91,
+  "updated_at": "2026-06-14T01:40:53.964153+00:00",
+  "count": 92,
   "list": [
     {
       "sym": "LRCX",
@@ -17,6 +17,24 @@
       "atl_30d": 0,
       "last_high": 373.82,
       "last_low": 354.89,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "mcap": 339.23,
+      "price": 567.25,
+      "ath": 569.95,
+      "atl": 0.12,
+      "pct_to_ath": 0.5,
+      "pct_to_atl": 453700.0,
+      "wk52_high": 569.95,
+      "wk52_low": 154.47,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 569.95,
+      "last_low": 544.07,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3657,25 +3675,6 @@
       "first_seen_at": "2026-06-10T14:01:04.902922+00:00"
     },
     {
-      "sym": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "mcap": 339.23,
-      "price": 501.26,
-      "ath": 534.44,
-      "atl": 0.12,
-      "pct_to_ath": 6.6,
-      "pct_to_atl": 400904.0,
-      "wk52_high": 534.44,
-      "wk52_low": 154.47,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 534.44,
-      "last_low": 495.02,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-06-10T17:29:10.907435+00:00"
-    },
-    {
       "sym": "ATI",
       "name": "ATI Inc.",
       "mcap": 21.84,
@@ -5441,7 +5440,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-06-13T19:49:18.860242+00:00"
+    },
+    {
+      "sym": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "mcap": 339.23,
+      "price": 567.25,
+      "ath": 569.95,
+      "atl": 0.12,
+      "pct_to_ath": 0.5,
+      "pct_to_atl": 453700.0,
+      "wk52_high": 569.95,
+      "wk52_low": 154.47,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 569.95,
+      "last_low": 544.07,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-06-14T01:40:53.964153+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "AMAT"
+  ]
 }
