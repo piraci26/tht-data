@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-14T01:40:10.760395+00:00",
+  "updated_at": "2026-06-14T06:20:36.411400+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.9,
+  "scan_seconds": 13.85,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -695,29 +695,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SYF",
-      "name": "Synchrony Financial",
-      "mcap": 24.15,
-      "price": 73.36,
-      "basis": 72.19,
-      "bxt_today": 27.48,
-      "bxt_yest": 17.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 23,
-      "bxt_streak": null,
-      "ath": 88.77,
-      "atl": 12.15,
-      "pct_to_ath": 21.0,
-      "pct_to_atl": 503.8,
-      "wk52_high": 88.77,
-      "wk52_low": 59.46,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "AWK",
       "name": "American Water Works Company, Inc.",
       "mcap": 24.15,
@@ -737,6 +714,29 @@
       "pct_to_atl": 678.7,
       "wk52_high": 147.87,
       "wk52_low": 120.57,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SYF",
+      "name": "Synchrony Financial",
+      "mcap": 24.15,
+      "price": 73.36,
+      "basis": 72.19,
+      "bxt_today": 27.48,
+      "bxt_yest": 17.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 23,
+      "bxt_streak": null,
+      "ath": 88.77,
+      "atl": 12.15,
+      "pct_to_ath": 21.0,
+      "pct_to_atl": 503.8,
+      "wk52_high": 88.77,
+      "wk52_low": 59.46,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5486,53 +5486,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T23:20:54.785736+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "UFPI",
-        "name": "UFP Industries, Inc.",
-        "mcap": 4.55,
-        "price": 84.56,
-        "basis": 83.1,
-        "bxt_today": 47.09,
-        "ath": 141.33,
-        "pct_to_ath": 67.1,
-        "wk52_high": 118.0,
-        "wk52_low": 77.89,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-14T01:40:10.760395+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "AHR",
-        "name": "American Healthcare REIT, Inc.",
-        "mcap": 9.66,
-        "price": 46.81,
-        "basis": 49.34,
-        "bxt_today": 5.97,
-        "ath": 54.67,
-        "pct_to_ath": 16.8,
-        "wk52_high": 54.67,
-        "wk52_low": 34.86,
-        "ath_30d": 0
-      },
-      {
-        "sym": "RELY",
-        "name": "Remitly Global, Inc.",
-        "mcap": 4.55,
-        "price": 19.08,
-        "basis": 21.37,
-        "bxt_today": 0.39,
-        "ath": 53.65,
-        "pct_to_ath": 181.2,
-        "wk52_high": 24.92,
-        "wk52_low": 12.08,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

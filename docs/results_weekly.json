@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-14T01:40:24.472214+00:00",
+  "updated_at": "2026-06-14T06:20:51.378301+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.72,
+  "scan_seconds": 11.06,
   "scanned_count": 1511,
   "fvb_green": [],
   "fvb_red": [
@@ -2311,26 +2311,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-13T23:22:27.428274+00:00",
+    "compared_to": "2026-06-14T01:40:24.472214+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "TPR",
-        "name": "Tapestry, Inc.",
-        "mcap": 28.18,
-        "price": 147.42,
-        "basis": 134.92,
-        "bxt_today": 0.36,
-        "ath": 161.97,
-        "pct_to_ath": 9.9,
-        "wk52_high": 161.97,
-        "wk52_low": 78.59,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
