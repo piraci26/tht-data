@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T00:13:28.137215+00:00",
+  "updated_at": "2026-06-15T05:30:41.377943+00:00",
   "count": 92,
   "list": [
     {
@@ -525,24 +525,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "WSM",
-      "name": "Williams-Sonoma, Inc. (DE)",
-      "mcap": 22.45,
-      "price": 223.54,
-      "ath": 224.33,
-      "atl": 0.14,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 155100.5,
-      "wk52_high": 224.33,
-      "wk52_low": 152.2,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 224.33,
-      "last_low": 218.7,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "PFG",
       "name": "Principal Financial Group Inc",
       "mcap": 22.45,
@@ -557,6 +539,24 @@
       "atl_30d": 0,
       "last_high": 111.51,
       "last_low": 109.86,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "WSM",
+      "name": "Williams-Sonoma, Inc. (DE)",
+      "mcap": 22.45,
+      "price": 223.54,
+      "ath": 224.33,
+      "atl": 0.14,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 155100.5,
+      "wk52_high": 224.33,
+      "wk52_low": 152.2,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 224.33,
+      "last_low": 218.7,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1029,24 +1029,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VIRT",
-      "name": "Virtu Financial, Inc.",
-      "mcap": 8.0,
-      "price": 57.62,
-      "ath": 57.77,
-      "atl": 12.35,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 366.6,
-      "wk52_high": 57.77,
-      "wk52_low": 31.55,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 57.77,
-      "last_low": 55.95,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "AMG",
       "name": "Affiliated Managers Group, Inc.",
       "mcap": 8.0,
@@ -1061,6 +1043,24 @@
       "atl_30d": 0,
       "last_high": 355.55,
       "last_low": 346.0,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VIRT",
+      "name": "Virtu Financial, Inc.",
+      "mcap": 8.0,
+      "price": 57.62,
+      "ath": 57.77,
+      "atl": 12.35,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 366.6,
+      "wk52_high": 57.77,
+      "wk52_low": 31.55,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 57.77,
+      "last_low": 55.95,
       "made_ath_today": true,
       "made_atl_today": false
     },
