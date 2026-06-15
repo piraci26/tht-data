@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T22:58:13.788063+00:00",
+  "updated_at": "2026-06-15T00:13:28.137215+00:00",
   "count": 92,
   "list": [
     {
@@ -525,24 +525,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PFG",
-      "name": "Principal Financial Group Inc",
-      "mcap": 22.45,
-      "price": 111.12,
-      "ath": 111.51,
-      "atl": 5.41,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 1954.0,
-      "wk52_high": 111.51,
-      "wk52_low": 75.0,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 111.51,
-      "last_low": 109.86,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "WSM",
       "name": "Williams-Sonoma, Inc. (DE)",
       "mcap": 22.45,
@@ -557,6 +539,24 @@
       "atl_30d": 0,
       "last_high": 224.33,
       "last_low": 218.7,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "PFG",
+      "name": "Principal Financial Group Inc",
+      "mcap": 22.45,
+      "price": 111.12,
+      "ath": 111.51,
+      "atl": 5.41,
+      "pct_to_ath": 0.4,
+      "pct_to_atl": 1954.0,
+      "wk52_high": 111.51,
+      "wk52_low": 75.0,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 111.51,
+      "last_low": 109.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1029,24 +1029,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "AMG",
-      "name": "Affiliated Managers Group, Inc.",
-      "mcap": 8.0,
-      "price": 354.62,
-      "ath": 355.55,
-      "atl": 8.92,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 3877.0,
-      "wk52_high": 355.55,
-      "wk52_low": 179.79,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 355.55,
-      "last_low": 346.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "VIRT",
       "name": "Virtu Financial, Inc.",
       "mcap": 8.0,
@@ -1061,6 +1043,24 @@
       "atl_30d": 0,
       "last_high": 57.77,
       "last_low": 55.95,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "AMG",
+      "name": "Affiliated Managers Group, Inc.",
+      "mcap": 8.0,
+      "price": 354.62,
+      "ath": 355.55,
+      "atl": 8.92,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 3877.0,
+      "wk52_high": 355.55,
+      "wk52_low": 179.79,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 355.55,
+      "last_low": 346.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
