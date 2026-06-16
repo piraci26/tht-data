@@ -1,7 +1,44 @@
 {
-  "updated_at": "2026-06-16T10:30:27.827083+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-06-16T15:31:26.620826+00:00",
+  "count": 2,
+  "list": [
+    {
+      "sym": "PAYP",
+      "name": "PayPay Corporation American Depository Shares",
+      "mcap": 13.21,
+      "price": 13.5,
+      "ath": 24.89,
+      "atl": 13.16,
+      "pct_to_ath": 84.4,
+      "pct_to_atl": 2.5,
+      "wk52_high": 24.89,
+      "wk52_low": 13.16,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 14.15,
+      "last_low": 13.16,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "mcap": 1.04,
+      "price": 2.37,
+      "ath": 14.38,
+      "atl": 2.28,
+      "pct_to_ath": 508.0,
+      "pct_to_atl": 4.0,
+      "wk52_high": 7.14,
+      "wk52_low": 2.28,
+      "ath_30d": 0,
+      "atl_30d": 9,
+      "last_high": 2.38,
+      "last_low": 2.28,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -468,25 +505,6 @@
       "first_seen_at": "2026-06-03T17:14:57.949332+00:00"
     },
     {
-      "sym": "UWMC",
-      "name": "UWM Holdings Corporation",
-      "mcap": 1.04,
-      "price": 2.8,
-      "ath": 14.38,
-      "atl": 2.8,
-      "pct_to_ath": 413.6,
-      "pct_to_atl": 0.0,
-      "wk52_high": 7.14,
-      "wk52_low": 2.8,
-      "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 2.94,
-      "last_low": 2.8,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-03T17:14:57.949332+00:00"
-    },
-    {
       "sym": "JBS",
       "name": "JBS N.V. Common Shares",
       "mcap": 14.21,
@@ -523,25 +541,6 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-08T22:48:36.869070+00:00"
-    },
-    {
-      "sym": "PAYP",
-      "name": "PayPay Corporation American Depository Shares",
-      "mcap": 13.21,
-      "price": 14.39,
-      "ath": 24.89,
-      "atl": 14.29,
-      "pct_to_ath": 73.0,
-      "pct_to_atl": 0.7,
-      "wk52_high": 24.89,
-      "wk52_low": 14.29,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 15.1,
-      "last_low": 14.29,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-09T16:18:14.975478+00:00"
     },
     {
       "sym": "XE",
@@ -618,7 +617,48 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-11T15:22:40.096860+00:00"
+    },
+    {
+      "sym": "PAYP",
+      "name": "PayPay Corporation American Depository Shares",
+      "mcap": 13.21,
+      "price": 13.5,
+      "ath": 24.89,
+      "atl": 13.16,
+      "pct_to_ath": 84.4,
+      "pct_to_atl": 2.5,
+      "wk52_high": 24.89,
+      "wk52_low": 13.16,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 14.15,
+      "last_low": 13.16,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-16T15:31:26.620826+00:00"
+    },
+    {
+      "sym": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "mcap": 1.04,
+      "price": 2.37,
+      "ath": 14.38,
+      "atl": 2.28,
+      "pct_to_ath": 508.0,
+      "pct_to_atl": 4.0,
+      "wk52_high": 7.14,
+      "wk52_low": 2.28,
+      "ath_30d": 0,
+      "atl_30d": 9,
+      "last_high": 2.38,
+      "last_low": 2.28,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-16T15:31:26.620826+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PAYP",
+    "UWMC"
+  ]
 }
