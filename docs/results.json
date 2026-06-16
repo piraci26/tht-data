@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15T22:26:47.092274+00:00",
+  "updated_at": "2026-06-16T00:12:26.551046+00:00",
   "timeframe": "daily",
-  "scan_seconds": 20.79,
+  "scan_seconds": 16.56,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1523,29 +1523,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "BVN",
-      "name": "Buenaventura Mining Company Inc.",
-      "mcap": 9.0,
-      "price": 34.86,
-      "basis": 33.85,
-      "bxt_today": 17.95,
-      "bxt_yest": 3.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": null,
-      "ath": 57.2,
-      "atl": 1.66,
-      "pct_to_ath": 64.1,
-      "pct_to_atl": 2004.8,
-      "wk52_high": 44.67,
-      "wk52_low": 15.62,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ENS",
       "name": "EnerSys",
       "mcap": 9.0,
@@ -1566,6 +1543,29 @@
       "wk52_high": 244.3,
       "wk52_low": 80.82,
       "ath_30d": 7,
+      "atl_30d": 0
+    },
+    {
+      "sym": "BVN",
+      "name": "Buenaventura Mining Company Inc.",
+      "mcap": 9.0,
+      "price": 34.86,
+      "basis": 33.85,
+      "bxt_today": 17.95,
+      "bxt_yest": 3.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 6,
+      "bxt_streak": null,
+      "ath": 57.2,
+      "atl": 1.66,
+      "pct_to_ath": 64.1,
+      "pct_to_atl": 2004.8,
+      "wk52_high": 44.67,
+      "wk52_low": 15.62,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -5552,29 +5552,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CIFR",
-      "name": "Cipher Digital Inc.",
-      "mcap": 8.0,
-      "price": 26.03,
-      "basis": 21.78,
-      "bxt_today": 1.16,
-      "bxt_yest": -17.45,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 28.62,
-      "atl": 0.38,
-      "pct_to_ath": 10.0,
-      "pct_to_atl": 6714.1,
-      "wk52_high": 28.62,
-      "wk52_low": 3.29,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "PRMB",
       "name": "Primo Brands Corporation",
       "mcap": 8.0,
@@ -5595,6 +5572,29 @@
       "wk52_high": 30.98,
       "wk52_low": 14.36,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CIFR",
+      "name": "Cipher Digital Inc.",
+      "mcap": 8.0,
+      "price": 26.03,
+      "basis": 21.78,
+      "bxt_today": 1.16,
+      "bxt_yest": -17.45,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 28.62,
+      "atl": 0.38,
+      "pct_to_ath": 10.0,
+      "pct_to_atl": 6714.1,
+      "wk52_high": 28.62,
+      "wk52_low": 3.29,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -8016,123 +8016,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-15T20:05:05.353786+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CMS",
-        "name": "CMS Energy Corporation",
-        "mcap": 22.72,
-        "price": 73.65,
-        "basis": 73.27,
-        "bxt_today": 34.94,
-        "ath": 80.36,
-        "pct_to_ath": 9.1,
-        "wk52_high": 80.36,
-        "wk52_low": 68.41,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PJT",
-        "name": "PJT Partners Inc.",
-        "mcap": 3.99,
-        "price": 156.37,
-        "basis": 155.07,
-        "bxt_today": -16.91,
-        "ath": 195.62,
-        "pct_to_ath": 25.1,
-        "wk52_high": 195.62,
-        "wk52_low": 127.73,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "BNT",
-        "name": "Brookfield Wealth Solutions Ltd. Exchangeable Limited Voting Shares",
-        "mcap": 12.44,
-        "price": 45.69,
-        "basis": 45.4,
-        "bxt_today": 20.19,
-        "ath": 56.67,
-        "pct_to_ath": 24.0,
-        "wk52_high": 49.86,
-        "wk52_low": 38.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WTRG",
-        "name": "Essential Utilities, Inc.",
-        "mcap": 10.49,
-        "price": 37.59,
-        "basis": 37.44,
-        "bxt_today": 36.03,
-        "ath": 54.52,
-        "pct_to_ath": 45.0,
-        "wk52_high": 42.37,
-        "wk52_low": 36.11,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.0,
-        "basis": 64.26,
-        "bxt_today": 11.97,
-        "ath": 73.0,
-        "pct_to_ath": 14.1,
-        "wk52_high": 65.85,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "CNR",
-        "name": "Core Natural Resources, Inc.",
-        "mcap": 4.24,
-        "price": 87.59,
-        "basis": 88.71,
-        "bxt_today": -27.95,
-        "ath": 134.59,
-        "pct_to_ath": 53.7,
-        "wk52_high": 114.8,
-        "wk52_low": 64.57,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "MFG",
-        "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-        "mcap": 113.15,
-        "price": 9.68,
-        "basis": 9.03,
-        "bxt_today": 0.28,
-        "ath": 15.13,
-        "pct_to_ath": 56.3,
-        "wk52_high": 10.28,
-        "wk52_low": 5.35,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "GS",
-        "name": "Goldman Sachs Group, Inc. (The)",
-        "mcap": 291.37,
-        "price": 1078.2,
-        "basis": 985.19,
-        "bxt_today": 0.07,
-        "ath": 1098.36,
-        "pct_to_ath": 1.9,
-        "wk52_high": 1098.36,
-        "wk52_low": 609.59,
-        "ath_30d": 8
-      }
-    ],
+    "compared_to": "2026-06-15T22:26:47.092274+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

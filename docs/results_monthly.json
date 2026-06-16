@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15T22:27:30.772309+00:00",
+  "updated_at": "2026-06-16T00:12:58.935564+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.25,
+  "scan_seconds": 11.81,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2473,25 +2473,11 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-15T20:05:41.960737+00:00",
+    "compared_to": "2026-06-15T22:27:30.772309+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "MAIR",
-        "name": "Madison Air Solutions Corporation",
-        "mcap": 19.48,
-        "price": 38.9,
-        "basis": 39.45,
-        "bxt_today": -23.51,
-        "ath": 44.5,
-        "pct_to_ath": 14.4,
-        "wk52_high": 44.5,
-        "wk52_low": 31.0,
-        "ath_30d": 4
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-15T22:27:10.276089+00:00",
+  "updated_at": "2026-06-16T00:12:44.646486+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.33,
+  "scan_seconds": 13.51,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3324,25 +3324,11 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-15T20:05:26.462038+00:00",
+    "compared_to": "2026-06-15T22:27:10.276089+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "ADC",
-        "name": "Agree Realty Corporation",
-        "mcap": 9.07,
-        "price": 74.45,
-        "basis": 75.12,
-        "bxt_today": -21.65,
-        "ath": 82.08,
-        "pct_to_ath": 10.2,
-        "wk52_high": 82.08,
-        "wk52_low": 69.56,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
