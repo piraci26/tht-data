@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-17T14:41:08.029507+00:00",
+  "updated_at": "2026-06-17T17:39:42.524162+00:00",
   "count": 1,
   "list": [
     {
       "sym": "KVYO",
       "name": "Klaviyo, Inc. Series A",
       "mcap": 4.48,
-      "price": 13.92,
+      "price": 13.71,
       "ath": 49.55,
       "atl": 13.38,
-      "pct_to_ath": 256.0,
-      "pct_to_atl": 4.0,
+      "pct_to_ath": 261.4,
+      "pct_to_atl": 2.5,
       "wk52_high": 36.76,
       "wk52_low": 13.38,
       "ath_30d": 0,
@@ -639,7 +639,5 @@
       "first_seen_at": "2026-06-17T14:41:08.029507+00:00"
     }
   ],
-  "added_this_run": [
-    "KVYO"
-  ]
+  "added_this_run": []
 }
