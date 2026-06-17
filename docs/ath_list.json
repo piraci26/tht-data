@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T21:50:19.976352+00:00",
+  "updated_at": "2026-06-17T23:12:13.669806+00:00",
   "count": 67,
   "list": [
     {
@@ -849,24 +849,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VIRT",
-      "name": "Virtu Financial, Inc.",
-      "mcap": 8.0,
-      "price": 60.67,
-      "ath": 60.56,
-      "atl": 12.35,
-      "pct_to_ath": -0.2,
-      "pct_to_atl": 391.3,
-      "wk52_high": 60.56,
-      "wk52_low": 31.55,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 60.56,
-      "last_low": 58.29,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "TKR",
       "name": "Timken Company (The)",
       "mcap": 8.0,
@@ -881,6 +863,24 @@
       "atl_30d": 0,
       "last_high": 143.56,
       "last_low": 138.4,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "VIRT",
+      "name": "Virtu Financial, Inc.",
+      "mcap": 8.0,
+      "price": 60.67,
+      "ath": 60.56,
+      "atl": 12.35,
+      "pct_to_ath": -0.2,
+      "pct_to_atl": 391.3,
+      "wk52_high": 60.56,
+      "wk52_low": 31.55,
+      "ath_30d": 8,
+      "atl_30d": 0,
+      "last_high": 60.56,
+      "last_low": 58.29,
       "made_ath_today": true,
       "made_atl_today": false
     },

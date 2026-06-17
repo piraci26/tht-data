@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T21:49:35.681376+00:00",
+  "updated_at": "2026-06-17T23:11:54.249105+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 20.89,
+  "scan_seconds": 9.76,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2726,201 +2726,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-17T19:50:18.023911+00:00",
+    "compared_to": "2026-06-17T21:49:35.681376+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "IOT",
-        "name": "Samsara Inc.",
-        "mcap": 17.58,
-        "price": 31.6,
-        "basis": 32.85,
-        "bxt_today": 15.67,
-        "ath": 61.9,
-        "pct_to_ath": 95.9,
-        "wk52_high": 47.47,
-        "wk52_low": 23.38,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "BKNG",
-        "name": "Booking Holdings Inc.",
-        "mcap": 123.83,
-        "price": 170.95,
-        "basis": 178.43,
-        "bxt_today": -41.43,
-        "ath": 233.58,
-        "pct_to_ath": 36.6,
-        "wk52_high": 233.58,
-        "wk52_low": 150.14,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "ALL",
-        "name": "Allstate Corporation (The)",
-        "mcap": 55.26,
-        "price": 221.79,
-        "basis": 189.75,
-        "bxt_today": 0.05,
-        "ath": 227.62,
-        "pct_to_ath": 2.6,
-        "wk52_high": 227.62,
-        "wk52_low": 188.08,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 60,
-        "price": 63.4,
-        "basis": 63.6,
-        "bxt_today": -8.82,
-        "ath": 73.0,
-        "pct_to_ath": 15.1,
-        "wk52_high": 66.0,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CHYM",
-        "name": "Chime Financial, Inc.",
-        "mcap": 6.74,
-        "price": 16.6,
-        "basis": 18.28,
-        "bxt_today": -0.12,
-        "ath": 44.94,
-        "pct_to_ath": 170.7,
-        "wk52_high": 38.67,
-        "wk52_low": 15.88,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MDA",
-        "name": "MDA Space Ltd. Common Shares",
-        "mcap": 5.72,
-        "price": 38.96,
-        "basis": 38.45,
-        "bxt_today": -1.33,
-        "ath": 49.37,
-        "pct_to_ath": 26.7,
-        "wk52_high": 49.37,
-        "wk52_low": 23.23,
-        "ath_30d": 8
-      },
-      {
-        "sym": "MC",
-        "name": "Moelis & Company",
-        "mcap": 4.86,
-        "price": 66.33,
-        "basis": 63.15,
-        "bxt_today": -0.6,
-        "ath": 82.89,
-        "pct_to_ath": 25.0,
-        "wk52_high": 78.22,
-        "wk52_low": 51.06,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OPEN",
-        "name": "Opendoor Technologies Inc",
-        "mcap": 4.42,
-        "price": 4.45,
-        "basis": 5.55,
-        "bxt_today": -0.33,
-        "ath": 39.24,
-        "pct_to_ath": 781.8,
-        "wk52_high": 10.87,
-        "wk52_low": 0.51,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "RKT",
-        "name": "Rocket Companies, Inc.",
-        "mcap": 39.15,
-        "price": 13.03,
-        "basis": 16.82,
-        "bxt_today": -0.4,
-        "ath": 43.0,
-        "pct_to_ath": 230.0,
-        "wk52_high": 24.36,
-        "wk52_low": 12.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ATO",
-        "name": "Atmos Energy Corporation",
-        "mcap": 29.51,
-        "price": 168.71,
-        "basis": 121.55,
-        "bxt_today": -0.12,
-        "ath": 192.51,
-        "pct_to_ath": 14.1,
-        "wk52_high": 192.51,
-        "wk52_low": 149.98,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 14.7,
-        "price": 34.72,
-        "basis": 34.44,
-        "bxt_today": -2.46,
-        "ath": 54.94,
-        "pct_to_ath": 58.2,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 2
-      },
-      {
-        "sym": "PECO",
-        "name": "Phillips Edison & Company, Inc.",
-        "mcap": 5.1,
-        "price": 40.31,
-        "basis": 37.72,
-        "bxt_today": -0.86,
-        "ath": 42.26,
-        "pct_to_ath": 4.8,
-        "wk52_high": 42.26,
-        "wk52_low": 32.84,
-        "ath_30d": 5
-      },
-      {
-        "sym": "UCB",
-        "name": "United Community Banks, Inc.",
-        "mcap": 3.98,
-        "price": 32.34,
-        "basis": 29.8,
-        "bxt_today": -0.33,
-        "ath": 169.62,
-        "pct_to_ath": 424.5,
-        "wk52_high": 36.77,
-        "wk52_low": 27.23,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BNL",
-        "name": "Broadstone Net Lease, Inc.",
-        "mcap": 3.91,
-        "price": 20.3,
-        "basis": 19.05,
-        "bxt_today": -1.71,
-        "ath": 28.0,
-        "pct_to_ath": 37.9,
-        "wk52_high": 21.5,
-        "wk52_low": 15.66,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
