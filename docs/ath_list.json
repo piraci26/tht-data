@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-16T21:47:03.187451+00:00",
-  "count": 58,
+  "updated_at": "2026-06-17T01:43:48.750058+00:00",
+  "count": 56,
   "list": [
     {
       "sym": "MU",
@@ -327,24 +327,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "VIK",
-      "name": "Viking Holdings Ltd Ordinary Shares",
-      "mcap": 37.19,
-      "price": 94.04,
-      "ath": 96.35,
-      "atl": 25.71,
-      "pct_to_ath": 2.5,
-      "pct_to_atl": 265.8,
-      "wk52_high": 96.35,
-      "wk52_low": 46.06,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 96.35,
-      "last_low": 93.98,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CW",
       "name": "Curtiss-Wright Corporation",
       "mcap": 26.77,
@@ -372,8 +354,8 @@
       "pct_to_ath": 1.7,
       "pct_to_atl": 157627.7,
       "wk52_high": 230.95,
-      "wk52_low": 152.2,
-      "ath_30d": 2,
+      "wk52_low": 154.11,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 230.95,
       "last_low": 223.75,
@@ -390,7 +372,7 @@
       "pct_to_ath": 0.9,
       "pct_to_atl": 16485.2,
       "wk52_high": 425.33,
-      "wk52_low": 230.68,
+      "wk52_low": 233.31,
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 425.33,
@@ -489,24 +471,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "SN",
-      "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 15.8,
-      "price": 136.28,
-      "ath": 139.0,
-      "atl": 25.84,
-      "pct_to_ath": 2.0,
-      "pct_to_atl": 427.4,
-      "wk52_high": 139.0,
-      "wk52_low": 80.69,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 139.0,
-      "last_low": 133.48,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "MLI",
       "name": "Mueller Industries, Inc.",
       "mcap": 14.76,
@@ -535,7 +499,7 @@
       "pct_to_atl": 6157.0,
       "wk52_high": 170.11,
       "wk52_low": 116.73,
-      "ath_30d": 9,
+      "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 170.11,
       "last_low": 167.37,
@@ -733,7 +697,7 @@
       "pct_to_atl": 84.5,
       "wk52_high": 69.93,
       "wk52_low": 37.27,
-      "ath_30d": 9,
+      "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 69.93,
       "last_low": 68.38,
@@ -967,7 +931,7 @@
       "pct_to_atl": 29700.7,
       "wk52_high": 157.05,
       "wk52_low": 86.67,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 157.05,
       "last_low": 145.11,
@@ -4849,8 +4813,5 @@
       "first_seen_at": "2026-06-16T21:47:03.187451+00:00"
     }
   ],
-  "added_this_run": [
-    "ENVA",
-    "HLT"
-  ]
+  "added_this_run": []
 }
