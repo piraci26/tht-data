@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T23:12:13.669806+00:00",
-  "count": 67,
+  "updated_at": "2026-06-18T01:45:10.162813+00:00",
+  "count": 66,
   "list": [
     {
       "sym": "JPM",
@@ -849,24 +849,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "TKR",
-      "name": "Timken Company (The)",
-      "mcap": 8.0,
-      "price": 139.4,
-      "ath": 143.56,
-      "atl": 7.07,
-      "pct_to_ath": 3.0,
-      "pct_to_atl": 1872.1,
-      "wk52_high": 143.56,
-      "wk52_low": 69.26,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 143.56,
-      "last_low": 138.4,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "VIRT",
       "name": "Virtu Financial, Inc.",
       "mcap": 8.0,
@@ -885,20 +867,20 @@
       "made_atl_today": false
     },
     {
-      "sym": "LTH",
-      "name": "Life Time Group Holdings, Inc.",
-      "mcap": 7.32,
-      "price": 34.59,
-      "ath": 35.35,
-      "atl": 8.75,
-      "pct_to_ath": 2.2,
-      "pct_to_atl": 295.3,
-      "wk52_high": 35.35,
-      "wk52_low": 24.14,
-      "ath_30d": 2,
+      "sym": "TKR",
+      "name": "Timken Company (The)",
+      "mcap": 8.0,
+      "price": 139.4,
+      "ath": 143.56,
+      "atl": 7.07,
+      "pct_to_ath": 3.0,
+      "pct_to_atl": 1872.1,
+      "wk52_high": 143.56,
+      "wk52_low": 69.26,
+      "ath_30d": 13,
       "atl_30d": 0,
-      "last_high": 35.35,
-      "last_low": 34.52,
+      "last_high": 143.56,
+      "last_low": 138.4,
       "made_ath_today": true,
       "made_atl_today": false
     },

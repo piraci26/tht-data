@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T23:11:27.495830+00:00",
+  "updated_at": "2026-06-18T01:43:37.378434+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.5,
+  "scan_seconds": 25.9,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2949,29 +2949,6 @@
       "pct_to_atl": 1499.4,
       "wk52_high": 96.5,
       "wk52_low": 16.64,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "LBTYB",
-      "name": "Liberty Global Ltd. Common Shares",
-      "mcap": 4.82,
-      "price": 13.4,
-      "basis": 14.56,
-      "bxt_today": 1.14,
-      "bxt_yest": -1.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 58.31,
-      "atl": 4.25,
-      "pct_to_ath": 335.1,
-      "pct_to_atl": 215.2,
-      "wk52_high": 29.01,
-      "wk52_low": 9.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7095,29 +7072,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "JOE",
-      "name": "St. Joe Company (The)",
-      "mcap": 3.67,
-      "price": 63.48,
-      "basis": 64.41,
-      "bxt_today": -16.85,
-      "bxt_yest": 7.62,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 11,
-      "ath": 85.25,
-      "atl": 8.5,
-      "pct_to_ath": 34.3,
-      "pct_to_atl": 646.8,
-      "wk52_high": 73.54,
-      "wk52_low": 45.83,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CDP",
       "name": "COPT Defense Properties Common Shares of Beneficial Interest",
       "mcap": 3.67,
@@ -7137,6 +7091,29 @@
       "pct_to_atl": 638.9,
       "wk52_high": 34.78,
       "wk52_low": 26.91,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "JOE",
+      "name": "St. Joe Company (The)",
+      "mcap": 3.67,
+      "price": 63.48,
+      "basis": 64.41,
+      "bxt_today": -16.85,
+      "bxt_yest": 7.62,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 11,
+      "ath": 85.25,
+      "atl": 8.5,
+      "pct_to_ath": 34.3,
+      "pct_to_atl": 646.8,
+      "wk52_high": 73.54,
+      "wk52_low": 45.83,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7326,13 +7303,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-17T21:48:41.124242+00:00",
+    "compared_to": "2026-06-17T23:11:27.495830+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "LBTYB",
+        "name": "Liberty Global Ltd. Common Shares",
+        "mcap": 4.82,
+        "price": 13.4,
+        "basis": 14.56,
+        "bxt_today": 1.14,
+        "ath": 58.31,
+        "pct_to_ath": 335.1,
+        "wk52_high": 29.01,
+        "wk52_low": 9.57,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
