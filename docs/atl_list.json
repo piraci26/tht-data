@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T21:56:43.455457+00:00",
+  "updated_at": "2026-06-19T22:58:42.843322+00:00",
   "count": 7,
   "list": [
     {
@@ -60,11 +60,11 @@
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 5.01,
-      "price": 30.83,
+      "price": 29.54,
       "ath": 176.91,
       "atl": 29.45,
-      "pct_to_ath": 473.8,
-      "pct_to_atl": 4.7,
+      "pct_to_ath": 498.9,
+      "pct_to_atl": 0.3,
       "wk52_high": 94.66,
       "wk52_low": 29.45,
       "ath_30d": 0,
