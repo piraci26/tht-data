@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T19:19:18.895141+00:00",
+  "updated_at": "2026-06-19T20:50:54.734382+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.66,
+  "scan_seconds": 20.16,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -97,6 +97,29 @@
       "wk52_low": 108.35,
       "ath_30d": 0,
       "atl_30d": 0
+    },
+    {
+      "sym": "TTAN",
+      "name": "ServiceTitan, Inc.",
+      "mcap": 5.82,
+      "price": 62.45,
+      "basis": 65.79,
+      "bxt_today": -39.54,
+      "bxt_yest": -34.97,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 21,
+      "bxt_streak": null,
+      "ath": 131.33,
+      "atl": 54.17,
+      "pct_to_ath": 110.3,
+      "pct_to_atl": 15.3,
+      "wk52_high": 119.99,
+      "wk52_low": 54.17,
+      "ath_30d": 0,
+      "atl_30d": 1
     },
     {
       "sym": "LAZ",
@@ -699,6 +722,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "ANDG",
+      "name": "Andersen Group Inc.",
+      "mcap": 4.33,
+      "price": 38.37,
+      "basis": 36.88,
+      "bxt_today": 4.72,
+      "bxt_yest": -6.58,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 40.22,
+      "atl": 18.12,
+      "pct_to_ath": 4.8,
+      "pct_to_atl": 111.8,
+      "wk52_high": 40.22,
+      "wk52_low": 18.12,
+      "ath_30d": 5,
+      "atl_30d": 0
+    },
+    {
       "sym": "KNF",
       "name": "Knife Riv Holding Co.",
       "mcap": 4.16,
@@ -749,9 +795,9 @@
       "name": "Vontier Corporation",
       "mcap": 4.08,
       "price": 29.91,
-      "basis": 35.54,
-      "bxt_today": 2.64,
-      "bxt_yest": -8.67,
+      "basis": 35.53,
+      "bxt_today": 0.86,
+      "bxt_yest": -14.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1759,6 +1805,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "MIAX",
+      "name": "Miami International Holdings, Inc.",
+      "mcap": 4.93,
+      "price": 37.8,
+      "basis": 47.33,
+      "bxt_today": -0.55,
+      "bxt_yest": 13.82,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 57.14,
+      "atl": 28.63,
+      "pct_to_ath": 51.2,
+      "pct_to_atl": 32.0,
+      "wk52_high": 57.14,
+      "wk52_low": 28.63,
+      "ath_30d": 6,
+      "atl_30d": 0
+    },
+    {
       "sym": "AQN",
       "name": "Algonquin Power & Utilities Corp. Common Shares",
       "mcap": 4.54,
@@ -1782,29 +1851,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "HCC",
-      "name": "Warrior Met Coal, Inc.",
-      "mcap": 4.52,
-      "price": 90.58,
-      "basis": 88.61,
-      "bxt_today": -2.17,
-      "bxt_yest": 6.48,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 110.39,
-      "atl": 9.46,
-      "pct_to_ath": 21.9,
-      "pct_to_atl": 857.5,
-      "wk52_high": 110.39,
-      "wk52_low": 40.8,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "KEN",
       "name": "Kenon Holdings Ltd. Ordinary Shares",
       "mcap": 4.49,
@@ -1825,29 +1871,6 @@
       "wk52_high": 95.93,
       "wk52_low": 36.53,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "ANDG",
-      "name": "Andersen Group Inc.",
-      "mcap": 4.33,
-      "price": 37.17,
-      "basis": 36.95,
-      "bxt_today": -2.02,
-      "bxt_yest": 4.72,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 40.22,
-      "atl": 18.12,
-      "pct_to_ath": 8.2,
-      "pct_to_atl": 105.1,
-      "wk52_high": 40.22,
-      "wk52_low": 18.12,
-      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -1967,14 +1990,83 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-19T17:45:31.957344+00:00",
+    "compared_to": "2026-06-19T19:19:18.895141+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
+    "fvb_red_added": [
+      {
+        "sym": "TTAN",
+        "name": "ServiceTitan, Inc.",
+        "mcap": 5.82,
+        "price": 62.45,
+        "basis": 65.79,
+        "bxt_today": -39.54,
+        "ath": 131.33,
+        "pct_to_ath": 110.3,
+        "wk52_high": 119.99,
+        "wk52_low": 54.17,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "bxt_green_added": [
+      {
+        "sym": "ANDG",
+        "name": "Andersen Group Inc.",
+        "mcap": 4.33,
+        "price": 38.37,
+        "basis": 36.88,
+        "bxt_today": 4.72,
+        "ath": 40.22,
+        "pct_to_ath": 4.8,
+        "wk52_high": 40.22,
+        "wk52_low": 18.12,
+        "ath_30d": 5
+      }
+    ],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_added": [
+      {
+        "sym": "MIAX",
+        "name": "Miami International Holdings, Inc.",
+        "mcap": 4.93,
+        "price": 37.8,
+        "basis": 47.33,
+        "bxt_today": -0.55,
+        "ath": 57.14,
+        "pct_to_ath": 51.2,
+        "wk52_high": 57.14,
+        "wk52_low": 28.63,
+        "ath_30d": 6
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "HCC",
+        "name": "Warrior Met Coal, Inc.",
+        "mcap": 4.52,
+        "price": 90.58,
+        "basis": 88.61,
+        "bxt_today": -2.17,
+        "ath": 110.39,
+        "pct_to_ath": 21.9,
+        "wk52_high": 110.39,
+        "wk52_low": 40.8,
+        "ath_30d": 2
+      },
+      {
+        "sym": "ANDG",
+        "name": "Andersen Group Inc.",
+        "mcap": 4.33,
+        "price": 37.17,
+        "basis": 36.95,
+        "bxt_today": -2.02,
+        "ath": 40.22,
+        "pct_to_ath": 8.2,
+        "wk52_high": 40.22,
+        "wk52_low": 18.12,
+        "ath_30d": 5
+      }
+    ]
   }
 }
