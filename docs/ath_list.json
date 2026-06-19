@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T17:45:56.729838+00:00",
+  "updated_at": "2026-06-19T19:19:36.443452+00:00",
   "count": 83,
   "list": [
     {
@@ -5299,32 +5299,5 @@
       "first_seen_at": "2026-06-19T17:45:56.729838+00:00"
     }
   ],
-  "added_this_run": [
-    "AIT",
-    "AZZ",
-    "BAP",
-    "BELFB",
-    "BMO",
-    "CMI",
-    "CNO",
-    "GE",
-    "GS",
-    "GWW",
-    "MS",
-    "MUFG",
-    "NPO",
-    "PLXS",
-    "PTGX",
-    "RBC",
-    "ROK",
-    "SLF",
-    "SUNB",
-    "TBBB",
-    "TSM",
-    "TTMI",
-    "UMC",
-    "VIRT",
-    "VMI",
-    "WAB"
-  ]
+  "added_this_run": []
 }
