@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T02:32:43.292005+00:00",
-  "count": 6,
+  "updated_at": "2026-06-19T08:17:32.421278+00:00",
+  "count": 7,
   "list": [
     {
       "sym": "PAYP",
@@ -17,6 +17,24 @@
       "atl_30d": 8,
       "last_high": 12.9,
       "last_low": 12.25,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "PCOR",
+      "name": "Procore Technologies, Inc.",
+      "mcap": 6.98,
+      "price": 39.99,
+      "ath": 108.75,
+      "atl": 38.71,
+      "pct_to_ath": 171.9,
+      "pct_to_atl": 3.3,
+      "wk52_high": 82.32,
+      "wk52_low": 38.71,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 40.32,
+      "last_low": 38.71,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -710,25 +728,6 @@
       "first_seen_at": "2026-06-17T19:50:39.254792+00:00"
     },
     {
-      "sym": "PCOR",
-      "name": "Procore Technologies, Inc.",
-      "mcap": 6.98,
-      "price": 39.38,
-      "ath": 108.75,
-      "atl": 38.71,
-      "pct_to_ath": 176.2,
-      "pct_to_atl": 1.7,
-      "wk52_high": 82.32,
-      "wk52_low": 38.71,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 39.92,
-      "last_low": 38.71,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-18T14:14:49.689666+00:00"
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 5.01,
@@ -765,7 +764,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-18T19:51:55.168682+00:00"
+    },
+    {
+      "sym": "PCOR",
+      "name": "Procore Technologies, Inc.",
+      "mcap": 6.98,
+      "price": 39.99,
+      "ath": 108.75,
+      "atl": 38.71,
+      "pct_to_ath": 171.9,
+      "pct_to_atl": 3.3,
+      "wk52_high": 82.32,
+      "wk52_low": 38.71,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 40.32,
+      "last_low": 38.71,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-19T08:17:32.421278+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PCOR"
+  ]
 }
