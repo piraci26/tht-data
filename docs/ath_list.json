@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T23:42:35.516118+00:00",
-  "count": 81,
+  "updated_at": "2026-06-19T02:32:43.286365+00:00",
+  "count": 76,
   "list": [
     {
       "sym": "TSM",
@@ -399,24 +399,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "BE",
-      "name": "Bloom Energy Corporation",
-      "mcap": 87.7,
-      "price": 328.91,
-      "ath": 329.51,
-      "atl": 2.44,
-      "pct_to_ath": 0.2,
-      "pct_to_atl": 13379.9,
-      "wk52_high": 329.51,
-      "wk52_low": 20.93,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 329.51,
-      "last_low": 294.81,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "JCI",
       "name": "Johnson Controls International plc Ordinary Share",
       "mcap": 82.61,
@@ -467,24 +449,6 @@
       "atl_30d": 0,
       "last_high": 298.8,
       "last_low": 275.58,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "mcap": 51.05,
-      "price": 417.07,
-      "ath": 421.19,
-      "atl": 36.22,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 1051.6,
-      "wk52_high": 421.19,
-      "wk52_low": 84.78,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 421.19,
-      "last_low": 384.73,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -903,24 +867,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "CR",
-      "name": "Crane Company",
-      "mcap": 10.09,
-      "price": 214.9,
-      "ath": 216.13,
-      "atl": 67.28,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 219.4,
-      "wk52_high": 216.13,
-      "wk52_low": 159.58,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 216.13,
-      "last_low": 209.18,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "SNEX",
       "name": "StoneX Group Inc.",
       "mcap": 10.0,
@@ -971,24 +917,6 @@
       "atl_30d": 0,
       "last_high": 579.5,
       "last_low": 567.54,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "KRYS",
-      "name": "Krystal Biotech, Inc.",
-      "mcap": 9.0,
-      "price": 348.06,
-      "ath": 356.5,
-      "atl": 8.03,
-      "pct_to_ath": 2.4,
-      "pct_to_atl": 4234.5,
-      "wk52_high": 356.5,
-      "wk52_low": 127.99,
-      "ath_30d": 10,
-      "atl_30d": 0,
-      "last_high": 356.5,
-      "last_low": 343.48,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -1205,24 +1133,6 @@
       "atl_30d": 0,
       "last_high": 108.66,
       "last_low": 101.73,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "PRM",
-      "name": "Perimeter Solutions, SA",
-      "mcap": 5.14,
-      "price": 37.78,
-      "ath": 38.15,
-      "atl": 2.79,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 1254.1,
-      "wk52_high": 38.15,
-      "wk52_low": 13.06,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 38.15,
-      "last_low": 35.65,
       "made_ath_today": true,
       "made_atl_today": false
     },

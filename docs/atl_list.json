@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T23:42:35.521771+00:00",
-  "count": 7,
+  "updated_at": "2026-06-19T02:32:43.292005+00:00",
+  "count": 6,
   "list": [
     {
       "sym": "PAYP",
@@ -17,24 +17,6 @@
       "atl_30d": 8,
       "last_high": 12.9,
       "last_low": 12.25,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "PCOR",
-      "name": "Procore Technologies, Inc.",
-      "mcap": 6.98,
-      "price": 39.99,
-      "ath": 108.75,
-      "atl": 38.71,
-      "pct_to_ath": 171.9,
-      "pct_to_atl": 3.3,
-      "wk52_high": 82.32,
-      "wk52_low": 38.71,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 40.32,
-      "last_low": 38.71,
       "made_ath_today": false,
       "made_atl_today": true
     },
