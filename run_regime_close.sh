@@ -137,10 +137,34 @@ for attempt in 1 2 3; do
   break
 done
 
-# Always run the classifier even if the scan partially failed — it'll work
-# off whatever made it into docs/regime_state.json.
-"$PYTHON" setups_classify.py
-STATUS_CLASSIFY=$?
+# Classifier freshness gate: only run if regime_state.json was actually
+# modified by THIS wrapper invocation. If the scan died at startup and
+# regime_state.json is from a prior run, classifying it would silently
+# re-push stale numbers to Supabase as if they were today's close (this
+# was the June 18 + June 19 failure mode — both pushed June 17's data to
+# the dashboard for two days running).
+REGIME_FILE="$HOME/tht-data/docs/regime_state.json"
+STATUS_CLASSIFY=0
+if [ -f "$REGIME_FILE" ]; then
+  # File mtime in seconds since epoch, compared to wrapper start.
+  REGIME_MTIME=$(stat -f "%m" "$REGIME_FILE")
+  # Wrapper start time wasn't captured as epoch — use NOW minus a generous
+  # window. If the file was touched in the last 4 hours, count it as fresh.
+  NOW=$(date -u +%s)
+  AGE=$(( NOW - REGIME_MTIME ))
+  if [ $AGE -lt 14400 ]; then
+    echo "  regime_state.json fresh (${AGE}s old) → running classifier"
+    "$PYTHON" setups_classify.py
+    STATUS_CLASSIFY=$?
+  else
+    echo "  regime_state.json STALE (${AGE}s old, >4h) → SKIPPING classifier to avoid pushing stale data"
+    notify "STALE DATA" "regime_state.json is ${AGE}s old. Classifier skipped."
+    STATUS_CLASSIFY=2
+  fi
+else
+  echo "  no regime_state.json — classifier skipped"
+  STATUS_CLASSIFY=3
+fi
 
 # ─── Result ──────────────────────────────────────────────────────────────
 echo "regime-close finished $(date -u +%FT%TZ)  regime=${STATUS_REGIME} classify=${STATUS_CLASSIFY}"

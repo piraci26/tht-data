@@ -105,16 +105,25 @@ class CDPClient:
                     if 'error' in msg:
                         raise Exception(f"CDP error: {msg['error']}")
                     return msg['result']['result'].get('value')
-        except (BrokenPipeError, ConnectionResetError, websocket.WebSocketConnectionClosedException, OSError) as e:
+        except (BrokenPipeError, ConnectionResetError, OSError,
+                websocket.WebSocketConnectionClosedException,
+                websocket.WebSocketTimeoutException) as e:
+            # WebSocketTimeoutException is its own class — NOT a subclass of
+            # WebSocketConnectionClosedException or OSError — and is what TV
+            # raises when it's in a zombie state (CDP /json answers but the
+            # chart page doesn't respond to Runtime.evaluate). Treating it
+            # the same as a dropped connection lets the auto-recovery fire.
             if _retried:
-                raise
-            print(f"  [cdp] websocket dropped ({type(e).__name__}: {e}); reconnecting…")
+                raise TVCrashedError(
+                    f"CDP unresponsive after reconnect attempt ({type(e).__name__}: {e})"
+                )
+            print(f"  [cdp] connection problem ({type(e).__name__}: {e}); reconnecting…")
             try:
                 if self.ws: self.ws.close()
             except Exception:
                 pass
-            # _connect() now raises TVCrashedError if TV itself is gone — we
-            # let that propagate so the scan can checkpoint + exit.
+            # _connect() raises TVCrashedError if TV itself is gone — we let
+            # that propagate so the scan can checkpoint + exit with code 87.
             self._connect()
             return self.evaluate(expression, timeout=timeout, _retried=True)
 
