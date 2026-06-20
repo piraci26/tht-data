@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T21:45:16.927831+00:00",
+  "updated_at": "2026-06-20T22:52:52.277511+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.78,
+  "scan_seconds": 10.84,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -818,9 +818,9 @@
       "name": "Crinetics Pharmaceuticals, Inc.",
       "mcap": 3.91,
       "price": 35.87,
-      "basis": 42.04,
-      "bxt_today": 7.25,
-      "bxt_yest": -3.19,
+      "basis": 42.03,
+      "bxt_today": 7.01,
+      "bxt_yest": -4.0,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1967,294 +1967,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-20T20:23:08.899475+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CBC",
-        "name": "Central Bancompany, Inc.",
-        "mcap": 6.84,
-        "price": 28.23,
-        "basis": 27.89,
-        "bxt_today": -25.64,
-        "ath": 29.26,
-        "pct_to_ath": 3.6,
-        "wk52_high": 29.26,
-        "wk52_low": 22.5,
-        "ath_30d": 8
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "AS",
-        "name": "Amer Sports, Inc. Ordinary Shares",
-        "mcap": 20.59,
-        "price": 36.83,
-        "basis": 35.9,
-        "bxt_today": 19.9,
-        "ath": 42.76,
-        "pct_to_ath": 16.1,
-        "wk52_high": 42.76,
-        "wk52_low": 28.92,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NVST",
-        "name": "Envista Holdings Corporation",
-        "mcap": 3.83,
-        "price": 25.91,
-        "basis": 24.44,
-        "bxt_today": 3.79,
-        "ath": 52.03,
-        "pct_to_ath": 100.8,
-        "wk52_high": 30.42,
-        "wk52_low": 18.25,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-20T21:45:16.927831+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 8.0,
-        "price": 36.12,
-        "basis": 36.57,
-        "bxt_today": -21.4,
-        "ath": 38.45,
-        "pct_to_ath": 6.5,
-        "wk52_high": 38.45,
-        "wk52_low": 25.01,
-        "ath_30d": 10
-      },
-      {
-        "sym": "CBC",
-        "name": "Central Bancompany, Inc.",
-        "mcap": 6.84,
-        "price": 27.55,
-        "basis": 27.86,
-        "bxt_today": -34.6,
-        "ath": 29.26,
-        "pct_to_ath": 6.2,
-        "wk52_high": 29.26,
-        "wk52_low": 22.5,
-        "ath_30d": 8
-      },
-      {
-        "sym": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "mcap": 5.82,
-        "price": 62.45,
-        "basis": 65.79,
-        "bxt_today": -39.54,
-        "ath": 131.33,
-        "pct_to_ath": 110.3,
-        "wk52_high": 119.99,
-        "wk52_low": 54.17,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "CHYM",
-        "name": "Chime Financial, Inc.",
-        "mcap": 6.74,
-        "price": 17.6,
-        "basis": 18.13,
-        "bxt_today": 16.55,
-        "ath": 44.94,
-        "pct_to_ath": 155.3,
-        "wk52_high": 38.67,
-        "wk52_low": 15.88,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 62,
-        "price": 65.5,
-        "basis": 63.61,
-        "bxt_today": 3.87,
-        "ath": 73.0,
-        "pct_to_ath": 11.5,
-        "wk52_high": 66.0,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VLTO",
-        "name": "Veralto Corp",
-        "mcap": 21.07,
-        "price": 84.02,
-        "basis": 93.0,
-        "bxt_today": 9.01,
-        "ath": 115.0,
-        "pct_to_ath": 36.9,
-        "wk52_high": 110.11,
-        "wk52_low": 80.03,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNM",
-        "name": "Core & Main, Inc.",
-        "mcap": 8.9,
-        "price": 48.58,
-        "basis": 51.39,
-        "bxt_today": 3.63,
-        "ath": 67.18,
-        "pct_to_ath": 38.3,
-        "wk52_high": 67.18,
-        "wk52_low": 43.96,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BBUC",
-        "name": "Brookfield Business Corporation Subordinate Voting Shares",
-        "mcap": 6.99,
-        "price": 33.09,
-        "basis": 33.98,
-        "bxt_today": 1.29,
-        "ath": 38.25,
-        "pct_to_ath": 15.6,
-        "wk52_high": 38.25,
-        "wk52_low": 28.04,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MIRM",
-        "name": "Mirum Pharmaceuticals, Inc.",
-        "mcap": 6.15,
-        "price": 107.13,
-        "basis": 90.35,
-        "bxt_today": 5.65,
-        "ath": 114.99,
-        "pct_to_ath": 7.3,
-        "wk52_high": 114.99,
-        "wk52_low": 47.89,
-        "ath_30d": 2
-      },
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.33,
-        "price": 38.37,
-        "basis": 36.88,
-        "bxt_today": 4.72,
-        "ath": 40.22,
-        "pct_to_ath": 4.8,
-        "wk52_high": 40.22,
-        "wk52_low": 18.12,
-        "ath_30d": 5
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ADT",
-        "name": "ADT Inc.",
-        "mcap": 5.33,
-        "price": 6.58,
-        "basis": 7.42,
-        "bxt_today": -0.24,
-        "ath": 17.21,
-        "pct_to_ath": 161.6,
-        "wk52_high": 8.94,
-        "wk52_low": 6.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HCC",
-        "name": "Warrior Met Coal, Inc.",
-        "mcap": 4.52,
-        "price": 90.58,
-        "basis": 88.61,
-        "bxt_today": -2.17,
-        "ath": 110.39,
-        "pct_to_ath": 21.9,
-        "wk52_high": 110.39,
-        "wk52_low": 40.8,
-        "ath_30d": 2
-      },
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.33,
-        "price": 37.17,
-        "basis": 36.95,
-        "bxt_today": -2.02,
-        "ath": 40.22,
-        "pct_to_ath": 8.2,
-        "wk52_high": 40.22,
-        "wk52_low": 18.12,
-        "ath_30d": 5
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "LLYVK",
-        "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-        "mcap": 9.06,
-        "price": 98.46,
-        "basis": 90.79,
-        "bxt_today": -4.62,
-        "ath": 104.2,
-        "pct_to_ath": 5.8,
-        "wk52_high": 104.2,
-        "wk52_low": 76.3,
-        "ath_30d": 2
-      },
-      {
-        "sym": "CHYM",
-        "name": "Chime Financial, Inc.",
-        "mcap": 6.74,
-        "price": 16.6,
-        "basis": 18.28,
-        "bxt_today": -0.12,
-        "ath": 44.94,
-        "pct_to_ath": 170.7,
-        "wk52_high": 38.67,
-        "wk52_low": 15.88,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AMTM",
-        "name": "Amentum Holdings, Inc.",
-        "mcap": 5.64,
-        "price": 21.5,
-        "basis": 23.44,
-        "bxt_today": -14.51,
-        "ath": 38.11,
-        "pct_to_ath": 77.3,
-        "wk52_high": 38.11,
-        "wk52_low": 20.99,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.93,
-        "price": 37.8,
-        "basis": 47.33,
-        "bxt_today": -0.55,
-        "ath": 57.14,
-        "pct_to_ath": 51.2,
-        "wk52_high": 57.14,
-        "wk52_low": 28.63,
-        "ath_30d": 6
-      },
-      {
-        "sym": "MRP",
-        "name": "Millrose Properties, Inc.",
-        "mcap": 4.58,
-        "price": 28.06,
-        "basis": 28.18,
-        "bxt_today": -18.01,
-        "ath": 36.0,
-        "pct_to_ath": 28.3,
-        "wk52_high": 36.0,
-        "wk52_low": 26.3,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
