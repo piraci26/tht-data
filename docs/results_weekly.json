@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T10:42:58.034196+00:00",
+  "updated_at": "2026-06-20T12:20:08.204418+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 20.19,
+  "scan_seconds": 11.83,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2450,83 +2450,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-20T08:15:13.555651+00:00",
+    "compared_to": "2026-06-20T10:42:58.034196+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "INCY",
-        "name": "Incyte Corp.",
-        "mcap": 19.51,
-        "price": 98.22,
-        "basis": 99.7,
-        "bxt_today": 4.86,
-        "ath": 153.15,
-        "pct_to_ath": 55.9,
-        "wk52_high": 112.29,
-        "wk52_low": 66.74,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "MOD",
-        "name": "Modine Manufacturing Company",
-        "mcap": 13.34,
-        "price": 297.37,
-        "basis": 207.3,
-        "bxt_today": 2.63,
-        "ath": 323.25,
-        "pct_to_ath": 8.7,
-        "wk52_high": 323.25,
-        "wk52_low": 86.48,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CX",
-        "name": "Cemex, S.A.B. de C.V. Sponsored ADR",
-        "mcap": 18.17,
-        "price": 12.73,
-        "basis": 11.9,
-        "bxt_today": -6.21,
-        "ath": 31.43,
-        "pct_to_ath": 146.9,
-        "wk52_high": 13.67,
-        "wk52_low": 6.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CVSA",
-        "name": "Covista Inc. Common Shares",
-        "mcap": 4.21,
-        "price": 119.07,
-        "basis": 109.19,
-        "bxt_today": -8.88,
-        "ath": 156.26,
-        "pct_to_ath": 31.2,
-        "wk52_high": 156.26,
-        "wk52_low": 86.97,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PPC",
-        "name": "Pilgrim's Pride Corporation",
-        "mcap": 6.56,
-        "price": 27.32,
-        "basis": 36.42,
-        "bxt_today": -0.55,
-        "ath": 57.16,
-        "pct_to_ath": 109.2,
-        "wk52_high": 50.56,
-        "wk52_low": 27.13,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
