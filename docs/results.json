@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T22:53:07.181986+00:00",
+  "updated_at": "2026-06-22T00:05:25.479731+00:00",
   "timeframe": "daily",
-  "scan_seconds": 14.14,
+  "scan_seconds": 17.31,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5163,29 +5163,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "HSIC",
-      "name": "Henry Schein, Inc.",
-      "mcap": 8.0,
-      "price": 79.92,
-      "basis": 75.3,
-      "bxt_today": -8.48,
-      "bxt_yest": 7.41,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 92.68,
-      "atl": 2.03,
-      "pct_to_ath": 16.0,
-      "pct_to_atl": 3828.6,
-      "wk52_high": 89.29,
-      "wk52_low": 61.95,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "COLB",
       "name": "Columbia Banking System, Inc.",
       "mcap": 8.0,
@@ -5205,6 +5182,29 @@
       "pct_to_atl": 745.0,
       "wk52_high": 32.7,
       "wk52_low": 21.91,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "HSIC",
+      "name": "Henry Schein, Inc.",
+      "mcap": 8.0,
+      "price": 79.92,
+      "basis": 75.3,
+      "bxt_today": -8.48,
+      "bxt_yest": 7.41,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 92.68,
+      "atl": 2.03,
+      "pct_to_ath": 16.0,
+      "pct_to_atl": 3828.6,
+      "wk52_high": 89.29,
+      "wk52_low": 61.95,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5716,7 +5716,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-21T21:47:12.141449+00:00",
+    "compared_to": "2026-06-21T22:53:07.181986+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
