@@ -1574,3 +1574,7 @@
 {"ts":"2026-06-22T00:05:39.048574+00:00","tf":"weekly","scanned":1511,"fvb_g":1,"fvb_r":2,"bxt_g":44,"bxt_r":59,"events":0}
 {"ts":"2026-06-22T00:05:55.635197+00:00","tf":"monthly","scanned":1511,"fvb_g":3,"fvb_r":2,"bxt_g":34,"bxt_r":46,"events":0}
 {"ts":"2026-06-22T00:06:29.929925+00:00","tf":"ath_atl","ath":84,"atl":7,"ath_new":0,"atl_new":0}
+{"ts":"2026-06-22T05:26:57.126365+00:00","tf":"daily","scanned":1511,"fvb_g":43,"fvb_r":53,"bxt_g":61,"bxt_r":91,"events":0}
+{"ts":"2026-06-22T05:27:13.717450+00:00","tf":"weekly","scanned":1511,"fvb_g":1,"fvb_r":2,"bxt_g":44,"bxt_r":59,"events":0}
+{"ts":"2026-06-22T05:27:25.363254+00:00","tf":"monthly","scanned":1511,"fvb_g":13,"fvb_r":11,"bxt_g":50,"bxt_r":55,"events":72}
+{"ts":"2026-06-22T05:27:45.096734+00:00","tf":"ath_atl","ath":84,"atl":7,"ath_new":0,"atl_new":0}
