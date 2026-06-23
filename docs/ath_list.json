@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T20:35:11.385679+00:00",
+  "updated_at": "2026-06-23T22:02:51.941077+00:00",
   "count": 37,
   "list": [
     {
@@ -4471,15 +4471,5 @@
       "first_seen_at": "2026-06-23T20:35:11.385679+00:00"
     }
   ],
-  "added_this_run": [
-    "APGE",
-    "BAC",
-    "CINF",
-    "FTDR",
-    "FULT",
-    "LTH",
-    "MRX",
-    "PFG",
-    "ROIV"
-  ]
+  "added_this_run": []
 }

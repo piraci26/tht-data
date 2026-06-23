@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T20:34:51.622927+00:00",
+  "updated_at": "2026-06-23T22:02:33.183493+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.84,
+  "scan_seconds": 9.47,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1303,7 +1303,7 @@
       "name": "PACCAR Inc.",
       "mcap": 57.39,
       "price": 116.78,
-      "basis": 76.05,
+      "basis": 76.04,
       "bxt_today": -3.35,
       "bxt_yest": 2.65,
       "fvb_g": false,
@@ -2243,242 +2243,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-23T18:27:40.986246+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "JXN",
-        "name": "Jackson Financial Inc.",
-        "mcap": 7.66,
-        "price": 109.89,
-        "basis": 108.24,
-        "bxt_today": 2.04,
-        "ath": 123.61,
-        "pct_to_ath": 12.5,
-        "wk52_high": 123.61,
-        "wk52_low": 82.3,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.33,
-        "price": 37.47,
-        "basis": 37.06,
-        "bxt_today": -8.88,
-        "ath": 40.22,
-        "pct_to_ath": 7.4,
-        "wk52_high": 40.22,
-        "wk52_low": 18.12,
-        "ath_30d": 5
-      },
-      {
-        "sym": "VVV",
-        "name": "Valvoline Inc.",
-        "mcap": 4.26,
-        "price": 38.32,
-        "basis": 37.21,
-        "bxt_today": 29.29,
-        "ath": 48.26,
-        "pct_to_ath": 26.0,
-        "wk52_high": 41.33,
-        "wk52_low": 28.5,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-23T20:34:51.622927+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "IBP",
-        "name": "Installed Building Products, Inc.",
-        "mcap": 5.81,
-        "price": 210.68,
-        "basis": 222.1,
-        "bxt_today": -28.69,
-        "ath": 349.0,
-        "pct_to_ath": 65.7,
-        "wk52_high": 349.0,
-        "wk52_low": 169.11,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CSW",
-        "name": "CSW Industrials, Inc.",
-        "mcap": 4.38,
-        "price": 268.76,
-        "basis": 281.75,
-        "bxt_today": -13.18,
-        "ath": 436.5,
-        "pct_to_ath": 62.4,
-        "wk52_high": 337.02,
-        "wk52_low": 230.45,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "ASR",
-        "name": "Grupo Aeroportuario del Sureste, S.A. de C.V.",
-        "mcap": 9.23,
-        "price": 292.51,
-        "basis": 300.48,
-        "bxt_today": -28.9,
-        "ath": 381.52,
-        "pct_to_ath": 30.4,
-        "wk52_high": 381.52,
-        "wk52_low": 275.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "RDNT",
-        "name": "RadNet, Inc.",
-        "mcap": 4.29,
-        "price": 55.85,
-        "basis": 59.03,
-        "bxt_today": -35.46,
-        "ath": 93.65,
-        "pct_to_ath": 67.7,
-        "wk52_high": 85.84,
-        "wk52_low": 50.76,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "RRR",
-        "name": "Red Rock Resorts, Inc.",
-        "mcap": 3.12,
-        "price": 61.02,
-        "basis": 54.16,
-        "bxt_today": 0.39,
-        "ath": 68.99,
-        "pct_to_ath": 13.1,
-        "wk52_high": 68.99,
-        "wk52_low": 49.47,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "TXRH",
-        "name": "Texas Roadhouse, Inc.",
-        "mcap": 11.7,
-        "price": 181.16,
-        "basis": 167.99,
-        "bxt_today": 0.23,
-        "ath": 206.04,
-        "pct_to_ath": 13.7,
-        "wk52_high": 197.0,
-        "wk52_low": 153.83,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FIG",
-        "name": "Figma, Inc.",
-        "mcap": 11.42,
-        "price": 19.56,
-        "basis": 21.19,
-        "bxt_today": 2.54,
-        "ath": 142.92,
-        "pct_to_ath": 630.7,
-        "wk52_high": 142.92,
-        "wk52_low": 16.6,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "NET",
-        "name": "Cloudflare, Inc.",
-        "mcap": 74.86,
-        "price": 224.94,
-        "basis": 201.98,
-        "bxt_today": -1.53,
-        "ath": 276.82,
-        "pct_to_ath": 23.1,
-        "wk52_high": 276.82,
-        "wk52_low": 158.83,
-        "ath_30d": 3
-      },
-      {
-        "sym": "CHRW",
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "mcap": 20.92,
-        "price": 178.84,
-        "basis": 118.5,
-        "bxt_today": -1.81,
-        "ath": 203.34,
-        "pct_to_ath": 13.7,
-        "wk52_high": 203.34,
-        "wk52_low": 92.36,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MAIR",
-        "name": "Madison Air Solutions Corporation",
-        "mcap": 19.48,
-        "price": 38.06,
-        "basis": 38.43,
-        "bxt_today": -8.95,
-        "ath": 44.5,
-        "pct_to_ath": 16.9,
-        "wk52_high": 44.5,
-        "wk52_low": 31.0,
-        "ath_30d": 2
-      },
-      {
-        "sym": "WLK",
-        "name": "Westlake Corporation",
-        "mcap": 11.29,
-        "price": 76.48,
-        "basis": 110.95,
-        "bxt_today": -0.17,
-        "ath": 162.64,
-        "pct_to_ath": 112.7,
-        "wk52_high": 124.23,
-        "wk52_low": 56.33,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.55,
-        "basis": 63.67,
-        "bxt_today": -0.64,
-        "ath": 73.0,
-        "pct_to_ath": 13.1,
-        "wk52_high": 66.0,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GPN",
-        "name": "Global Payments Inc.",
-        "mcap": 19.86,
-        "price": 63.87,
-        "basis": 95.44,
-        "bxt_today": -0.46,
-        "ath": 220.81,
-        "pct_to_ath": 245.7,
-        "wk52_high": 90.64,
-        "wk52_low": 61.16,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 14.7,
-        "price": 32.84,
-        "basis": 33.93,
-        "bxt_today": -2.1,
-        "ath": 54.94,
-        "pct_to_ath": 67.3,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 1
-      }
-    ]
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
