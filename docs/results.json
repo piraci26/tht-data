@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-22T23:08:10.575215+00:00",
+  "updated_at": "2026-06-23T00:19:59.739687+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.8,
+  "scan_seconds": 12.16,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5577,29 +5577,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CVCO",
-      "name": "Cavco Industries, Inc. When Issued",
-      "mcap": 3.84,
-      "price": 587.16,
-      "basis": 528.53,
-      "bxt_today": -14.47,
-      "bxt_yest": 4.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 713.01,
-      "atl": 8.63,
-      "pct_to_ath": 21.4,
-      "pct_to_atl": 6703.7,
-      "wk52_high": 713.01,
-      "wk52_low": 395.34,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "KTB",
       "name": "Kontoor Brands, Inc.",
       "mcap": 3.84,
@@ -5619,6 +5596,29 @@
       "pct_to_atl": 490.0,
       "wk52_high": 87.0,
       "wk52_low": 53.55,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CVCO",
+      "name": "Cavco Industries, Inc. When Issued",
+      "mcap": 3.84,
+      "price": 587.16,
+      "basis": 528.53,
+      "bxt_today": -14.47,
+      "bxt_yest": 4.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 713.01,
+      "atl": 8.63,
+      "pct_to_ath": 21.4,
+      "pct_to_atl": 6703.7,
+      "wk52_high": 713.01,
+      "wk52_low": 395.34,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5762,7 +5762,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-22T21:49:01.695526+00:00",
+    "compared_to": "2026-06-22T23:08:10.575215+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
