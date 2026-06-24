@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-06-24T19:30:31.420172+00:00",
+  "updated_at": "2026-06-24T21:13:19.231011+00:00",
   "count": 3,
   "list": [
     {
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 5.44,
-      "price": 23.39,
+      "price": 23.47,
       "ath": 118.0,
-      "atl": 23.27,
-      "pct_to_ath": 404.5,
-      "pct_to_atl": 0.5,
+      "atl": 23.2,
+      "pct_to_ath": 402.8,
+      "pct_to_atl": 1.2,
       "wk52_high": 118.0,
-      "wk52_low": 23.27,
+      "wk52_low": 23.2,
       "ath_30d": 0,
       "atl_30d": 3,
       "last_high": 25.02,
-      "last_low": 23.27,
+      "last_low": 23.2,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -24,11 +24,11 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.96,
-      "price": 10.27,
+      "price": 10.22,
       "ath": 21.62,
       "atl": 10.16,
-      "pct_to_ath": 110.5,
-      "pct_to_atl": 1.1,
+      "pct_to_ath": 111.5,
+      "pct_to_atl": 0.6,
       "wk52_high": 16.1,
       "wk52_low": 10.16,
       "ath_30d": 0,
@@ -45,8 +45,8 @@
       "price": 5.39,
       "ath": 59.75,
       "atl": 5.3,
-      "pct_to_ath": 1009.6,
-      "pct_to_atl": 1.5,
+      "pct_to_ath": 1008.5,
+      "pct_to_atl": 1.6,
       "wk52_high": 41.75,
       "wk52_low": 5.3,
       "ath_30d": 0,
@@ -713,7 +713,5 @@
       "first_seen_at": "2026-06-24T19:30:31.420172+00:00"
     }
   ],
-  "added_this_run": [
-    "BLSH"
-  ]
+  "added_this_run": []
 }
