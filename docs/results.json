@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T22:40:20.703487+00:00",
+  "updated_at": "2026-06-24T23:49:20.489854+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.91,
+  "scan_seconds": 13.82,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5529,29 +5529,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ACIW",
-      "name": "ACI Worldwide, Inc.",
-      "mcap": 4.32,
-      "price": 46.39,
-      "basis": 43.39,
-      "bxt_today": 14.97,
-      "bxt_yest": -0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 59.71,
-      "atl": 1.42,
-      "pct_to_ath": 28.7,
-      "pct_to_atl": 3166.9,
-      "wk52_high": 54.28,
-      "wk52_low": 38.05,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TCBI",
       "name": "Texas Capital Bancshares, Inc.",
       "mcap": 4.32,
@@ -5571,6 +5548,29 @@
       "pct_to_atl": 1473.6,
       "wk52_high": 108.92,
       "wk52_low": 75.41,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ACIW",
+      "name": "ACI Worldwide, Inc.",
+      "mcap": 4.32,
+      "price": 46.39,
+      "basis": 43.39,
+      "bxt_today": 14.97,
+      "bxt_yest": -0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 59.71,
+      "atl": 1.42,
+      "pct_to_ath": 28.7,
+      "pct_to_atl": 3166.9,
+      "wk52_high": 54.28,
+      "wk52_low": 38.05,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -8499,7 +8499,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-24T21:11:31.605575+00:00",
+    "compared_to": "2026-06-24T22:40:20.703487+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

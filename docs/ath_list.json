@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T22:41:17.787754+00:00",
-  "count": 66,
+  "updated_at": "2026-06-24T23:50:41.776232+00:00",
+  "count": 65,
   "list": [
     {
       "sym": "BAC",
@@ -593,24 +593,6 @@
       "atl_30d": 0,
       "last_high": 141.96,
       "last_low": 139.41,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8.0,
-      "price": 123.58,
-      "ath": 123.67,
-      "atl": 7.09,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 1643.0,
-      "wk52_high": 123.67,
-      "wk52_low": 71.13,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "last_high": 123.67,
-      "last_low": 123.46,
       "made_ath_today": true,
       "made_atl_today": false
     },
