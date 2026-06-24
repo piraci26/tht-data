@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-06-24T13:31:32.335501+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-06-24T15:56:10.814396+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 4.96,
+      "price": 10.39,
+      "ath": 21.62,
+      "atl": 10.16,
+      "pct_to_ath": 108.2,
+      "pct_to_atl": 2.2,
+      "wk52_high": 16.1,
+      "wk52_low": 10.16,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 10.5,
+      "last_low": 10.16,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -642,21 +661,23 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.96,
-      "price": 10.48,
+      "price": 10.39,
       "ath": 21.62,
-      "atl": 10.47,
-      "pct_to_ath": 106.3,
-      "pct_to_atl": 0.1,
+      "atl": 10.16,
+      "pct_to_ath": 108.2,
+      "pct_to_atl": 2.2,
       "wk52_high": 16.1,
-      "wk52_low": 10.47,
+      "wk52_low": 10.16,
       "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 10.8,
-      "last_low": 10.47,
+      "atl_30d": 5,
+      "last_high": 10.5,
+      "last_low": 10.16,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-06-22T21:50:27.477255+00:00"
+      "first_seen_at": "2026-06-24T15:56:10.814396+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "OTF"
+  ]
 }
