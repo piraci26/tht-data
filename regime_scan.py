@@ -342,9 +342,13 @@ def main():
         est = len(tickers) * (args.wait + 0.5) * len(tfs) / 60
     print(f"Estimated: ~{est:.1f} min")
 
-    cdp = CDPClient()
+    cdp = None
     by_tf = {}
     try:
+        # CDPClient construction itself can raise TVCrashedError if the chart
+        # page hasn't fully loaded yet (e.g. fresh TV launch). Catch it here
+        # so the wrapper sees exit 87 (retriable) instead of exit 1.
+        cdp = CDPClient()
         if args.multi_pane:
             sync = enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False)
             print(f"Sync state: {sync}")
@@ -357,15 +361,15 @@ def main():
                 by_tf[tf] = scan_one_tf(cdp, tickers, names, mcaps, tf, args.wait)
     except TVCrashedError as e:
         print(f"\nTV CRASHED: {e}")
-        print(f"Checkpoint saved at {CHECKPOINT_PATH}. Wrapper will restart TV and re-run with --resume.")
+        print(f"Wrapper will restart TV and re-run with --resume.")
         try:
-            cdp.close()
+            if cdp: cdp.close()
         except Exception:
             pass
         sys.exit(EXIT_TV_CRASHED)
     finally:
         try:
-            cdp.close()
+            if cdp: cdp.close()
         except Exception:
             pass
 
