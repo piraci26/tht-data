@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T23:50:41.776232+00:00",
-  "count": 65,
+  "updated_at": "2026-06-25T01:53:52.041121+00:00",
+  "count": 63,
   "list": [
     {
       "sym": "BAC",
@@ -525,24 +525,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "BTSG",
-      "name": "BrightSpring Health Services, Inc.",
-      "mcap": 11.36,
-      "price": 67.61,
-      "ath": 69.09,
-      "atl": 7.85,
-      "pct_to_ath": 2.2,
-      "pct_to_atl": 761.3,
-      "wk52_high": 69.09,
-      "wk52_low": 19.01,
-      "ath_30d": 17,
-      "atl_30d": 0,
-      "last_high": 69.09,
-      "last_low": 66.34,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CR",
       "name": "Crane Company",
       "mcap": 10.09,
@@ -593,24 +575,6 @@
       "atl_30d": 0,
       "last_high": 141.96,
       "last_low": 139.41,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "LTH",
-      "name": "Life Time Group Holdings, Inc.",
-      "mcap": 7.32,
-      "price": 38.87,
-      "ath": 39.61,
-      "atl": 8.75,
-      "pct_to_ath": 1.9,
-      "pct_to_atl": 344.2,
-      "wk52_high": 39.61,
-      "wk52_low": 24.14,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 39.61,
-      "last_low": 37.85,
       "made_ath_today": true,
       "made_atl_today": false
     },

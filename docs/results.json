@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T23:49:20.489854+00:00",
+  "updated_at": "2026-06-25T01:53:08.737060+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.82,
+  "scan_seconds": 13.41,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -7844,13 +7844,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 10,
-      "ath": 123.67,
+      "ath": 123.69,
       "atl": 7.09,
       "pct_to_ath": 0.1,
       "pct_to_atl": 1643.0,
       "wk52_high": 123.67,
       "wk52_low": 71.13,
-      "ath_30d": 2,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -8499,7 +8499,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-24T22:40:20.703487+00:00",
+    "compared_to": "2026-06-24T23:49:20.489854+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
