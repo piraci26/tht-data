@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T06:01:34.207840+00:00",
-  "count": 65,
+  "updated_at": "2026-06-25T09:39:06.686149+00:00",
+  "count": 64,
   "list": [
     {
       "sym": "BAC",
@@ -377,24 +377,6 @@
       "atl_30d": 0,
       "last_high": 34.51,
       "last_low": 32.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "DD",
-      "name": "DuPont de Nemours, Inc.",
-      "mcap": 19.35,
-      "price": 48.19,
-      "ath": 144.85,
-      "atl": 2.6,
-      "pct_to_ath": 200.6,
-      "pct_to_atl": 1755.5,
-      "wk52_high": 144.85,
-      "wk52_low": 27.45,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 144.85,
-      "last_low": 136.77,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4975,10 +4957,5 @@
       "first_seen_at": "2026-06-25T06:01:34.207840+00:00"
     }
   ],
-  "added_this_run": [
-    "BTSG",
-    "DD",
-    "LTH",
-    "NUVL"
-  ]
+  "added_this_run": []
 }

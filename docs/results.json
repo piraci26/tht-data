@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T06:00:23.981978+00:00",
+  "updated_at": "2026-06-25T09:38:27.831629+00:00",
   "timeframe": "daily",
-  "scan_seconds": 20.74,
+  "scan_seconds": 11.61,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -553,6 +553,29 @@
       "pct_to_atl": 10874.9,
       "wk52_high": 293.72,
       "wk52_low": 241.81,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "DD",
+      "name": "DuPont de Nemours, Inc.",
+      "mcap": 19.35,
+      "price": 137.82,
+      "basis": 51.16,
+      "bxt_today": 49.18,
+      "bxt_yest": 20.1,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 157.98,
+      "atl": 7.79,
+      "pct_to_ath": 14.6,
+      "pct_to_atl": 1668.9,
+      "wk52_high": 144.85,
+      "wk52_low": 27.45,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -8499,8 +8522,22 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-25T01:53:08.737060+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-06-25T06:00:23.981978+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "DD",
+        "name": "DuPont de Nemours, Inc.",
+        "mcap": 19.35,
+        "price": 137.82,
+        "basis": 51.16,
+        "bxt_today": 49.18,
+        "ath": 157.98,
+        "pct_to_ath": 14.6,
+        "wk52_high": 144.85,
+        "wk52_low": 27.45,
+        "ath_30d": 0
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
