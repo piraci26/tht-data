@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-25T19:17:25.879454+00:00",
+  "updated_at": "2026-06-25T21:06:40.204015+00:00",
   "count": 4,
   "list": [
     {
       "sym": "PCOR",
       "name": "Procore Technologies, Inc.",
       "mcap": 6.98,
-      "price": 38.76,
+      "price": 38.3,
       "ath": 108.75,
       "atl": 38.11,
-      "pct_to_ath": 180.6,
-      "pct_to_atl": 1.7,
+      "pct_to_ath": 183.9,
+      "pct_to_atl": 0.5,
       "wk52_high": 82.32,
       "wk52_low": 38.11,
       "ath_30d": 0,
@@ -24,17 +24,17 @@
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 5.44,
-      "price": 22.28,
+      "price": 21.88,
       "ath": 118.0,
-      "atl": 22.18,
-      "pct_to_ath": 429.6,
-      "pct_to_atl": 0.4,
+      "atl": 21.82,
+      "pct_to_ath": 439.3,
+      "pct_to_atl": 0.3,
       "wk52_high": 118.0,
-      "wk52_low": 22.18,
+      "wk52_low": 21.82,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 24.05,
-      "last_low": 22.18,
+      "last_low": 21.82,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -42,11 +42,11 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.96,
-      "price": 10.14,
+      "price": 10.25,
       "ath": 21.62,
       "atl": 10.13,
-      "pct_to_ath": 113.3,
-      "pct_to_atl": 0.0,
+      "pct_to_ath": 110.9,
+      "pct_to_atl": 1.2,
       "wk52_high": 16.1,
       "wk52_low": 10.13,
       "ath_30d": 0,
@@ -60,17 +60,17 @@
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 2.65,
-      "price": 5.25,
+      "price": 5.19,
       "ath": 59.75,
-      "atl": 5.22,
-      "pct_to_ath": 1038.1,
-      "pct_to_atl": 0.5,
+      "atl": 5.19,
+      "pct_to_ath": 1051.3,
+      "pct_to_atl": 0.0,
       "wk52_high": 41.75,
-      "wk52_low": 5.22,
+      "wk52_low": 5.19,
       "ath_30d": 0,
       "atl_30d": 6,
       "last_high": 5.55,
-      "last_low": 5.22,
+      "last_low": 5.19,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -731,7 +731,5 @@
       "first_seen_at": "2026-06-25T19:17:25.879454+00:00"
     }
   ],
-  "added_this_run": [
-    "OTF"
-  ]
+  "added_this_run": []
 }
