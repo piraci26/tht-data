@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-25T17:06:54.474375+00:00",
-  "count": 3,
+  "updated_at": "2026-06-25T19:17:25.879454+00:00",
+  "count": 4,
   "list": [
     {
       "sym": "PCOR",
       "name": "Procore Technologies, Inc.",
       "mcap": 6.98,
-      "price": 39.07,
+      "price": 38.76,
       "ath": 108.75,
       "atl": 38.11,
-      "pct_to_ath": 178.3,
-      "pct_to_atl": 2.5,
+      "pct_to_ath": 180.6,
+      "pct_to_atl": 1.7,
       "wk52_high": 82.32,
       "wk52_low": 38.11,
       "ath_30d": 0,
@@ -24,17 +24,35 @@
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 5.44,
-      "price": 22.3,
+      "price": 22.28,
       "ath": 118.0,
       "atl": 22.18,
-      "pct_to_ath": 429.1,
-      "pct_to_atl": 0.5,
+      "pct_to_ath": 429.6,
+      "pct_to_atl": 0.4,
       "wk52_high": 118.0,
       "wk52_low": 22.18,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 24.05,
       "last_low": 22.18,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 4.96,
+      "price": 10.14,
+      "ath": 21.62,
+      "atl": 10.13,
+      "pct_to_ath": 113.3,
+      "pct_to_atl": 0.0,
+      "wk52_high": 16.1,
+      "wk52_low": 10.13,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 10.3,
+      "last_low": 10.13,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -637,25 +655,6 @@
       "first_seen_at": "2026-06-22T19:41:02.184641+00:00"
     },
     {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 4.96,
-      "price": 10.39,
-      "ath": 21.62,
-      "atl": 10.16,
-      "pct_to_ath": 108.2,
-      "pct_to_atl": 2.2,
-      "wk52_high": 16.1,
-      "wk52_low": 10.16,
-      "ath_30d": 0,
-      "atl_30d": 5,
-      "last_high": 10.5,
-      "last_low": 10.16,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-24T15:56:10.814396+00:00"
-    },
-    {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 2.65,
@@ -711,7 +710,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-25T14:54:54.939421+00:00"
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 4.96,
+      "price": 10.14,
+      "ath": 21.62,
+      "atl": 10.13,
+      "pct_to_ath": 113.3,
+      "pct_to_atl": 0.0,
+      "wk52_high": 16.1,
+      "wk52_low": 10.13,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 10.3,
+      "last_low": 10.13,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-25T19:17:25.879454+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "OTF"
+  ]
 }
