@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T09:38:50.180692+00:00",
+  "updated_at": "2026-06-25T12:06:07.930593+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.36,
+  "scan_seconds": 11.0,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1322,29 +1322,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SATS",
-      "name": "EchoStar  Corporation",
-      "mcap": 37.33,
-      "price": 103.92,
-      "basis": 48.53,
-      "bxt_today": -12.14,
-      "bxt_yest": 1.62,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 147.25,
-      "atl": 9.53,
-      "pct_to_ath": 41.7,
-      "pct_to_atl": 990.5,
-      "wk52_high": 147.25,
-      "wk52_low": 24.15,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "KB",
       "name": "KB Financial Group Inc",
       "mcap": 37.26,
@@ -2381,14 +2358,15 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-25T06:01:02.824853+00:00",
+    "compared_to": "2026-06-25T09:38:50.180692+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "SATS",
         "name": "EchoStar  Corporation",
@@ -2402,7 +2380,6 @@
         "wk52_low": 24.15,
         "ath_30d": 3
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
