@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T08:07:26.847729+00:00",
+  "updated_at": "2026-06-26T11:14:05.568876+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.79,
+  "scan_seconds": 13.65,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3114,29 +3114,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ICLR",
-      "name": "ICON plc Ordinary Shares",
-      "mcap": 9.06,
-      "price": 160.96,
-      "basis": 134.43,
-      "bxt_today": 11.96,
-      "bxt_yest": -2.54,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 347.72,
-      "atl": 2.5,
-      "pct_to_ath": 116.0,
-      "pct_to_atl": 6338.4,
-      "wk52_high": 211.0,
-      "wk52_low": 66.57,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9.06,
@@ -3157,6 +3134,29 @@
       "wk52_high": 104.2,
       "wk52_low": 76.3,
       "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ICLR",
+      "name": "ICON plc Ordinary Shares",
+      "mcap": 9.06,
+      "price": 160.96,
+      "basis": 134.43,
+      "bxt_today": 11.96,
+      "bxt_yest": -2.54,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 347.72,
+      "atl": 2.5,
+      "pct_to_ath": 116.0,
+      "pct_to_atl": 6338.4,
+      "wk52_high": 211.0,
+      "wk52_low": 66.57,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -5371,7 +5371,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-26T04:24:47.187926+00:00",
+    "compared_to": "2026-06-26T08:07:26.847729+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
