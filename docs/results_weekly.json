@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T22:15:52.426962+00:00",
+  "updated_at": "2026-06-26T23:37:02.533474+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.79,
+  "scan_seconds": 10.88,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2286,29 +2286,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "REXR",
-      "name": "Rexford Industrial Realty, Inc.",
-      "mcap": 8.0,
-      "price": 34.35,
-      "basis": 37.12,
-      "bxt_today": 2.29,
-      "bxt_yest": -7.8,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 84.68,
-      "atl": 12.14,
-      "pct_to_ath": 146.5,
-      "pct_to_atl": 182.9,
-      "wk52_high": 44.38,
-      "wk52_low": 32.14,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MSGS",
       "name": "Madison Square Garden Sports Corp. (New)",
       "mcap": 8.0,
@@ -2329,6 +2306,29 @@
       "wk52_high": 397.0,
       "wk52_low": 188.6,
       "ath_30d": 13,
+      "atl_30d": 0
+    },
+    {
+      "sym": "REXR",
+      "name": "Rexford Industrial Realty, Inc.",
+      "mcap": 8.0,
+      "price": 34.35,
+      "basis": 37.12,
+      "bxt_today": 2.29,
+      "bxt_yest": -7.8,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 84.68,
+      "atl": 12.14,
+      "pct_to_ath": 146.5,
+      "pct_to_atl": 182.9,
+      "wk52_high": 44.38,
+      "wk52_low": 32.14,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -4543,7 +4543,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-26T20:56:30.044685+00:00",
+    "compared_to": "2026-06-26T22:15:52.426962+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
