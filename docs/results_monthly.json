@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T20:56:42.228816+00:00",
+  "updated_at": "2026-06-26T22:16:04.798482+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.85,
+  "scan_seconds": 9.31,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -450,7 +450,7 @@
       "name": "Synopsys, Inc.",
       "mcap": 96.52,
       "price": 454.34,
-      "basis": 505.31,
+      "basis": 505.29,
       "bxt_today": 0.73,
       "bxt_yest": -0.38,
       "fvb_g": false,
@@ -1579,7 +1579,7 @@
       "name": "Broadcom Inc.",
       "mcap": 1953.86,
       "price": 365.02,
-      "basis": 237.54,
+      "basis": 237.53,
       "bxt_today": -8.25,
       "bxt_yest": 2.09,
       "fvb_g": false,
@@ -2841,255 +2841,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-26T19:14:35.404369+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CNS",
-        "name": "Cohen & Steers Inc",
-        "mcap": 3.7,
-        "price": 78.38,
-        "basis": 75.56,
-        "bxt_today": 31.09,
-        "ath": 110.67,
-        "pct_to_ath": 41.2,
-        "wk52_high": 78.81,
-        "wk52_low": 58.39,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-06-26T20:56:42.228816+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "NXT",
-        "name": "Nextpower Inc.",
-        "mcap": 18.23,
-        "price": 106.95,
-        "basis": 111.77,
-        "bxt_today": -31.77,
-        "ath": 163.13,
-        "pct_to_ath": 52.5,
-        "wk52_high": 163.13,
-        "wk52_low": 51.69,
-        "ath_30d": 1
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "AMP",
-        "name": "Ameriprise Financial, Inc.",
-        "mcap": 40.37,
-        "price": 449.71,
-        "basis": 465.4,
-        "bxt_today": -34.51,
-        "ath": 582.05,
-        "pct_to_ath": 29.4,
-        "wk52_high": 550.18,
-        "wk52_low": 422.37,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PI",
-        "name": "Impinj, Inc.",
-        "mcap": 4.27,
-        "price": 130.77,
-        "basis": 140.56,
-        "bxt_today": -15.63,
-        "ath": 247.06,
-        "pct_to_ath": 88.9,
-        "wk52_high": 247.06,
-        "wk52_low": 87.36,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 100.08,
-        "price": 460.02,
-        "basis": 509.48,
-        "bxt_today": 0.89,
-        "ath": 785.0,
-        "pct_to_ath": 70.6,
-        "wk52_high": 785.0,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CL",
-        "name": "Colgate-Palmolive Company",
-        "mcap": 72.43,
-        "price": 92.07,
-        "basis": 79.65,
-        "bxt_today": 0.51,
-        "ath": 109.3,
-        "pct_to_ath": 18.7,
-        "wk52_high": 99.33,
-        "wk52_low": 74.55,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FDS",
-        "name": "FactSet Research Systems Inc.",
-        "mcap": 7.74,
-        "price": 231.74,
-        "basis": 380.87,
-        "bxt_today": 0.47,
-        "ath": 499.87,
-        "pct_to_ath": 115.7,
-        "wk52_high": 453.41,
-        "wk52_low": 185.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "W",
-        "name": "Wayfair Inc.",
-        "mcap": 7.68,
-        "price": 94.47,
-        "basis": 63.24,
-        "bxt_today": 0.33,
-        "ath": 369.0,
-        "pct_to_ath": 290.6,
-        "wk52_high": 119.98,
-        "wk52_low": 49.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "mcap": 7.56,
-        "price": 56.52,
-        "basis": 52.53,
-        "bxt_today": 6.65,
-        "ath": 121.06,
-        "pct_to_ath": 114.2,
-        "wk52_high": 65.0,
-        "wk52_low": 29.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "DBX",
-        "name": "Dropbox, Inc.",
-        "mcap": 6.35,
-        "price": 26.64,
-        "basis": 26.26,
-        "bxt_today": 1.18,
-        "ath": 43.5,
-        "pct_to_ath": 63.3,
-        "wk52_high": 32.4,
-        "wk52_low": 21.69,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TTAN",
-        "name": "ServiceTitan, Inc.",
-        "mcap": 5.82,
-        "price": 69.2,
-        "basis": 65.92,
-        "bxt_today": 3.69,
-        "ath": 131.33,
-        "pct_to_ath": 89.8,
-        "wk52_high": 119.99,
-        "wk52_low": 54.17,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 14.28,
-        "price": 43.81,
-        "basis": 44.45,
-        "bxt_today": 0.4,
-        "ath": 48.68,
-        "pct_to_ath": 11.1,
-        "wk52_high": 48.68,
-        "wk52_low": 33.15,
-        "ath_30d": 4
-      },
-      {
-        "sym": "RELY",
-        "name": "Remitly Global, Inc.",
-        "mcap": 4.55,
-        "price": 22.63,
-        "basis": 16.88,
-        "bxt_today": 0.87,
-        "ath": 53.65,
-        "pct_to_ath": 137.1,
-        "wk52_high": 24.92,
-        "wk52_low": 12.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ACAD",
-        "name": "ACADIA Pharmaceuticals Inc.",
-        "mcap": 3.65,
-        "price": 25.67,
-        "basis": 20.98,
-        "bxt_today": 0.22,
-        "ath": 58.72,
-        "pct_to_ath": 128.7,
-        "wk52_high": 28.35,
-        "wk52_low": 19.69,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "GOOG",
-        "name": "Alphabet Inc. Class C Capital Stock",
-        "mcap": 4657.78,
-        "price": 334.69,
-        "basis": 216.46,
-        "bxt_today": -0.67,
-        "ath": 404.47,
-        "pct_to_ath": 20.8,
-        "wk52_high": 404.47,
-        "wk52_low": 170.86,
-        "ath_30d": 1
-      },
-      {
-        "sym": "CX",
-        "name": "Cemex, S.A.B. de C.V. Sponsored ADR",
-        "mcap": 18.17,
-        "price": 12.28,
-        "basis": 8.38,
-        "bxt_today": -0.7,
-        "ath": 31.43,
-        "pct_to_ath": 155.9,
-        "wk52_high": 13.67,
-        "wk52_low": 6.67,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CSW",
-        "name": "CSW Industrials, Inc.",
-        "mcap": 4.38,
-        "price": 282.61,
-        "basis": 282.29,
-        "bxt_today": -0.15,
-        "ath": 436.5,
-        "pct_to_ath": 54.5,
-        "wk52_high": 337.02,
-        "wk52_low": 230.45,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "DDS",
-        "name": "Dillard's, Inc.",
-        "mcap": 8.41,
-        "price": 566.86,
-        "basis": 287.97,
-        "bxt_today": -0.22,
-        "ath": 741.98,
-        "pct_to_ath": 30.9,
-        "wk52_high": 741.98,
-        "wk52_low": 404.03,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
