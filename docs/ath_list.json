@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T11:14:58.189923+00:00",
+  "updated_at": "2026-06-26T13:24:17.132006+00:00",
   "count": 100,
   "list": [
     {
@@ -1011,24 +1011,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "CR",
-      "name": "Crane Company",
-      "mcap": 10.09,
-      "price": 223.59,
-      "ath": 224.89,
-      "atl": 67.28,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 232.3,
-      "wk52_high": 224.89,
-      "wk52_low": 159.58,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 224.89,
-      "last_low": 215.43,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "WTFC",
       "name": "Wintrust Financial Corporation",
       "mcap": 10.09,
@@ -1043,6 +1025,24 @@
       "atl_30d": 0,
       "last_high": 163.36,
       "last_low": 159.42,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "CR",
+      "name": "Crane Company",
+      "mcap": 10.09,
+      "price": 223.59,
+      "ath": 224.89,
+      "atl": 67.28,
+      "pct_to_ath": 0.6,
+      "pct_to_atl": 232.3,
+      "wk52_high": 224.89,
+      "wk52_low": 159.58,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 224.89,
+      "last_low": 215.43,
       "made_ath_today": true,
       "made_atl_today": false
     },
