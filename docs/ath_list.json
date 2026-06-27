@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T21:15:59.859002+00:00",
+  "updated_at": "2026-06-27T22:19:23.547089+00:00",
   "count": 65,
   "list": [
     {
@@ -4975,31 +4975,5 @@
       "first_seen_at": "2026-06-27T21:15:59.859002+00:00"
     }
   ],
-  "added_this_run": [
-    "AIR",
-    "ALL",
-    "BELFB",
-    "CAH",
-    "CATY",
-    "CNP",
-    "EA",
-    "ENVA",
-    "EVRG",
-    "FULT",
-    "GVA",
-    "IBOC",
-    "JNJ",
-    "LLY",
-    "LNT",
-    "LYV",
-    "MNST",
-    "MTRN",
-    "PFGC",
-    "PSMT",
-    "RNR",
-    "THG",
-    "TRV",
-    "UMBF",
-    "WELL"
-  ]
+  "added_this_run": []
 }
