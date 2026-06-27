@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-27T01:34:55.412997+00:00",
+  "updated_at": "2026-06-27T05:35:58.676301+00:00",
   "count": 1,
   "list": [
     {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 2.65,
-      "price": 5.32,
+      "price": 5.19,
       "ath": 59.75,
       "atl": 5.12,
-      "pct_to_ath": 1023.1,
-      "pct_to_atl": 3.9,
+      "pct_to_ath": 1051.3,
+      "pct_to_atl": 1.4,
       "wk52_high": 41.75,
       "wk52_low": 5.12,
       "ath_30d": 0,
