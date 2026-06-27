@@ -1,39 +1,21 @@
 {
-  "updated_at": "2026-06-27T11:55:44.209355+00:00",
-  "count": 2,
+  "updated_at": "2026-06-27T13:23:30.612874+00:00",
+  "count": 1,
   "list": [
-    {
-      "sym": "BLSH",
-      "name": "Bullish Ordinary Shares",
-      "mcap": 5.44,
-      "price": 23.29,
-      "ath": 118.0,
-      "atl": 21.76,
-      "pct_to_ath": 406.7,
-      "pct_to_atl": 7.0,
-      "wk52_high": 118.0,
-      "wk52_low": 21.76,
-      "ath_30d": 0,
-      "atl_30d": 5,
-      "last_high": 23.46,
-      "last_low": 21.76,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
     {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 2.65,
-      "price": 5.32,
+      "price": 5.19,
       "ath": 59.75,
       "atl": 5.12,
-      "pct_to_ath": 1023.1,
-      "pct_to_atl": 3.9,
+      "pct_to_ath": 1051.3,
+      "pct_to_atl": 1.4,
       "wk52_high": 41.75,
       "wk52_low": 5.12,
       "ath_30d": 0,
       "atl_30d": 7,
-      "last_high": 5.36,
+      "last_high": 5.35,
       "last_low": 5.12,
       "made_ath_today": false,
       "made_atl_today": true
@@ -695,7 +677,5 @@
       "first_seen_at": "2026-06-27T11:55:44.209355+00:00"
     }
   ],
-  "added_this_run": [
-    "BLSH"
-  ]
+  "added_this_run": []
 }
