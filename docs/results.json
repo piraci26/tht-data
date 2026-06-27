@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T23:36:48.422599+00:00",
+  "updated_at": "2026-06-27T01:33:16.855481+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.68,
+  "scan_seconds": 25.5,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5922,29 +5922,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LBTYB",
-      "name": "Liberty Global Ltd. Common Shares",
-      "mcap": 4.82,
-      "price": 12.82,
-      "basis": 14.01,
-      "bxt_today": -7.28,
-      "bxt_yest": 16.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 58.31,
-      "atl": 4.25,
-      "pct_to_ath": 354.8,
-      "pct_to_atl": 201.5,
-      "wk52_high": 29.01,
-      "wk52_low": 9.57,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MAAS",
       "name": "Maase Inc. Ordinary Shares",
       "mcap": 4.79,
@@ -6107,7 +6084,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-26T22:15:36.632887+00:00",
+    "compared_to": "2026-06-26T23:36:48.422599+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -6115,6 +6092,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "LBTYB",
+        "name": "Liberty Global Ltd. Common Shares",
+        "mcap": 4.82,
+        "price": 12.82,
+        "basis": 14.01,
+        "bxt_today": -7.28,
+        "ath": 58.31,
+        "pct_to_ath": 354.8,
+        "wk52_high": 29.01,
+        "wk52_low": 9.57,
+        "ath_30d": 0
+      }
+    ]
   }
 }
