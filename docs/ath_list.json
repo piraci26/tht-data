@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-27T15:00:43.346890+00:00",
-  "count": 65,
+  "updated_at": "2026-06-27T16:16:21.308579+00:00",
+  "count": 63,
   "list": [
     {
       "sym": "LLY",
@@ -165,24 +165,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "ALL",
-      "name": "Allstate Corporation (The)",
-      "mcap": 55.26,
-      "price": 239.61,
-      "ath": 240.16,
-      "atl": 11.31,
-      "pct_to_ath": 0.2,
-      "pct_to_atl": 2018.1,
-      "wk52_high": 240.16,
-      "wk52_low": 188.08,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 240.16,
-      "last_low": 233.38,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "EA",
       "name": "Electronic Arts Inc.",
       "mcap": 50.61,
@@ -341,24 +323,6 @@
       "atl_30d": 0,
       "last_high": 49.08,
       "last_low": 48.06,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "EVRG",
-      "name": "Evergy, Inc.",
-      "mcap": 19.28,
-      "price": 87.21,
-      "ath": 87.57,
-      "atl": 8.5,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 926.0,
-      "wk52_high": 87.57,
-      "wk52_low": 67.3,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 87.57,
-      "last_low": 86.76,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4975,31 +4939,5 @@
       "first_seen_at": "2026-06-27T15:00:43.346890+00:00"
     }
   ],
-  "added_this_run": [
-    "AIR",
-    "ALL",
-    "BELFB",
-    "CAH",
-    "CATY",
-    "CNP",
-    "EA",
-    "ENVA",
-    "EVRG",
-    "FULT",
-    "GVA",
-    "IBOC",
-    "JNJ",
-    "LLY",
-    "LNT",
-    "LYV",
-    "MNST",
-    "MTRN",
-    "PFGC",
-    "PSMT",
-    "RNR",
-    "THG",
-    "TRV",
-    "UMBF",
-    "WELL"
-  ]
+  "added_this_run": []
 }
