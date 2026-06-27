@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-06-27T05:35:58.676301+00:00",
-  "count": 1,
+  "updated_at": "2026-06-27T08:15:33.334892+00:00",
+  "count": 2,
   "list": [
+    {
+      "sym": "BLSH",
+      "name": "Bullish Ordinary Shares",
+      "mcap": 5.44,
+      "price": 23.29,
+      "ath": 118.0,
+      "atl": 21.81,
+      "pct_to_ath": 406.7,
+      "pct_to_atl": 6.8,
+      "wk52_high": 118.0,
+      "wk52_low": 21.76,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 23.46,
+      "last_low": 21.76,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
@@ -620,25 +638,6 @@
       "first_seen_at": "2026-06-24T17:54:44.101690+00:00"
     },
     {
-      "sym": "BLSH",
-      "name": "Bullish Ordinary Shares",
-      "mcap": 5.44,
-      "price": 23.39,
-      "ath": 118.0,
-      "atl": 23.27,
-      "pct_to_ath": 404.5,
-      "pct_to_atl": 0.5,
-      "wk52_high": 118.0,
-      "wk52_low": 23.27,
-      "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 25.02,
-      "last_low": 23.27,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-24T19:30:31.420172+00:00"
-    },
-    {
       "sym": "PCOR",
       "name": "Procore Technologies, Inc.",
       "mcap": 6.98,
@@ -675,7 +674,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-25T19:17:25.879454+00:00"
+    },
+    {
+      "sym": "BLSH",
+      "name": "Bullish Ordinary Shares",
+      "mcap": 5.44,
+      "price": 23.29,
+      "ath": 118.0,
+      "atl": 21.81,
+      "pct_to_ath": 406.7,
+      "pct_to_atl": 6.8,
+      "wk52_high": 118.0,
+      "wk52_low": 21.76,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 23.46,
+      "last_low": 21.76,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-27T08:15:33.334892+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "BLSH"
+  ]
 }
