@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28T11:21:51.924355+00:00",
+  "updated_at": "2026-06-28T12:51:37.495737+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.42,
+  "scan_seconds": 8.93,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -998,29 +998,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "FBIN",
-      "name": "Fortune Brands Innovations, Inc.",
-      "mcap": 4.32,
-      "price": 45.96,
-      "basis": 62.65,
-      "bxt_today": 5.57,
-      "bxt_yest": -5.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 97.44,
-      "atl": 9.44,
-      "pct_to_ath": 112.0,
-      "pct_to_atl": 386.6,
-      "wk52_high": 64.84,
-      "wk52_low": 32.34,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ACIW",
       "name": "ACI Worldwide, Inc.",
       "mcap": 4.32,
@@ -1040,6 +1017,29 @@
       "pct_to_atl": 3369.0,
       "wk52_high": 54.28,
       "wk52_low": 38.05,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "FBIN",
+      "name": "Fortune Brands Innovations, Inc.",
+      "mcap": 4.32,
+      "price": 45.96,
+      "basis": 62.65,
+      "bxt_today": 5.57,
+      "bxt_yest": -5.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 97.44,
+      "atl": 9.44,
+      "pct_to_ath": 112.0,
+      "pct_to_atl": 386.6,
+      "wk52_high": 64.84,
+      "wk52_low": 32.34,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2565,7 +2565,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-28T09:28:16.377293+00:00",
+    "compared_to": "2026-06-28T11:21:51.924355+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
