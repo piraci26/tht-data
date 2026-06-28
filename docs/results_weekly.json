@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-28T19:48:42.473644+00:00",
+  "updated_at": "2026-06-28T20:47:33.744428+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.79,
-  "scanned_count": 1511,
+  "scan_seconds": 19.28,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "VST",
@@ -2726,7 +2726,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-28T18:15:24.258902+00:00",
+    "compared_to": "2026-06-28T19:48:42.473644+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

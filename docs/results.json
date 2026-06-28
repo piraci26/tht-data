@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28T19:48:29.427275+00:00",
+  "updated_at": "2026-06-28T20:47:08.342432+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.77,
+  "scan_seconds": 23.08,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3091,29 +3091,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ELS",
-      "name": "Equity Lifestyle Properties, Inc.",
-      "mcap": 12.24,
-      "price": 64.23,
-      "basis": 62.78,
-      "bxt_today": 9.7,
-      "bxt_yest": -10.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 88.7,
-      "atl": 3.44,
-      "pct_to_ath": 38.1,
-      "pct_to_atl": 1768.5,
-      "wk52_high": 69.0,
-      "wk52_low": 58.15,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "UDR",
       "name": "UDR, Inc.",
       "mcap": 12.24,
@@ -3133,6 +3110,29 @@
       "pct_to_atl": 680.1,
       "wk52_high": 41.6,
       "wk52_low": 32.94,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ELS",
+      "name": "Equity Lifestyle Properties, Inc.",
+      "mcap": 12.24,
+      "price": 64.23,
+      "basis": 62.78,
+      "bxt_today": 9.7,
+      "bxt_yest": -10.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 88.7,
+      "atl": 3.44,
+      "pct_to_ath": 38.1,
+      "pct_to_atl": 1768.5,
+      "wk52_high": 69.0,
+      "wk52_low": 58.15,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6084,7 +6084,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-28T18:15:11.011730+00:00",
+    "compared_to": "2026-06-28T19:48:29.427275+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
