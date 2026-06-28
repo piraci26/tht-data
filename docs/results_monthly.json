@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28T09:28:16.377293+00:00",
+  "updated_at": "2026-06-28T11:21:51.924355+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.2,
+  "scan_seconds": 8.42,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2565,56 +2565,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-28T06:02:17.163475+00:00",
+    "compared_to": "2026-06-28T09:28:16.377293+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "HON",
-        "name": "Honeywell International Inc.",
-        "mcap": 141.8,
-        "price": 232.21,
-        "basis": 366.06,
-        "bxt_today": -28.78,
-        "ath": 496.36,
-        "pct_to_ath": 113.8,
-        "wk52_high": 474.74,
-        "wk52_low": 186.76,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "HON",
-        "name": "Honeywell International Inc.",
-        "mcap": 141.8,
-        "price": 232.21,
-        "basis": 174.44,
-        "bxt_today": 12.59,
-        "ath": 236.86,
-        "pct_to_ath": 2.0,
-        "wk52_high": 474.74,
-        "wk52_low": 186.76,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "HON",
-        "name": "Honeywell International Inc.",
-        "mcap": 141.8,
-        "price": 232.21,
-        "basis": 366.06,
-        "bxt_today": -28.78,
-        "ath": 496.36,
-        "pct_to_ath": 113.8,
-        "wk52_high": 474.74,
-        "wk52_low": 186.76,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
