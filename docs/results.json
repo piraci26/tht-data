@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T21:54:46.306162+00:00",
+  "updated_at": "2026-06-29T22:55:00.288829+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.77,
+  "scan_seconds": 27.64,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5210,40 +5210,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-29T20:29:05.670747+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "JAZZ",
-        "name": "Jazz Pharmaceuticals plc (Ireland)",
-        "mcap": 15.02,
-        "price": 237.72,
-        "basis": 232.58,
-        "bxt_today": 20.33,
-        "ath": 243.32,
-        "pct_to_ath": 2.4,
-        "wk52_high": 243.32,
-        "wk52_low": 105.0,
-        "ath_30d": 3
-      }
-    ],
+    "compared_to": "2026-06-29T21:54:46.306162+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "JAZZ",
-        "name": "Jazz Pharmaceuticals plc (Ireland)",
-        "mcap": 15.02,
-        "price": 237.72,
-        "basis": 232.58,
-        "bxt_today": 20.33,
-        "ath": 243.32,
-        "pct_to_ath": 2.4,
-        "wk52_high": 243.32,
-        "wk52_low": 105.0,
-        "ath_30d": 3
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

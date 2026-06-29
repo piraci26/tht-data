@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-29T21:55:01.081363+00:00",
+  "updated_at": "2026-06-29T22:55:27.376152+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.45,
-  "scanned_count": 1511,
+  "scan_seconds": 21.83,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "AZN",
@@ -3508,7 +3508,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-29T20:29:22.456597+00:00",
+    "compared_to": "2026-06-29T21:55:01.081363+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
