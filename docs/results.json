@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28T23:53:54.377957+00:00",
+  "updated_at": "2026-06-29T02:58:00.123410+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.52,
+  "scan_seconds": 10.21,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4425,29 +4425,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MAT",
-      "name": "Mattel, Inc.",
-      "mcap": 4.36,
-      "price": 13.98,
-      "basis": 14.57,
-      "bxt_today": 2.86,
-      "bxt_yest": -15.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 48.48,
-      "atl": 1.67,
-      "pct_to_ath": 246.8,
-      "pct_to_atl": 735.9,
-      "wk52_high": 22.48,
-      "wk52_low": 13.62,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4.36,
@@ -4467,6 +4444,29 @@
       "pct_to_atl": 117.1,
       "wk52_high": 30.57,
       "wk52_low": 21.03,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MAT",
+      "name": "Mattel, Inc.",
+      "mcap": 4.36,
+      "price": 13.98,
+      "basis": 14.57,
+      "bxt_today": 2.86,
+      "bxt_yest": -15.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 48.48,
+      "atl": 1.67,
+      "pct_to_ath": 246.8,
+      "pct_to_atl": 735.9,
+      "wk52_high": 22.48,
+      "wk52_low": 13.62,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6084,7 +6084,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-28T22:46:58.990062+00:00",
+    "compared_to": "2026-06-28T23:53:54.377957+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
