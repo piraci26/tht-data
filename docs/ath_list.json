@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T20:29:58.749877+00:00",
+  "updated_at": "2026-06-29T21:55:33.102266+00:00",
   "count": 69,
   "list": [
     {
@@ -43,15 +43,15 @@
       "name": "AbbVie Inc.",
       "mcap": 380.58,
       "price": 254.31,
-      "ath": 255.99,
+      "ath": 255.96,
       "atl": 35.01,
-      "pct_to_ath": 0.7,
+      "pct_to_ath": 0.6,
       "pct_to_atl": 626.4,
-      "wk52_high": 255.99,
+      "wk52_high": 255.96,
       "wk52_low": 181.73,
       "ath_30d": 2,
       "atl_30d": 0,
-      "last_high": 255.99,
+      "last_high": 255.96,
       "last_low": 249.2,
       "made_ath_today": true,
       "made_atl_today": false
@@ -5047,12 +5047,5 @@
       "first_seen_at": "2026-06-29T20:29:58.749877+00:00"
     }
   ],
-  "added_this_run": [
-    "CRS",
-    "MYRG",
-    "SN",
-    "SPHR",
-    "USFD",
-    "VICR"
-  ]
+  "added_this_run": []
 }
