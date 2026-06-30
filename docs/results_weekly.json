@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T04:21:03.692166+00:00",
+  "updated_at": "2026-06-30T08:04:44.087965+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.66,
+  "scan_seconds": 8.81,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -943,9 +943,9 @@
       "fvb_streak": null,
       "bxt_streak": 3,
       "ath": 260.28,
-      "atl": 5.5,
+      "atl": 2.53,
       "pct_to_ath": 12.1,
-      "pct_to_atl": 4119.2,
+      "pct_to_atl": 9068.7,
       "wk52_high": 252.0,
       "wk52_low": 186.76,
       "ath_30d": 0,
@@ -3531,42 +3531,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-30T00:02:08.209344+00:00",
+    "compared_to": "2026-06-30T04:21:03.692166+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "HON",
-        "name": "Honeywell International Inc.",
-        "mcap": 141.8,
-        "price": 232.21,
-        "basis": 218.48,
-        "bxt_today": 8.1,
-        "ath": 260.28,
-        "pct_to_ath": 12.1,
-        "wk52_high": 252.0,
-        "wk52_low": 186.76,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "MLI",
-        "name": "Mueller Industries, Inc.",
-        "mcap": 14.76,
-        "price": 128.2,
-        "basis": 122.2,
-        "bxt_today": -14.12,
-        "ath": 141.9,
-        "pct_to_ath": 10.7,
-        "wk52_high": 141.9,
-        "wk52_low": 78.57,
-        "ath_30d": 1
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

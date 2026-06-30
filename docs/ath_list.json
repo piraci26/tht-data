@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T04:21:35.824141+00:00",
-  "count": 70,
+  "updated_at": "2026-06-30T08:05:10.083610+00:00",
+  "count": 68,
   "list": [
     {
       "sym": "LLY",
@@ -1119,24 +1119,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "HNGE",
-      "name": "Hinge Health, Inc.",
-      "mcap": 4.23,
-      "price": 81.48,
-      "ath": 84.62,
-      "atl": 30.08,
-      "pct_to_ath": 3.9,
-      "pct_to_atl": 170.9,
-      "wk52_high": 84.62,
-      "wk52_low": 30.08,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 84.62,
-      "last_low": 78.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "KNSA",
       "name": "Kiniksa Pharmaceuticals International, plc Ordinary Shares",
       "mcap": 4.16,
@@ -1205,24 +1187,6 @@
       "atl_30d": 0,
       "last_high": 62.43,
       "last_low": 61.22,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "BELFB",
-      "name": "Bel Fuse Inc.",
-      "mcap": 3.68,
-      "price": 315.65,
-      "ath": 316.93,
-      "atl": 5.38,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 5772.6,
-      "wk52_high": 316.93,
-      "wk52_low": 92.3,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 316.93,
-      "last_low": 298.57,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -5065,7 +5029,5 @@
       "first_seen_at": "2026-06-30T04:21:35.824141+00:00"
     }
   ],
-  "added_this_run": [
-    "AIR"
-  ]
+  "added_this_run": []
 }
