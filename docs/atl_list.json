@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-06-30T13:20:24.491773+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-06-30T15:45:23.823547+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "XXI",
+      "name": "Twenty One Capital, Inc.",
+      "mcap": 2.65,
+      "price": 4.9,
+      "ath": 59.75,
+      "atl": 4.89,
+      "pct_to_ath": 1119.4,
+      "pct_to_atl": 0.3,
+      "wk52_high": 41.75,
+      "wk52_low": 4.89,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 5.16,
+      "last_low": 4.89,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -582,25 +601,6 @@
       "first_seen_at": "2026-06-22T19:41:02.184641+00:00"
     },
     {
-      "sym": "XXI",
-      "name": "Twenty One Capital, Inc.",
-      "mcap": 2.65,
-      "price": 5.33,
-      "ath": 59.75,
-      "atl": 5.3,
-      "pct_to_ath": 1021.0,
-      "pct_to_atl": 0.5,
-      "wk52_high": 41.75,
-      "wk52_low": 5.3,
-      "ath_30d": 0,
-      "atl_30d": 5,
-      "last_high": 5.68,
-      "last_low": 5.3,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-24T17:54:44.101690+00:00"
-    },
-    {
       "sym": "PCOR",
       "name": "Procore Technologies, Inc.",
       "mcap": 6.98,
@@ -656,7 +656,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-28T06:02:36.000012+00:00"
+    },
+    {
+      "sym": "XXI",
+      "name": "Twenty One Capital, Inc.",
+      "mcap": 2.65,
+      "price": 4.9,
+      "ath": 59.75,
+      "atl": 4.89,
+      "pct_to_ath": 1119.4,
+      "pct_to_atl": 0.3,
+      "wk52_high": 41.75,
+      "wk52_low": 4.89,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 5.16,
+      "last_low": 4.89,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-06-30T15:45:23.823547+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "XXI"
+  ]
 }
