@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-06-30T15:45:23.823547+00:00",
+  "updated_at": "2026-06-30T17:31:37.340211+00:00",
   "count": 1,
   "list": [
     {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 2.65,
-      "price": 4.9,
+      "price": 4.86,
       "ath": 59.75,
-      "atl": 4.89,
-      "pct_to_ath": 1119.4,
-      "pct_to_atl": 0.3,
+      "atl": 4.81,
+      "pct_to_ath": 1129.4,
+      "pct_to_atl": 1.0,
       "wk52_high": 41.75,
-      "wk52_low": 4.89,
+      "wk52_low": 4.81,
       "ath_30d": 0,
       "atl_30d": 8,
       "last_high": 5.16,
-      "last_low": 4.89,
+      "last_low": 4.81,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -677,7 +677,5 @@
       "first_seen_at": "2026-06-30T15:45:23.823547+00:00"
     }
   ],
-  "added_this_run": [
-    "XXI"
-  ]
+  "added_this_run": []
 }
