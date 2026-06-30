@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-29T22:55:27.376152+00:00",
+  "updated_at": "2026-06-30T00:02:08.209344+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 21.83,
-  "scanned_count": 1510,
+  "scan_seconds": 13.57,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "AZN",
@@ -533,29 +533,6 @@
       "wk52_high": 307.96,
       "wk52_low": 229.11,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "SATS",
-      "name": "EchoStar  Corporation",
-      "mcap": 37.33,
-      "price": 97.39,
-      "basis": 111.66,
-      "bxt_today": -42.09,
-      "bxt_yest": -38.13,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 53,
-      "bxt_streak": null,
-      "ath": 147.25,
-      "atl": 9.53,
-      "pct_to_ath": 51.2,
-      "pct_to_atl": 921.9,
-      "wk52_high": 147.25,
-      "wk52_low": 24.36,
-      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -3508,11 +3485,25 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-29T21:55:01.081363+00:00",
+    "compared_to": "2026-06-29T22:55:27.376152+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
+    "fvb_red_removed": [
+      {
+        "sym": "SATS",
+        "name": "EchoStar  Corporation",
+        "mcap": 37.33,
+        "price": 97.39,
+        "basis": 111.66,
+        "bxt_today": -42.09,
+        "ath": 147.25,
+        "pct_to_ath": 51.2,
+        "wk52_high": 147.25,
+        "wk52_low": 24.36,
+        "ath_30d": 2
+      }
+    ],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T22:55:48.848071+00:00",
+  "updated_at": "2026-06-30T00:02:22.122912+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.55,
+  "scan_seconds": 11.96,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -190,29 +190,6 @@
     }
   ],
   "fvb_red": [
-    {
-      "sym": "HON",
-      "name": "Honeywell International Inc.",
-      "mcap": 141.8,
-      "price": 227.8,
-      "basis": 366.26,
-      "bxt_today": -29.05,
-      "bxt_yest": 20.27,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 66,
-      "bxt_streak": 3,
-      "ath": 496.36,
-      "atl": 11.16,
-      "pct_to_ath": 117.9,
-      "pct_to_atl": 1942.0,
-      "wk52_high": 474.74,
-      "wk52_low": 186.76,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
     {
       "sym": "AMP",
       "name": "Ameriprise Financial, Inc.",
@@ -1552,29 +1529,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "HON",
-      "name": "Honeywell International Inc.",
-      "mcap": 141.8,
-      "price": 227.8,
-      "basis": 366.26,
-      "bxt_today": -29.05,
-      "bxt_yest": 20.27,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 66,
-      "bxt_streak": 3,
-      "ath": 496.36,
-      "atl": 11.16,
-      "pct_to_ath": 117.9,
-      "pct_to_atl": 1942.0,
-      "wk52_high": 474.74,
-      "wk52_low": 186.76,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "LMT",
       "name": "Lockheed Martin Corporation",
       "mcap": 120.87,
@@ -2680,14 +2634,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-29T21:55:13.121137+00:00",
+    "compared_to": "2026-06-29T22:55:48.848071+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
+    "fvb_red_removed": [
+      {
+        "sym": "HON",
+        "name": "Honeywell International Inc.",
+        "mcap": 141.8,
+        "price": 227.8,
+        "basis": 366.26,
+        "bxt_today": -29.05,
+        "ath": 496.36,
+        "pct_to_ath": 117.9,
+        "wk52_high": 474.74,
+        "wk52_low": 186.76,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "HON",
+        "name": "Honeywell International Inc.",
+        "mcap": 141.8,
+        "price": 227.8,
+        "basis": 366.26,
+        "bxt_today": -29.05,
+        "ath": 496.36,
+        "pct_to_ath": 117.9,
+        "wk52_high": 474.74,
+        "wk52_low": 186.76,
+        "ath_30d": 0
+      }
+    ]
   }
 }
