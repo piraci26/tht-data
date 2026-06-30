@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-30T22:42:32.710214+00:00",
+  "updated_at": "2026-06-30T23:52:34.402111+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.81,
-  "scanned_count": 1511,
+  "scan_seconds": 19.69,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -2749,7 +2749,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-06-30T21:13:31.525922+00:00",
+    "compared_to": "2026-06-30T22:42:32.710214+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
