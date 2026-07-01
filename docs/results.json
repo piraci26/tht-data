@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T06:53:17.568621+00:00",
+  "updated_at": "2026-07-01T10:38:20.082843+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.06,
+  "scan_seconds": 10.73,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5394,41 +5394,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-01T02:30:32.702688+00:00",
+    "compared_to": "2026-07-01T06:53:17.568621+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "MLI",
-        "name": "Mueller Industries, Inc.",
-        "mcap": 14.76,
-        "price": 122.93,
-        "basis": 68.89,
-        "bxt_today": 37.61,
-        "ath": 141.9,
-        "pct_to_ath": 15.4,
-        "wk52_high": 124.97,
-        "wk52_low": 39.28,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "MLI",
-        "name": "Mueller Industries, Inc.",
-        "mcap": 14.76,
-        "price": 122.93,
-        "basis": 68.89,
-        "bxt_today": 37.61,
-        "ath": 141.9,
-        "pct_to_ath": 15.4,
-        "wk52_high": 124.97,
-        "wk52_low": 39.28,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
