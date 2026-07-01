@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-07-01T13:23:52.928965+00:00",
-  "count": 1,
-  "list": [
-    {
-      "sym": "XXI",
-      "name": "Twenty One Capital, Inc.",
-      "mcap": 2.65,
-      "price": 4.95,
-      "ath": 59.75,
-      "atl": 4.81,
-      "pct_to_ath": 1107.1,
-      "pct_to_atl": 2.9,
-      "wk52_high": 41.75,
-      "wk52_low": 4.81,
-      "ath_30d": 0,
-      "atl_30d": 8,
-      "last_high": 5.16,
-      "last_low": 4.81,
-      "made_ath_today": false,
-      "made_atl_today": true
-    }
-  ],
+  "updated_at": "2026-07-01T16:03:54.550020+00:00",
+  "count": 0,
+  "list": [],
   "accumulator": [
     {
       "sym": "BETA",
