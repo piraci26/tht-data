@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T21:49:56.212560+00:00",
+  "updated_at": "2026-07-01T22:58:07.250171+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.52,
+  "scan_seconds": 10.28,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3692,69 +3692,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-01T20:13:03.373141+00:00",
+    "compared_to": "2026-07-01T21:49:56.212560+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "LBTYB",
-        "name": "Liberty Global Ltd. Common Shares",
-        "mcap": 4.82,
-        "price": 12.56,
-        "basis": 13.15,
-        "bxt_today": -39.97,
-        "ath": 58.31,
-        "pct_to_ath": 364.3,
-        "wk52_high": 29.01,
-        "wk52_low": 9.57,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "HSBC",
-        "name": "HSBC Holdings, plc.",
-        "mcap": 316.42,
-        "price": 95.84,
-        "basis": 85.82,
-        "bxt_today": 0.23,
-        "ath": 99.52,
-        "pct_to_ath": 3.8,
-        "wk52_high": 96.9,
-        "wk52_low": 59.92,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "WIT",
-        "name": "Wipro Limited",
-        "mcap": 20.81,
-        "price": 1.87,
-        "basis": 2.38,
-        "bxt_today": -0.12,
-        "ath": 4.98,
-        "pct_to_ath": 166.3,
-        "wk52_high": 3.13,
-        "wk52_low": 1.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BLD",
-        "name": "TopBuild Corp.",
-        "mcap": 11.54,
-        "price": 354.53,
-        "basis": 429.87,
-        "bxt_today": -15.28,
-        "ath": 470.93,
-        "pct_to_ath": 32.8,
-        "wk52_high": 559.47,
-        "wk52_low": 316.43,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

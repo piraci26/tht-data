@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T21:50:15.975035+00:00",
+  "updated_at": "2026-07-01T22:58:20.225336+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.47,
+  "scan_seconds": 10.97,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -3163,55 +3163,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-01T20:13:24.314318+00:00",
+    "compared_to": "2026-07-01T21:50:15.975035+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.33,
-        "price": 36.88,
-        "basis": 37.23,
-        "bxt_today": 1.79,
-        "ath": 40.22,
-        "pct_to_ath": 9.1,
-        "wk52_high": 40.22,
-        "wk52_low": 18.12,
-        "ath_30d": 2
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "BLD",
-        "name": "TopBuild Corp.",
-        "mcap": 11.54,
-        "price": 354.53,
-        "basis": 376.79,
-        "bxt_today": -20.63,
-        "ath": 559.47,
-        "pct_to_ath": 57.8,
-        "wk52_high": 559.47,
-        "wk52_low": 321.67,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 5.0,
-        "price": 29.01,
-        "basis": 28.61,
-        "bxt_today": 2.52,
-        "ath": 29.27,
-        "pct_to_ath": 0.9,
-        "wk52_high": 29.28,
-        "wk52_low": 22.76,
-        "ath_30d": 4
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
