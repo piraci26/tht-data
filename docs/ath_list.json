@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-30T23:52:53.975757+00:00",
-  "count": 78,
+  "updated_at": "2026-07-01T02:31:19.307595+00:00",
+  "count": 77,
   "list": [
     {
       "sym": "TSM",
@@ -1115,24 +1115,6 @@
       "atl_30d": 0,
       "last_high": 122.64,
       "last_low": 110.36,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CGON",
-      "name": "CG Oncology, Inc. Common stock",
-      "mcap": 5.68,
-      "price": 71.05,
-      "ath": 76.6,
-      "atl": 14.8,
-      "pct_to_ath": 7.8,
-      "pct_to_atl": 380.1,
-      "wk52_high": 76.6,
-      "wk52_low": 23.65,
-      "ath_30d": 1,
-      "atl_30d": 0,
-      "last_high": 76.6,
-      "last_low": 70.54,
       "made_ath_today": true,
       "made_atl_today": false
     },
