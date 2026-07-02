@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T10:31:57.954968+00:00",
+  "updated_at": "2026-07-02T12:31:22.290429+00:00",
   "count": 67,
   "list": [
     {
@@ -5011,15 +5011,5 @@
       "first_seen_at": "2026-07-02T10:31:57.954968+00:00"
     }
   ],
-  "added_this_run": [
-    "BATRA",
-    "BATRK",
-    "CATY",
-    "ENVA",
-    "FULT",
-    "HNGE",
-    "MANE",
-    "VSCO",
-    "WSFS"
-  ]
+  "added_this_run": []
 }
