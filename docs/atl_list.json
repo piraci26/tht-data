@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-07-02T18:22:05.965193+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-07-02T19:59:06.282799+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "XE",
+      "name": "X-Energy, Inc.",
+      "mcap": 7.95,
+      "price": 17.34,
+      "ath": 37.1,
+      "atl": 17.32,
+      "pct_to_ath": 114.0,
+      "pct_to_atl": 0.1,
+      "wk52_high": 37.1,
+      "wk52_low": 17.32,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 20.18,
+      "last_low": 17.32,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -411,25 +430,6 @@
       "first_seen_at": "2026-06-08T22:48:36.869070+00:00"
     },
     {
-      "sym": "XE",
-      "name": "X-Energy, Inc.",
-      "mcap": 7.95,
-      "price": 19.76,
-      "ath": 37.1,
-      "atl": 19.7,
-      "pct_to_ath": 87.7,
-      "pct_to_atl": 0.3,
-      "wk52_high": 37.1,
-      "wk52_low": 19.7,
-      "ath_30d": 1,
-      "atl_30d": 4,
-      "last_high": 22.75,
-      "last_low": 19.7,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-06-09T16:18:14.975478+00:00"
-    },
-    {
       "sym": "CHYM",
       "name": "Chime Financial, Inc.",
       "mcap": 6.74,
@@ -656,7 +656,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-06-30T15:45:23.823547+00:00"
+    },
+    {
+      "sym": "XE",
+      "name": "X-Energy, Inc.",
+      "mcap": 7.95,
+      "price": 17.34,
+      "ath": 37.1,
+      "atl": 17.32,
+      "pct_to_ath": 114.0,
+      "pct_to_atl": 0.1,
+      "wk52_high": 37.1,
+      "wk52_low": 17.32,
+      "ath_30d": 0,
+      "atl_30d": 6,
+      "last_high": 20.18,
+      "last_low": 17.32,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-07-02T19:59:06.282799+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "XE"
+  ]
 }
