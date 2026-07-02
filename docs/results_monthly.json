@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-02T21:16:57.657922+00:00",
+  "updated_at": "2026-07-02T22:31:17.990198+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.35,
-  "scanned_count": 1511,
+  "scan_seconds": 10.89,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "DASH",
@@ -2680,69 +2680,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-02T19:58:44.964569+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SON",
-        "name": "Sonoco Products Company",
-        "mcap": 4.83,
-        "price": 57.42,
-        "basis": 55.93,
-        "bxt_today": 18.54,
-        "ath": 69.83,
-        "pct_to_ath": 21.6,
-        "wk52_high": 58.44,
-        "wk52_low": 38.65,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-02T21:16:57.657922+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "TIGO",
-        "name": "Millicom International Cellular S.A.",
-        "mcap": 14.54,
-        "price": 93.76,
-        "basis": 71.74,
-        "bxt_today": 0.36,
-        "ath": 95.38,
-        "pct_to_ath": 1.7,
-        "wk52_high": 95.38,
-        "wk52_low": 36.59,
-        "ath_30d": 10
-      },
-      {
-        "sym": "MDA",
-        "name": "MDA Space Ltd. Common Shares",
-        "mcap": 5.72,
-        "price": 40.75,
-        "basis": 39.29,
-        "bxt_today": 0.44,
-        "ath": 49.37,
-        "pct_to_ath": 21.2,
-        "wk52_high": 49.37,
-        "wk52_low": 23.23,
-        "ath_30d": 4
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "PRM",
-        "name": "Perimeter Solutions, SA",
-        "mcap": 5.14,
-        "price": 33.75,
-        "basis": 28.6,
-        "bxt_today": -0.58,
-        "ath": 38.17,
-        "pct_to_ath": 13.1,
-        "wk52_high": 38.17,
-        "wk52_low": 14.39,
-        "ath_30d": 5
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

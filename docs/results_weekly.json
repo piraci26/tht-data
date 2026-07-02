@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T21:16:42.675832+00:00",
+  "updated_at": "2026-07-02T22:31:04.491052+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.84,
+  "scan_seconds": 12.09,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -3669,148 +3669,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-02T19:58:32.003312+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "PEG",
-        "name": "Public Service Enterprise Group Incorporated",
-        "mcap": 39.08,
-        "price": 81.62,
-        "basis": 80.95,
-        "bxt_today": 24.36,
-        "ath": 95.22,
-        "pct_to_ath": 16.7,
-        "wk52_high": 91.26,
-        "wk52_low": 76.05,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ORI",
-        "name": "Old Republic International Corporation",
-        "mcap": 9.66,
-        "price": 41.87,
-        "basis": 41.23,
-        "bxt_today": 34.3,
-        "ath": 46.76,
-        "pct_to_ath": 11.7,
-        "wk52_high": 46.76,
-        "wk52_low": 35.6,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-02T21:16:42.675832+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EXE",
-        "name": "Expand Energy Corporation",
-        "mcap": 23.35,
-        "price": 90.72,
-        "basis": 102.97,
-        "bxt_today": 0.58,
-        "ath": 126.62,
-        "pct_to_ath": 39.6,
-        "wk52_high": 126.62,
-        "wk52_low": 86.37,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CPAY",
-        "name": "Corpay, Inc.",
-        "mcap": 22.76,
-        "price": 352.46,
-        "basis": 323.49,
-        "bxt_today": 0.31,
-        "ath": 400.81,
-        "pct_to_ath": 13.7,
-        "wk52_high": 367.43,
-        "wk52_low": 252.84,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TIGO",
-        "name": "Millicom International Cellular S.A.",
-        "mcap": 14.54,
-        "price": 93.76,
-        "basis": 71.74,
-        "bxt_today": 0.36,
-        "ath": 95.38,
-        "pct_to_ath": 1.7,
-        "wk52_high": 95.38,
-        "wk52_low": 36.59,
-        "ath_30d": 10
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CHH",
-        "name": "Choice Hotels International, Inc.",
-        "mcap": 5.08,
-        "price": 112.72,
-        "basis": 104.69,
-        "bxt_today": 0.65,
-        "ath": 157.86,
-        "pct_to_ath": 40.0,
-        "wk52_high": 136.45,
-        "wk52_low": 84.04,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "MRVL",
-        "name": "Marvell Technology, Inc.",
-        "mcap": 165.93,
-        "price": 244.32,
-        "basis": 138.66,
-        "bxt_today": -0.12,
-        "ath": 329.88,
-        "pct_to_ath": 35.0,
-        "wk52_high": 329.88,
-        "wk52_low": 61.44,
-        "ath_30d": 9
-      },
-      {
-        "sym": "DRI",
-        "name": "Darden Restaurants, Inc.",
-        "mcap": 22.66,
-        "price": 203.63,
-        "basis": 199.84,
-        "bxt_today": -0.44,
-        "ath": 228.27,
-        "pct_to_ath": 12.1,
-        "wk52_high": 220.85,
-        "wk52_low": 169.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PRM",
-        "name": "Perimeter Solutions, SA",
-        "mcap": 5.14,
-        "price": 33.75,
-        "basis": 28.6,
-        "bxt_today": -0.58,
-        "ath": 38.17,
-        "pct_to_ath": 13.1,
-        "wk52_high": 38.17,
-        "wk52_low": 14.39,
-        "ath_30d": 5
-      },
-      {
-        "sym": "AZZ",
-        "name": "AZZ Inc.",
-        "mcap": 4.1,
-        "price": 149.12,
-        "basis": 130.23,
-        "bxt_today": -1.3,
-        "ath": 162.2,
-        "pct_to_ath": 8.8,
-        "wk52_high": 162.2,
-        "wk52_low": 92.98,
-        "ath_30d": 6
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
