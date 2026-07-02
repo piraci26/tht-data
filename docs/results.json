@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T04:33:02.447775+00:00",
+  "updated_at": "2026-07-02T07:53:02.106455+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.62,
+  "scan_seconds": 10.55,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -87,10 +87,10 @@
       "bxt_r": false,
       "fvb_streak": 8,
       "bxt_streak": 8,
-      "ath": 579.05,
-      "atl": 4.97,
-      "pct_to_ath": 39.5,
-      "pct_to_atl": 8251.6,
+      "ath": 547.82,
+      "atl": 0.32,
+      "pct_to_ath": 32.0,
+      "pct_to_atl": 130466.8,
       "wk52_high": 547.82,
       "wk52_low": 361.03,
       "ath_30d": 0,
@@ -2621,10 +2621,10 @@
       "bxt_r": false,
       "fvb_streak": 8,
       "bxt_streak": 8,
-      "ath": 579.05,
-      "atl": 4.97,
-      "pct_to_ath": 39.5,
-      "pct_to_atl": 8251.6,
+      "ath": 547.82,
+      "atl": 0.32,
+      "pct_to_ath": 32.0,
+      "pct_to_atl": 130466.8,
       "wk52_high": 547.82,
       "wk52_low": 361.03,
       "ath_30d": 0,
@@ -5945,29 +5945,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IEX",
-      "name": "IDEX Corporation",
-      "mcap": 15.24,
-      "price": 224.96,
-      "basis": 216.64,
-      "bxt_today": -14.16,
-      "bxt_yest": 0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 246.36,
-      "atl": 1.9,
-      "pct_to_ath": 9.5,
-      "pct_to_atl": 11732.3,
-      "wk52_high": 230.18,
-      "wk52_low": 157.25,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "DTM",
       "name": "DT Midstream, Inc.",
       "mcap": 15.24,
@@ -5988,6 +5965,29 @@
       "wk52_high": 152.88,
       "wk52_low": 98.06,
       "ath_30d": 3,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IEX",
+      "name": "IDEX Corporation",
+      "mcap": 15.24,
+      "price": 224.96,
+      "basis": 216.64,
+      "bxt_today": -14.16,
+      "bxt_yest": 0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 246.36,
+      "atl": 1.9,
+      "pct_to_ath": 9.5,
+      "pct_to_atl": 11732.3,
+      "wk52_high": 230.18,
+      "wk52_low": 157.25,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -7418,55 +7418,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-02T00:15:06.503022+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SPGI",
-        "name": "S&P Global Inc.",
-        "mcap": 123.25,
-        "price": 414.97,
-        "basis": 393.07,
-        "bxt_today": 26.25,
-        "ath": 579.05,
-        "pct_to_ath": 39.5,
-        "wk52_high": 547.82,
-        "wk52_low": 361.03,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-02T04:33:02.447775+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "SATS",
-        "name": "EchoStar  Corporation",
-        "mcap": 37.33,
-        "price": 100.92,
-        "basis": 118.93,
-        "bxt_today": 2.52,
-        "ath": 147.25,
-        "pct_to_ath": 45.9,
-        "wk52_high": 147.25,
-        "wk52_low": 26.04,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "mcap": 164.78,
-        "price": 772.74,
-        "basis": 666.35,
-        "bxt_today": 24.15,
-        "ath": 786.0,
-        "pct_to_ath": 1.7,
-        "wk52_high": 786.0,
-        "wk52_low": 342.72,
-        "ath_30d": 11
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
