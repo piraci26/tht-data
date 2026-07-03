@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T23:41:26.436367+00:00",
+  "updated_at": "2026-07-03T01:17:44.833372+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.49,
+  "scan_seconds": 12.66,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2422,29 +2422,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IPGP",
-      "name": "IPG Photonics Corporation",
-      "mcap": 5.12,
-      "price": 105.27,
-      "basis": 113.85,
-      "bxt_today": -8.06,
-      "bxt_yest": 12.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 264.11,
-      "atl": 6.79,
-      "pct_to_ath": 150.9,
-      "pct_to_atl": 1450.4,
-      "wk52_high": 155.82,
-      "wk52_low": 69.03,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5.12,
@@ -2464,6 +2441,29 @@
       "pct_to_atl": 4245.6,
       "wk52_high": 90.25,
       "wk52_low": 55.61,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IPGP",
+      "name": "IPG Photonics Corporation",
+      "mcap": 5.12,
+      "price": 105.27,
+      "basis": 113.85,
+      "bxt_today": -8.06,
+      "bxt_yest": 12.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 264.11,
+      "atl": 6.79,
+      "pct_to_ath": 150.9,
+      "pct_to_atl": 1450.4,
+      "wk52_high": 155.82,
+      "wk52_low": 69.03,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3502,29 +3502,6 @@
       "wk52_high": 79.67,
       "wk52_low": 56.22,
       "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
-      "sym": "SATS",
-      "name": "EchoStar  Corporation",
-      "mcap": 37.33,
-      "price": 100.92,
-      "basis": 118.93,
-      "bxt_today": 2.52,
-      "bxt_yest": -6.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 147.25,
-      "atl": 9.53,
-      "pct_to_ath": 45.9,
-      "pct_to_atl": 959.0,
-      "wk52_high": 147.25,
-      "wk52_low": 26.04,
-      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -7418,13 +7395,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-02T22:30:47.860588+00:00",
+    "compared_to": "2026-07-02T23:41:26.436367+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "SATS",
+        "name": "EchoStar  Corporation",
+        "mcap": 37.33,
+        "price": 100.92,
+        "basis": 118.93,
+        "bxt_today": 2.52,
+        "ath": 147.25,
+        "pct_to_ath": 45.9,
+        "wk52_high": 147.25,
+        "wk52_low": 26.04,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
