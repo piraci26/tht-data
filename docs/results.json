@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-04T16:40:38.069426+00:00",
+  "updated_at": "2026-07-04T17:45:32.634771+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.31,
+  "scan_seconds": 28.86,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -7233,29 +7233,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "INDB",
-      "name": "Independent Bank Corp.",
-      "mcap": 3.8,
-      "price": 84.18,
-      "basis": 80.7,
-      "bxt_today": -3.04,
-      "bxt_yest": 5.58,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.85,
-      "atl": 1.0,
-      "pct_to_ath": 18.6,
-      "pct_to_atl": 8318.0,
-      "wk52_high": 87.0,
-      "wk52_low": 61.55,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "RNST",
       "name": "Renasant Corporation",
       "mcap": 3.8,
@@ -7275,6 +7252,29 @@
       "pct_to_atl": 806.6,
       "wk52_high": 44.0,
       "wk52_low": 33.04,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "INDB",
+      "name": "Independent Bank Corp.",
+      "mcap": 3.8,
+      "price": 84.18,
+      "basis": 80.7,
+      "bxt_today": -3.04,
+      "bxt_yest": 5.58,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.85,
+      "atl": 1.0,
+      "pct_to_ath": 18.6,
+      "pct_to_atl": 8318.0,
+      "wk52_high": 87.0,
+      "wk52_low": 61.55,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7395,7 +7395,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-04T15:38:44.585507+00:00",
+    "compared_to": "2026-07-04T16:40:38.069426+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
