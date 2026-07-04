@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-04T12:51:35.334367+00:00",
+  "updated_at": "2026-07-04T14:22:12.431697+00:00",
   "timeframe": "daily",
-  "scan_seconds": 26.85,
+  "scan_seconds": 17.51,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2422,29 +2422,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IPGP",
-      "name": "IPG Photonics Corporation",
-      "mcap": 5.12,
-      "price": 105.27,
-      "basis": 113.86,
-      "bxt_today": -8.06,
-      "bxt_yest": 12.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 264.11,
-      "atl": 6.79,
-      "pct_to_ath": 150.9,
-      "pct_to_atl": 1450.4,
-      "wk52_high": 155.82,
-      "wk52_low": 69.03,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5.12,
@@ -2464,6 +2441,29 @@
       "pct_to_atl": 4245.6,
       "wk52_high": 90.25,
       "wk52_low": 55.61,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IPGP",
+      "name": "IPG Photonics Corporation",
+      "mcap": 5.12,
+      "price": 105.27,
+      "basis": 113.86,
+      "bxt_today": -8.06,
+      "bxt_yest": 12.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 264.11,
+      "atl": 6.79,
+      "pct_to_ath": 150.9,
+      "pct_to_atl": 1450.4,
+      "wk52_high": 155.82,
+      "wk52_low": 69.03,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7395,7 +7395,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-04T11:49:24.711505+00:00",
+    "compared_to": "2026-07-04T12:51:35.334367+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
