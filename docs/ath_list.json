@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T19:59:07.419072+00:00",
+  "updated_at": "2026-07-04T21:05:42.499174+00:00",
   "count": 76,
   "list": [
     {
@@ -367,9 +367,9 @@
       "name": "Heico Corporation",
       "mcap": 42.03,
       "price": 362.09,
-      "ath": 366.59,
+      "ath": 361.69,
       "atl": 0.23,
-      "pct_to_ath": 1.2,
+      "pct_to_ath": -0.1,
       "pct_to_atl": 158350.0,
       "wk52_high": 366.59,
       "wk52_low": 256.11,
