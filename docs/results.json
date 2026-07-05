@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T07:45:13.458966+00:00",
+  "updated_at": "2026-07-05T09:57:57.152959+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.58,
+  "scan_seconds": 12.18,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -6556,13 +6556,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 5,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 91.0,
+      "atl": 2.5,
+      "pct_to_ath": 3.5,
+      "pct_to_atl": 3416.0,
+      "wk52_high": 91.0,
+      "wk52_low": 76.33,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -7349,23 +7349,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-05T04:32:09.144638+00:00",
+    "compared_to": "2026-07-05T07:45:13.458966+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "HON",
-        "name": "Honeywell International Inc.",
-        "mcap": 141.8,
-        "price": 229.86,
-        "basis": 225.01,
-        "bxt_today": -4.82,
-        "ath": 260.28,
-        "pct_to_ath": 13.2,
-        "wk52_high": 252.0,
-        "wk52_low": 186.76,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
