@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T00:14:03.619498+00:00",
+  "updated_at": "2026-07-05T04:32:09.144638+00:00",
   "timeframe": "daily",
-  "scan_seconds": 25.92,
+  "scan_seconds": 10.62,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -5207,29 +5207,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "VSCO",
-      "name": "Victorias Secret & Co.",
-      "mcap": 3.99,
-      "price": 88.5,
-      "basis": 65.55,
-      "bxt_today": 0.68,
-      "bxt_yest": -28.81,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 88.57,
-      "atl": 13.62,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 549.8,
-      "wk52_high": 88.57,
-      "wk52_low": 17.53,
-      "ath_30d": 5,
-      "atl_30d": 0
-    },
-    {
       "sym": "CNS",
       "name": "Cohen & Steers Inc",
       "mcap": 3.7,
@@ -7395,13 +7372,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-04T23:12:31.763951+00:00",
+    "compared_to": "2026-07-05T00:14:03.619498+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "VSCO",
+        "name": "Victorias Secret & Co.",
+        "mcap": 3.99,
+        "price": 88.5,
+        "basis": 65.55,
+        "bxt_today": 0.68,
+        "ath": 88.57,
+        "pct_to_ath": 0.1,
+        "wk52_high": 88.57,
+        "wk52_low": 17.53,
+        "ath_30d": 5
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
