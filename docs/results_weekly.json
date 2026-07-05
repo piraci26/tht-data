@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T22:33:44.211284+00:00",
+  "updated_at": "2026-07-05T23:40:07.282941+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.86,
+  "scan_seconds": 9.45,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2381,27 +2381,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-05T21:30:01.253450+00:00",
+    "compared_to": "2026-07-05T22:33:44.211284+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CUK",
-        "name": "Carnival Plc ADS ADS",
-        "mcap": 38.08,
-        "price": 27.47,
-        "basis": 27.4,
-        "bxt_today": 1.7,
-        "ath": 72.29,
-        "pct_to_ath": 163.2,
-        "wk52_high": 33.72,
-        "wk52_low": 17.73,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
