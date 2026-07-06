@@ -77,14 +77,34 @@ ensure_cdp() {
   i=0
   while [ $i -lt 13 ]; do
     if curl -sf --max-time 3 "http://localhost:9222/json/version" >/dev/null; then
-      echo "  CDP up after $((25 + i*5))s"
-      sleep 8  # let TV's chart finish rendering before the scan iterates
-      return 0
+      echo "  CDP up after $((25 + i*5))s — now waiting for the chart page to render"
+      break
     fi
     sleep 5; i=$((i+1))
   done
 
-  notify "ABORT" "CDP never came up after TV relaunch. Manual intervention needed."
+  if ! curl -sf --max-time 3 "http://localhost:9222/json/version" >/dev/null; then
+    notify "ABORT" "CDP never came up after TV relaunch. Manual intervention needed."
+    return 1
+  fi
+
+  # CDP is up but that only means Electron is talking. TV might still be on
+  # the splash screen / welcome / login dialog — the chart page (URL contains
+  # tradingview.com/chart/) doesn't exist yet. Fri 7/03 and Mon 7/06 both
+  # failed because the scan started while TV was still on a non-chart page.
+  # Poll for a chart page for up to 90s before giving up.
+  local j=0
+  while [ $j -lt 30 ]; do
+    if curl -s --max-time 3 "http://localhost:9222/json" 2>/dev/null | grep -q "tradingview.com/chart/"; then
+      echo "  chart page rendered after $((j*3))s of post-CDP wait"
+      sleep 5  # small buffer for LuxAlgo indicators to compute
+      return 0
+    fi
+    sleep 3; j=$((j+1))
+  done
+
+  notify "ABORT" "CDP up but chart page never rendered (TV stuck on non-chart screen)."
+  echo "  ABORT: TV came up but is on a non-chart screen — likely needs manual login / dialog dismissal"
   return 1
 }
 
