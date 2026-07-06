@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T21:59:14.197538+00:00",
+  "updated_at": "2026-07-06T23:16:03.457663+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.5,
+  "scan_seconds": 20.51,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1063,29 +1063,6 @@
       "pct_to_atl": 5451.9,
       "wk52_high": 644.68,
       "wk52_low": 501.08,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CUK",
-      "name": "Carnival Plc ADS ADS",
-      "mcap": 38.08,
-      "price": 27.47,
-      "basis": 27.4,
-      "bxt_today": 1.7,
-      "bxt_yest": -2.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 72.29,
-      "atl": 5.43,
-      "pct_to_ath": 163.2,
-      "pct_to_atl": 405.9,
-      "wk52_high": 33.72,
-      "wk52_low": 17.73,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3002,12 +2979,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-06T20:30:58.886669+00:00",
+    "compared_to": "2026-07-06T21:59:14.197538+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "CUK",
         "name": "Carnival Plc ADS ADS",
@@ -3022,7 +3000,6 @@
         "ath_30d": 0
       }
     ],
-    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
