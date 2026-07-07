@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T21:47:36.522349+00:00",
+  "updated_at": "2026-07-07T22:46:40.216416+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.0,
+  "scan_seconds": 11.44,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4726,29 +4726,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "RUSHB",
-      "name": "Rush Enterprises, Inc.",
-      "mcap": 5.08,
-      "price": 74.97,
-      "basis": 69.75,
-      "bxt_today": -10.84,
-      "bxt_yest": 8.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 79.13,
-      "atl": 0.91,
-      "pct_to_ath": 5.5,
-      "pct_to_atl": 8168.7,
-      "wk52_high": 79.13,
-      "wk52_low": 47.71,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SITE",
       "name": "SiteOne Landscape Supply, Inc.",
       "mcap": 5.08,
@@ -4768,6 +4745,29 @@
       "pct_to_atl": 313.5,
       "wk52_high": 168.56,
       "wk52_low": 100.52,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "RUSHB",
+      "name": "Rush Enterprises, Inc.",
+      "mcap": 5.08,
+      "price": 74.97,
+      "basis": 69.75,
+      "bxt_today": -10.84,
+      "bxt_yest": 8.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 79.13,
+      "atl": 0.91,
+      "pct_to_ath": 5.5,
+      "pct_to_atl": 8168.7,
+      "wk52_high": 79.13,
+      "wk52_low": 47.71,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5187,7 +5187,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-07T20:20:16.082460+00:00",
+    "compared_to": "2026-07-07T21:47:36.522349+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
