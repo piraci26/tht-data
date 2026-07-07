@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T05:07:12.459516+00:00",
+  "updated_at": "2026-07-07T08:38:23.822583+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.76,
+  "scan_seconds": 19.96,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1063,29 +1063,6 @@
       "pct_to_atl": 5451.9,
       "wk52_high": 644.68,
       "wk52_low": 501.08,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CUK",
-      "name": "Carnival Plc ADS ADS",
-      "mcap": 38.08,
-      "price": 27.47,
-      "basis": 27.4,
-      "bxt_today": 1.7,
-      "bxt_yest": -2.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 72.29,
-      "atl": 5.43,
-      "pct_to_ath": 163.2,
-      "pct_to_atl": 405.9,
-      "wk52_high": 33.72,
-      "wk52_low": 17.73,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2288,29 +2265,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 24.32,
-      "price": 487.1,
-      "basis": 485.38,
-      "bxt_today": -2.47,
-      "bxt_yest": 6.97,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 16.1,
-      "pct_to_atl": 17325.5,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "JBHT",
       "name": "J.B. Hunt Transport Services, Inc.",
       "mcap": 24.32,
@@ -3025,12 +2979,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-07T01:10:47.038116+00:00",
+    "compared_to": "2026-07-07T05:07:12.459516+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "CUK",
         "name": "Carnival Plc ADS ADS",
@@ -3045,8 +3000,8 @@
         "ath_30d": 0
       }
     ],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
@@ -3060,7 +3015,6 @@
         "wk52_low": 403.82,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
