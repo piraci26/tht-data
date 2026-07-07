@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T20:21:14.562857+00:00",
+  "updated_at": "2026-07-07T21:48:04.581801+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 19.57,
+  "scan_seconds": 9.46,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1694,7 +1694,7 @@
       "name": "Monolithic Power Systems, Inc.",
       "mcap": 76.32,
       "price": 1272.81,
-      "basis": 870.04,
+      "basis": 870.01,
       "bxt_today": -0.48,
       "bxt_yest": 12.44,
       "fvb_g": false,
@@ -1809,7 +1809,7 @@
       "name": "Elbit Systems Ltd. Ordinary Shares",
       "mcap": 35.7,
       "price": 777.93,
-      "basis": 428.54,
+      "basis": 428.55,
       "bxt_today": -7.12,
       "bxt_yest": 4.83,
       "fvb_g": false,
@@ -2177,7 +2177,7 @@
       "name": "Advanced Energy Industries, Inc.",
       "mcap": 12.92,
       "price": 287.73,
-      "basis": 170.02,
+      "basis": 170.01,
       "bxt_today": -6.51,
       "bxt_yest": 9.89,
       "fvb_g": false,
@@ -2795,321 +2795,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-07T18:21:14.812771+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CRNX",
-        "name": "Crinetics Pharmaceuticals, Inc.",
-        "mcap": 3.91,
-        "price": 83.53,
-        "basis": 43.13,
-        "bxt_today": 46.92,
-        "ath": 83.63,
-        "pct_to_ath": 0.1,
-        "wk52_high": 83.63,
-        "wk52_low": 25.83,
-        "ath_30d": 1
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "D",
-        "name": "Dominion Energy, Inc.",
-        "mcap": 60.04,
-        "price": 70.24,
-        "basis": 67.24,
-        "bxt_today": 39.8,
-        "ath": 90.89,
-        "pct_to_ath": 29.4,
-        "wk52_high": 70.59,
-        "wk52_low": 55.36,
-        "ath_30d": 0
-      },
-      {
-        "sym": "JXN",
-        "name": "Jackson Financial Inc.",
-        "mcap": 7.66,
-        "price": 110.28,
-        "basis": 108.97,
-        "bxt_today": 7.08,
-        "ath": 123.61,
-        "pct_to_ath": 12.1,
-        "wk52_high": 123.61,
-        "wk52_low": 82.65,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "APLD",
-        "name": "Applied Digital Corporation",
-        "mcap": 13.63,
-        "price": 30.71,
-        "basis": 33.65,
-        "bxt_today": -31.52,
-        "ath": 50.72,
-        "pct_to_ath": 65.2,
-        "wk52_high": 50.72,
-        "wk52_low": 9.02,
-        "ath_30d": 3
-      },
-      {
-        "sym": "QBTS",
-        "name": "D-Wave Quantum Inc. Common Shares",
-        "mcap": 7.06,
-        "price": 21.06,
-        "basis": 22.3,
-        "bxt_today": -15.97,
-        "ath": 46.75,
-        "pct_to_ath": 122.0,
-        "wk52_high": 46.75,
-        "wk52_low": 12.75,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "WYNN",
-        "name": "Wynn Resorts, Limited Common stock",
-        "mcap": 10.19,
-        "price": 95.69,
-        "basis": 99.1,
-        "bxt_today": -34.54,
-        "ath": 249.31,
-        "pct_to_ath": 160.5,
-        "wk52_high": 134.72,
-        "wk52_low": 93.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MDA",
-        "name": "MDA Space Ltd. Common Shares",
-        "mcap": 5.72,
-        "price": 39.48,
-        "basis": 40.23,
-        "bxt_today": 18.34,
-        "ath": 49.37,
-        "pct_to_ath": 25.1,
-        "wk52_high": 49.37,
-        "wk52_low": 23.23,
-        "ath_30d": 4
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "PM",
-        "name": "Philip Morris International Inc",
-        "mcap": 292.76,
-        "price": 187.79,
-        "basis": 142.82,
-        "bxt_today": 1.06,
-        "ath": 193.05,
-        "pct_to_ath": 2.8,
-        "wk52_high": 193.05,
-        "wk52_low": 142.11,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OXY",
-        "name": "Occidental Petroleum Corporation",
-        "mcap": 58.69,
-        "price": 51.68,
-        "basis": 48.1,
-        "bxt_today": 1.14,
-        "ath": 112.95,
-        "pct_to_ath": 118.5,
-        "wk52_high": 67.45,
-        "wk52_low": 38.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WCN",
-        "name": "Waste Connections, Inc. Common Shares",
-        "mcap": 39.63,
-        "price": 172.93,
-        "basis": 173.82,
-        "bxt_today": 0.95,
-        "ath": 201.66,
-        "pct_to_ath": 16.6,
-        "wk52_high": 191.91,
-        "wk52_low": 146.89,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AM",
-        "name": "Antero Midstream Corporation",
-        "mcap": 10.36,
-        "price": 22.71,
-        "basis": 20.83,
-        "bxt_today": 2.16,
-        "ath": 23.83,
-        "pct_to_ath": 5.0,
-        "wk52_high": 23.83,
-        "wk52_low": 16.77,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MUR",
-        "name": "Murphy Oil Corporation",
-        "mcap": 5.42,
-        "price": 32.88,
-        "basis": 29.85,
-        "bxt_today": 0.5,
-        "ath": 87.63,
-        "pct_to_ath": 166.5,
-        "wk52_high": 43.34,
-        "wk52_low": 21.86,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "ROP",
-        "name": "Roper Technologies, Inc.",
-        "mcap": 32.71,
-        "price": 367.94,
-        "basis": 494.86,
-        "bxt_today": 1.1,
-        "ath": 595.17,
-        "pct_to_ath": 61.8,
-        "wk52_high": 575.77,
-        "wk52_low": 305.96,
-        "ath_30d": 0
-      },
-      {
-        "sym": "REXR",
-        "name": "Rexford Industrial Realty, Inc.",
-        "mcap": 8.0,
-        "price": 34.7,
-        "basis": 41.68,
-        "bxt_today": 0.65,
-        "ath": 84.68,
-        "pct_to_ath": 144.0,
-        "wk52_high": 44.38,
-        "wk52_low": 32.14,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "BN",
-        "name": "Brookfield Corporation Limited Voting Shares",
-        "mcap": 101.33,
-        "price": 43.79,
-        "basis": 28.05,
-        "bxt_today": -0.26,
-        "ath": 49.57,
-        "pct_to_ath": 13.2,
-        "wk52_high": 49.57,
-        "wk52_low": 37.93,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MPWR",
-        "name": "Monolithic Power Systems, Inc.",
-        "mcap": 76.32,
-        "price": 1272.81,
-        "basis": 870.04,
-        "bxt_today": -0.48,
-        "ath": 1714.09,
-        "pct_to_ath": 34.7,
-        "wk52_high": 1714.09,
-        "wk52_low": 686.87,
-        "ath_30d": 1
-      },
-      {
-        "sym": "TIGO",
-        "name": "Millicom International Cellular S.A.",
-        "mcap": 14.54,
-        "price": 92.95,
-        "basis": 73.07,
-        "bxt_today": -0.2,
-        "ath": 95.75,
-        "pct_to_ath": 3.0,
-        "wk52_high": 95.75,
-        "wk52_low": 36.59,
-        "ath_30d": 10
-      },
-      {
-        "sym": "FLR",
-        "name": "Fluor Corporation",
-        "mcap": 6.2,
-        "price": 48.61,
-        "basis": 45.12,
-        "bxt_today": -0.54,
-        "ath": 101.36,
-        "pct_to_ath": 108.5,
-        "wk52_high": 57.5,
-        "wk52_low": 37.62,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ACHR",
-        "name": "Archer Aviation Inc.",
-        "mcap": 4.65,
-        "price": 4.93,
-        "basis": 6.59,
-        "bxt_today": -1.86,
-        "ath": 18.6,
-        "pct_to_ath": 277.3,
-        "wk52_high": 14.62,
-        "wk52_low": 4.61,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TBBB",
-        "name": "BBB Foods Inc. Common Shares",
-        "mcap": 4.37,
-        "price": 40.61,
-        "basis": 36.57,
-        "bxt_today": -2.92,
-        "ath": 43.81,
-        "pct_to_ath": 7.9,
-        "wk52_high": 43.81,
-        "wk52_low": 23.81,
-        "ath_30d": 5
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CVX",
-        "name": "Chevron Corporation",
-        "mcap": 380.1,
-        "price": 172.12,
-        "basis": 137.44,
-        "bxt_today": -0.38,
-        "ath": 214.71,
-        "pct_to_ath": 24.7,
-        "wk52_high": 214.71,
-        "wk52_low": 145.58,
-        "ath_30d": 0
-      },
-      {
-        "sym": "UTHR",
-        "name": "United Therapeutics Corporation",
-        "mcap": 24.02,
-        "price": 560.1,
-        "basis": 377.29,
-        "bxt_today": -0.53,
-        "ath": 609.35,
-        "pct_to_ath": 8.8,
-        "wk52_high": 609.35,
-        "wk52_low": 272.12,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KNF",
-        "name": "Knife Riv Holding Co.",
-        "mcap": 4.16,
-        "price": 81.21,
-        "basis": 80.69,
-        "bxt_today": -0.16,
-        "ath": 108.83,
-        "pct_to_ath": 34.0,
-        "wk52_high": 96.28,
-        "wk52_low": 58.72,
-        "ath_30d": 0
-      }
-    ]
+    "compared_to": "2026-07-07T20:21:14.562857+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
