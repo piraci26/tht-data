@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T01:10:47.038116+00:00",
+  "updated_at": "2026-07-07T05:07:12.459516+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.85,
+  "scan_seconds": 16.76,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -563,7 +563,7 @@
       "name": "Liberty Global Ltd. Common Shares",
       "mcap": 4.82,
       "price": 11.23,
-      "basis": 13.11,
+      "basis": 13.12,
       "bxt_today": -42.04,
       "bxt_yest": -37.92,
       "fvb_g": false,
@@ -1067,6 +1067,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "CUK",
+      "name": "Carnival Plc ADS ADS",
+      "mcap": 38.08,
+      "price": 27.47,
+      "basis": 27.4,
+      "bxt_today": 1.7,
+      "bxt_yest": -2.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 72.29,
+      "atl": 5.43,
+      "pct_to_ath": 163.2,
+      "pct_to_atl": 405.9,
+      "wk52_high": 33.72,
+      "wk52_low": 17.73,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "KB",
       "name": "KB Financial Group Inc",
       "mcap": 37.26,
@@ -1117,7 +1140,7 @@
       "name": "Curtiss-Wright Corporation",
       "mcap": 26.77,
       "price": 792.77,
-      "basis": 676.25,
+      "basis": 676.23,
       "bxt_today": 5.79,
       "bxt_yest": -13.77,
       "fvb_g": false,
@@ -1393,7 +1416,7 @@
       "name": "New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands)",
       "mcap": 7.95,
       "price": 48.52,
-      "basis": 53.59,
+      "basis": 53.58,
       "bxt_today": 6.83,
       "bxt_yest": -10.46,
       "fvb_g": false,
@@ -2039,7 +2062,7 @@
       "name": "Western Digital Corporation",
       "mcap": 166.75,
       "price": 577.46,
-      "basis": 347.53,
+      "basis": 347.52,
       "bxt_today": -6.68,
       "bxt_yest": 0.18,
       "fvb_g": false,
@@ -2200,7 +2223,7 @@
       "name": "Target Corporation",
       "mcap": 57.22,
       "price": 126.1,
-      "basis": 116.01,
+      "basis": 116.02,
       "bxt_today": -15.24,
       "bxt_yest": 0.51,
       "fvb_g": false,
@@ -2261,6 +2284,29 @@
       "pct_to_atl": 191.9,
       "wk52_high": 46.48,
       "wk52_low": 39.28,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 24.32,
+      "price": 487.1,
+      "basis": 485.38,
+      "bxt_today": -2.47,
+      "bxt_yest": 6.97,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 565.5,
+      "atl": 2.8,
+      "pct_to_ath": 16.1,
+      "pct_to_atl": 17325.5,
+      "wk52_high": 565.5,
+      "wk52_low": 403.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2979,14 +3025,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-06T23:16:03.457663+00:00",
+    "compared_to": "2026-07-07T01:10:47.038116+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "bxt_green_added": [
+      {
+        "sym": "CUK",
+        "name": "Carnival Plc ADS ADS",
+        "mcap": 38.08,
+        "price": 27.47,
+        "basis": 27.4,
+        "bxt_today": 1.7,
+        "ath": 72.29,
+        "pct_to_ath": 163.2,
+        "wk52_high": 33.72,
+        "wk52_low": 17.73,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
+    "bxt_red_added": [
+      {
+        "sym": "HUBB",
+        "name": "Hubbell Inc",
+        "mcap": 24.32,
+        "price": 487.1,
+        "basis": 485.38,
+        "bxt_today": -2.47,
+        "ath": 565.5,
+        "pct_to_ath": 16.1,
+        "wk52_high": 565.5,
+        "wk52_low": 403.82,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_removed": []
   }
 }
