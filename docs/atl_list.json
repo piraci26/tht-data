@@ -1,7 +1,44 @@
 {
-  "updated_at": "2026-07-07T13:38:41.067990+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-07-07T16:11:28.332904+00:00",
+  "count": 2,
+  "list": [
+    {
+      "sym": "XE",
+      "name": "X-Energy, Inc.",
+      "mcap": 7.95,
+      "price": 16.61,
+      "ath": 37.1,
+      "atl": 16.35,
+      "pct_to_ath": 123.3,
+      "pct_to_atl": 1.6,
+      "wk52_high": 37.1,
+      "wk52_low": 16.35,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 18.0,
+      "last_low": 16.35,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "EQPT",
+      "name": "EquipmentShare.com Inc",
+      "mcap": 5.08,
+      "price": 18.06,
+      "ath": 35.5,
+      "atl": 17.64,
+      "pct_to_ath": 96.6,
+      "pct_to_atl": 2.4,
+      "wk52_high": 35.5,
+      "wk52_low": 17.64,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 18.84,
+      "last_low": 17.64,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -31,21 +68,6 @@
       "wk52_low": 4.5,
       "ath_30d": 0,
       "atl_30d": 2,
-      "first_seen_at": "2026-05-11T15:41:47.611404+00:00"
-    },
-    {
-      "sym": "EQPT",
-      "name": "EquipmentShare.com Inc",
-      "mcap": 6,
-      "price": 23.3,
-      "ath": 35.5,
-      "atl": 17.95,
-      "pct_to_ath": 52.4,
-      "pct_to_atl": 29.8,
-      "wk52_high": 35.5,
-      "wk52_low": 17.95,
-      "ath_30d": 0,
-      "atl_30d": 4,
       "first_seen_at": "2026-05-11T15:41:47.611404+00:00"
     },
     {
@@ -639,24 +661,46 @@
       "first_seen_at": "2026-06-30T15:45:23.823547+00:00"
     },
     {
+      "sym": "EQPT",
+      "name": "EquipmentShare.com Inc",
+      "mcap": 5.08,
+      "price": 18.06,
+      "ath": 35.5,
+      "atl": 17.64,
+      "pct_to_ath": 96.6,
+      "pct_to_atl": 2.4,
+      "wk52_high": 35.5,
+      "wk52_low": 17.64,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 18.84,
+      "last_low": 17.64,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-07-07T16:11:28.332904+00:00"
+    },
+    {
       "sym": "XE",
       "name": "X-Energy, Inc.",
       "mcap": 7.95,
-      "price": 17.34,
+      "price": 16.61,
       "ath": 37.1,
-      "atl": 17.32,
-      "pct_to_ath": 114.0,
-      "pct_to_atl": 0.1,
+      "atl": 16.35,
+      "pct_to_ath": 123.3,
+      "pct_to_atl": 1.6,
       "wk52_high": 37.1,
-      "wk52_low": 17.32,
+      "wk52_low": 16.35,
       "ath_30d": 0,
-      "atl_30d": 6,
-      "last_high": 20.18,
-      "last_low": 17.32,
+      "atl_30d": 8,
+      "last_high": 18.0,
+      "last_low": 16.35,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-07-02T19:59:06.282799+00:00"
+      "first_seen_at": "2026-07-07T16:11:28.332904+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "EQPT",
+    "XE"
+  ]
 }
