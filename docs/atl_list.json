@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-07-08T01:12:33.483903+00:00",
-  "count": 2,
+  "updated_at": "2026-07-08T04:34:03.667162+00:00",
+  "count": 1,
   "list": [
-    {
-      "sym": "XE",
-      "name": "X-Energy, Inc.",
-      "mcap": 7.95,
-      "price": 16.54,
-      "ath": 37.1,
-      "atl": 16.35,
-      "pct_to_ath": 124.3,
-      "pct_to_atl": 1.1,
-      "wk52_high": 37.1,
-      "wk52_low": 16.35,
-      "ath_30d": 0,
-      "atl_30d": 8,
-      "last_high": 18.0,
-      "last_low": 16.35,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
     {
       "sym": "EQPT",
       "name": "EquipmentShare.com Inc",
