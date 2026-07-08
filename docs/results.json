@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T21:30:04.414342+00:00",
+  "updated_at": "2026-07-08T22:36:27.286156+00:00",
   "timeframe": "daily",
-  "scan_seconds": 15.86,
+  "scan_seconds": 16.58,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2677,29 +2677,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SOBO",
-      "name": "South Bow Corporation Common Shares",
-      "mcap": 8.0,
-      "price": 36.77,
-      "basis": 36.56,
-      "bxt_today": 15.06,
-      "bxt_yest": -4.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 38.45,
-      "atl": 21.12,
-      "pct_to_ath": 4.6,
-      "pct_to_atl": 74.1,
-      "wk52_high": 38.45,
-      "wk52_low": 25.01,
-      "ath_30d": 1,
-      "atl_30d": 0
-    },
-    {
       "sym": "VIRT",
       "name": "Virtu Financial, Inc.",
       "mcap": 8.0,
@@ -2720,6 +2697,29 @@
       "wk52_high": 64.88,
       "wk52_low": 31.55,
       "ath_30d": 6,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SOBO",
+      "name": "South Bow Corporation Common Shares",
+      "mcap": 8.0,
+      "price": 36.77,
+      "basis": 36.56,
+      "bxt_today": 15.06,
+      "bxt_yest": -4.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 38.45,
+      "atl": 21.12,
+      "pct_to_ath": 4.6,
+      "pct_to_atl": 74.1,
+      "wk52_high": 38.45,
+      "wk52_low": 25.01,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -7441,68 +7441,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-08T20:09:28.710983+00:00",
+    "compared_to": "2026-07-08T21:30:04.414342+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "STNG",
-        "name": "Scorpio Tankers Inc. Common Shares",
-        "mcap": 4.02,
-        "price": 77.38,
-        "basis": 76.52,
-        "bxt_today": 16.1,
-        "ath": 130.1,
-        "pct_to_ath": 68.1,
-        "wk52_high": 87.39,
-        "wk52_low": 41.5,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "KVUE",
-        "name": "Kenvue Inc.",
-        "mcap": 33.61,
-        "price": 19.26,
-        "basis": 18.18,
-        "bxt_today": -0.43,
-        "ath": 27.8,
-        "pct_to_ath": 44.3,
-        "wk52_high": 22.87,
-        "wk52_low": 14.02,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FE",
-        "name": "FirstEnergy Corp.",
-        "mcap": 26.28,
-        "price": 48.09,
-        "basis": 46.83,
-        "bxt_today": -0.07,
-        "ath": 84.0,
-        "pct_to_ath": 74.7,
-        "wk52_high": 52.34,
-        "wk52_low": 39.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NG",
-        "name": "Novagold Resources Inc.",
-        "mcap": 3.4,
-        "price": 5.89,
-        "basis": 7.36,
-        "bxt_today": -0.03,
-        "ath": 19.81,
-        "pct_to_ath": 236.3,
-        "wk52_high": 14.4,
-        "wk52_low": 4.34,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

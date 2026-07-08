@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T21:30:36.402841+00:00",
+  "updated_at": "2026-07-08T22:36:54.367339+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.38,
+  "scan_seconds": 9.71,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -2081,29 +2081,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SARO",
-      "name": "StandardAero, Inc.",
-      "mcap": 8.0,
-      "price": 28.15,
-      "basis": 27.27,
-      "bxt_today": -7.37,
-      "bxt_yest": 28.84,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 34.48,
-      "atl": 21.31,
-      "pct_to_ath": 22.5,
-      "pct_to_atl": 32.1,
-      "wk52_high": 34.48,
-      "wk52_low": 23.83,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "mcap": 8.0,
@@ -2124,6 +2101,29 @@
       "wk52_high": 180.42,
       "wk52_low": 92.02,
       "ath_30d": 1,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 8.0,
+      "price": 28.15,
+      "basis": 27.27,
+      "bxt_today": -7.37,
+      "bxt_yest": 28.84,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 34.48,
+      "atl": 21.31,
+      "pct_to_ath": 22.5,
+      "pct_to_atl": 32.1,
+      "wk52_high": 34.48,
+      "wk52_low": 23.83,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2634,42 +2634,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-08T20:10:11.178105+00:00",
+    "compared_to": "2026-07-08T21:30:36.402841+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "RDY",
-        "name": "Dr. Reddy's Laboratories Ltd",
-        "mcap": 11.28,
-        "price": 14.12,
-        "basis": 14.35,
-        "bxt_today": 13.7,
-        "ath": 16.89,
-        "pct_to_ath": 19.6,
-        "wk52_high": 15.67,
-        "wk52_low": 12.19,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "TDY",
-        "name": "Teledyne Technologies Incorporated",
-        "mcap": 28.0,
-        "price": 639.51,
-        "basis": 507.51,
-        "bxt_today": -0.03,
-        "ath": 693.38,
-        "pct_to_ath": 8.4,
-        "wk52_high": 693.38,
-        "wk52_low": 483.02,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
