@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T22:36:42.040472+00:00",
+  "updated_at": "2026-07-08T23:42:56.033827+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.86,
+  "scan_seconds": 10.29,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -279,6 +279,29 @@
       "pct_to_atl": 557.7,
       "wk52_high": 40.11,
       "wk52_low": 33.17,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 24.32,
+      "price": 480.5,
+      "basis": 488.83,
+      "bxt_today": -14.98,
+      "bxt_yest": -10.51,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 55,
+      "bxt_streak": null,
+      "ath": 565.5,
+      "atl": 2.8,
+      "pct_to_ath": 17.7,
+      "pct_to_atl": 17089.4,
+      "wk52_high": 565.5,
+      "wk52_low": 403.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -856,29 +879,6 @@
       "pct_to_atl": 41108.0,
       "wk52_high": 329.09,
       "wk52_low": 185.5,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CUK",
-      "name": "Carnival Plc ADS ADS",
-      "mcap": 38.08,
-      "price": 27.47,
-      "basis": 27.4,
-      "bxt_today": 1.7,
-      "bxt_yest": -2.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 72.29,
-      "atl": 5.43,
-      "pct_to_ath": 163.2,
-      "pct_to_atl": 405.9,
-      "wk52_high": 33.72,
-      "wk52_low": 17.73,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3025,12 +3025,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-08T21:30:21.335738+00:00",
+    "compared_to": "2026-07-08T22:36:42.040472+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
+    "fvb_red_added": [
+      {
+        "sym": "HUBB",
+        "name": "Hubbell Inc",
+        "mcap": 24.32,
+        "price": 480.5,
+        "basis": 488.83,
+        "bxt_today": -14.98,
+        "ath": 565.5,
+        "pct_to_ath": 17.7,
+        "wk52_high": 565.5,
+        "wk52_low": 403.82,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "CUK",
         "name": "Carnival Plc ADS ADS",
@@ -3045,7 +3060,6 @@
         "ath_30d": 0
       }
     ],
-    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
