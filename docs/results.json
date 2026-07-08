@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T04:33:20.727918+00:00",
+  "updated_at": "2026-07-08T07:10:42.369866+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.13,
+  "scan_seconds": 9.52,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -4348,10 +4348,10 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": 201.34,
-      "atl": 0.12,
-      "pct_to_ath": 44.6,
-      "pct_to_atl": 111308.0,
+      "ath": 161.98,
+      "atl": 0.1,
+      "pct_to_ath": 16.3,
+      "pct_to_atl": 138380.4,
       "wk52_high": 148.55,
       "wk52_low": 89.16,
       "ath_30d": 0,
@@ -5164,25 +5164,11 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-08T01:11:46.533325+00:00",
+    "compared_to": "2026-07-08T04:33:20.727918+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "MIDD",
-        "name": "Middleby Corporation (The)",
-        "mcap": 6.58,
-        "price": 139.26,
-        "basis": 159.69,
-        "bxt_today": -36.56,
-        "ath": 201.34,
-        "pct_to_ath": 44.6,
-        "wk52_high": 180.13,
-        "wk52_low": 110.82,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
