@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T23:41:21.622497+00:00",
+  "updated_at": "2026-07-08T01:12:13.785608+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.54,
+  "scan_seconds": 9.99,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1228,29 +1228,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LAD",
-      "name": "Lithia Motors, Inc.",
-      "mcap": 6.26,
-      "price": 311.69,
-      "basis": 307.46,
-      "bxt_today": 7.77,
-      "bxt_yest": -3.22,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 417.98,
-      "atl": 1.53,
-      "pct_to_ath": 34.1,
-      "pct_to_atl": 20271.9,
-      "wk52_high": 360.56,
-      "wk52_low": 239.78,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "PAYC",
       "name": "Paycom Software, Inc.",
       "mcap": 6.26,
@@ -1270,6 +1247,29 @@
       "pct_to_atl": 1070.8,
       "wk52_high": 248.95,
       "wk52_low": 104.9,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LAD",
+      "name": "Lithia Motors, Inc.",
+      "mcap": 6.26,
+      "price": 311.69,
+      "basis": 307.46,
+      "bxt_today": 7.77,
+      "bxt_yest": -3.22,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 417.98,
+      "atl": 1.53,
+      "pct_to_ath": 34.1,
+      "pct_to_atl": 20271.9,
+      "wk52_high": 360.56,
+      "wk52_low": 239.78,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2795,7 +2795,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-07T22:47:05.957836+00:00",
+    "compared_to": "2026-07-07T23:41:21.622497+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
