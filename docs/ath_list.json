@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-09T05:13:32.471791+00:00",
-  "count": 13,
+  "updated_at": "2026-07-09T08:52:09.052226+00:00",
+  "count": 15,
   "list": [
     {
       "sym": "ANET",
@@ -215,6 +215,42 @@
       "atl_30d": 0,
       "last_high": 326.63,
       "last_low": 311.73,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "ANDG",
+      "name": "Andersen Group Inc.",
+      "mcap": 4.33,
+      "price": 39.4,
+      "ath": 41.48,
+      "atl": 18.12,
+      "pct_to_ath": 5.3,
+      "pct_to_atl": 117.4,
+      "wk52_high": 41.48,
+      "wk52_low": 18.12,
+      "ath_30d": 3,
+      "atl_30d": 0,
+      "last_high": 41.48,
+      "last_low": 38.53,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "MRX",
+      "name": "Marex Group plc Ordinary Shares",
+      "mcap": 3.91,
+      "price": 67.18,
+      "ath": 69.47,
+      "atl": 18.13,
+      "pct_to_ath": 3.4,
+      "pct_to_atl": 270.5,
+      "wk52_high": 69.47,
+      "wk52_low": 27.91,
+      "ath_30d": 11,
+      "atl_30d": 0,
+      "last_high": 69.47,
+      "last_low": 66.66,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3507,25 +3543,6 @@
       "first_seen_at": "2026-07-07T16:11:28.326938+00:00"
     },
     {
-      "sym": "MRX",
-      "name": "Marex Group plc Ordinary Shares",
-      "mcap": 3.91,
-      "price": 67.84,
-      "ath": 67.89,
-      "atl": 18.13,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 274.2,
-      "wk52_high": 67.89,
-      "wk52_low": 27.91,
-      "ath_30d": 10,
-      "atl_30d": 0,
-      "last_high": 67.89,
-      "last_low": 65.7,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-07-07T16:11:28.326938+00:00"
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8.0,
@@ -3695,25 +3712,6 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-07-07T16:11:28.326938+00:00"
-    },
-    {
-      "sym": "ANDG",
-      "name": "Andersen Group Inc.",
-      "mcap": 4.33,
-      "price": 40.69,
-      "ath": 40.81,
-      "atl": 18.12,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 124.5,
-      "wk52_high": 40.81,
-      "wk52_low": 18.12,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 40.81,
-      "last_low": 37.26,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-07-07T18:22:00.163788+00:00"
     },
     {
       "sym": "KNSA",
@@ -4037,7 +4035,48 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-07-08T20:10:45.618815+00:00"
+    },
+    {
+      "sym": "ANDG",
+      "name": "Andersen Group Inc.",
+      "mcap": 4.33,
+      "price": 39.4,
+      "ath": 41.48,
+      "atl": 18.12,
+      "pct_to_ath": 5.3,
+      "pct_to_atl": 117.4,
+      "wk52_high": 41.48,
+      "wk52_low": 18.12,
+      "ath_30d": 3,
+      "atl_30d": 0,
+      "last_high": 41.48,
+      "last_low": 38.53,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-07-09T08:52:09.052226+00:00"
+    },
+    {
+      "sym": "MRX",
+      "name": "Marex Group plc Ordinary Shares",
+      "mcap": 3.91,
+      "price": 67.18,
+      "ath": 69.47,
+      "atl": 18.13,
+      "pct_to_ath": 3.4,
+      "pct_to_atl": 270.5,
+      "wk52_high": 69.47,
+      "wk52_low": 27.91,
+      "ath_30d": 11,
+      "atl_30d": 0,
+      "last_high": 69.47,
+      "last_low": 66.66,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-07-09T08:52:09.052226+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "ANDG",
+    "MRX"
+  ]
 }
