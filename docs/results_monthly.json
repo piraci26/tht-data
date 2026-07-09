@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T08:51:50.161211+00:00",
+  "updated_at": "2026-07-09T11:39:28.768962+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.94,
+  "scan_seconds": 14.24,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -1759,29 +1759,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SARO",
-      "name": "StandardAero, Inc.",
-      "mcap": 8.0,
-      "price": 28.15,
-      "basis": 27.27,
-      "bxt_today": -7.37,
-      "bxt_yest": 28.84,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 34.48,
-      "atl": 21.31,
-      "pct_to_ath": 22.5,
-      "pct_to_atl": 32.1,
-      "wk52_high": 34.48,
-      "wk52_low": 23.83,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CRUS",
       "name": "Cirrus Logic, Inc.",
       "mcap": 8.0,
@@ -1802,6 +1779,29 @@
       "wk52_high": 180.42,
       "wk52_low": 92.02,
       "ath_30d": 1,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 8.0,
+      "price": 28.15,
+      "basis": 27.27,
+      "bxt_today": -7.37,
+      "bxt_yest": 28.84,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 34.48,
+      "atl": 21.31,
+      "pct_to_ath": 22.5,
+      "pct_to_atl": 32.1,
+      "wk52_high": 34.48,
+      "wk52_low": 23.83,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2197,7 +2197,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-09T05:13:17.532559+00:00",
+    "compared_to": "2026-07-09T08:51:50.161211+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
