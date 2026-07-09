@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-07-09T14:16:20.451703+00:00",
-  "count": 1,
+  "updated_at": "2026-07-09T16:47:02.109396+00:00",
+  "count": 2,
   "list": [
     {
       "sym": "EQPT",
       "name": "EquipmentShare.com Inc",
       "mcap": 5.08,
-      "price": 16.35,
+      "price": 16.27,
       "ath": 35.5,
       "atl": 16.23,
-      "pct_to_ath": 117.1,
-      "pct_to_atl": 0.7,
+      "pct_to_ath": 118.2,
+      "pct_to_atl": 0.2,
       "wk52_high": 35.5,
       "wk52_low": 16.23,
       "ath_30d": 0,
       "atl_30d": 3,
       "last_high": 16.63,
       "last_low": 16.23,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 4.96,
+      "price": 10.17,
+      "ath": 21.62,
+      "atl": 10.08,
+      "pct_to_ath": 112.6,
+      "pct_to_atl": 0.9,
+      "wk52_high": 15.82,
+      "wk52_low": 10.08,
+      "ath_30d": 0,
+      "atl_30d": 7,
+      "last_high": 10.22,
+      "last_low": 10.08,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -665,21 +683,23 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.96,
-      "price": 10.16,
+      "price": 10.17,
       "ath": 21.62,
-      "atl": 10.11,
-      "pct_to_ath": 112.7,
-      "pct_to_atl": 0.5,
+      "atl": 10.08,
+      "pct_to_ath": 112.6,
+      "pct_to_atl": 0.9,
       "wk52_high": 15.82,
-      "wk52_low": 10.11,
+      "wk52_low": 10.08,
       "ath_30d": 0,
-      "atl_30d": 6,
-      "last_high": 10.33,
-      "last_low": 10.11,
+      "atl_30d": 7,
+      "last_high": 10.22,
+      "last_low": 10.08,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-07-08T17:04:41.648119+00:00"
+      "first_seen_at": "2026-07-09T16:47:02.109396+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "OTF"
+  ]
 }
