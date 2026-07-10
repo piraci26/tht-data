@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T21:44:17.664003+00:00",
+  "updated_at": "2026-07-10T22:42:54.403827+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.88,
+  "scan_seconds": 10.59,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -5256,26 +5256,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-10T20:44:56.443117+00:00",
+    "compared_to": "2026-07-10T21:44:17.664003+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "D",
-        "name": "Dominion Energy, Inc.",
-        "mcap": 60.04,
-        "price": 70.08,
-        "basis": 67.94,
-        "bxt_today": 0.25,
-        "ath": 90.89,
-        "pct_to_ath": 29.7,
-        "wk52_high": 70.59,
-        "wk52_low": 55.85,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

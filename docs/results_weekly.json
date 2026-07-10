@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T21:44:38.184508+00:00",
+  "updated_at": "2026-07-10T22:43:08.156456+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 15.49,
+  "scan_seconds": 9.02,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -2565,28 +2565,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-10T20:45:10.500898+00:00",
+    "compared_to": "2026-07-10T21:44:38.184508+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "SYF",
-        "name": "Synchrony Financial",
-        "mcap": 24.15,
-        "price": 72.44,
-        "basis": 74.53,
-        "bxt_today": -3.71,
-        "ath": 88.77,
-        "pct_to_ath": 22.5,
-        "wk52_high": 88.77,
-        "wk52_low": 63.08,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

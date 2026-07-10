@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-10T21:44:58.672326+00:00",
+  "updated_at": "2026-07-10T22:43:20.032777+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.01,
+  "scan_seconds": 8.82,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -2312,28 +2312,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-10T20:45:24.686873+00:00",
+    "compared_to": "2026-07-10T21:44:58.672326+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "AEIS",
-        "name": "Advanced Energy Industries, Inc.",
-        "mcap": 12.92,
-        "price": 308.05,
-        "basis": 170.24,
-        "bxt_today": -2.95,
-        "ath": 397.44,
-        "pct_to_ath": 29.0,
-        "wk52_high": 397.44,
-        "wk52_low": 128.4,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
