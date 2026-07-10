@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-10T20:45:24.686873+00:00",
+  "updated_at": "2026-07-10T21:44:58.672326+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.15,
-  "scanned_count": 1494,
+  "scan_seconds": 17.01,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "SNDK",
@@ -250,12 +250,12 @@
       "bxt_r": false,
       "fvb_streak": 13,
       "bxt_streak": null,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 43.98,
+      "atl": 5.56,
+      "pct_to_ath": 138.0,
+      "pct_to_atl": 232.4,
+      "wk52_high": 43.98,
+      "wk52_low": 10.5,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1151,12 +1151,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 12,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 408.61,
+      "atl": 2.48,
+      "pct_to_ath": 14.4,
+      "pct_to_atl": 14325.8,
+      "wk52_high": 408.61,
+      "wk52_low": 174.38,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1710,6 +1710,29 @@
       "wk52_high": 386.46,
       "wk52_low": 89.4,
       "ath_30d": 5,
+      "atl_30d": 0
+    },
+    {
+      "sym": "AEIS",
+      "name": "Advanced Energy Industries, Inc.",
+      "mcap": 12.92,
+      "price": 308.05,
+      "basis": 170.24,
+      "bxt_today": -2.95,
+      "bxt_yest": 9.38,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 397.44,
+      "atl": 2.88,
+      "pct_to_ath": 29.0,
+      "pct_to_atl": 10614.8,
+      "wk52_high": 397.44,
+      "wk52_low": 128.4,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2289,268 +2312,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-10T19:14:33.957013+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.93,
-        "price": 42.83,
-        "basis": 41.71,
-        "bxt_today": 44.59,
-        "ath": 57.14,
-        "pct_to_ath": 33.4,
-        "wk52_high": 57.14,
-        "wk52_low": 28.63,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "MBLY",
-        "name": "Mobileye Global Inc.",
-        "mcap": 8.0,
-        "price": 9.65,
-        "basis": 9.32,
-        "bxt_today": 14.83,
-        "ath": 48.11,
-        "pct_to_ath": 398.5,
-        "wk52_high": 17.12,
-        "wk52_low": 6.47,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LAD",
-        "name": "Lithia Motors, Inc.",
-        "mcap": 6.26,
-        "price": 317.92,
-        "basis": 307.79,
-        "bxt_today": 11.27,
-        "ath": 417.98,
-        "pct_to_ath": 31.5,
-        "wk52_high": 360.56,
-        "wk52_low": 239.78,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "mcap": 4.52,
-        "price": 16.99,
-        "basis": 17.39,
-        "bxt_today": -34.02,
-        "ath": 42.5,
-        "pct_to_ath": 150.1,
-        "wk52_high": 42.5,
-        "wk52_low": 14.19,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-10T20:45:24.686873+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "VRSN",
-        "name": "VeriSign, Inc.",
-        "mcap": 27.85,
-        "price": 270.11,
-        "basis": 230.14,
-        "bxt_today": 0.3,
-        "ath": 312.48,
-        "pct_to_ath": 15.7,
-        "wk52_high": 312.48,
-        "wk52_low": 208.86,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SBAC",
-        "name": "SBA Communications Corporation",
-        "mcap": 22.04,
-        "price": 190.03,
-        "basis": 210.01,
-        "bxt_today": 0.6,
-        "ath": 391.15,
-        "pct_to_ath": 105.8,
-        "wk52_high": 243.16,
-        "wk52_low": 162.41,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "mcap": 44.19,
-        "price": 245.93,
-        "basis": 200.35,
-        "bxt_today": 0.5,
-        "ath": 265.94,
-        "pct_to_ath": 8.1,
-        "wk52_high": 265.94,
-        "wk52_low": 187.63,
-        "ath_30d": 1
-      },
-      {
-        "sym": "XE",
-        "name": "X-Energy, Inc.",
-        "mcap": 7.95,
-        "price": 15.86,
-        "basis": 16.7,
-        "bxt_today": 1.47,
-        "ath": 37.1,
-        "pct_to_ath": 133.9,
-        "wk52_high": 37.1,
-        "wk52_low": 15.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KBR",
-        "name": "KBR, Inc.",
-        "mcap": 4.06,
-        "price": 35.8,
-        "basis": 51.36,
-        "bxt_today": 0.22,
-        "ath": 72.6,
-        "pct_to_ath": 102.8,
-        "wk52_high": 52.23,
-        "wk52_low": 29.94,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [
-      {
-        "sym": "CARR",
-        "name": "Carrier Global Corporation",
-        "mcap": 51.82,
-        "price": 69.34,
-        "basis": 61.54,
-        "bxt_today": -2.68,
-        "ath": 83.32,
-        "pct_to_ath": 20.2,
-        "wk52_high": 81.09,
-        "wk52_low": 50.24,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WAB",
-        "name": "Westinghouse Air Brake Technologies Corporation",
-        "mcap": 43.41,
-        "price": 261.21,
-        "basis": 196.42,
-        "bxt_today": -0.89,
-        "ath": 284.91,
-        "pct_to_ath": 9.1,
-        "wk52_high": 284.91,
-        "wk52_low": 184.26,
-        "ath_30d": 4
-      },
-      {
-        "sym": "DKS",
-        "name": "Dick's Sporting Goods Inc",
-        "mcap": 19.86,
-        "price": 217.98,
-        "basis": 206.83,
-        "bxt_today": -1.36,
-        "ath": 254.6,
-        "pct_to_ath": 16.8,
-        "wk52_high": 244.38,
-        "wk52_low": 186.67,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MAIR",
-        "name": "Madison Air Solutions Corporation",
-        "mcap": 19.48,
-        "price": 36.61,
-        "basis": 35.84,
-        "bxt_today": -4.01,
-        "ath": 44.5,
-        "pct_to_ath": 21.6,
-        "wk52_high": 44.5,
-        "wk52_low": 31.0,
-        "ath_30d": 1
-      },
-      {
-        "sym": "WMS",
-        "name": "Advanced Drainage Systems, Inc.",
-        "mcap": 10.5,
-        "price": 150.47,
-        "basis": 141.93,
-        "bxt_today": -0.73,
-        "ath": 184.27,
-        "pct_to_ath": 22.5,
-        "wk52_high": 179.32,
-        "wk52_low": 109.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MHK",
-        "name": "Mohawk Industries, Inc.",
-        "mcap": 6.22,
-        "price": 109.97,
-        "basis": 119.2,
-        "bxt_today": -0.5,
-        "ath": 286.85,
-        "pct_to_ath": 160.8,
-        "wk52_high": 143.13,
-        "wk52_low": 92.99,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "BG",
-        "name": "Bunge Limited Common Shares",
-        "mcap": 23.49,
-        "price": 114.0,
-        "basis": 96.65,
-        "bxt_today": -0.28,
-        "ath": 135.0,
-        "pct_to_ath": 18.4,
-        "wk52_high": 134.87,
-        "wk52_low": 71.6,
-        "ath_30d": 0
-      },
       {
         "sym": "AEIS",
         "name": "Advanced Energy Industries, Inc.",
         "mcap": 12.92,
-        "price": 307.5,
-        "basis": 170.23,
-        "bxt_today": -3.06,
+        "price": 308.05,
+        "basis": 170.24,
+        "bxt_today": -2.95,
         "ath": 397.44,
-        "pct_to_ath": 29.2,
+        "pct_to_ath": 29.0,
         "wk52_high": 397.44,
         "wk52_low": 128.4,
         "ath_30d": 0
-      },
-      {
-        "sym": "DNTH",
-        "name": "Dianthus Therapeutics, Inc.",
-        "mcap": 4.91,
-        "price": 97.42,
-        "basis": 69.97,
-        "bxt_today": -0.01,
-        "ath": 336.0,
-        "pct_to_ath": 244.9,
-        "wk52_high": 102.33,
-        "wk52_low": 18.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HNGE",
-        "name": "Hinge Health, Inc.",
-        "mcap": 4.23,
-        "price": 87.98,
-        "basis": 69.68,
-        "bxt_today": -3.19,
-        "ath": 91.07,
-        "pct_to_ath": 3.5,
-        "wk52_high": 91.07,
-        "wk52_low": 30.08,
-        "ath_30d": 15
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
