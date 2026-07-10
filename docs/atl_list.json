@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10T11:29:56.168938+00:00",
-  "count": 2,
+  "updated_at": "2026-07-10T13:30:15.426174+00:00",
+  "count": 1,
   "list": [
     {
       "sym": "EQPT",
@@ -17,24 +17,6 @@
       "atl_30d": 3,
       "last_high": 16.63,
       "last_low": 15.95,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 4.96,
-      "price": 10.19,
-      "ath": 21.62,
-      "atl": 10.08,
-      "pct_to_ath": 112.2,
-      "pct_to_atl": 1.1,
-      "wk52_high": 15.82,
-      "wk52_low": 10.08,
-      "ath_30d": 0,
-      "atl_30d": 7,
-      "last_high": 10.23,
-      "last_low": 10.08,
       "made_ath_today": false,
       "made_atl_today": true
     }
