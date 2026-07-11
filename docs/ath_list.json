@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T14:42:40.334916+00:00",
+  "updated_at": "2026-07-11T15:39:12.363909+00:00",
   "count": 36,
   "list": [
     {
@@ -435,24 +435,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "AMG",
-      "name": "Affiliated Managers Group, Inc.",
-      "mcap": 8.0,
-      "price": 366.41,
-      "ath": 369.94,
-      "atl": 8.92,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 4009.3,
-      "wk52_high": 369.94,
-      "wk52_low": 199.59,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 369.94,
-      "last_low": 366.2,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8.0,
@@ -467,6 +449,24 @@
       "atl_30d": 0,
       "last_high": 123.91,
       "last_low": 123.85,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "AMG",
+      "name": "Affiliated Managers Group, Inc.",
+      "mcap": 8.0,
+      "price": 366.41,
+      "ath": 369.94,
+      "atl": 8.92,
+      "pct_to_ath": 1.0,
+      "pct_to_atl": 4009.3,
+      "wk52_high": 369.94,
+      "wk52_low": 199.59,
+      "ath_30d": 8,
+      "atl_30d": 0,
+      "last_high": 369.94,
+      "last_low": 366.2,
       "made_ath_today": true,
       "made_atl_today": false
     },
