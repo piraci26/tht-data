@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T20:43:06.742591+00:00",
+  "updated_at": "2026-07-13T21:37:15.432053+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.76,
+  "scan_seconds": 10.6,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -425,7 +425,7 @@
       "name": "Rocket Lab Corporation",
       "mcap": 47.65,
       "price": 76.73,
-      "basis": 83.85,
+      "basis": 83.84,
       "bxt_today": -31.28,
       "bxt_yest": -26.83,
       "fvb_g": false,
@@ -1855,7 +1855,7 @@
       "name": "ASML Holding N.V. New York Registry Shares",
       "mcap": 666.44,
       "price": 1726.04,
-      "basis": 1444.98,
+      "basis": 1444.97,
       "bxt_today": -11.18,
       "bxt_yest": 3.5,
       "fvb_g": false,
@@ -1878,7 +1878,7 @@
       "name": "Lam Research Corporation",
       "mcap": 410.99,
       "price": 329.92,
-      "basis": 255.71,
+      "basis": 255.72,
       "bxt_today": -13.69,
       "bxt_yest": 2.26,
       "fvb_g": false,
@@ -2016,7 +2016,7 @@
       "name": "Applovin Corporation",
       "mcap": 151.34,
       "price": 442.85,
-      "basis": 511.51,
+      "basis": 511.52,
       "bxt_today": -11.18,
       "bxt_yest": 6.41,
       "fvb_g": false,
@@ -2062,7 +2062,7 @@
       "name": "Cadence Design Systems, Inc.",
       "mcap": 104.7,
       "price": 377.92,
-      "basis": 327.89,
+      "basis": 327.88,
       "bxt_today": -4.6,
       "bxt_yest": 6.34,
       "fvb_g": false,
@@ -2177,7 +2177,7 @@
       "name": "Credo Technology Group Holding Ltd Ordinary Shares",
       "mcap": 44.5,
       "price": 236.88,
-      "basis": 166.71,
+      "basis": 166.72,
       "bxt_today": -1.56,
       "bxt_yest": 15.28,
       "fvb_g": false,
@@ -2315,7 +2315,7 @@
       "name": "MKS Inc.",
       "mcap": 23.61,
       "price": 352.03,
-      "basis": 260.81,
+      "basis": 260.82,
       "bxt_today": -10.04,
       "bxt_yest": 5.52,
       "fvb_g": false,
@@ -3531,229 +3531,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-13T19:42:30.860479+00:00",
+    "compared_to": "2026-07-13T20:43:06.742591+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "BG",
-        "name": "Bunge Limited Common Shares",
-        "mcap": 22.91,
-        "price": 117.97,
-        "basis": 114.76,
-        "bxt_today": -23.77,
-        "ath": 135.0,
-        "pct_to_ath": 14.4,
-        "wk52_high": 134.87,
-        "wk52_low": 71.6,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NOV",
-        "name": "NOV Inc.",
-        "mcap": 6.78,
-        "price": 19.22,
-        "basis": 18.77,
-        "bxt_today": -30.18,
-        "ath": 86.55,
-        "pct_to_ath": 350.3,
-        "wk52_high": 21.55,
-        "wk52_low": 11.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GATX",
-        "name": "GATX Corporation",
-        "mcap": 6.4,
-        "price": 181.3,
-        "basis": 178.81,
-        "bxt_today": 6.11,
-        "ath": 205.56,
-        "pct_to_ath": 13.4,
-        "wk52_high": 205.56,
-        "wk52_low": 148.2,
-        "ath_30d": 0
-      },
-      {
-        "sym": "REZI",
-        "name": "Resideo Technologies, Inc.",
-        "mcap": 5.14,
-        "price": 35.7,
-        "basis": 34.87,
-        "bxt_today": 20.26,
-        "ath": 45.29,
-        "pct_to_ath": 26.9,
-        "wk52_high": 45.29,
-        "wk52_low": 22.93,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "SKY",
-        "name": "Champion Homes, Inc.",
-        "mcap": 4.46,
-        "price": 80.16,
-        "basis": 82.3,
-        "bxt_today": 15.98,
-        "ath": 116.49,
-        "pct_to_ath": 45.3,
-        "wk52_high": 99.17,
-        "wk52_low": 60.13,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "SARO",
-        "name": "StandardAero, Inc.",
-        "mcap": 9.29,
-        "price": 27.38,
-        "basis": 28.13,
-        "bxt_today": 15.72,
-        "ath": 34.48,
-        "pct_to_ath": 25.9,
-        "wk52_high": 34.48,
-        "wk52_low": 23.83,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAVA",
-        "name": "CAVA Group, Inc.",
-        "mcap": 8.4,
-        "price": 71.45,
-        "basis": 74.75,
-        "bxt_today": -28.67,
-        "ath": 172.43,
-        "pct_to_ath": 141.3,
-        "wk52_high": 98.79,
-        "wk52_low": 43.41,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "GRMN",
-        "name": "Garmin Ltd. (Switzerland)",
-        "mcap": 46.88,
-        "price": 243.61,
-        "basis": 229.31,
-        "bxt_today": 0.99,
-        "ath": 273.32,
-        "pct_to_ath": 12.2,
-        "wk52_high": 273.32,
-        "wk52_low": 186.67,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CACI",
-        "name": "CACI International, Inc.",
-        "mcap": 10.51,
-        "price": 477.97,
-        "basis": 553.28,
-        "bxt_today": 0.1,
-        "ath": 683.5,
-        "pct_to_ath": 43.0,
-        "wk52_high": 683.5,
-        "wk52_low": 434.7,
-        "ath_30d": 0
-      },
-      {
-        "sym": "DNTH",
-        "name": "Dianthus Therapeutics, Inc.",
-        "mcap": 5.34,
-        "price": 98.64,
-        "basis": 69.91,
-        "bxt_today": 0.63,
-        "ath": 336.0,
-        "pct_to_ath": 240.6,
-        "wk52_high": 102.33,
-        "wk52_low": 18.08,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "HESM",
-        "name": "Hess Midstream LP Representing Limited Partner Interests",
-        "mcap": 4.96,
-        "price": 39.29,
-        "basis": 37.31,
-        "bxt_today": 0.59,
-        "ath": 44.14,
-        "pct_to_ath": 12.3,
-        "wk52_high": 44.14,
-        "wk52_low": 31.63,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "TTC",
-        "name": "Toro Company (The)",
-        "mcap": 8.89,
-        "price": 93.35,
-        "basis": 90.88,
-        "bxt_today": -0.47,
-        "ath": 118.13,
-        "pct_to_ath": 26.5,
-        "wk52_high": 105.19,
-        "wk52_low": 67.64,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TCBI",
-        "name": "Texas Capital Bancshares, Inc.",
-        "mcap": 4.47,
-        "price": 101.87,
-        "basis": 98.29,
-        "bxt_today": -2.53,
-        "ath": 108.92,
-        "pct_to_ath": 6.9,
-        "wk52_high": 108.92,
-        "wk52_low": 75.41,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PPG",
-        "name": "PPG Industries, Inc.",
-        "mcap": 25.29,
-        "price": 113.5,
-        "basis": 111.47,
-        "bxt_today": -0.26,
-        "ath": 182.97,
-        "pct_to_ath": 61.2,
-        "wk52_high": 133.43,
-        "wk52_low": 93.39,
-        "ath_30d": 0
-      },
-      {
-        "sym": "P",
-        "name": "Everpure, Inc. common stock",
-        "mcap": 24.89,
-        "price": 74.85,
-        "basis": 71.16,
-        "bxt_today": -0.55,
-        "ath": 100.59,
-        "pct_to_ath": 34.4,
-        "wk52_high": 100.59,
-        "wk52_low": 53.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SYF",
-        "name": "Synchrony Financial",
-        "mcap": 24.37,
-        "price": 72.89,
-        "basis": 74.56,
-        "bxt_today": -1.0,
-        "ath": 88.77,
-        "pct_to_ath": 21.8,
-        "wk52_high": 88.77,
-        "wk52_low": 63.08,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
