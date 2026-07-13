@@ -140,7 +140,49 @@ def build(threshold_b=3.5, force=False, workers=20):
             f.write(s + '\n')
     print(f"  Wrote: {DESKTOP}")
 
+    dual_write_universe(filtered, threshold_b)
+
     return [s for s, _ in filtered]
+
+
+def dual_write_universe(filtered, threshold_b):
+    """Mirror the filtered universe into Supabase `universe` (symbol -> sector,
+    industry, mcap). This is what backs the dashboard's sector / sub-sector
+    filters — the flip/setup/extrema tables carry no sector column, so the
+    browser joins against this one. No-op when SUPABASE_* env vars are unset.
+    """
+    try:
+        import supabase_client as sb
+
+        def _load(path):
+            try:
+                with open(os.path.join(HERE, path)) as f:
+                    return json.load(f)
+            except Exception:
+                return {}
+
+        names   = _load('universe_names.json')
+        sectors = _load('universe_sectors.json')
+
+        rows = []
+        for sym, mcap_b in filtered:
+            meta = sectors.get(sym) or {}
+            rows.append({
+                'symbol':      sym,
+                'name':        names.get(sym) or sym,
+                'mcap_b':      round(mcap_b, 2),
+                'threshold_b': threshold_b,
+                'sector':      meta.get('sector'),
+                'industry':    meta.get('industry'),
+            })
+        # Full replace — symbols that fell below the threshold should disappear
+        # rather than linger with a stale cap.
+        sb.truncate('universe', where_filter='updated_at=not.is.null')
+        n = sb.upsert('universe', rows, on_conflict='symbol')
+        missing = sum(1 for r in rows if not r['sector'])
+        print(f"  [supabase] universe: {n} rows ({missing} without a sector)")
+    except Exception as e:
+        print(f"  [supabase] universe write skipped: {e}")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
