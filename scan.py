@@ -641,6 +641,56 @@ def run_scan(timeframe="daily"):
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r "
           f"({n_changes} changes, {len(clickable_syms)} bars refreshed)")
 
+def dual_write_extrema(ath_path, atl_path, now_iso):
+    """Mirror ath_list.json / atl_list.json into Supabase `extrema_events`.
+
+    Reads back what was just written to disk rather than re-deriving the rows,
+    so the table can't drift from the JSON the free dashboard also serves.
+    No-op when SUPABASE_* env vars are unset.
+    """
+    try:
+        import supabase_client as sb
+        extrema_rows = []
+        counts = {}
+        for kind, path in (("ath", ath_path), ("atl", atl_path)):
+            with open(path) as f:
+                doc = json.load(f)
+            counts[kind] = len(doc.get("list", []))
+            # is_today rows are today's fresh extrema; the accumulator holds
+            # symbols first seen on earlier runs. The PK is (kind, is_today,
+            # symbol), so a symbol in both slices doesn't collide.
+            for r in doc.get("list", []):
+                extrema_rows.append({
+                    "kind": kind, "is_today": True,
+                    "symbol": r.get("sym"), "name": r.get("name") or "",
+                    "mcap": r.get("mcap") or 0, "price": r.get("price"),
+                    "ath_or_atl": r.get(kind),
+                    "occurred_at": doc.get("updated_at"),
+                    "scanned_at": now_iso,
+                })
+            for e in doc.get("accumulator", []):
+                extrema_rows.append({
+                    "kind": kind, "is_today": False,
+                    "symbol": e.get("sym"), "name": e.get("name") or "",
+                    "mcap": e.get("mcap") or 0, "price": e.get("price"),
+                    "ath_or_atl": e.get(kind),
+                    "occurred_at": e.get("first_seen_at"),
+                    "scanned_at": now_iso,
+                })
+            # Wipe just THIS kind so a symbol that stops printing extrema today
+            # doesn't linger as a stale is_today row.
+            sb.truncate("extrema_events", where_filter=f"kind=eq.{kind}")
+        n = sb.upsert("extrema_events", extrema_rows, on_conflict="kind,is_today,symbol")
+        # scan_runs.pipeline is CHECK-constrained to the four known pipelines,
+        # so this logs under scan_py and leans on notes to mark the ath/atl leg.
+        sb.record_run("scan_py", now_iso, now_iso, True, n,
+                      f"ath/atl · {counts.get('ath', 0)} ath · {counts.get('atl', 0)} atl · {n} rows")
+        return n
+    except Exception as e:
+        print(f"  [supabase] ath/atl dual-write skipped: {e}")
+        return 0
+
+
 def run_ath_atl_universe():
     """Scan FULL universe for stocks currently making ATHs / ATLs.
     Writes docs/ath_list.json + docs/atl_list.json. Caches raw fetch results
@@ -790,6 +840,8 @@ def run_ath_atl_universe():
         "ath_new": len(ath_new),
         "atl_new": len(atl_new),
     }])
+
+    dual_write_extrema(ath_path, atl_path, now_iso)
 
     # Cache OHLC bars for every clickable ATH/ATL row — list + accumulator.
     # Always re-fetch so accumulator entries from prior days don't show stale charts.
