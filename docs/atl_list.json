@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-07-14T12:58:33.059481+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-07-14T14:54:50.334533+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "XE",
+      "name": "X-Energy, Inc.",
+      "mcap": 4.47,
+      "price": 15.46,
+      "ath": 37.1,
+      "atl": 15.2,
+      "pct_to_ath": 140.0,
+      "pct_to_atl": 1.7,
+      "wk52_high": 37.1,
+      "wk52_low": 15.2,
+      "ath_30d": 0,
+      "atl_30d": 11,
+      "last_high": 15.8,
+      "last_low": 15.2,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -645,22 +664,24 @@
     {
       "sym": "XE",
       "name": "X-Energy, Inc.",
-      "mcap": 7.95,
-      "price": 15.36,
+      "mcap": 4.47,
+      "price": 15.46,
       "ath": 37.1,
-      "atl": 15.25,
-      "pct_to_ath": 141.5,
-      "pct_to_atl": 0.8,
+      "atl": 15.2,
+      "pct_to_ath": 140.0,
+      "pct_to_atl": 1.7,
       "wk52_high": 37.1,
-      "wk52_low": 15.25,
+      "wk52_low": 15.2,
       "ath_30d": 0,
-      "atl_30d": 10,
-      "last_high": 16.69,
-      "last_low": 15.25,
+      "atl_30d": 11,
+      "last_high": 15.8,
+      "last_low": 15.2,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-07-10T15:59:23.816976+00:00"
+      "first_seen_at": "2026-07-14T14:54:50.334533+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "XE"
+  ]
 }
