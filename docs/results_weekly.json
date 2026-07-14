@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-13T23:31:17.976934+00:00",
+  "updated_at": "2026-07-14T00:56:48.425126+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 15.85,
+  "scan_seconds": 12.66,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -1809,7 +1809,7 @@
       "name": "Micron Technology, Inc.",
       "mcap": 1051.04,
       "price": 937.0,
-      "basis": 556.56,
+      "basis": 556.55,
       "bxt_today": -9.98,
       "bxt_yest": 3.43,
       "fvb_g": false,
@@ -3531,7 +3531,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-13T22:34:20.150594+00:00",
+    "compared_to": "2026-07-13T23:31:17.976934+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
