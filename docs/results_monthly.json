@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T03:58:26.726306+00:00",
+  "updated_at": "2026-07-14T06:17:01.245720+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.1,
+  "scan_seconds": 11.02,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -172,7 +172,7 @@
       "name": "Sandisk Corporation",
       "mcap": 247.13,
       "price": 1673.97,
-      "basis": 1859.37,
+      "basis": 1859.39,
       "bxt_today": -21.2,
       "bxt_yest": -14.74,
       "fvb_g": false,
@@ -218,7 +218,7 @@
       "name": "Rocket Lab Corporation",
       "mcap": 47.65,
       "price": 76.73,
-      "basis": 83.84,
+      "basis": 83.85,
       "bxt_today": -31.28,
       "bxt_yest": -26.83,
       "fvb_g": false,
@@ -1326,7 +1326,7 @@
       "name": "Applovin Corporation",
       "mcap": 151.34,
       "price": 442.85,
-      "basis": 511.52,
+      "basis": 511.51,
       "bxt_today": -11.18,
       "bxt_yest": 6.41,
       "fvb_g": false,
@@ -1579,7 +1579,7 @@
       "name": "Credo Technology Group Holding Ltd Ordinary Shares",
       "mcap": 44.5,
       "price": 236.88,
-      "basis": 166.72,
+      "basis": 166.71,
       "bxt_today": -1.56,
       "bxt_yest": 15.28,
       "fvb_g": false,
@@ -1924,7 +1924,7 @@
       "name": "Onto Innovation Inc.",
       "mcap": 15.04,
       "price": 304.21,
-      "basis": 236.78,
+      "basis": 236.79,
       "bxt_today": -9.29,
       "bxt_yest": 2.82,
       "fvb_g": false,
@@ -2795,7 +2795,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T00:57:02.526262+00:00",
+    "compared_to": "2026-07-14T03:58:26.726306+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
