@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T11:50:51.541282+00:00",
+  "updated_at": "2026-07-14T12:57:22.778112+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 27.31,
-  "scanned_count": 1509,
+  "scan_seconds": 21.46,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "CNQ",
@@ -3531,7 +3531,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T10:21:09.890360+00:00",
+    "compared_to": "2026-07-14T11:50:51.541282+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

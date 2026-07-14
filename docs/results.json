@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T11:50:17.545999+00:00",
+  "updated_at": "2026-07-14T12:56:55.807285+00:00",
   "timeframe": "daily",
-  "scan_seconds": 28.3,
-  "scanned_count": 1509,
+  "scan_seconds": 23.55,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "CVX",
@@ -4658,7 +4658,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T10:20:56.626272+00:00",
+    "compared_to": "2026-07-14T11:50:17.545999+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
