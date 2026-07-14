@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T21:07:59.495263+00:00",
+  "updated_at": "2026-07-14T22:11:57.768556+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.94,
-  "scanned_count": 1494,
+  "scan_seconds": 20.68,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -574,12 +574,12 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 3,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 103.19,
+      "atl": 0.65,
+      "pct_to_ath": 259.2,
+      "pct_to_atl": 4293.0,
+      "wk52_high": 35.43,
+      "wk52_low": 21.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -996,6 +996,29 @@
       "wk52_low": 10.08,
       "ath_30d": 0,
       "atl_30d": 6
+    },
+    {
+      "sym": "CSW",
+      "name": "CSW Industrials, Inc.",
+      "mcap": 4.58,
+      "price": 292.85,
+      "basis": 285.5,
+      "bxt_today": 6.69,
+      "bxt_yest": -4.39,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 19,
+      "ath": 436.5,
+      "atl": 27.84,
+      "pct_to_ath": 49.1,
+      "pct_to_atl": 951.9,
+      "wk52_high": 337.02,
+      "wk52_low": 230.45,
+      "ath_30d": 0,
+      "atl_30d": 0
     },
     {
       "sym": "CNR",
@@ -1496,12 +1519,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 11,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 165.15,
+      "atl": 5.56,
+      "pct_to_ath": 21.4,
+      "pct_to_atl": 2346.6,
+      "wk52_high": 165.15,
+      "wk52_low": 122.64,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2358,55 +2381,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T19:59:44.426976+00:00",
+    "compared_to": "2026-07-14T21:07:59.495263+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "ESTC",
-        "name": "Elastic N.V. Ordinary Shares",
-        "mcap": 6.26,
-        "price": 62.35,
-        "basis": 59.94,
-        "bxt_today": 39.33,
-        "ath": 189.84,
-        "pct_to_ath": 204.5,
-        "wk52_high": 96.07,
-        "wk52_low": 42.05,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [
       {
-        "sym": "SOUN",
-        "name": "SoundHound AI, Inc",
-        "mcap": 2.96,
-        "price": 6.69,
-        "basis": 8.38,
-        "bxt_today": 0.14,
-        "ath": 24.98,
-        "pct_to_ath": 273.4,
-        "wk52_high": 22.17,
-        "wk52_low": 5.83,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
         "sym": "CSW",
         "name": "CSW Industrials, Inc.",
         "mcap": 4.58,
-        "price": 292.98,
-        "basis": 285.51,
-        "bxt_today": 6.78,
+        "price": 292.85,
+        "basis": 285.5,
+        "bxt_today": 6.69,
         "ath": 436.5,
-        "pct_to_ath": 49.0,
+        "pct_to_ath": 49.1,
         "wk52_high": 337.02,
         "wk52_low": 230.45,
         "ath_30d": 0
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

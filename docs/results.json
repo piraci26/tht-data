@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T21:07:36.442116+00:00",
+  "updated_at": "2026-07-14T22:11:07.209470+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.38,
-  "scanned_count": 1505,
+  "scan_seconds": 23.07,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "NVDA",
@@ -793,7 +793,7 @@
       "name": "IDEXX Laboratories, Inc.",
       "mcap": 42.48,
       "price": 540.68,
-      "basis": 556.99,
+      "basis": 556.98,
       "bxt_today": -5.76,
       "bxt_yest": 26.44,
       "fvb_g": false,
@@ -1508,7 +1508,7 @@
       "name": "Fortinet, Inc.",
       "mcap": 121.23,
       "price": 166.83,
-      "basis": 148.19,
+      "basis": 148.18,
       "bxt_today": 4.3,
       "bxt_yest": -13.48,
       "fvb_g": false,
@@ -3396,7 +3396,7 @@
       "name": "eBay Inc.",
       "mcap": 49.94,
       "price": 112.54,
-      "basis": 110.61,
+      "basis": 110.6,
       "bxt_today": -5.9,
       "bxt_yest": 21.82,
       "fvb_g": false,
@@ -3465,7 +3465,7 @@
       "name": "IDEXX Laboratories, Inc.",
       "mcap": 42.48,
       "price": 540.68,
-      "basis": 556.99,
+      "basis": 556.98,
       "bxt_today": -5.76,
       "bxt_yest": 26.44,
       "fvb_g": false,
@@ -4224,7 +4224,7 @@
       "name": "HealthEquity, Inc.",
       "mcap": 7.89,
       "price": 94.5,
-      "basis": 89.41,
+      "basis": 89.42,
       "bxt_today": -1.51,
       "bxt_yest": 9.78,
       "fvb_g": false,
@@ -4658,214 +4658,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T19:59:02.473929+00:00",
+    "compared_to": "2026-07-14T21:07:36.442116+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "TXN",
-        "name": "Texas Instruments Incorporated",
-        "mcap": 278.67,
-        "price": 306.05,
-        "basis": 302.98,
-        "bxt_today": 10.06,
-        "ath": 334.03,
-        "pct_to_ath": 9.1,
-        "wk52_high": 334.03,
-        "wk52_low": 152.73,
-        "ath_30d": 1
-      },
-      {
-        "sym": "VEON",
-        "name": "VEON Ltd. ADS",
-        "mcap": 3.68,
-        "price": 53.03,
-        "basis": 52.52,
-        "bxt_today": 5.94,
-        "ath": 1137.0,
-        "pct_to_ath": 2044.1,
-        "wk52_high": 64.0,
-        "wk52_low": 42.6,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "DEO",
-        "name": "Diageo plc",
-        "mcap": 45.07,
-        "price": 80.94,
-        "basis": 81.44,
-        "bxt_today": -2.24,
-        "ath": 223.14,
-        "pct_to_ath": 175.7,
-        "wk52_high": 116.41,
-        "wk52_low": 72.45,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TDY",
-        "name": "Teledyne Technologies Incorporated",
-        "mcap": 29.09,
-        "price": 623.1,
-        "basis": 627.28,
-        "bxt_today": -31.53,
-        "ath": 693.38,
-        "pct_to_ath": 11.3,
-        "wk52_high": 693.38,
-        "wk52_low": 483.02,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FTV",
-        "name": "Fortive Corporation",
-        "mcap": 18.57,
-        "price": 60.68,
-        "basis": 61.0,
-        "bxt_today": -20.43,
-        "ath": 65.64,
-        "pct_to_ath": 8.2,
-        "wk52_high": 64.33,
-        "wk52_low": 46.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BIRK",
-        "name": "Birkenstock Holding plc Ordinary Shares",
-        "mcap": 8.36,
-        "price": 44.36,
-        "basis": 44.82,
-        "bxt_today": -18.72,
-        "ath": 64.78,
-        "pct_to_ath": 46.0,
-        "wk52_high": 53.53,
-        "wk52_low": 31.12,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "J",
-        "name": "Jacobs Solutions Inc.",
-        "mcap": 15.13,
-        "price": 129.8,
-        "basis": 123.9,
-        "bxt_today": 0.16,
-        "ath": 168.44,
-        "pct_to_ath": 29.8,
-        "wk52_high": 168.44,
-        "wk52_low": 105.68,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 14.77,
-        "price": 120.12,
-        "basis": 122.08,
-        "bxt_today": 2.12,
-        "ath": 211.79,
-        "pct_to_ath": 76.3,
-        "wk52_high": 137.85,
-        "wk52_low": 115.53,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "GWW",
-        "name": "W.W. Grainger, Inc.",
-        "mcap": 64.67,
-        "price": 1371.07,
-        "basis": 1323.82,
-        "bxt_today": -2.08,
-        "ath": 1403.51,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1403.51,
-        "wk52_low": 906.52,
-        "ath_30d": 11
-      },
-      {
-        "sym": "AIG",
-        "name": "American International Group, Inc. New",
-        "mcap": 41.84,
-        "price": 79.0,
-        "basis": 76.15,
-        "bxt_today": -0.1,
-        "ath": 2075.0,
-        "pct_to_ath": 2526.6,
-        "wk52_high": 87.29,
-        "wk52_low": 71.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ES",
-        "name": "Eversource Energy (D/B/A)",
-        "mcap": 28.06,
-        "price": 74.64,
-        "basis": 71.03,
-        "bxt_today": -0.93,
-        "ath": 99.42,
-        "pct_to_ath": 33.2,
-        "wk52_high": 76.41,
-        "wk52_low": 61.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KSPI",
-        "name": "Joint Stock Company Kaspi.kz American Depository Shares",
-        "mcap": 16.96,
-        "price": 89.19,
-        "basis": 86.29,
-        "bxt_today": -0.02,
-        "ath": 143.72,
-        "pct_to_ath": 61.1,
-        "wk52_high": 99.2,
-        "wk52_low": 68.59,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EG",
-        "name": "Everest Group, Ltd.",
-        "mcap": 14.74,
-        "price": 371.85,
-        "basis": 346.42,
-        "bxt_today": -0.51,
-        "ath": 417.92,
-        "pct_to_ath": 12.4,
-        "wk52_high": 379.22,
-        "wk52_low": 302.44,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PODD",
-        "name": "Insulet Corporation",
-        "mcap": 10.99,
-        "price": 159.12,
-        "basis": 151.7,
-        "bxt_today": -0.04,
-        "ath": 354.88,
-        "pct_to_ath": 123.0,
-        "wk52_high": 354.88,
-        "wk52_low": 138.79,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "OTIS",
-        "name": "Otis Worldwide Corporation",
-        "mcap": 27.81,
-        "price": 72.53,
-        "basis": 71.83,
-        "bxt_today": -0.15,
-        "ath": 106.83,
-        "pct_to_ath": 47.3,
-        "wk52_high": 101.42,
-        "wk52_low": 69.16,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

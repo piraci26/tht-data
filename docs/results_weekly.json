@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T21:07:48.695721+00:00",
+  "updated_at": "2026-07-14T22:11:33.347419+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.12,
-  "scanned_count": 1504,
+  "scan_seconds": 20.52,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "TMO",
@@ -2657,122 +2657,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T19:59:24.266757+00:00",
+    "compared_to": "2026-07-14T21:07:48.695721+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "SPGI",
-        "name": "S&P Global Inc.",
-        "mcap": 129.72,
-        "price": 439.3,
-        "basis": 428.52,
-        "bxt_today": 44.12,
-        "ath": 547.82,
-        "pct_to_ath": 24.7,
-        "wk52_high": 547.82,
-        "wk52_low": 361.03,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ESTC",
-        "name": "Elastic N.V. Ordinary Shares",
-        "mcap": 6.26,
-        "price": 62.4,
-        "basis": 59.94,
-        "bxt_today": 39.37,
-        "ath": 189.84,
-        "pct_to_ath": 204.2,
-        "wk52_high": 96.07,
-        "wk52_low": 42.05,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MEOH",
-        "name": "Methanex Corporation",
-        "mcap": 3.76,
-        "price": 54.1,
-        "basis": 52.23,
-        "bxt_today": -19.69,
-        "ath": 83.23,
-        "pct_to_ath": 53.8,
-        "wk52_high": 66.75,
-        "wk52_low": 32.0,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "SOUN",
-        "name": "SoundHound AI, Inc",
-        "mcap": 2.96,
-        "price": 6.69,
-        "basis": 8.38,
-        "bxt_today": 0.14,
-        "ath": 24.98,
-        "pct_to_ath": 273.4,
-        "wk52_high": 22.17,
-        "wk52_low": 5.83,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "LEVI",
-        "name": "Levi Strauss & Co",
-        "mcap": 9.36,
-        "price": 23.79,
-        "basis": 21.82,
-        "bxt_today": -0.08,
-        "ath": 30.84,
-        "pct_to_ath": 29.6,
-        "wk52_high": 25.58,
-        "wk52_low": 17.72,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BYD",
-        "name": "Boyd Gaming Corporation",
-        "mcap": 6.41,
-        "price": 86.09,
-        "basis": 84.6,
-        "bxt_today": -0.68,
-        "ath": 91.0,
-        "pct_to_ath": 5.7,
-        "wk52_high": 91.0,
-        "wk52_low": 76.33,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "INDV",
-        "name": "Indivior Pharmaceuticals, Inc.",
-        "mcap": 4.79,
-        "price": 40.21,
-        "basis": 35.42,
-        "bxt_today": -0.19,
-        "ath": 42.81,
-        "pct_to_ath": 6.5,
-        "wk52_high": 42.81,
-        "wk52_low": 15.0,
-        "ath_30d": 3
-      },
-      {
-        "sym": "NWE",
-        "name": "NorthWestern Energy Group, Inc.",
-        "mcap": 4.47,
-        "price": 72.89,
-        "basis": 69.13,
-        "bxt_today": -0.19,
-        "ath": 80.52,
-        "pct_to_ath": 10.5,
-        "wk52_high": 75.18,
-        "wk52_low": 51.31,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
