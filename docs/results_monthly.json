@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T22:11:57.768556+00:00",
+  "updated_at": "2026-07-14T23:11:39.499517+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 20.68,
-  "scanned_count": 1502,
+  "scan_seconds": 8.54,
+  "scanned_count": 1501,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -2381,26 +2381,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T21:07:59.495263+00:00",
+    "compared_to": "2026-07-14T22:11:57.768556+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "CSW",
-        "name": "CSW Industrials, Inc.",
-        "mcap": 4.58,
-        "price": 292.85,
-        "basis": 285.5,
-        "bxt_today": 6.69,
-        "ath": 436.5,
-        "pct_to_ath": 49.1,
-        "wk52_high": 337.02,
-        "wk52_low": 230.45,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
