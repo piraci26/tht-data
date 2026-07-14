@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-14T18:45:50.584005+00:00",
+  "updated_at": "2026-07-14T20:00:21.585800+00:00",
   "count": 1,
   "list": [
     {
       "sym": "XE",
       "name": "X-Energy, Inc.",
-      "mcap": 4.47,
-      "price": 15.22,
+      "mcap": 4.38,
+      "price": 15.34,
       "ath": 37.1,
       "atl": 15.16,
-      "pct_to_ath": 143.8,
-      "pct_to_atl": 0.4,
+      "pct_to_ath": 141.9,
+      "pct_to_atl": 1.2,
       "wk52_high": 37.1,
       "wk52_low": 15.16,
       "ath_30d": 0,
