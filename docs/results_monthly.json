@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T21:19:45.368541+00:00",
+  "updated_at": "2026-07-15T22:18:31.587708+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 30.38,
-  "scanned_count": 1493,
+  "scan_seconds": 16.47,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -1818,13 +1818,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 219.2,
+      "atl": 3.56,
+      "pct_to_ath": 8.6,
+      "pct_to_atl": 5563.7,
+      "wk52_high": 219.2,
+      "wk52_low": 164.65,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -2427,7 +2427,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T20:17:38.580060+00:00",
+    "compared_to": "2026-07-15T21:19:45.368541+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

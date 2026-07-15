@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T21:19:10.009713+00:00",
+  "updated_at": "2026-07-15T22:18:11.753300+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 31.48,
-  "scanned_count": 1497,
+  "scan_seconds": 22.16,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "BLK",
@@ -2324,12 +2324,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
+      "ath": 100.59,
+      "atl": 7.93,
+      "pct_to_ath": 42.2,
+      "pct_to_atl": 792.2,
+      "wk52_high": 100.59,
+      "wk52_low": 53.43,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3025,42 +3025,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T20:17:17.077797+00:00",
+    "compared_to": "2026-07-15T21:19:10.009713+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "VIRT",
-        "name": "Virtu Financial, Inc.",
-        "mcap": 5.73,
-        "price": 60.59,
-        "basis": 46.29,
-        "bxt_today": -4.1,
-        "ath": 68.02,
-        "pct_to_ath": 12.3,
-        "wk52_high": 68.02,
-        "wk52_low": 31.55,
-        "ath_30d": 8
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "DELL",
-        "name": "Dell Technologies Inc. Class C",
-        "mcap": 260.93,
-        "price": 412.17,
-        "basis": 227.21,
-        "bxt_today": -0.05,
-        "ath": 469.47,
-        "pct_to_ath": 13.9,
-        "wk52_high": 469.47,
-        "wk52_low": 110.22,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
