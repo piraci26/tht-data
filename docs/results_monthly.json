@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T10:11:37.297395+00:00",
+  "updated_at": "2026-07-15T11:49:35.199463+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.12,
-  "scanned_count": 1502,
+  "scan_seconds": 19.49,
+  "scanned_count": 1491,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -1080,12 +1080,12 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 13,
-      "ath": 136.5,
-      "atl": 4.65,
-      "pct_to_ath": 553.1,
-      "pct_to_atl": 349.5,
-      "wk52_high": 34.82,
-      "wk52_low": 6.29,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1713,29 +1713,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SQM",
-      "name": "Sociedad Quimica y Minera S.A.",
-      "mcap": 20.73,
-      "price": 72.95,
-      "basis": 51.83,
-      "bxt_today": -6.4,
-      "bxt_yest": 3.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 115.76,
-      "atl": 1.54,
-      "pct_to_ath": 58.7,
-      "pct_to_atl": 4626.8,
-      "wk52_high": 98.0,
-      "wk52_low": 35.67,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "DKS",
       "name": "Dick's Sporting Goods Inc",
       "mcap": 19.0,
@@ -1962,29 +1939,6 @@
       "pct_to_atl": 161.7,
       "wk52_high": 25.58,
       "wk52_low": 17.72,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "AGCO",
-      "name": "AGCO Corporation",
-      "mcap": 8.28,
-      "price": 114.14,
-      "basis": 107.38,
-      "bxt_today": -5.11,
-      "bxt_yest": 2.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 158.62,
-      "atl": 1.67,
-      "pct_to_ath": 39.0,
-      "pct_to_atl": 6748.4,
-      "wk52_high": 143.78,
-      "wk52_low": 99.21,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2312,7 +2266,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T08:03:22.716021+00:00",
+    "compared_to": "2026-07-15T10:11:37.297395+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2320,6 +2274,33 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "SQM",
+        "name": "Sociedad Quimica y Minera S.A.",
+        "mcap": 20.73,
+        "price": 72.95,
+        "basis": 51.83,
+        "bxt_today": -6.4,
+        "ath": 115.76,
+        "pct_to_ath": 58.7,
+        "wk52_high": 98.0,
+        "wk52_low": 35.67,
+        "ath_30d": 0
+      },
+      {
+        "sym": "AGCO",
+        "name": "AGCO Corporation",
+        "mcap": 8.28,
+        "price": 114.14,
+        "basis": 107.38,
+        "bxt_today": -5.11,
+        "ath": 158.62,
+        "pct_to_ath": 39.0,
+        "wk52_high": 143.78,
+        "wk52_low": 99.21,
+        "ath_30d": 0
+      }
+    ]
   }
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T10:11:27.416167+00:00",
+  "updated_at": "2026-07-15T11:49:12.869054+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.34,
-  "scanned_count": 1506,
+  "scan_seconds": 20.11,
+  "scanned_count": 1492,
   "fvb_green": [
     {
       "sym": "TMO",
@@ -1956,13 +1956,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 16,
-      "ath": 93.22,
-      "atl": 3.84,
-      "pct_to_ath": 5.4,
-      "pct_to_atl": 2201.7,
-      "wk52_high": 93.22,
-      "wk52_low": 68.28,
-      "ath_30d": 8,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2496,7 +2496,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T08:02:59.298194+00:00",
+    "compared_to": "2026-07-15T10:11:27.416167+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
