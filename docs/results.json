@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T00:05:29.511900+00:00",
+  "updated_at": "2026-07-15T03:28:11.567914+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.92,
+  "scan_seconds": 24.72,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -1425,13 +1425,13 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": 210.95,
+      "ath": 211.0,
       "atl": 7.99,
       "pct_to_ath": 0.1,
       "pct_to_atl": 2538.2,
       "wk52_high": 210.95,
       "wk52_low": 85.68,
-      "ath_30d": 5,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -4658,7 +4658,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-14T23:11:17.184046+00:00",
+    "compared_to": "2026-07-15T00:05:29.511900+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

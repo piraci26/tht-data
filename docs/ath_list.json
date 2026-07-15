@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T00:06:13.142432+00:00",
-  "count": 48,
+  "updated_at": "2026-07-15T03:29:49.128877+00:00",
+  "count": 45,
   "list": [
     {
       "sym": "JPM",
@@ -129,24 +129,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "mcap": 212.49,
-      "price": 210.73,
-      "ath": 210.95,
-      "atl": 7.99,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 2538.2,
-      "wk52_high": 210.95,
-      "wk52_low": 85.68,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 210.95,
-      "last_low": 189.46,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "TD",
       "name": "Toronto Dominion Bank (The)",
       "mcap": 202.18,
@@ -269,24 +251,6 @@
       "atl_30d": 0,
       "last_high": 256.22,
       "last_low": 249.32,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "NET",
-      "name": "Cloudflare, Inc.",
-      "mcap": 98.36,
-      "price": 281.75,
-      "ath": 284.61,
-      "atl": 14.5,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 1843.1,
-      "wk52_high": 284.61,
-      "wk52_low": 158.83,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 284.61,
-      "last_low": 267.01,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -611,24 +575,6 @@
       "atl_30d": 0,
       "last_high": 96.76,
       "last_low": 94.72,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "APGE",
-      "name": "Apogee Therapeutics, Inc.",
-      "mcap": 10.05,
-      "price": 133.96,
-      "ath": 134.13,
-      "atl": 14.19,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 844.0,
-      "wk52_high": 134.13,
-      "wk52_low": 34.34,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 134.13,
-      "last_low": 133.81,
       "made_ath_today": true,
       "made_atl_today": false
     },
