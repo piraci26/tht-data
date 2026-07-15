@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T05:57:01.455351+00:00",
+  "updated_at": "2026-07-15T08:03:22.716021+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 51.34,
-  "scanned_count": 1477,
+  "scan_seconds": 20.35,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -975,6 +975,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "ANF",
+      "name": "Abercrombie & Fitch Company",
+      "mcap": 4.08,
+      "price": 92.87,
+      "basis": 109.78,
+      "bxt_today": 2.86,
+      "bxt_yest": -2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 196.99,
+      "atl": 6.25,
+      "pct_to_ath": 112.1,
+      "pct_to_atl": 1385.9,
+      "wk52_high": 133.11,
+      "wk52_low": 65.45,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "KNTK",
       "name": "Kinetik Holdings Inc.",
       "mcap": 3.56,
@@ -1063,6 +1086,29 @@
       "pct_to_atl": 349.5,
       "wk52_high": 34.82,
       "wk52_low": 6.29,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SOUN",
+      "name": "SoundHound AI, Inc",
+      "mcap": 2.96,
+      "price": 6.69,
+      "basis": 8.39,
+      "bxt_today": 1.73,
+      "bxt_yest": -4.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 24.98,
+      "atl": 0.93,
+      "pct_to_ath": 273.4,
+      "pct_to_atl": 619.4,
+      "wk52_high": 22.17,
+      "wk52_low": 5.83,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2266,13 +2312,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T03:29:01.554393+00:00",
+    "compared_to": "2026-07-15T05:57:01.455351+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "ANF",
         "name": "Abercrombie & Fitch Company",
@@ -2300,6 +2345,7 @@
         "ath_30d": 0
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

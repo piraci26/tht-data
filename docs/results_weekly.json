@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-15T05:55:51.458861+00:00",
+  "updated_at": "2026-07-15T08:02:59.298194+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 40.84,
+  "scan_seconds": 20.85,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -181,13 +181,13 @@
       "bxt_r": true,
       "fvb_streak": 3,
       "bxt_streak": 9,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 332.46,
+      "atl": 3.82,
+      "pct_to_ath": 53.2,
+      "pct_to_atl": 5576.4,
+      "wk52_high": 332.46,
+      "wk52_low": 212.34,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1220,13 +1220,13 @@
       "bxt_r": true,
       "fvb_streak": 3,
       "bxt_streak": 9,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 332.46,
+      "atl": 3.82,
+      "pct_to_ath": 53.2,
+      "pct_to_atl": 5576.4,
+      "wk52_high": 332.46,
+      "wk52_low": 212.34,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2496,7 +2496,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T03:28:37.946571+00:00",
+    "compared_to": "2026-07-15T05:55:51.458861+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
