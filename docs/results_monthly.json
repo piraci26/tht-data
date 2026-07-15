@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T03:29:01.554393+00:00",
+  "updated_at": "2026-07-15T05:57:01.455351+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 19.84,
-  "scanned_count": 1502,
+  "scan_seconds": 51.34,
+  "scanned_count": 1477,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -975,29 +975,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ANF",
-      "name": "Abercrombie & Fitch Company",
-      "mcap": 4.08,
-      "price": 92.87,
-      "basis": 109.78,
-      "bxt_today": 2.86,
-      "bxt_yest": -2.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 196.99,
-      "atl": 6.25,
-      "pct_to_ath": 112.1,
-      "pct_to_atl": 1385.9,
-      "wk52_high": 133.11,
-      "wk52_low": 65.45,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "KNTK",
       "name": "Kinetik Holdings Inc.",
       "mcap": 3.56,
@@ -1086,29 +1063,6 @@
       "pct_to_atl": 349.5,
       "wk52_high": 34.82,
       "wk52_low": 6.29,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "SOUN",
-      "name": "SoundHound AI, Inc",
-      "mcap": 2.96,
-      "price": 6.69,
-      "basis": 8.39,
-      "bxt_today": 1.73,
-      "bxt_yest": -4.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 24.98,
-      "atl": 0.93,
-      "pct_to_ath": 273.4,
-      "pct_to_atl": 619.4,
-      "wk52_high": 22.17,
-      "wk52_low": 5.83,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2312,164 +2266,41 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T00:05:53.661339+00:00",
+    "compared_to": "2026-07-15T03:29:01.554393+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "REZI",
-        "name": "Resideo Technologies, Inc.",
-        "mcap": 5.58,
-        "price": 36.86,
-        "basis": 34.95,
-        "bxt_today": 28.45,
-        "ath": 45.29,
-        "pct_to_ath": 22.9,
-        "wk52_high": 45.29,
-        "wk52_low": 22.93,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "RKLB",
-        "name": "Rocket Lab Corporation",
-        "mcap": 49.26,
-        "price": 78.81,
-        "basis": 84.93,
-        "bxt_today": -33.05,
-        "ath": 151.0,
-        "pct_to_ath": 91.6,
-        "wk52_high": 151.0,
-        "wk52_low": 37.57,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "CAVA",
-        "name": "CAVA Group, Inc.",
-        "mcap": 8.15,
-        "price": 69.97,
-        "basis": 75.36,
-        "bxt_today": -31.58,
-        "ath": 172.43,
-        "pct_to_ath": 146.4,
-        "wk52_high": 98.79,
-        "wk52_low": 43.41,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "PRAX",
-        "name": "Praxis Precision Medicines, Inc.",
-        "mcap": 9.06,
-        "price": 327.68,
-        "basis": 310.54,
-        "bxt_today": 1.49,
-        "ath": 914.27,
-        "pct_to_ath": 179.0,
-        "wk52_high": 366.52,
-        "wk52_low": 37.19,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [
       {
-        "sym": "CEG",
-        "name": "Constellation Energy Corporation",
-        "mcap": 91.93,
-        "price": 256.43,
-        "basis": 296.35,
-        "bxt_today": 0.02,
-        "ath": 412.7,
-        "pct_to_ath": 60.9,
-        "wk52_high": 412.7,
-        "wk52_low": 228.63,
+        "sym": "ANF",
+        "name": "Abercrombie & Fitch Company",
+        "mcap": 4.08,
+        "price": 92.87,
+        "basis": 109.78,
+        "bxt_today": 2.86,
+        "ath": 196.99,
+        "pct_to_ath": 112.1,
+        "wk52_high": 133.11,
+        "wk52_low": 65.45,
         "ath_30d": 0
       },
       {
-        "sym": "CVNA",
-        "name": "Carvana Co.",
-        "mcap": 49.48,
-        "price": 70.38,
-        "basis": 73.37,
-        "bxt_today": 10.12,
-        "ath": 97.38,
-        "pct_to_ath": 38.4,
-        "wk52_high": 97.38,
-        "wk52_low": 54.46,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AM",
-        "name": "Antero Midstream Corporation",
-        "mcap": 10.58,
-        "price": 22.76,
-        "basis": 20.96,
-        "bxt_today": 3.5,
-        "ath": 23.83,
-        "pct_to_ath": 4.7,
-        "wk52_high": 23.83,
-        "wk52_low": 16.77,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HESM",
-        "name": "Hess Midstream LP Representing Limited Partner Interests",
-        "mcap": 4.96,
-        "price": 39.85,
-        "basis": 37.49,
-        "bxt_today": 12.16,
-        "ath": 44.14,
-        "pct_to_ath": 10.8,
-        "wk52_high": 44.14,
-        "wk52_low": 31.63,
+        "sym": "SOUN",
+        "name": "SoundHound AI, Inc",
+        "mcap": 2.96,
+        "price": 6.69,
+        "basis": 8.39,
+        "bxt_today": 1.73,
+        "ath": 24.98,
+        "pct_to_ath": 273.4,
+        "wk52_high": 22.17,
+        "wk52_low": 5.83,
         "ath_30d": 0
       }
     ],
-    "bxt_red_added": [
-      {
-        "sym": "CARR",
-        "name": "Carrier Global Corporation",
-        "mcap": 57.89,
-        "price": 69.76,
-        "basis": 62.04,
-        "bxt_today": -5.8,
-        "ath": 83.32,
-        "pct_to_ath": 19.4,
-        "wk52_high": 81.09,
-        "wk52_low": 50.24,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ROKU",
-        "name": "Roku, Inc.",
-        "mcap": 21.05,
-        "price": 141.76,
-        "basis": 113.42,
-        "bxt_today": -0.17,
-        "ath": 490.76,
-        "pct_to_ath": 246.2,
-        "wk52_high": 148.88,
-        "wk52_low": 78.53,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "TBBB",
-        "name": "BBB Foods Inc. Common Shares",
-        "mcap": 4.86,
-        "price": 40.46,
-        "basis": 36.86,
-        "bxt_today": -12.75,
-        "ath": 43.81,
-        "pct_to_ath": 8.3,
-        "wk52_high": 43.81,
-        "wk52_low": 23.81,
-        "ath_30d": 5
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
