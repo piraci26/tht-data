@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T11:49:12.869054+00:00",
+  "updated_at": "2026-07-15T13:00:48.240993+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 20.11,
-  "scanned_count": 1492,
+  "scan_seconds": 21.34,
+  "scanned_count": 1493,
   "fvb_green": [
     {
       "sym": "TMO",
@@ -344,13 +344,13 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 1,
-      "ath": 1143.79,
+      "ath": 1143.84,
       "atl": 47.41,
       "pct_to_ath": 0.3,
       "pct_to_atl": 2304.6,
       "wk52_high": 1143.79,
       "wk52_low": 691.3,
-      "ath_30d": 7,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -528,13 +528,13 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 5,
-      "ath": 50.12,
+      "ath": 50.13,
       "atl": 10.58,
       "pct_to_ath": 0.3,
       "pct_to_atl": 372.5,
       "wk52_high": 50.12,
       "wk52_low": 35.45,
-      "ath_30d": 1,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -689,12 +689,12 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 10,
-      "ath": 36.91,
-      "atl": 0.66,
-      "pct_to_ath": 138.6,
-      "pct_to_atl": 2243.9,
-      "wk52_high": 30.98,
-      "wk52_low": 12.55,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -781,12 +781,12 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 10,
-      "ath": 114.52,
-      "atl": 6.35,
-      "pct_to_ath": 67.0,
-      "pct_to_atl": 980.2,
-      "wk52_high": 114.52,
-      "wk52_low": 66.94,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1598,29 +1598,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "AZO",
-      "name": "AutoZone, Inc.",
-      "mcap": 49.22,
-      "price": 3032.07,
-      "basis": 3412.93,
-      "bxt_today": -0.16,
-      "bxt_yest": 0.2,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 4388.11,
-      "atl": 7.31,
-      "pct_to_ath": 44.7,
-      "pct_to_atl": 41364.2,
-      "wk52_high": 4388.11,
-      "wk52_low": 2928.11,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GRMN",
       "name": "Garmin Ltd. (Switzerland)",
       "mcap": 46.48,
@@ -1956,13 +1933,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 16,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 93.22,
+      "atl": 3.84,
+      "pct_to_ath": 5.4,
+      "pct_to_atl": 2201.7,
+      "wk52_high": 93.22,
+      "wk52_low": 68.28,
+      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -2496,7 +2473,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-15T10:11:27.416167+00:00",
+    "compared_to": "2026-07-15T11:49:12.869054+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2504,6 +2481,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "AZO",
+        "name": "AutoZone, Inc.",
+        "mcap": 49.22,
+        "price": 3032.07,
+        "basis": 3412.93,
+        "bxt_today": -0.16,
+        "ath": 4388.11,
+        "pct_to_ath": 44.7,
+        "wk52_high": 4388.11,
+        "wk52_low": 2928.11,
+        "ath_30d": 0
+      }
+    ]
   }
 }
