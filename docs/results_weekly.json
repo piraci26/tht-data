@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-16T06:05:46.223262+00:00",
+  "updated_at": "2026-07-16T08:31:17.892996+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 18.14,
+  "scan_seconds": 19.78,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -1713,29 +1713,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "BLD",
-      "name": "TopBuild Corp.",
-      "mcap": 9.94,
-      "price": 354.53,
-      "basis": 430.16,
-      "bxt_today": -15.28,
-      "bxt_yest": 17.64,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 559.47,
-      "atl": 23.02,
-      "pct_to_ath": 57.8,
-      "pct_to_atl": 1440.1,
-      "wk52_high": 559.47,
-      "wk52_low": 330.51,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TKR",
       "name": "Timken Company (The)",
       "mcap": 9.54,
@@ -2174,7 +2151,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-16T03:41:30.712121+00:00",
+    "compared_to": "2026-07-16T06:05:46.223262+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2182,6 +2159,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "BLD",
+        "name": "TopBuild Corp.",
+        "mcap": 9.94,
+        "price": 354.53,
+        "basis": 430.16,
+        "bxt_today": -15.28,
+        "ath": 559.47,
+        "pct_to_ath": 57.8,
+        "wk52_high": 559.47,
+        "wk52_low": 330.51,
+        "ath_30d": 0
+      }
+    ]
   }
 }

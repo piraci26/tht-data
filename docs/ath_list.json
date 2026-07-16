@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T06:06:51.466640+00:00",
+  "updated_at": "2026-07-16T08:32:27.191255+00:00",
   "count": 40,
   "list": [
     {
@@ -4525,23 +4525,5 @@
       "first_seen_at": "2026-07-16T06:06:51.466640+00:00"
     }
   ],
-  "added_this_run": [
-    "AAPL",
-    "BMO",
-    "CM",
-    "EA",
-    "EMA",
-    "EXPD",
-    "HWC",
-    "HXL",
-    "MPC",
-    "MS",
-    "MTB",
-    "MUFG",
-    "NET",
-    "PAG",
-    "SLF",
-    "STT",
-    "UNF"
-  ]
+  "added_this_run": []
 }
