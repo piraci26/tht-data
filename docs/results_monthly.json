@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T20:39:43.261638+00:00",
+  "updated_at": "2026-07-17T21:33:08.358929+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 25.11,
+  "scan_seconds": 25.18,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -2542,124 +2542,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-17T19:49:34.472114+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "DUOL",
-        "name": "Duolingo, Inc.",
-        "mcap": 5.81,
-        "price": 133.85,
-        "basis": 126.38,
-        "bxt_today": 49.53,
-        "ath": 544.93,
-        "pct_to_ath": 307.1,
-        "wk52_high": 468.0,
-        "wk52_low": 87.89,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AGO",
-        "name": "Assured Guaranty Ltd.",
-        "mcap": 3.67,
-        "price": 84.96,
-        "basis": 83.63,
-        "bxt_today": -5.64,
-        "ath": 96.6,
-        "pct_to_ath": 13.7,
-        "wk52_high": 92.4,
-        "wk52_low": 72.76,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 16.98,
-        "price": 42.1,
-        "basis": 41.8,
-        "bxt_today": 40.34,
-        "ath": 48.68,
-        "pct_to_ath": 15.6,
-        "wk52_high": 48.68,
-        "wk52_low": 33.15,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "ADSK",
-        "name": "Autodesk, Inc.",
-        "mcap": 46.04,
-        "price": 218.35,
-        "basis": 230.17,
-        "bxt_today": -31.25,
-        "ath": 344.39,
-        "pct_to_ath": 57.7,
-        "wk52_high": 329.09,
-        "wk52_low": 185.5,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "KDP",
-        "name": "Keurig Dr Pepper Inc.",
-        "mcap": 41.99,
-        "price": 30.91,
-        "basis": 31.61,
-        "bxt_today": 31.18,
-        "ath": 126.65,
-        "pct_to_ath": 309.7,
-        "wk52_high": 35.94,
-        "wk52_low": 24.88,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OC",
-        "name": "Owens Corning Inc New",
-        "mcap": 11.54,
-        "price": 143.38,
-        "basis": 149.47,
-        "bxt_today": 30.8,
-        "ath": 214.53,
-        "pct_to_ath": 49.6,
-        "wk52_high": 159.91,
-        "wk52_low": 97.53,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-17T20:39:43.261638+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "RPRX",
-        "name": "Royalty Pharma plc Ordinary Shares",
-        "mcap": 25.89,
-        "price": 58.18,
-        "basis": 47.89,
-        "bxt_today": -0.28,
-        "ath": 59.44,
-        "pct_to_ath": 2.2,
-        "wk52_high": 59.44,
-        "wk52_low": 34.08,
-        "ath_30d": 9
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "WBI",
-        "name": "WaterBridge Infrastructure LLC Shares Representing Limited Liability Company Interests",
-        "mcap": 1.67,
-        "price": 34.26,
-        "basis": 31.76,
-        "bxt_today": -4.15,
-        "ath": 36.37,
-        "pct_to_ath": 6.2,
-        "wk52_high": 36.37,
-        "wk52_low": 18.64,
-        "ath_30d": 2
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
