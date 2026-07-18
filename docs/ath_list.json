@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-18T18:10:27.938116+00:00",
+  "updated_at": "2026-07-18T19:31:53.877102+00:00",
   "count": 62,
   "list": [
     {
       "sym": "AAPL",
       "name": "Apple Inc.",
-      "mcap": 4912.48,
+      "mcap": 4901.76,
       "price": 333.74,
       "ath": 334.99,
       "atl": 0.06,
@@ -23,7 +23,7 @@
     {
       "sym": "BAC",
       "name": "Bank of America Corporation",
-      "mcap": 429.11,
+      "mcap": 429.99,
       "price": 61.27,
       "ath": 62.12,
       "atl": 2.53,
@@ -41,7 +41,7 @@
     {
       "sym": "PM",
       "name": "Philip Morris International Inc",
-      "mcap": 298.65,
+      "mcap": 300.77,
       "price": 192.98,
       "ath": 194.62,
       "atl": 32.04,
@@ -59,7 +59,7 @@
     {
       "sym": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "mcap": 290.96,
+      "mcap": 292.32,
       "price": 358.68,
       "ath": 368.8,
       "atl": 6.51,
@@ -77,7 +77,7 @@
     {
       "sym": "UNP",
       "name": "Union Pacific Corporation",
-      "mcap": 178.06,
+      "mcap": 179.15,
       "price": 301.75,
       "ath": 303.15,
       "atl": 3.34,
@@ -95,7 +95,7 @@
     {
       "sym": "WELL",
       "name": "Welltower Inc.",
-      "mcap": 171.65,
+      "mcap": 171.71,
       "price": 243.25,
       "ath": 246.43,
       "atl": 10.75,
@@ -113,7 +113,7 @@
     {
       "sym": "BMO",
       "name": "Bank Of Montreal",
-      "mcap": 127.5,
+      "mcap": 127.45,
       "price": 181.97,
       "ath": 184.21,
       "atl": 8.56,
@@ -131,7 +131,7 @@
     {
       "sym": "CM",
       "name": "Canadian Imperial Bank of Commerce",
-      "mcap": 110.63,
+      "mcap": 110.67,
       "price": 121.24,
       "ath": 122.5,
       "atl": 7.91,
@@ -149,7 +149,7 @@
     {
       "sym": "PNC",
       "name": "PNC Financial Services Group, Inc. (The)",
-      "mcap": 100.76,
+      "mcap": 100.89,
       "price": 252.86,
       "ath": 256.49,
       "atl": 7.88,
@@ -167,7 +167,7 @@
     {
       "sym": "USB",
       "name": "U.S. Bancorp",
-      "mcap": 98.83,
+      "mcap": 98.36,
       "price": 63.14,
       "ath": 64.84,
       "atl": 1.4,
@@ -185,7 +185,7 @@
     {
       "sym": "MNST",
       "name": "Monster Beverage Corporation",
-      "mcap": 95.18,
+      "mcap": 95.36,
       "price": 97.5,
       "ath": 100.34,
       "atl": 0.01,
@@ -203,7 +203,7 @@
     {
       "sym": "CSX",
       "name": "CSX Corporation",
-      "mcap": 93.71,
+      "mcap": 94.3,
       "price": 50.75,
       "ath": 51.29,
       "atl": 0.61,
@@ -221,7 +221,7 @@
     {
       "sym": "VLO",
       "name": "Valero Energy Corporation",
-      "mcap": 91.11,
+      "mcap": 91.95,
       "price": 309.65,
       "ath": 309.9,
       "atl": 1.03,
@@ -239,7 +239,7 @@
     {
       "sym": "MPC",
       "name": "Marathon Petroleum Corporation",
-      "mcap": 90.95,
+      "mcap": 91.26,
       "price": 312.6,
       "ath": 313.15,
       "atl": 13.18,
@@ -255,27 +255,9 @@
       "made_atl_today": false
     },
     {
-      "sym": "PSX",
-      "name": "Phillips 66",
-      "mcap": 82.72,
-      "price": 206.86,
-      "ath": 207.14,
-      "atl": 28.75,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 619.5,
-      "wk52_high": 207.14,
-      "wk52_low": 118.07,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 207.14,
-      "last_low": 203.45,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CP",
       "name": "Canadian Pacific Kansas City Limited Common Shares",
-      "mcap": 82.47,
+      "mcap": 83.19,
       "price": 93.71,
       "ath": 93.95,
       "atl": 1.0,
@@ -291,9 +273,27 @@
       "made_atl_today": false
     },
     {
+      "sym": "PSX",
+      "name": "Phillips 66",
+      "mcap": 82.94,
+      "price": 206.86,
+      "ath": 207.14,
+      "atl": 28.75,
+      "pct_to_ath": 0.1,
+      "pct_to_atl": 619.5,
+      "wk52_high": 207.14,
+      "wk52_low": 118.07,
+      "ath_30d": 6,
+      "atl_30d": 0,
+      "last_high": 207.14,
+      "last_low": 203.45,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "mcap": 77.73,
+      "mcap": 78.46,
       "price": 368.98,
       "ath": 370.43,
       "atl": 8.94,
@@ -311,7 +311,7 @@
     {
       "sym": "NSC",
       "name": "Norfolk Southern Corporation",
-      "mcap": 76.23,
+      "mcap": 76.4,
       "price": 340.16,
       "ath": 342.53,
       "atl": 6.42,
@@ -329,7 +329,7 @@
     {
       "sym": "SPG",
       "name": "Simon Property Group, Inc.",
-      "mcap": 73.89,
+      "mcap": 74.17,
       "price": 228.7,
       "ath": 231.53,
       "atl": 18.97,
@@ -347,7 +347,7 @@
     {
       "sym": "GWW",
       "name": "W.W. Grainger, Inc.",
-      "mcap": 65.63,
+      "mcap": 65.86,
       "price": 1395.01,
       "ath": 1419.91,
       "atl": 6.86,
@@ -365,7 +365,7 @@
     {
       "sym": "AFL",
       "name": "AFLAC Incorporated",
-      "mcap": 63.35,
+      "mcap": 63.48,
       "price": 124.72,
       "ath": 125.93,
       "atl": 0.38,
@@ -383,7 +383,7 @@
     {
       "sym": "TRGP",
       "name": "Targa Resources, Inc.",
-      "mcap": 60.55,
+      "mcap": 60.72,
       "price": 282.91,
       "ath": 285.56,
       "atl": 3.66,
@@ -401,7 +401,7 @@
     {
       "sym": "MET",
       "name": "MetLife, Inc.",
-      "mcap": 60.5,
+      "mcap": 60.48,
       "price": 94.0,
       "ath": 94.86,
       "atl": 10.13,
@@ -419,7 +419,7 @@
     {
       "sym": "CTVA",
       "name": "Corteva, Inc.",
-      "mcap": 58.33,
+      "mcap": 58.39,
       "price": 87.3,
       "ath": 88.21,
       "atl": 20.38,
@@ -437,7 +437,7 @@
     {
       "sym": "EA",
       "name": "Electronic Arts Inc.",
-      "mcap": 52.4,
+      "mcap": 52.38,
       "price": 208.9,
       "ath": 209.19,
       "atl": 0.38,
@@ -455,7 +455,7 @@
     {
       "sym": "SLF",
       "name": "Sun Life Financial Inc.",
-      "mcap": 45.32,
+      "mcap": 45.33,
       "price": 81.78,
       "ath": 82.25,
       "atl": 9.31,
@@ -473,7 +473,7 @@
     {
       "sym": "MTB",
       "name": "M&T Bank Corporation",
-      "mcap": 36.18,
+      "mcap": 36.12,
       "price": 249.24,
       "ath": 255.0,
       "atl": 2.21,
@@ -491,7 +491,7 @@
     {
       "sym": "FTS",
       "name": "Fortis Inc. Common Shares",
-      "mcap": 29.91,
+      "mcap": 29.93,
       "price": 58.78,
       "ath": 59.08,
       "atl": 23.84,
@@ -509,7 +509,7 @@
     {
       "sym": "PBA",
       "name": "Pembina Pipeline Corp. Ordinary Shares (Canada)",
-      "mcap": 29.7,
+      "mcap": 29.82,
       "price": 51.29,
       "ath": 51.56,
       "atl": 10.58,
@@ -527,7 +527,7 @@
     {
       "sym": "RPRX",
       "name": "Royalty Pharma plc Ordinary Shares",
-      "mcap": 25.89,
+      "mcap": 25.79,
       "price": 58.18,
       "ath": 59.44,
       "atl": 24.05,
@@ -545,7 +545,7 @@
     {
       "sym": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "mcap": 24.47,
+      "mcap": 24.58,
       "price": 208.5,
       "ath": 208.83,
       "atl": 3.59,
@@ -563,7 +563,7 @@
     {
       "sym": "EXPD",
       "name": "Expeditors International of Washington, Inc.",
-      "mcap": 23.9,
+      "mcap": 23.91,
       "price": 182.8,
       "ath": 183.52,
       "atl": 0.15,
@@ -581,7 +581,7 @@
     {
       "sym": "SN",
       "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 21.77,
+      "mcap": 21.87,
       "price": 154.53,
       "ath": 156.87,
       "atl": 25.84,
@@ -599,7 +599,7 @@
     {
       "sym": "BURL",
       "name": "Burlington Stores, Inc.",
-      "mcap": 21.67,
+      "mcap": 21.7,
       "price": 345.31,
       "ath": 361.21,
       "atl": 21.54,
@@ -617,7 +617,7 @@
     {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
-      "mcap": 21.26,
+      "mcap": 21.29,
       "price": 410.99,
       "ath": 419.68,
       "atl": 10.67,
@@ -635,7 +635,7 @@
     {
       "sym": "EMA",
       "name": "Emera Incorporated Common Shares",
-      "mcap": 16.77,
+      "mcap": 16.86,
       "price": 55.11,
       "ath": 55.34,
       "atl": 21.84,
@@ -653,7 +653,7 @@
     {
       "sym": "LAMR",
       "name": "Lamar Advertising Company",
-      "mcap": 16.4,
+      "mcap": 16.47,
       "price": 162.32,
       "ath": 164.38,
       "atl": 5.35,
@@ -671,7 +671,7 @@
     {
       "sym": "DINO",
       "name": "HF Sinclair Corporation",
-      "mcap": 15.93,
+      "mcap": 15.97,
       "price": 88.59,
       "ath": 88.74,
       "atl": 0.12,
@@ -689,7 +689,7 @@
     {
       "sym": "OHI",
       "name": "Omega Healthcare Investors, Inc.",
-      "mcap": 14.88,
+      "mcap": 14.95,
       "price": 50.21,
       "ath": 50.75,
       "atl": 1.35,
@@ -707,7 +707,7 @@
     {
       "sym": "GL",
       "name": "Globe Life Inc.",
-      "mcap": 14.36,
+      "mcap": 14.35,
       "price": 184.76,
       "ath": 191.55,
       "atl": 2.7,
