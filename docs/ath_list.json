@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T05:58:29.128273+00:00",
+  "updated_at": "2026-07-18T08:02:58.468315+00:00",
   "count": 62,
   "list": [
     {
@@ -4921,38 +4921,5 @@
       "first_seen_at": "2026-07-18T05:58:29.128273+00:00"
     }
   ],
-  "added_this_run": [
-    "AAPL",
-    "ACT",
-    "AXS",
-    "BAC",
-    "BURL",
-    "CP",
-    "CSX",
-    "CTRE",
-    "DINO",
-    "EA",
-    "ESNT",
-    "GWW",
-    "HXL",
-    "LAMR",
-    "LTH",
-    "MET",
-    "OHI",
-    "PBF",
-    "PECO",
-    "PM",
-    "PNW",
-    "PRI",
-    "PSX",
-    "SEIC",
-    "SLF",
-    "SN",
-    "SPG",
-    "TRGP",
-    "TRV",
-    "UNF",
-    "USB",
-    "VLO"
-  ]
+  "added_this_run": []
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-18T05:58:03.623859+00:00",
+  "updated_at": "2026-07-18T08:01:56.378034+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.79,
-  "scanned_count": 1503,
+  "scan_seconds": 17.71,
+  "scanned_count": 1504,
   "fvb_green": [
     {
       "sym": "TMO",
@@ -2243,7 +2243,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-18T03:53:13.244194+00:00",
+    "compared_to": "2026-07-18T05:58:03.623859+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
