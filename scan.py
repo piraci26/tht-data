@@ -653,6 +653,26 @@ def dual_write_extrema(ath_path, atl_path, now_iso):
         extrema_rows = []
         counts = {}
         for kind, path in (("ath", ath_path), ("atl", atl_path)):
+            # The JSON keys are kind-specific; the table columns are generic.
+            today_key = "last_high" if kind == "ath" else "last_low"
+            pct_key   = "pct_to_ath" if kind == "ath" else "pct_to_atl"
+            cnt_key   = "ath_30d"    if kind == "ath" else "atl_30d"
+
+            def to_row(r, is_today, occurred_at):
+                return {
+                    "kind": kind, "is_today": is_today,
+                    "symbol": r.get("sym"), "name": r.get("name") or "",
+                    "mcap": r.get("mcap") or 0, "price": r.get("price"),
+                    "ath_or_atl": r.get(kind),
+                    "today_extreme":  r.get(today_key),
+                    "pct_to_extreme": r.get(pct_key),
+                    "wk52_high":      r.get("wk52_high"),
+                    "wk52_low":       r.get("wk52_low"),
+                    "extreme_30d":    r.get(cnt_key),
+                    "occurred_at": occurred_at,
+                    "scanned_at": now_iso,
+                }
+
             with open(path) as f:
                 doc = json.load(f)
             counts[kind] = len(doc.get("list", []))
@@ -660,23 +680,9 @@ def dual_write_extrema(ath_path, atl_path, now_iso):
             # symbols first seen on earlier runs. The PK is (kind, is_today,
             # symbol), so a symbol in both slices doesn't collide.
             for r in doc.get("list", []):
-                extrema_rows.append({
-                    "kind": kind, "is_today": True,
-                    "symbol": r.get("sym"), "name": r.get("name") or "",
-                    "mcap": r.get("mcap") or 0, "price": r.get("price"),
-                    "ath_or_atl": r.get(kind),
-                    "occurred_at": doc.get("updated_at"),
-                    "scanned_at": now_iso,
-                })
+                extrema_rows.append(to_row(r, True, doc.get("updated_at")))
             for e in doc.get("accumulator", []):
-                extrema_rows.append({
-                    "kind": kind, "is_today": False,
-                    "symbol": e.get("sym"), "name": e.get("name") or "",
-                    "mcap": e.get("mcap") or 0, "price": e.get("price"),
-                    "ath_or_atl": e.get(kind),
-                    "occurred_at": e.get("first_seen_at"),
-                    "scanned_at": now_iso,
-                })
+                extrema_rows.append(to_row(e, False, e.get("first_seen_at")))
             # Wipe just THIS kind so a symbol that stops printing extrema today
             # doesn't linger as a stale is_today row.
             sb.truncate("extrema_events", where_filter=f"kind=eq.{kind}")
