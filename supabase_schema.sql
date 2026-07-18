@@ -115,16 +115,24 @@ create table if not exists flip_results (
 -- ────────────────────────────────────────────────────────────────────────
 -- 7. ATH / ATL EVENTS (today's makers + the rolling accumulator)
 -- ────────────────────────────────────────────────────────────────────────
+-- Columns are kind-generic (an "extreme" is the ATH for kind='ath', the ATL for
+-- kind='atl'); the adapter maps them back to the ath_*/atl_* keys the renderer
+-- uses. Everything here is already computed by scan.py's run_ath_atl_universe.
 create table if not exists extrema_events (
-  kind         text not null check (kind in ('ath','atl')),
-  is_today     boolean not null default false,
-  symbol       text not null,
-  name         text,
-  mcap         numeric,
-  price        numeric,
-  ath_or_atl   numeric,                  -- the extreme value reached
-  occurred_at  timestamptz,
-  scanned_at   timestamptz not null default now(),
+  kind           text not null check (kind in ('ath','atl')),
+  is_today       boolean not null default false,
+  symbol         text not null,
+  name           text,
+  mcap           numeric,
+  price          numeric,                -- last close
+  ath_or_atl     numeric,                -- the extreme value reached
+  today_extreme  numeric,                -- today's high (ath) / low (atl)
+  pct_to_extreme numeric,                -- % from last close to the extreme
+  wk52_high      numeric,
+  wk52_low       numeric,
+  extreme_30d    integer,                -- new ATHs/ATLs printed in last 30d
+  occurred_at    timestamptz,
+  scanned_at     timestamptz not null default now(),
   primary key (kind, is_today, symbol)
 );
 
