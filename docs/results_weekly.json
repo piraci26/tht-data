@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-19T16:11:16.504806+00:00",
+  "updated_at": "2026-07-19T17:16:52.019397+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.49,
+  "scan_seconds": 24.47,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -172,7 +172,7 @@
       "name": "Nova Ltd. Ordinary Shares",
       "mcap": 13.91,
       "price": 437.46,
-      "basis": 457.57,
+      "basis": 457.56,
       "bxt_today": -34.75,
       "bxt_yest": -31.9,
       "fvb_g": false,
@@ -2039,7 +2039,7 @@
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9.17,
       "price": 98.78,
-      "basis": 91.11,
+      "basis": 91.1,
       "bxt_today": -2.29,
       "bxt_yest": 6.06,
       "fvb_g": false,
@@ -2266,7 +2266,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-19T15:12:06.990213+00:00",
+    "compared_to": "2026-07-19T16:11:16.504806+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
