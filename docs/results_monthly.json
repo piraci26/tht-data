@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-19T17:17:20.018612+00:00",
+  "updated_at": "2026-07-19T18:12:01.442597+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 24.55,
+  "scan_seconds": 8.46,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -404,7 +404,7 @@
       "name": "Atlassian Corporation",
       "mcap": 23.67,
       "price": 93.29,
-      "basis": 176.42,
+      "basis": 176.43,
       "bxt_today": 1.28,
       "bxt_yest": -8.44,
       "fvb_g": false,
@@ -1809,7 +1809,7 @@
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9.17,
       "price": 98.78,
-      "basis": 91.1,
+      "basis": 91.11,
       "bxt_today": -2.29,
       "bxt_yest": 6.06,
       "fvb_g": false,
@@ -2289,7 +2289,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-19T16:11:27.055616+00:00",
+    "compared_to": "2026-07-19T17:17:20.018612+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
