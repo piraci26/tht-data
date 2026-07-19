@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T03:51:46.391238+00:00",
+  "updated_at": "2026-07-19T06:21:28.130772+00:00",
   "timeframe": "weekly",
   "scan_seconds": 10.81,
   "scanned_count": 1506,
@@ -71,6 +71,29 @@
       "wk52_high": 49.66,
       "wk52_low": 22.26,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SNEX",
+      "name": "StoneX Group Inc.",
+      "mcap": 9.33,
+      "price": 102.99,
+      "basis": 91.49,
+      "bxt_today": -30.04,
+      "bxt_yest": -37.42,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 109.01,
+      "atl": 0.09,
+      "pct_to_ath": 5.8,
+      "pct_to_atl": 115764.9,
+      "wk52_high": 141.99,
+      "wk52_low": 53.52,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2243,8 +2266,22 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-19T00:08:54.735681+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-07-19T03:51:46.391238+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "SNEX",
+        "name": "StoneX Group Inc.",
+        "mcap": 9.33,
+        "price": 102.99,
+        "basis": 91.49,
+        "bxt_today": -30.04,
+        "ath": 109.01,
+        "pct_to_ath": 5.8,
+        "wk52_high": 141.99,
+        "wk52_low": 53.52,
+        "ath_30d": 7
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
