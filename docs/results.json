@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T21:22:27.310750+00:00",
+  "updated_at": "2026-07-20T22:29:19.194154+00:00",
   "timeframe": "daily",
-  "scan_seconds": 25.43,
+  "scan_seconds": 26.5,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -5439,29 +5439,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LBRDA",
-      "name": "Liberty Broadband Corporation",
-      "mcap": 4.41,
-      "price": 30.33,
-      "basis": 31.65,
-      "bxt_today": -4.85,
-      "bxt_yest": 2.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 176.91,
-      "atl": 29.18,
-      "pct_to_ath": 483.3,
-      "pct_to_atl": 3.9,
-      "wk52_high": 91.04,
-      "wk52_low": 29.18,
-      "ath_30d": 0,
-      "atl_30d": 3
-    },
-    {
       "sym": "LBRDK",
       "name": "Liberty Broadband Corporation Class C",
       "mcap": 4.41,
@@ -5483,6 +5460,29 @@
       "wk52_low": 29.08,
       "ath_30d": 0,
       "atl_30d": 2
+    },
+    {
+      "sym": "LBRDA",
+      "name": "Liberty Broadband Corporation",
+      "mcap": 4.41,
+      "price": 30.33,
+      "basis": 31.65,
+      "bxt_today": -4.85,
+      "bxt_yest": 2.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 176.91,
+      "atl": 29.18,
+      "pct_to_ath": 483.3,
+      "pct_to_atl": 3.9,
+      "wk52_high": 91.04,
+      "wk52_low": 29.18,
+      "ath_30d": 0,
+      "atl_30d": 3
     },
     {
       "sym": "ATMU",
@@ -5716,38 +5716,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-20T20:07:47.632193+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CET",
-        "name": "Central Securities Corporation",
-        "mcap": 1.56,
-        "price": 52.75,
-        "basis": 52.62,
-        "bxt_today": -6.61,
-        "ath": 54.65,
-        "pct_to_ath": 3.6,
-        "wk52_high": 54.65,
-        "wk52_low": 47.76,
-        "ath_30d": 1
-      }
-    ],
+    "compared_to": "2026-07-20T21:22:27.310750+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "RITM",
-        "name": "Rithm Capital Corp.",
-        "mcap": 5.13,
-        "price": 9.2,
-        "basis": 9.23,
-        "bxt_today": 11.06,
-        "ath": 18.75,
-        "pct_to_ath": 103.8,
-        "wk52_high": 12.74,
-        "wk52_low": 8.43,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],

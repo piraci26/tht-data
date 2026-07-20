@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T21:22:54.904753+00:00",
+  "updated_at": "2026-07-20T22:29:47.021551+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 21.11,
+  "scan_seconds": 21.91,
   "scanned_count": 1506,
   "fvb_green": [
     {
@@ -3140,40 +3140,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-20T20:08:19.656504+00:00",
+    "compared_to": "2026-07-20T21:22:54.904753+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "MSI",
-        "name": "Motorola Solutions, Inc.",
-        "mcap": 68.39,
-        "price": 410.43,
-        "basis": 418.07,
-        "bxt_today": 12.38,
-        "ath": 507.82,
-        "pct_to_ath": 23.7,
-        "wk52_high": 492.22,
-        "wk52_low": 359.36,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "OGS",
-        "name": "ONE Gas, Inc.",
-        "mcap": 4.97,
-        "price": 79.45,
-        "basis": 81.97,
-        "bxt_today": 0.12,
-        "ath": 96.97,
-        "pct_to_ath": 22.1,
-        "wk52_high": 90.78,
-        "wk52_low": 71.72,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

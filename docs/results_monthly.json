@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T21:23:19.120062+00:00",
+  "updated_at": "2026-07-20T22:30:11.646739+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 20.38,
+  "scan_seconds": 20.75,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -2542,55 +2542,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-20T20:08:46.534880+00:00",
+    "compared_to": "2026-07-20T21:23:19.120062+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "WCN",
-        "name": "Waste Connections, Inc. Common Shares",
-        "mcap": 43.48,
-        "price": 170.95,
-        "basis": 173.89,
-        "bxt_today": 0.02,
-        "ath": 201.66,
-        "pct_to_ath": 18.0,
-        "wk52_high": 191.91,
-        "wk52_low": 146.89,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 13.14,
-        "price": 33.48,
-        "basis": 34.77,
-        "bxt_today": 4.55,
-        "ath": 54.94,
-        "pct_to_ath": 64.1,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CII",
-        "name": "BlackRock Enhanced Large Cap Core Fund, Inc.",
-        "mcap": 1.06,
-        "price": 24.59,
-        "basis": 21.22,
-        "bxt_today": -0.07,
-        "ath": 26.17,
-        "pct_to_ath": 6.4,
-        "wk52_high": 26.17,
-        "wk52_low": 20.43,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
