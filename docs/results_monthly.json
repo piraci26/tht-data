@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-20T10:35:58.021527+00:00",
+  "updated_at": "2026-07-20T12:38:05.541576+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.63,
-  "scanned_count": 1501,
+  "scan_seconds": 15.95,
+  "scanned_count": 1498,
   "fvb_green": [
     {
       "sym": "PCG",
@@ -47,29 +47,6 @@
       "pct_to_atl": 6018.0,
       "wk52_high": 31.42,
       "wk52_low": 19.77,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "REZI",
-      "name": "Resideo Technologies, Inc.",
-      "mcap": 5.58,
-      "price": 35.83,
-      "basis": 34.88,
-      "bxt_today": 20.58,
-      "bxt_yest": 4.39,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 9,
-      "bxt_streak": null,
-      "ath": 45.29,
-      "atl": 3.72,
-      "pct_to_ath": 26.4,
-      "pct_to_atl": 863.2,
-      "wk52_high": 45.29,
-      "wk52_low": 23.38,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -296,12 +273,12 @@
       "bxt_r": false,
       "fvb_streak": 18,
       "bxt_streak": null,
-      "ath": 34.17,
-      "atl": 1.52,
-      "pct_to_ath": 198.2,
-      "pct_to_atl": 653.9,
-      "wk52_high": 34.17,
-      "wk52_low": 5.44,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     }
@@ -2565,9 +2542,23 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-20T07:49:34.852159+00:00",
+    "compared_to": "2026-07-20T10:35:58.021527+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "REZI",
+        "name": "Resideo Technologies, Inc.",
+        "mcap": 5.58,
+        "price": 35.83,
+        "basis": 34.88,
+        "bxt_today": 20.58,
+        "ath": 45.29,
+        "pct_to_ath": 26.4,
+        "wk52_high": 45.29,
+        "wk52_low": 23.38,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-20T10:36:46.603252+00:00",
-  "count": 62,
+  "updated_at": "2026-07-20T12:38:41.304875+00:00",
+  "count": 61,
   "list": [
     {
       "sym": "AAPL",
@@ -953,24 +953,6 @@
       "atl_30d": 0,
       "last_high": 47.28,
       "last_low": 46.01,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "JAN",
-      "name": "Janus Living, Inc.-1",
-      "mcap": 6.09,
-      "price": 30.35,
-      "ath": 30.73,
-      "atl": 22.76,
-      "pct_to_ath": 1.3,
-      "pct_to_atl": 33.3,
-      "wk52_high": 30.73,
-      "wk52_low": 22.76,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 30.73,
-      "last_low": 29.6,
       "made_ath_today": true,
       "made_atl_today": false
     },
