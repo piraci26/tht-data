@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T20:49:21.492166+00:00",
+  "updated_at": "2026-07-21T21:50:05.356418+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.09,
+  "scan_seconds": 20.47,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -1602,7 +1602,7 @@
       "name": "VeriSign, Inc.",
       "mcap": 24.31,
       "price": 266.15,
-      "basis": 230.26,
+      "basis": 230.27,
       "bxt_today": -0.42,
       "bxt_yest": 3.34,
       "fvb_g": false,
@@ -2588,173 +2588,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-21T19:43:21.586911+00:00",
+    "compared_to": "2026-07-21T20:49:21.492166+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "OKE",
-        "name": "ONEOK, Inc.",
-        "mcap": 57.96,
-        "price": 92.01,
-        "basis": 67.32,
-        "bxt_today": 0.01,
-        "ath": 118.07,
-        "pct_to_ath": 28.3,
-        "wk52_high": 96.07,
-        "wk52_low": 64.02,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "mcap": 7.03,
-        "price": 31.71,
-        "basis": 29.75,
-        "bxt_today": 1.3,
-        "ath": 78.0,
-        "pct_to_ath": 146.0,
-        "wk52_high": 78.0,
-        "wk52_low": 25.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "VRSN",
-        "name": "VeriSign, Inc.",
-        "mcap": 24.31,
-        "price": 266.15,
-        "basis": 230.26,
-        "bxt_today": -0.42,
-        "ath": 312.48,
-        "pct_to_ath": 17.4,
-        "wk52_high": 312.48,
-        "wk52_low": 208.86,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BROS",
-        "name": "Dutch Bros Inc.",
-        "mcap": 9.27,
-        "price": 66.13,
-        "basis": 58.37,
-        "bxt_today": -0.62,
-        "ath": 86.88,
-        "pct_to_ath": 31.4,
-        "wk52_high": 74.65,
-        "wk52_low": 44.58,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.76,
-        "price": 42.8,
-        "basis": 38.83,
-        "bxt_today": -1.26,
-        "ath": 45.0,
-        "pct_to_ath": 5.1,
-        "wk52_high": 45.0,
-        "wk52_low": 18.12,
-        "ath_30d": 5
-      },
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.15,
-        "price": 41.93,
-        "basis": 40.39,
-        "bxt_today": -0.31,
-        "ath": 57.14,
-        "pct_to_ath": 36.3,
-        "wk52_high": 57.14,
-        "wk52_low": 28.63,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "EW",
-        "name": "Edwards Lifesciences Corporation",
-        "mcap": 48.09,
-        "price": 83.92,
-        "basis": 79.16,
-        "bxt_today": -0.13,
-        "ath": 131.73,
-        "pct_to_ath": 57.0,
-        "wk52_high": 96.29,
-        "wk52_low": 72.3,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WAB",
-        "name": "Westinghouse Air Brake Technologies Corporation",
-        "mcap": 44.3,
-        "price": 260.18,
-        "basis": 196.41,
-        "bxt_today": -1.04,
-        "ath": 284.91,
-        "pct_to_ath": 9.5,
-        "wk52_high": 284.91,
-        "wk52_low": 184.26,
-        "ath_30d": 4
-      },
-      {
-        "sym": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "mcap": 31.45,
-        "price": 263.91,
-        "basis": 188.02,
-        "bxt_today": -0.05,
-        "ath": 303.8,
-        "pct_to_ath": 15.1,
-        "wk52_high": 303.8,
-        "wk52_low": 174.05,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VNOM",
-        "name": "Viper Energy, Inc.",
-        "mcap": 8.74,
-        "price": 44.75,
-        "basis": 41.82,
-        "bxt_today": -0.37,
-        "ath": 56.76,
-        "pct_to_ath": 26.8,
-        "wk52_high": 51.13,
-        "wk52_low": 35.1,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LOAR",
-        "name": "Loar Holdings Inc.",
-        "mcap": 6.84,
-        "price": 69.91,
-        "basis": 66.93,
-        "bxt_today": -0.22,
-        "ath": 99.67,
-        "pct_to_ath": 42.6,
-        "wk52_high": 83.43,
-        "wk52_low": 53.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "IPGP",
-        "name": "IPG Photonics Corporation",
-        "mcap": 4.57,
-        "price": 102.62,
-        "basis": 86.22,
-        "bxt_today": -0.02,
-        "ath": 264.11,
-        "pct_to_ath": 157.4,
-        "wk52_high": 155.82,
-        "wk52_low": 71.35,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
