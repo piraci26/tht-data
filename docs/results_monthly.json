@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T01:03:51.827916+00:00",
+  "updated_at": "2026-07-21T04:27:21.126601+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.83,
+  "scan_seconds": 25.55,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -1878,7 +1878,7 @@
       "name": "Krystal Biotech, Inc.",
       "mcap": 10.78,
       "price": 339.22,
-      "basis": 286.35,
+      "basis": 286.36,
       "bxt_today": -3.96,
       "bxt_yest": 18.45,
       "fvb_g": false,
@@ -2542,7 +2542,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-20T23:35:02.342234+00:00",
+    "compared_to": "2026-07-21T01:03:51.827916+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
