@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-21T07:07:33.049149+00:00",
+  "updated_at": "2026-07-21T09:37:39.209103+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.52,
-  "scanned_count": 1506,
+  "scan_seconds": 19.59,
+  "scanned_count": 1493,
   "fvb_green": [
     {
       "sym": "TOST",
@@ -745,29 +745,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NOC",
-      "name": "Northrop Grumman Corporation",
-      "mcap": 75.14,
-      "price": 523.96,
-      "basis": 616.17,
-      "bxt_today": 4.26,
-      "bxt_yest": -0.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 774.0,
-      "atl": 6.21,
-      "pct_to_ath": 47.7,
-      "pct_to_atl": 8335.2,
-      "wk52_high": 774.0,
-      "wk52_low": 493.84,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TW",
       "name": "Tradeweb Markets Inc.",
       "mcap": 21.94,
@@ -994,29 +971,6 @@
       "pct_to_atl": 809.2,
       "wk52_high": 90.29,
       "wk52_low": 49.8,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "AMTM",
-      "name": "Amentum Holdings, Inc.",
-      "mcap": 5.04,
-      "price": 21.16,
-      "basis": 27.31,
-      "bxt_today": 4.59,
-      "bxt_yest": -12.85,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 23,
-      "ath": 38.11,
-      "atl": 16.01,
-      "pct_to_ath": 80.1,
-      "pct_to_atl": 32.2,
-      "wk52_high": 38.11,
-      "wk52_low": 19.8,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2656,29 +2610,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "AGCO",
-      "name": "AGCO Corporation",
-      "mcap": 8.28,
-      "price": 112.33,
-      "basis": 116.67,
-      "bxt_today": -10.86,
-      "bxt_yest": 2.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 158.62,
-      "atl": 1.67,
-      "pct_to_ath": 41.2,
-      "pct_to_atl": 6639.8,
-      "wk52_high": 143.78,
-      "wk52_low": 99.21,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TEX",
       "name": "Terex Corporation",
       "mcap": 7.71,
@@ -3140,14 +3071,55 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-21T04:26:50.649464+00:00",
+    "compared_to": "2026-07-21T07:07:33.049149+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "NOC",
+        "name": "Northrop Grumman Corporation",
+        "mcap": 75.14,
+        "price": 523.96,
+        "basis": 616.17,
+        "bxt_today": 4.26,
+        "ath": 774.0,
+        "pct_to_ath": 47.7,
+        "wk52_high": 774.0,
+        "wk52_low": 493.84,
+        "ath_30d": 0
+      },
+      {
+        "sym": "AMTM",
+        "name": "Amentum Holdings, Inc.",
+        "mcap": 5.04,
+        "price": 21.16,
+        "basis": 27.31,
+        "bxt_today": 4.59,
+        "ath": 38.11,
+        "pct_to_ath": 80.1,
+        "wk52_high": 38.11,
+        "wk52_low": 19.8,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "AGCO",
+        "name": "AGCO Corporation",
+        "mcap": 8.28,
+        "price": 112.33,
+        "basis": 116.67,
+        "bxt_today": -10.86,
+        "ath": 158.62,
+        "pct_to_ath": 41.2,
+        "wk52_high": 143.78,
+        "wk52_low": 99.21,
+        "ath_30d": 0
+      }
+    ]
   }
 }
