@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-21T11:29:11.169179+00:00",
-  "count": 20,
+  "updated_at": "2026-07-21T12:56:40.079732+00:00",
+  "count": 18,
   "list": [
     {
       "sym": "PM",
@@ -111,24 +111,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "EA",
-      "name": "Electronic Arts Inc.",
-      "mcap": 52.44,
-      "price": 209.29,
-      "ath": 209.32,
-      "atl": 0.38,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 54571.6,
-      "wk52_high": 209.34,
-      "wk52_low": 146.97,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 209.34,
-      "last_low": 208.96,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
       "mcap": 24.33,
@@ -161,24 +143,6 @@
       "atl_30d": 0,
       "last_high": 55.42,
       "last_low": 54.25,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "DINO",
-      "name": "HF Sinclair Corporation",
-      "mcap": 16.45,
-      "price": 90.41,
-      "ath": 91.45,
-      "atl": 0.12,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 77049.5,
-      "wk52_high": 91.45,
-      "wk52_low": 42.16,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 91.45,
-      "last_low": 88.0,
       "made_ath_today": true,
       "made_atl_today": false
     },

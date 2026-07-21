@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-07-21T11:28:27.777115+00:00",
+  "updated_at": "2026-07-21T12:56:20.485888+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 19.97,
-  "scanned_count": 1501,
+  "scan_seconds": 10.41,
+  "scanned_count": 1485,
   "fvb_green": [
-    {
-      "sym": "PCG",
-      "name": "Pacific Gas & Electric Co.",
-      "mcap": 38.22,
-      "price": 17.43,
-      "basis": 15.43,
-      "bxt_today": 19.87,
-      "bxt_yest": 17.63,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 35,
-      "bxt_streak": null,
-      "ath": 71.57,
-      "atl": 3.55,
-      "pct_to_ath": 310.6,
-      "pct_to_atl": 391.0,
-      "wk52_high": 19.16,
-      "wk52_low": 13.3,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
     {
       "sym": "TOST",
       "name": "Toast, Inc.",
@@ -1542,12 +1519,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 5,
-      "ath": 497.49,
-      "atl": 11.54,
-      "pct_to_ath": 736.3,
-      "pct_to_atl": 415.5,
-      "wk52_high": 85.6,
-      "wk52_low": 22.28,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2081,29 +2058,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 7.04,
-      "price": 78.01,
-      "basis": 51.35,
-      "bxt_today": -1.42,
-      "bxt_yest": 3.39,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 90.87,
-      "atl": 4.03,
-      "pct_to_ath": 16.5,
-      "pct_to_atl": 1835.7,
-      "wk52_high": 90.87,
-      "wk52_low": 43.17,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "FSS",
       "name": "Federal Signal Corporation",
       "mcap": 7.03,
@@ -2439,12 +2393,12 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 39,
-      "ath": 453.05,
-      "atl": 2.64,
-      "pct_to_ath": 3414.7,
-      "pct_to_atl": 388.3,
-      "wk52_high": 28.1,
-      "wk52_low": 12.44,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2542,14 +2496,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-21T09:37:56.292033+00:00",
+    "compared_to": "2026-07-21T11:28:27.777115+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "PCG",
+        "name": "Pacific Gas & Electric Co.",
+        "mcap": 38.22,
+        "price": 17.43,
+        "basis": 15.43,
+        "bxt_today": 19.87,
+        "ath": 71.57,
+        "pct_to_ath": 310.6,
+        "wk52_high": 19.16,
+        "wk52_low": 13.3,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "PTCT",
+        "name": "PTC Therapeutics, Inc.",
+        "mcap": 7.04,
+        "price": 78.01,
+        "basis": 51.35,
+        "bxt_today": -1.42,
+        "ath": 90.87,
+        "pct_to_ath": 16.5,
+        "wk52_high": 90.87,
+        "wk52_low": 43.17,
+        "ath_30d": 3
+      }
+    ]
   }
 }
