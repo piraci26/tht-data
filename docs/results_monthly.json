@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-22T20:44:06.517991+00:00",
+  "updated_at": "2026-07-22T21:48:00.429578+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 22.66,
+  "scan_seconds": 26.26,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -2052,8 +2052,8 @@
       "atl": 0.65,
       "pct_to_ath": 3446.8,
       "pct_to_atl": 715.4,
-      "wk52_high": 5.38,
-      "wk52_low": 5.25,
+      "wk52_high": 7.66,
+      "wk52_low": 2.63,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2404,202 +2404,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-22T19:37:58.564154+00:00",
+    "compared_to": "2026-07-22T20:44:06.517991+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "MTDR",
-        "name": "Matador Resources Company",
-        "mcap": 6.38,
-        "price": 55.19,
-        "basis": 53.31,
-        "bxt_today": 14.86,
-        "ath": 73.78,
-        "pct_to_ath": 33.7,
-        "wk52_high": 66.84,
-        "wk52_low": 37.14,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRGY",
-        "name": "Crescent Energy Company",
-        "mcap": 3.28,
-        "price": 11.4,
-        "basis": 10.96,
-        "bxt_today": 0.22,
-        "ath": 19.65,
-        "pct_to_ath": 72.4,
-        "wk52_high": 14.29,
-        "wk52_low": 7.68,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "REZI",
-        "name": "Resideo Technologies, Inc.",
-        "mcap": 5.58,
-        "price": 34.09,
-        "basis": 34.91,
-        "bxt_today": 25.15,
-        "ath": 45.29,
-        "pct_to_ath": 32.9,
-        "wk52_high": 45.29,
-        "wk52_low": 23.91,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "mcap": 4.16,
-        "price": 16.59,
-        "basis": 20.24,
-        "bxt_today": 0.86,
-        "ath": 30.28,
-        "pct_to_ath": 82.5,
-        "wk52_high": 30.28,
-        "wk52_low": 15.57,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GBDC",
-        "name": "Golub Capital BDC, Inc.",
-        "mcap": 3.39,
-        "price": 12.85,
-        "basis": 14.62,
-        "bxt_today": 0.57,
-        "ath": 20.08,
-        "pct_to_ath": 56.3,
-        "wk52_high": 15.55,
-        "wk52_low": 11.77,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CRGY",
-        "name": "Crescent Energy Company",
-        "mcap": 3.28,
-        "price": 11.4,
-        "basis": 10.96,
-        "bxt_today": 0.22,
-        "ath": 19.65,
-        "pct_to_ath": 72.4,
-        "wk52_high": 14.29,
-        "wk52_low": 7.68,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "TPL",
-        "name": "Texas Pacific Land Corporation",
-        "mcap": 29.67,
-        "price": 433.1,
-        "basis": 211.51,
-        "bxt_today": -0.04,
-        "ath": 589.71,
-        "pct_to_ath": 36.2,
-        "wk52_high": 547.2,
-        "wk52_low": 269.23,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CGON",
-        "name": "CG Oncology, Inc. Common stock",
-        "mcap": 6.64,
-        "price": 69.31,
-        "basis": 60.78,
-        "bxt_today": -0.09,
-        "ath": 77.0,
-        "pct_to_ath": 11.1,
-        "wk52_high": 77.0,
-        "wk52_low": 23.65,
-        "ath_30d": 1
-      },
-      {
-        "sym": "GLNG",
-        "name": "Golar Lng Ltd",
-        "mcap": 5.22,
-        "price": 49.73,
-        "basis": 38.0,
-        "bxt_today": -1.08,
-        "ath": 74.44,
-        "pct_to_ath": 49.7,
-        "wk52_high": 57.79,
-        "wk52_low": 35.02,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CART",
-        "name": "Maplebear Inc.",
-        "mcap": 11.37,
-        "price": 44.04,
-        "basis": 41.21,
-        "bxt_today": -1.61,
-        "ath": 53.5,
-        "pct_to_ath": 21.5,
-        "wk52_high": 53.5,
-        "wk52_low": 32.73,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MBLY",
-        "name": "Mobileye Global Inc.",
-        "mcap": 8.04,
-        "price": 8.73,
-        "basis": 9.16,
-        "bxt_today": -0.21,
-        "ath": 48.11,
-        "pct_to_ath": 451.1,
-        "wk52_high": 17.12,
-        "wk52_low": 6.47,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AX",
-        "name": "Axos Financial, Inc.",
-        "mcap": 5.54,
-        "price": 96.8,
-        "basis": 73.74,
-        "bxt_today": -0.24,
-        "ath": 102.18,
-        "pct_to_ath": 5.6,
-        "wk52_high": 102.18,
-        "wk52_low": 74.89,
-        "ath_30d": 1
-      },
-      {
-        "sym": "ZETA",
-        "name": "Zeta Global Holdings Corp.",
-        "mcap": 5.36,
-        "price": 20.0,
-        "basis": 18.89,
-        "bxt_today": -1.44,
-        "ath": 38.2,
-        "pct_to_ath": 91.0,
-        "wk52_high": 25.95,
-        "wk52_low": 14.36,
-        "ath_30d": 0
-      },
-      {
-        "sym": "STEP",
-        "name": "StepStone Group Inc.",
-        "mcap": 3.51,
-        "price": 40.98,
-        "basis": 52.99,
-        "bxt_today": -0.06,
-        "ath": 77.79,
-        "pct_to_ath": 89.8,
-        "wk52_high": 77.79,
-        "wk52_low": 38.85,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
