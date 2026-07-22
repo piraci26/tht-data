@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-22T11:31:25.435100+00:00",
+  "updated_at": "2026-07-22T13:06:43.726973+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.1,
-  "scanned_count": 1506,
+  "scan_seconds": 23.34,
+  "scanned_count": 1504,
   "fvb_green": [],
   "fvb_red": [
     {
@@ -899,8 +899,8 @@
       "atl": 0.93,
       "pct_to_ath": 281.4,
       "pct_to_atl": 604.3,
-      "wk52_high": 22.17,
-      "wk52_low": 5.83,
+      "wk52_high": 6.6,
+      "wk52_low": 6.32,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1196,13 +1196,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 16,
-      "ath": 1419.91,
-      "atl": 6.86,
-      "pct_to_ath": 4.3,
-      "pct_to_atl": 19750.4,
-      "wk52_high": 1419.91,
-      "wk52_low": 906.52,
-      "ath_30d": 9,
+      "ath": null,
+      "atl": null,
+      "pct_to_ath": null,
+      "pct_to_atl": null,
+      "wk52_high": null,
+      "wk52_low": null,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -1249,29 +1249,6 @@
       "wk52_high": 188.0,
       "wk52_low": 125.34,
       "ath_30d": 7,
-      "atl_30d": 0
-    },
-    {
-      "sym": "ED",
-      "name": "Consolidated Edison, Inc.",
-      "mcap": 40.5,
-      "price": 109.81,
-      "basis": 108.21,
-      "bxt_today": -1.91,
-      "bxt_yest": 6.6,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 116.23,
-      "atl": 14.69,
-      "pct_to_ath": 5.8,
-      "pct_to_atl": 647.6,
-      "wk52_high": 116.23,
-      "wk52_low": 94.96,
-      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2495,7 +2472,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-22T09:43:23.837566+00:00",
+    "compared_to": "2026-07-22T11:31:25.435100+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2503,6 +2480,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "ED",
+        "name": "Consolidated Edison, Inc.",
+        "mcap": 40.5,
+        "price": 109.81,
+        "basis": 108.21,
+        "bxt_today": -1.91,
+        "ath": 116.23,
+        "pct_to_ath": 5.8,
+        "wk52_high": 116.23,
+        "wk52_low": 94.96,
+        "ath_30d": 0
+      }
+    ]
   }
 }
