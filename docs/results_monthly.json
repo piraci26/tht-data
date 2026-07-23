@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T20:46:13.845033+00:00",
+  "updated_at": "2026-07-23T21:47:49.589584+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.87,
+  "scan_seconds": 12.06,
   "scanned_count": 1501,
   "fvb_green": [
     {
@@ -2913,7 +2913,7 @@
       "name": "Hawkins, Inc.",
       "mcap": 2.87,
       "price": 139.33,
-      "basis": 66.06,
+      "basis": 66.07,
       "bxt_today": -8.82,
       "bxt_yest": 4.93,
       "fvb_g": false,
@@ -2979,190 +2979,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-23T19:46:36.978674+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SUNB",
-        "name": "Sunbelt Rentals Holdings, Inc.",
-        "mcap": 31.59,
-        "price": 77.47,
-        "basis": 76.15,
-        "bxt_today": 36.31,
-        "ath": 86.68,
-        "pct_to_ath": 11.9,
-        "wk52_high": 86.68,
-        "wk52_low": 61.03,
-        "ath_30d": 2
-      },
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 6.63,
-        "price": 49.72,
-        "basis": 48.93,
-        "bxt_today": 18.76,
-        "ath": 118.38,
-        "pct_to_ath": 138.1,
-        "wk52_high": 118.38,
-        "wk52_low": 43.68,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "ELS",
-        "name": "Equity Lifestyle Properties, Inc.",
-        "mcap": 12.72,
-        "price": 66.1,
-        "basis": 65.18,
-        "bxt_today": 32.13,
-        "ath": 88.7,
-        "pct_to_ath": 34.2,
-        "wk52_high": 69.0,
-        "wk52_low": 58.15,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "NWSA",
-        "name": "News Corporation",
-        "mcap": 14.36,
-        "price": 26.33,
-        "basis": 26.85,
-        "bxt_today": -2.7,
-        "ath": 31.61,
-        "pct_to_ath": 20.1,
-        "wk52_high": 31.61,
-        "wk52_low": 22.2,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "FIGR",
-        "name": "Figure Technology Solutions, Inc.",
-        "mcap": 7.03,
-        "price": 29.17,
-        "basis": 29.68,
-        "bxt_today": -16.7,
-        "ath": 78.0,
-        "pct_to_ath": 167.4,
-        "wk52_high": 78.0,
-        "wk52_low": 25.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "CMG",
-        "name": "Chipotle Mexican Grill, Inc.",
-        "mcap": 40.87,
-        "price": 32.01,
-        "basis": 47.41,
-        "bxt_today": 0.13,
-        "ath": 69.26,
-        "pct_to_ath": 116.4,
-        "wk52_high": 53.03,
-        "wk52_low": 28.04,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CBSH",
-        "name": "Commerce Bancshares, Inc.",
-        "mcap": 8.51,
-        "price": 58.65,
-        "basis": 53.63,
-        "bxt_today": 0.41,
-        "ath": 69.29,
-        "pct_to_ath": 18.1,
-        "wk52_high": 61.53,
-        "wk52_low": 46.99,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CWST",
-        "name": "Casella Waste Systems, Inc.",
-        "mcap": 6.16,
-        "price": 90.03,
-        "basis": 98.47,
-        "bxt_today": 0.24,
-        "ath": 121.24,
-        "pct_to_ath": 34.7,
-        "wk52_high": 111.48,
-        "wk52_low": 74.05,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-23T20:46:13.845033+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "RVMD",
-        "name": "Revolution Medicines, Inc.",
-        "mcap": 40.2,
-        "price": 188.75,
-        "basis": 128.13,
-        "bxt_today": -0.25,
-        "ath": 193.82,
-        "pct_to_ath": 2.7,
-        "wk52_high": 193.82,
-        "wk52_low": 34.0,
-        "ath_30d": 7
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PLTR",
-        "name": "Palantir Technologies Inc.",
-        "mcap": 293.57,
-        "price": 122.04,
-        "basis": 145.92,
-        "bxt_today": -0.42,
-        "ath": 207.52,
-        "pct_to_ath": 70.0,
-        "wk52_high": 207.52,
-        "wk52_low": 106.37,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TOL",
-        "name": "Toll Brothers, Inc.",
-        "mcap": 13.62,
-        "price": 145.6,
-        "basis": 79.96,
-        "bxt_today": -0.68,
-        "ath": 169.52,
-        "pct_to_ath": 16.4,
-        "wk52_high": 168.36,
-        "wk52_low": 117.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LEVI",
-        "name": "Levi Strauss & Co",
-        "mcap": 9.36,
-        "price": 23.97,
-        "basis": 21.9,
-        "bxt_today": -2.25,
-        "ath": 30.84,
-        "pct_to_ath": 28.7,
-        "wk52_high": 25.58,
-        "wk52_low": 17.72,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MHK",
-        "name": "Mohawk Industries, Inc.",
-        "mcap": 6.7,
-        "price": 109.56,
-        "basis": 119.17,
-        "bxt_today": -0.66,
-        "ath": 286.85,
-        "pct_to_ath": 161.8,
-        "wk52_high": 143.13,
-        "wk52_low": 92.99,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
