@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-07-23T15:26:44.924510+00:00",
+  "updated_at": "2026-07-23T16:57:20.808297+00:00",
   "count": 3,
   "list": [
     {
       "sym": "ACI",
       "name": "Albertsons Companies, Inc.",
       "mcap": 7.23,
-      "price": 11.43,
+      "price": 11.39,
       "ath": 37.99,
-      "atl": 11.29,
-      "pct_to_ath": 232.5,
-      "pct_to_atl": 1.2,
+      "atl": 11.02,
+      "pct_to_ath": 233.7,
+      "pct_to_atl": 3.3,
       "wk52_high": 20.91,
-      "wk52_low": 11.29,
+      "wk52_low": 11.02,
       "ath_30d": 0,
       "atl_30d": 9,
       "last_high": 12.46,
-      "last_low": 11.29,
+      "last_low": 11.02,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -24,17 +24,17 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.78,
-      "price": 9.79,
+      "price": 9.89,
       "ath": 21.62,
-      "atl": 9.79,
-      "pct_to_ath": 120.8,
-      "pct_to_atl": 0.0,
+      "atl": 9.78,
+      "pct_to_ath": 118.7,
+      "pct_to_atl": 1.1,
       "wk52_high": 15.82,
-      "wk52_low": 9.79,
+      "wk52_low": 9.78,
       "ath_30d": 0,
       "atl_30d": 10,
       "last_high": 9.98,
-      "last_low": 9.79,
+      "last_low": 9.78,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -42,11 +42,11 @@
       "sym": "UWMC",
       "name": "UWM Holdings Corporation",
       "mcap": 0.71,
-      "price": 1.75,
+      "price": 1.76,
       "ath": 14.38,
       "atl": 1.75,
-      "pct_to_ath": 719.4,
-      "pct_to_atl": 0.3,
+      "pct_to_ath": 714.7,
+      "pct_to_atl": 0.9,
       "wk52_high": 7.14,
       "wk52_low": 1.75,
       "ath_30d": 0,
@@ -736,7 +736,5 @@
       "first_seen_at": "2026-07-23T15:26:44.924510+00:00"
     }
   ],
-  "added_this_run": [
-    "ACI"
-  ]
+  "added_this_run": []
 }
