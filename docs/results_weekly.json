@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-24T20:39:05.318378+00:00",
+  "updated_at": "2026-07-24T21:44:53.374418+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.3,
+  "scan_seconds": 10.41,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -473,7 +473,7 @@
       "name": "T-Mobile US, Inc.",
       "mcap": 194.33,
       "price": 180.09,
-      "basis": 195.56,
+      "basis": 195.55,
       "bxt_today": 1.06,
       "bxt_yest": -2.42,
       "fvb_g": false,
@@ -2131,7 +2131,7 @@
       "name": "Take-Two Interactive Software, Inc.",
       "mcap": 43.39,
       "price": 231.65,
-      "basis": 224.17,
+      "basis": 224.18,
       "bxt_today": -2.89,
       "bxt_yest": 4.75,
       "fvb_g": false,
@@ -2246,7 +2246,7 @@
       "name": "NetApp, Inc.",
       "mcap": 32.77,
       "price": 167.74,
-      "basis": 123.03,
+      "basis": 123.04,
       "bxt_today": -0.97,
       "bxt_yest": 2.6,
       "fvb_g": false,
@@ -3051,7 +3051,7 @@
       "name": "Pool Corporation",
       "mcap": 7.67,
       "price": 183.77,
-      "basis": 216.83,
+      "basis": 216.85,
       "bxt_today": -1.8,
       "bxt_yest": 6.97,
       "fvb_g": false,
@@ -3577,295 +3577,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-24T19:06:17.322765+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "ATO",
-        "name": "Atmos Energy Corporation",
-        "mcap": 29.81,
-        "price": 179.22,
-        "basis": 176.97,
-        "bxt_today": 17.34,
-        "ath": 192.51,
-        "pct_to_ath": 7.4,
-        "wk52_high": 192.51,
-        "wk52_low": 154.23,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FNF",
-        "name": "Fidelity National Financial, Inc.",
-        "mcap": 13.85,
-        "price": 51.62,
-        "basis": 50.55,
-        "bxt_today": 31.7,
-        "ath": 64.34,
-        "pct_to_ath": 24.6,
-        "wk52_high": 59.21,
-        "wk52_low": 42.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "RYAN",
-        "name": "Ryan Specialty Holdings, Inc.",
-        "mcap": 5.23,
-        "price": 41.75,
-        "basis": 39.95,
-        "bxt_today": 45.4,
-        "ath": 77.16,
-        "pct_to_ath": 84.8,
-        "wk52_high": 66.27,
-        "wk52_low": 29.28,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "CSW",
-        "name": "CSW Industrials, Inc.",
-        "mcap": 4.58,
-        "price": 292.55,
-        "basis": 286.45,
-        "bxt_today": 33.55,
-        "ath": 436.5,
-        "pct_to_ath": 49.2,
-        "wk52_high": 337.02,
-        "wk52_low": 230.45,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "EW",
-        "name": "Edwards Lifesciences Corporation",
-        "mcap": 47.87,
-        "price": 82.63,
-        "basis": 83.97,
-        "bxt_today": -21.83,
-        "ath": 131.73,
-        "pct_to_ath": 59.4,
-        "wk52_high": 96.29,
-        "wk52_low": 72.3,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "PG",
-        "name": "Procter & Gamble Company (The)",
-        "mcap": 341.4,
-        "price": 146.61,
-        "basis": 148.39,
-        "bxt_today": -1.0,
-        "ath": 180.43,
-        "pct_to_ath": 23.1,
-        "wk52_high": 167.25,
-        "wk52_low": 137.62,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HUBB",
-        "name": "Hubbell Inc",
-        "mcap": 25.53,
-        "price": 482.5,
-        "basis": 491.95,
-        "bxt_today": -17.6,
-        "ath": 565.5,
-        "pct_to_ath": 17.2,
-        "wk52_high": 565.5,
-        "wk52_low": 403.82,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "FAST",
-        "name": "Fastenal Company",
-        "mcap": 53.77,
-        "price": 47.02,
-        "basis": 45.04,
-        "bxt_today": 0.17,
-        "ath": 50.63,
-        "pct_to_ath": 7.7,
-        "wk52_high": 50.63,
-        "wk52_low": 38.97,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALSN",
-        "name": "Allison Transmission Holdings, Inc.",
-        "mcap": 10.09,
-        "price": 122.34,
-        "basis": 115.75,
-        "bxt_today": 0.92,
-        "ath": 137.62,
-        "pct_to_ath": 12.5,
-        "wk52_high": 137.62,
-        "wk52_low": 76.01,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BKH",
-        "name": "Black Hills Corporation",
-        "mcap": 5.73,
-        "price": 75.29,
-        "basis": 72.79,
-        "bxt_today": 0.05,
-        "ath": 87.12,
-        "pct_to_ath": 15.7,
-        "wk52_high": 78.69,
-        "wk52_low": 55.79,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PIPR",
-        "name": "Piper Sandler Companies",
-        "mcap": 4.87,
-        "price": 76.09,
-        "basis": 80.9,
-        "bxt_today": 0.2,
-        "ath": 95.07,
-        "pct_to_ath": 24.9,
-        "wk52_high": 95.07,
-        "wk52_low": 68.7,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OLED",
-        "name": "Universal Display Corporation",
-        "mcap": 3.68,
-        "price": 79.27,
-        "basis": 99.86,
-        "bxt_today": 0.14,
-        "ath": 262.77,
-        "pct_to_ath": 231.5,
-        "wk52_high": 153.38,
-        "wk52_low": 77.15,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "RCL",
-        "name": "Royal Caribbean Cruises Ltd.",
-        "mcap": 78.98,
-        "price": 294.54,
-        "basis": 288.61,
-        "bxt_today": 0.59,
-        "ath": 366.5,
-        "pct_to_ath": 24.4,
-        "wk52_high": 366.5,
-        "wk52_low": 232.1,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "TRGP",
-        "name": "Targa Resources, Inc.",
-        "mcap": 60.78,
-        "price": 281.33,
-        "basis": 237.83,
-        "bxt_today": -1.73,
-        "ath": 290.68,
-        "pct_to_ath": 3.3,
-        "wk52_high": 290.68,
-        "wk52_low": 144.14,
-        "ath_30d": 6
-      },
-      {
-        "sym": "RDDT",
-        "name": "Reddit, Inc.",
-        "mcap": 32.77,
-        "price": 168.73,
-        "basis": 173.11,
-        "bxt_today": -0.1,
-        "ath": 282.95,
-        "pct_to_ath": 67.7,
-        "wk52_high": 282.95,
-        "wk52_low": 119.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "COLB",
-        "name": "Columbia Banking System, Inc.",
-        "mcap": 9.28,
-        "price": 31.15,
-        "basis": 29.64,
-        "bxt_today": -1.08,
-        "ath": 50.68,
-        "pct_to_ath": 62.7,
-        "wk52_high": 33.68,
-        "wk52_low": 22.77,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PG",
-        "name": "Procter & Gamble Company (The)",
-        "mcap": 341.4,
-        "price": 146.61,
-        "basis": 148.39,
-        "bxt_today": -1.0,
-        "ath": 180.43,
-        "pct_to_ath": 23.1,
-        "wk52_high": 167.25,
-        "wk52_low": 137.62,
-        "ath_30d": 0
-      },
-      {
-        "sym": "RPRX",
-        "name": "Royalty Pharma plc Ordinary Shares",
-        "mcap": 25.97,
-        "price": 58.66,
-        "basis": 48.5,
-        "bxt_today": -1.38,
-        "ath": 59.72,
-        "pct_to_ath": 1.8,
-        "wk52_high": 59.72,
-        "wk52_low": 34.08,
-        "ath_30d": 9
-      },
-      {
-        "sym": "AGNC",
-        "name": "AGNC Investment Corp.",
-        "mcap": 12.3,
-        "price": 10.57,
-        "basis": 10.79,
-        "bxt_today": -0.19,
-        "ath": 36.77,
-        "pct_to_ath": 247.9,
-        "wk52_high": 12.19,
-        "wk52_low": 9.31,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MAC",
-        "name": "Macerich Company (The)",
-        "mcap": 7.35,
-        "price": 25.75,
-        "basis": 21.18,
-        "bxt_today": -0.13,
-        "ath": 95.93,
-        "pct_to_ath": 272.5,
-        "wk52_high": 26.23,
-        "wk52_low": 15.94,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LAUR",
-        "name": "Laureate Education, Inc.",
-        "mcap": 5.53,
-        "price": 36.74,
-        "basis": 34.37,
-        "bxt_today": -0.8,
-        "ath": 40.75,
-        "pct_to_ath": 10.9,
-        "wk52_high": 40.75,
-        "wk52_low": 21.53,
-        "ath_30d": 8
-      }
-    ]
+    "compared_to": "2026-07-24T20:39:05.318378+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
