@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-25T18:35:21.981211+00:00",
+  "updated_at": "2026-07-25T19:51:45.718178+00:00",
   "count": 25,
   "list": [
     {
       "sym": "JPM",
       "name": "JP Morgan Chase & Co.",
-      "mcap": 935.61,
+      "mcap": 938.9,
       "price": 349.9,
       "ath": 353.37,
       "atl": 3.21,
@@ -23,7 +23,7 @@
     {
       "sym": "HSBC",
       "name": "HSBC Holdings, plc.",
-      "mcap": 354.52,
+      "mcap": 354.62,
       "price": 101.75,
       "ath": 103.94,
       "atl": 17.95,
@@ -41,7 +41,7 @@
     {
       "sym": "HWM",
       "name": "Howmet Aerospace Inc.",
-      "mcap": 115.07,
+      "mcap": 115.74,
       "price": 287.09,
       "ath": 293.0,
       "atl": 8.73,
@@ -59,7 +59,7 @@
     {
       "sym": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "mcap": 80.62,
+      "mcap": 80.77,
       "price": 376.37,
       "ath": 389.11,
       "atl": 8.94,
@@ -77,7 +77,7 @@
     {
       "sym": "PCAR",
       "name": "PACCAR Inc.",
-      "mcap": 69.99,
+      "mcap": 69.6,
       "price": 130.75,
       "ath": 133.9,
       "atl": 0.62,
@@ -95,7 +95,7 @@
     {
       "sym": "WAB",
       "name": "Westinghouse Air Brake Technologies Corporation",
-      "mcap": 50.76,
+      "mcap": 51.1,
       "price": 297.99,
       "ath": 302.96,
       "atl": 3.91,
@@ -113,7 +113,7 @@
     {
       "sym": "FTI",
       "name": "TechnipFMC plc Ordinary Share",
-      "mcap": 30.54,
+      "mcap": 30.6,
       "price": 76.02,
       "ath": 77.92,
       "atl": 2.04,
@@ -131,7 +131,7 @@
     {
       "sym": "FTS",
       "name": "Fortis Inc. Common Shares",
-      "mcap": 29.95,
+      "mcap": 29.96,
       "price": 58.56,
       "ath": 59.21,
       "atl": 23.84,
@@ -149,7 +149,7 @@
     {
       "sym": "RPRX",
       "name": "Royalty Pharma plc Ordinary Shares",
-      "mcap": 25.97,
+      "mcap": 26.08,
       "price": 59.02,
       "ath": 59.72,
       "atl": 24.05,
@@ -185,7 +185,7 @@
     {
       "sym": "EMA",
       "name": "Emera Incorporated Common Shares",
-      "mcap": 16.8,
+      "mcap": 16.81,
       "price": 54.81,
       "ath": 55.49,
       "atl": 21.84,
@@ -203,7 +203,7 @@
     {
       "sym": "JAZZ",
       "name": "Jazz Pharmaceuticals plc (Ireland)",
-      "mcap": 15.88,
+      "mcap": 15.93,
       "price": 254.87,
       "ath": 256.75,
       "atl": 0.52,
@@ -221,7 +221,7 @@
     {
       "sym": "OHI",
       "name": "Omega Healthcare Investors, Inc.",
-      "mcap": 15.39,
+      "mcap": 15.4,
       "price": 50.97,
       "ath": 51.92,
       "atl": 1.35,
@@ -239,7 +239,7 @@
     {
       "sym": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
-      "mcap": 13.65,
+      "mcap": 13.67,
       "price": 317.41,
       "ath": 329.6,
       "atl": 7.33,
