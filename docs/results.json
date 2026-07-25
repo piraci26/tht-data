@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-25T16:31:38.734910+00:00",
+  "updated_at": "2026-07-25T17:35:12.585178+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.22,
+  "scan_seconds": 19.36,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -4931,29 +4931,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4.81,
-      "price": 26.88,
-      "basis": 27.31,
-      "bxt_today": 6.7,
-      "bxt_yest": -3.07,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 53.46,
-      "atl": 7.45,
-      "pct_to_ath": 98.9,
-      "pct_to_atl": 260.8,
-      "wk52_high": 31.88,
-      "wk52_low": 14.91,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SAIC",
       "name": "Science Applications International Corporation",
       "mcap": 4.81,
@@ -4973,6 +4950,29 @@
       "pct_to_atl": 285.9,
       "wk52_high": 123.41,
       "wk52_low": 81.08,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4.81,
+      "price": 26.88,
+      "basis": 27.31,
+      "bxt_today": 6.7,
+      "bxt_yest": -3.07,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 53.46,
+      "atl": 7.45,
+      "pct_to_ath": 98.9,
+      "pct_to_atl": 260.8,
+      "wk52_high": 31.88,
+      "wk52_low": 14.91,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7027,7 +7027,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-25T15:36:38.223362+00:00",
+    "compared_to": "2026-07-25T16:31:38.734910+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
