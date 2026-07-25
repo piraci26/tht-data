@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T21:36:23.159926+00:00",
+  "updated_at": "2026-07-25T22:32:50.436336+00:00",
   "count": 35,
   "list": [
     {
@@ -4435,16 +4435,5 @@
       "first_seen_at": "2026-07-25T21:36:23.159926+00:00"
     }
   ],
-  "added_this_run": [
-    "AIT",
-    "ALL",
-    "CSX",
-    "GD",
-    "MUFG",
-    "RHP",
-    "RTX",
-    "SLF",
-    "TRGP",
-    "VTR"
-  ]
+  "added_this_run": []
 }
