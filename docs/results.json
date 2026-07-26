@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T21:40:01.324929+00:00",
+  "updated_at": "2026-07-26T22:41:33.129080+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.56,
+  "scan_seconds": 24.76,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -5624,83 +5624,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-26T20:40:52.471902+00:00",
+    "compared_to": "2026-07-26T21:40:01.324929+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "TEX",
-        "name": "Terex Corporation",
-        "mcap": 7.71,
-        "price": 68.52,
-        "basis": 66.56,
-        "bxt_today": 15.96,
-        "ath": 96.94,
-        "pct_to_ath": 41.5,
-        "wk52_high": 74.69,
-        "wk52_low": 41.7,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "VLY",
-        "name": "Valley National Bancorp",
-        "mcap": 8.11,
-        "price": 14.34,
-        "basis": 14.52,
-        "bxt_today": -35.78,
-        "ath": 20.36,
-        "pct_to_ath": 42.0,
-        "wk52_high": 15.2,
-        "wk52_low": 8.95,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "PTCT",
-        "name": "PTC Therapeutics, Inc.",
-        "mcap": 7.04,
-        "price": 78.45,
-        "basis": 79.81,
-        "bxt_today": -36.63,
-        "ath": 90.87,
-        "pct_to_ath": 15.8,
-        "wk52_high": 90.87,
-        "wk52_low": 43.17,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "SFM",
-        "name": "Sprouts Farmers Market, Inc.",
-        "mcap": 7.6,
-        "price": 74.89,
-        "basis": 81.31,
-        "bxt_today": 0.95,
-        "ath": 182.0,
-        "pct_to_ath": 143.0,
-        "wk52_high": 165.97,
-        "wk52_low": 64.75,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "TEX",
-        "name": "Terex Corporation",
-        "mcap": 7.71,
-        "price": 68.52,
-        "basis": 66.56,
-        "bxt_today": 15.96,
-        "ath": 96.94,
-        "pct_to_ath": 41.5,
-        "wk52_high": 74.69,
-        "wk52_low": 41.7,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

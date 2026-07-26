@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T21:40:16.360999+00:00",
+  "updated_at": "2026-07-26T22:42:01.907482+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.4,
+  "scan_seconds": 22.18,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -1506,29 +1506,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "EQR",
-      "name": "Equity Residential Common Shares of Beneficial Interest",
-      "mcap": 25.44,
-      "price": 67.86,
-      "basis": 63.89,
-      "bxt_today": -4.17,
-      "bxt_yest": 6.44,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 94.32,
-      "atl": 12.44,
-      "pct_to_ath": 39.0,
-      "pct_to_atl": 445.6,
-      "wk52_high": 71.5,
-      "wk52_low": 57.57,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "PHG",
       "name": "Koninklijke Philips N.V. NY Registry Shares",
       "mcap": 25.44,
@@ -1548,6 +1525,29 @@
       "pct_to_atl": 987.6,
       "wk52_high": 33.44,
       "wk52_low": 25.1,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "EQR",
+      "name": "Equity Residential Common Shares of Beneficial Interest",
+      "mcap": 25.44,
+      "price": 67.86,
+      "basis": 63.89,
+      "bxt_today": -4.17,
+      "bxt_yest": 6.44,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 94.32,
+      "atl": 12.44,
+      "pct_to_ath": 39.0,
+      "pct_to_atl": 445.6,
+      "wk52_high": 71.5,
+      "wk52_low": 57.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2864,7 +2864,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-26T20:41:09.813160+00:00",
+    "compared_to": "2026-07-26T21:40:16.360999+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

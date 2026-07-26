@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T21:40:30.229773+00:00",
+  "updated_at": "2026-07-26T22:42:25.305612+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.34,
+  "scan_seconds": 19.88,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2496,7 +2496,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-26T20:41:23.122141+00:00",
+    "compared_to": "2026-07-26T21:40:30.229773+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2504,20 +2504,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "AFRM",
-        "name": "Affirm Holdings, Inc.",
-        "mcap": 23.52,
-        "price": 70.23,
-        "basis": 64.73,
-        "bxt_today": -10.72,
-        "ath": 176.65,
-        "pct_to_ath": 151.5,
-        "wk52_high": 100.0,
-        "wk52_low": 42.1,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
