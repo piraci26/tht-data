@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-26T09:33:05.536909+00:00",
-  "count": 40,
+  "updated_at": "2026-07-26T11:05:55.943628+00:00",
+  "count": 39,
   "list": [
     {
       "sym": "JPM",
@@ -701,24 +701,6 @@
       "atl_30d": 0,
       "last_high": 93.48,
       "last_low": 91.25,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "WSFS",
-      "name": "WSFS Financial Corporation",
-      "mcap": 4.04,
-      "price": 79.84,
-      "ath": 82.3,
-      "atl": 0.33,
-      "pct_to_ath": 3.1,
-      "pct_to_atl": 23852.0,
-      "wk52_high": 82.3,
-      "wk52_low": 49.92,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 82.3,
-      "last_low": 79.74,
       "made_ath_today": true,
       "made_atl_today": false
     }
@@ -4525,21 +4507,5 @@
       "first_seen_at": "2026-07-26T09:33:05.536909+00:00"
     }
   ],
-  "added_this_run": [
-    "AIT",
-    "ALL",
-    "BAC",
-    "CSX",
-    "GD",
-    "MUFG",
-    "PBA",
-    "PKG",
-    "RHP",
-    "RTX",
-    "SLF",
-    "TRGP",
-    "VTR",
-    "WELL",
-    "WSFS"
-  ]
+  "added_this_run": []
 }
