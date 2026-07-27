@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-07-27T18:14:17.435044+00:00",
-  "count": 1,
-  "list": [
-    {
-      "sym": "ACI",
-      "name": "Albertsons Companies, Inc.",
-      "mcap": 7.23,
-      "price": 11.47,
-      "ath": 37.99,
-      "atl": 11.02,
-      "pct_to_ath": 231.4,
-      "pct_to_atl": 4.0,
-      "wk52_high": 20.81,
-      "wk52_low": 11.02,
-      "ath_30d": 0,
-      "atl_30d": 9,
-      "last_high": 11.61,
-      "last_low": 11.02,
-      "made_ath_today": false,
-      "made_atl_today": true
-    }
-  ],
+  "updated_at": "2026-07-27T19:59:11.768757+00:00",
+  "count": 0,
+  "list": [],
   "accumulator": [
     {
       "sym": "BETA",
@@ -719,7 +700,5 @@
       "first_seen_at": "2026-07-27T18:14:17.435044+00:00"
     }
   ],
-  "added_this_run": [
-    "ACI"
-  ]
+  "added_this_run": []
 }
