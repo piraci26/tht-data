@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T15:41:06.067246+00:00",
+  "updated_at": "2026-07-28T16:22:56.535007+00:00",
   "count": 66,
   "list": [
     {
@@ -4993,43 +4993,5 @@
       "first_seen_at": "2026-07-28T15:41:06.067246+00:00"
     }
   ],
-  "added_this_run": [
-    "ACIW",
-    "AHR",
-    "AMGN",
-    "BURL",
-    "CCEP",
-    "CNA",
-    "CNP",
-    "CTRE",
-    "CTVA",
-    "DGX",
-    "DINO",
-    "DVA",
-    "EA",
-    "ESNT",
-    "FELE",
-    "FTS",
-    "GM",
-    "INSW",
-    "JNJ",
-    "KNSA",
-    "KO",
-    "L",
-    "LTH",
-    "MRK",
-    "NBIX",
-    "NJR",
-    "OGE",
-    "OHI",
-    "PFGC",
-    "PM",
-    "RJF",
-    "RPRX",
-    "SEIC",
-    "SKT",
-    "SN",
-    "SNA",
-    "WELL"
-  ]
+  "added_this_run": []
 }
