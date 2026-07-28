@@ -549,8 +549,6 @@ def run_scan(timeframe="daily"):
             ("bxt_green", "bxt", "green"),
             ("bxt_red",   "bxt", "red"),
         )
-        # Wipe just THIS timeframe's rows so we don't kill the other slices.
-        sb.truncate("flip_results", where_filter=f"timeframe=eq.{timeframe}")
         for key, product, side in BUCKETS:
             for r in out[key]:
                 flip_rows.append({
@@ -559,9 +557,24 @@ def run_scan(timeframe="daily"):
                     "mcap": r.get("mcap") or 0, "price": r.get("price"),
                     "basis": r.get("basis"), "streak": r.get(f"{product}_streak"),
                     "bxt_today": r.get("bxt_today"),
+                    # ATH/ATL enrichment the flips tables' right-hand columns
+                    # read. The legacy results.json always carried these; the
+                    # Supabase path dropped them, so the dashboard drew dashes.
+                    # Live table needs migrations/2026-07-28_flip_enrichment_columns.sql;
+                    # until it's applied upsert() strips them and warns.
+                    "ath": r.get("ath"), "atl": r.get("atl"),
+                    "pct_to_ath": r.get("pct_to_ath"), "pct_to_atl": r.get("pct_to_atl"),
+                    "wk52_high": r.get("wk52_high"), "wk52_low": r.get("wk52_low"),
+                    "ath_30d": r.get("ath_30d"), "atl_30d": r.get("atl_30d"),
                     "scanned_at": out["updated_at"],
                 })
+        # Upsert before pruning this timeframe's stale rows — a failed write
+        # keeps the previous slice visible instead of blanking it (same fix
+        # as dual_write_extrema).
         n_flips = sb.upsert("flip_results", flip_rows, on_conflict="timeframe,product,side,symbol")
+        from urllib.parse import quote
+        sb.truncate("flip_results",
+                    where_filter=f"timeframe=eq.{timeframe}&scanned_at=lt.{quote(out['updated_at'])}")
         sb.record_run("scan_py", out["updated_at"], out["updated_at"], True, n_flips,
                       f"{timeframe} · {len(closes_map)} scanned · {n_flips} flips")
     except Exception as e:

@@ -108,6 +108,14 @@ create table if not exists flip_results (
   basis       numeric,
   streak      numeric,
   bxt_today   numeric,
+  ath         numeric,
+  atl         numeric,
+  pct_to_ath  numeric,
+  pct_to_atl  numeric,
+  wk52_high   numeric,
+  wk52_low    numeric,
+  ath_30d     integer,
+  atl_30d     integer,
   scanned_at  timestamptz not null default now(),
   primary key (timeframe, product, side, symbol)
 );
