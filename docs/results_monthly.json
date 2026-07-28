@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T09:28:49.516712+00:00",
+  "updated_at": "2026-07-28T11:37:32.476291+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.97,
+  "scan_seconds": 17.07,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2490,7 +2490,7 @@
       "pct_to_ath": 34.5,
       "pct_to_atl": 306.5,
       "wk52_high": 171.58,
-      "wk52_low": 68.51,
+      "wk52_low": 67.8,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3002,229 +3002,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-28T06:47:06.318787+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 6.63,
-        "price": 50.57,
-        "basis": 48.84,
-        "bxt_today": 28.72,
-        "ath": 118.38,
-        "pct_to_ath": 134.1,
-        "wk52_high": 118.38,
-        "wk52_low": 43.68,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "SAIL",
-        "name": "SailPoint, Inc.",
-        "mcap": 7.78,
-        "price": 15.34,
-        "basis": 14.63,
-        "bxt_today": -4.87,
-        "ath": 26.35,
-        "pct_to_ath": 71.8,
-        "wk52_high": 24.0,
-        "wk52_low": 10.3,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-28T09:28:49.516712+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "HNGE",
-        "name": "Hinge Health, Inc.",
-        "mcap": 6.86,
-        "price": 75.11,
-        "basis": 77.92,
-        "bxt_today": -47.88,
-        "ath": 91.5,
-        "pct_to_ath": 21.8,
-        "wk52_high": 91.5,
-        "wk52_low": 30.08,
-        "ath_30d": 14
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "OTF",
-        "name": "Blue Owl Technology Finance Corp.",
-        "mcap": 4.78,
-        "price": 10.07,
-        "basis": 10.48,
-        "bxt_today": 5.58,
-        "ath": 21.62,
-        "pct_to_ath": 114.7,
-        "wk52_high": 15.82,
-        "wk52_low": 9.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "mcap": 4.16,
-        "price": 16.85,
-        "basis": 20.26,
-        "bxt_today": 6.32,
-        "ath": 30.28,
-        "pct_to_ath": 79.7,
-        "wk52_high": 30.28,
-        "wk52_low": 15.57,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "ABNB",
-        "name": "Airbnb, Inc.",
-        "mcap": 86.7,
-        "price": 146.86,
-        "basis": 134.9,
-        "bxt_today": 2.03,
-        "ath": 219.94,
-        "pct_to_ath": 49.8,
-        "wk52_high": 150.88,
-        "wk52_low": 110.81,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VIK",
-        "name": "Viking Holdings Ltd Ordinary Shares",
-        "mcap": 44.82,
-        "price": 103.14,
-        "basis": 81.77,
-        "bxt_today": 3.32,
-        "ath": 105.76,
-        "pct_to_ath": 2.5,
-        "wk52_high": 105.76,
-        "wk52_low": 55.55,
-        "ath_30d": 10
-      },
-      {
-        "sym": "ONON",
-        "name": "On Holding AG Ordinary Shares",
-        "mcap": 12.49,
-        "price": 37.06,
-        "basis": 40.34,
-        "bxt_today": 2.44,
-        "ath": 64.05,
-        "pct_to_ath": 72.8,
-        "wk52_high": 52.41,
-        "wk52_low": 31.41,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALH",
-        "name": "Alliance Laundry Holdings Inc.",
-        "mcap": 5.22,
-        "price": 26.11,
-        "basis": 25.85,
-        "bxt_today": 10.05,
-        "ath": 27.48,
-        "pct_to_ath": 5.2,
-        "wk52_high": 27.48,
-        "wk52_low": 18.64,
-        "ath_30d": 0
-      },
-      {
-        "sym": "STEP",
-        "name": "StepStone Group Inc.",
-        "mcap": 3.51,
-        "price": 44.65,
-        "basis": 53.04,
-        "bxt_today": 9.58,
-        "ath": 77.79,
-        "pct_to_ath": 74.2,
-        "wk52_high": 77.79,
-        "wk52_low": 38.85,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 27.49,
-        "price": 132.97,
-        "basis": 148.49,
-        "bxt_today": -0.26,
-        "ath": 177.28,
-        "pct_to_ath": 33.3,
-        "wk52_high": 177.28,
-        "wk52_low": 70.5,
-        "ath_30d": 1
-      },
-      {
-        "sym": "GH",
-        "name": "Guardant Health, Inc.",
-        "mcap": 19.1,
-        "price": 145.47,
-        "basis": 111.54,
-        "bxt_today": -0.73,
-        "ath": 181.07,
-        "pct_to_ath": 24.5,
-        "wk52_high": 174.08,
-        "wk52_low": 40.35,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 7.53,
-        "price": 37.36,
-        "basis": 36.74,
-        "bxt_today": -0.63,
-        "ath": 38.94,
-        "pct_to_ath": 4.2,
-        "wk52_high": 38.94,
-        "wk52_low": 25.01,
-        "ath_30d": 4
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 127.56,
-        "basis": 145.28,
-        "bxt_today": -6.19,
-        "ath": 171.58,
-        "pct_to_ath": 34.5,
-        "wk52_high": 171.58,
-        "wk52_low": 68.51,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CART",
-        "name": "Maplebear Inc.",
-        "mcap": 11.37,
-        "price": 44.06,
-        "basis": 41.13,
-        "bxt_today": -6.14,
-        "ath": 53.5,
-        "pct_to_ath": 21.4,
-        "wk52_high": 53.5,
-        "wk52_low": 32.73,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNR",
-        "name": "Core Natural Resources, Inc.",
-        "mcap": 4.33,
-        "price": 82.5,
-        "basis": 90.28,
-        "bxt_today": -1.7,
-        "ath": 134.59,
-        "pct_to_ath": 63.1,
-        "wk52_high": 114.8,
-        "wk52_low": 68.78,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
