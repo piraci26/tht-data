@@ -35,15 +35,38 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: python scan.py
 
+      - name: Generate AI reads
+        env:
+          # Set the LLM_API_KEY repo secret (Groq key) to activate this step.
+          # Without it the step skips silently and the pipeline behaves as before.
+          LLM_API_KEY:  ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: https://api.groq.com/openai/v1
+          LLM_MODEL:    llama-3.3-70b-versatile
+          SCAN_BASE:    docs
+          MAX_READS_PER_PASS: "25"
+        run: |
+          if [[ -z "$LLM_API_KEY" ]]; then
+            echo "LLM_API_KEY not set, skipping AI reads"
+            exit 0
+          fi
+          pip install -q openai
+          # Restore accumulated reads from the committed copy (fresh checkout
+          # has no ai/worker/out) so the worker merges instead of starting over.
+          mkdir -p ai/worker/out docs/ai
+          if [[ -f docs/ai/reads.json ]]; then cp docs/ai/reads.json ai/worker/out/reads.json; fi
+          python ai/worker/worker.py --once
+          cp ai/worker/out/reads.json docs/ai/reads.json
+
       - name: Commit + push if anything changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain docs/)" ]]; then
+          if [[ -n "$(git status --porcelain docs/ ai/worker/state)" ]]; then
             git add docs/results.json docs/results_weekly.json docs/results_monthly.json \
                     docs/ath_list.json docs/atl_list.json docs/ath_atl_cache.json \
                     docs/history \
-                    docs/bars docs/bars_weekly docs/bars_monthly
+                    docs/bars docs/bars_weekly docs/bars_monthly \
+                    docs/ai ai/worker/state
             git commit -m "scan @ $(date -u +'%Y-%m-%d %H:%M UTC') [actions]"
             git push
           else

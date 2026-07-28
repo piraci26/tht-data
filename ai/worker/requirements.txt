@@ -1,0 +1,3 @@
+openai>=1.40,<3
+# Optional — only needed by sync_supabase.py (Supabase upload):
+# supabase>=2

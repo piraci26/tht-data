@@ -4,3 +4,7 @@ __pycache__/
 logs/
 .env
 docs/regime_state_checkpoint.json
+
+# AI reads worker runtime
+ai/worker/__pycache__/
+ai/worker/out/
