@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T22:30:32.605718+00:00",
+  "updated_at": "2026-07-28T23:33:21.997116+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.45,
+  "scan_seconds": 9.86,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3623,26 +3623,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-28T21:21:57.688001+00:00",
+    "compared_to": "2026-07-28T22:30:32.605718+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "MDLN",
-        "name": "Medline Inc.",
-        "mcap": 34.22,
-        "price": 40.51,
-        "basis": 38.79,
-        "bxt_today": 5.2,
-        "ath": 50.88,
-        "pct_to_ath": 25.6,
-        "wk52_high": 50.88,
-        "wk52_low": 32.81,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T22:30:20.745604+00:00",
+  "updated_at": "2026-07-28T23:33:10.681592+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.43,
+  "scan_seconds": 11.7,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -1176,29 +1176,6 @@
       "pct_to_atl": 64.7,
       "wk52_high": 92.55,
       "wk52_low": 31.51,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 25.42,
-      "price": 483.66,
-      "basis": 493.14,
-      "bxt_today": -13.44,
-      "bxt_yest": -6.97,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 58,
-      "bxt_streak": null,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 16.9,
-      "pct_to_atl": 17202.4,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4152,56 +4129,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-28T21:21:30.767219+00:00",
+    "compared_to": "2026-07-28T22:30:20.745604+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "UGI",
-        "name": "UGI Corporation",
-        "mcap": 7.68,
-        "price": 36.94,
-        "basis": 36.52,
-        "bxt_today": 36.61,
-        "ath": 59.31,
-        "pct_to_ath": 60.6,
-        "wk52_high": 41.34,
-        "wk52_low": 31.62,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "fvb_red_removed": [
       {
-        "sym": "IDCC",
-        "name": "InterDigital, Inc.",
-        "mcap": 6.85,
-        "price": 260.2,
-        "basis": 310.05,
-        "bxt_today": 3.5,
-        "ath": 412.6,
-        "pct_to_ath": 58.6,
-        "wk52_high": 412.6,
-        "wk52_low": 213.06,
+        "sym": "HUBB",
+        "name": "Hubbell Inc",
+        "mcap": 25.42,
+        "price": 483.66,
+        "basis": 493.14,
+        "bxt_today": -13.44,
+        "ath": 565.5,
+        "pct_to_ath": 16.9,
+        "wk52_high": 565.5,
+        "wk52_low": 403.82,
         "ath_30d": 0
       }
     ],
-    "bxt_red_added": [
-      {
-        "sym": "EWBC",
-        "name": "East West Bancorp, Inc.",
-        "mcap": 17.99,
-        "price": 131.31,
-        "basis": 119.41,
-        "bxt_today": -4.83,
-        "ath": 136.24,
-        "pct_to_ath": 3.8,
-        "wk52_high": 136.24,
-        "wk52_low": 92.67,
-        "ath_30d": 3
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
