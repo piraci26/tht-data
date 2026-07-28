@@ -77,10 +77,12 @@ READS_FILE = OUT_DIR / "reads.json"
 
 # --------------------------------------------------------------------------- config
 
-SCAN_BASE = os.environ.get("SCAN_BASE", "https://piraci26.github.io/tht-data")
-LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "http://localhost:11434/v1")
-LLM_MODEL = os.environ.get("LLM_MODEL", "llama3.1:8b")
-LLM_API_KEY = os.environ.get("LLM_API_KEY", "ollama")
+# .strip() everywhere: secrets pasted into CI/UI fields often carry a stray
+# trailing newline, which turns into a 401 that looks like a bad key.
+SCAN_BASE = os.environ.get("SCAN_BASE", "https://piraci26.github.io/tht-data").strip()
+LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "http://localhost:11434/v1").strip()
+LLM_MODEL = os.environ.get("LLM_MODEL", "llama3.1:8b").strip()
+LLM_API_KEY = os.environ.get("LLM_API_KEY", "ollama").strip()
 LLM_TIMEOUT = float(os.environ.get("LLM_TIMEOUT", "60"))
 MAX_READS_PER_PASS = int(os.environ.get("MAX_READS_PER_PASS", "25"))
 FETCH_TIMEOUT = float(os.environ.get("FETCH_TIMEOUT", "30"))
@@ -450,6 +452,7 @@ def run_pass(client):
         return
 
     generated, failures = 0, 0
+    last_error = None
     for sym in queue:
         try:
             text = generate_read(client, sym, new_state[sym]["fingerprint"],
@@ -462,6 +465,7 @@ def run_pass(client):
             failures = 0
         except Exception as exc:  # LLM down/misconfigured must never kill the loop
             failures += 1
+            last_error = "%s: %s: %s" % (sym, type(exc).__name__, str(exc)[:300])
             log("read failed for %s: %s" % (sym, exc))
             if failures >= LLM_FAIL_LIMIT:
                 log("%d consecutive LLM failures -- abandoning reads for this pass"
@@ -472,6 +476,13 @@ def run_pass(client):
         atomic_write_json(READS_FILE, reads)
     log("reads: %d generated (%d queued, %d already fresh)"
         % (generated, len(queue), len(current_fp) - len(candidates)))
+    # Pass telemetry, published alongside reads.json — headless environments
+    # (GitHub Actions) have no readable logs, so failures must surface here.
+    atomic_write_json(OUT_DIR / "status.json", {
+        "ts": now_iso(), "model": LLM_MODEL, "base_url": LLM_BASE_URL,
+        "events": len(events), "queued": len(queue),
+        "generated": generated, "last_error": last_error,
+    })
 
 
 # --------------------------------------------------------------------------- main
