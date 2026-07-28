@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T21:21:57.688001+00:00",
+  "updated_at": "2026-07-28T22:30:32.605718+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 23.52,
+  "scan_seconds": 10.45,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -32,9 +32,9 @@
       "name": "Spotify Technology S.A. Ordinary Shares",
       "mcap": 105.12,
       "price": 511.56,
-      "basis": 494.73,
-      "bxt_today": 33.86,
-      "bxt_yest": 25.93,
+      "basis": 494.83,
+      "bxt_today": 35.93,
+      "bxt_yest": 29.67,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -446,9 +446,9 @@
       "name": "Shift4 Payments, Inc.",
       "mcap": 3.98,
       "price": 54.84,
-      "basis": 50.1,
-      "bxt_today": 40.11,
-      "bxt_yest": 36.02,
+      "basis": 50.12,
+      "bxt_today": 45.67,
+      "bxt_yest": 43.79,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -998,13 +998,36 @@
       "atl_30d": 0
     },
     {
+      "sym": "MDLN",
+      "name": "Medline Inc.",
+      "mcap": 34.22,
+      "price": 40.51,
+      "basis": 38.79,
+      "bxt_today": 5.2,
+      "bxt_yest": -10.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 50.88,
+      "atl": 32.81,
+      "pct_to_ath": 25.6,
+      "pct_to_atl": 23.4,
+      "wk52_high": 50.88,
+      "wk52_low": 32.81,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "VICI",
       "name": "VICI Properties Inc.",
       "mcap": 29.93,
       "price": 27.1,
-      "basis": 28.03,
-      "bxt_today": 5.68,
-      "bxt_yest": -10.59,
+      "basis": 28.04,
+      "bxt_today": 6.53,
+      "bxt_yest": -8.18,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1682,7 +1705,7 @@
       "atl": 11.85,
       "pct_to_ath": 160.4,
       "pct_to_atl": 517.6,
-      "wk52_high": 120.05,
+      "wk52_high": 114.48,
       "wk52_low": 59.5,
       "ath_30d": 0,
       "atl_30d": 0
@@ -2730,8 +2753,8 @@
       "mcap": 24.3,
       "price": 33.84,
       "basis": 28.51,
-      "bxt_today": -9.96,
-      "bxt_yest": 6.58,
+      "bxt_today": -9.97,
+      "bxt_yest": 6.27,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2821,15 +2844,15 @@
       "name": "Legence Corp. Common stock",
       "mcap": 11.52,
       "price": 59.21,
-      "basis": 77.34,
-      "bxt_today": -14.37,
-      "bxt_yest": 14.86,
+      "basis": 76.96,
+      "bxt_today": -18.47,
+      "bxt_yest": 10.68,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 4,
+      "bxt_streak": 5,
       "ath": 107.24,
       "atl": 26.96,
       "pct_to_ath": 81.1,
@@ -3065,7 +3088,7 @@
       "pct_to_ath": 110.5,
       "pct_to_atl": 15865.7,
       "wk52_high": 288.68,
-      "wk52_low": 95.49,
+      "wk52_low": 97.77,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3600,13 +3623,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-28T20:07:44.415980+00:00",
+    "compared_to": "2026-07-28T21:21:57.688001+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "MDLN",
         "name": "Medline Inc.",
@@ -3619,50 +3641,10 @@
         "wk52_high": 50.88,
         "wk52_low": 32.81,
         "ath_30d": 0
-      },
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 13.4,
-        "price": 34.08,
-        "basis": 34.27,
-        "bxt_today": 1.04,
-        "ath": 54.94,
-        "pct_to_ath": 61.2,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 0
       }
     ],
-    "bxt_red_added": [
-      {
-        "sym": "ENS",
-        "name": "EnerSys",
-        "mcap": 7.5,
-        "price": 183.57,
-        "basis": 123.05,
-        "bxt_today": -0.01,
-        "ath": 244.3,
-        "pct_to_ath": 33.1,
-        "wk52_high": 244.3,
-        "wk52_low": 88.76,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "BLSH",
-        "name": "Bullish Ordinary Shares",
-        "mcap": 3.67,
-        "price": 22.67,
-        "basis": 24.66,
-        "bxt_today": -0.13,
-        "ath": 118.0,
-        "pct_to_ath": 420.5,
-        "wk52_high": 118.0,
-        "wk52_low": 21.76,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
