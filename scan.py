@@ -683,10 +683,14 @@ def dual_write_extrema(ath_path, atl_path, now_iso):
                 extrema_rows.append(to_row(r, True, doc.get("updated_at")))
             for e in doc.get("accumulator", []):
                 extrema_rows.append(to_row(e, False, e.get("first_seen_at")))
-            # Wipe just THIS kind so a symbol that stops printing extrema today
-            # doesn't linger as a stale is_today row.
-            sb.truncate("extrema_events", where_filter=f"kind=eq.{kind}")
+        # Upsert BEFORE pruning. The old truncate-then-upsert left the table —
+        # and the dashboard's ATH/ATL tabs — empty for ten days when the upsert
+        # 400'd on schema drift. Now a failed write keeps yesterday's rows up.
         n = sb.upsert("extrema_events", extrema_rows, on_conflict="kind,is_today,symbol")
+        # This run's rows all carry scanned_at == now_iso, so anything older is
+        # a symbol that stopped printing extrema — same cleanup the truncate did.
+        from urllib.parse import quote
+        sb.truncate("extrema_events", where_filter=f"scanned_at=lt.{quote(now_iso)}")
         # scan_runs.pipeline is CHECK-constrained to the four known pipelines,
         # so this logs under scan_py and leans on notes to mark the ath/atl leg.
         sb.record_run("scan_py", now_iso, now_iso, True, n,

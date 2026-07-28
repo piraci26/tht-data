@@ -17,6 +17,7 @@ the migration; flipping the env vars on activates Supabase writes.
 """
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -62,8 +63,16 @@ def upsert(table: str, rows: list[dict], on_conflict: str | None = None, chunk: 
         return 0
     headers = _headers()
     sent = 0
-    for i in range(0, len(rows), chunk):
+    # Columns the live table doesn't have (schema drift: code updated, migration
+    # not yet run). PGRST204 names the offender; we drop it and retry so the
+    # remaining columns still land instead of the whole write dying. The lost
+    # columns render as em-dashes until the migration in migrations/ is applied.
+    dropped: set[str] = set()
+    i = 0
+    while i < len(rows):
         batch = rows[i : i + chunk]
+        if dropped:
+            batch = [{k: v for k, v in r.items() if k not in dropped} for r in batch]
         body = json.dumps(batch).encode("utf-8")
         req = urllib.request.Request(
             _url(table, on_conflict), data=body, headers=headers, method="POST"
@@ -72,8 +81,16 @@ def upsert(table: str, rows: list[dict], on_conflict: str | None = None, chunk: 
             with urllib.request.urlopen(req, timeout=30) as resp:
                 resp.read()  # discard; we asked for return=minimal
             sent += len(batch)
+            i += chunk
         except urllib.error.HTTPError as e:
             body_str = e.read().decode("utf-8", "replace")
+            m = re.search(r"Could not find the '([^']+)' column", body_str)
+            if e.code == 400 and m and len(dropped) < 8:
+                dropped.add(m.group(1))
+                print(f"  [supabase] {table}: live schema is missing column "
+                      f"'{m.group(1)}' — writing without it. Apply the pending "
+                      f"migration in migrations/ to restore it.", file=sys.stderr)
+                continue  # retry this batch minus the unknown column
             raise RuntimeError(f"Supabase upsert {table} failed: {e.code} {body_str}") from e
     return sent
 
