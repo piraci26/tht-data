@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-07-29T07:17:26.128413+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-07-29T10:01:23.711973+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "MWH",
+      "name": "SOLV Energy, Inc.",
+      "mcap": 6.1,
+      "price": 28.06,
+      "ath": 48.4,
+      "atl": 25.12,
+      "pct_to_ath": 72.5,
+      "pct_to_atl": 11.7,
+      "wk52_high": 48.4,
+      "wk52_low": 25.12,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 27.53,
+      "last_low": 25.12,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -681,25 +700,6 @@
       "first_seen_at": "2026-07-27T22:30:25.639695+00:00"
     },
     {
-      "sym": "MWH",
-      "name": "SOLV Energy, Inc.",
-      "mcap": 6.1,
-      "price": 25.69,
-      "ath": 48.4,
-      "atl": 25.3,
-      "pct_to_ath": 88.4,
-      "pct_to_atl": 1.5,
-      "wk52_high": 48.4,
-      "wk52_low": 25.3,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 27.53,
-      "last_low": 25.3,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-07-28T15:41:06.071283+00:00"
-    },
-    {
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 1.83,
@@ -717,7 +717,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-07-28T15:41:06.071283+00:00"
+    },
+    {
+      "sym": "MWH",
+      "name": "SOLV Energy, Inc.",
+      "mcap": 6.1,
+      "price": 28.06,
+      "ath": 48.4,
+      "atl": 25.12,
+      "pct_to_ath": 72.5,
+      "pct_to_atl": 11.7,
+      "wk52_high": 48.4,
+      "wk52_low": 25.12,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 27.53,
+      "last_low": 25.12,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-07-29T10:01:23.711973+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MWH"
+  ]
 }
