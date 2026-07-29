@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T23:33:21.997116+00:00",
+  "updated_at": "2026-07-29T01:04:25.090247+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.86,
+  "scan_seconds": 13.18,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1025,9 +1025,9 @@
       "name": "VICI Properties Inc.",
       "mcap": 29.93,
       "price": 27.1,
-      "basis": 28.04,
-      "bxt_today": 6.53,
-      "bxt_yest": -8.18,
+      "basis": 28.03,
+      "bxt_today": 5.68,
+      "bxt_yest": -10.59,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -3623,7 +3623,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-28T22:30:32.605718+00:00",
+    "compared_to": "2026-07-28T23:33:21.997116+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
