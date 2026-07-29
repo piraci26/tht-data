@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T04:24:32.780365+00:00",
+  "updated_at": "2026-07-29T07:16:58.161967+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.84,
+  "scan_seconds": 12.04,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -2006,29 +2006,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LBRDK",
-      "name": "Liberty Broadband Corporation Class C",
-      "mcap": 4.41,
-      "price": 32.87,
-      "basis": 31.5,
-      "bxt_today": 26.52,
-      "bxt_yest": 3.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 17,
-      "bxt_streak": null,
-      "ath": 181.69,
-      "atl": 26.25,
-      "pct_to_ath": 452.8,
-      "pct_to_atl": 25.2,
-      "wk52_high": 70.32,
-      "wk52_low": 26.25,
-      "ath_30d": 0,
-      "atl_30d": 4
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 4.41,
@@ -2050,6 +2027,29 @@
       "wk52_low": 26.14,
       "ath_30d": 0,
       "atl_30d": 5
+    },
+    {
+      "sym": "LBRDK",
+      "name": "Liberty Broadband Corporation Class C",
+      "mcap": 4.41,
+      "price": 32.87,
+      "basis": 31.5,
+      "bxt_today": 26.52,
+      "bxt_yest": 3.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 17,
+      "bxt_streak": null,
+      "ath": 181.69,
+      "atl": 26.25,
+      "pct_to_ath": 452.8,
+      "pct_to_atl": 25.2,
+      "wk52_high": 70.32,
+      "wk52_low": 26.25,
+      "ath_30d": 0,
+      "atl_30d": 4
     },
     {
       "sym": "DOCS",
@@ -6633,29 +6633,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
-      "mcap": 9.5,
-      "price": 321.64,
-      "basis": 296.09,
-      "bxt_today": 7.52,
-      "bxt_yest": -18.2,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 323.45,
-      "atl": 18.61,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 1628.3,
-      "wk52_high": 323.45,
-      "wk52_low": 230.09,
-      "ath_30d": 7,
-      "atl_30d": 0
-    },
-    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9.5,
@@ -6676,6 +6653,29 @@
       "wk52_high": 108.97,
       "wk52_low": 76.93,
       "ath_30d": 6,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
+      "mcap": 9.5,
+      "price": 321.64,
+      "basis": 296.09,
+      "bxt_today": 7.52,
+      "bxt_yest": -18.2,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 323.45,
+      "atl": 18.61,
+      "pct_to_ath": 0.6,
+      "pct_to_atl": 1628.3,
+      "wk52_high": 323.45,
+      "wk52_low": 230.09,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -11466,215 +11466,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-29T01:03:51.110559+00:00",
+    "compared_to": "2026-07-29T04:24:32.780365+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "LVS",
-        "name": "Las Vegas Sands Corp.",
-        "mcap": 31.95,
-        "price": 48.25,
-        "basis": 47.31,
-        "bxt_today": 44.95,
-        "ath": 148.76,
-        "pct_to_ath": 208.3,
-        "wk52_high": 70.45,
-        "wk52_low": 44.21,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "FMX",
-        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "mcap": 43.6,
-        "price": 127.73,
-        "basis": 128.3,
-        "bxt_today": -13.24,
-        "ath": 143.43,
-        "pct_to_ath": 12.3,
-        "wk52_high": 141.47,
-        "wk52_low": 83.08,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "PFG",
-        "name": "Principal Financial Group Inc",
-        "mcap": 24.52,
-        "price": 114.09,
-        "basis": 110.48,
-        "bxt_today": 4.98,
-        "ath": 114.9,
-        "pct_to_ath": 0.7,
-        "wk52_high": 114.9,
-        "wk52_low": 75.0,
-        "ath_30d": 7
-      },
-      {
-        "sym": "BBY",
-        "name": "Best Buy Co., Inc.",
-        "mcap": 18.78,
-        "price": 89.47,
-        "basis": 80.11,
-        "bxt_today": 11.17,
-        "ath": 141.97,
-        "pct_to_ath": 58.7,
-        "wk52_high": 90.72,
-        "wk52_low": 55.1,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AMG",
-        "name": "Affiliated Managers Group, Inc.",
-        "mcap": 9.68,
-        "price": 370.12,
-        "basis": 354.59,
-        "bxt_today": 1.48,
-        "ath": 382.75,
-        "pct_to_ath": 3.4,
-        "wk52_high": 382.75,
-        "wk52_low": 200.0,
-        "ath_30d": 4
-      },
-      {
-        "sym": "PHI",
-        "name": "PLDT Inc. Sponsored ADR",
-        "mcap": 4.17,
-        "price": 20.01,
-        "basis": 18.48,
-        "bxt_today": 6.2,
-        "ath": 79.04,
-        "pct_to_ath": 295.0,
-        "wk52_high": 24.51,
-        "wk52_low": 17.05,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "H",
-        "name": "Hyatt Hotels Corporation",
-        "mcap": 17.73,
-        "price": 188.83,
-        "basis": 193.39,
-        "bxt_today": 3.11,
-        "ath": 206.86,
-        "pct_to_ath": 9.5,
-        "wk52_high": 206.86,
-        "wk52_low": 133.51,
-        "ath_30d": 3
-      },
-      {
-        "sym": "PCTY",
-        "name": "Paylocity Holding Corporation",
-        "mcap": 6.34,
-        "price": 138.68,
-        "basis": 113.95,
-        "bxt_today": 19.56,
-        "ath": 314.49,
-        "pct_to_ath": 126.8,
-        "wk52_high": 197.78,
-        "wk52_low": 92.99,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CBT",
-        "name": "Cabot Corporation",
-        "mcap": 4.54,
-        "price": 91.05,
-        "basis": 88.65,
-        "bxt_today": 13.02,
-        "ath": 117.46,
-        "pct_to_ath": 29.0,
-        "wk52_high": 94.53,
-        "wk52_low": 58.33,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "AEP",
-        "name": "American Electric Power Company, Inc.",
-        "mcap": 72.93,
-        "price": 133.02,
-        "basis": 133.51,
-        "bxt_today": -0.49,
-        "ath": 140.58,
-        "pct_to_ath": 5.7,
-        "wk52_high": 140.58,
-        "wk52_low": 105.7,
-        "ath_30d": 1
-      },
-      {
-        "sym": "FN",
-        "name": "Fabrinet Ordinary Shares",
-        "mcap": 15.92,
-        "price": 449.72,
-        "basis": 528.98,
-        "bxt_today": -4.42,
-        "ath": 748.89,
-        "pct_to_ath": 66.5,
-        "wk52_high": 748.89,
-        "wk52_low": 272.49,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "RAL",
-        "name": "Ralliant Corporation",
-        "mcap": 7.75,
-        "price": 67.74,
-        "basis": 68.91,
-        "bxt_today": -17.55,
-        "ath": 75.41,
-        "pct_to_ath": 11.3,
-        "wk52_high": 75.41,
-        "wk52_low": 37.27,
-        "ath_30d": 5
-      },
-      {
-        "sym": "DNTH",
-        "name": "Dianthus Therapeutics, Inc.",
-        "mcap": 5.34,
-        "price": 101.61,
-        "basis": 92.86,
-        "bxt_today": -16.59,
-        "ath": 336.0,
-        "pct_to_ath": 230.7,
-        "wk52_high": 107.99,
-        "wk52_low": 18.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNR",
-        "name": "Core Natural Resources, Inc.",
-        "mcap": 4.33,
-        "price": 79.74,
-        "basis": 83.95,
-        "bxt_today": -15.21,
-        "ath": 134.59,
-        "pct_to_ath": 68.8,
-        "wk52_high": 114.8,
-        "wk52_low": 68.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PTEN",
-        "name": "Patterson-UTI Energy, Inc.",
-        "mcap": 3.56,
-        "price": 9.17,
-        "basis": 10.0,
-        "bxt_today": -12.0,
-        "ath": 38.49,
-        "pct_to_ath": 319.7,
-        "wk52_high": 13.08,
-        "wk52_low": 5.1,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
