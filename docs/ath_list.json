@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T22:00:33.216599+00:00",
+  "updated_at": "2026-07-29T23:05:14.974434+00:00",
   "count": 53,
   "list": [
     {
@@ -489,6 +489,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 14.06,
+      "price": 281.0,
+      "ath": 284.64,
+      "atl": 12.52,
+      "pct_to_ath": 1.3,
+      "pct_to_atl": 2144.4,
+      "wk52_high": 284.64,
+      "wk52_low": 183.39,
+      "ath_30d": 9,
+      "atl_30d": 0,
+      "last_high": 284.64,
+      "last_low": 278.55,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
       "mcap": 13.84,
@@ -917,24 +935,6 @@
       "atl_30d": 0,
       "last_high": 82.94,
       "last_low": 77.57,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "FHI",
-      "name": "Federated Hermes, Inc.",
-      "mcap": 4.46,
-      "price": 60.08,
-      "ath": 61.01,
-      "atl": 7.33,
-      "pct_to_ath": 1.5,
-      "pct_to_atl": 719.3,
-      "wk52_high": 61.01,
-      "wk52_low": 46.66,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 61.01,
-      "last_low": 59.99,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4721,25 +4721,6 @@
       "first_seen_at": "2026-07-29T18:34:55.244622+00:00"
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 14.06,
-      "price": 280.65,
-      "ath": 284.64,
-      "atl": 12.52,
-      "pct_to_ath": 1.4,
-      "pct_to_atl": 2141.6,
-      "wk52_high": 284.64,
-      "wk52_low": 183.39,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 284.64,
-      "last_low": 278.55,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-07-29T19:56:37.837683+00:00"
-    },
-    {
       "sym": "GKOS",
       "name": "Glaukos Corporation",
       "mcap": 8.97,
@@ -4757,7 +4738,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-07-29T19:56:37.837683+00:00"
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 14.06,
+      "price": 281.0,
+      "ath": 284.64,
+      "atl": 12.52,
+      "pct_to_ath": 1.3,
+      "pct_to_atl": 2144.4,
+      "wk52_high": 284.64,
+      "wk52_low": 183.39,
+      "ath_30d": 9,
+      "atl_30d": 0,
+      "last_high": 284.64,
+      "last_low": 278.55,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-07-29T23:05:14.974434+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "AIZ"
+  ]
 }
