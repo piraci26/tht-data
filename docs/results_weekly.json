@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T20:55:29.654651+00:00",
+  "updated_at": "2026-07-29T21:59:24.226069+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 22.03,
+  "scan_seconds": 23.8,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -931,7 +931,7 @@
       "name": "Sterling Infrastructure, Inc.",
       "mcap": 15.91,
       "price": 494.24,
-      "basis": 548.63,
+      "basis": 548.62,
       "bxt_today": -41.69,
       "bxt_yest": -39.15,
       "fvb_g": false,
@@ -2378,29 +2378,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PEN",
-      "name": "Penumbra, Inc.",
-      "mcap": 12.59,
-      "price": 320.13,
-      "basis": 328.49,
-      "bxt_today": 1.69,
-      "bxt_yest": -7.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 362.41,
-      "atl": 35.31,
-      "pct_to_ath": 13.2,
-      "pct_to_atl": 806.5,
-      "wk52_high": 362.41,
-      "wk52_low": 221.26,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "NYT",
       "name": "New York Times Company (The)",
       "mcap": 12.59,
@@ -2420,6 +2397,29 @@
       "pct_to_atl": 2158.4,
       "wk52_high": 87.1,
       "wk52_low": 51.03,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PEN",
+      "name": "Penumbra, Inc.",
+      "mcap": 12.59,
+      "price": 320.13,
+      "basis": 328.49,
+      "bxt_today": 1.69,
+      "bxt_yest": -7.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 362.41,
+      "atl": 35.31,
+      "pct_to_ath": 13.2,
+      "pct_to_atl": 806.5,
+      "wk52_high": 362.41,
+      "wk52_low": 221.26,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2844,7 +2844,7 @@
       "name": "Palo Alto Networks, Inc.",
       "mcap": 260.1,
       "price": 314.15,
-      "basis": 220.56,
+      "basis": 220.57,
       "bxt_today": -10.35,
       "bxt_yest": 2.22,
       "fvb_g": false,
@@ -5141,294 +5141,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-29T19:56:00.278309+00:00",
+    "compared_to": "2026-07-29T20:55:29.654651+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "SHOP",
-        "name": "Shopify Inc. Subordinate Voting Shares",
-        "mcap": 173.39,
-        "price": 129.43,
-        "basis": 125.26,
-        "bxt_today": 34.68,
-        "ath": 182.19,
-        "pct_to_ath": 40.8,
-        "wk52_high": 182.19,
-        "wk52_low": 94.0,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "LRCX",
-        "name": "Lam Research Corporation",
-        "mcap": 332.24,
-        "price": 252.35,
-        "basis": 266.88,
-        "bxt_today": -38.26,
-        "ath": 438.5,
-        "pct_to_ath": 73.8,
-        "wk52_high": 438.5,
-        "wk52_low": 90.94,
-        "ath_30d": 5
-      },
-      {
-        "sym": "P",
-        "name": "Everpure, Inc. common stock",
-        "mcap": 24.06,
-        "price": 69.25,
-        "basis": 70.88,
-        "bxt_today": -18.34,
-        "ath": 100.59,
-        "pct_to_ath": 45.3,
-        "wk52_high": 100.59,
-        "wk52_low": 54.37,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LECO",
-        "name": "Lincoln Electric Holdings, Inc. Common Shares",
-        "mcap": 14.2,
-        "price": 257.99,
-        "basis": 261.98,
-        "bxt_today": -5.05,
-        "ath": 310.0,
-        "pct_to_ath": 20.2,
-        "wk52_high": 310.0,
-        "wk52_low": 216.22,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "SCCO",
-        "name": "Southern Copper Corporation",
-        "mcap": 141.51,
-        "price": 175.02,
-        "basis": 178.93,
-        "bxt_today": -19.63,
-        "ath": 221.67,
-        "pct_to_ath": 26.7,
-        "wk52_high": 221.67,
-        "wk52_low": 85.61,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALSN",
-        "name": "Allison Transmission Holdings, Inc.",
-        "mcap": 9.61,
-        "price": 113.83,
-        "basis": 116.33,
-        "bxt_today": -12.64,
-        "ath": 137.62,
-        "pct_to_ath": 20.9,
-        "wk52_high": 137.62,
-        "wk52_low": 76.01,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "mcap": 8.41,
-        "price": 52.71,
-        "basis": 54.03,
-        "bxt_today": -7.07,
-        "ath": 121.06,
-        "pct_to_ath": 129.7,
-        "wk52_high": 65.0,
-        "wk52_low": 29.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EXP",
-        "name": "Eagle Materials Inc",
-        "mcap": 6.48,
-        "price": 206.98,
-        "basis": 211.56,
-        "bxt_today": -8.55,
-        "ath": 321.93,
-        "pct_to_ath": 55.5,
-        "wk52_high": 245.53,
-        "wk52_low": 171.99,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "IFF",
-        "name": "International Flavors & Fragrances, Inc.",
-        "mcap": 20.34,
-        "price": 79.63,
-        "basis": 74.49,
-        "bxt_today": 1.11,
-        "ath": 157.4,
-        "pct_to_ath": 97.7,
-        "wk52_high": 84.45,
-        "wk52_low": 59.14,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "WIT",
-        "name": "Wipro Limited",
-        "mcap": 19.49,
-        "price": 1.98,
-        "basis": 2.26,
-        "bxt_today": 0.12,
-        "ath": 4.98,
-        "pct_to_ath": 151.5,
-        "wk52_high": 3.09,
-        "wk52_low": 1.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAAP",
-        "name": "Corporacion America Airports SA Common Shares",
-        "mcap": 4.07,
-        "price": 25.6,
-        "basis": 26.19,
-        "bxt_today": 0.77,
-        "ath": 30.5,
-        "pct_to_ath": 19.1,
-        "wk52_high": 30.5,
-        "wk52_low": 17.36,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "NEE",
-        "name": "NextEra Energy, Inc.",
-        "mcap": 184.89,
-        "price": 88.46,
-        "basis": 89.06,
-        "bxt_today": -0.67,
-        "ath": 98.75,
-        "pct_to_ath": 11.6,
-        "wk52_high": 98.75,
-        "wk52_low": 69.24,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PPL",
-        "name": "PPL Corporation",
-        "mcap": 27.05,
-        "price": 35.7,
-        "basis": 36.7,
-        "bxt_today": -1.84,
-        "ath": 51.44,
-        "pct_to_ath": 44.1,
-        "wk52_high": 40.11,
-        "wk52_low": 33.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TPC",
-        "name": "Tutor Perini Corporation",
-        "mcap": 4.01,
-        "price": 76.68,
-        "basis": 77.81,
-        "bxt_today": -0.08,
-        "ath": 100.0,
-        "pct_to_ath": 30.4,
-        "wk52_high": 100.0,
-        "wk52_low": 43.52,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "MAC",
-        "name": "Macerich Company (The)",
-        "mcap": 7.35,
-        "price": 25.88,
-        "basis": 21.44,
-        "bxt_today": -0.57,
-        "ath": 95.93,
-        "pct_to_ath": 270.7,
-        "wk52_high": 26.68,
-        "wk52_low": 15.94,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BGC",
-        "name": "BGC Group, Inc.",
-        "mcap": 5.16,
-        "price": 11.73,
-        "basis": 10.35,
-        "bxt_today": -0.55,
-        "ath": 57.8,
-        "pct_to_ath": 392.7,
-        "wk52_high": 12.89,
-        "wk52_low": 8.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNO",
-        "name": "CNO Financial Group, Inc.",
-        "mcap": 4.85,
-        "price": 52.76,
-        "basis": 45.53,
-        "bxt_today": -1.68,
-        "ath": 54.09,
-        "pct_to_ath": 2.5,
-        "wk52_high": 54.09,
-        "wk52_low": 35.24,
-        "ath_30d": 10
-      },
-      {
-        "sym": "BBWI",
-        "name": "Bath & Body Works, Inc.",
-        "mcap": 4.02,
-        "price": 19.46,
-        "basis": 20.41,
-        "bxt_today": -1.48,
-        "ath": 82.0,
-        "pct_to_ath": 321.4,
-        "wk52_high": 32.32,
-        "wk52_low": 14.28,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MWA",
-        "name": "MUELLER WATER PRODUCTS",
-        "mcap": 3.87,
-        "price": 25.0,
-        "basis": 26.75,
-        "bxt_today": -2.39,
-        "ath": 31.0,
-        "pct_to_ath": 24.0,
-        "wk52_high": 31.0,
-        "wk52_low": 22.74,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GBDC",
-        "name": "Golub Capital BDC, Inc.",
-        "mcap": 3.39,
-        "price": 12.77,
-        "basis": 12.95,
-        "bxt_today": -0.69,
-        "ath": 20.08,
-        "pct_to_ath": 57.2,
-        "wk52_high": 15.18,
-        "wk52_low": 11.77,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EE",
-        "name": "Excelerate Energy, Inc.",
-        "mcap": 1.24,
-        "price": 37.13,
-        "basis": 35.28,
-        "bxt_today": -0.73,
-        "ath": 43.17,
-        "pct_to_ath": 16.3,
-        "wk52_high": 43.17,
-        "wk52_low": 21.28,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T20:55:53.131270+00:00",
+  "updated_at": "2026-07-29T21:59:50.188304+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 20.14,
+  "scan_seconds": 22.16,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -772,7 +772,7 @@
       "name": "Booking Holdings Inc.",
       "mcap": 158.36,
       "price": 201.3,
-      "basis": 181.39,
+      "basis": 181.38,
       "bxt_today": 0.14,
       "bxt_yest": -12.42,
       "fvb_g": false,
@@ -2614,7 +2614,7 @@
       "name": "Sterling Infrastructure, Inc.",
       "mcap": 15.91,
       "price": 494.24,
-      "basis": 264.47,
+      "basis": 264.46,
       "bxt_today": -0.57,
       "bxt_yest": 17.02,
       "fvb_g": false,
@@ -3991,137 +3991,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-29T19:56:14.803601+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CHRD",
-        "name": "Chord Energy Corporation",
-        "mcap": 6.61,
-        "price": 136.47,
-        "basis": 128.82,
-        "bxt_today": 29.75,
-        "ath": 190.23,
-        "pct_to_ath": 39.4,
-        "wk52_high": 151.95,
-        "wk52_low": 84.25,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-29T20:55:53.131270+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "PCVX",
-        "name": "Vaxcyte, Inc.",
-        "mcap": 8.41,
-        "price": 52.75,
-        "basis": 54.03,
-        "bxt_today": -6.95,
-        "ath": 121.06,
-        "pct_to_ath": 129.5,
-        "wk52_high": 65.0,
-        "wk52_low": 29.08,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 15.65,
-        "price": 127.94,
-        "basis": 126.63,
-        "bxt_today": 0.05,
-        "ath": 211.79,
-        "pct_to_ath": 65.5,
-        "wk52_high": 137.85,
-        "wk52_low": 115.53,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "mcap": 32.12,
-        "price": 308.71,
-        "basis": 228.84,
-        "bxt_today": 0.04,
-        "ath": 371.18,
-        "pct_to_ath": 20.2,
-        "wk52_high": 371.18,
-        "wk52_low": 227.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GIB",
-        "name": "CGI Inc.",
-        "mcap": 15.69,
-        "price": 74.91,
-        "basis": 96.78,
-        "bxt_today": 0.15,
-        "ath": 122.79,
-        "pct_to_ath": 63.9,
-        "wk52_high": 103.04,
-        "wk52_low": 59.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAAP",
-        "name": "Corporacion America Airports SA Common Shares",
-        "mcap": 4.07,
-        "price": 25.6,
-        "basis": 26.19,
-        "bxt_today": 0.77,
-        "ath": 30.5,
-        "pct_to_ath": 19.1,
-        "wk52_high": 30.5,
-        "wk52_low": 17.36,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 13.31,
-        "price": 32.89,
-        "basis": 33.89,
-        "bxt_today": -0.92,
-        "ath": 54.94,
-        "pct_to_ath": 67.0,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "OTTR",
-        "name": "Otter Tail Corporation",
-        "mcap": 3.76,
-        "price": 90.61,
-        "basis": 66.2,
-        "bxt_today": -0.04,
-        "ath": 100.84,
-        "pct_to_ath": 11.3,
-        "wk52_high": 95.0,
-        "wk52_low": 74.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EE",
-        "name": "Excelerate Energy, Inc.",
-        "mcap": 1.24,
-        "price": 37.12,
-        "basis": 35.28,
-        "bxt_today": -0.83,
-        "ath": 43.17,
-        "pct_to_ath": 16.3,
-        "wk52_high": 43.17,
-        "wk52_low": 21.28,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
