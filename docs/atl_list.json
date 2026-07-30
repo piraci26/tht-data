@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T03:25:15.022785+00:00",
+  "updated_at": "2026-07-30T06:05:58.188794+00:00",
   "count": 4,
   "list": [
     {
@@ -33,7 +33,7 @@
       "wk52_low": 23.83,
       "ath_30d": 0,
       "atl_30d": 2,
-      "last_high": 25.69,
+      "last_high": 25.7,
       "last_low": 23.83,
       "made_ath_today": false,
       "made_atl_today": true
@@ -811,7 +811,5 @@
       "first_seen_at": "2026-07-30T03:25:15.022785+00:00"
     }
   ],
-  "added_this_run": [
-    "YSS"
-  ]
+  "added_this_run": []
 }
