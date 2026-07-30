@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T21:46:58.157346+00:00",
+  "updated_at": "2026-07-30T22:50:03.743629+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.13,
+  "scan_seconds": 9.22,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -4221,22 +4221,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-30T20:34:40.226473+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CORZ",
-        "name": "Core Scientific, Inc.",
-        "mcap": 7.47,
-        "price": 21.81,
-        "basis": 20.27,
-        "bxt_today": -33.7,
-        "ath": 30.46,
-        "pct_to_ath": 39.7,
-        "wk52_high": 30.46,
-        "wk52_low": 12.6,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-07-30T21:46:58.157346+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],

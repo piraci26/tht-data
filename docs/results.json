@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T21:46:44.454979+00:00",
+  "updated_at": "2026-07-30T22:49:52.331276+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.31,
+  "scan_seconds": 11.44,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -6842,29 +6842,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 14.44,
-      "price": 53.26,
-      "basis": 50.0,
-      "bxt_today": -4.93,
-      "bxt_yest": 23.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 55.71,
-      "atl": 6.41,
-      "pct_to_ath": 4.6,
-      "pct_to_atl": 730.9,
-      "wk52_high": 55.71,
-      "wk52_low": 41.53,
-      "ath_30d": 6,
-      "atl_30d": 0
-    },
-    {
       "sym": "LOGI",
       "name": "Logitech International S.A. Ordinary Shares",
       "mcap": 14.44,
@@ -6885,6 +6862,29 @@
       "wk52_high": 129.66,
       "wk52_low": 83.32,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 14.44,
+      "price": 53.26,
+      "basis": 50.0,
+      "bxt_today": -4.93,
+      "bxt_yest": 23.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 55.71,
+      "atl": 6.41,
+      "pct_to_ath": 4.6,
+      "pct_to_atl": 730.9,
+      "wk52_high": 55.71,
+      "wk52_low": 41.53,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -8246,7 +8246,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-30T20:34:25.382220+00:00",
+    "compared_to": "2026-07-30T21:46:44.454979+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
