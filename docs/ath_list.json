@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T06:05:58.183415+00:00",
+  "updated_at": "2026-07-30T08:46:27.266896+00:00",
   "count": 54,
   "list": [
     {
@@ -4777,23 +4777,5 @@
       "first_seen_at": "2026-07-30T06:05:58.183415+00:00"
     }
   ],
-  "added_this_run": [
-    "AAPL",
-    "CB",
-    "DVA",
-    "EAT",
-    "EBC",
-    "ESNT",
-    "GD",
-    "GHC",
-    "HIG",
-    "LAMR",
-    "PAG",
-    "PRI",
-    "THG",
-    "TXRH",
-    "UMBF",
-    "WAB",
-    "ZWS"
-  ]
+  "added_this_run": []
 }
