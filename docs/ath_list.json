@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-29T23:05:14.974434+00:00",
-  "count": 53,
+  "updated_at": "2026-07-30T00:08:04.378801+00:00",
+  "count": 52,
   "list": [
     {
       "sym": "AAPL",
@@ -921,38 +921,20 @@
       "made_atl_today": false
     },
     {
-      "sym": "KNSA",
-      "name": "Kiniksa Pharmaceuticals International, plc Ordinary Shares",
-      "mcap": 4.8,
-      "price": 80.92,
-      "ath": 82.94,
-      "atl": 5.01,
-      "pct_to_ath": 2.5,
-      "pct_to_atl": 1515.2,
-      "wk52_high": 82.94,
-      "wk52_low": 29.24,
-      "ath_30d": 8,
+      "sym": "FHI",
+      "name": "Federated Hermes, Inc.",
+      "mcap": 4.46,
+      "price": 60.08,
+      "ath": 61.01,
+      "atl": 7.33,
+      "pct_to_ath": 1.5,
+      "pct_to_atl": 719.3,
+      "wk52_high": 61.01,
+      "wk52_low": 46.66,
+      "ath_30d": 5,
       "atl_30d": 0,
-      "last_high": 82.94,
-      "last_low": 77.57,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "INSW",
-      "name": "International Seaways, Inc.",
-      "mcap": 4.32,
-      "price": 94.55,
-      "ath": 95.65,
-      "atl": 10.36,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 812.6,
-      "wk52_high": 95.65,
-      "wk52_low": 39.06,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 95.65,
-      "last_low": 92.84,
+      "last_high": 61.01,
+      "last_low": 59.99,
       "made_ath_today": true,
       "made_atl_today": false
     }
@@ -4246,25 +4228,6 @@
       "first_seen_at": "2026-07-29T14:32:31.870292+00:00"
     },
     {
-      "sym": "FHI",
-      "name": "Federated Hermes, Inc.",
-      "mcap": 4.46,
-      "price": 60.62,
-      "ath": 60.99,
-      "atl": 7.33,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 726.6,
-      "wk52_high": 60.99,
-      "wk52_low": 46.66,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 60.99,
-      "last_low": 60.15,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-07-29T14:32:31.870292+00:00"
-    },
-    {
       "sym": "GHC",
       "name": "Graham Holdings Company",
       "mcap": 4.99,
@@ -4757,9 +4720,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-07-29T23:05:14.974434+00:00"
+    },
+    {
+      "sym": "FHI",
+      "name": "Federated Hermes, Inc.",
+      "mcap": 4.46,
+      "price": 60.08,
+      "ath": 61.01,
+      "atl": 7.33,
+      "pct_to_ath": 1.5,
+      "pct_to_atl": 719.3,
+      "wk52_high": 61.01,
+      "wk52_low": 46.66,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 61.01,
+      "last_low": 59.99,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-07-30T00:08:04.378801+00:00"
     }
   ],
   "added_this_run": [
-    "AIZ"
+    "FHI"
   ]
 }
