@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-30T00:08:04.383978+00:00",
-  "count": 3,
+  "updated_at": "2026-07-30T03:25:15.022785+00:00",
+  "count": 4,
   "list": [
     {
       "sym": "FIGR",
@@ -53,6 +53,24 @@
       "atl_30d": 6,
       "last_high": 23.08,
       "last_low": 21.73,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 15.02,
+      "ath": 44.54,
+      "atl": 14.42,
+      "pct_to_ath": 196.5,
+      "pct_to_atl": 4.2,
+      "wk52_high": 44.54,
+      "wk52_low": 14.42,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 17.48,
+      "last_low": 14.42,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -736,25 +754,6 @@
       "first_seen_at": "2026-07-29T12:11:29.152242+00:00"
     },
     {
-      "sym": "YSS",
-      "name": "York Space Systems Inc.",
-      "mcap": 2.81,
-      "price": 16.03,
-      "ath": 44.54,
-      "atl": 15.89,
-      "pct_to_ath": 177.9,
-      "pct_to_atl": 0.9,
-      "wk52_high": 44.54,
-      "wk52_low": 15.89,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 17.48,
-      "last_low": 15.89,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-07-29T14:32:31.874046+00:00"
-    },
-    {
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 3.67,
@@ -791,7 +790,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-07-29T19:56:37.843155+00:00"
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 15.02,
+      "ath": 44.54,
+      "atl": 14.42,
+      "pct_to_ath": 196.5,
+      "pct_to_atl": 4.2,
+      "wk52_high": 44.54,
+      "wk52_low": 14.42,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 17.48,
+      "last_low": 14.42,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-07-30T03:25:15.022785+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "YSS"
+  ]
 }
