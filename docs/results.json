@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T22:50:36.642976+00:00",
+  "updated_at": "2026-07-31T23:47:58.851984+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.11,
+  "scan_seconds": 10.67,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -4384,8 +4384,8 @@
       "mcap": 3.08,
       "price": 26.65,
       "basis": 28.76,
-      "bxt_today": 9.76,
-      "bxt_yest": -11.35,
+      "bxt_today": 9.8,
+      "bxt_yest": -11.12,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -7165,7 +7165,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-31T21:52:19.089574+00:00",
+    "compared_to": "2026-07-31T22:50:36.642976+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

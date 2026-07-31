@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T22:51:00.444612+00:00",
+  "updated_at": "2026-07-31T23:48:19.621925+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.83,
+  "scan_seconds": 8.65,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3025,26 +3025,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-07-31T21:52:48.792437+00:00",
+    "compared_to": "2026-07-31T22:51:00.444612+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "FWONA",
-        "name": "Liberty Media Corporation Series A Liberty Formula One",
-        "mcap": 22.53,
-        "price": 89.81,
-        "basis": 79.11,
-        "bxt_today": 2.99,
-        "ath": 99.52,
-        "pct_to_ath": 10.8,
-        "wk52_high": 99.52,
-        "wk52_low": 73.7,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
