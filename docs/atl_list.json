@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-31T14:45:05.232355+00:00",
+  "updated_at": "2026-07-31T16:27:13.893656+00:00",
   "count": 4,
   "list": [
     {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 7.03,
-      "price": 24.74,
+      "price": 24.55,
       "ath": 78.0,
       "atl": 24.28,
-      "pct_to_ath": 215.3,
-      "pct_to_atl": 1.9,
+      "pct_to_ath": 217.7,
+      "pct_to_atl": 1.1,
       "wk52_high": 78.0,
       "wk52_low": 24.28,
       "ath_30d": 0,
@@ -24,11 +24,11 @@
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.78,
-      "price": 9.8,
+      "price": 9.81,
       "ath": 21.62,
       "atl": 9.75,
-      "pct_to_ath": 120.7,
-      "pct_to_atl": 0.5,
+      "pct_to_ath": 120.5,
+      "pct_to_atl": 0.6,
       "wk52_high": 15.82,
       "wk52_low": 9.75,
       "ath_30d": 0,
@@ -42,11 +42,11 @@
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 3.67,
-      "price": 20.77,
+      "price": 21.39,
       "ath": 118.0,
       "atl": 20.55,
-      "pct_to_ath": 468.1,
-      "pct_to_atl": 1.1,
+      "pct_to_ath": 451.7,
+      "pct_to_atl": 4.1,
       "wk52_high": 118.0,
       "wk52_low": 20.55,
       "ath_30d": 0,
@@ -60,11 +60,11 @@
       "sym": "XXI",
       "name": "Twenty One Capital, Inc.",
       "mcap": 1.83,
-      "price": 4.19,
+      "price": 4.25,
       "ath": 59.75,
       "atl": 4.15,
-      "pct_to_ath": 1326.0,
-      "pct_to_atl": 1.0,
+      "pct_to_ath": 1305.9,
+      "pct_to_atl": 2.4,
       "wk52_high": 31.2,
       "wk52_low": 4.15,
       "ath_30d": 0,
@@ -811,10 +811,5 @@
       "first_seen_at": "2026-07-31T14:45:05.232355+00:00"
     }
   ],
-  "added_this_run": [
-    "BLSH",
-    "FIGR",
-    "OTF",
-    "XXI"
-  ]
+  "added_this_run": []
 }
