@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T01:21:10.640514+00:00",
+  "updated_at": "2026-08-01T04:44:10.433788+00:00",
   "count": 4,
   "list": [
     {
@@ -15,7 +15,7 @@
       "wk52_low": 24.28,
       "ath_30d": 0,
       "atl_30d": 2,
-      "last_high": 26.05,
+      "last_high": 26.06,
       "last_low": 24.28,
       "made_ath_today": false,
       "made_atl_today": true
@@ -69,7 +69,7 @@
       "wk52_low": 4.15,
       "ath_30d": 0,
       "atl_30d": 7,
-      "last_high": 4.37,
+      "last_high": 4.39,
       "last_low": 4.15,
       "made_ath_today": false,
       "made_atl_today": true
