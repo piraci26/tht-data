@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-01T14:49:56.190116+00:00",
+  "updated_at": "2026-08-01T15:47:22.305007+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.72,
+  "scan_seconds": 14.93,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -6612,29 +6612,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ESNT",
-      "name": "Essent Group Ltd. Common Shares",
-      "mcap": 5.93,
-      "price": 65.96,
-      "basis": 63.83,
-      "bxt_today": -11.19,
-      "bxt_yest": 1.74,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 68.62,
-      "atl": 16.49,
-      "pct_to_ath": 4.0,
-      "pct_to_atl": 300.0,
-      "wk52_high": 68.62,
-      "wk52_low": 55.34,
-      "ath_30d": 4,
-      "atl_30d": 0
-    },
-    {
       "sym": "SSRM",
       "name": "SSR Mining Inc.",
       "mcap": 5.93,
@@ -6655,6 +6632,29 @@
       "wk52_high": 36.52,
       "wk52_low": 11.87,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ESNT",
+      "name": "Essent Group Ltd. Common Shares",
+      "mcap": 5.93,
+      "price": 65.96,
+      "basis": 63.83,
+      "bxt_today": -11.19,
+      "bxt_yest": 1.74,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 68.62,
+      "atl": 16.49,
+      "pct_to_ath": 4.0,
+      "pct_to_atl": 300.0,
+      "wk52_high": 68.62,
+      "wk52_low": 55.34,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -7165,7 +7165,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-01T13:50:04.593667+00:00",
+    "compared_to": "2026-08-01T14:49:56.190116+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
