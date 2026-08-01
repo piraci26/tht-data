@@ -130,7 +130,10 @@ for attempt in 1 2 3; do
   set +e
   caffeinate -is "$PYTHON" regime_scan.py --threshold 3.5 --tfs D,W,M --wait 1.2 --multi-pane $RESUME_FLAG
   STATUS_REGIME=$?
-  set -e
+  # NOTE: deliberately NOT re-enabling `set -e` here. With -e on, a
+  # classifier crash (e.g. the July 28-31 Supabase 401s) killed the wrapper
+  # before the finish line + FAILED notification could run — four nights of
+  # silent failures. Statuses are checked explicitly below instead.
 
   if [ $STATUS_REGIME -eq 0 ]; then
     echo "  scan completed cleanly on attempt $attempt"
