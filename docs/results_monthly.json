@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-01T13:50:47.760691+00:00",
+  "updated_at": "2026-08-01T14:50:18.904389+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.0,
+  "scan_seconds": 9.38,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -4566,7 +4566,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-01T12:06:29.211233+00:00",
+    "compared_to": "2026-08-01T13:50:47.760691+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -4574,20 +4574,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "ORLA",
-        "name": "Orla Mining Ltd. Common Shares",
-        "mcap": 3.66,
-        "price": 9.44,
-        "basis": 6.05,
-        "bxt_today": -9.34,
-        "ath": 21.98,
-        "pct_to_ath": 132.8,
-        "wk52_high": 21.98,
-        "wk52_low": 8.43,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
