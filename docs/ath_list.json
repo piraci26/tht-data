@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-01T18:43:44.244543+00:00",
-  "count": 16,
+  "updated_at": "2026-08-01T19:58:22.567348+00:00",
+  "count": 17,
   "list": [
     {
       "sym": "BBVA",
       "name": "Banco Bilbao Vizcaya Argentaria S.A.",
-      "mcap": 153.91,
+      "mcap": 154.43,
       "price": 27.95,
       "ath": 28.05,
       "atl": 2.03,
@@ -23,7 +23,7 @@
     {
       "sym": "NET",
       "name": "Cloudflare, Inc.",
-      "mcap": 99.23,
+      "mcap": 99.02,
       "price": 278.98,
       "ath": 293.8,
       "atl": 14.5,
@@ -41,7 +41,7 @@
     {
       "sym": "AME",
       "name": "AMETEK, Inc.",
-      "mcap": 55.62,
+      "mcap": 55.4,
       "price": 241.71,
       "ath": 244.97,
       "atl": 1.22,
@@ -77,7 +77,7 @@
     {
       "sym": "VIK",
       "name": "Viking Holdings Ltd Ordinary Shares",
-      "mcap": 46.42,
+      "mcap": 46.56,
       "price": 104.35,
       "ath": 105.86,
       "atl": 25.71,
@@ -95,7 +95,7 @@
     {
       "sym": "BAP",
       "name": "Credicorp Ltd.",
-      "mcap": 31.9,
+      "mcap": 31.83,
       "price": 400.58,
       "ath": 413.25,
       "atl": 5.23,
@@ -113,7 +113,7 @@
     {
       "sym": "SN",
       "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 22.94,
+      "mcap": 22.89,
       "price": 161.77,
       "ath": 164.37,
       "atl": 25.84,
@@ -131,7 +131,7 @@
     {
       "sym": "ARXS",
       "name": "Arxis, Inc.",
-      "mcap": 22.63,
+      "mcap": 22.67,
       "price": 54.3,
       "ath": 55.24,
       "atl": 28.0,
@@ -149,7 +149,7 @@
     {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
-      "mcap": 16.65,
+      "mcap": 16.33,
       "price": 355.03,
       "ath": 365.43,
       "atl": 9.19,
@@ -197,6 +197,24 @@
       "atl_30d": 0,
       "last_high": 214.23,
       "last_low": 207.64,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -292,25 +310,6 @@
     }
   ],
   "accumulator": [
-    {
-      "sym": "EVRG",
-      "name": "Evergy, Inc.",
-      "mcap": 19.28,
-      "price": 87.69,
-      "ath": 88.61,
-      "atl": 8.5,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 931.6,
-      "wk52_high": 88.61,
-      "wk52_low": 67.3,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 88.61,
-      "last_low": 86.83,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-07-07T16:11:28.326938+00:00"
-    },
     {
       "sym": "LNT",
       "name": "Alliant Energy Corporation",
@@ -4091,7 +4090,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-07-31T14:45:05.227860+00:00"
+    },
+    {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-08-01T19:58:22.567348+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "TMHC"
+  ]
 }
