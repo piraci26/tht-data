@@ -1,7 +1,7 @@
 {
   "threshold_b": 3.5,
   "count": 1466,
-  "updated_at": "2026-08-01T18:50:38.609742+00:00",
+  "updated_at": "2026-08-02T18:50:37.355279+00:00",
   "tickers": [
     "NVDA",
     "AAPL",
@@ -888,9 +888,9 @@
     "ADC",
     "LEVI",
     "AAON",
-    "ACM",
     "SNEX",
     "LTH",
+    "ACM",
     "SARO",
     "COLB",
     "SAIA",
