@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-08-03T18:26:15.279830+00:00",
-  "count": 1,
+  "updated_at": "2026-08-03T20:11:09.157740+00:00",
+  "count": 2,
   "list": [
     {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 7.03,
-      "price": 26.68,
+      "price": 26.88,
       "ath": 78.0,
       "atl": 24.12,
-      "pct_to_ath": 192.4,
-      "pct_to_atl": 10.6,
+      "pct_to_ath": 190.2,
+      "pct_to_atl": 11.4,
       "wk52_high": 78.0,
       "wk52_low": 24.12,
       "ath_30d": 0,
       "atl_30d": 3,
-      "last_high": 26.99,
+      "last_high": 27.08,
       "last_low": 24.12,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 14.24,
+      "ath": 44.54,
+      "atl": 13.88,
+      "pct_to_ath": 212.8,
+      "pct_to_atl": 2.6,
+      "wk52_high": 44.54,
+      "wk52_low": 13.88,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 15.15,
+      "last_low": 13.88,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -662,25 +680,6 @@
       "first_seen_at": "2026-07-29T10:01:23.711973+00:00"
     },
     {
-      "sym": "YSS",
-      "name": "York Space Systems Inc.",
-      "mcap": 2.81,
-      "price": 15.02,
-      "ath": 44.54,
-      "atl": 14.42,
-      "pct_to_ath": 196.5,
-      "pct_to_atl": 4.2,
-      "wk52_high": 44.54,
-      "wk52_low": 14.42,
-      "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 17.48,
-      "last_low": 14.42,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-07-30T03:25:15.022785+00:00"
-    },
-    {
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 3.67,
@@ -755,7 +754,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-07-31T14:45:05.232355+00:00"
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 14.24,
+      "ath": 44.54,
+      "atl": 13.88,
+      "pct_to_ath": 212.8,
+      "pct_to_atl": 2.6,
+      "wk52_high": 44.54,
+      "wk52_low": 13.88,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 15.15,
+      "last_low": 13.88,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-03T20:11:09.157740+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "YSS"
+  ]
 }
