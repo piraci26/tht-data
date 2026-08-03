@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T01:15:12.301778+00:00",
+  "updated_at": "2026-08-03T04:50:53.512306+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.73,
+  "scan_seconds": 11.5,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -1433,7 +1433,7 @@
       "pct_to_atl": 872.7,
       "wk52_high": 278.76,
       "wk52_low": 98.01,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2910,7 +2910,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-02T23:40:05.716616+00:00",
+    "compared_to": "2026-08-03T01:15:12.301778+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
