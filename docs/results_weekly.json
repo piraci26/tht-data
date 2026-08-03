@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T21:30:30.609391+00:00",
+  "updated_at": "2026-08-03T22:34:56.545583+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 18.27,
+  "scan_seconds": 9.56,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -3692,7 +3692,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-03T20:10:39.053522+00:00",
+    "compared_to": "2026-08-03T21:30:30.609391+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -3700,33 +3700,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "MFG",
-        "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-        "mcap": 125.01,
-        "price": 10.24,
-        "basis": 8.91,
-        "bxt_today": -0.01,
-        "ath": 15.13,
-        "pct_to_ath": 47.8,
-        "wk52_high": 10.79,
-        "wk52_low": 5.74,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AES",
-        "name": "The AES Corporation",
-        "mcap": 10.54,
-        "price": 14.7,
-        "basis": 14.67,
-        "bxt_today": -0.9,
-        "ath": 72.81,
-        "pct_to_ath": 395.3,
-        "wk52_high": 17.65,
-        "wk52_low": 12.33,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

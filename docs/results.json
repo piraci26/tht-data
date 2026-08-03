@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-03T21:30:05.555747+00:00",
+  "updated_at": "2026-08-03T22:34:42.428721+00:00",
   "timeframe": "daily",
-  "scan_seconds": 21.03,
+  "scan_seconds": 12.59,
   "scanned_count": 1505,
   "fvb_green": [
     {
@@ -6958,42 +6958,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-03T20:10:25.272983+00:00",
+    "compared_to": "2026-08-03T21:30:05.555747+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "WPC",
-        "name": "W. P. Carey Inc. REIT",
-        "mcap": 16.54,
-        "price": 72.9,
-        "basis": 73.38,
-        "bxt_today": -32.81,
-        "ath": 91.69,
-        "pct_to_ath": 25.8,
-        "wk52_high": 77.22,
-        "wk52_low": 63.08,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "KT",
-        "name": "KT Corporation",
-        "mcap": 8.59,
-        "price": 18.37,
-        "basis": 18.01,
-        "bxt_today": -0.26,
-        "ath": 79.88,
-        "pct_to_ath": 334.8,
-        "wk52_high": 24.58,
-        "wk52_low": 17.13,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
