@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-03T16:39:03.785895+00:00",
+  "updated_at": "2026-08-03T18:26:15.279830+00:00",
   "count": 1,
   "list": [
     {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 7.03,
-      "price": 26.33,
+      "price": 26.68,
       "ath": 78.0,
       "atl": 24.12,
-      "pct_to_ath": 196.2,
-      "pct_to_atl": 9.1,
+      "pct_to_ath": 192.4,
+      "pct_to_atl": 10.6,
       "wk52_high": 78.0,
       "wk52_low": 24.12,
       "ath_30d": 0,
       "atl_30d": 3,
-      "last_high": 26.5,
+      "last_high": 26.99,
       "last_low": 24.12,
       "made_ath_today": false,
       "made_atl_today": true
