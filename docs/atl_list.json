@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T04:29:55.562192+00:00",
-  "count": 2,
+  "updated_at": "2026-08-04T07:17:27.282192+00:00",
+  "count": 1,
   "list": [
     {
       "sym": "FIGR",
@@ -17,24 +17,6 @@
       "atl_30d": 3,
       "last_high": 27.08,
       "last_low": 24.12,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "YSS",
-      "name": "York Space Systems Inc.",
-      "mcap": 2.81,
-      "price": 14.73,
-      "ath": 44.54,
-      "atl": 13.88,
-      "pct_to_ath": 202.4,
-      "pct_to_atl": 6.1,
-      "wk52_high": 44.54,
-      "wk52_low": 13.88,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 15.15,
-      "last_low": 13.88,
       "made_ath_today": false,
       "made_atl_today": true
     }
