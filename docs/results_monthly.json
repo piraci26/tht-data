@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-04T21:19:54.058843+00:00",
+  "updated_at": "2026-08-04T22:33:26.897148+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.08,
-  "scanned_count": 1500,
+  "scan_seconds": 32.15,
+  "scanned_count": 1499,
   "fvb_green": [
     {
       "sym": "PLTR",
@@ -3393,70 +3393,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-04T19:59:07.824405+00:00",
+    "compared_to": "2026-08-04T21:19:54.058843+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "STE",
-        "name": "STERIS plc (Ireland) Ordinary Shares",
-        "mcap": 22.58,
-        "price": 233.04,
-        "basis": 229.15,
-        "bxt_today": -12.95,
-        "ath": 269.44,
-        "pct_to_ath": 15.6,
-        "wk52_high": 269.44,
-        "wk52_low": 195.14,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "APO",
-        "name": "Apollo Global Management, Inc. (New)",
-        "mcap": 76.64,
-        "price": 133.2,
-        "basis": 128.62,
-        "bxt_today": 0.11,
-        "ath": 189.49,
-        "pct_to_ath": 42.3,
-        "wk52_high": 153.29,
-        "wk52_low": 99.56,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "PS",
-        "name": "Pershing Square Inc.",
-        "mcap": 14.4,
-        "price": 35.99,
-        "basis": 34.36,
-        "bxt_today": -9.21,
-        "ath": 54.94,
-        "pct_to_ath": 52.7,
-        "wk52_high": 54.94,
-        "wk52_low": 22.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "ASND",
-        "name": "Ascendis Pharma A/S Ordinary Share",
-        "mcap": 16.11,
-        "price": 244.24,
-        "basis": 173.62,
-        "bxt_today": -0.24,
-        "ath": 282.15,
-        "pct_to_ath": 15.5,
-        "wk52_high": 282.15,
-        "wk52_low": 173.33,
-        "ath_30d": 4
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

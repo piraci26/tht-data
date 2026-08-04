@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T21:19:33.585312+00:00",
+  "updated_at": "2026-08-04T22:32:50.552961+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 23.91,
+  "scan_seconds": 23.58,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4083,122 +4083,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-04T19:58:51.555566+00:00",
+    "compared_to": "2026-08-04T21:19:33.585312+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "DUK",
-        "name": "Duke Energy Corporation (Holding Company)",
-        "mcap": 97.13,
-        "price": 124.27,
-        "basis": 125.58,
-        "bxt_today": -13.85,
-        "ath": 134.49,
-        "pct_to_ath": 8.2,
-        "wk52_high": 134.49,
-        "wk52_low": 113.9,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "KR",
-        "name": "Kroger Company (The)",
-        "mcap": 35.5,
-        "price": 57.79,
-        "basis": 64.78,
-        "bxt_today": 0.15,
-        "ath": 76.58,
-        "pct_to_ath": 32.5,
-        "wk52_high": 76.58,
-        "wk52_low": 54.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "JAZZ",
-        "name": "Jazz Pharmaceuticals plc (Ireland)",
-        "mcap": 16.38,
-        "price": 261.62,
-        "basis": 206.37,
-        "bxt_today": 0.07,
-        "ath": 262.0,
-        "pct_to_ath": 0.1,
-        "wk52_high": 262.0,
-        "wk52_low": 105.0,
-        "ath_30d": 9
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "LYV",
-        "name": "Live Nation Entertainment, Inc.",
-        "mcap": 43.01,
-        "price": 184.35,
-        "basis": 162.04,
-        "bxt_today": 0.39,
-        "ath": 188.0,
-        "pct_to_ath": 2.0,
-        "wk52_high": 188.0,
-        "wk52_low": 125.34,
-        "ath_30d": 6
-      },
-      {
-        "sym": "JOBY",
-        "name": "Joby Aviation, Inc.",
-        "mcap": 7.59,
-        "price": 7.99,
-        "basis": 9.95,
-        "bxt_today": 0.06,
-        "ath": 20.95,
-        "pct_to_ath": 162.2,
-        "wk52_high": 20.95,
-        "wk52_low": 6.63,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "PFG",
-        "name": "Principal Financial Group Inc",
-        "mcap": 24.53,
-        "price": 115.25,
-        "basis": 99.44,
-        "bxt_today": -0.03,
-        "ath": 115.65,
-        "pct_to_ath": 0.4,
-        "wk52_high": 115.71,
-        "wk52_low": 75.33,
-        "ath_30d": 7
-      },
-      {
-        "sym": "CF",
-        "name": "CF Industries Holdings, Inc.",
-        "mcap": 18.1,
-        "price": 118.11,
-        "basis": 110.77,
-        "bxt_today": -0.04,
-        "ath": 141.96,
-        "pct_to_ath": 20.2,
-        "wk52_high": 141.96,
-        "wk52_low": 75.42,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HXL",
-        "name": "Hexcel Corporation",
-        "mcap": 7.48,
-        "price": 104.14,
-        "basis": 90.19,
-        "bxt_today": -0.41,
-        "ath": 111.74,
-        "pct_to_ath": 7.3,
-        "wk52_high": 111.74,
-        "wk52_low": 59.69,
-        "ath_30d": 9
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
