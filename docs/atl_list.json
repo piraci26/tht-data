@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-04T10:04:27.335497+00:00",
+  "updated_at": "2026-08-04T12:11:38.378013+00:00",
   "count": 2,
   "list": [
     {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 7.03,
-      "price": 24.91,
+      "price": 26.88,
       "ath": 78.0,
-      "atl": 24.12,
-      "pct_to_ath": 213.1,
-      "pct_to_atl": 3.3,
+      "atl": 24.11,
+      "pct_to_ath": 190.2,
+      "pct_to_atl": 11.5,
       "wk52_high": 78.0,
-      "wk52_low": 24.12,
+      "wk52_low": 24.11,
       "ath_30d": 0,
       "atl_30d": 3,
       "last_high": 27.08,
-      "last_low": 24.12,
+      "last_low": 24.11,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -24,16 +24,16 @@
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 14.73,
+      "price": 14.28,
       "ath": 44.54,
       "atl": 13.88,
-      "pct_to_ath": 202.4,
-      "pct_to_atl": 6.1,
+      "pct_to_ath": 211.9,
+      "pct_to_atl": 2.9,
       "wk52_high": 44.54,
       "wk52_low": 13.88,
       "ath_30d": 0,
       "atl_30d": 4,
-      "last_high": 15.15,
+      "last_high": 15.16,
       "last_low": 13.88,
       "made_ath_today": false,
       "made_atl_today": true
@@ -775,7 +775,5 @@
       "first_seen_at": "2026-08-04T10:04:27.335497+00:00"
     }
   ],
-  "added_this_run": [
-    "YSS"
-  ]
+  "added_this_run": []
 }
