@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-04T22:33:26.897148+00:00",
+  "updated_at": "2026-08-04T23:36:57.992466+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 32.15,
-  "scanned_count": 1499,
+  "scan_seconds": 9.61,
+  "scanned_count": 1500,
   "fvb_green": [
     {
       "sym": "PLTR",
@@ -3393,7 +3393,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-04T21:19:54.058843+00:00",
+    "compared_to": "2026-08-04T22:33:26.897148+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
