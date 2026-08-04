@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T07:16:46.061350+00:00",
+  "updated_at": "2026-08-04T10:02:36.582972+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.17,
+  "scan_seconds": 26.08,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4379,29 +4379,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ADEA",
-      "name": "Adeia Inc.",
-      "mcap": 3.08,
-      "price": 26.65,
-      "basis": 28.76,
-      "bxt_today": 9.8,
-      "bxt_yest": -11.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 34.34,
-      "atl": 3.62,
-      "pct_to_ath": 28.9,
-      "pct_to_atl": 636.8,
-      "wk52_high": 34.34,
-      "wk52_low": 11.61,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CTRI",
       "name": "Centuri Holdings, Inc.",
       "mcap": 2.63,
@@ -7165,13 +7142,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-04T04:29:00.951953+00:00",
+    "compared_to": "2026-08-04T07:16:46.061350+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "ADEA",
+        "name": "Adeia Inc.",
+        "mcap": 3.08,
+        "price": 26.65,
+        "basis": 28.76,
+        "bxt_today": 9.8,
+        "ath": 34.34,
+        "pct_to_ath": 28.9,
+        "wk52_high": 34.34,
+        "wk52_low": 11.61,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
