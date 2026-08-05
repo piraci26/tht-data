@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T07:07:15.083791+00:00",
+  "updated_at": "2026-08-05T09:46:18.032941+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.35,
+  "scan_seconds": 11.44,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -6035,29 +6035,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ABCB",
-      "name": "Ameris Bancorp",
-      "mcap": 6.08,
-      "price": 89.47,
-      "basis": 89.29,
-      "bxt_today": 6.68,
-      "bxt_yest": -18.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 93.22,
-      "atl": 3.36,
-      "pct_to_ath": 4.2,
-      "pct_to_atl": 2566.3,
-      "wk52_high": 93.22,
-      "wk52_low": 65.47,
-      "ath_30d": 5,
-      "atl_30d": 0
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6.08,
@@ -6078,6 +6055,29 @@
       "wk52_high": 30.88,
       "wk52_low": 17.86,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ABCB",
+      "name": "Ameris Bancorp",
+      "mcap": 6.08,
+      "price": 89.47,
+      "basis": 89.29,
+      "bxt_today": 6.68,
+      "bxt_yest": -18.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 93.22,
+      "atl": 3.36,
+      "pct_to_ath": 4.2,
+      "pct_to_atl": 2566.3,
+      "wk52_high": 93.22,
+      "wk52_low": 65.47,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -8706,7 +8706,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-05T04:20:25.717265+00:00",
+    "compared_to": "2026-08-05T07:07:15.083791+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
