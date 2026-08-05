@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T20:19:49.621204+00:00",
+  "updated_at": "2026-08-05T21:38:54.822338+00:00",
   "count": 63,
   "list": [
     {
@@ -42,11 +42,11 @@
       "sym": "DELL",
       "name": "Dell Technologies Inc. Class C",
       "mcap": 307.94,
-      "price": 462.8,
+      "price": 462.7,
       "ath": 485.7,
       "atl": 11.79,
-      "pct_to_ath": 4.9,
-      "pct_to_atl": 3824.5,
+      "pct_to_ath": 5.0,
+      "pct_to_atl": 3823.6,
       "wk52_high": 485.7,
       "wk52_low": 110.22,
       "ath_30d": 2,
@@ -214,7 +214,7 @@
       "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 305.0,
-      "last_low": 291.0,
+      "last_low": 291.05,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -439,15 +439,15 @@
       "name": "ATI Inc.",
       "mcap": 27.7,
       "price": 205.11,
-      "ath": 208.71,
+      "ath": 208.57,
       "atl": 2.1,
-      "pct_to_ath": 1.8,
+      "pct_to_ath": 1.7,
       "pct_to_atl": 9667.1,
-      "wk52_high": 208.71,
+      "wk52_high": 208.57,
       "wk52_low": 70.42,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 208.71,
+      "last_high": 208.57,
       "last_low": 202.69,
       "made_ath_today": true,
       "made_atl_today": false
@@ -4939,11 +4939,5 @@
       "first_seen_at": "2026-08-05T20:19:49.621204+00:00"
     }
   ],
-  "added_this_run": [
-    "AVT",
-    "CRNX",
-    "MTRN",
-    "RTX",
-    "THC"
-  ]
+  "added_this_run": []
 }
