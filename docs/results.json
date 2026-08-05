@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T04:20:25.717265+00:00",
+  "updated_at": "2026-08-05T07:07:15.083791+00:00",
   "timeframe": "daily",
-  "scan_seconds": 21.37,
+  "scan_seconds": 12.35,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -6449,29 +6449,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4.81,
-      "price": 26.66,
-      "basis": 26.88,
-      "bxt_today": 9.89,
-      "bxt_yest": -11.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 53.46,
-      "atl": 7.45,
-      "pct_to_ath": 100.5,
-      "pct_to_atl": 257.9,
-      "wk52_high": 29.77,
-      "wk52_low": 14.91,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SAIC",
       "name": "Science Applications International Corporation",
       "mcap": 4.81,
@@ -6491,6 +6468,29 @@
       "pct_to_atl": 298.7,
       "wk52_high": 123.41,
       "wk52_low": 81.08,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4.81,
+      "price": 26.66,
+      "basis": 26.88,
+      "bxt_today": 9.89,
+      "bxt_yest": -11.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 53.46,
+      "atl": 7.45,
+      "pct_to_ath": 100.5,
+      "pct_to_atl": 257.9,
+      "wk52_high": 29.77,
+      "wk52_low": 14.91,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -8706,54 +8706,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-05T01:02:17.719401+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "QBTS",
-        "name": "D-Wave Quantum Inc. Common Shares",
-        "mcap": 7.44,
-        "price": 21.83,
-        "basis": 20.37,
-        "bxt_today": 41.53,
-        "ath": 46.75,
-        "pct_to_ath": 114.2,
-        "wk52_high": 46.75,
-        "wk52_low": 12.75,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-05T04:20:25.717265+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "REZI",
-        "name": "Resideo Technologies, Inc.",
-        "mcap": 5.58,
-        "price": 26.17,
-        "basis": 33.2,
-        "bxt_today": -36.8,
-        "ath": 45.29,
-        "pct_to_ath": 73.1,
-        "wk52_high": 45.29,
-        "wk52_low": 25.1,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "REZI",
-        "name": "Resideo Technologies, Inc.",
-        "mcap": 5.58,
-        "price": 26.17,
-        "basis": 23.34,
-        "bxt_today": 10.59,
-        "ath": 31.52,
-        "pct_to_ath": 20.4,
-        "wk52_high": 31.52,
-        "wk52_low": 17.47,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
