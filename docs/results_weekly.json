@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T22:41:26.439035+00:00",
+  "updated_at": "2026-08-05T23:39:13.362501+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.95,
+  "scan_seconds": 9.01,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -1247,29 +1247,6 @@
       "pct_to_atl": 2184.4,
       "wk52_high": 39.11,
       "wk52_low": 16.98,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 27.14,
-      "price": 513.58,
-      "basis": 494.69,
-      "bxt_today": 9.12,
-      "bxt_yest": -5.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 10.1,
-      "pct_to_atl": 18272.8,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3692,13 +3669,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-05T21:38:21.827048+00:00",
+    "compared_to": "2026-08-05T22:41:26.439035+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "HUBB",
+        "name": "Hubbell Inc",
+        "mcap": 27.14,
+        "price": 513.58,
+        "basis": 494.69,
+        "bxt_today": 9.12,
+        "ath": 565.5,
+        "pct_to_ath": 10.1,
+        "wk52_high": 565.5,
+        "wk52_low": 403.82,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
