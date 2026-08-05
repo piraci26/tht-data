@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-08-05T13:26:52.425606+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-08-05T15:38:36.622382+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 13.22,
+      "ath": 44.54,
+      "atl": 13.16,
+      "pct_to_ath": 236.9,
+      "pct_to_atl": 0.4,
+      "wk52_high": 44.54,
+      "wk52_low": 13.16,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 15.17,
+      "last_low": 13.16,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -722,21 +741,23 @@
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 14.73,
+      "price": 13.22,
       "ath": 44.54,
-      "atl": 13.88,
-      "pct_to_ath": 202.4,
-      "pct_to_atl": 6.1,
+      "atl": 13.16,
+      "pct_to_ath": 236.9,
+      "pct_to_atl": 0.4,
       "wk52_high": 44.54,
-      "wk52_low": 13.88,
+      "wk52_low": 13.16,
       "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 15.15,
-      "last_low": 13.88,
+      "atl_30d": 5,
+      "last_high": 15.17,
+      "last_low": 13.16,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-08-04T10:04:27.335497+00:00"
+      "first_seen_at": "2026-08-05T15:38:36.622382+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "YSS"
+  ]
 }
