@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-04T23:36:57.992466+00:00",
+  "updated_at": "2026-08-05T01:02:51.637097+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.61,
+  "scan_seconds": 12.6,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3254,29 +3254,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NWE",
-      "name": "NorthWestern Energy Group, Inc.",
-      "mcap": 4.47,
-      "price": 69.86,
-      "basis": 58.04,
-      "bxt_today": -3.04,
-      "bxt_yest": 5.83,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 80.52,
-      "atl": 16.47,
-      "pct_to_ath": 15.3,
-      "pct_to_atl": 324.2,
-      "wk52_high": 75.18,
-      "wk52_low": 53.55,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "TCBI",
       "name": "Texas Capital Bancshares, Inc.",
       "mcap": 4.47,
@@ -3296,6 +3273,29 @@
       "pct_to_atl": 1449.9,
       "wk52_high": 108.92,
       "wk52_low": 75.41,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "NWE",
+      "name": "NorthWestern Energy Group, Inc.",
+      "mcap": 4.47,
+      "price": 69.86,
+      "basis": 58.04,
+      "bxt_today": -3.04,
+      "bxt_yest": 5.83,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 80.52,
+      "atl": 16.47,
+      "pct_to_ath": 15.3,
+      "pct_to_atl": 324.2,
+      "wk52_high": 75.18,
+      "wk52_low": 53.55,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3393,7 +3393,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-04T22:33:26.897148+00:00",
+    "compared_to": "2026-08-04T23:36:57.992466+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
