@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-06T07:17:12.878694+00:00",
-  "count": 63,
+  "updated_at": "2026-08-06T10:03:17.808232+00:00",
+  "count": 62,
   "list": [
     {
       "sym": "BAC",
@@ -287,24 +287,6 @@
       "atl_30d": 0,
       "last_high": 257.95,
       "last_low": 252.8,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "EA",
-      "name": "Electronic Arts Inc.",
-      "mcap": 52.93,
-      "price": 209.7,
-      "ath": 209.98,
-      "atl": 0.38,
-      "pct_to_ath": 0.1,
-      "pct_to_atl": 54678.7,
-      "wk52_high": 210.2,
-      "wk52_low": 156.37,
-      "ath_30d": 16,
-      "atl_30d": 0,
-      "last_high": 210.2,
-      "last_low": 209.7,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4939,7 +4921,5 @@
       "first_seen_at": "2026-08-06T07:17:12.878694+00:00"
     }
   ],
-  "added_this_run": [
-    "EA"
-  ]
+  "added_this_run": []
 }
