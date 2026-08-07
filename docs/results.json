@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T11:27:40.718658+00:00",
+  "updated_at": "2026-08-07T12:10:39.869726+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.52,
+  "scan_seconds": 10.65,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4726,29 +4726,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NCLH",
-      "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
-      "mcap": 9.0,
-      "price": 19.37,
-      "basis": 19.88,
-      "bxt_today": -0.13,
-      "bxt_yest": 9.48,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 1,
-      "bxt_streak": 2,
-      "ath": 64.27,
-      "atl": 7.03,
-      "pct_to_ath": 231.8,
-      "pct_to_atl": 175.5,
-      "wk52_high": 27.18,
-      "wk52_low": 14.53,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ALV",
       "name": "Autoliv, Inc.",
       "mcap": 9.0,
@@ -4768,6 +4745,29 @@
       "pct_to_atl": 1294.6,
       "wk52_high": 132.17,
       "wk52_low": 99.16,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "NCLH",
+      "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
+      "mcap": 9.0,
+      "price": 19.37,
+      "basis": 19.88,
+      "bxt_today": -0.13,
+      "bxt_yest": 9.48,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 1,
+      "bxt_streak": 2,
+      "ath": 64.27,
+      "atl": 7.03,
+      "pct_to_ath": 231.8,
+      "pct_to_atl": 175.5,
+      "wk52_high": 27.18,
+      "wk52_low": 14.53,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5854,7 +5854,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-07T10:34:56.363465+00:00",
+    "compared_to": "2026-08-07T11:27:40.718658+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
