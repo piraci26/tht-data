@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T20:53:22.231153+00:00",
+  "updated_at": "2026-08-07T21:31:19.045678+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.48,
+  "scan_seconds": 9.28,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4313,7 +4313,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-07T20:03:27.542117+00:00",
+    "compared_to": "2026-08-07T20:53:22.231153+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -4321,20 +4321,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "WTM",
-        "name": "White Mountains Insurance Group, Ltd.",
-        "mcap": 5.4,
-        "price": 2147.68,
-        "basis": 2143.62,
-        "bxt_today": -0.03,
-        "ath": 2333.0,
-        "pct_to_ath": 8.6,
-        "wk52_high": 2333.0,
-        "wk52_low": 1648.0,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

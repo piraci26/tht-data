@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T20:53:05.608080+00:00",
+  "updated_at": "2026-08-07T21:31:06.235659+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.12,
+  "scan_seconds": 11.23,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -78,7 +78,7 @@
       "name": "Vertex Pharmaceuticals Incorporated",
       "mcap": 125.48,
       "price": 496.07,
-      "basis": 487.4,
+      "basis": 487.41,
       "bxt_today": 25.72,
       "bxt_yest": 10.02,
       "fvb_g": true,
@@ -193,7 +193,7 @@
       "name": "Rocket Lab Corporation",
       "mcap": 50.67,
       "price": 82.83,
-      "basis": 78.4,
+      "basis": 78.41,
       "bxt_today": 45.32,
       "bxt_yest": 43.31,
       "fvb_g": true,
@@ -239,7 +239,7 @@
       "name": "Credo Technology Group Holding Ltd Ordinary Shares",
       "mcap": 45.78,
       "price": 249.89,
-      "basis": 234.95,
+      "basis": 234.93,
       "bxt_today": 35.01,
       "bxt_yest": 29.27,
       "fvb_g": true,
@@ -5417,7 +5417,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-07T20:03:02.881883+00:00",
+    "compared_to": "2026-08-07T20:53:05.608080+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -5425,20 +5425,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "M",
-        "name": "Macy's Inc",
-        "mcap": 5.96,
-        "price": 25.4,
-        "basis": 24.19,
-        "bxt_today": -0.06,
-        "ath": 73.61,
-        "pct_to_ath": 189.8,
-        "wk52_high": 26.59,
-        "wk52_low": 11.89,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

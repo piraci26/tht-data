@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T20:53:35.771418+00:00",
+  "updated_at": "2026-08-07T21:31:30.066382+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.43,
+  "scan_seconds": 8.67,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2591,7 +2591,7 @@
       "name": "Amkor Technology, Inc.",
       "mcap": 13.63,
       "price": 55.27,
-      "basis": 36.25,
+      "basis": 36.24,
       "bxt_today": -5.33,
       "bxt_yest": 1.54,
       "fvb_g": false,
@@ -3347,41 +3347,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-07T20:03:50.318598+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "VEEV",
-        "name": "Veeva Systems Inc.",
-        "mcap": 37.04,
-        "price": 230.47,
-        "basis": 221.28,
-        "bxt_today": 13.44,
-        "ath": 343.96,
-        "pct_to_ath": 49.2,
-        "wk52_high": 310.5,
-        "wk52_low": 148.05,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-07T20:53:35.771418+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "YUMC",
-        "name": "Yum China Holdings, Inc.",
-        "mcap": 16.35,
-        "price": 47.74,
-        "basis": 44.06,
-        "bxt_today": 0.03,
-        "ath": 69.67,
-        "pct_to_ath": 45.9,
-        "wk52_high": 58.39,
-        "wk52_low": 40.15,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
