@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07T10:34:56.363465+00:00",
+  "updated_at": "2026-08-07T11:27:40.718658+00:00",
   "timeframe": "daily",
-  "scan_seconds": 23.77,
+  "scan_seconds": 12.52,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4956,29 +4956,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "FNB",
-      "name": "F.N.B. Corporation",
-      "mcap": 6.7,
-      "price": 18.97,
-      "basis": 18.99,
-      "bxt_today": -5.26,
-      "bxt_yest": 15.62,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 35.48,
-      "atl": 5.05,
-      "pct_to_ath": 87.0,
-      "pct_to_atl": 275.6,
-      "wk52_high": 19.59,
-      "wk52_low": 14.46,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GBCI",
       "name": "Glacier Bancorp, Inc.",
       "mcap": 6.7,
@@ -4998,6 +4975,29 @@
       "pct_to_atl": 13469.1,
       "wk52_high": 54.58,
       "wk52_low": 39.9,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "FNB",
+      "name": "F.N.B. Corporation",
+      "mcap": 6.7,
+      "price": 18.97,
+      "basis": 18.99,
+      "bxt_today": -5.26,
+      "bxt_yest": 15.62,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 35.48,
+      "atl": 5.05,
+      "pct_to_ath": 87.0,
+      "pct_to_atl": 275.6,
+      "wk52_high": 19.59,
+      "wk52_low": 14.46,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5854,7 +5854,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-07T09:42:09.229726+00:00",
+    "compared_to": "2026-08-07T10:34:56.363465+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
