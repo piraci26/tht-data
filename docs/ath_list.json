@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-08T18:18:30.265927+00:00",
+  "updated_at": "2026-08-08T19:05:19.076803+00:00",
   "count": 20,
   "list": [
     {
       "sym": "NET",
       "name": "Cloudflare, Inc.",
-      "mcap": 105.5,
+      "mcap": 106.92,
       "price": 300.27,
       "ath": 324.73,
       "atl": 14.5,
@@ -23,7 +23,7 @@
     {
       "sym": "URI",
       "name": "United Rentals, Inc.",
-      "mcap": 72.74,
+      "mcap": 72.38,
       "price": 1162.84,
       "ath": 1179.18,
       "atl": 2.52,
@@ -41,7 +41,7 @@
     {
       "sym": "GRMN",
       "name": "Garmin Ltd. (Switzerland)",
-      "mcap": 59.86,
+      "mcap": 59.96,
       "price": 310.89,
       "ath": 312.7,
       "atl": 6.35,
@@ -59,7 +59,7 @@
     {
       "sym": "FAST",
       "name": "Fastenal Company",
-      "mcap": 59.29,
+      "mcap": 59.49,
       "price": 51.84,
       "ath": 51.9,
       "atl": 0.03,
@@ -77,7 +77,7 @@
     {
       "sym": "NTRA",
       "name": "Natera, Inc.",
-      "mcap": 45.54,
+      "mcap": 46.43,
       "price": 322.1,
       "ath": 323.01,
       "atl": 6.52,
@@ -95,7 +95,7 @@
     {
       "sym": "RVMD",
       "name": "Revolution Medicines, Inc.",
-      "mcap": 43.5,
+      "mcap": 43.97,
       "price": 205.15,
       "ath": 205.9,
       "atl": 14.08,
@@ -113,7 +113,7 @@
     {
       "sym": "KB",
       "name": "KB Financial Group Inc",
-      "mcap": 43.29,
+      "mcap": 43.54,
       "price": 124.01,
       "ath": 125.66,
       "atl": 14.7,
@@ -131,7 +131,7 @@
     {
       "sym": "SN",
       "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 26.41,
+      "mcap": 26.25,
       "price": 185.52,
       "ath": 187.63,
       "atl": 25.84,
@@ -149,7 +149,7 @@
     {
       "sym": "LH",
       "name": "Labcorp Holdings Inc.",
-      "mcap": 25.86,
+      "mcap": 25.88,
       "price": 319.17,
       "ath": 319.94,
       "atl": 2.42,
@@ -167,7 +167,7 @@
     {
       "sym": "RGA",
       "name": "Reinsurance Group of America, Incorporated",
-      "mcap": 16.1,
+      "mcap": 16.08,
       "price": 246.33,
       "ath": 248.13,
       "atl": 21.27,
