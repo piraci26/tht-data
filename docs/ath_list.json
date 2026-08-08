@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-08-08T00:02:49.189609+00:00",
-  "count": 21,
+  "updated_at": "2026-08-08T02:14:42.269398+00:00",
+  "count": 20,
   "list": [
-    {
-      "sym": "NET",
-      "name": "Cloudflare, Inc.",
-      "mcap": 105.5,
-      "price": 300.27,
-      "ath": 324.73,
-      "atl": 14.5,
-      "pct_to_ath": 8.1,
-      "pct_to_atl": 1970.8,
-      "wk52_high": 324.73,
-      "wk52_low": 158.83,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 324.73,
-      "last_low": 295.95,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
     {
       "sym": "URI",
       "name": "United Rentals, Inc.",
