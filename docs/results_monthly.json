@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-09T17:18:56.873279+00:00",
+  "updated_at": "2026-08-09T17:53:19.709684+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 20.12,
+  "scan_seconds": 8.62,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1209,7 +1209,7 @@
       "name": "RadNet, Inc.",
       "mcap": 5.16,
       "price": 72.39,
-      "basis": 61.55,
+      "basis": 61.56,
       "bxt_today": 6.15,
       "bxt_yest": -2.41,
       "fvb_g": false,
@@ -1970,7 +1970,7 @@
       "name": "Sanmina Corporation",
       "mcap": 10.87,
       "price": 202.73,
-      "basis": 115.09,
+      "basis": 115.07,
       "bxt_today": -2.73,
       "bxt_yest": 4.36,
       "fvb_g": false,
@@ -2634,7 +2634,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-09T16:48:53.676964+00:00",
+    "compared_to": "2026-08-09T17:18:56.873279+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

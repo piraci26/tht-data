@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-09T17:18:33.591145+00:00",
+  "updated_at": "2026-08-09T17:53:09.302311+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 19.4,
+  "scan_seconds": 8.56,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -1625,7 +1625,7 @@
       "name": "Illumina, Inc.",
       "mcap": 28.38,
       "price": 187.96,
-      "basis": 148.69,
+      "basis": 148.68,
       "bxt_today": -3.35,
       "bxt_yest": 12.87,
       "fvb_g": false,
@@ -2404,7 +2404,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-09T16:48:40.049752+00:00",
+    "compared_to": "2026-08-09T17:18:33.591145+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
