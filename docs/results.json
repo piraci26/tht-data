@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T20:54:41.319310+00:00",
+  "updated_at": "2026-08-10T21:37:57.408046+00:00",
   "timeframe": "daily",
-  "scan_seconds": 23.36,
+  "scan_seconds": 12.32,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -55,7 +55,7 @@
       "name": "Datadog, Inc.",
       "mcap": 92.23,
       "price": 260.78,
-      "basis": 255.2,
+      "basis": 255.21,
       "bxt_today": -15.97,
       "bxt_yest": -25.01,
       "fvb_g": true,
@@ -3051,7 +3051,7 @@
       "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
       "mcap": 184.62,
       "price": 800.99,
-      "basis": 865.58,
+      "basis": 865.6,
       "bxt_today": -2.25,
       "bxt_yest": 7.74,
       "fvb_g": false,
@@ -3465,7 +3465,7 @@
       "name": "VeriSign, Inc.",
       "mcap": 26.71,
       "price": 293.34,
-      "basis": 272.6,
+      "basis": 272.61,
       "bxt_today": -1.53,
       "bxt_yest": 7.52,
       "fvb_g": false,
@@ -4842,175 +4842,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T20:00:08.774841+00:00",
+    "compared_to": "2026-08-10T20:54:41.319310+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "TER",
-        "name": "Teradyne, Inc.",
-        "mcap": 57.71,
-        "price": 365.1,
-        "basis": 376.11,
-        "bxt_today": 11.79,
-        "ath": 487.91,
-        "pct_to_ath": 33.6,
-        "wk52_high": 487.91,
-        "wk52_low": 104.58,
-        "ath_30d": 1
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "CUBE",
-        "name": "CubeSmart Common Shares",
-        "mcap": 9.1,
-        "price": 40.98,
-        "basis": 41.17,
-        "bxt_today": -34.01,
-        "ath": 57.34,
-        "pct_to_ath": 39.9,
-        "wk52_high": 43.26,
-        "wk52_low": 35.09,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NWE",
-        "name": "NorthWestern Energy Group, Inc.",
-        "mcap": 4.47,
-        "price": 71.15,
-        "basis": 71.47,
-        "bxt_today": 16.54,
-        "ath": 80.52,
-        "pct_to_ath": 13.2,
-        "wk52_high": 75.18,
-        "wk52_low": 54.89,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "NKE",
-        "name": "Nike, Inc.",
-        "mcap": 62.13,
-        "price": 42.11,
-        "basis": 42.51,
-        "bxt_today": 0.36,
-        "ath": 179.1,
-        "pct_to_ath": 325.3,
-        "wk52_high": 80.17,
-        "wk52_low": 40.0,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "NVS",
-        "name": "Novartis AG",
-        "mcap": 297.13,
-        "price": 156.9,
-        "basis": 155.09,
-        "bxt_today": 0.49,
-        "ath": 170.46,
-        "pct_to_ath": 8.6,
-        "wk52_high": 170.46,
-        "wk52_low": 115.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CWST",
-        "name": "Casella Waste Systems, Inc.",
-        "mcap": 6.16,
-        "price": 90.03,
-        "basis": 93.29,
-        "bxt_today": 0.25,
-        "ath": 121.24,
-        "pct_to_ath": 34.7,
-        "wk52_high": 107.96,
-        "wk52_low": 74.05,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "SBUX",
-        "name": "Starbucks Corporation",
-        "mcap": 119.02,
-        "price": 104.59,
-        "basis": 104.75,
-        "bxt_today": -0.3,
-        "ath": 126.32,
-        "pct_to_ath": 20.8,
-        "wk52_high": 109.23,
-        "wk52_low": 77.99,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KEY",
-        "name": "KeyCorp",
-        "mcap": 24.28,
-        "price": 22.67,
-        "basis": 23.04,
-        "bxt_today": -0.02,
-        "ath": 44.88,
-        "pct_to_ath": 97.9,
-        "wk52_high": 24.07,
-        "wk52_low": 16.47,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NWSA",
-        "name": "News Corporation",
-        "mcap": 15.43,
-        "price": 28.47,
-        "basis": 27.32,
-        "bxt_today": -0.09,
-        "ath": 31.61,
-        "pct_to_ath": 11.0,
-        "wk52_high": 31.61,
-        "wk52_low": 22.2,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MAS",
-        "name": "Masco Corporation",
-        "mcap": 14.81,
-        "price": 74.62,
-        "basis": 77.8,
-        "bxt_today": -0.24,
-        "ath": 86.7,
-        "pct_to_ath": 16.2,
-        "wk52_high": 83.64,
-        "wk52_low": 58.16,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AIR",
-        "name": "AAR Corp.",
-        "mcap": 5.39,
-        "price": 142.3,
-        "basis": 138.13,
-        "bxt_today": -0.14,
-        "ath": 154.0,
-        "pct_to_ath": 8.2,
-        "wk52_high": 154.0,
-        "wk52_low": 71.67,
-        "ath_30d": 5
-      },
-      {
-        "sym": "MIR",
-        "name": "Mirion Technologies, Inc.",
-        "mcap": 4.16,
-        "price": 15.04,
-        "basis": 16.52,
-        "bxt_today": -0.42,
-        "ath": 30.28,
-        "pct_to_ath": 101.3,
-        "wk52_high": 30.28,
-        "wk52_low": 14.11,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

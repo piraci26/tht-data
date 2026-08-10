@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T20:55:09.846732+00:00",
+  "updated_at": "2026-08-10T21:38:11.343859+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 22.72,
+  "scan_seconds": 10.57,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -3212,7 +3212,7 @@
       "name": "Coca-Cola Consolidated, Inc.",
       "mcap": 12.48,
       "price": 185.55,
-      "basis": 180.81,
+      "basis": 180.8,
       "bxt_today": -2.14,
       "bxt_yest": 5.6,
       "fvb_g": false,
@@ -4152,55 +4152,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T20:00:22.335801+00:00",
+    "compared_to": "2026-08-10T20:55:09.846732+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "ETR",
-        "name": "Entergy Corporation",
-        "mcap": 49.29,
-        "price": 105.65,
-        "basis": 107.46,
-        "bxt_today": -40.39,
-        "ath": 118.45,
-        "pct_to_ath": 12.1,
-        "wk52_high": 118.45,
-        "wk52_low": 86.4,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "PDI",
-        "name": "PIMCO Dynamic Income Fund",
-        "mcap": 7.52,
-        "price": 16.15,
-        "basis": 17.24,
-        "bxt_today": 0.56,
-        "ath": 34.11,
-        "pct_to_ath": 111.2,
-        "wk52_high": 20.17,
-        "wk52_low": 15.82,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "WBD",
-        "name": "Warner Bros. Discovery, Inc. Series A",
-        "mcap": 67.58,
-        "price": 26.88,
-        "basis": 27.32,
-        "bxt_today": 0.01,
-        "ath": 78.14,
-        "pct_to_ath": 190.7,
-        "wk52_high": 30.0,
-        "wk52_low": 10.76,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

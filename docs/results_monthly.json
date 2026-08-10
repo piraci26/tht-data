@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T20:55:36.211464+00:00",
+  "updated_at": "2026-08-10T21:38:23.244977+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 21.51,
+  "scan_seconds": 9.91,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -749,7 +749,7 @@
       "name": "Axon Enterprise, Inc.",
       "mcap": 47.99,
       "price": 596.33,
-      "basis": 510.98,
+      "basis": 510.99,
       "bxt_today": 4.37,
       "bxt_yest": -4.85,
       "fvb_g": false,
@@ -3347,26 +3347,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T20:00:34.054038+00:00",
+    "compared_to": "2026-08-10T20:55:36.211464+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "SMCI",
-        "name": "Super Micro Computer, Inc.",
-        "mcap": 20.51,
-        "price": 31.46,
-        "basis": 46.37,
-        "bxt_today": 0.02,
-        "ath": 122.9,
-        "pct_to_ath": 290.7,
-        "wk52_high": 58.78,
-        "wk52_low": 19.48,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
