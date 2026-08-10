@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T23:00:51.513003+00:00",
+  "updated_at": "2026-08-10T23:44:38.952880+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.39,
+  "scan_seconds": 13.11,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -1297,29 +1297,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SCCO",
-      "name": "Southern Copper Corporation",
-      "mcap": 167.69,
-      "price": 200.11,
-      "basis": 177.27,
-      "bxt_today": 4.65,
-      "bxt_yest": -27.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 221.67,
-      "atl": 1.29,
-      "pct_to_ath": 10.8,
-      "pct_to_atl": 15452.8,
-      "wk52_high": 221.67,
-      "wk52_low": 85.51,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "RIO",
       "name": "Rio Tinto Plc",
       "mcap": 165.42,
@@ -1385,6 +1362,29 @@
       "pct_to_atl": 17330.0,
       "wk52_high": 49.57,
       "wk52_low": 37.93,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MNST",
+      "name": "Monster Beverage Corporation",
+      "mcap": 89.28,
+      "price": 91.43,
+      "basis": 43.54,
+      "bxt_today": 39.48,
+      "bxt_yest": -24.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 100.34,
+      "atl": 0.01,
+      "pct_to_ath": 9.7,
+      "pct_to_atl": 1477676.0,
+      "wk52_high": 92.85,
+      "wk52_low": 30.49,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2676,29 +2676,6 @@
       "wk52_high": 248.13,
       "wk52_low": 194.11,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "MNST",
-      "name": "Monster Beverage Corporation",
-      "mcap": 89.28,
-      "price": 91.43,
-      "basis": 82.52,
-      "bxt_today": -5.49,
-      "bxt_yest": 34.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 100.34,
-      "atl": 0.01,
-      "pct_to_ath": 9.7,
-      "pct_to_atl": 1477676.0,
-      "wk52_high": 100.34,
-      "wk52_low": 58.09,
-      "ath_30d": 15,
       "atl_30d": 0
     },
     {
@@ -4152,14 +4129,56 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T22:18:52.744489+00:00",
+    "compared_to": "2026-08-10T23:00:51.513003+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_added": [
+      {
+        "sym": "MNST",
+        "name": "Monster Beverage Corporation",
+        "mcap": 89.28,
+        "price": 91.43,
+        "basis": 43.54,
+        "bxt_today": 39.48,
+        "ath": 100.34,
+        "pct_to_ath": 9.7,
+        "wk52_high": 92.85,
+        "wk52_low": 30.49,
+        "ath_30d": 0
+      }
+    ],
+    "bxt_green_removed": [
+      {
+        "sym": "SCCO",
+        "name": "Southern Copper Corporation",
+        "mcap": 167.69,
+        "price": 200.11,
+        "basis": 177.27,
+        "bxt_today": 4.65,
+        "ath": 221.67,
+        "pct_to_ath": 10.8,
+        "wk52_high": 221.67,
+        "wk52_low": 85.51,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "MNST",
+        "name": "Monster Beverage Corporation",
+        "mcap": 89.28,
+        "price": 91.43,
+        "basis": 82.52,
+        "bxt_today": -5.49,
+        "ath": 100.34,
+        "pct_to_ath": 9.7,
+        "wk52_high": 100.34,
+        "wk52_low": 58.09,
+        "ath_30d": 15
+      }
+    ]
   }
 }
