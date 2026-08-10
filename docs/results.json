@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T06:02:05.690535+00:00",
+  "updated_at": "2026-08-10T07:59:24.499343+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.43,
+  "scan_seconds": 26.51,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -3806,6 +3806,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "MNST",
+      "name": "Monster Beverage Corporation",
+      "mcap": 88.51,
+      "price": 97.5,
+      "basis": 94.05,
+      "bxt_today": -13.04,
+      "bxt_yest": 3.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 100.34,
+      "atl": 0.01,
+      "pct_to_ath": 2.9,
+      "pct_to_atl": 1575785.0,
+      "wk52_high": 100.34,
+      "wk52_low": 58.09,
+      "ath_30d": 15,
+      "atl_30d": 0
+    },
+    {
       "sym": "ROST",
       "name": "Ross Stores, Inc.",
       "mcap": 81.87,
@@ -5417,14 +5440,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T04:41:46.064624+00:00",
+    "compared_to": "2026-08-10T06:02:05.690535+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
+    "bxt_red_added": [
+      {
+        "sym": "MNST",
+        "name": "Monster Beverage Corporation",
+        "mcap": 88.51,
+        "price": 97.5,
+        "basis": 94.05,
+        "bxt_today": -13.04,
+        "ath": 100.34,
+        "pct_to_ath": 2.9,
+        "wk52_high": 100.34,
+        "wk52_low": 58.09,
+        "ath_30d": 15
+      }
+    ],
     "bxt_red_removed": []
   }
 }

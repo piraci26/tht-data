@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T06:02:16.740233+00:00",
+  "updated_at": "2026-08-10T07:59:52.322282+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.78,
+  "scan_seconds": 21.65,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -327,6 +327,29 @@
       "pct_to_atl": 6059.7,
       "wk52_high": 171.48,
       "wk52_low": 133.73,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SCCO",
+      "name": "Southern Copper Corporation",
+      "mcap": 166.08,
+      "price": 199.06,
+      "basis": 177.22,
+      "bxt_today": 3.83,
+      "bxt_yest": -27.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 221.67,
+      "atl": 1.29,
+      "pct_to_ath": 11.4,
+      "pct_to_atl": 15371.2,
+      "wk52_high": 221.67,
+      "wk52_low": 85.51,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1414,6 +1437,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "MNST",
+      "name": "Monster Beverage Corporation",
+      "mcap": 88.51,
+      "price": 90.36,
+      "basis": 82.55,
+      "bxt_today": -8.25,
+      "bxt_yest": 34.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 100.34,
+      "atl": 0.01,
+      "pct_to_ath": 11.0,
+      "pct_to_atl": 1460381.7,
+      "wk52_high": 100.34,
+      "wk52_low": 58.09,
+      "ath_30d": 15,
+      "atl_30d": 0
+    },
+    {
       "sym": "CNI",
       "name": "Canadian National Railway Company",
       "mcap": 76.58,
@@ -2404,14 +2450,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-10T04:41:59.103721+00:00",
+    "compared_to": "2026-08-10T06:02:16.740233+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "bxt_green_added": [
+      {
+        "sym": "SCCO",
+        "name": "Southern Copper Corporation",
+        "mcap": 166.08,
+        "price": 199.06,
+        "basis": 177.22,
+        "bxt_today": 3.83,
+        "ath": 221.67,
+        "pct_to_ath": 11.4,
+        "wk52_high": 221.67,
+        "wk52_low": 85.51,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
+    "bxt_red_added": [
+      {
+        "sym": "MNST",
+        "name": "Monster Beverage Corporation",
+        "mcap": 88.51,
+        "price": 90.36,
+        "basis": 82.55,
+        "bxt_today": -8.25,
+        "ath": 100.34,
+        "pct_to_ath": 11.0,
+        "wk52_high": 100.34,
+        "wk52_low": 58.09,
+        "ath_30d": 15
+      }
+    ],
     "bxt_red_removed": []
   }
 }
