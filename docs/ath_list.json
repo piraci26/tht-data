@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-10T04:42:29.773681+00:00",
-  "count": 20,
+  "updated_at": "2026-08-10T06:02:41.889476+00:00",
+  "count": 19,
   "list": [
     {
       "sym": "NET",
@@ -215,24 +215,6 @@
       "atl_30d": 0,
       "last_high": 103.3,
       "last_low": 90.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CRNX",
-      "name": "Crinetics Pharmaceuticals, Inc.",
-      "mcap": 8.87,
-      "price": 84.08,
-      "ath": 84.3,
-      "atl": 10.63,
-      "pct_to_ath": 0.3,
-      "pct_to_atl": 691.0,
-      "wk52_high": 84.3,
-      "wk52_low": 25.83,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 84.3,
-      "last_low": 83.86,
       "made_ath_today": true,
       "made_atl_today": false
     },
