@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T04:08:04.074411+00:00",
+  "updated_at": "2026-08-11T05:21:10.952953+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.22,
+  "scan_seconds": 10.69,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4106,27 +4106,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-11T02:49:46.023119+00:00",
+    "compared_to": "2026-08-11T04:08:04.074411+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "MNST",
-        "name": "Monster Beverage Corporation",
-        "mcap": 89.28,
-        "price": 91.43,
-        "basis": 43.54,
-        "bxt_today": 39.48,
-        "ath": 92.85,
-        "pct_to_ath": 1.6,
-        "wk52_high": 92.85,
-        "wk52_low": 30.49,
-        "ath_30d": 6
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

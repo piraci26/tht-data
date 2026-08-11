@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T04:07:50.310717+00:00",
+  "updated_at": "2026-08-11T05:20:57.007197+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.67,
+  "scan_seconds": 10.96,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -4796,96 +4796,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-11T02:49:25.246431+00:00",
+    "compared_to": "2026-08-11T04:07:50.310717+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "MNST",
-        "name": "Monster Beverage Corporation",
-        "mcap": 89.28,
-        "price": 91.43,
-        "basis": 49.38,
-        "bxt_today": 43.55,
-        "ath": 92.85,
-        "pct_to_ath": 1.6,
-        "wk52_high": 92.85,
-        "wk52_low": 30.49,
-        "ath_30d": 6
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "QBTS",
-        "name": "D-Wave Quantum Inc. Common Shares",
-        "mcap": 7.44,
-        "price": 16.21,
-        "basis": 19.86,
-        "bxt_today": -2.45,
-        "ath": 46.75,
-        "pct_to_ath": 188.4,
-        "wk52_high": 46.75,
-        "wk52_low": 12.75,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "MNST",
-        "name": "Monster Beverage Corporation",
-        "mcap": 89.28,
-        "price": 91.43,
-        "basis": 49.38,
-        "bxt_today": 43.55,
-        "ath": 92.85,
-        "pct_to_ath": 1.6,
-        "wk52_high": 92.85,
-        "wk52_low": 30.49,
-        "ath_30d": 6
-      },
-      {
-        "sym": "RUSHB",
-        "name": "Rush Enterprises, Inc.",
-        "mcap": 5.89,
-        "price": 77.98,
-        "basis": 51.76,
-        "bxt_today": 44.82,
-        "ath": 79.4,
-        "pct_to_ath": 1.8,
-        "wk52_high": 79.4,
-        "wk52_low": 31.8,
-        "ath_30d": 3
-      },
-      {
-        "sym": "RUSHA",
-        "name": "Rush Enterprises, Inc. Cl A",
-        "mcap": 5.87,
-        "price": 80.2,
-        "basis": 51.7,
-        "bxt_today": 41.93,
-        "ath": 80.78,
-        "pct_to_ath": 0.7,
-        "wk52_high": 80.78,
-        "wk52_low": 30.45,
-        "ath_30d": 6
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "QBTS",
-        "name": "D-Wave Quantum Inc. Common Shares",
-        "mcap": 7.44,
-        "price": 16.21,
-        "basis": 19.86,
-        "bxt_today": -2.45,
-        "ath": 46.75,
-        "pct_to_ath": 188.4,
-        "wk52_high": 46.75,
-        "wk52_low": 12.75,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
