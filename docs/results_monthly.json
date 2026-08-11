@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T02:50:04.898664+00:00",
+  "updated_at": "2026-08-11T04:08:16.938182+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.69,
+  "scan_seconds": 9.74,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -216,7 +216,7 @@
       "name": "Bentley Systems, Incorporated",
       "mcap": 9.62,
       "price": 35.31,
-      "basis": 34.41,
+      "basis": 34.4,
       "bxt_today": 43.82,
       "bxt_yest": 42.56,
       "fvb_g": true,
@@ -321,7 +321,7 @@
       "atl": 4.22,
       "pct_to_ath": 184.1,
       "pct_to_atl": 892.5,
-      "wk52_high": 41.89,
+      "wk52_high": 41.91,
       "wk52_low": 15.94,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1132,6 +1132,29 @@
       "pct_to_atl": 534.5,
       "wk52_high": 8.56,
       "wk52_low": 3.6,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "EQX",
+      "name": "Equinox Gold Corp. Common Shares",
+      "mcap": 13.56,
+      "price": 11.59,
+      "basis": 13.34,
+      "bxt_today": 15.29,
+      "bxt_yest": -19.93,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 18.96,
+      "atl": 2.35,
+      "pct_to_ath": 63.6,
+      "pct_to_atl": 393.2,
+      "wk52_high": 18.96,
+      "wk52_low": 6.29,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3347,42 +3370,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-11T00:36:26.898073+00:00",
+    "compared_to": "2026-08-11T02:50:04.898664+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [
       {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.0,
-        "basis": 64.34,
-        "bxt_today": -28.73,
-        "ath": 73.0,
-        "pct_to_ath": 14.1,
-        "wk52_high": 66.5,
-        "wk52_low": 59.0,
+        "sym": "EQX",
+        "name": "Equinox Gold Corp. Common Shares",
+        "mcap": 13.56,
+        "price": 11.59,
+        "basis": 13.34,
+        "bxt_today": 15.29,
+        "ath": 18.96,
+        "pct_to_ath": 63.6,
+        "wk52_high": 18.96,
+        "wk52_low": 6.29,
         "ath_30d": 0
       }
     ],
-    "fvb_red_removed": [],
-    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 61,
-        "price": 64.0,
-        "basis": 64.22,
-        "bxt_today": -20.42,
-        "ath": 73.0,
-        "pct_to_ath": 14.1,
-        "wk52_high": 66.5,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

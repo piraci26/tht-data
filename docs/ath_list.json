@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T02:50:49.590076+00:00",
-  "count": 31,
+  "updated_at": "2026-08-11T04:08:36.727542+00:00",
+  "count": 27,
   "list": [
     {
       "sym": "BAC",
@@ -34,25 +34,7 @@
       "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 385.17,
-      "last_low": 363.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "RTX",
-      "name": "RTX Corporation",
-      "mcap": 301.85,
-      "price": 224.12,
-      "ath": 226.88,
-      "atl": 2.36,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 9396.7,
-      "wk52_high": 226.88,
-      "wk52_low": 150.61,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 226.88,
-      "last_low": 223.31,
+      "last_low": 362.95,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -88,7 +70,7 @@
       "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 109.32,
-      "last_low": 107.15,
+      "last_low": 107.14,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -111,24 +93,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "MNST",
-      "name": "Monster Beverage Corporation",
-      "mcap": 89.28,
-      "price": 91.43,
-      "ath": 92.85,
-      "atl": 0.0,
-      "pct_to_ath": 1.6,
-      "pct_to_atl": 2955929.7,
-      "wk52_high": 92.85,
-      "wk52_low": 30.49,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 92.85,
-      "last_low": 90.15,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "GRMN",
       "name": "Garmin Ltd. (Switzerland)",
       "mcap": 60.38,
@@ -142,7 +106,7 @@
       "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 314.28,
-      "last_low": 308.13,
+      "last_low": 308.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -155,11 +119,11 @@
       "atl": 0.03,
       "pct_to_ath": 0.1,
       "pct_to_atl": 200153.4,
-      "wk52_high": 52.22,
+      "wk52_high": 52.23,
       "wk52_low": 38.97,
       "ath_30d": 3,
       "atl_30d": 0,
-      "last_high": 52.22,
+      "last_high": 52.23,
       "last_low": 51.28,
       "made_ath_today": true,
       "made_atl_today": false
@@ -196,7 +160,7 @@
       "ath_30d": 9,
       "atl_30d": 0,
       "last_high": 208.76,
-      "last_low": 203.73,
+      "last_low": 203.7,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -209,12 +173,12 @@
       "atl": 1.25,
       "pct_to_ath": 1.8,
       "pct_to_atl": 15797.6,
-      "wk52_high": 202.26,
+      "wk52_high": 202.27,
       "wk52_low": 93.69,
       "ath_30d": 2,
       "atl_30d": 0,
-      "last_high": 202.26,
-      "last_low": 193.81,
+      "last_high": 202.27,
+      "last_low": 193.13,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -245,11 +209,11 @@
       "atl": 2.5,
       "pct_to_ath": 0.0,
       "pct_to_atl": 6491.2,
-      "wk52_high": 164.78,
+      "wk52_high": 164.8,
       "wk52_low": 92.62,
       "ath_30d": 2,
       "atl_30d": 0,
-      "last_high": 164.78,
+      "last_high": 164.8,
       "last_low": 159.43,
       "made_ath_today": true,
       "made_atl_today": false
@@ -304,7 +268,7 @@
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 321.46,
-      "last_low": 317.32,
+      "last_low": 316.7,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -322,7 +286,7 @@
       "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 431.05,
-      "last_low": 424.0,
+      "last_low": 423.87,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -335,11 +299,11 @@
       "atl": 1.41,
       "pct_to_ath": 2.1,
       "pct_to_atl": 7178.0,
-      "wk52_high": 104.73,
+      "wk52_high": 104.77,
       "wk52_low": 61.23,
       "ath_30d": 7,
       "atl_30d": 0,
-      "last_high": 104.73,
+      "last_high": 104.77,
       "last_low": 101.11,
       "made_ath_today": true,
       "made_atl_today": false
@@ -371,11 +335,11 @@
       "atl": 4.47,
       "pct_to_ath": 1.0,
       "pct_to_atl": 3255.7,
-      "wk52_high": 151.5,
+      "wk52_high": 151.6,
       "wk52_low": 50.49,
       "ath_30d": 8,
       "atl_30d": 0,
-      "last_high": 151.5,
+      "last_high": 151.6,
       "last_low": 147.4,
       "made_ath_today": true,
       "made_atl_today": false
@@ -412,7 +376,7 @@
       "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 913.39,
-      "last_low": 885.92,
+      "last_low": 885.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -471,56 +435,20 @@
       "made_atl_today": false
     },
     {
-      "sym": "RUSHB",
-      "name": "Rush Enterprises, Inc.",
-      "mcap": 5.89,
-      "price": 77.98,
-      "ath": 79.4,
-      "atl": 0.33,
-      "pct_to_ath": 1.8,
-      "pct_to_atl": 23731.9,
-      "wk52_high": 79.4,
-      "wk52_low": 31.8,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 79.4,
-      "last_low": 77.64,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "RUSHA",
-      "name": "Rush Enterprises, Inc. Cl A",
-      "mcap": 5.87,
-      "price": 80.2,
-      "ath": 80.78,
-      "atl": 0.59,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 13433.8,
-      "wk52_high": 80.78,
-      "wk52_low": 30.45,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 80.78,
-      "last_low": 79.57,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "VCTR",
       "name": "Victory Capital Holdings, Inc.",
       "mcap": 5.77,
       "price": 111.44,
-      "ath": 111.48,
+      "ath": 111.54,
       "atl": 7.27,
-      "pct_to_ath": 0.0,
+      "pct_to_ath": 0.1,
       "pct_to_atl": 1432.9,
-      "wk52_high": 111.48,
+      "wk52_high": 111.54,
       "wk52_low": 57.03,
       "ath_30d": 10,
       "atl_30d": 0,
-      "last_high": 111.48,
-      "last_low": 107.69,
+      "last_high": 111.54,
+      "last_low": 107.41,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -538,7 +466,7 @@
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 71.09,
-      "last_low": 68.33,
+      "last_low": 68.03,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4363,9 +4291,5 @@
       "first_seen_at": "2026-08-11T02:50:49.590076+00:00"
     }
   ],
-  "added_this_run": [
-    "MNST",
-    "RUSHA",
-    "RUSHB"
-  ]
+  "added_this_run": []
 }
