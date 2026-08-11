@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-11T22:10:30.330835+00:00",
+  "updated_at": "2026-08-11T23:00:38.752669+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 45.77,
-  "scanned_count": 1499,
+  "scan_seconds": 9.39,
+  "scanned_count": 1500,
   "fvb_green": [
     {
       "sym": "APO",
@@ -1297,29 +1297,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MTDR",
-      "name": "Matador Resources Company",
-      "mcap": 6.38,
-      "price": 52.62,
-      "basis": 52.93,
-      "bxt_today": 1.73,
-      "bxt_yest": -1.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 73.78,
-      "atl": 1.11,
-      "pct_to_ath": 40.2,
-      "pct_to_atl": 4640.5,
-      "wk52_high": 66.84,
-      "wk52_low": 37.14,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "NE",
       "name": "Noble Corporation plc A Ordinary Shares",
       "mcap": 6.38,
@@ -1339,6 +1316,29 @@
       "pct_to_atl": 155.6,
       "wk52_high": 54.98,
       "wk52_low": 26.2,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MTDR",
+      "name": "Matador Resources Company",
+      "mcap": 6.38,
+      "price": 52.62,
+      "basis": 52.93,
+      "bxt_today": 1.73,
+      "bxt_yest": -1.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 73.78,
+      "atl": 1.11,
+      "pct_to_ath": 40.2,
+      "pct_to_atl": 4640.5,
+      "wk52_high": 66.84,
+      "wk52_low": 37.14,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3462,7 +3462,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-11T21:14:53.801702+00:00",
+    "compared_to": "2026-08-11T22:10:30.330835+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
