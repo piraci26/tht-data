@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T11:25:19.935067+00:00",
+  "updated_at": "2026-08-12T12:09:25.209373+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.07,
+  "scan_seconds": 14.04,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -115,7 +115,7 @@
       "pct_to_ath": 371.1,
       "pct_to_atl": 1365.2,
       "wk52_high": 18.39,
-      "wk52_low": 9.43,
+      "wk52_low": 9.25,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -168,6 +168,29 @@
   ],
   "fvb_red": [
     {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 9.29,
+      "price": 28.2,
+      "basis": 28.66,
+      "bxt_today": -23.31,
+      "bxt_yest": -15.9,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 12,
+      "bxt_streak": null,
+      "ath": 34.48,
+      "atl": 21.31,
+      "pct_to_ath": 22.3,
+      "pct_to_atl": 32.3,
+      "wk52_high": 34.48,
+      "wk52_low": 23.83,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "KLAR",
       "name": "Klarna Group plc Ordinary Shares",
       "mcap": 7.42,
@@ -188,29 +211,6 @@
       "wk52_high": 47.48,
       "wk52_low": 12.06,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "JAN",
-      "name": "Janus Living, Inc.-1",
-      "mcap": 6.09,
-      "price": 29.57,
-      "basis": 29.9,
-      "bxt_today": -33.18,
-      "bxt_yest": -27.43,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 34,
-      "bxt_streak": null,
-      "ath": 32.83,
-      "atl": 22.76,
-      "pct_to_ath": 11.0,
-      "pct_to_atl": 29.9,
-      "wk52_high": 32.83,
-      "wk52_low": 22.76,
-      "ath_30d": 9,
       "atl_30d": 0
     }
   ],
@@ -486,7 +486,7 @@
       "atl": 20.04,
       "pct_to_ath": 108.3,
       "pct_to_atl": 423.1,
-      "wk52_high": 180.0,
+      "wk52_high": 182.98,
       "wk52_low": 76.28,
       "ath_30d": 0,
       "atl_30d": 0
@@ -900,7 +900,7 @@
       "atl": 13.0,
       "pct_to_ath": 115.6,
       "pct_to_atl": 549.2,
-      "wk52_high": 152.25,
+      "wk52_high": 153.75,
       "wk52_low": 64.75,
       "ath_30d": 0,
       "atl_30d": 0
@@ -979,9 +979,9 @@
       "name": "Noble Corporation plc A Ordinary Shares",
       "mcap": 6.38,
       "price": 44.48,
-      "basis": 43.7,
-      "bxt_today": 7.73,
-      "bxt_yest": -0.87,
+      "basis": 43.69,
+      "bxt_today": 8.59,
+      "bxt_yest": -0.99,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1186,9 +1186,9 @@
       "name": "California Resources Corporation",
       "mcap": 4.66,
       "price": 54.13,
-      "basis": 57.58,
-      "bxt_today": 1.95,
-      "bxt_yest": -10.42,
+      "basis": 57.57,
+      "bxt_today": 2.84,
+      "bxt_yest": -8.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1292,7 +1292,7 @@
       "pct_to_ath": 179.4,
       "pct_to_atl": 3034.7,
       "wk52_high": 153.38,
-      "wk52_low": 76.42,
+      "wk52_low": 77.15,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1325,8 +1325,8 @@
       "mcap": 2.83,
       "price": 22.19,
       "basis": 27.46,
-      "bxt_today": 1.13,
-      "bxt_yest": -9.19,
+      "bxt_today": 1.38,
+      "bxt_yest": -8.8,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1594,7 +1594,7 @@
       "pct_to_atl": 2733.5,
       "wk52_high": 101.6,
       "wk52_low": 66.38,
-      "ath_30d": 12,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1824,7 +1824,7 @@
       "pct_to_atl": 2572.9,
       "wk52_high": 49.21,
       "wk52_low": 38.45,
-      "ath_30d": 0,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1869,7 +1869,7 @@
       "pct_to_ath": 3.9,
       "pct_to_atl": 31191.4,
       "wk52_high": 71.12,
-      "wk52_low": 44.6,
+      "wk52_low": 43.03,
       "ath_30d": 1,
       "atl_30d": 0
     },
@@ -1947,9 +1947,9 @@
       "name": "Crane Company",
       "mcap": 12.65,
       "price": 220.56,
-      "basis": 196.66,
-      "bxt_today": -0.47,
-      "bxt_yest": 5.99,
+      "basis": 196.67,
+      "bxt_today": -0.66,
+      "bxt_yest": 6.01,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1994,8 +1994,8 @@
       "mcap": 11.07,
       "price": 52.69,
       "basis": 50.63,
-      "bxt_today": -9.41,
-      "bxt_yest": 2.54,
+      "bxt_today": -9.52,
+      "bxt_yest": 2.57,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2007,8 +2007,8 @@
       "pct_to_ath": 11.4,
       "pct_to_atl": 317.2,
       "wk52_high": 58.7,
-      "wk52_low": 39.64,
-      "ath_30d": 7,
+      "wk52_low": 39.31,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2122,7 +2122,7 @@
       "pct_to_ath": 0.1,
       "pct_to_atl": 849.2,
       "wk52_high": 134.88,
-      "wk52_low": 34.4,
+      "wk52_low": 34.34,
       "ath_30d": 11,
       "atl_30d": 0
     },
@@ -2191,7 +2191,7 @@
       "pct_to_ath": 13.2,
       "pct_to_atl": 37642.5,
       "wk52_high": 235.97,
-      "wk52_low": 134.67,
+      "wk52_low": 132.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2236,9 +2236,9 @@
       "atl": 7.51,
       "pct_to_ath": 11.0,
       "pct_to_atl": 294.3,
-      "wk52_high": 32.86,
+      "wk52_high": 32.8,
       "wk52_low": 24.66,
-      "ath_30d": 1,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2352,8 +2352,8 @@
       "pct_to_ath": 22.6,
       "pct_to_atl": 22407.4,
       "wk52_high": 362.15,
-      "wk52_low": 182.85,
-      "ath_30d": 0,
+      "wk52_low": 174.92,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2398,7 +2398,7 @@
       "pct_to_ath": 31.2,
       "pct_to_atl": 3161.1,
       "wk52_high": 244.3,
-      "wk52_low": 94.52,
+      "wk52_low": 90.52,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2472,6 +2472,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "COGT",
+      "name": "Cogent Biosciences, Inc.",
+      "mcap": 6.64,
+      "price": 38.7,
+      "basis": 36.67,
+      "bxt_today": -1.4,
+      "bxt_yest": 11.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 70.64,
+      "atl": 1.18,
+      "pct_to_ath": 82.5,
+      "pct_to_atl": 3179.7,
+      "wk52_high": 43.73,
+      "wk52_low": 10.38,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "MYRG",
       "name": "MYR Group, Inc.",
       "mcap": 6.53,
@@ -2536,7 +2559,7 @@
       "pct_to_ath": 11.6,
       "pct_to_atl": 402.5,
       "wk52_high": 40.92,
-      "wk52_low": 24.79,
+      "wk52_low": 23.78,
       "ath_30d": 7,
       "atl_30d": 0
     },
@@ -2706,15 +2729,15 @@
       "name": "Andersen Group Inc.",
       "mcap": 4.76,
       "price": 48.47,
-      "basis": 43.13,
-      "bxt_today": -15.84,
-      "bxt_yest": 3.4,
+      "basis": 42.49,
+      "bxt_today": -13.66,
+      "bxt_yest": 5.4,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 11,
+      "bxt_streak": 10,
       "ath": 50.48,
       "atl": 18.12,
       "pct_to_ath": 4.1,
@@ -2744,7 +2767,7 @@
       "pct_to_atl": 1745.0,
       "wk52_high": 78.46,
       "wk52_low": 63.2,
-      "ath_30d": 0,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2835,7 +2858,7 @@
       "pct_to_ath": 34.5,
       "pct_to_atl": 171.6,
       "wk52_high": 66.5,
-      "wk52_low": 41.82,
+      "wk52_low": 37.34,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2891,8 +2914,8 @@
       "mcap": 3.04,
       "price": 2.58,
       "basis": 3.71,
-      "bxt_today": -0.6,
-      "bxt_yest": 5.19,
+      "bxt_today": -0.22,
+      "bxt_yest": 5.45,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2933,15 +2956,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-12T10:32:42.771958+00:00",
+    "compared_to": "2026-08-12T11:25:19.935067+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [],
+    "fvb_red_added": [
+      {
+        "sym": "SARO",
+        "name": "StandardAero, Inc.",
+        "mcap": 9.29,
+        "price": 28.2,
+        "basis": 28.66,
+        "bxt_today": -23.31,
+        "ath": 34.48,
+        "pct_to_ath": 22.3,
+        "wk52_high": 34.48,
+        "wk52_low": 23.83,
+        "ath_30d": 0
+      }
+    ],
+    "fvb_red_removed": [
+      {
+        "sym": "JAN",
+        "name": "Janus Living, Inc.-1",
+        "mcap": 6.09,
+        "price": 29.57,
+        "basis": 29.9,
+        "bxt_today": -33.18,
+        "ath": 32.83,
+        "pct_to_ath": 11.0,
+        "wk52_high": 32.83,
+        "wk52_low": 22.76,
+        "ath_30d": 9
+      }
+    ],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "COGT",
         "name": "Cogent Biosciences, Inc.",
@@ -2952,9 +3002,10 @@
         "ath": 70.64,
         "pct_to_ath": 82.5,
         "wk52_high": 43.73,
-        "wk52_low": 10.72,
+        "wk52_low": 10.38,
         "ath_30d": 0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
