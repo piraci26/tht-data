@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T21:14:01.436579+00:00",
+  "updated_at": "2026-08-12T22:05:06.222305+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.92,
+  "scan_seconds": 10.15,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2887,150 +2887,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-12T20:26:13.238704+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "RAL",
-        "name": "Ralliant Corporation",
-        "mcap": 7.75,
-        "price": 72.62,
-        "basis": 69.11,
-        "bxt_today": 32.96,
-        "ath": 75.41,
-        "pct_to_ath": 3.8,
-        "wk52_high": 75.41,
-        "wk52_low": 37.27,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 140.0,
-        "basis": 137.24,
-        "bxt_today": 26.29,
-        "ath": 171.58,
-        "pct_to_ath": 22.6,
-        "wk52_high": 171.58,
-        "wk52_low": 70.93,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-12T21:14:01.436579+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "IMVT",
-        "name": "Immunovant, Inc.",
-        "mcap": 8.15,
-        "price": 42.6,
-        "basis": 30.86,
-        "bxt_today": 4.38,
-        "ath": 53.75,
-        "pct_to_ath": 26.2,
-        "wk52_high": 42.62,
-        "wk52_low": 14.32,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VAL",
-        "name": "Valaris Limited Common Shares",
-        "mcap": 5.37,
-        "price": 85.21,
-        "basis": 84.13,
-        "bxt_today": 7.55,
-        "ath": 114.12,
-        "pct_to_ath": 33.9,
-        "wk52_high": 114.12,
-        "wk52_low": 43.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BIPC",
-        "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
-        "mcap": 4.86,
-        "price": 40.12,
-        "basis": 42.47,
-        "bxt_today": 4.48,
-        "ath": 53.73,
-        "pct_to_ath": 33.9,
-        "wk52_high": 51.72,
-        "wk52_low": 34.18,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 7.53,
-        "price": 36.63,
-        "basis": 36.67,
-        "bxt_today": 3.37,
-        "ath": 38.94,
-        "pct_to_ath": 6.3,
-        "wk52_high": 38.94,
-        "wk52_low": 25.01,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ROIV",
-        "name": "Roivant Sciences Ltd. Common Shares",
-        "mcap": 25.93,
-        "price": 36.16,
-        "basis": 29.34,
-        "bxt_today": -2.85,
-        "ath": 37.0,
-        "pct_to_ath": 2.3,
-        "wk52_high": 37.0,
-        "wk52_low": 10.9,
-        "ath_30d": 5
-      },
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.44,
-        "basis": 18.04,
-        "bxt_today": -3.4,
-        "ath": 53.08,
-        "pct_to_ath": 243.8,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ALH",
-        "name": "Alliance Laundry Holdings Inc.",
-        "mcap": 5.22,
-        "price": 25.91,
-        "basis": 26.13,
-        "bxt_today": -17.42,
-        "ath": 28.23,
-        "pct_to_ath": 9.0,
-        "wk52_high": 28.23,
-        "wk52_low": 18.64,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "PACS",
-        "name": "PACS Group, Inc.",
-        "mcap": 6.84,
-        "price": 45.47,
-        "basis": 38.35,
-        "bxt_today": -3.08,
-        "ath": 49.49,
-        "pct_to_ath": 8.8,
-        "wk52_high": 49.49,
-        "wk52_low": 7.5,
-        "ath_30d": 8
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

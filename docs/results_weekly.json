@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T21:13:49.273270+00:00",
+  "updated_at": "2026-08-12T22:04:54.159640+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.4,
+  "scan_seconds": 10.05,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -657,7 +657,7 @@
       "name": "Entegris, Inc.",
       "mcap": 22.27,
       "price": 161.08,
-      "basis": 133.7,
+      "basis": 133.69,
       "bxt_today": 4.85,
       "bxt_yest": -6.49,
       "fvb_g": false,
@@ -1740,7 +1740,7 @@
       "name": "First Solar, Inc.",
       "mcap": 25.68,
       "price": 226.77,
-      "basis": 227.42,
+      "basis": 227.43,
       "bxt_today": -3.17,
       "bxt_yest": 0.03,
       "fvb_g": false,
@@ -2634,162 +2634,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-12T20:26:00.296922+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "HLT",
-        "name": "Hilton Worldwide Holdings Inc.",
-        "mcap": 70.23,
-        "price": 322.53,
-        "basis": 317.75,
-        "bxt_today": -31.63,
-        "ath": 358.0,
-        "pct_to_ath": 11.0,
-        "wk52_high": 358.0,
-        "wk52_low": 253.54,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-12T21:13:49.273270+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "IMVT",
-        "name": "Immunovant, Inc.",
-        "mcap": 8.15,
-        "price": 42.6,
-        "basis": 30.86,
-        "bxt_today": 4.38,
-        "ath": 53.75,
-        "pct_to_ath": 26.2,
-        "wk52_high": 42.62,
-        "wk52_low": 14.32,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VAL",
-        "name": "Valaris Limited Common Shares",
-        "mcap": 5.37,
-        "price": 85.21,
-        "basis": 84.13,
-        "bxt_today": 7.55,
-        "ath": 114.12,
-        "pct_to_ath": 33.9,
-        "wk52_high": 114.12,
-        "wk52_low": 43.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BIPC",
-        "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
-        "mcap": 4.86,
-        "price": 40.12,
-        "basis": 42.47,
-        "bxt_today": 4.48,
-        "ath": 53.73,
-        "pct_to_ath": 33.9,
-        "wk52_high": 51.72,
-        "wk52_low": 34.18,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PFSI",
-        "name": "PennyMac Financial Services, Inc.",
-        "mcap": 4.28,
-        "price": 76.98,
-        "basis": 92.91,
-        "bxt_today": 3.17,
-        "ath": 160.36,
-        "pct_to_ath": 108.3,
-        "wk52_high": 160.36,
-        "wk52_low": 71.68,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CWEN",
-        "name": "Clearway Energy, Inc. Class C",
-        "mcap": 5.25,
-        "price": 34.38,
-        "basis": 37.03,
-        "bxt_today": 0.47,
-        "ath": 41.79,
-        "pct_to_ath": 21.6,
-        "wk52_high": 41.74,
-        "wk52_low": 27.67,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ROIV",
-        "name": "Roivant Sciences Ltd. Common Shares",
-        "mcap": 25.93,
-        "price": 36.16,
-        "basis": 29.34,
-        "bxt_today": -2.85,
-        "ath": 37.0,
-        "pct_to_ath": 2.3,
-        "wk52_high": 37.0,
-        "wk52_low": 10.9,
-        "ath_30d": 5
-      },
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.44,
-        "basis": 18.04,
-        "bxt_today": -3.4,
-        "ath": 53.08,
-        "pct_to_ath": 243.8,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ETSY",
-        "name": "Etsy, Inc.",
-        "mcap": 7.69,
-        "price": 79.63,
-        "basis": 64.59,
-        "bxt_today": -12.42,
-        "ath": 307.75,
-        "pct_to_ath": 286.5,
-        "wk52_high": 87.97,
-        "wk52_low": 44.0,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "ABBV",
-        "name": "AbbVie Inc.",
-        "mcap": 434.07,
-        "price": 248.76,
-        "basis": 226.06,
-        "bxt_today": -5.65,
-        "ath": 267.47,
-        "pct_to_ath": 7.5,
-        "wk52_high": 267.47,
-        "wk52_low": 190.75,
-        "ath_30d": 4
-      },
-      {
-        "sym": "PACS",
-        "name": "PACS Group, Inc.",
-        "mcap": 6.84,
-        "price": 45.47,
-        "basis": 38.34,
-        "bxt_today": -2.4,
-        "ath": 49.49,
-        "pct_to_ath": 8.8,
-        "wk52_high": 49.49,
-        "wk52_low": 7.5,
-        "ath_30d": 8
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
