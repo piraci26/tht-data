@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-12T08:06:41.790018+00:00",
-  "count": 32,
+  "updated_at": "2026-08-12T09:23:10.606288+00:00",
+  "count": 33,
   "list": [
     {
       "sym": "JPM",
@@ -301,7 +301,7 @@
       "pct_to_atl": 767.9,
       "wk52_high": 61.52,
       "wk52_low": 35.07,
-      "ath_30d": 8,
+      "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 61.52,
       "last_low": 58.01,
@@ -354,7 +354,7 @@
       "pct_to_ath": 0.0,
       "pct_to_atl": 693.6,
       "wk52_high": 84.38,
-      "wk52_low": 26.5,
+      "wk52_low": 25.83,
       "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 84.38,
@@ -453,6 +453,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "ACT",
       "name": "Enact Holdings, Inc.",
       "mcap": 6.25,
@@ -463,7 +481,7 @@
       "pct_to_atl": 161.8,
       "wk52_high": 49.48,
       "wk52_low": 34.64,
-      "ath_30d": 13,
+      "ath_30d": 11,
       "atl_30d": 0,
       "last_high": 49.48,
       "last_low": 48.46,
@@ -4378,8 +4396,10 @@
       "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false,
-      "first_seen_at": "2026-08-12T06:46:17.808897+00:00"
+      "first_seen_at": "2026-08-12T09:23:10.606288+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "TMHC"
+  ]
 }
