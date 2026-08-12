@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-11T23:52:04.867897+00:00",
+  "updated_at": "2026-08-12T01:00:13.650293+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.53,
+  "scan_seconds": 11.68,
   "scanned_count": 1504,
   "fvb_green": [
     {
@@ -1153,6 +1153,29 @@
       "pct_to_atl": 1215.9,
       "wk52_high": 87.97,
       "wk52_low": 44.0,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "QBTS",
+      "name": "D-Wave Quantum Inc. Common Shares",
+      "mcap": 7.44,
+      "price": 16.21,
+      "basis": 19.76,
+      "bxt_today": -7.96,
+      "bxt_yest": 28.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 11,
+      "ath": 46.75,
+      "atl": 0.4,
+      "pct_to_ath": 188.4,
+      "pct_to_atl": 3993.4,
+      "wk52_high": 46.75,
+      "wk52_low": 12.75,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4519,6 +4542,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "QBTS",
+      "name": "D-Wave Quantum Inc. Common Shares",
+      "mcap": 7.44,
+      "price": 16.21,
+      "basis": 19.76,
+      "bxt_today": -7.96,
+      "bxt_yest": 28.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 11,
+      "ath": 46.75,
+      "atl": 0.4,
+      "pct_to_ath": 188.4,
+      "pct_to_atl": 3993.4,
+      "wk52_high": 46.75,
+      "wk52_low": 12.75,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "KLAR",
       "name": "Klarna Group plc Ordinary Shares",
       "mcap": 7.42,
@@ -5049,14 +5095,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-11T23:00:13.667738+00:00",
+    "compared_to": "2026-08-11T23:52:04.867897+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
+    "fvb_red_added": [
+      {
+        "sym": "QBTS",
+        "name": "D-Wave Quantum Inc. Common Shares",
+        "mcap": 7.44,
+        "price": 16.21,
+        "basis": 19.76,
+        "bxt_today": -7.96,
+        "ath": 46.75,
+        "pct_to_ath": 188.4,
+        "wk52_high": 46.75,
+        "wk52_low": 12.75,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
+    "bxt_red_added": [
+      {
+        "sym": "QBTS",
+        "name": "D-Wave Quantum Inc. Common Shares",
+        "mcap": 7.44,
+        "price": 16.21,
+        "basis": 19.76,
+        "bxt_today": -7.96,
+        "ath": 46.75,
+        "pct_to_ath": 188.4,
+        "wk52_high": 46.75,
+        "wk52_low": 12.75,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_removed": []
   }
 }
