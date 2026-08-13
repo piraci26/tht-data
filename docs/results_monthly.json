@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T06:47:08.460100+00:00",
+  "updated_at": "2026-08-13T08:07:41.382408+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.52,
+  "scan_seconds": 9.71,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -120,6 +120,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "RAL",
+      "name": "Ralliant Corporation",
+      "mcap": 7.75,
+      "price": 72.62,
+      "basis": 69.11,
+      "bxt_today": 32.96,
+      "bxt_yest": 18.53,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 10,
+      "bxt_streak": null,
+      "ath": 75.41,
+      "atl": 37.27,
+      "pct_to_ath": 3.8,
+      "pct_to_atl": 94.8,
+      "wk52_high": 75.41,
+      "wk52_low": 37.27,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 7.03,
@@ -147,14 +170,14 @@
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4.68,
       "price": 35.63,
-      "basis": 34.33,
-      "bxt_today": 41.9,
-      "bxt_yest": 39.5,
+      "basis": 34.02,
+      "bxt_today": 41.17,
+      "bxt_yest": 38.58,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 23,
+      "fvb_streak": 24,
       "bxt_streak": null,
       "ath": 49.37,
       "atl": 23.23,
@@ -218,14 +241,14 @@
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 29.1,
-      "basis": 29.7,
-      "bxt_today": -39.92,
-      "bxt_yest": -35.84,
+      "basis": 29.91,
+      "bxt_today": -35.68,
+      "bxt_yest": -27.43,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 32,
+      "fvb_streak": 34,
       "bxt_streak": null,
       "ath": 32.83,
       "atl": 22.76,
@@ -233,7 +256,7 @@
       "pct_to_atl": 27.9,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 8,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -241,9 +264,9 @@
       "name": "Clear Secure, Inc.",
       "mcap": 5.56,
       "price": 46.16,
-      "basis": 48.46,
-      "bxt_today": -43.05,
-      "bxt_yest": -40.8,
+      "basis": 48.45,
+      "bxt_today": -45.01,
+      "bxt_yest": -43.36,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -265,14 +288,14 @@
       "mcap": 5.22,
       "price": 25.91,
       "basis": 26.13,
-      "bxt_today": -23.55,
-      "bxt_yest": -13.9,
+      "bxt_today": -17.42,
+      "bxt_yest": 0.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 12,
-      "bxt_streak": null,
+      "bxt_r": true,
+      "fvb_streak": 11,
+      "bxt_streak": 12,
       "ath": 28.23,
       "atl": 18.64,
       "pct_to_ath": 9.0,
@@ -325,7 +348,7 @@
       "atl": 9.93,
       "pct_to_ath": 53.5,
       "pct_to_atl": 1955.9,
-      "wk52_high": 290.5,
+      "wk52_high": 281.37,
       "wk52_low": 144.97,
       "ath_30d": 0,
       "atl_30d": 0
@@ -578,7 +601,7 @@
       "atl": 20.04,
       "pct_to_ath": 112.9,
       "pct_to_atl": 412.0,
-      "wk52_high": 182.98,
+      "wk52_high": 180.0,
       "wk52_low": 76.28,
       "ath_30d": 0,
       "atl_30d": 0
@@ -975,29 +998,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SOBO",
-      "name": "South Bow Corporation Common Shares",
-      "mcap": 7.53,
-      "price": 36.63,
-      "basis": 36.67,
-      "bxt_today": 3.37,
-      "bxt_yest": -12.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 38.94,
-      "atl": 21.12,
-      "pct_to_ath": 6.3,
-      "pct_to_atl": 73.4,
-      "wk52_high": 38.94,
-      "wk52_low": 25.01,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "CHE",
       "name": "Chemed Corp",
       "mcap": 6.49,
@@ -1026,8 +1026,8 @@
       "mcap": 6.4,
       "price": 35.0,
       "basis": 38.51,
-      "bxt_today": 5.5,
-      "bxt_yest": -6.72,
+      "bxt_today": 5.45,
+      "bxt_yest": -6.98,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1049,8 +1049,8 @@
       "mcap": 6.38,
       "price": 44.08,
       "basis": 43.69,
-      "bxt_today": 6.65,
-      "bxt_yest": -2.69,
+      "bxt_today": 5.81,
+      "bxt_yest": -2.47,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1084,7 +1084,7 @@
       "atl": 11.07,
       "pct_to_ath": 65.7,
       "pct_to_atl": 1677.5,
-      "wk52_high": 315.31,
+      "wk52_high": 290.55,
       "wk52_low": 142.56,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1131,7 +1131,7 @@
       "pct_to_ath": 48.1,
       "pct_to_atl": 5103.2,
       "wk52_high": 36.52,
-      "wk52_low": 14.67,
+      "wk52_low": 15.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1163,9 +1163,9 @@
       "name": "Valaris Limited Common Shares",
       "mcap": 5.37,
       "price": 85.21,
-      "basis": 84.12,
-      "bxt_today": 7.73,
-      "bxt_yest": -2.8,
+      "basis": 84.13,
+      "bxt_today": 7.33,
+      "bxt_yest": -2.91,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1338,7 +1338,7 @@
       "pct_to_ath": 185.6,
       "pct_to_atl": 2967.0,
       "wk52_high": 153.38,
-      "wk52_low": 77.15,
+      "wk52_low": 76.42,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1348,8 +1348,8 @@
       "mcap": 2.83,
       "price": 22.52,
       "basis": 27.47,
-      "bxt_today": 3.45,
-      "bxt_yest": -7.02,
+      "bxt_today": 3.3,
+      "bxt_yest": -7.31,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1478,7 +1478,7 @@
       "pct_to_ath": 15.9,
       "pct_to_atl": 3826.3,
       "wk52_high": 410.98,
-      "wk52_low": 256.49,
+      "wk52_low": 256.76,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1594,7 +1594,7 @@
       "pct_to_atl": 2800.3,
       "wk52_high": 101.6,
       "wk52_low": 66.38,
-      "ath_30d": 10,
+      "ath_30d": 12,
       "atl_30d": 0
     },
     {
@@ -1602,8 +1602,8 @@
       "name": "Viking Holdings Ltd Ordinary Shares",
       "mcap": 46.47,
       "price": 104.19,
-      "basis": 84.73,
-      "bxt_today": -9.63,
+      "basis": 84.74,
+      "bxt_today": -9.62,
       "bxt_yest": 1.41,
       "fvb_g": false,
       "fvb_r": false,
@@ -1763,7 +1763,7 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 25.93,
       "price": 36.16,
-      "basis": 29.33,
+      "basis": 29.34,
       "bxt_today": -1.46,
       "bxt_yest": 4.77,
       "fvb_g": false,
@@ -1777,8 +1777,8 @@
       "pct_to_ath": 2.3,
       "pct_to_atl": 1334.9,
       "wk52_high": 37.0,
-      "wk52_low": 11.24,
-      "ath_30d": 4,
+      "wk52_low": 10.9,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -1824,7 +1824,7 @@
       "pct_to_atl": 2571.6,
       "wk52_high": 49.21,
       "wk52_low": 38.45,
-      "ath_30d": 1,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -1984,8 +1984,8 @@
       "pct_to_ath": 11.6,
       "pct_to_atl": 316.4,
       "wk52_high": 58.7,
-      "wk52_low": 39.31,
-      "ath_30d": 6,
+      "wk52_low": 39.64,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2062,9 +2062,9 @@
       "name": "Apogee Therapeutics, Inc.",
       "mcap": 10.05,
       "price": 134.55,
-      "basis": 93.27,
-      "bxt_today": -1.23,
-      "bxt_yest": 10.15,
+      "basis": 93.26,
+      "bxt_today": -1.18,
+      "bxt_yest": 10.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2076,7 +2076,7 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
-      "wk52_low": 34.34,
+      "wk52_low": 34.4,
       "ath_30d": 11,
       "atl_30d": 0
     },
@@ -2144,9 +2144,9 @@
       "atl": 7.51,
       "pct_to_ath": 10.5,
       "pct_to_atl": 295.9,
-      "wk52_high": 32.8,
+      "wk52_high": 32.86,
       "wk52_low": 24.66,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2215,7 +2215,7 @@
       "pct_to_atl": 243996.0,
       "wk52_high": 805.75,
       "wk52_low": 197.0,
-      "ath_30d": 2,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2237,7 +2237,7 @@
       "pct_to_ath": 20.5,
       "pct_to_atl": 22789.1,
       "wk52_high": 362.15,
-      "wk52_low": 174.92,
+      "wk52_low": 182.85,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2260,7 +2260,7 @@
       "pct_to_ath": 30.8,
       "pct_to_atl": 3170.1,
       "wk52_high": 244.3,
-      "wk52_low": 90.52,
+      "wk52_low": 95.5,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2306,7 +2306,7 @@
       "pct_to_ath": 70.2,
       "pct_to_atl": 318.0,
       "wk52_high": 150.33,
-      "wk52_low": 95.27,
+      "wk52_low": 95.8,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2330,7 +2330,7 @@
       "pct_to_atl": 6553.6,
       "wk52_high": 503.57,
       "wk52_low": 171.51,
-      "ath_30d": 2,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2375,7 +2375,7 @@
       "pct_to_ath": 10.6,
       "pct_to_atl": 406.7,
       "wk52_high": 40.92,
-      "wk52_low": 24.33,
+      "wk52_low": 24.79,
       "ath_30d": 7,
       "atl_30d": 0
     },
@@ -2385,8 +2385,8 @@
       "mcap": 5.32,
       "price": 17.66,
       "basis": 14.49,
-      "bxt_today": -6.49,
-      "bxt_yest": 6.98,
+      "bxt_today": -6.47,
+      "bxt_yest": 7.39,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2398,7 +2398,7 @@
       "pct_to_ath": 38.6,
       "pct_to_atl": 1324.2,
       "wk52_high": 19.26,
-      "wk52_low": 8.21,
+      "wk52_low": 8.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2426,13 +2426,36 @@
       "atl_30d": 0
     },
     {
+      "sym": "ALH",
+      "name": "Alliance Laundry Holdings Inc.",
+      "mcap": 5.22,
+      "price": 25.91,
+      "basis": 26.13,
+      "bxt_today": -17.42,
+      "bxt_yest": 0.37,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 11,
+      "bxt_streak": 12,
+      "ath": 28.23,
+      "atl": 18.64,
+      "pct_to_ath": 9.0,
+      "pct_to_atl": 39.0,
+      "wk52_high": 28.23,
+      "wk52_low": 18.64,
+      "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
       "sym": "RELY",
       "name": "Remitly Global, Inc.",
       "mcap": 5.01,
       "price": 24.23,
       "basis": 19.06,
-      "bxt_today": -4.58,
-      "bxt_yest": 0.66,
+      "bxt_today": -3.07,
+      "bxt_yest": 0.47,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2536,7 +2559,7 @@
       "pct_to_ath": 8.5,
       "pct_to_atl": 6386.9,
       "wk52_high": 81.0,
-      "wk52_low": 57.79,
+      "wk52_low": 57.86,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2560,29 +2583,6 @@
       "pct_to_atl": 328.4,
       "wk52_high": 75.18,
       "wk52_low": 54.89,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "LIF",
-      "name": "Life360, Inc.",
-      "mcap": 4.28,
-      "price": 49.15,
-      "basis": 49.58,
-      "bxt_today": -0.33,
-      "bxt_yest": 11.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 112.54,
-      "atl": 26.0,
-      "pct_to_ath": 129.0,
-      "pct_to_atl": 89.0,
-      "wk52_high": 112.54,
-      "wk52_low": 37.01,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2615,8 +2615,8 @@
       "mcap": 3.98,
       "price": 43.92,
       "basis": 48.71,
-      "bxt_today": -2.02,
-      "bxt_yest": 2.06,
+      "bxt_today": -1.81,
+      "bxt_yest": 2.11,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2661,8 +2661,8 @@
       "mcap": 3.04,
       "price": 2.56,
       "basis": 3.71,
-      "bxt_today": -1.39,
-      "bxt_yest": 4.59,
+      "bxt_today": -1.7,
+      "bxt_yest": 4.38,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2703,9 +2703,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-13T05:12:59.278262+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-08-13T06:47:08.460100+00:00",
+    "fvb_green_added": [
       {
         "sym": "RAL",
         "name": "Ralliant Corporation",
@@ -2720,9 +2719,11 @@
         "ath_30d": 0
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "SOBO",
         "name": "South Bow Corporation Common Shares",
@@ -2737,23 +2738,7 @@
         "ath_30d": 3
       }
     ],
-    "bxt_green_removed": [],
     "bxt_red_added": [
-      {
-        "sym": "LIF",
-        "name": "Life360, Inc.",
-        "mcap": 4.28,
-        "price": 49.15,
-        "basis": 49.58,
-        "bxt_today": -0.33,
-        "ath": 112.54,
-        "pct_to_ath": 129.0,
-        "wk52_high": 112.54,
-        "wk52_low": 37.01,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
       {
         "sym": "ALH",
         "name": "Alliance Laundry Holdings Inc.",
@@ -2766,6 +2751,21 @@
         "wk52_high": 28.23,
         "wk52_low": 18.64,
         "ath_30d": 2
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "LIF",
+        "name": "Life360, Inc.",
+        "mcap": 4.28,
+        "price": 49.15,
+        "basis": 49.58,
+        "bxt_today": -0.33,
+        "ath": 112.54,
+        "pct_to_ath": 129.0,
+        "wk52_high": 112.54,
+        "wk52_low": 37.01,
+        "ath_30d": 0
       }
     ]
   }
