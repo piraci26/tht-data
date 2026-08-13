@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T09:31:41.432134+00:00",
+  "updated_at": "2026-08-13T10:40:17.764820+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.54,
+  "scan_seconds": 9.92,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -143,29 +143,6 @@
       "atl_30d": 3
     },
     {
-      "sym": "ECG",
-      "name": "Everus Construction Group, Inc.",
-      "mcap": 6.98,
-      "price": 140.0,
-      "basis": 137.24,
-      "bxt_today": 26.29,
-      "bxt_yest": 20.78,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 171.58,
-      "atl": 31.38,
-      "pct_to_ath": 22.6,
-      "pct_to_atl": 346.1,
-      "wk52_high": 171.58,
-      "wk52_low": 69.61,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4.68,
@@ -264,14 +241,14 @@
       "name": "Alliance Laundry Holdings Inc.",
       "mcap": 5.22,
       "price": 25.91,
-      "basis": 26.13,
-      "bxt_today": -23.55,
-      "bxt_yest": -13.9,
+      "basis": 26.23,
+      "bxt_today": -22.39,
+      "bxt_yest": -12.55,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 12,
+      "fvb_streak": 11,
       "bxt_streak": null,
       "ath": 28.23,
       "atl": 18.64,
@@ -578,7 +555,7 @@
       "atl": 20.04,
       "pct_to_ath": 112.9,
       "pct_to_atl": 412.0,
-      "wk52_high": 182.98,
+      "wk52_high": 180.0,
       "wk52_low": 76.28,
       "ath_30d": 0,
       "atl_30d": 0
@@ -772,9 +749,9 @@
       "name": "Onto Innovation Inc.",
       "mcap": 14.72,
       "price": 337.35,
-      "basis": 257.16,
-      "bxt_today": 5.55,
-      "bxt_yest": -1.8,
+      "basis": 257.09,
+      "bxt_today": 5.62,
+      "bxt_yest": -1.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -969,7 +946,7 @@
       "atl": 13.0,
       "pct_to_ath": 111.5,
       "pct_to_atl": 562.1,
-      "wk52_high": 152.25,
+      "wk52_high": 153.75,
       "wk52_low": 64.75,
       "ath_30d": 0,
       "atl_30d": 0
@@ -979,22 +956,22 @@
       "name": "South Bow Corporation Common Shares",
       "mcap": 7.53,
       "price": 36.63,
-      "basis": 36.67,
-      "bxt_today": 3.37,
-      "bxt_yest": -12.52,
+      "basis": 36.53,
+      "bxt_today": 0.94,
+      "bxt_yest": -14.25,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 12,
+      "bxt_streak": 10,
       "ath": 38.94,
       "atl": 21.12,
       "pct_to_ath": 6.3,
       "pct_to_atl": 73.4,
       "wk52_high": 38.94,
       "wk52_low": 25.01,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1026,8 +1003,8 @@
       "mcap": 6.4,
       "price": 35.0,
       "basis": 38.51,
-      "bxt_today": 5.45,
-      "bxt_yest": -6.98,
+      "bxt_today": 5.5,
+      "bxt_yest": -6.72,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1163,9 +1140,9 @@
       "name": "Valaris Limited Common Shares",
       "mcap": 5.37,
       "price": 85.21,
-      "basis": 84.12,
-      "bxt_today": 7.73,
-      "bxt_yest": -2.8,
+      "basis": 84.15,
+      "bxt_today": 7.33,
+      "bxt_yest": -2.91,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1478,7 +1455,7 @@
       "pct_to_ath": 15.9,
       "pct_to_atl": 3826.3,
       "wk52_high": 410.98,
-      "wk52_low": 256.76,
+      "wk52_low": 256.49,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1602,8 +1579,8 @@
       "name": "Viking Holdings Ltd Ordinary Shares",
       "mcap": 46.47,
       "price": 104.19,
-      "basis": 84.73,
-      "bxt_today": -9.63,
+      "basis": 84.74,
+      "bxt_today": -9.62,
       "bxt_yest": 1.41,
       "fvb_g": false,
       "fvb_r": false,
@@ -1616,7 +1593,7 @@
       "pct_to_ath": 5.7,
       "pct_to_atl": 305.3,
       "wk52_high": 110.09,
-      "wk52_low": 55.55,
+      "wk52_low": 56.06,
       "ath_30d": 4,
       "atl_30d": 0
     },
@@ -1763,22 +1740,22 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 25.93,
       "price": 36.16,
-      "basis": 29.33,
-      "bxt_today": -1.46,
-      "bxt_yest": 4.77,
+      "basis": 29.34,
+      "bxt_today": -2.6,
+      "bxt_yest": 5.32,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
+      "bxt_streak": 8,
       "ath": 37.0,
       "atl": 2.52,
       "pct_to_ath": 2.3,
       "pct_to_atl": 1334.9,
       "wk52_high": 37.0,
-      "wk52_low": 10.9,
-      "ath_30d": 6,
+      "wk52_low": 11.24,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1824,7 +1801,7 @@
       "pct_to_atl": 2571.6,
       "wk52_high": 49.21,
       "wk52_low": 38.45,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -1869,7 +1846,7 @@
       "pct_to_ath": 4.2,
       "pct_to_atl": 31113.7,
       "wk52_high": 71.12,
-      "wk52_low": 44.83,
+      "wk52_low": 43.63,
       "ath_30d": 1,
       "atl_30d": 0
     },
@@ -1971,8 +1948,8 @@
       "mcap": 11.07,
       "price": 52.59,
       "basis": 50.63,
-      "bxt_today": -9.94,
-      "bxt_yest": 2.15,
+      "bxt_today": -9.83,
+      "bxt_yest": 2.13,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1984,8 +1961,8 @@
       "pct_to_ath": 11.6,
       "pct_to_atl": 316.4,
       "wk52_high": 58.7,
-      "wk52_low": 39.64,
-      "ath_30d": 7,
+      "wk52_low": 39.31,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2284,7 +2261,7 @@
       "pct_to_atl": 506.3,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 8,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -2375,7 +2352,7 @@
       "pct_to_ath": 10.6,
       "pct_to_atl": 406.7,
       "wk52_high": 40.92,
-      "wk52_low": 24.98,
+      "wk52_low": 24.33,
       "ath_30d": 7,
       "atl_30d": 0
     },
@@ -2398,7 +2375,7 @@
       "pct_to_ath": 38.6,
       "pct_to_atl": 1324.2,
       "wk52_high": 19.26,
-      "wk52_low": 8.21,
+      "wk52_low": 8.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2431,8 +2408,8 @@
       "mcap": 5.01,
       "price": 24.23,
       "basis": 19.06,
-      "bxt_today": -3.07,
-      "bxt_yest": 0.47,
+      "bxt_today": -4.58,
+      "bxt_yest": 0.66,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2490,7 +2467,7 @@
       "pct_to_ath": 10.5,
       "pct_to_atl": 2113.1,
       "wk52_high": 42.81,
-      "wk52_low": 21.83,
+      "wk52_low": 22.22,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2536,7 +2513,7 @@
       "pct_to_ath": 8.5,
       "pct_to_atl": 6386.9,
       "wk52_high": 81.0,
-      "wk52_low": 57.79,
+      "wk52_low": 57.86,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2638,8 +2615,8 @@
       "mcap": 3.04,
       "price": 2.56,
       "basis": 3.71,
-      "bxt_today": -1.39,
-      "bxt_yest": 4.59,
+      "bxt_today": -1.7,
+      "bxt_yest": 4.38,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2680,8 +2657,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-13T08:07:41.382408+00:00",
-    "fvb_green_added": [
+    "compared_to": "2026-08-13T09:31:41.432134+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "ECG",
         "name": "Everus Construction Group, Inc.",
@@ -2696,68 +2674,11 @@
         "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [
-      {
-        "sym": "RAL",
-        "name": "Ralliant Corporation",
-        "mcap": 7.75,
-        "price": 72.62,
-        "basis": 69.11,
-        "bxt_today": 32.96,
-        "ath": 75.41,
-        "pct_to_ath": 3.8,
-        "wk52_high": 75.41,
-        "wk52_low": 37.27,
-        "ath_30d": 0
-      }
-    ],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 6.09,
-        "price": 29.1,
-        "basis": 29.91,
-        "bxt_today": -35.68,
-        "ath": 32.83,
-        "pct_to_ath": 12.8,
-        "wk52_high": 32.83,
-        "wk52_low": 22.76,
-        "ath_30d": 9
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 7.53,
-        "price": 36.63,
-        "basis": 36.67,
-        "bxt_today": 3.37,
-        "ath": 38.94,
-        "pct_to_ath": 6.3,
-        "wk52_high": 38.94,
-        "wk52_low": 25.01,
-        "ath_30d": 3
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "ALH",
-        "name": "Alliance Laundry Holdings Inc.",
-        "mcap": 5.22,
-        "price": 25.91,
-        "basis": 26.13,
-        "bxt_today": -17.42,
-        "ath": 28.23,
-        "pct_to_ath": 9.0,
-        "wk52_high": 28.23,
-        "wk52_low": 18.64,
-        "ath_30d": 2
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
