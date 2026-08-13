@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T11:28:02.308489+00:00",
+  "updated_at": "2026-08-13T12:12:00.163147+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.32,
+  "scan_seconds": 17.5,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -143,29 +143,6 @@
       "atl_30d": 3
     },
     {
-      "sym": "ECG",
-      "name": "Everus Construction Group, Inc.",
-      "mcap": 6.98,
-      "price": 140.0,
-      "basis": 137.24,
-      "bxt_today": 26.29,
-      "bxt_yest": 20.78,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 171.58,
-      "atl": 31.38,
-      "pct_to_ath": 22.6,
-      "pct_to_atl": 346.1,
-      "wk52_high": 171.58,
-      "wk52_low": 70.93,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4.68,
@@ -264,9 +241,9 @@
       "name": "Clear Secure, Inc.",
       "mcap": 5.56,
       "price": 46.16,
-      "basis": 48.45,
-      "bxt_today": -45.01,
-      "bxt_yest": -43.36,
+      "basis": 48.46,
+      "bxt_today": -43.05,
+      "bxt_yest": -40.8,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -795,9 +772,9 @@
       "name": "Onto Innovation Inc.",
       "mcap": 14.72,
       "price": 337.35,
-      "basis": 257.16,
-      "bxt_today": 5.55,
-      "bxt_yest": -1.8,
+      "basis": 257.09,
+      "bxt_today": 5.62,
+      "bxt_yest": -1.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -810,7 +787,7 @@
       "pct_to_atl": 1560.2,
       "wk52_high": 386.46,
       "wk52_low": 101.0,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -1002,22 +979,22 @@
       "name": "South Bow Corporation Common Shares",
       "mcap": 7.53,
       "price": 36.63,
-      "basis": 36.67,
-      "bxt_today": 3.37,
-      "bxt_yest": -12.52,
+      "basis": 36.53,
+      "bxt_today": 0.94,
+      "bxt_yest": -14.25,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 12,
+      "bxt_streak": 10,
       "ath": 38.94,
       "atl": 21.12,
       "pct_to_ath": 6.3,
       "pct_to_atl": 73.4,
       "wk52_high": 38.94,
       "wk52_low": 25.01,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1049,8 +1026,8 @@
       "mcap": 6.4,
       "price": 35.0,
       "basis": 38.51,
-      "bxt_today": 5.45,
-      "bxt_yest": -6.98,
+      "bxt_today": 5.5,
+      "bxt_yest": -6.72,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1072,8 +1049,8 @@
       "mcap": 6.38,
       "price": 44.08,
       "basis": 43.69,
-      "bxt_today": 5.81,
-      "bxt_yest": -2.47,
+      "bxt_today": 6.65,
+      "bxt_yest": -2.69,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1361,7 +1338,7 @@
       "pct_to_ath": 185.6,
       "pct_to_atl": 2967.0,
       "wk52_high": 153.38,
-      "wk52_low": 76.42,
+      "wk52_low": 77.15,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1617,7 +1594,7 @@
       "pct_to_atl": 2800.3,
       "wk52_high": 101.6,
       "wk52_low": 66.38,
-      "ath_30d": 12,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1625,8 +1602,8 @@
       "name": "Viking Holdings Ltd Ordinary Shares",
       "mcap": 46.47,
       "price": 104.19,
-      "basis": 84.74,
-      "bxt_today": -9.62,
+      "basis": 84.73,
+      "bxt_today": -9.63,
       "bxt_yest": 1.41,
       "fvb_g": false,
       "fvb_r": false,
@@ -1639,7 +1616,7 @@
       "pct_to_ath": 5.7,
       "pct_to_atl": 305.3,
       "wk52_high": 110.09,
-      "wk52_low": 56.06,
+      "wk52_low": 55.55,
       "ath_30d": 4,
       "atl_30d": 0
     },
@@ -1892,7 +1869,7 @@
       "pct_to_ath": 4.2,
       "pct_to_atl": 31113.7,
       "wk52_high": 71.12,
-      "wk52_low": 44.83,
+      "wk52_low": 43.63,
       "ath_30d": 1,
       "atl_30d": 0
     },
@@ -1994,8 +1971,8 @@
       "mcap": 11.07,
       "price": 52.59,
       "basis": 50.63,
-      "bxt_today": -9.83,
-      "bxt_yest": 2.13,
+      "bxt_today": -9.94,
+      "bxt_yest": 2.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2086,8 +2063,8 @@
       "mcap": 10.05,
       "price": 134.55,
       "basis": 93.27,
-      "bxt_today": -1.18,
-      "bxt_yest": 10.14,
+      "bxt_today": -1.23,
+      "bxt_yest": 10.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2307,7 +2284,7 @@
       "pct_to_atl": 506.3,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 8,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -2408,8 +2385,8 @@
       "mcap": 5.32,
       "price": 17.66,
       "basis": 14.49,
-      "bxt_today": -6.47,
-      "bxt_yest": 7.39,
+      "bxt_today": -6.49,
+      "bxt_yest": 6.98,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2421,7 +2398,7 @@
       "pct_to_ath": 38.6,
       "pct_to_atl": 1324.2,
       "wk52_high": 19.26,
-      "wk52_low": 8.82,
+      "wk52_low": 8.21,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2513,7 +2490,7 @@
       "pct_to_ath": 10.5,
       "pct_to_atl": 2113.1,
       "wk52_high": 42.81,
-      "wk52_low": 22.22,
+      "wk52_low": 21.83,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2628,7 +2605,7 @@
       "pct_to_ath": 33.5,
       "pct_to_atl": 173.5,
       "wk52_high": 66.5,
-      "wk52_low": 41.82,
+      "wk52_low": 37.42,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2638,8 +2615,8 @@
       "mcap": 3.98,
       "price": 43.92,
       "basis": 48.71,
-      "bxt_today": -1.81,
-      "bxt_yest": 2.11,
+      "bxt_today": -2.02,
+      "bxt_yest": 2.06,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2726,8 +2703,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-13T10:40:17.764820+00:00",
-    "fvb_green_added": [
+    "compared_to": "2026-08-13T11:28:02.308489+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "ECG",
         "name": "Everus Construction Group, Inc.",
@@ -2742,40 +2720,11 @@
         "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 6.09,
-        "price": 29.1,
-        "basis": 29.7,
-        "bxt_today": -39.92,
-        "ath": 32.83,
-        "pct_to_ath": 12.8,
-        "wk52_high": 32.83,
-        "wk52_low": 22.76,
-        "ath_30d": 10
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "LIF",
-        "name": "Life360, Inc.",
-        "mcap": 4.28,
-        "price": 49.15,
-        "basis": 49.58,
-        "bxt_today": -0.33,
-        "ath": 112.54,
-        "pct_to_ath": 129.0,
-        "wk52_high": 112.54,
-        "wk52_low": 37.01,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
