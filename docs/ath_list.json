@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T13:49:52.094073+00:00",
+  "updated_at": "2026-08-13T14:47:48.231027+00:00",
   "count": 40,
   "list": [
     {
@@ -4525,21 +4525,5 @@
       "first_seen_at": "2026-08-13T13:49:52.094073+00:00"
     }
   ],
-  "added_this_run": [
-    "AIT",
-    "BATRK",
-    "BBVA",
-    "BMO",
-    "BNS",
-    "CATY",
-    "DELL",
-    "EWBC",
-    "HWC",
-    "LH",
-    "MTB",
-    "RGA",
-    "TBBB",
-    "UMBF",
-    "UNM"
-  ]
+  "added_this_run": []
 }
