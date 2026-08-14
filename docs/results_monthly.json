@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T06:39:48.980742+00:00",
+  "updated_at": "2026-08-14T09:16:24.820624+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.14,
+  "scan_seconds": 9.25,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -93,29 +93,6 @@
       "pct_to_atl": 391.8,
       "wk52_high": 19.16,
       "wk52_low": 14.3,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 28.33,
-      "price": 142.59,
-      "basis": 139.92,
-      "bxt_today": 40.16,
-      "bxt_yest": 37.71,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 177.28,
-      "atl": 70.5,
-      "pct_to_ath": 24.3,
-      "pct_to_atl": 102.3,
-      "wk52_high": 177.28,
-      "wk52_low": 70.5,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -233,29 +210,6 @@
       "wk52_low": 71.75,
       "ath_30d": 0,
       "atl_30d": 0
-    },
-    {
-      "sym": "MWH",
-      "name": "SOLV Energy, Inc.",
-      "mcap": 6.1,
-      "price": 32.73,
-      "basis": 29.89,
-      "bxt_today": 43.01,
-      "bxt_yest": 38.76,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 50,
-      "bxt_streak": null,
-      "ath": 48.4,
-      "atl": 23.83,
-      "pct_to_ath": 47.9,
-      "pct_to_atl": 37.3,
-      "wk52_high": 48.4,
-      "wk52_low": 23.83,
-      "ath_30d": 0,
-      "atl_30d": 2
     }
   ],
   "fvb_red": [],
@@ -531,7 +485,7 @@
       "atl": 0.28,
       "pct_to_ath": 43.9,
       "pct_to_atl": 223750.9,
-      "wk52_high": 878.62,
+      "wk52_high": 794.29,
       "wk52_low": 339.01,
       "ath_30d": 0,
       "atl_30d": 0
@@ -771,9 +725,9 @@
       "name": "Onto Innovation Inc.",
       "mcap": 14.72,
       "price": 337.82,
-      "basis": 257.13,
-      "bxt_today": 5.74,
-      "bxt_yest": -1.65,
+      "basis": 257.07,
+      "bxt_today": 5.8,
+      "bxt_yest": -1.6,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -863,9 +817,9 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 95.15,
-      "basis": 64.36,
-      "bxt_today": 0.88,
-      "bxt_yest": -2.66,
+      "basis": 64.37,
+      "bxt_today": 0.54,
+      "bxt_yest": -2.76,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1106,7 +1060,7 @@
       "atl": 11.07,
       "pct_to_ath": 59.8,
       "pct_to_atl": 1742.5,
-      "wk52_high": 288.73,
+      "wk52_high": 300.25,
       "wk52_low": 142.56,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1622,9 +1576,9 @@
       "name": "Allied Gold Corporation Common Shares",
       "mcap": 2.83,
       "price": 22.89,
-      "basis": 27.47,
-      "bxt_today": 5.56,
-      "bxt_yest": -5.15,
+      "basis": 27.48,
+      "bxt_today": 5.51,
+      "bxt_yest": -5.34,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1946,15 +1900,15 @@
       "name": "Arxis, Inc.",
       "mcap": 24.34,
       "price": 57.69,
-      "basis": 47.74,
-      "bxt_today": -4.4,
-      "bxt_yest": 6.3,
+      "basis": 47.72,
+      "bxt_today": -4.48,
+      "bxt_yest": 6.22,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 14,
+      "bxt_streak": 17,
       "ath": 61.5,
       "atl": 33.15,
       "pct_to_ath": 6.6,
@@ -2199,9 +2153,9 @@
       "name": "Crane Company",
       "mcap": 12.65,
       "price": 219.04,
-      "basis": 196.66,
-      "bxt_today": -3.67,
-      "bxt_yest": 3.55,
+      "basis": 196.67,
+      "bxt_today": -3.83,
+      "bxt_yest": 3.58,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2259,8 +2213,8 @@
       "pct_to_ath": 9.5,
       "pct_to_atl": 324.4,
       "wk52_high": 58.7,
-      "wk52_low": 39.64,
-      "ath_30d": 6,
+      "wk52_low": 39.68,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2535,7 +2489,7 @@
       "pct_to_ath": 20.4,
       "pct_to_atl": 22818.9,
       "wk52_high": 362.15,
-      "wk52_low": 174.92,
+      "wk52_low": 182.85,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2673,7 +2627,7 @@
       "pct_to_ath": 89.3,
       "pct_to_atl": 3061.9,
       "wk52_high": 43.73,
-      "wk52_low": 10.7,
+      "wk52_low": 11.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2978,8 +2932,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T05:06:52.984425+00:00",
-    "fvb_green_added": [
+    "compared_to": "2026-08-14T06:39:48.980742+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "Q",
         "name": "Qnity Electronics, Inc.",
@@ -2992,56 +2947,26 @@
         "wk52_high": 177.28,
         "wk52_low": 70.5,
         "ath_30d": 0
+      },
+      {
+        "sym": "MWH",
+        "name": "SOLV Energy, Inc.",
+        "mcap": 6.1,
+        "price": 32.73,
+        "basis": 29.89,
+        "bxt_today": 43.01,
+        "ath": 48.4,
+        "pct_to_ath": 47.9,
+        "wk52_high": 48.4,
+        "wk52_low": 23.83,
+        "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 7.53,
-        "price": 36.61,
-        "basis": 36.68,
-        "bxt_today": 4.8,
-        "ath": 38.94,
-        "pct_to_ath": 6.4,
-        "wk52_high": 38.94,
-        "wk52_low": 25.01,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 24.34,
-        "price": 57.69,
-        "basis": 47.74,
-        "bxt_today": -4.4,
-        "ath": 61.5,
-        "pct_to_ath": 6.6,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.76,
-        "price": 48.3,
-        "basis": 43.45,
-        "bxt_today": -22.85,
-        "ath": 50.76,
-        "pct_to_ath": 5.1,
-        "wk52_high": 50.76,
-        "wk52_low": 18.12,
-        "ath_30d": 10
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
