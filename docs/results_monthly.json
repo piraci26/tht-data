@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T05:06:52.984425+00:00",
+  "updated_at": "2026-08-14T06:39:48.980742+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.63,
+  "scan_seconds": 8.14,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -93,6 +93,29 @@
       "pct_to_atl": 391.8,
       "wk52_high": 19.16,
       "wk52_low": 14.3,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 28.33,
+      "price": 142.59,
+      "basis": 139.92,
+      "bxt_today": 40.16,
+      "bxt_yest": 37.71,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 30,
+      "bxt_streak": null,
+      "ath": 177.28,
+      "atl": 70.5,
+      "pct_to_ath": 24.3,
+      "pct_to_atl": 102.3,
+      "wk52_high": 177.28,
+      "wk52_low": 70.5,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -216,14 +239,14 @@
       "name": "SOLV Energy, Inc.",
       "mcap": 6.1,
       "price": 32.73,
-      "basis": 29.47,
-      "bxt_today": 41.26,
-      "bxt_yest": 34.76,
+      "basis": 29.89,
+      "bxt_today": 43.01,
+      "bxt_yest": 38.76,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 52,
+      "fvb_streak": 50,
       "bxt_streak": null,
       "ath": 48.4,
       "atl": 23.83,
@@ -508,7 +531,7 @@
       "atl": 0.28,
       "pct_to_ath": 43.9,
       "pct_to_atl": 223750.9,
-      "wk52_high": 794.29,
+      "wk52_high": 878.62,
       "wk52_low": 339.01,
       "ath_30d": 0,
       "atl_30d": 0
@@ -840,9 +863,9 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 95.15,
-      "basis": 64.37,
-      "bxt_today": 0.54,
-      "bxt_yest": -2.76,
+      "basis": 64.36,
+      "bxt_today": 0.88,
+      "bxt_yest": -2.66,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -971,29 +994,6 @@
       "wk52_high": 152.25,
       "wk52_low": 64.75,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "SOBO",
-      "name": "South Bow Corporation Common Shares",
-      "mcap": 7.53,
-      "price": 36.61,
-      "basis": 36.68,
-      "bxt_today": 4.8,
-      "bxt_yest": -6.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 38.94,
-      "atl": 21.12,
-      "pct_to_ath": 6.4,
-      "pct_to_atl": 73.3,
-      "wk52_high": 38.94,
-      "wk52_low": 25.01,
-      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1231,7 +1231,7 @@
       "name": "Valaris Limited Common Shares",
       "mcap": 5.37,
       "price": 85.13,
-      "basis": 84.1,
+      "basis": 84.12,
       "bxt_today": 7.14,
       "bxt_yest": -3.08,
       "fvb_g": false,
@@ -1622,9 +1622,9 @@
       "name": "Allied Gold Corporation Common Shares",
       "mcap": 2.83,
       "price": 22.89,
-      "basis": 27.48,
-      "bxt_today": 5.51,
-      "bxt_yest": -5.34,
+      "basis": 27.47,
+      "bxt_today": 5.56,
+      "bxt_yest": -5.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1636,7 +1636,7 @@
       "pct_to_ath": 40.7,
       "pct_to_atl": 275.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.4,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1868,7 +1868,7 @@
       "pct_to_ath": 3.3,
       "pct_to_atl": 1334.7,
       "wk52_high": 208.76,
-      "wk52_low": 34.21,
+      "wk52_low": 34.88,
       "ath_30d": 7,
       "atl_30d": 0
     },
@@ -1939,6 +1939,29 @@
       "wk52_high": 237.54,
       "wk52_low": 158.97,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ARXS",
+      "name": "Arxis, Inc.",
+      "mcap": 24.34,
+      "price": 57.69,
+      "basis": 47.74,
+      "bxt_today": -4.4,
+      "bxt_yest": 6.3,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 61.5,
+      "atl": 33.15,
+      "pct_to_ath": 6.6,
+      "pct_to_atl": 74.0,
+      "wk52_high": 61.5,
+      "wk52_low": 33.15,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2237,7 +2260,7 @@
       "pct_to_atl": 324.4,
       "wk52_high": 58.7,
       "wk52_low": 39.64,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2328,7 +2351,7 @@
       "pct_to_ath": 0.3,
       "pct_to_atl": 847.5,
       "wk52_high": 134.88,
-      "wk52_low": 34.58,
+      "wk52_low": 35.39,
       "ath_30d": 11,
       "atl_30d": 0
     },
@@ -2512,7 +2535,7 @@
       "pct_to_ath": 20.4,
       "pct_to_atl": 22818.9,
       "wk52_high": 362.15,
-      "wk52_low": 182.85,
+      "wk52_low": 174.92,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2582,7 +2605,7 @@
       "pct_to_atl": 499.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 8,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2613,7 +2636,7 @@
       "name": "Gates Industrial Corporation plc Ordinary Shares",
       "mcap": 6.69,
       "price": 27.67,
-      "basis": 25.52,
+      "basis": 25.53,
       "bxt_today": -2.61,
       "bxt_yest": 3.14,
       "fvb_g": false,
@@ -2650,7 +2673,7 @@
       "pct_to_ath": 89.3,
       "pct_to_atl": 3061.9,
       "wk52_high": 43.73,
-      "wk52_low": 10.98,
+      "wk52_low": 10.7,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2674,7 +2697,7 @@
       "pct_to_atl": 6445.6,
       "wk52_high": 503.57,
       "wk52_low": 171.51,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2719,7 +2742,7 @@
       "pct_to_ath": 22.8,
       "pct_to_atl": 311.0,
       "wk52_high": 34.96,
-      "wk52_low": 16.96,
+      "wk52_low": 16.97,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2813,29 +2836,6 @@
       "wk52_high": 42.81,
       "wk52_low": 22.22,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "ANDG",
-      "name": "Andersen Group Inc.",
-      "mcap": 4.76,
-      "price": 48.3,
-      "basis": 43.45,
-      "bxt_today": -22.85,
-      "bxt_yest": 1.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 50.76,
-      "atl": 18.12,
-      "pct_to_ath": 5.1,
-      "pct_to_atl": 166.6,
-      "wk52_high": 50.76,
-      "wk52_low": 18.12,
-      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -2935,7 +2935,7 @@
       "name": "LandBridge Company LLC Shares Representing Limited Liability Company Interests",
       "mcap": 2.13,
       "price": 75.28,
-      "basis": 68.8,
+      "basis": 68.83,
       "bxt_today": -2.75,
       "bxt_yest": 3.72,
       "fvb_g": false,
@@ -2944,13 +2944,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 6,
-      "ath": 87.6,
+      "ath": 88.0,
       "atl": 18.75,
-      "pct_to_ath": 16.4,
+      "pct_to_ath": 16.9,
       "pct_to_atl": 301.5,
-      "wk52_high": 85.6,
+      "wk52_high": 88.0,
       "wk52_low": 43.75,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2978,14 +2978,70 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T03:14:34.572559+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-08-14T05:06:52.984425+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "Q",
+        "name": "Qnity Electronics, Inc.",
+        "mcap": 28.33,
+        "price": 142.59,
+        "basis": 139.92,
+        "bxt_today": 40.16,
+        "ath": 177.28,
+        "pct_to_ath": 24.3,
+        "wk52_high": 177.28,
+        "wk52_low": 70.5,
+        "ath_30d": 0
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_green_removed": [
+      {
+        "sym": "SOBO",
+        "name": "South Bow Corporation Common Shares",
+        "mcap": 7.53,
+        "price": 36.61,
+        "basis": 36.68,
+        "bxt_today": 4.8,
+        "ath": 38.94,
+        "pct_to_ath": 6.4,
+        "wk52_high": 38.94,
+        "wk52_low": 25.01,
+        "ath_30d": 3
+      }
+    ],
+    "bxt_red_added": [
+      {
+        "sym": "ARXS",
+        "name": "Arxis, Inc.",
+        "mcap": 24.34,
+        "price": 57.69,
+        "basis": 47.74,
+        "bxt_today": -4.4,
+        "ath": 61.5,
+        "pct_to_ath": 6.6,
+        "wk52_high": 61.5,
+        "wk52_low": 33.15,
+        "ath_30d": 6
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "ANDG",
+        "name": "Andersen Group Inc.",
+        "mcap": 4.76,
+        "price": 48.3,
+        "basis": 43.45,
+        "bxt_today": -22.85,
+        "ath": 50.76,
+        "pct_to_ath": 5.1,
+        "wk52_high": 50.76,
+        "wk52_low": 18.12,
+        "ath_30d": 10
+      }
+    ]
   }
 }
