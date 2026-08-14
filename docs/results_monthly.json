@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T21:35:43.624519+00:00",
+  "updated_at": "2026-08-14T21:56:18.450123+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.08,
+  "scan_seconds": 17.47,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2818,55 +2818,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T21:03:14.048731+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 28.33,
-        "price": 142.3,
-        "basis": 140.07,
-        "bxt_today": 40.15,
-        "ath": 177.28,
-        "pct_to_ath": 24.6,
-        "wk52_high": 177.28,
-        "wk52_low": 70.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 141.04,
-        "basis": 136.73,
-        "bxt_today": 29.69,
-        "ath": 171.58,
-        "pct_to_ath": 21.7,
-        "wk52_high": 171.58,
-        "wk52_low": 72.43,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-14T21:35:43.624519+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 24.34,
-        "price": 57.28,
-        "basis": 47.7,
-        "bxt_today": -6.42,
-        "ath": 61.5,
-        "pct_to_ath": 7.4,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
