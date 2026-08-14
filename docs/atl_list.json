@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-08-14T13:34:41.837818+00:00",
-  "count": 1,
+  "updated_at": "2026-08-14T14:35:47.916801+00:00",
+  "count": 2,
   "list": [
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.04,
+      "price": 2.49,
+      "ath": 21.3,
+      "atl": 2.49,
+      "pct_to_ath": 753.7,
+      "pct_to_atl": 0.2,
+      "wk52_high": 6.01,
+      "wk52_low": 2.49,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 2.53,
+      "last_low": 2.49,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 9.99,
+      "price": 10.09,
       "ath": 44.54,
-      "atl": 9.9,
-      "pct_to_ath": 345.8,
-      "pct_to_atl": 0.9,
+      "atl": 9.63,
+      "pct_to_ath": 341.6,
+      "pct_to_atl": 4.7,
       "wk52_high": 44.54,
-      "wk52_low": 9.9,
+      "wk52_low": 9.63,
       "ath_30d": 0,
       "atl_30d": 10,
-      "last_high": 10.63,
-      "last_low": 9.9,
+      "last_high": 10.72,
+      "last_low": 9.63,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -719,25 +737,6 @@
       "first_seen_at": "2026-08-07T05:08:04.080589+00:00"
     },
     {
-      "sym": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "mcap": 3.04,
-      "price": 2.53,
-      "ath": 21.3,
-      "atl": 2.51,
-      "pct_to_ath": 743.6,
-      "pct_to_atl": 0.6,
-      "wk52_high": 6.01,
-      "wk52_low": 2.51,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 2.6,
-      "last_low": 2.51,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-12T17:40:23.541166+00:00"
-    },
-    {
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
@@ -755,9 +754,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-14T13:34:41.837818+00:00"
+    },
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 3.04,
+      "price": 2.49,
+      "ath": 21.3,
+      "atl": 2.49,
+      "pct_to_ath": 753.7,
+      "pct_to_atl": 0.2,
+      "wk52_high": 6.01,
+      "wk52_low": 2.49,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 2.53,
+      "last_low": 2.49,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-14T14:35:47.916801+00:00"
     }
   ],
   "added_this_run": [
-    "YSS"
+    "CSAN"
   ]
 }
