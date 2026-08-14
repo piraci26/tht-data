@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T10:27:37.598128+00:00",
+  "updated_at": "2026-08-14T11:20:48.082912+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.77,
+  "scan_seconds": 8.3,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2978,70 +2978,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T09:16:24.820624+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "MWH",
-        "name": "SOLV Energy, Inc.",
-        "mcap": 6.1,
-        "price": 32.73,
-        "basis": 29.47,
-        "bxt_today": 41.26,
-        "ath": 48.4,
-        "pct_to_ath": 47.9,
-        "wk52_high": 48.4,
-        "wk52_low": 23.83,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-14T10:27:37.598128+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "SOBO",
-        "name": "South Bow Corporation Common Shares",
-        "mcap": 7.53,
-        "price": 36.61,
-        "basis": 36.68,
-        "bxt_today": 4.8,
-        "ath": 38.94,
-        "pct_to_ath": 6.4,
-        "wk52_high": 38.94,
-        "wk52_low": 25.01,
-        "ath_30d": 3
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "ANDG",
-        "name": "Andersen Group Inc.",
-        "mcap": 4.76,
-        "price": 48.3,
-        "basis": 43.45,
-        "bxt_today": -22.85,
-        "ath": 50.76,
-        "pct_to_ath": 5.1,
-        "wk52_high": 50.76,
-        "wk52_low": 18.12,
-        "ath_30d": 10
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 24.34,
-        "price": 57.69,
-        "basis": 47.72,
-        "bxt_today": -4.48,
-        "ath": 61.5,
-        "pct_to_ath": 6.6,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T10:27:26.651314+00:00",
+  "updated_at": "2026-08-14T11:20:38.101661+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.7,
+  "scan_seconds": 8.15,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2358,68 +2358,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T09:16:13.604514+00:00",
+    "compared_to": "2026-08-14T10:27:26.651314+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.67,
-        "basis": 25.52,
-        "bxt_today": -2.61,
-        "ath": 30.34,
-        "pct_to_ath": 9.6,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "WSFS",
-        "name": "WSFS Financial Corporation",
-        "mcap": 4.04,
-        "price": 81.56,
-        "basis": 70.2,
-        "bxt_today": -0.24,
-        "ath": 82.94,
-        "pct_to_ath": 1.7,
-        "wk52_high": 82.94,
-        "wk52_low": 49.92,
-        "ath_30d": 6
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 14.44,
-        "price": 120.19,
-        "basis": 126.04,
-        "bxt_today": -0.83,
-        "ath": 211.79,
-        "pct_to_ath": 76.2,
-        "wk52_high": 137.85,
-        "wk52_low": 115.9,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TXNM",
-        "name": "TXNM Energy, Inc.",
-        "mcap": 6.3,
-        "price": 57.39,
-        "basis": 58.48,
-        "bxt_today": -0.07,
-        "ath": 59.53,
-        "pct_to_ath": 3.7,
-        "wk52_high": 59.53,
-        "wk52_low": 55.64,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
