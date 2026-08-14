@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T14:35:47.911820+00:00",
+  "updated_at": "2026-08-14T15:26:51.618657+00:00",
   "count": 31,
   "list": [
     {
@@ -4363,23 +4363,5 @@
       "first_seen_at": "2026-08-14T14:35:47.911820+00:00"
     }
   ],
-  "added_this_run": [
-    "ACT",
-    "BOKF",
-    "CATY",
-    "CFG",
-    "CFR",
-    "ENVA",
-    "EXPD",
-    "EXPE",
-    "FTI",
-    "HWC",
-    "LLYVK",
-    "LYV",
-    "RGA",
-    "SCHW",
-    "SN",
-    "TBBB",
-    "WHD"
-  ]
+  "added_this_run": []
 }
