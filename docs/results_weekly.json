@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T19:51:11.778882+00:00",
+  "updated_at": "2026-08-15T20:06:26.440118+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.04,
+  "scan_seconds": 7.82,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2036,26 +2036,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T19:33:09.289730+00:00",
+    "compared_to": "2026-08-15T19:51:11.778882+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EQIX",
-        "name": "Equinix, Inc. REIT",
-        "mcap": 108.75,
-        "price": 1102.1,
-        "basis": 996.68,
-        "bxt_today": 0.28,
-        "ath": 1128.68,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1128.68,
-        "wk52_low": 720.62,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
