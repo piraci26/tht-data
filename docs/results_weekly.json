@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T04:17:10.849844+00:00",
+  "updated_at": "2026-08-15T04:51:18.912182+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.24,
+  "scan_seconds": 8.22,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2036,7 +2036,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T03:51:04.662344+00:00",
+    "compared_to": "2026-08-15T04:17:10.849844+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2044,20 +2044,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
