@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T05:43:55.935502+00:00",
+  "updated_at": "2026-08-15T06:02:01.334098+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.12,
+  "scan_seconds": 14.64,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -197,9 +197,9 @@
       "name": "Keysight Technologies Inc.",
       "mcap": 58.13,
       "price": 357.82,
-      "basis": 302.56,
-      "bxt_today": 4.29,
-      "bxt_yest": -3.81,
+      "basis": 302.67,
+      "bxt_today": 4.08,
+      "bxt_yest": -4.07,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.15,
+      "basis": 529.19,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -786,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 38.22,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -832,7 +832,7 @@
       "pct_to_ath": 42.3,
       "pct_to_atl": 4442.3,
       "wk52_high": 90.25,
-      "wk52_low": 55.84,
+      "wk52_low": 58.56,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1015,7 +1015,7 @@
       "atl": 12.75,
       "pct_to_ath": 249.5,
       "pct_to_atl": 182.2,
-      "wk52_high": 79.17,
+      "wk52_high": 77.13,
       "wk52_low": 33.71,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1395,9 +1395,9 @@
       "name": "Guardant Health, Inc.",
       "mcap": 22.81,
       "price": 157.21,
-      "basis": 117.02,
-      "bxt_today": -7.84,
-      "bxt_yest": 0.97,
+      "basis": 117.25,
+      "bxt_today": -9.72,
+      "bxt_yest": 1.27,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1579,9 +1579,9 @@
       "name": "Jefferies Financial Group Inc.",
       "mcap": 12.01,
       "price": 55.14,
-      "basis": 52.28,
-      "bxt_today": -0.87,
-      "bxt_yest": 3.39,
+      "basis": 52.26,
+      "bxt_today": -0.47,
+      "bxt_yest": 3.25,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 10,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1801,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1847,6 +1847,29 @@
       "pct_to_atl": 3114.4,
       "wk52_high": 43.73,
       "wk52_low": 11.41,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "TFX",
+      "name": "Teleflex Incorporated",
+      "mcap": 6.01,
+      "price": 137.17,
+      "basis": 122.88,
+      "bxt_today": -1.14,
+      "bxt_yest": 0.45,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 449.38,
+      "atl": 4.42,
+      "pct_to_ath": 227.6,
+      "pct_to_atl": 3005.7,
+      "wk52_high": 145.0,
+      "wk52_low": 100.18,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2013,69 +2036,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T05:14:23.332645+00:00",
+    "compared_to": "2026-08-15T05:43:55.935502+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EQIX",
-        "name": "Equinix, Inc. REIT",
-        "mcap": 105.05,
-        "price": 1102.1,
-        "basis": 996.68,
-        "bxt_today": 0.28,
-        "ath": 1128.68,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1128.68,
-        "wk52_low": 720.62,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [
       {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
+        "sym": "TFX",
+        "name": "Teleflex Incorporated",
+        "mcap": 6.01,
+        "price": 137.17,
+        "basis": 122.88,
+        "bxt_today": -1.14,
+        "ath": 449.38,
+        "pct_to_ath": 227.6,
+        "wk52_high": 145.0,
+        "wk52_low": 100.18,
+        "ath_30d": 0
       }
     ],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TVTX",
-        "name": "Travere Therapeutics, Inc.",
-        "mcap": 5.29,
-        "price": 62.14,
-        "basis": 41.87,
-        "bxt_today": -0.54,
-        "ath": 66.24,
-        "pct_to_ath": 6.6,
-        "wk52_high": 66.24,
-        "wk52_low": 17.05,
-        "ath_30d": 1
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
