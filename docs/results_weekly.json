@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T12:15:40.248724+00:00",
+  "updated_at": "2026-08-15T13:02:16.002146+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.23,
+  "scan_seconds": 14.56,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2036,41 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T11:52:06.190511+00:00",
+    "compared_to": "2026-08-15T12:15:40.248724+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
