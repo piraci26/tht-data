@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T16:44:20.597482+00:00",
+  "updated_at": "2026-08-15T17:02:41.512157+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.96,
+  "scan_seconds": 9.59,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -948,7 +948,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1130,7 +1130,7 @@
       "atl": 11.07,
       "pct_to_ath": 59.7,
       "pct_to_atl": 1744.7,
-      "wk52_high": 290.55,
+      "wk52_high": 288.73,
       "wk52_low": 142.56,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1223,7 +1223,7 @@
       "pct_to_ath": 49.6,
       "pct_to_atl": 5050.4,
       "wk52_high": 36.52,
-      "wk52_low": 15.99,
+      "wk52_low": 15.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1555,8 +1555,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.81,
-      "bxt_yest": -5.97,
+      "bxt_today": 4.9,
+      "bxt_yest": -5.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1914,8 +1914,8 @@
       "atl": 15.81,
       "pct_to_ath": 15.2,
       "pct_to_atl": 894.4,
-      "wk52_high": 174.08,
-      "wk52_low": 53.29,
+      "wk52_high": 176.58,
+      "wk52_low": 53.4,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2224,8 +2224,8 @@
       "mcap": 10.05,
       "price": 134.55,
       "basis": 93.26,
-      "bxt_today": -1.18,
-      "bxt_yest": 10.14,
+      "bxt_today": -1.23,
+      "bxt_yest": 10.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2403,29 +2403,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "XP",
-      "name": "XP Inc.",
-      "mcap": 8.74,
-      "price": 15.82,
-      "basis": 18.05,
-      "bxt_today": -0.01,
-      "bxt_yest": 4.04,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 53.08,
-      "atl": 10.3,
-      "pct_to_ath": 235.5,
-      "pct_to_atl": 53.6,
-      "wk52_high": 23.13,
-      "wk52_low": 14.8,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ESE",
       "name": "ESCO Technologies Inc.",
       "mcap": 8.53,
@@ -2467,7 +2444,7 @@
       "pct_to_ath": 32.3,
       "pct_to_atl": 22335.2,
       "wk52_high": 741.98,
-      "wk52_low": 487.74,
+      "wk52_low": 456.69,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2795,41 +2772,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T16:14:52.092881+00:00",
+    "compared_to": "2026-08-15T16:44:20.597482+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.48,
-        "bxt_today": -6.34,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
+        "sym": "XP",
+        "name": "XP Inc.",
+        "mcap": 8.74,
+        "price": 15.82,
+        "basis": 18.05,
+        "bxt_today": -0.01,
+        "ath": 53.08,
+        "pct_to_ath": 235.5,
+        "wk52_high": 23.13,
+        "wk52_low": 14.8,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }

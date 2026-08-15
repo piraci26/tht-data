@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T16:44:07.810931+00:00",
+  "updated_at": "2026-08-15T17:02:30.216419+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.23,
+  "scan_seconds": 8.93,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -33,8 +33,8 @@
       "mcap": 4.24,
       "price": 24.78,
       "basis": 23.64,
-      "bxt_today": 43.37,
-      "bxt_yest": 42.22,
+      "bxt_today": 42.57,
+      "bxt_yest": 41.28,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 4,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -657,9 +657,9 @@
       "name": "Camtek Ltd. Ordinary Shares",
       "mcap": 6.71,
       "price": 165.38,
-      "basis": 161.54,
-      "bxt_today": 4.6,
-      "bxt_yest": -4.09,
+      "basis": 161.51,
+      "bxt_today": 4.75,
+      "bxt_yest": -3.86,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -864,9 +864,9 @@
       "name": "Primoris Services Corporation",
       "mcap": 4.7,
       "price": 83.3,
-      "basis": 126.71,
-      "bxt_today": 6.16,
-      "bxt_yest": -4.49,
+      "basis": 126.72,
+      "bxt_today": 5.88,
+      "bxt_yest": -4.45,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1180,7 +1180,7 @@
       "pct_to_atl": 2070.0,
       "wk52_high": 185.86,
       "wk52_low": 112.21,
-      "ath_30d": 10,
+      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -1188,7 +1188,7 @@
       "name": "Norfolk Southern Corporation",
       "mcap": 75.21,
       "price": 334.41,
-      "basis": 310.11,
+      "basis": 310.14,
       "bxt_today": -1.04,
       "bxt_yest": 6.5,
       "fvb_g": false,
@@ -1418,9 +1418,9 @@
       "name": "Snap-On Incorporated",
       "mcap": 21.26,
       "price": 403.56,
-      "basis": 381.57,
-      "bxt_today": -10.95,
-      "bxt_yest": 1.98,
+      "basis": 381.56,
+      "bxt_today": -10.76,
+      "bxt_yest": 1.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1525,7 +1525,7 @@
       "pct_to_atl": 4309.5,
       "wk52_high": 335.97,
       "wk52_low": 231.17,
-      "ath_30d": 5,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1970,9 +1970,9 @@
       "name": "EPR Properties",
       "mcap": 4.57,
       "price": 61.25,
-      "basis": 57.14,
-      "bxt_today": -7.93,
-      "bxt_yest": 3.29,
+      "basis": 57.16,
+      "bxt_today": -8.01,
+      "bxt_yest": 2.76,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2017,8 +2017,8 @@
       "mcap": 3.04,
       "price": 2.52,
       "basis": 3.71,
-      "bxt_today": -3.59,
-      "bxt_yest": 2.95,
+      "bxt_today": -3.77,
+      "bxt_yest": 2.83,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2036,82 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T16:14:31.665793+00:00",
+    "compared_to": "2026-08-15T16:44:07.810931+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EQIX",
-        "name": "Equinix, Inc. REIT",
-        "mcap": 105.05,
-        "price": 1102.1,
-        "basis": 996.68,
-        "bxt_today": 0.28,
-        "ath": 1128.68,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1128.68,
-        "wk52_low": 720.62,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TVTX",
-        "name": "Travere Therapeutics, Inc.",
-        "mcap": 5.29,
-        "price": 62.14,
-        "basis": 41.87,
-        "bxt_today": -0.54,
-        "ath": 66.24,
-        "pct_to_ath": 6.6,
-        "wk52_high": 66.24,
-        "wk52_low": 17.05,
-        "ath_30d": 1
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
