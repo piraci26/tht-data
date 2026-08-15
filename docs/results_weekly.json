@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T07:24:48.834340+00:00",
+  "updated_at": "2026-08-15T07:51:58.148660+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.28,
+  "scan_seconds": 10.18,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -404,9 +404,9 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 528.93,
-      "bxt_today": 2.36,
-      "bxt_yest": -2.29,
+      "basis": 529.19,
+      "bxt_today": 2.26,
+      "bxt_yest": -2.32,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -749,9 +749,9 @@
       "name": "Valaris Limited Common Shares",
       "mcap": 5.37,
       "price": 85.62,
-      "basis": 84.17,
-      "bxt_today": 8.58,
-      "bxt_yest": -2.02,
+      "basis": 84.2,
+      "bxt_today": 8.27,
+      "bxt_yest": -2.06,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -772,9 +772,9 @@
       "name": "Sphere Entertainment Co.",
       "mcap": 5.3,
       "price": 168.0,
-      "basis": 129.82,
-      "bxt_today": 5.66,
-      "bxt_yest": -0.09,
+      "basis": 129.78,
+      "bxt_today": 5.78,
+      "bxt_yest": -0.17,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -786,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 38.22,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -832,7 +832,7 @@
       "pct_to_ath": 42.3,
       "pct_to_atl": 4442.3,
       "wk52_high": 90.25,
-      "wk52_low": 55.84,
+      "wk52_low": 58.56,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -864,9 +864,9 @@
       "name": "Primoris Services Corporation",
       "mcap": 4.7,
       "price": 83.3,
-      "basis": 126.72,
-      "bxt_today": 5.88,
-      "bxt_yest": -4.45,
+      "basis": 126.71,
+      "bxt_today": 6.16,
+      "bxt_yest": -4.49,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 10,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1717,9 +1717,9 @@
       "name": "Etsy, Inc.",
       "mcap": 7.69,
       "price": 79.9,
-      "basis": 64.6,
-      "bxt_today": -13.27,
-      "bxt_yest": 0.61,
+      "basis": 64.59,
+      "bxt_today": -12.26,
+      "bxt_yest": 0.49,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1764,7 +1764,7 @@
       "mcap": 7.48,
       "price": 104.07,
       "basis": 91.04,
-      "bxt_today": -6.81,
+      "bxt_today": -6.83,
       "bxt_yest": 0.64,
       "fvb_g": false,
       "fvb_r": false,
@@ -1777,8 +1777,8 @@
       "pct_to_ath": 7.4,
       "pct_to_atl": 8225.6,
       "wk52_high": 111.74,
-      "wk52_low": 59.79,
-      "ath_30d": 7,
+      "wk52_low": 60.05,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -1801,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1879,8 +1879,8 @@
       "mcap": 5.74,
       "price": 53.44,
       "basis": 45.68,
-      "bxt_today": -6.18,
-      "bxt_yest": 3.45,
+      "bxt_today": -6.17,
+      "bxt_yest": 3.53,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1938,7 +1938,7 @@
       "pct_to_ath": 7.3,
       "pct_to_atl": 6457.3,
       "wk52_high": 81.0,
-      "wk52_low": 57.79,
+      "wk52_low": 57.86,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2036,7 +2036,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T06:53:38.245016+00:00",
+    "compared_to": "2026-08-15T07:24:48.834340+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2044,20 +2044,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
