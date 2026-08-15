@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T20:56:35.458822+00:00",
+  "updated_at": "2026-08-15T21:21:26.716539+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.75,
+  "scan_seconds": 11.05,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -139,7 +139,7 @@
       "pct_to_atl": 34.6,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 9,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -218,14 +218,14 @@
       "name": "Amentum Holdings, Inc.",
       "mcap": 5.04,
       "price": 21.47,
-      "basis": 21.93,
-      "bxt_today": -32.6,
-      "bxt_yest": -27.78,
+      "basis": 21.84,
+      "bxt_today": -31.85,
+      "bxt_yest": -26.9,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 16,
+      "fvb_streak": 15,
       "bxt_streak": null,
       "ath": 38.11,
       "atl": 16.01,
@@ -671,7 +671,7 @@
       "pct_to_ath": 26.7,
       "pct_to_atl": 5376.2,
       "wk52_high": 901.81,
-      "wk52_low": 204.6,
+      "wk52_low": 199.12,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -703,9 +703,9 @@
       "name": "Onto Innovation Inc.",
       "mcap": 20.28,
       "price": 331.71,
-      "basis": 257.14,
-      "bxt_today": 3.14,
-      "bxt_yest": -3.67,
+      "basis": 257.08,
+      "bxt_today": 3.37,
+      "bxt_yest": -3.5,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1067,6 +1067,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "QBTS",
+      "name": "D-Wave Quantum Inc. Common Shares",
+      "mcap": 7.44,
+      "price": 21.17,
+      "basis": 21.07,
+      "bxt_today": 2.58,
+      "bxt_yest": -3.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 46.75,
+      "atl": 0.4,
+      "pct_to_ath": 120.8,
+      "pct_to_atl": 5246.0,
+      "wk52_high": 46.75,
+      "wk52_low": 12.75,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "TTD",
       "name": "The Trade Desk, Inc.",
       "mcap": 6.64,
@@ -1223,7 +1246,7 @@
       "pct_to_ath": 49.6,
       "pct_to_atl": 5050.4,
       "wk52_high": 36.52,
-      "wk52_low": 15.99,
+      "wk52_low": 15.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2260,8 +2283,8 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
-      "wk52_low": 35.39,
-      "ath_30d": 10,
+      "wk52_low": 34.4,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -2305,9 +2328,9 @@
       "atl": 7.51,
       "pct_to_ath": 9.6,
       "pct_to_atl": 299.2,
-      "wk52_high": 32.86,
+      "wk52_high": 32.8,
       "wk52_low": 24.66,
-      "ath_30d": 1,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2449,6 +2472,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "XP",
+      "name": "XP Inc.",
+      "mcap": 8.17,
+      "price": 15.82,
+      "basis": 18.05,
+      "bxt_today": -0.01,
+      "bxt_yest": 4.04,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 53.08,
+      "atl": 10.3,
+      "pct_to_ath": 235.5,
+      "pct_to_atl": 53.6,
+      "wk52_high": 23.13,
+      "wk52_low": 14.8,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "RIOT",
       "name": "Riot Platforms, Inc.",
       "mcap": 7.93,
@@ -2541,36 +2587,13 @@
       "atl_30d": 0
     },
     {
-      "sym": "GTES",
-      "name": "Gates Industrial Corporation plc Ordinary Shares",
-      "mcap": 6.69,
-      "price": 27.76,
-      "basis": 25.52,
-      "bxt_today": -0.95,
-      "bxt_yest": 4.34,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 30.34,
-      "atl": 5.42,
-      "pct_to_ath": 9.3,
-      "pct_to_atl": 412.2,
-      "wk52_high": 30.34,
-      "wk52_low": 20.88,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "COGT",
       "name": "Cogent Biosciences, Inc.",
       "mcap": 6.64,
       "price": 37.93,
-      "basis": 36.55,
-      "bxt_today": -4.5,
-      "bxt_yest": 7.34,
+      "basis": 36.57,
+      "bxt_today": -5.77,
+      "bxt_yest": 7.1,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2772,13 +2795,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T20:36:33.330123+00:00",
+    "compared_to": "2026-08-15T20:56:35.458822+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "QBTS",
         "name": "D-Wave Quantum Inc. Common Shares",
@@ -2793,7 +2815,36 @@
         "ath_30d": 0
       }
     ],
-    "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_green_removed": [],
+    "bxt_red_added": [
+      {
+        "sym": "XP",
+        "name": "XP Inc.",
+        "mcap": 8.17,
+        "price": 15.82,
+        "basis": 18.05,
+        "bxt_today": -0.01,
+        "ath": 53.08,
+        "pct_to_ath": 235.5,
+        "wk52_high": 23.13,
+        "wk52_low": 14.8,
+        "ath_30d": 0
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "GTES",
+        "name": "Gates Industrial Corporation plc Ordinary Shares",
+        "mcap": 6.69,
+        "price": 27.76,
+        "basis": 25.52,
+        "bxt_today": -0.95,
+        "ath": 30.34,
+        "pct_to_ath": 9.3,
+        "wk52_high": 30.34,
+        "wk52_low": 20.88,
+        "ath_30d": 2
+      }
+    ]
   }
 }
