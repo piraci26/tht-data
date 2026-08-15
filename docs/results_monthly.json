@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T23:54:40.773505+00:00",
+  "updated_at": "2026-08-15T00:55:09.995416+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.79,
+  "scan_seconds": 17.5,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2726,83 +2726,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-14T23:31:39.509245+00:00",
+    "compared_to": "2026-08-14T23:54:40.773505+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 99.96,
-        "price": 512.82,
-        "basis": 490.08,
-        "bxt_today": 39.24,
-        "ath": 785.0,
-        "pct_to_ath": 53.1,
-        "wk52_high": 748.3,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "RGC",
-        "name": "Regencell Bioscience Holdings Limited Ordinary Shares",
-        "mcap": 2.59,
-        "price": 5.45,
-        "basis": 21.87,
-        "bxt_today": 0.13,
-        "ath": 83.6,
-        "pct_to_ath": 1433.9,
-        "wk52_high": 69.0,
-        "wk52_low": 4.51,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "RVMD",
-        "name": "Revolution Medicines, Inc.",
-        "mcap": 43.74,
-        "price": 203.71,
-        "basis": 139.29,
-        "bxt_today": -0.25,
-        "ath": 208.76,
-        "pct_to_ath": 2.5,
-        "wk52_high": 208.76,
-        "wk52_low": 34.14,
-        "ath_30d": 8
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -1.41,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.48,
-        "bxt_today": -6.34,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
