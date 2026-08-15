@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T18:08:28.248499+00:00",
+  "updated_at": "2026-08-15T18:46:14.671196+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.09,
+  "scan_seconds": 11.17,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2036,28 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T17:50:50.310588+00:00",
+    "compared_to": "2026-08-15T18:08:28.248499+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
