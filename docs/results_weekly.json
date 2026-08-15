@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-15T17:30:46.208305+00:00",
+  "updated_at": "2026-08-15T17:50:50.310588+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.38,
-  "scanned_count": 1503,
+  "scan_seconds": 10.9,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "CRM",
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.19,
+      "basis": 529.15,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -786,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.22,
+      "wk52_low": 38.83,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -832,7 +832,7 @@
       "pct_to_ath": 42.3,
       "pct_to_atl": 4442.3,
       "wk52_high": 90.25,
-      "wk52_low": 58.56,
+      "wk52_low": 55.84,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.65,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 4,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1142,9 +1142,9 @@
       "name": "Deere & Company",
       "mcap": 168.18,
       "price": 608.85,
-      "basis": 579.49,
-      "bxt_today": -3.53,
-      "bxt_yest": 1.48,
+      "basis": 579.56,
+      "bxt_today": -4.38,
+      "bxt_yest": 1.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1487,9 +1487,9 @@
       "name": "Everest Group, Ltd.",
       "mcap": 14.16,
       "price": 370.11,
-      "basis": 344.25,
-      "bxt_today": -4.38,
-      "bxt_yest": 4.63,
+      "basis": 344.26,
+      "bxt_today": -4.55,
+      "bxt_yest": 4.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 11,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1717,9 +1717,9 @@
       "name": "Etsy, Inc.",
       "mcap": 7.69,
       "price": 79.9,
-      "basis": 64.59,
-      "bxt_today": -12.26,
-      "bxt_yest": 0.49,
+      "basis": 64.6,
+      "bxt_today": -13.27,
+      "bxt_yest": 0.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1764,7 +1764,7 @@
       "mcap": 7.48,
       "price": 104.07,
       "basis": 91.04,
-      "bxt_today": -6.83,
+      "bxt_today": -6.81,
       "bxt_yest": 0.64,
       "fvb_g": false,
       "fvb_r": false,
@@ -1801,30 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 7,
-      "atl_30d": 0
-    },
-    {
-      "sym": "GTES",
-      "name": "Gates Industrial Corporation plc Ordinary Shares",
-      "mcap": 6.69,
-      "price": 27.76,
-      "basis": 25.52,
-      "bxt_today": -0.95,
-      "bxt_yest": 4.34,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 30.34,
-      "atl": 5.42,
-      "pct_to_ath": 9.3,
-      "pct_to_atl": 412.2,
-      "wk52_high": 30.34,
-      "wk52_low": 20.88,
-      "ath_30d": 2,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -1832,9 +1809,9 @@
       "name": "Cogent Biosciences, Inc.",
       "mcap": 6.64,
       "price": 37.93,
-      "basis": 36.55,
-      "bxt_today": -4.5,
-      "bxt_yest": 7.34,
+      "basis": 36.57,
+      "bxt_today": -5.77,
+      "bxt_yest": 7.1,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2036,7 +2013,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T17:02:30.216419+00:00",
+    "compared_to": "2026-08-15T17:30:46.208305+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2044,6 +2021,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "GTES",
+        "name": "Gates Industrial Corporation plc Ordinary Shares",
+        "mcap": 6.69,
+        "price": 27.76,
+        "basis": 25.52,
+        "bxt_today": -0.95,
+        "ath": 30.34,
+        "pct_to_ath": 9.3,
+        "wk52_high": 30.34,
+        "wk52_low": 20.88,
+        "ath_30d": 2
+      }
+    ]
   }
 }
