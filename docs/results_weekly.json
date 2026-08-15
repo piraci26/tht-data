@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T07:51:58.148660+00:00",
+  "updated_at": "2026-08-15T08:15:30.353909+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.18,
+  "scan_seconds": 8.22,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.19,
+      "basis": 529.15,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -786,8 +786,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.22,
-      "ath_30d": 2,
+      "wk52_low": 37.89,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -795,9 +795,9 @@
       "name": "Golar Lng Ltd",
       "mcap": 5.22,
       "price": 52.49,
-      "basis": 48.9,
-      "bxt_today": 6.56,
-      "bxt_yest": -2.82,
+      "basis": 48.89,
+      "bxt_today": 6.58,
+      "bxt_yest": -2.59,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -842,8 +842,8 @@
       "mcap": 4.74,
       "price": 98.6,
       "basis": 124.48,
-      "bxt_today": 0.63,
-      "bxt_yest": -4.03,
+      "bxt_today": 0.45,
+      "bxt_yest": -4.12,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1026,8 +1026,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.81,
-      "bxt_yest": -5.97,
+      "bxt_today": 4.9,
+      "bxt_yest": -5.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.65,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 4,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1533,9 +1533,9 @@
       "name": "ICON plc Ordinary Shares",
       "mcap": 12.94,
       "price": 163.15,
-      "basis": 139.02,
-      "bxt_today": -5.12,
-      "bxt_yest": 2.49,
+      "basis": 139.05,
+      "bxt_today": -5.46,
+      "bxt_yest": 2.54,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1556,9 +1556,9 @@
       "name": "Crane Company",
       "mcap": 12.65,
       "price": 218.34,
-      "basis": 196.56,
-      "bxt_today": -5.0,
-      "bxt_yest": 2.5,
+      "basis": 196.57,
+      "bxt_today": -5.16,
+      "bxt_yest": 2.52,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 11,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1801,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1846,7 +1846,7 @@
       "pct_to_ath": 86.2,
       "pct_to_atl": 3114.4,
       "wk52_high": 43.73,
-      "wk52_low": 11.41,
+      "wk52_low": 10.72,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1879,8 +1879,8 @@
       "mcap": 5.74,
       "price": 53.44,
       "basis": 45.68,
-      "bxt_today": -6.17,
-      "bxt_yest": 3.53,
+      "bxt_today": -6.18,
+      "bxt_yest": 3.45,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1938,7 +1938,7 @@
       "pct_to_ath": 7.3,
       "pct_to_atl": 6457.3,
       "wk52_high": 81.0,
-      "wk52_low": 57.86,
+      "wk52_low": 57.79,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1994,8 +1994,8 @@
       "mcap": 3.91,
       "price": 81.09,
       "basis": 80.87,
-      "bxt_today": -9.36,
-      "bxt_yest": 0.98,
+      "bxt_today": -9.14,
+      "bxt_yest": 0.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2036,7 +2036,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T07:24:48.834340+00:00",
+    "compared_to": "2026-08-15T07:51:58.148660+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
