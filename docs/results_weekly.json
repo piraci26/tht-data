@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T15:33:41.322453+00:00",
+  "updated_at": "2026-08-15T15:52:57.127659+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.36,
+  "scan_seconds": 10.25,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.19,
+      "basis": 529.15,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -772,9 +772,9 @@
       "name": "Sphere Entertainment Co.",
       "mcap": 5.3,
       "price": 168.0,
-      "basis": 129.78,
-      "bxt_today": 5.78,
-      "bxt_yest": -0.17,
+      "basis": 129.82,
+      "bxt_today": 5.66,
+      "bxt_yest": -0.09,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -786,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.22,
+      "wk52_low": 38.83,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -1002,9 +1002,9 @@
       "name": "Array Digital Infrastructure, Inc. Common Shares",
       "mcap": 2.93,
       "price": 35.98,
-      "basis": 45.56,
-      "bxt_today": 8.22,
-      "bxt_yest": -2.02,
+      "basis": 45.57,
+      "bxt_today": 8.14,
+      "bxt_yest": -2.01,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.65,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1049,8 +1049,8 @@
       "mcap": 2.59,
       "price": 5.45,
       "basis": 21.88,
-      "bxt_today": 0.27,
-      "bxt_yest": -9.65,
+      "bxt_today": 0.4,
+      "bxt_yest": -9.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 4,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1418,9 +1418,9 @@
       "name": "Snap-On Incorporated",
       "mcap": 21.26,
       "price": 403.56,
-      "basis": 381.57,
-      "bxt_today": -10.95,
-      "bxt_yest": 1.98,
+      "basis": 381.56,
+      "bxt_today": -10.76,
+      "bxt_yest": 1.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1603,8 +1603,8 @@
       "mcap": 11.07,
       "price": 54.31,
       "basis": 50.68,
-      "bxt_today": -1.15,
-      "bxt_yest": 10.22,
+      "bxt_today": -1.25,
+      "bxt_yest": 10.32,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1649,8 +1649,8 @@
       "mcap": 10.05,
       "price": 134.55,
       "basis": 93.26,
-      "bxt_today": -1.18,
-      "bxt_yest": 10.14,
+      "bxt_today": -1.23,
+      "bxt_yest": 10.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 11,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1717,9 +1717,9 @@
       "name": "Etsy, Inc.",
       "mcap": 7.69,
       "price": 79.9,
-      "basis": 64.59,
-      "bxt_today": -12.26,
-      "bxt_yest": 0.49,
+      "basis": 64.6,
+      "bxt_today": -13.27,
+      "bxt_yest": 0.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1801,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1832,9 +1832,9 @@
       "name": "Cogent Biosciences, Inc.",
       "mcap": 6.64,
       "price": 37.93,
-      "basis": 36.55,
-      "bxt_today": -4.5,
-      "bxt_yest": 7.34,
+      "basis": 36.57,
+      "bxt_today": -5.77,
+      "bxt_yest": 7.1,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2036,28 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T15:07:37.263800+00:00",
+    "compared_to": "2026-08-15T15:33:41.322453+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
