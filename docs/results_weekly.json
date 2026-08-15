@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T14:50:40.276253+00:00",
+  "updated_at": "2026-08-15T15:07:37.263800+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.61,
+  "scan_seconds": 10.04,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.19,
+      "basis": 529.15,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -565,9 +565,9 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 96.17,
-      "basis": 64.56,
-      "bxt_today": 2.91,
-      "bxt_yest": -1.15,
+      "basis": 64.55,
+      "bxt_today": 3.11,
+      "bxt_yest": -1.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -649,29 +649,6 @@
       "pct_to_atl": 729.5,
       "wk52_high": 193.84,
       "wk52_low": 36.61,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "QBTS",
-      "name": "D-Wave Quantum Inc. Common Shares",
-      "mcap": 7.44,
-      "price": 21.17,
-      "basis": 21.07,
-      "bxt_today": 2.58,
-      "bxt_yest": -3.98,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 46.75,
-      "atl": 0.4,
-      "pct_to_ath": 120.8,
-      "pct_to_atl": 5246.0,
-      "wk52_high": 46.75,
-      "wk52_low": 12.75,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -809,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.22,
+      "wk52_low": 38.83,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -855,7 +832,7 @@
       "pct_to_ath": 42.3,
       "pct_to_atl": 4442.3,
       "wk52_high": 90.25,
-      "wk52_low": 58.56,
+      "wk52_low": 55.84,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1049,8 +1026,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.81,
-      "bxt_yest": -5.97,
+      "bxt_today": 4.9,
+      "bxt_yest": -5.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1062,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.65,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1134,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 4,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1533,9 +1510,9 @@
       "name": "RenaissanceRe Holdings Ltd.",
       "mcap": 13.26,
       "price": 323.36,
-      "basis": 301.21,
-      "bxt_today": -1.1,
-      "bxt_yest": 4.89,
+      "basis": 301.2,
+      "bxt_today": -0.67,
+      "bxt_yest": 4.83,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1640,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1686,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 11,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -1824,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1870,29 +1847,6 @@
       "pct_to_atl": 3114.4,
       "wk52_high": 43.73,
       "wk52_low": 11.41,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "TFX",
-      "name": "Teleflex Incorporated",
-      "mcap": 6.01,
-      "price": 137.17,
-      "basis": 122.88,
-      "bxt_today": -1.14,
-      "bxt_yest": 0.45,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 449.38,
-      "atl": 4.42,
-      "pct_to_ath": 227.6,
-      "pct_to_atl": 3005.7,
-      "wk52_high": 145.0,
-      "wk52_low": 100.18,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2059,12 +2013,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T14:27:39.381111+00:00",
+    "compared_to": "2026-08-15T14:50:40.276253+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "QBTS",
         "name": "D-Wave Quantum Inc. Common Shares",
@@ -2079,8 +2034,21 @@
         "ath_30d": 0
       }
     ],
-    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "TFX",
+        "name": "Teleflex Incorporated",
+        "mcap": 6.01,
+        "price": 137.17,
+        "basis": 122.88,
+        "bxt_today": -1.14,
+        "ath": 449.38,
+        "pct_to_ath": 227.6,
+        "wk52_high": 145.0,
+        "wk52_low": 100.18,
+        "ath_30d": 0
+      }
+    ]
   }
 }
