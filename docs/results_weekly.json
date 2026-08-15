@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T19:33:09.289730+00:00",
+  "updated_at": "2026-08-15T19:51:11.778882+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.63,
+  "scan_seconds": 14.04,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -147,6 +147,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "EQIX",
+      "name": "Equinix, Inc. REIT",
+      "mcap": 108.75,
+      "price": 1102.1,
+      "basis": 996.68,
+      "bxt_today": 0.28,
+      "bxt_yest": -9.21,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 1128.68,
+      "atl": 2.0,
+      "pct_to_ath": 2.4,
+      "pct_to_atl": 55005.0,
+      "wk52_high": 1128.68,
+      "wk52_low": 720.62,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "FDX",
       "name": "FedEx Corporation",
       "mcap": 79.17,
@@ -165,7 +188,7 @@
       "pct_to_ath": 3.2,
       "pct_to_atl": 36686.8,
       "wk52_high": 345.37,
-      "wk52_low": 177.28,
+      "wk52_low": 178.33,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -381,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 711.91,
-      "basis": 529.15,
+      "basis": 529.19,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -557,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -589,7 +612,7 @@
       "mcap": 9.28,
       "price": 32.69,
       "basis": 29.92,
-      "bxt_today": 3.79,
+      "bxt_today": 3.76,
       "bxt_yest": -0.72,
       "fvb_g": false,
       "fvb_r": false,
@@ -763,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 38.22,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -1016,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1088,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1385,8 +1408,8 @@
       "atl": 15.81,
       "pct_to_ath": 15.2,
       "pct_to_atl": 894.4,
-      "wk52_high": 174.08,
-      "wk52_low": 53.29,
+      "wk52_high": 176.58,
+      "wk52_low": 53.4,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1410,7 +1433,7 @@
       "pct_to_atl": 3683.4,
       "wk52_high": 423.02,
       "wk52_low": 319.2,
-      "ath_30d": 9,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1556,9 +1579,9 @@
       "name": "Crane Company",
       "mcap": 12.62,
       "price": 218.34,
-      "basis": 196.57,
-      "bxt_today": -5.16,
-      "bxt_yest": 2.52,
+      "basis": 196.56,
+      "bxt_today": -5.0,
+      "bxt_yest": 2.5,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1580,8 +1603,8 @@
       "mcap": 11.07,
       "price": 54.31,
       "basis": 50.68,
-      "bxt_today": -1.25,
-      "bxt_yest": 10.32,
+      "bxt_today": -1.15,
+      "bxt_yest": 10.22,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1594,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1640,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 10,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1718,8 +1741,8 @@
       "mcap": 7.68,
       "price": 35.37,
       "basis": 36.28,
-      "bxt_today": -0.29,
-      "bxt_yest": 0.18,
+      "bxt_today": -0.17,
+      "bxt_yest": 0.16,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1778,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2013,41 +2036,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T19:09:36.946235+00:00",
+    "compared_to": "2026-08-15T19:33:09.289730+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_green_added": [
       {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
+        "sym": "EQIX",
+        "name": "Equinix, Inc. REIT",
+        "mcap": 108.75,
+        "price": 1102.1,
+        "basis": 996.68,
+        "bxt_today": 0.28,
+        "ath": 1128.68,
+        "pct_to_ath": 2.4,
+        "wk52_high": 1128.68,
+        "wk52_low": 720.62,
         "ath_30d": 0
       }
     ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
