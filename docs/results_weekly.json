@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T10:52:24.106525+00:00",
+  "updated_at": "2026-08-15T11:10:43.493397+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.15,
+  "scan_seconds": 8.81,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 4,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1015,7 +1015,7 @@
       "atl": 12.75,
       "pct_to_ath": 249.5,
       "pct_to_atl": 182.2,
-      "wk52_high": 77.13,
+      "wk52_high": 79.17,
       "wk52_low": 33.71,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1026,8 +1026,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.9,
-      "bxt_yest": -5.74,
+      "bxt_today": 4.81,
+      "bxt_yest": -5.97,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1049,8 +1049,8 @@
       "mcap": 2.59,
       "price": 5.45,
       "basis": 21.88,
-      "bxt_today": 0.27,
-      "bxt_yest": -9.65,
+      "bxt_today": 0.4,
+      "bxt_yest": -9.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1395,9 +1395,9 @@
       "name": "Guardant Health, Inc.",
       "mcap": 22.81,
       "price": 157.21,
-      "basis": 117.02,
-      "bxt_today": -7.84,
-      "bxt_yest": 0.97,
+      "basis": 117.25,
+      "bxt_today": -9.72,
+      "bxt_yest": 1.27,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1487,9 +1487,9 @@
       "name": "Everest Group, Ltd.",
       "mcap": 14.16,
       "price": 370.11,
-      "basis": 344.26,
-      "bxt_today": -4.55,
-      "bxt_yest": 4.65,
+      "basis": 344.25,
+      "bxt_today": -4.38,
+      "bxt_yest": 4.63,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1579,9 +1579,9 @@
       "name": "Jefferies Financial Group Inc.",
       "mcap": 12.01,
       "price": 55.14,
-      "basis": 52.26,
-      "bxt_today": -0.47,
-      "bxt_yest": 3.25,
+      "basis": 52.28,
+      "bxt_today": -0.87,
+      "bxt_yest": 3.39,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1994,8 +1994,8 @@
       "mcap": 3.91,
       "price": 81.09,
       "basis": 80.87,
-      "bxt_today": -9.14,
-      "bxt_yest": 0.95,
+      "bxt_today": -9.36,
+      "bxt_yest": 0.98,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2036,68 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T10:31:04.674624+00:00",
+    "compared_to": "2026-08-15T10:52:24.106525+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.74,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TVTX",
-        "name": "Travere Therapeutics, Inc.",
-        "mcap": 5.29,
-        "price": 62.14,
-        "basis": 41.87,
-        "bxt_today": -0.54,
-        "ath": 66.24,
-        "pct_to_ath": 6.6,
-        "wk52_high": 66.24,
-        "wk52_low": 17.05,
-        "ath_30d": 1
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
