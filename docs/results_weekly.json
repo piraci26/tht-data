@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T14:27:39.381111+00:00",
+  "updated_at": "2026-08-15T14:50:40.276253+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.59,
+  "scan_seconds": 9.61,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -649,6 +649,29 @@
       "pct_to_atl": 729.5,
       "wk52_high": 193.84,
       "wk52_low": 36.61,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "QBTS",
+      "name": "D-Wave Quantum Inc. Common Shares",
+      "mcap": 7.44,
+      "price": 21.17,
+      "basis": 21.07,
+      "bxt_today": 2.58,
+      "bxt_yest": -3.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 46.75,
+      "atl": 0.4,
+      "pct_to_ath": 120.8,
+      "pct_to_atl": 5246.0,
+      "wk52_high": 46.75,
+      "wk52_low": 12.75,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2036,12 +2059,26 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T13:57:39.481347+00:00",
+    "compared_to": "2026-08-15T14:27:39.381111+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "bxt_green_added": [
+      {
+        "sym": "QBTS",
+        "name": "D-Wave Quantum Inc. Common Shares",
+        "mcap": 7.44,
+        "price": 21.17,
+        "basis": 21.07,
+        "bxt_today": 2.58,
+        "ath": 46.75,
+        "pct_to_ath": 120.8,
+        "wk52_high": 46.75,
+        "wk52_low": 12.75,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
