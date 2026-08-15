@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-15T17:51:05.994102+00:00",
-  "count": 36,
+  "updated_at": "2026-08-15T18:08:55.257905+00:00",
+  "count": 38,
   "list": [
     {
       "sym": "MRK",
@@ -156,8 +156,8 @@
       "pct_to_ath": 1.1,
       "pct_to_atl": 712.6,
       "wk52_high": 236.14,
-      "wk52_low": 119.8,
-      "ath_30d": 13,
+      "wk52_low": 119.54,
+      "ath_30d": 12,
       "atl_30d": 0,
       "last_high": 236.14,
       "last_low": 229.42,
@@ -228,8 +228,8 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 429.2,
       "wk52_high": 74.86,
-      "wk52_low": 47.92,
-      "ath_30d": 3,
+      "wk52_low": 47.9,
+      "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 74.86,
       "last_low": 73.61,
@@ -251,6 +251,24 @@
       "atl_30d": 0,
       "last_high": 79.23,
       "last_low": 76.6,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "SN",
+      "name": "SharkNinja, Inc. Ordinary Shares",
+      "mcap": 26.21,
+      "price": 185.1,
+      "ath": 190.28,
+      "atl": 25.84,
+      "pct_to_ath": 2.8,
+      "pct_to_atl": 616.3,
+      "wk52_high": 190.28,
+      "wk52_low": 83.12,
+      "ath_30d": 16,
+      "atl_30d": 0,
+      "last_high": 190.28,
+      "last_low": 182.78,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -373,7 +391,7 @@
       "pct_to_atl": 1729.3,
       "wk52_high": 152.48,
       "wk52_low": 103.38,
-      "ath_30d": 8,
+      "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 152.48,
       "last_low": 148.85,
@@ -409,7 +427,7 @@
       "pct_to_atl": 267.4,
       "wk52_high": 109.75,
       "wk52_low": 76.93,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 109.75,
       "last_low": 107.96,
@@ -427,7 +445,7 @@
       "pct_to_atl": 256.1,
       "wk52_high": 106.06,
       "wk52_low": 74.38,
-      "ath_30d": 1,
+      "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 106.06,
       "last_low": 104.29,
@@ -480,8 +498,8 @@
       "pct_to_ath": 0.3,
       "pct_to_atl": 3369.8,
       "wk52_high": 155.53,
-      "wk52_low": 50.58,
-      "ath_30d": 11,
+      "wk52_low": 54.18,
+      "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 155.53,
       "last_low": 149.17,
@@ -507,6 +525,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "ACT",
       "name": "Enact Holdings, Inc.",
       "mcap": 6.25,
@@ -517,7 +553,7 @@
       "pct_to_atl": 166.2,
       "wk52_high": 50.26,
       "wk52_low": 34.64,
-      "ath_30d": 13,
+      "ath_30d": 12,
       "atl_30d": 0,
       "last_high": 50.26,
       "last_low": 49.79,
@@ -571,7 +607,7 @@
       "pct_to_atl": 1526.3,
       "wk52_high": 118.81,
       "wk52_low": 57.03,
-      "ath_30d": 14,
+      "ath_30d": 13,
       "atl_30d": 0,
       "last_high": 118.81,
       "last_low": 116.62,
@@ -643,7 +679,7 @@
       "pct_to_atl": 798.0,
       "wk52_high": 74.04,
       "wk52_low": 33.2,
-      "ath_30d": 4,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 74.04,
       "last_low": 72.45,
@@ -4431,7 +4467,7 @@
       "last_low": 182.78,
       "made_ath_today": true,
       "made_atl_today": false,
-      "first_seen_at": "2026-08-15T12:16:27.263564+00:00"
+      "first_seen_at": "2026-08-15T18:08:55.257905+00:00"
     },
     {
       "sym": "TMHC",
@@ -4450,8 +4486,11 @@
       "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false,
-      "first_seen_at": "2026-08-15T12:16:27.263564+00:00"
+      "first_seen_at": "2026-08-15T18:08:55.257905+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "SN",
+    "TMHC"
+  ]
 }
