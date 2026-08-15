@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T03:51:04.662344+00:00",
+  "updated_at": "2026-08-15T04:17:10.849844+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.83,
+  "scan_seconds": 10.24,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -188,7 +188,7 @@
       "pct_to_ath": 3.2,
       "pct_to_atl": 36686.8,
       "wk52_high": 345.37,
-      "wk52_low": 177.28,
+      "wk52_low": 178.33,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.14,
       "price": 711.91,
-      "basis": 529.15,
+      "basis": 529.19,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -786,7 +786,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 38.22,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1565,13 +1565,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 12,
-      "ath": null,
-      "atl": null,
-      "pct_to_ath": null,
-      "pct_to_atl": null,
-      "wk52_high": null,
-      "wk52_low": null,
-      "ath_30d": 0,
+      "ath": 230.5,
+      "atl": 67.28,
+      "pct_to_ath": 5.6,
+      "pct_to_atl": 224.5,
+      "wk52_high": 230.5,
+      "wk52_low": 159.58,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1625,9 +1625,9 @@
       "name": "BXP, Inc.",
       "mcap": 10.66,
       "price": 68.45,
-      "basis": 62.07,
-      "bxt_today": -1.89,
-      "bxt_yest": 10.03,
+      "basis": 62.06,
+      "bxt_today": -0.87,
+      "bxt_yest": 12.11,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 10,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1686,29 +1686,6 @@
       "pct_to_atl": 1393.1,
       "wk52_high": 5.18,
       "wk52_low": 2.85,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "XP",
-      "name": "XP Inc.",
-      "mcap": 8.74,
-      "price": 15.82,
-      "basis": 18.05,
-      "bxt_today": -0.01,
-      "bxt_yest": 4.04,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 53.08,
-      "atl": 10.3,
-      "pct_to_ath": 235.5,
-      "pct_to_atl": 53.6,
-      "wk52_high": 23.13,
-      "wk52_low": 14.8,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1824,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2059,14 +2036,15 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T03:06:23.416830+00:00",
+    "compared_to": "2026-08-15T03:51:04.662344+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "XP",
         "name": "XP Inc.",
@@ -2080,7 +2058,6 @@
         "wk52_low": 14.8,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
