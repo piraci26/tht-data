@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-15T21:41:00.666656+00:00",
+  "updated_at": "2026-08-15T21:56:57.341482+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.08,
+  "scan_seconds": 9.17,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -174,7 +174,7 @@
       "name": "FedEx Corporation",
       "mcap": 79.17,
       "price": 334.64,
-      "basis": 302.24,
+      "basis": 302.25,
       "bxt_today": 1.42,
       "bxt_yest": -8.34,
       "fvb_g": false,
@@ -188,7 +188,7 @@
       "pct_to_ath": 3.2,
       "pct_to_atl": 36686.8,
       "wk52_high": 345.37,
-      "wk52_low": 177.28,
+      "wk52_low": 178.33,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -404,7 +404,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 711.91,
-      "basis": 529.15,
+      "basis": 529.19,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -580,7 +580,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -727,8 +727,8 @@
       "mcap": 6.17,
       "price": 147.09,
       "basis": 110.92,
-      "bxt_today": 2.99,
-      "bxt_yest": -0.75,
+      "bxt_today": 2.82,
+      "bxt_yest": -0.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -786,8 +786,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 37.89,
-      "ath_30d": 3,
+      "wk52_low": 38.22,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -818,9 +818,9 @@
       "name": "Brunswick Corporation",
       "mcap": 5.06,
       "price": 82.67,
-      "basis": 80.4,
-      "bxt_today": 1.03,
-      "bxt_yest": -4.27,
+      "basis": 80.38,
+      "bxt_today": 1.54,
+      "bxt_yest": -3.98,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1039,7 +1039,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.4,
+      "wk52_low": 11.65,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1111,7 +1111,7 @@
       "pct_to_atl": 612.5,
       "wk52_high": 267.47,
       "wk52_low": 190.75,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1395,9 +1395,9 @@
       "name": "Guardant Health, Inc.",
       "mcap": 21.1,
       "price": 157.21,
-      "basis": 117.02,
-      "bxt_today": -7.84,
-      "bxt_yest": 0.97,
+      "basis": 117.25,
+      "bxt_today": -9.72,
+      "bxt_yest": 1.27,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1617,7 +1617,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -1625,9 +1625,9 @@
       "name": "BXP, Inc.",
       "mcap": 10.66,
       "price": 68.45,
-      "basis": 62.07,
-      "bxt_today": -1.89,
-      "bxt_yest": 10.03,
+      "basis": 62.06,
+      "bxt_today": -0.87,
+      "bxt_yest": 12.11,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1649,8 +1649,8 @@
       "mcap": 10.05,
       "price": 134.55,
       "basis": 93.26,
-      "bxt_today": -1.23,
-      "bxt_yest": 10.15,
+      "bxt_today": -1.18,
+      "bxt_yest": 10.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1663,7 +1663,7 @@
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
       "wk52_low": 35.39,
-      "ath_30d": 10,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1717,9 +1717,9 @@
       "name": "Etsy, Inc.",
       "mcap": 7.69,
       "price": 79.9,
-      "basis": 64.6,
-      "bxt_today": -13.27,
-      "bxt_yest": 0.61,
+      "basis": 64.59,
+      "bxt_today": -12.26,
+      "bxt_yest": 0.49,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1801,7 +1801,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2036,56 +2036,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-15T21:21:13.669705+00:00",
+    "compared_to": "2026-08-15T21:41:00.666656+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EQIX",
-        "name": "Equinix, Inc. REIT",
-        "mcap": 108.75,
-        "price": 1102.1,
-        "basis": 996.68,
-        "bxt_today": 0.28,
-        "ath": 1128.68,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1128.68,
-        "wk52_low": 720.62,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "QBTS",
-        "name": "D-Wave Quantum Inc. Common Shares",
-        "mcap": 7.44,
-        "price": 21.17,
-        "basis": 21.07,
-        "bxt_today": 2.58,
-        "ath": 46.75,
-        "pct_to_ath": 120.8,
-        "wk52_high": 46.75,
-        "wk52_low": 12.75,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
