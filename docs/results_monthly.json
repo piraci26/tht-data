@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T16:01:50.664709+00:00",
+  "updated_at": "2026-08-16T16:36:58.075423+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.26,
+  "scan_seconds": 11.7,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -124,14 +124,14 @@
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 30.63,
-      "basis": 30.02,
-      "bxt_today": -4.51,
-      "bxt_yest": -27.37,
+      "basis": 29.86,
+      "bxt_today": -8.54,
+      "bxt_yest": -30.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 2,
       "bxt_streak": null,
       "ath": 32.83,
       "atl": 22.76,
@@ -148,8 +148,8 @@
       "mcap": 4.24,
       "price": 24.78,
       "basis": 23.64,
-      "bxt_today": 43.37,
-      "bxt_yest": 42.22,
+      "bxt_today": 42.57,
+      "bxt_yest": 41.28,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -971,7 +971,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 4,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1153,7 +1153,7 @@
       "atl": 11.07,
       "pct_to_ath": 59.7,
       "pct_to_atl": 1744.7,
-      "wk52_high": 288.73,
+      "wk52_high": 290.55,
       "wk52_low": 142.56,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1223,7 +1223,7 @@
       "pct_to_ath": 49.6,
       "pct_to_atl": 5050.4,
       "wk52_high": 36.52,
-      "wk52_low": 15.99,
+      "wk52_low": 15.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1315,8 +1315,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 37.89,
-      "ath_30d": 3,
+      "wk52_low": 38.83,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1555,8 +1555,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.81,
-      "bxt_yest": -5.97,
+      "bxt_today": 4.9,
+      "bxt_yest": -5.74,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1568,7 +1568,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.4,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1578,8 +1578,8 @@
       "mcap": 2.69,
       "price": 5.45,
       "basis": 21.88,
-      "bxt_today": 0.4,
-      "bxt_yest": -9.67,
+      "bxt_today": 0.27,
+      "bxt_yest": -9.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1822,7 +1822,7 @@
       "atl": 14.02,
       "pct_to_ath": 44.8,
       "pct_to_atl": 36.9,
-      "wk52_high": 21.95,
+      "wk52_high": 21.84,
       "wk52_low": 14.02,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1914,8 +1914,8 @@
       "atl": 15.81,
       "pct_to_ath": 15.2,
       "pct_to_atl": 894.4,
-      "wk52_high": 174.08,
-      "wk52_low": 53.29,
+      "wk52_high": 176.58,
+      "wk52_low": 53.4,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2008,7 +2008,7 @@
       "pct_to_atl": 1984.7,
       "wk52_high": 282.15,
       "wk52_low": 186.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -2168,7 +2168,7 @@
       "pct_to_ath": 21.8,
       "pct_to_atl": 10913.9,
       "wk52_high": 260.19,
-      "wk52_low": 102.67,
+      "wk52_low": 107.81,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2191,7 +2191,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
-      "wk52_low": 39.68,
+      "wk52_low": 39.64,
       "ath_30d": 6,
       "atl_30d": 0
     },
@@ -2399,7 +2399,7 @@
       "pct_to_atl": 246607.2,
       "wk52_high": 805.75,
       "wk52_low": 197.0,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2444,7 +2444,7 @@
       "pct_to_ath": 32.3,
       "pct_to_atl": 22335.2,
       "wk52_high": 741.98,
-      "wk52_low": 456.69,
+      "wk52_low": 487.74,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2490,7 +2490,7 @@
       "pct_to_ath": 20.1,
       "pct_to_atl": 3462.2,
       "wk52_high": 244.3,
-      "wk52_low": 97.03,
+      "wk52_low": 94.52,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2541,13 +2541,36 @@
       "atl_30d": 0
     },
     {
+      "sym": "GTES",
+      "name": "Gates Industrial Corporation plc Ordinary Shares",
+      "mcap": 6.69,
+      "price": 27.76,
+      "basis": 25.52,
+      "bxt_today": -0.95,
+      "bxt_yest": 4.34,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 30.34,
+      "atl": 5.42,
+      "pct_to_ath": 9.3,
+      "pct_to_atl": 412.2,
+      "wk52_high": 30.34,
+      "wk52_low": 20.88,
+      "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
       "sym": "COGT",
       "name": "Cogent Biosciences, Inc.",
       "mcap": 6.64,
       "price": 37.93,
-      "basis": 36.55,
-      "bxt_today": -4.5,
-      "bxt_yest": 7.34,
+      "basis": 36.57,
+      "bxt_today": -5.77,
+      "bxt_yest": 7.1,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2684,8 +2707,8 @@
       "mcap": 3.04,
       "price": 2.52,
       "basis": 3.71,
-      "bxt_today": -3.59,
-      "bxt_yest": 2.95,
+      "bxt_today": -3.77,
+      "bxt_yest": 2.83,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2723,40 +2746,45 @@
       "wk52_low": 10.44,
       "ath_30d": 0,
       "atl_30d": 0
-    },
-    {
-      "sym": "NNNN",
-      "name": "Anbio Biotechnology Ordinary Shares",
-      "mcap": 0.4,
-      "price": 8.74,
-      "basis": 10.48,
-      "bxt_today": -6.34,
-      "bxt_yest": 31.04,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 38,
-      "ath": 55.65,
-      "atl": 5.18,
-      "pct_to_ath": 536.7,
-      "pct_to_atl": 68.7,
-      "wk52_high": 54.95,
-      "wk52_low": 8.3,
-      "ath_30d": 0,
-      "atl_30d": 0
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T15:46:45.932331+00:00",
+    "compared_to": "2026-08-16T16:01:50.664709+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_added": [
+      {
+        "sym": "GTES",
+        "name": "Gates Industrial Corporation plc Ordinary Shares",
+        "mcap": 6.69,
+        "price": 27.76,
+        "basis": 25.52,
+        "bxt_today": -0.95,
+        "ath": 30.34,
+        "pct_to_ath": 9.3,
+        "wk52_high": 30.34,
+        "wk52_low": 20.88,
+        "ath_30d": 2
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "NNNN",
+        "name": "Anbio Biotechnology Ordinary Shares",
+        "mcap": 0.4,
+        "price": 8.74,
+        "basis": 10.48,
+        "bxt_today": -6.34,
+        "ath": 55.65,
+        "pct_to_ath": 536.7,
+        "wk52_high": 54.95,
+        "wk52_low": 8.3,
+        "ath_30d": 0
+      }
+    ]
   }
 }
