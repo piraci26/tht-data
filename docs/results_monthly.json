@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T03:42:53.503044+00:00",
+  "updated_at": "2026-08-16T04:21:53.674492+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.4,
+  "scan_seconds": 10.12,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2841,95 +2841,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T02:54:29.841957+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 29.77,
-        "price": 142.3,
-        "basis": 140.07,
-        "bxt_today": 40.15,
-        "ath": 177.28,
-        "pct_to_ath": 24.6,
-        "wk52_high": 177.28,
-        "wk52_low": 70.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 141.04,
-        "basis": 136.73,
-        "bxt_today": 29.69,
-        "ath": 171.58,
-        "pct_to_ath": 21.7,
-        "wk52_high": 171.58,
-        "wk52_low": 72.43,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-16T03:42:53.503044+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 23.91,
-        "price": 57.28,
-        "basis": 47.7,
-        "bxt_today": -6.42,
-        "ath": 61.5,
-        "pct_to_ath": 7.4,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      },
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.61,
-        "bxt_today": -3.85,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.17,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
