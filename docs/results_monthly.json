@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T16:58:20.404543+00:00",
+  "updated_at": "2026-08-16T17:24:49.066688+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.87,
+  "scan_seconds": 11.77,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -124,14 +124,14 @@
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 30.63,
-      "basis": 30.02,
-      "bxt_today": -4.51,
-      "bxt_yest": -27.37,
+      "basis": 29.86,
+      "bxt_today": -8.54,
+      "bxt_yest": -30.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 2,
       "bxt_streak": null,
       "ath": 32.83,
       "atl": 22.76,
@@ -671,7 +671,7 @@
       "pct_to_ath": 26.7,
       "pct_to_atl": 5376.2,
       "wk52_high": 901.81,
-      "wk52_low": 199.12,
+      "wk52_low": 204.6,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1067,6 +1067,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "QBTS",
+      "name": "D-Wave Quantum Inc. Common Shares",
+      "mcap": 7.44,
+      "price": 21.17,
+      "basis": 21.07,
+      "bxt_today": 2.58,
+      "bxt_yest": -3.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 46.75,
+      "atl": 0.4,
+      "pct_to_ath": 120.8,
+      "pct_to_atl": 5246.0,
+      "wk52_high": 46.75,
+      "wk52_low": 12.75,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "TTD",
       "name": "The Trade Desk, Inc.",
       "mcap": 6.64,
@@ -1118,8 +1141,8 @@
       "mcap": 6.4,
       "price": 35.5,
       "basis": 38.55,
-      "bxt_today": 9.86,
-      "bxt_yest": -2.66,
+      "bxt_today": 9.76,
+      "bxt_yest": -2.58,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1315,8 +1338,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
-      "ath_30d": 2,
+      "wk52_low": 37.89,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1522,7 +1545,7 @@
       "pct_to_ath": 195.5,
       "pct_to_atl": 2864.0,
       "wk52_high": 153.38,
-      "wk52_low": 77.15,
+      "wk52_low": 76.42,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1544,7 +1567,7 @@
       "atl": 17.32,
       "pct_to_ath": 95.4,
       "pct_to_atl": 501.8,
-      "wk52_high": 159.87,
+      "wk52_high": 161.13,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1555,8 +1578,8 @@
       "mcap": 2.83,
       "price": 22.77,
       "basis": 27.49,
-      "bxt_today": 4.9,
-      "bxt_yest": -5.74,
+      "bxt_today": 4.81,
+      "bxt_yest": -5.97,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1568,7 +1591,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.4,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1892,8 +1915,8 @@
       "pct_to_ath": 2.2,
       "pct_to_atl": 1336.5,
       "wk52_high": 37.0,
-      "wk52_low": 10.9,
-      "ath_30d": 5,
+      "wk52_low": 11.54,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -2008,7 +2031,7 @@
       "pct_to_atl": 1984.7,
       "wk52_high": 282.15,
       "wk52_low": 186.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2016,7 +2039,7 @@
       "name": "TTM Technologies, Inc.",
       "mcap": 14.75,
       "price": 140.0,
-      "basis": 57.49,
+      "basis": 57.48,
       "bxt_today": -1.88,
       "bxt_yest": 5.07,
       "fvb_g": false,
@@ -2131,9 +2154,9 @@
       "name": "Crane Company",
       "mcap": 12.62,
       "price": 218.34,
-      "basis": 196.56,
-      "bxt_today": -5.0,
-      "bxt_yest": 2.5,
+      "basis": 196.57,
+      "bxt_today": -5.16,
+      "bxt_yest": 2.52,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2168,7 +2191,7 @@
       "pct_to_ath": 21.8,
       "pct_to_atl": 10913.9,
       "wk52_high": 260.19,
-      "wk52_low": 102.67,
+      "wk52_low": 107.81,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2191,7 +2214,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
-      "wk52_low": 39.68,
+      "wk52_low": 39.64,
       "ath_30d": 6,
       "atl_30d": 0
     },
@@ -2449,6 +2472,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "XP",
+      "name": "XP Inc.",
+      "mcap": 8.17,
+      "price": 15.82,
+      "basis": 18.05,
+      "bxt_today": -0.01,
+      "bxt_yest": 4.04,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 53.08,
+      "atl": 10.3,
+      "pct_to_ath": 235.5,
+      "pct_to_atl": 53.6,
+      "wk52_high": 23.13,
+      "wk52_low": 14.8,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "RIOT",
       "name": "Riot Platforms, Inc.",
       "mcap": 7.93,
@@ -2559,7 +2605,7 @@
       "pct_to_ath": 86.2,
       "pct_to_atl": 3114.4,
       "wk52_high": 43.73,
-      "wk52_low": 10.72,
+      "wk52_low": 11.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2749,42 +2795,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T16:36:58.075423+00:00",
+    "compared_to": "2026-08-16T16:58:20.404543+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_green_added": [
       {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.48,
-        "bxt_today": -6.34,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
+        "sym": "QBTS",
+        "name": "D-Wave Quantum Inc. Common Shares",
+        "mcap": 7.44,
+        "price": 21.17,
+        "basis": 21.07,
+        "bxt_today": 2.58,
+        "ath": 46.75,
+        "pct_to_ath": 120.8,
+        "wk52_high": 46.75,
+        "wk52_low": 12.75,
         "ath_30d": 0
       }
     ],
-    "bxt_red_removed": [
+    "bxt_green_removed": [],
+    "bxt_red_added": [
       {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
+        "sym": "XP",
+        "name": "XP Inc.",
+        "mcap": 8.17,
+        "price": 15.82,
+        "basis": 18.05,
+        "bxt_today": -0.01,
+        "ath": 53.08,
+        "pct_to_ath": 235.5,
+        "wk52_high": 23.13,
+        "wk52_low": 14.8,
+        "ath_30d": 0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
