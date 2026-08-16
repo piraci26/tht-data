@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T21:52:27.196950+00:00",
+  "updated_at": "2026-08-16T22:10:52.495055+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.87,
+  "scan_seconds": 9.15,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2059,69 +2059,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T21:34:27.705931+00:00",
+    "compared_to": "2026-08-16T21:52:27.196950+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "EQIX",
-        "name": "Equinix, Inc. REIT",
-        "mcap": 108.75,
-        "price": 1102.1,
-        "basis": 996.68,
-        "bxt_today": 0.28,
-        "ath": 1128.68,
-        "pct_to_ath": 2.4,
-        "wk52_high": 1128.68,
-        "wk52_low": 720.62,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.52,
-        "bxt_today": -0.95,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 137.17,
-        "basis": 122.88,
-        "bxt_today": -1.14,
-        "ath": 449.38,
-        "pct_to_ath": 227.6,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "TVTX",
-        "name": "Travere Therapeutics, Inc.",
-        "mcap": 5.29,
-        "price": 62.14,
-        "basis": 41.87,
-        "bxt_today": -0.54,
-        "ath": 66.24,
-        "pct_to_ath": 6.6,
-        "wk52_high": 66.24,
-        "wk52_low": 17.05,
-        "ath_30d": 1
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
