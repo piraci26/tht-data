@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T05:30:36.606919+00:00",
+  "updated_at": "2026-08-16T05:57:16.328697+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.38,
+  "scan_seconds": 9.85,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -97,29 +97,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 29.77,
-      "price": 142.3,
-      "basis": 140.07,
-      "bxt_today": 40.15,
-      "bxt_yest": 38.78,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 177.28,
-      "atl": 70.5,
-      "pct_to_ath": 24.6,
-      "pct_to_atl": 101.8,
-      "wk52_high": 177.28,
-      "wk52_low": 70.5,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "VTRS",
       "name": "Viatris Inc.",
       "mcap": 18.64,
@@ -143,36 +120,13 @@
       "atl_30d": 0
     },
     {
-      "sym": "ECG",
-      "name": "Everus Construction Group, Inc.",
-      "mcap": 6.98,
-      "price": 141.04,
-      "basis": 136.73,
-      "bxt_today": 29.69,
-      "bxt_yest": 26.38,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 171.58,
-      "atl": 31.38,
-      "pct_to_ath": 21.7,
-      "pct_to_atl": 349.5,
-      "wk52_high": 171.58,
-      "wk52_low": 72.43,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "JAN",
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 30.63,
-      "basis": 29.99,
-      "bxt_today": -8.63,
-      "bxt_yest": -30.75,
+      "basis": 29.86,
+      "bxt_today": -8.54,
+      "bxt_yest": -30.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -185,7 +139,7 @@
       "pct_to_atl": 34.6,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 8,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -194,8 +148,8 @@
       "mcap": 4.24,
       "price": 24.78,
       "basis": 23.64,
-      "bxt_today": 43.37,
-      "bxt_yest": 42.22,
+      "bxt_today": 42.57,
+      "bxt_yest": 41.28,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -703,7 +657,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 711.91,
-      "basis": 529.19,
+      "basis": 529.15,
       "bxt_today": 2.26,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -717,7 +671,7 @@
       "pct_to_ath": 26.7,
       "pct_to_atl": 5376.2,
       "wk52_high": 901.81,
-      "wk52_low": 204.6,
+      "wk52_low": 199.12,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1017,7 +971,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1269,7 +1223,7 @@
       "pct_to_ath": 49.6,
       "pct_to_atl": 5050.4,
       "wk52_high": 36.52,
-      "wk52_low": 15.99,
+      "wk52_low": 15.57,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1361,8 +1315,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.22,
-      "ath_30d": 2,
+      "wk52_low": 37.89,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1590,7 +1544,7 @@
       "atl": 17.32,
       "pct_to_ath": 95.4,
       "pct_to_atl": 501.8,
-      "wk52_high": 161.13,
+      "wk52_high": 159.87,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1614,7 +1568,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.65,
+      "wk52_low": 11.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1624,8 +1578,8 @@
       "mcap": 2.69,
       "price": 5.45,
       "basis": 21.88,
-      "bxt_today": 0.27,
-      "bxt_yest": -9.65,
+      "bxt_today": 0.4,
+      "bxt_yest": -9.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1938,31 +1892,8 @@
       "pct_to_ath": 2.2,
       "pct_to_atl": 1336.5,
       "wk52_high": 37.0,
-      "wk52_low": 11.54,
-      "ath_30d": 4,
-      "atl_30d": 0
-    },
-    {
-      "sym": "ARXS",
-      "name": "Arxis, Inc.",
-      "mcap": 23.91,
-      "price": 57.28,
-      "basis": 47.7,
-      "bxt_today": -6.42,
-      "bxt_yest": 4.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 61.5,
-      "atl": 33.15,
-      "pct_to_ath": 7.4,
-      "pct_to_atl": 72.8,
-      "wk52_high": 61.5,
-      "wk52_low": 33.15,
-      "ath_30d": 6,
+      "wk52_low": 10.9,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -2200,9 +2131,9 @@
       "name": "Crane Company",
       "mcap": 12.62,
       "price": 218.34,
-      "basis": 196.56,
-      "bxt_today": -5.0,
-      "bxt_yest": 2.5,
+      "basis": 196.57,
+      "bxt_today": -5.16,
+      "bxt_yest": 2.52,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2237,7 +2168,7 @@
       "pct_to_ath": 21.8,
       "pct_to_atl": 10913.9,
       "wk52_high": 260.19,
-      "wk52_low": 104.15,
+      "wk52_low": 102.67,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2247,8 +2178,8 @@
       "mcap": 11.07,
       "price": 54.31,
       "basis": 50.68,
-      "bxt_today": -1.15,
-      "bxt_yest": 10.22,
+      "bxt_today": -1.25,
+      "bxt_yest": 10.32,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2261,7 +2192,7 @@
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
       "wk52_low": 39.68,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2329,7 +2260,7 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 848.2,
       "wk52_high": 134.88,
-      "wk52_low": 35.39,
+      "wk52_low": 34.4,
       "ath_30d": 11,
       "atl_30d": 0
     },
@@ -2468,7 +2399,7 @@
       "pct_to_atl": 246607.2,
       "wk52_high": 805.75,
       "wk52_low": 197.0,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2514,6 +2445,29 @@
       "pct_to_atl": 22335.2,
       "wk52_high": 741.98,
       "wk52_low": 487.74,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "XP",
+      "name": "XP Inc.",
+      "mcap": 8.17,
+      "price": 15.82,
+      "basis": 18.05,
+      "bxt_today": -0.01,
+      "bxt_yest": 4.04,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 53.08,
+      "atl": 10.3,
+      "pct_to_ath": 235.5,
+      "pct_to_atl": 53.6,
+      "wk52_high": 23.13,
+      "wk52_low": 14.8,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2583,7 +2537,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 7,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -2607,29 +2561,6 @@
       "wk52_high": 42.23,
       "wk52_low": 22.88,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "GTES",
-      "name": "Gates Industrial Corporation plc Ordinary Shares",
-      "mcap": 6.69,
-      "price": 27.76,
-      "basis": 25.52,
-      "bxt_today": -0.95,
-      "bxt_yest": 4.34,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 30.34,
-      "atl": 5.42,
-      "pct_to_ath": 9.3,
-      "pct_to_atl": 412.2,
-      "wk52_high": 30.34,
-      "wk52_low": 20.88,
-      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2776,8 +2707,8 @@
       "mcap": 3.04,
       "price": 2.52,
       "basis": 3.71,
-      "bxt_today": -3.77,
-      "bxt_yest": 2.83,
+      "bxt_today": -3.59,
+      "bxt_yest": 2.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2821,15 +2752,15 @@
       "name": "Anbio Biotechnology Ordinary Shares",
       "mcap": 0.4,
       "price": 8.74,
-      "basis": 10.61,
-      "bxt_today": -3.85,
-      "bxt_yest": 32.46,
+      "basis": 10.48,
+      "bxt_today": -6.34,
+      "bxt_yest": 31.04,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 37,
+      "bxt_streak": 38,
       "ath": 55.65,
       "atl": 5.18,
       "pct_to_ath": 536.7,
@@ -2841,8 +2772,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T04:57:02.672207+00:00",
-    "fvb_green_added": [
+    "compared_to": "2026-08-16T05:30:36.606919+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "Q",
         "name": "Qnity Electronics, Inc.",
@@ -2870,12 +2802,26 @@
         "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [
+      {
+        "sym": "XP",
+        "name": "XP Inc.",
+        "mcap": 8.17,
+        "price": 15.82,
+        "basis": 18.05,
+        "bxt_today": -0.01,
+        "ath": 53.08,
+        "pct_to_ath": 235.5,
+        "wk52_high": 23.13,
+        "wk52_low": 14.8,
+        "ath_30d": 0
+      }
+    ],
+    "bxt_red_removed": [
       {
         "sym": "ARXS",
         "name": "Arxis, Inc.",
@@ -2888,8 +2834,20 @@
         "wk52_high": 61.5,
         "wk52_low": 33.15,
         "ath_30d": 6
+      },
+      {
+        "sym": "GTES",
+        "name": "Gates Industrial Corporation plc Ordinary Shares",
+        "mcap": 6.69,
+        "price": 27.76,
+        "basis": 25.52,
+        "bxt_today": -0.95,
+        "ath": 30.34,
+        "pct_to_ath": 9.3,
+        "wk52_high": 30.34,
+        "wk52_low": 20.88,
+        "ath_30d": 2
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
