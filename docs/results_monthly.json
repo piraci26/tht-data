@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T15:46:45.932331+00:00",
+  "updated_at": "2026-08-16T16:01:50.664709+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.07,
+  "scan_seconds": 10.26,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -124,14 +124,14 @@
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 30.63,
-      "basis": 29.86,
-      "bxt_today": -8.54,
-      "bxt_yest": -30.98,
+      "basis": 30.02,
+      "bxt_today": -4.51,
+      "bxt_yest": -27.37,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 3,
       "bxt_streak": null,
       "ath": 32.83,
       "atl": 22.76,
@@ -657,9 +657,9 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 711.91,
-      "basis": 528.93,
-      "bxt_today": 2.36,
-      "bxt_yest": -2.29,
+      "basis": 529.15,
+      "bxt_today": 2.26,
+      "bxt_yest": -2.32,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -971,7 +971,7 @@
       "pct_to_atl": 488.0,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -1118,8 +1118,8 @@
       "mcap": 6.4,
       "price": 35.5,
       "basis": 38.55,
-      "bxt_today": 9.76,
-      "bxt_yest": -2.58,
+      "bxt_today": 9.86,
+      "bxt_yest": -2.66,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1315,8 +1315,8 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 833.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
-      "ath_30d": 2,
+      "wk52_low": 37.89,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -1544,7 +1544,7 @@
       "atl": 17.32,
       "pct_to_ath": 95.4,
       "pct_to_atl": 501.8,
-      "wk52_high": 159.87,
+      "wk52_high": 161.13,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1568,7 +1568,7 @@
       "pct_to_ath": 41.4,
       "pct_to_atl": 273.9,
       "wk52_high": 32.2,
-      "wk52_low": 11.9,
+      "wk52_low": 11.4,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1578,8 +1578,8 @@
       "mcap": 2.69,
       "price": 5.45,
       "basis": 21.88,
-      "bxt_today": 0.27,
-      "bxt_yest": -9.65,
+      "bxt_today": 0.4,
+      "bxt_yest": -9.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1822,7 +1822,7 @@
       "atl": 14.02,
       "pct_to_ath": 44.8,
       "pct_to_atl": 36.9,
-      "wk52_high": 21.84,
+      "wk52_high": 21.95,
       "wk52_low": 14.02,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1914,8 +1914,8 @@
       "atl": 15.81,
       "pct_to_ath": 15.2,
       "pct_to_atl": 894.4,
-      "wk52_high": 176.58,
-      "wk52_low": 53.4,
+      "wk52_high": 174.08,
+      "wk52_low": 53.29,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2168,7 +2168,7 @@
       "pct_to_ath": 21.8,
       "pct_to_atl": 10913.9,
       "wk52_high": 260.19,
-      "wk52_low": 107.81,
+      "wk52_low": 102.67,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2191,7 +2191,7 @@
       "pct_to_ath": 8.1,
       "pct_to_atl": 330.0,
       "wk52_high": 58.7,
-      "wk52_low": 39.64,
+      "wk52_low": 39.68,
       "ath_30d": 6,
       "atl_30d": 0
     },
@@ -2305,9 +2305,9 @@
       "atl": 7.51,
       "pct_to_ath": 9.6,
       "pct_to_atl": 299.2,
-      "wk52_high": 32.8,
+      "wk52_high": 32.86,
       "wk52_low": 24.66,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2514,7 +2514,7 @@
       "pct_to_atl": 492.5,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -2684,8 +2684,8 @@
       "mcap": 3.04,
       "price": 2.52,
       "basis": 3.71,
-      "bxt_today": -3.77,
-      "bxt_yest": 2.83,
+      "bxt_today": -3.59,
+      "bxt_yest": 2.95,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2749,42 +2749,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-16T15:26:20.742163+00:00",
+    "compared_to": "2026-08-16T15:46:45.932331+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.48,
-        "bxt_today": -6.34,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.17,
-        "price": 15.82,
-        "basis": 18.05,
-        "bxt_today": -0.01,
-        "ath": 53.08,
-        "pct_to_ath": 235.5,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
