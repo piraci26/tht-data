@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T08:09:59.377280+00:00",
+  "updated_at": "2026-08-17T09:00:12.197913+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.65,
+  "scan_seconds": 9.54,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3232,108 +3232,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T07:30:48.035386+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 105.45,
-        "price": 512.82,
-        "basis": 492.29,
-        "bxt_today": 37.58,
-        "ath": 785.0,
-        "pct_to_ath": 53.1,
-        "wk52_high": 748.3,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 29.77,
-        "price": 142.3,
-        "basis": 140.07,
-        "bxt_today": 40.15,
-        "ath": 177.28,
-        "pct_to_ath": 24.6,
-        "wk52_high": 177.28,
-        "wk52_low": 70.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 141.04,
-        "basis": 136.73,
-        "bxt_today": 29.69,
-        "ath": 171.58,
-        "pct_to_ath": 21.7,
-        "wk52_high": 171.58,
-        "wk52_low": 72.43,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-17T08:09:59.377280+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "BNT",
-        "name": "Brookfield Wealth Solutions Ltd. Exchangeable Limited Voting Shares",
-        "mcap": 12.03,
-        "price": 43.83,
-        "basis": 44.71,
-        "bxt_today": 4.88,
-        "ath": 56.67,
-        "pct_to_ath": 29.3,
-        "wk52_high": 49.86,
-        "wk52_low": 40.06,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.31,
-        "bxt_today": 2.92,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 23.91,
-        "price": 57.28,
-        "basis": 47.7,
-        "bxt_today": -6.42,
-        "ath": 61.5,
-        "pct_to_ath": 7.4,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.61,
-        "bxt_today": -3.85,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
