@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:57:27.660899+00:00",
+  "updated_at": "2026-08-17T22:27:52.397672+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.22,
+  "scan_seconds": 28.61,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -994,7 +994,7 @@
       "pct_to_atl": 478.6,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 1,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1178,7 +1178,7 @@
       "pct_to_atl": 33.6,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -1338,7 +1338,7 @@
       "pct_to_ath": 5.8,
       "pct_to_atl": 853.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 39.15,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -2039,7 +2039,7 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 26.15,
       "price": 36.24,
-      "basis": 29.36,
+      "basis": 29.35,
       "bxt_today": -0.47,
       "bxt_yest": 5.18,
       "fvb_g": false,
@@ -2331,6 +2331,29 @@
       "wk52_high": 49.86,
       "wk52_low": 40.06,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MICC",
+      "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
+      "mcap": 11.36,
+      "price": 19.01,
+      "basis": 18.66,
+      "bxt_today": -3.25,
+      "bxt_yest": 25.72,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 20.1,
+      "atl": 12.94,
+      "pct_to_ath": 5.8,
+      "pct_to_atl": 46.9,
+      "wk52_high": 20.1,
+      "wk52_low": 12.94,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2652,7 +2675,7 @@
       "pct_to_atl": 490.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -2697,7 +2720,7 @@
       "pct_to_ath": 86.5,
       "pct_to_atl": 3109.3,
       "wk52_high": 43.73,
-      "wk52_low": 11.53,
+      "wk52_low": 11.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2815,29 +2838,6 @@
       "wk52_low": 6.43,
       "ath_30d": 0,
       "atl_30d": 0
-    },
-    {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 4.78,
-      "price": 11.13,
-      "basis": 10.52,
-      "bxt_today": -1.49,
-      "bxt_yest": 21.22,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 21.62,
-      "atl": 9.75,
-      "pct_to_ath": 94.2,
-      "pct_to_atl": 14.2,
-      "wk52_high": 15.82,
-      "wk52_low": 9.75,
-      "ath_30d": 0,
-      "atl_30d": 7
     },
     {
       "sym": "IBOC",
@@ -3025,28 +3025,29 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T21:37:04.641301+00:00",
+    "compared_to": "2026-08-17T21:57:27.660899+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 6.09,
-        "price": 30.41,
-        "basis": 30.07,
-        "bxt_today": 1.85,
-        "ath": 32.83,
-        "pct_to_ath": 8.0,
-        "wk52_high": 32.83,
-        "wk52_low": 22.76,
-        "ath_30d": 7
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [
+      {
+        "sym": "MICC",
+        "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
+        "mcap": 11.36,
+        "price": 19.01,
+        "basis": 18.66,
+        "bxt_today": -3.25,
+        "ath": 20.1,
+        "pct_to_ath": 5.8,
+        "wk52_high": 20.1,
+        "wk52_low": 12.94,
+        "ath_30d": 1
+      }
+    ],
+    "bxt_red_removed": [
       {
         "sym": "OTF",
         "name": "Blue Owl Technology Finance Corp.",
@@ -3060,7 +3061,6 @@
         "wk52_low": 9.75,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }

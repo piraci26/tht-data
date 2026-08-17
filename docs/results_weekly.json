@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:57:07.715041+00:00",
+  "updated_at": "2026-08-17T22:27:20.542372+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 17.91,
+  "scan_seconds": 28.22,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -971,7 +971,7 @@
       "pct_to_atl": 478.6,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -1832,7 +1832,7 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 26.15,
       "price": 36.24,
-      "basis": 29.36,
+      "basis": 29.35,
       "bxt_today": -0.47,
       "bxt_yest": 5.18,
       "fvb_g": false,
@@ -2468,7 +2468,7 @@
       "pct_to_atl": 340.2,
       "wk52_high": 103.85,
       "wk52_low": 64.5,
-      "ath_30d": 6,
+      "ath_30d": 7,
       "atl_30d": 0
     },
     {
@@ -2651,7 +2651,7 @@
       "pct_to_ath": 86.5,
       "pct_to_atl": 3109.3,
       "wk52_high": 43.73,
-      "wk52_low": 11.41,
+      "wk52_low": 11.53,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T21:36:34.731104+00:00",
+    "compared_to": "2026-08-17T21:57:07.715041+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
