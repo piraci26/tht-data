@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T22:51:28.534662+00:00",
+  "updated_at": "2026-08-17T23:11:04.350295+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.15,
+  "scan_seconds": 15.69,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -170,7 +170,7 @@
       "name": "Solaris Energy Infrastructure, Inc.",
       "mcap": 4.39,
       "price": 65.97,
-      "basis": 62.6,
+      "basis": 62.59,
       "bxt_today": -11.68,
       "bxt_yest": -26.01,
       "fvb_g": true,
@@ -971,7 +971,7 @@
       "pct_to_atl": 478.6,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -1832,7 +1832,7 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 26.15,
       "price": 36.24,
-      "basis": 29.36,
+      "basis": 29.35,
       "bxt_today": -0.47,
       "bxt_yest": 5.18,
       "fvb_g": false,
@@ -2468,7 +2468,7 @@
       "pct_to_atl": 340.2,
       "wk52_high": 103.85,
       "wk52_low": 64.5,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2499,7 +2499,7 @@
       "name": "XP Inc.",
       "mcap": 8.17,
       "price": 15.7,
-      "basis": 18.04,
+      "basis": 18.05,
       "bxt_today": -1.6,
       "bxt_yest": 4.21,
       "fvb_g": false,
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T22:27:20.542372+00:00",
+    "compared_to": "2026-08-17T22:51:28.534662+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
