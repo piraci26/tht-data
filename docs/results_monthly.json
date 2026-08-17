@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:04:47.584440+00:00",
+  "updated_at": "2026-08-17T21:37:04.641301+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.71,
+  "scan_seconds": 24.34,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -979,7 +979,7 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 94.64,
-      "basis": 64.53,
+      "basis": 64.54,
       "bxt_today": 0.3,
       "bxt_yest": -1.15,
       "fvb_g": false,
@@ -1232,7 +1232,7 @@
       "name": "MakeMyTrip Limited Ordinary Shares",
       "mcap": 5.56,
       "price": 59.7,
-      "basis": 79.65,
+      "basis": 79.64,
       "bxt_today": 5.85,
       "bxt_yest": -2.13,
       "fvb_g": false,
@@ -1740,7 +1740,7 @@
       "name": "Marriott International",
       "mcap": 93.02,
       "price": 356.57,
-      "basis": 283.1,
+      "basis": 283.09,
       "bxt_today": -3.28,
       "bxt_yest": 11.74,
       "fvb_g": false,
@@ -2706,7 +2706,7 @@
       "name": "MYR Group, Inc.",
       "mcap": 6.53,
       "price": 340.78,
-      "basis": 208.2,
+      "basis": 208.22,
       "bxt_today": -6.14,
       "bxt_yest": 1.98,
       "fvb_g": false,
@@ -2979,7 +2979,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T20:43:28.341433+00:00",
+    "compared_to": "2026-08-17T21:04:47.584440+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

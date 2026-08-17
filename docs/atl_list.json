@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-17T21:04:49.585144+00:00",
+  "updated_at": "2026-08-17T21:37:51.621899+00:00",
   "count": 2,
   "list": [
     {
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.52,
-      "price": 15.44,
+      "price": 15.43,
       "ath": 34.11,
       "atl": 15.4,
-      "pct_to_ath": 120.9,
-      "pct_to_atl": 0.3,
+      "pct_to_ath": 121.1,
+      "pct_to_atl": 0.2,
       "wk52_high": 20.17,
       "wk52_low": 15.4,
       "ath_30d": 0,

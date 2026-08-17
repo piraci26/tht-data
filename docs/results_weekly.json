@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:04:29.487589+00:00",
+  "updated_at": "2026-08-17T21:36:34.731104+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.7,
+  "scan_seconds": 24.5,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -956,7 +956,7 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 94.64,
-      "basis": 64.53,
+      "basis": 64.54,
       "bxt_today": 0.3,
       "bxt_yest": -1.15,
       "fvb_g": false,
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T20:43:16.811574+00:00",
+    "compared_to": "2026-08-17T21:04:29.487589+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
