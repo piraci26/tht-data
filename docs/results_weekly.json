@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:36:34.731104+00:00",
+  "updated_at": "2026-08-17T21:57:07.715041+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 24.5,
+  "scan_seconds": 17.91,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -170,7 +170,7 @@
       "name": "Solaris Energy Infrastructure, Inc.",
       "mcap": 4.39,
       "price": 65.97,
-      "basis": 62.6,
+      "basis": 62.59,
       "bxt_today": -11.68,
       "bxt_yest": -26.01,
       "fvb_g": true,
@@ -772,7 +772,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 749.44,
-      "basis": 530.33,
+      "basis": 530.29,
       "bxt_today": 6.36,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -1154,7 +1154,7 @@
       "pct_to_ath": 5.8,
       "pct_to_atl": 853.1,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 39.15,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -2403,29 +2403,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NCLH",
-      "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
-      "mcap": 9.0,
-      "price": 18.18,
-      "basis": 19.98,
-      "bxt_today": -10.47,
-      "bxt_yest": 2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 64.27,
-      "atl": 7.03,
-      "pct_to_ath": 253.5,
-      "pct_to_atl": 158.6,
-      "wk52_high": 27.18,
-      "wk52_low": 14.53,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ALV",
       "name": "Autoliv, Inc.",
       "mcap": 9.0,
@@ -2449,6 +2426,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "NCLH",
+      "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
+      "mcap": 9.0,
+      "price": 18.18,
+      "basis": 19.98,
+      "bxt_today": -10.47,
+      "bxt_yest": 2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 64.27,
+      "atl": 7.03,
+      "pct_to_ath": 253.5,
+      "pct_to_atl": 158.6,
+      "wk52_high": 27.18,
+      "wk52_low": 14.53,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "VOYA",
       "name": "Voya Financial, Inc.",
       "mcap": 8.85,
@@ -2468,7 +2468,7 @@
       "pct_to_atl": 340.2,
       "wk52_high": 103.85,
       "wk52_low": 64.5,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2629,7 +2629,7 @@
       "pct_to_atl": 490.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T21:04:29.487589+00:00",
+    "compared_to": "2026-08-17T21:36:34.731104+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
