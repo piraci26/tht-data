@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16T23:55:18.147496+00:00",
-  "count": 36,
+  "updated_at": "2026-08-17T01:06:31.278966+00:00",
+  "count": 37,
   "list": [
     {
       "sym": "MRK",
@@ -67,7 +67,7 @@
       "pct_to_atl": 2070.0,
       "wk52_high": 185.86,
       "wk52_low": 112.21,
-      "ath_30d": 10,
+      "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 185.86,
       "last_low": 184.0,
@@ -84,7 +84,7 @@
       "pct_to_ath": 0.0,
       "pct_to_atl": 1465.1,
       "wk52_high": 123.76,
-      "wk52_low": 72.57,
+      "wk52_low": 72.58,
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 123.76,
@@ -102,7 +102,7 @@
       "pct_to_ath": 0.0,
       "pct_to_atl": 593.7,
       "wk52_high": 91.55,
-      "wk52_low": 55.92,
+      "wk52_low": 56.35,
       "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 91.55,
@@ -193,7 +193,7 @@
       "pct_to_atl": 7530.0,
       "wk52_high": 189.25,
       "wk52_low": 125.34,
-      "ath_30d": 5,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 189.25,
       "last_low": 186.08,
@@ -228,8 +228,8 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 429.2,
       "wk52_high": 74.86,
-      "wk52_low": 47.21,
-      "ath_30d": 5,
+      "wk52_low": 47.92,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 74.86,
       "last_low": 73.61,
@@ -427,7 +427,7 @@
       "pct_to_atl": 256.1,
       "wk52_high": 106.06,
       "wk52_low": 74.38,
-      "ath_30d": 4,
+      "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 106.06,
       "last_low": 104.29,
@@ -503,6 +503,24 @@
       "atl_30d": 0,
       "last_high": 961.98,
       "last_low": 938.87,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4450,8 +4468,10 @@
       "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false,
-      "first_seen_at": "2026-08-16T22:11:25.387971+00:00"
+      "first_seen_at": "2026-08-17T01:06:31.278966+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "TMHC"
+  ]
 }
