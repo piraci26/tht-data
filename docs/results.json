@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T08:59:48.668849+00:00",
+  "updated_at": "2026-08-17T09:52:00.733537+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.77,
+  "scan_seconds": 11.27,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -4888,7 +4888,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T08:09:21.127048+00:00",
+    "compared_to": "2026-08-17T08:59:48.668849+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
