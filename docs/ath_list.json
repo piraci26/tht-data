@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T14:15:32.718898+00:00",
+  "updated_at": "2026-08-17T14:47:43.331421+00:00",
   "count": 34,
   "list": [
     {
@@ -4417,18 +4417,5 @@
       "first_seen_at": "2026-08-17T14:15:32.718898+00:00"
     }
   ],
-  "added_this_run": [
-    "BAC",
-    "CRNX",
-    "DINO",
-    "EBC",
-    "INSW",
-    "MTB",
-    "PBF",
-    "PNC",
-    "ROIV",
-    "STT",
-    "TD",
-    "USB"
-  ]
+  "added_this_run": []
 }
