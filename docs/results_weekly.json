@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T23:36:57.893711+00:00",
+  "updated_at": "2026-08-17T23:56:43.027688+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 20.18,
+  "scan_seconds": 18.73,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -170,7 +170,7 @@
       "name": "Solaris Energy Infrastructure, Inc.",
       "mcap": 4.39,
       "price": 65.97,
-      "basis": 62.6,
+      "basis": 62.59,
       "bxt_today": -11.68,
       "bxt_yest": -26.01,
       "fvb_g": true,
@@ -772,7 +772,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 749.44,
-      "basis": 530.33,
+      "basis": 530.29,
       "bxt_today": 6.36,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -971,7 +971,7 @@
       "pct_to_atl": 478.6,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 2,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2499,7 +2499,7 @@
       "name": "XP Inc.",
       "mcap": 8.17,
       "price": 15.7,
-      "basis": 18.04,
+      "basis": 18.05,
       "bxt_today": -1.6,
       "bxt_yest": 4.21,
       "fvb_g": false,
@@ -2629,7 +2629,7 @@
       "pct_to_atl": 490.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 6,
+      "ath_30d": 5,
       "atl_30d": 0
     },
     {
@@ -2651,7 +2651,7 @@
       "pct_to_ath": 86.5,
       "pct_to_atl": 3109.3,
       "wk52_high": 43.73,
-      "wk52_low": 11.41,
+      "wk52_low": 11.53,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T23:11:04.350295+00:00",
+    "compared_to": "2026-08-17T23:36:57.893711+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
