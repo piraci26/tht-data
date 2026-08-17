@@ -1,16 +1,34 @@
 {
-  "updated_at": "2026-08-17T19:48:01.313831+00:00",
-  "count": 1,
+  "updated_at": "2026-08-17T20:11:34.224968+00:00",
+  "count": 2,
   "list": [
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.52,
+      "price": 15.44,
+      "ath": 34.11,
+      "atl": 15.4,
+      "pct_to_ath": 120.9,
+      "pct_to_atl": 0.3,
+      "wk52_high": 20.17,
+      "wk52_low": 15.4,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 15.69,
+      "last_low": 15.4,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
       "mcap": 3.04,
-      "price": 2.47,
+      "price": 2.52,
       "ath": 21.3,
       "atl": 2.41,
-      "pct_to_ath": 760.6,
-      "pct_to_atl": 2.7,
+      "pct_to_ath": 745.2,
+      "pct_to_atl": 4.6,
       "wk52_high": 6.01,
       "wk52_low": 2.41,
       "ath_30d": 0,
@@ -755,7 +773,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-14T14:35:47.916801+00:00"
+    },
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.52,
+      "price": 15.44,
+      "ath": 34.11,
+      "atl": 15.4,
+      "pct_to_ath": 120.9,
+      "pct_to_atl": 0.3,
+      "wk52_high": 20.17,
+      "wk52_low": 15.4,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 15.69,
+      "last_low": 15.4,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-17T20:11:34.224968+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PDI"
+  ]
 }
