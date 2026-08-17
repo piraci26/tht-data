@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T11:46:09.554537+00:00",
+  "updated_at": "2026-08-17T12:02:52.810276+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.43,
+  "scan_seconds": 10.92,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -281,36 +281,13 @@
       "atl_30d": 0
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 29.77,
-      "price": 142.3,
-      "basis": 140.07,
-      "bxt_today": 40.15,
-      "bxt_yest": 38.78,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 177.28,
-      "atl": 70.5,
-      "pct_to_ath": 24.6,
-      "pct_to_atl": 101.8,
-      "wk52_high": 177.28,
-      "wk52_low": 70.5,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "FOX",
       "name": "Fox Corporation",
       "mcap": 25.79,
       "price": 61.41,
-      "basis": 55.88,
+      "basis": 55.89,
       "bxt_today": 31.18,
-      "bxt_yest": 19.18,
+      "bxt_yest": 19.44,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -377,9 +354,9 @@
       "name": "Bentley Systems, Incorporated",
       "mcap": 10.95,
       "price": 36.24,
-      "basis": 34.42,
+      "basis": 34.41,
       "bxt_today": 44.36,
-      "bxt_yest": 42.56,
+      "bxt_yest": 42.49,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -419,29 +396,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ECG",
-      "name": "Everus Construction Group, Inc.",
-      "mcap": 6.98,
-      "price": 141.04,
-      "basis": 136.73,
-      "bxt_today": 29.69,
-      "bxt_yest": 26.38,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 171.58,
-      "atl": 31.38,
-      "pct_to_ath": 21.7,
-      "pct_to_atl": 349.5,
-      "wk52_high": 171.58,
-      "wk52_low": 72.43,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "NE",
       "name": "Noble Corporation plc A Ordinary Shares",
       "mcap": 6.38,
@@ -469,14 +423,14 @@
       "name": "Janus Living, Inc.-1",
       "mcap": 6.09,
       "price": 30.63,
-      "basis": 29.99,
-      "bxt_today": -8.63,
-      "bxt_yest": -30.75,
+      "basis": 30.02,
+      "bxt_today": -4.51,
+      "bxt_yest": -27.37,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 3,
       "bxt_streak": null,
       "ath": 32.83,
       "atl": 22.76,
@@ -484,7 +438,7 @@
       "pct_to_atl": 34.6,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 8,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -1385,7 +1339,7 @@
       "pct_to_atl": 267.4,
       "wk52_high": 109.75,
       "wk52_low": 76.93,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1431,7 +1385,7 @@
       "pct_to_atl": 256.1,
       "wk52_high": 106.06,
       "wk52_low": 74.38,
-      "ath_30d": 2,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2096,7 +2050,7 @@
       "atl": 17.32,
       "pct_to_ath": 95.4,
       "pct_to_atl": 501.8,
-      "wk52_high": 161.13,
+      "wk52_high": 159.87,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -2293,8 +2247,8 @@
       "mcap": 43.72,
       "price": 97.99,
       "basis": 83.73,
-      "bxt_today": -15.92,
-      "bxt_yest": 13.0,
+      "bxt_today": -15.86,
+      "bxt_yest": 13.11,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2354,29 +2308,6 @@
       "wk52_high": 237.54,
       "wk52_low": 158.97,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "ARXS",
-      "name": "Arxis, Inc.",
-      "mcap": 23.91,
-      "price": 57.28,
-      "basis": 47.7,
-      "bxt_today": -6.42,
-      "bxt_yest": 4.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 61.5,
-      "atl": 33.15,
-      "pct_to_ath": 7.4,
-      "pct_to_atl": 72.8,
-      "wk52_high": 61.5,
-      "wk52_low": 33.15,
-      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2491,7 +2422,7 @@
       "pct_to_atl": 1984.7,
       "wk52_high": 282.15,
       "wk52_low": 186.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -2628,7 +2559,7 @@
       "pct_to_ath": 21.8,
       "pct_to_atl": 10913.9,
       "wk52_high": 260.19,
-      "wk52_low": 104.15,
+      "wk52_low": 107.81,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2660,15 +2591,15 @@
       "name": "On Holding AG Ordinary Shares",
       "mcap": 10.77,
       "price": 32.22,
-      "basis": 39.63,
-      "bxt_today": -18.5,
-      "bxt_yest": 9.89,
+      "basis": 39.64,
+      "bxt_today": -18.26,
+      "bxt_yest": 12.92,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 1,
+      "bxt_streak": 13,
       "ath": 64.05,
       "atl": 15.44,
       "pct_to_ath": 98.8,
@@ -2742,9 +2673,9 @@
       "atl": 7.51,
       "pct_to_ath": 9.6,
       "pct_to_atl": 299.2,
-      "wk52_high": 32.86,
+      "wk52_high": 32.8,
       "wk52_low": 24.66,
-      "ath_30d": 1,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2881,7 +2812,7 @@
       "pct_to_ath": 32.3,
       "pct_to_atl": 22335.2,
       "wk52_high": 741.98,
-      "wk52_low": 487.74,
+      "wk52_low": 456.69,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2996,8 +2927,8 @@
       "pct_to_ath": 12.2,
       "pct_to_atl": 209.5,
       "wk52_high": 61.38,
-      "wk52_low": 38.0,
-      "ath_30d": 5,
+      "wk52_low": 37.22,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -3028,7 +2959,7 @@
       "name": "Maase Inc. Ordinary Shares",
       "mcap": 6.37,
       "price": 16.66,
-      "basis": 10.2,
+      "basis": 10.21,
       "bxt_today": -6.17,
       "bxt_yest": 14.21,
       "fvb_g": false,
@@ -3212,15 +3143,15 @@
       "name": "Anbio Biotechnology Ordinary Shares",
       "mcap": 0.4,
       "price": 8.74,
-      "basis": 10.61,
-      "bxt_today": -3.85,
-      "bxt_yest": 32.46,
+      "basis": 10.48,
+      "bxt_today": -6.34,
+      "bxt_yest": 31.04,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 37,
+      "bxt_streak": 38,
       "ath": 55.65,
       "atl": 5.18,
       "pct_to_ath": 536.7,
@@ -3232,21 +3163,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T11:18:49.157254+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 105.45,
-        "price": 512.82,
-        "basis": 492.29,
-        "bxt_today": 37.58,
-        "ath": 785.0,
-        "pct_to_ath": 53.1,
-        "wk52_high": 748.3,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      },
+    "compared_to": "2026-08-17T11:46:09.554537+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "Q",
         "name": "Qnity Electronics, Inc.",
@@ -3274,12 +3193,12 @@
         "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "ARXS",
         "name": "Arxis, Inc.",
@@ -3292,21 +3211,7 @@
         "wk52_high": 61.5,
         "wk52_low": 33.15,
         "ath_30d": 6
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.61,
-        "bxt_today": -3.85,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 8.3,
-        "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
