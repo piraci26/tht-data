@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T01:06:31.278966+00:00",
+  "updated_at": "2026-08-17T02:34:00.841483+00:00",
   "count": 37,
   "list": [
     {
@@ -67,7 +67,7 @@
       "pct_to_atl": 2070.0,
       "wk52_high": 185.86,
       "wk52_low": 112.21,
-      "ath_30d": 8,
+      "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 185.86,
       "last_low": 184.0,
@@ -84,7 +84,7 @@
       "pct_to_ath": 0.0,
       "pct_to_atl": 1465.1,
       "wk52_high": 123.76,
-      "wk52_low": 72.58,
+      "wk52_low": 72.57,
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 123.76,
@@ -319,7 +319,7 @@
       "pct_to_atl": 3981.6,
       "wk52_high": 375.71,
       "wk52_low": 259.83,
-      "ath_30d": 5,
+      "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 375.71,
       "last_low": 366.26,
@@ -337,7 +337,7 @@
       "pct_to_atl": 795.4,
       "wk52_high": 62.65,
       "wk52_low": 35.07,
-      "ath_30d": 7,
+      "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 62.65,
       "last_low": 61.51,
@@ -373,7 +373,7 @@
       "pct_to_atl": 1729.3,
       "wk52_high": 152.48,
       "wk52_low": 103.38,
-      "ath_30d": 8,
+      "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 152.48,
       "last_low": 148.85,
@@ -409,7 +409,7 @@
       "pct_to_atl": 267.4,
       "wk52_high": 109.75,
       "wk52_low": 76.93,
-      "ath_30d": 5,
+      "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 109.75,
       "last_low": 107.96,
@@ -462,8 +462,8 @@
       "pct_to_ath": 0.2,
       "pct_to_atl": 6495.9,
       "wk52_high": 146.38,
-      "wk52_low": 100.41,
-      "ath_30d": 9,
+      "wk52_low": 102.72,
+      "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 146.38,
       "last_low": 145.01,
@@ -535,7 +535,7 @@
       "pct_to_atl": 166.2,
       "wk52_high": 50.26,
       "wk52_low": 34.64,
-      "ath_30d": 14,
+      "ath_30d": 13,
       "atl_30d": 0,
       "last_high": 50.26,
       "last_low": 49.79,
@@ -553,7 +553,7 @@
       "pct_to_atl": 1831.5,
       "wk52_high": 80.13,
       "wk52_low": 54.05,
-      "ath_30d": 7,
+      "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 80.13,
       "last_low": 79.14,
@@ -571,7 +571,7 @@
       "pct_to_atl": 5620.9,
       "wk52_high": 267.45,
       "wk52_low": 103.02,
-      "ath_30d": 8,
+      "ath_30d": 7,
       "atl_30d": 0,
       "last_high": 267.45,
       "last_low": 262.2,
@@ -4471,7 +4471,5 @@
       "first_seen_at": "2026-08-17T01:06:31.278966+00:00"
     }
   ],
-  "added_this_run": [
-    "TMHC"
-  ]
+  "added_this_run": []
 }
