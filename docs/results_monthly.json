@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T20:43:28.341433+00:00",
+  "updated_at": "2026-08-17T21:04:47.584440+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.01,
+  "scan_seconds": 14.71,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -979,7 +979,7 @@
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 10.99,
       "price": 94.64,
-      "basis": 64.54,
+      "basis": 64.53,
       "bxt_today": 0.3,
       "bxt_yest": -1.15,
       "fvb_g": false,
@@ -1232,7 +1232,7 @@
       "name": "MakeMyTrip Limited Ordinary Shares",
       "mcap": 5.56,
       "price": 59.7,
-      "basis": 79.64,
+      "basis": 79.65,
       "bxt_today": 5.85,
       "bxt_yest": -2.13,
       "fvb_g": false,
@@ -2706,7 +2706,7 @@
       "name": "MYR Group, Inc.",
       "mcap": 6.53,
       "price": 340.78,
-      "basis": 208.22,
+      "basis": 208.2,
       "bxt_today": -6.14,
       "bxt_yest": 1.98,
       "fvb_g": false,
@@ -2979,55 +2979,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T20:10:53.389661+00:00",
+    "compared_to": "2026-08-17T20:43:28.341433+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 6.09,
-        "price": 30.42,
-        "basis": 30.07,
-        "bxt_today": 2.02,
-        "ath": 32.83,
-        "pct_to_ath": 7.9,
-        "wk52_high": 32.83,
-        "wk52_low": 22.76,
-        "ath_30d": 6
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "MICC",
-        "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
-        "mcap": 11.36,
-        "price": 19.03,
-        "basis": 18.66,
-        "bxt_today": -2.81,
-        "ath": 20.1,
-        "pct_to_ath": 5.6,
-        "wk52_high": 20.1,
-        "wk52_low": 12.94,
-        "ath_30d": 1
-      },
-      {
-        "sym": "OTF",
-        "name": "Blue Owl Technology Finance Corp.",
-        "mcap": 4.78,
-        "price": 11.12,
-        "basis": 10.52,
-        "bxt_today": -1.63,
-        "ath": 21.62,
-        "pct_to_ath": 94.4,
-        "wk52_high": 15.82,
-        "wk52_low": 9.75,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
