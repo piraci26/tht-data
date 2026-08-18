@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T22:57:09.691730+00:00",
+  "updated_at": "2026-08-18T23:24:04.321554+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 17.5,
+  "scan_seconds": 17.98,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -2380,29 +2380,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
-      "mcap": 9.5,
-      "price": 308.21,
-      "basis": 277.47,
-      "bxt_today": -8.49,
-      "bxt_yest": 4.48,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 327.28,
-      "atl": 18.61,
-      "pct_to_ath": 6.2,
-      "pct_to_atl": 1556.2,
-      "wk52_high": 327.28,
-      "wk52_low": 230.09,
-      "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9.5,
@@ -2423,6 +2400,29 @@
       "wk52_high": 109.75,
       "wk52_low": 76.93,
       "ath_30d": 1,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
+      "mcap": 9.5,
+      "price": 308.21,
+      "basis": 277.47,
+      "bxt_today": -8.49,
+      "bxt_yest": 4.48,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 327.28,
+      "atl": 18.61,
+      "pct_to_ath": 6.2,
+      "pct_to_atl": 1556.2,
+      "wk52_high": 327.28,
+      "wk52_low": 230.09,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -3163,122 +3163,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-18T22:34:39.975642+00:00",
+    "compared_to": "2026-08-18T22:57:09.691730+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "WWD",
-        "name": "Woodward, Inc.",
-        "mcap": 21.88,
-        "price": 366.2,
-        "basis": 374.1,
-        "bxt_today": -32.78,
-        "ath": 450.92,
-        "pct_to_ath": 23.1,
-        "wk52_high": 450.92,
-        "wk52_low": 233.31,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "SQM",
-        "name": "Sociedad Quimica y Minera S.A.",
-        "mcap": 21.23,
-        "price": 74.47,
-        "basis": 77.83,
-        "bxt_today": 5.46,
-        "ath": 115.76,
-        "pct_to_ath": 55.4,
-        "wk52_high": 98.0,
-        "wk52_low": 40.58,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ZWS",
-        "name": "Zurn Elkay Water Solutions Corporation",
-        "mcap": 7.93,
-        "price": 49.21,
-        "basis": 48.71,
-        "bxt_today": -0.39,
-        "ath": 55.0,
-        "pct_to_ath": 11.8,
-        "wk52_high": 55.0,
-        "wk52_low": 43.06,
-        "ath_30d": 1
-      },
-      {
-        "sym": "AX",
-        "name": "Axos Financial, Inc.",
-        "mcap": 5.54,
-        "price": 97.66,
-        "basis": 92.79,
-        "bxt_today": -2.09,
-        "ath": 105.74,
-        "pct_to_ath": 8.3,
-        "wk52_high": 105.74,
-        "wk52_low": 74.89,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CCEP",
-        "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
-        "mcap": 47.57,
-        "price": 107.5,
-        "basis": 98.87,
-        "bxt_today": -0.93,
-        "ath": 113.67,
-        "pct_to_ath": 5.7,
-        "wk52_high": 113.67,
-        "wk52_low": 84.66,
-        "ath_30d": 1
-      },
-      {
-        "sym": "AMG",
-        "name": "Affiliated Managers Group, Inc.",
-        "mcap": 9.68,
-        "price": 363.57,
-        "basis": 320.66,
-        "bxt_today": -17.72,
-        "ath": 392.92,
-        "pct_to_ath": 8.1,
-        "wk52_high": 392.92,
-        "wk52_low": 215.0,
-        "ath_30d": 5
-      },
-      {
-        "sym": "AUB",
-        "name": "Atlantic Union Bankshares Corporation",
-        "mcap": 6.02,
-        "price": 42.36,
-        "basis": 39.1,
-        "bxt_today": -10.38,
-        "ath": 44.54,
-        "pct_to_ath": 5.1,
-        "wk52_high": 43.62,
-        "wk52_low": 30.87,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SON",
-        "name": "Sonoco Products Company",
-        "mcap": 5.53,
-        "price": 57.2,
-        "basis": 52.99,
-        "bxt_today": -0.75,
-        "ath": 69.83,
-        "pct_to_ath": 22.1,
-        "wk52_high": 60.67,
-        "wk52_low": 38.65,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
