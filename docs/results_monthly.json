@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T02:31:08.974309+00:00",
+  "updated_at": "2026-08-18T03:25:03.213485+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.56,
+  "scan_seconds": 8.94,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -147,7 +147,7 @@
       "name": "Solaris Energy Infrastructure, Inc.",
       "mcap": 4.39,
       "price": 65.97,
-      "basis": 62.59,
+      "basis": 62.6,
       "bxt_today": -11.68,
       "bxt_yest": -26.01,
       "fvb_g": true,
@@ -726,7 +726,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 749.44,
-      "basis": 530.29,
+      "basis": 530.33,
       "bxt_today": 6.36,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -1136,29 +1136,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "JAN",
-      "name": "Janus Living, Inc.-1",
-      "mcap": 6.09,
-      "price": 30.41,
-      "basis": 30.07,
-      "bxt_today": 1.85,
-      "bxt_yest": -4.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 32.83,
-      "atl": 22.76,
-      "pct_to_ath": 8.0,
-      "pct_to_atl": 33.6,
-      "wk52_high": 32.83,
-      "wk52_low": 22.76,
-      "ath_30d": 6,
-      "atl_30d": 0
-    },
-    {
       "sym": "TFX",
       "name": "Teleflex Incorporated",
       "mcap": 6.01,
@@ -1315,7 +1292,7 @@
       "pct_to_ath": 5.8,
       "pct_to_atl": 853.1,
       "wk52_high": 181.63,
-      "wk52_low": 39.15,
+      "wk52_low": 38.83,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -2016,7 +1993,7 @@
       "name": "Roivant Sciences Ltd. Common Shares",
       "mcap": 26.15,
       "price": 36.24,
-      "basis": 29.35,
+      "basis": 29.36,
       "bxt_today": -0.47,
       "bxt_yest": 5.18,
       "fvb_g": false,
@@ -2476,7 +2453,7 @@
       "name": "XP Inc.",
       "mcap": 8.17,
       "price": 15.7,
-      "basis": 18.05,
+      "basis": 18.04,
       "bxt_today": -1.6,
       "bxt_yest": 4.21,
       "fvb_g": false,
@@ -2629,7 +2606,7 @@
       "pct_to_atl": 490.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 5,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2674,7 +2651,7 @@
       "pct_to_ath": 86.5,
       "pct_to_atl": 3109.3,
       "wk52_high": 43.73,
-      "wk52_low": 11.53,
+      "wk52_low": 11.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2683,22 +2660,22 @@
       "name": "Navan, Inc.",
       "mcap": 6.59,
       "price": 28.72,
-      "basis": 26.52,
-      "bxt_today": -8.56,
-      "bxt_yest": 13.22,
+      "basis": 26.36,
+      "bxt_today": -0.81,
+      "bxt_yest": 22.39,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 13,
+      "bxt_streak": 12,
       "ath": 29.99,
       "atl": 8.1,
       "pct_to_ath": 4.4,
       "pct_to_atl": 254.3,
       "wk52_high": 29.99,
       "wk52_low": 8.1,
-      "ath_30d": 5,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2792,29 +2769,6 @@
       "wk52_low": 6.43,
       "ath_30d": 0,
       "atl_30d": 0
-    },
-    {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 4.78,
-      "price": 11.13,
-      "basis": 10.52,
-      "bxt_today": -1.49,
-      "bxt_yest": 21.22,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 21.62,
-      "atl": 9.75,
-      "pct_to_ath": 94.2,
-      "pct_to_atl": 14.2,
-      "wk52_high": 15.82,
-      "wk52_low": 9.75,
-      "ath_30d": 0,
-      "atl_30d": 7
     },
     {
       "sym": "IBOC",
@@ -3002,12 +2956,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-18T01:14:06.793701+00:00",
+    "compared_to": "2026-08-18T02:31:08.974309+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "JAN",
         "name": "Janus Living, Inc.-1",
@@ -3022,8 +2977,8 @@
         "ath_30d": 6
       }
     ],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "OTF",
         "name": "Blue Owl Technology Finance Corp.",
@@ -3037,7 +2992,6 @@
         "wk52_low": 9.75,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
