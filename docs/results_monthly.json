@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T09:03:57.468498+00:00",
+  "updated_at": "2026-08-18T09:44:49.615398+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.87,
+  "scan_seconds": 15.2,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -239,9 +239,9 @@
       "name": "Fox Corporation",
       "mcap": 25.79,
       "price": 61.41,
-      "basis": 55.89,
+      "basis": 55.88,
       "bxt_today": 31.18,
-      "bxt_yest": 19.44,
+      "bxt_yest": 19.18,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -331,9 +331,9 @@
       "name": "TPG Inc.",
       "mcap": 8.51,
       "price": 53.03,
-      "basis": 46.78,
-      "bxt_today": 47.14,
-      "bxt_yest": 45.05,
+      "basis": 46.77,
+      "bxt_today": 47.13,
+      "bxt_yest": 44.92,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -354,9 +354,9 @@
       "name": "Noble Corporation plc A Ordinary Shares",
       "mcap": 6.38,
       "price": 45.1,
-      "basis": 43.24,
+      "basis": 43.23,
       "bxt_today": 1.43,
-      "bxt_yest": -18.76,
+      "bxt_yest": -22.41,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
@@ -415,7 +415,7 @@
       "pct_to_atl": 34.6,
       "wk52_high": 32.83,
       "wk52_low": 22.76,
-      "ath_30d": 6,
+      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -1228,6 +1228,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "BNT",
+      "name": "Brookfield Wealth Solutions Ltd. Exchangeable Limited Voting Shares",
+      "mcap": 12.03,
+      "price": 43.83,
+      "basis": 44.71,
+      "bxt_today": 4.88,
+      "bxt_yest": -0.03,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 56.67,
+      "atl": 18.86,
+      "pct_to_ath": 29.3,
+      "pct_to_atl": 132.4,
+      "wk52_high": 49.86,
+      "wk52_low": 40.06,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "GDDY",
       "name": "GoDaddy Inc.",
       "mcap": 12.02,
@@ -1554,9 +1577,9 @@
       "name": "Noble Corporation plc A Ordinary Shares",
       "mcap": 6.38,
       "price": 45.1,
-      "basis": 43.24,
+      "basis": 43.23,
       "bxt_today": 1.43,
-      "bxt_yest": -18.76,
+      "bxt_yest": -22.41,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
@@ -2339,8 +2362,8 @@
       "mcap": 43.72,
       "price": 97.99,
       "basis": 83.73,
-      "bxt_today": -15.86,
-      "bxt_yest": 13.11,
+      "bxt_today": -15.92,
+      "bxt_yest": 13.0,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -2514,7 +2537,7 @@
       "pct_to_atl": 1975.5,
       "wk52_high": 282.15,
       "wk52_low": 186.05,
-      "ath_30d": 3,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -3206,16 +3229,38 @@
       "wk52_low": 10.44,
       "ath_30d": 0,
       "atl_30d": 0
+    },
+    {
+      "sym": "NNNN",
+      "name": "Anbio Biotechnology Ordinary Shares",
+      "mcap": 0.4,
+      "price": 8.74,
+      "basis": 10.48,
+      "bxt_today": -6.34,
+      "bxt_yest": 31.04,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 38,
+      "ath": 55.65,
+      "atl": 5.18,
+      "pct_to_ath": 536.7,
+      "pct_to_atl": 68.7,
+      "wk52_high": 54.95,
+      "wk52_low": 7.08,
+      "ath_30d": 0,
+      "atl_30d": 0
     }
   ],
   "changes": {
-    "compared_to": "2026-08-18T08:27:41.665641+00:00",
+    "compared_to": "2026-08-18T09:03:57.468498+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "BNT",
         "name": "Brookfield Wealth Solutions Ltd. Exchangeable Limited Voting Shares",
@@ -3230,7 +3275,22 @@
         "ath_30d": 0
       }
     ],
-    "bxt_red_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [
+      {
+        "sym": "NNNN",
+        "name": "Anbio Biotechnology Ordinary Shares",
+        "mcap": 0.4,
+        "price": 8.74,
+        "basis": 10.48,
+        "bxt_today": -6.34,
+        "ath": 55.65,
+        "pct_to_ath": 536.7,
+        "wk52_high": 54.95,
+        "wk52_low": 7.08,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_removed": []
   }
 }
