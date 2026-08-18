@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T05:49:25.019784+00:00",
+  "updated_at": "2026-08-18T06:18:50.448449+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.36,
+  "scan_seconds": 22.26,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -5049,97 +5049,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-18T05:16:44.730258+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 105.45,
-        "price": 512.82,
-        "basis": 492.29,
-        "bxt_today": 37.58,
-        "ath": 785.0,
-        "pct_to_ath": 53.1,
-        "wk52_high": 748.3,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-18T05:49:25.019784+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "PIPR",
-        "name": "Piper Sandler Companies",
-        "mcap": 4.87,
-        "price": 76.5,
-        "basis": 80.15,
-        "bxt_today": 9.09,
-        "ath": 95.07,
-        "pct_to_ath": 24.3,
-        "wk52_high": 95.07,
-        "wk52_low": 68.7,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "IESC",
-        "name": "IES Holdings, Inc.",
-        "mcap": 15.07,
-        "price": 756.18,
-        "basis": 569.65,
-        "bxt_today": 3.8,
-        "ath": 816.51,
-        "pct_to_ath": 8.0,
-        "wk52_high": 816.51,
-        "wk52_low": 309.51,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "TEO",
-        "name": "Telecom Argentina SA",
-        "mcap": 5.84,
-        "price": 13.34,
-        "basis": 12.41,
-        "bxt_today": -12.08,
-        "ath": 46.75,
-        "pct_to_ath": 250.4,
-        "wk52_high": 16.34,
-        "wk52_low": 6.43,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "TROW",
-        "name": "T. Rowe Price Group, Inc.",
-        "mcap": 23.58,
-        "price": 110.56,
-        "basis": 102.94,
-        "bxt_today": -17.02,
-        "ath": 224.56,
-        "pct_to_ath": 103.1,
-        "wk52_high": 122.0,
-        "wk52_low": 85.22,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AGO",
-        "name": "Assured Guaranty Ltd.",
-        "mcap": 3.77,
-        "price": 76.79,
-        "basis": 82.25,
-        "bxt_today": -8.86,
-        "ath": 96.6,
-        "pct_to_ath": 25.8,
-        "wk52_high": 92.4,
-        "wk52_low": 72.76,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

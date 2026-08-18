@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-18T05:49:40.486030+00:00",
+  "updated_at": "2026-08-18T06:19:12.891396+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.9,
+  "scan_seconds": 18.08,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3301,95 +3301,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-18T05:17:00.388500+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 105.45,
-        "price": 512.82,
-        "basis": 492.29,
-        "bxt_today": 37.58,
-        "ath": 785.0,
-        "pct_to_ath": 53.1,
-        "wk52_high": 748.3,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "Q",
-        "name": "Qnity Electronics, Inc.",
-        "mcap": 29.77,
-        "price": 142.3,
-        "basis": 140.07,
-        "bxt_today": 40.15,
-        "ath": 177.28,
-        "pct_to_ath": 24.6,
-        "wk52_high": 177.28,
-        "wk52_low": 70.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 141.04,
-        "basis": 136.73,
-        "bxt_today": 29.69,
-        "ath": 171.58,
-        "pct_to_ath": 21.7,
-        "wk52_high": 171.58,
-        "wk52_low": 72.43,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-18T05:49:40.486030+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "GTES",
-        "name": "Gates Industrial Corporation plc Ordinary Shares",
-        "mcap": 6.69,
-        "price": 27.76,
-        "basis": 25.31,
-        "bxt_today": 2.92,
-        "ath": 30.34,
-        "pct_to_ath": 9.3,
-        "wk52_high": 30.34,
-        "wk52_low": 20.88,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ARXS",
-        "name": "Arxis, Inc.",
-        "mcap": 23.91,
-        "price": 57.28,
-        "basis": 47.7,
-        "bxt_today": -6.42,
-        "ath": 61.5,
-        "pct_to_ath": 7.4,
-        "wk52_high": 61.5,
-        "wk52_low": 33.15,
-        "ath_30d": 6
-      },
-      {
-        "sym": "NNNN",
-        "name": "Anbio Biotechnology Ordinary Shares",
-        "mcap": 0.4,
-        "price": 8.74,
-        "basis": 10.61,
-        "bxt_today": -3.85,
-        "ath": 55.65,
-        "pct_to_ath": 536.7,
-        "wk52_high": 54.95,
-        "wk52_low": 7.08,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
