@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-08-18T13:52:45.817957+00:00",
+  "updated_at": "2026-08-18T14:23:54.220784+00:00",
   "count": 2,
   "list": [
     {
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.52,
-      "price": 15.75,
+      "price": 15.08,
       "ath": 34.11,
-      "atl": 15.4,
-      "pct_to_ath": 116.6,
-      "pct_to_atl": 2.3,
+      "atl": 15.05,
+      "pct_to_ath": 126.2,
+      "pct_to_atl": 0.2,
       "wk52_high": 20.17,
-      "wk52_low": 15.4,
+      "wk52_low": 15.05,
       "ath_30d": 0,
       "atl_30d": 1,
-      "last_high": 15.69,
-      "last_low": 15.4,
+      "last_high": 15.34,
+      "last_low": 15.05,
       "made_ath_today": false,
       "made_atl_today": true
     },
     {
-      "sym": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "mcap": 3.04,
-      "price": 2.52,
-      "ath": 21.3,
-      "atl": 2.41,
-      "pct_to_ath": 745.2,
-      "pct_to_atl": 4.6,
-      "wk52_high": 6.01,
-      "wk52_low": 2.41,
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 9.8,
+      "ath": 44.54,
+      "atl": 9.4,
+      "pct_to_ath": 354.5,
+      "pct_to_atl": 4.2,
+      "wk52_high": 44.54,
+      "wk52_low": 9.4,
       "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 2.54,
-      "last_low": 2.41,
+      "atl_30d": 11,
+      "last_high": 10.49,
+      "last_low": 9.4,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -737,25 +737,6 @@
       "first_seen_at": "2026-08-07T05:08:04.080589+00:00"
     },
     {
-      "sym": "YSS",
-      "name": "York Space Systems Inc.",
-      "mcap": 2.81,
-      "price": 9.99,
-      "ath": 44.54,
-      "atl": 9.9,
-      "pct_to_ath": 345.8,
-      "pct_to_atl": 0.9,
-      "wk52_high": 44.54,
-      "wk52_low": 9.9,
-      "ath_30d": 0,
-      "atl_30d": 10,
-      "last_high": 10.63,
-      "last_low": 9.9,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-14T13:34:41.837818+00:00"
-    },
-    {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
       "mcap": 3.04,
@@ -792,7 +773,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-17T20:11:34.224968+00:00"
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 9.8,
+      "ath": 44.54,
+      "atl": 9.4,
+      "pct_to_ath": 354.5,
+      "pct_to_atl": 4.2,
+      "wk52_high": 44.54,
+      "wk52_low": 9.4,
+      "ath_30d": 0,
+      "atl_30d": 11,
+      "last_high": 10.49,
+      "last_low": 9.4,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-18T14:23:54.220784+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "YSS"
+  ]
 }
