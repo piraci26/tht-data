@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T23:56:43.027688+00:00",
+  "updated_at": "2026-08-18T01:13:55.441814+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 18.73,
+  "scan_seconds": 9.73,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -170,7 +170,7 @@
       "name": "Solaris Energy Infrastructure, Inc.",
       "mcap": 4.39,
       "price": 65.97,
-      "basis": 62.59,
+      "basis": 62.6,
       "bxt_today": -11.68,
       "bxt_yest": -26.01,
       "fvb_g": true,
@@ -772,7 +772,7 @@
       "name": "SiTime Corporation",
       "mcap": 21.41,
       "price": 749.44,
-      "basis": 530.29,
+      "basis": 530.33,
       "bxt_today": 6.36,
       "bxt_yest": -2.32,
       "fvb_g": false,
@@ -971,7 +971,7 @@
       "pct_to_atl": 478.6,
       "wk52_high": 99.22,
       "wk52_low": 34.05,
-      "ath_30d": 1,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -1017,29 +1017,6 @@
       "pct_to_atl": 720.2,
       "wk52_high": 193.84,
       "wk52_low": 36.61,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "QBTS",
-      "name": "D-Wave Quantum Inc. Common Shares",
-      "mcap": 7.44,
-      "price": 20.87,
-      "basis": 21.06,
-      "bxt_today": 1.43,
-      "bxt_yest": -3.98,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 46.75,
-      "atl": 0.4,
-      "pct_to_ath": 124.0,
-      "pct_to_atl": 5170.2,
-      "wk52_high": 46.75,
-      "wk52_low": 12.75,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2499,7 +2476,7 @@
       "name": "XP Inc.",
       "mcap": 8.17,
       "price": 15.7,
-      "basis": 18.05,
+      "basis": 18.04,
       "bxt_today": -1.6,
       "bxt_yest": 4.21,
       "fvb_g": false,
@@ -2629,7 +2606,7 @@
       "pct_to_atl": 490.9,
       "wk52_high": 49.49,
       "wk52_low": 7.5,
-      "ath_30d": 5,
+      "ath_30d": 6,
       "atl_30d": 0
     },
     {
@@ -2651,7 +2628,7 @@
       "pct_to_ath": 86.5,
       "pct_to_atl": 3109.3,
       "wk52_high": 43.73,
-      "wk52_low": 11.53,
+      "wk52_low": 11.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3117,13 +3094,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-17T23:36:57.893711+00:00",
+    "compared_to": "2026-08-17T23:56:43.027688+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "QBTS",
+        "name": "D-Wave Quantum Inc. Common Shares",
+        "mcap": 7.44,
+        "price": 20.87,
+        "basis": 21.06,
+        "bxt_today": 1.43,
+        "ath": 46.75,
+        "pct_to_ath": 124.0,
+        "wk52_high": 46.75,
+        "wk52_low": 12.75,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
