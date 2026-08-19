@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T08:17:25.426138+00:00",
+  "updated_at": "2026-08-19T08:58:46.969401+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.93,
+  "scan_seconds": 13.07,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -946,6 +946,29 @@
       "pct_to_atl": 17209.6,
       "wk52_high": 565.5,
       "wk52_low": 403.82,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "AVB",
+      "name": "AvalonBay Communities, Inc.",
+      "mcap": 26.28,
+      "price": 184.06,
+      "basis": 187.97,
+      "bxt_today": -27.32,
+      "bxt_yest": -4.99,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 16,
+      "bxt_streak": null,
+      "ath": 259.05,
+      "atl": 16.75,
+      "pct_to_ath": 40.7,
+      "pct_to_atl": 998.9,
+      "wk52_high": 205.0,
+      "wk52_low": 160.1,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4726,29 +4749,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "AVB",
-      "name": "AvalonBay Communities, Inc.",
-      "mcap": 26.28,
-      "price": 192.53,
-      "basis": 187.96,
-      "bxt_today": -4.99,
-      "bxt_yest": 0.88,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 259.05,
-      "atl": 16.75,
-      "pct_to_ath": 34.6,
-      "pct_to_atl": 1049.4,
-      "wk52_high": 205.0,
-      "wk52_low": 160.1,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "AFRM",
       "name": "Affirm Holdings, Inc.",
       "mcap": 26.24,
@@ -5416,29 +5416,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12.88,
-      "price": 167.91,
-      "basis": 175.81,
-      "bxt_today": -11.76,
-      "bxt_yest": 5.83,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 737.45,
-      "atl": 1.26,
-      "pct_to_ath": 339.2,
-      "pct_to_atl": 13226.2,
-      "wk52_high": 200.44,
-      "wk52_low": 122.0,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "PEN",
       "name": "Penumbra, Inc.",
       "mcap": 12.88,
@@ -5458,6 +5435,29 @@
       "pct_to_atl": 819.6,
       "wk52_high": 362.41,
       "wk52_low": 221.26,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12.88,
+      "price": 167.91,
+      "basis": 175.81,
+      "bxt_today": -11.76,
+      "bxt_yest": 5.83,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 737.45,
+      "atl": 1.26,
+      "pct_to_ath": 339.2,
+      "pct_to_atl": 13226.2,
+      "wk52_high": 200.44,
+      "wk52_low": 122.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7855,14 +7855,42 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T07:44:33.374270+00:00",
+    "compared_to": "2026-08-19T08:17:25.426138+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
+    "fvb_red_added": [
+      {
+        "sym": "AVB",
+        "name": "AvalonBay Communities, Inc.",
+        "mcap": 26.28,
+        "price": 184.06,
+        "basis": 187.97,
+        "bxt_today": -27.32,
+        "ath": 259.05,
+        "pct_to_ath": 40.7,
+        "wk52_high": 205.0,
+        "wk52_low": 160.1,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "AVB",
+        "name": "AvalonBay Communities, Inc.",
+        "mcap": 26.28,
+        "price": 192.53,
+        "basis": 187.96,
+        "bxt_today": -4.99,
+        "ath": 259.05,
+        "pct_to_ath": 34.6,
+        "wk52_high": 205.0,
+        "wk52_low": 160.1,
+        "ath_30d": 0
+      }
+    ]
   }
 }
