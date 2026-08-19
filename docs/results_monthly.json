@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T11:57:33.489064+00:00",
+  "updated_at": "2026-08-19T12:52:36.763095+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.64,
+  "scan_seconds": 13.13,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -102,8 +102,8 @@
       "mcap": 4.24,
       "price": 24.32,
       "basis": 23.37,
-      "bxt_today": 43.44,
-      "bxt_yest": 43.01,
+      "bxt_today": 42.66,
+      "bxt_yest": 42.18,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -1694,9 +1694,9 @@
       "name": "Sunbelt Rentals Holdings, Inc.",
       "mcap": 34.76,
       "price": 78.8,
-      "basis": 75.72,
-      "bxt_today": -5.92,
-      "bxt_yest": 32.02,
+      "basis": 75.86,
+      "bxt_today": -5.86,
+      "bxt_yest": 33.17,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1753,9 +1753,9 @@
       "atl": 5.23,
       "pct_to_ath": 12.2,
       "pct_to_atl": 6940.2,
-      "wk52_high": 413.25,
+      "wk52_high": 403.3,
       "wk52_low": 230.45,
-      "ath_30d": 3,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -1939,7 +1939,7 @@
       "pct_to_atl": 1987.7,
       "wk52_high": 282.15,
       "wk52_low": 186.05,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -2196,6 +2196,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
+      "mcap": 9.5,
+      "price": 103.73,
+      "basis": 96.57,
+      "bxt_today": -4.02,
+      "bxt_yest": 1.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 109.75,
+      "atl": 29.63,
+      "pct_to_ath": 5.8,
+      "pct_to_atl": 250.1,
+      "wk52_high": 109.75,
+      "wk52_low": 76.93,
+      "ath_30d": 3,
+      "atl_30d": 0
+    },
+    {
       "sym": "ESI",
       "name": "Element Solutions Inc.",
       "mcap": 9.46,
@@ -2265,29 +2288,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 9.17,
-      "price": 100.0,
-      "basis": 93.81,
-      "bxt_today": -2.55,
-      "bxt_yest": 2.35,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 106.06,
-      "atl": 29.48,
-      "pct_to_ath": 6.1,
-      "pct_to_atl": 239.2,
-      "wk52_high": 106.06,
-      "wk52_low": 74.38,
-      "ath_30d": 1,
-      "atl_30d": 0
-    },
-    {
       "sym": "AGX",
       "name": "Argan, Inc.",
       "mcap": 8.84,
@@ -2329,7 +2329,7 @@
       "pct_to_ath": 18.2,
       "pct_to_atl": 23250.9,
       "wk52_high": 362.15,
-      "wk52_low": 182.85,
+      "wk52_low": 184.34,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2407,15 +2407,15 @@
       "name": "Karman Holdings Inc.",
       "mcap": 6.63,
       "price": 59.43,
-      "basis": 52.29,
-      "bxt_today": -1.44,
-      "bxt_yest": 21.74,
+      "basis": 52.55,
+      "bxt_today": -0.26,
+      "bxt_yest": 22.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 19,
+      "bxt_streak": 17,
       "ath": 118.38,
       "atl": 25.02,
       "pct_to_ath": 99.2,
@@ -2726,43 +2726,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T11:35:31.362702+00:00",
+    "compared_to": "2026-08-19T11:57:33.489064+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.15,
-        "price": 41.91,
-        "basis": 42.88,
-        "bxt_today": -40.25,
-        "ath": 57.14,
-        "pct_to_ath": 36.3,
-        "wk52_high": 57.14,
-        "wk52_low": 28.63,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.17,
-        "price": 15.84,
-        "basis": 18.02,
-        "bxt_today": -0.24,
-        "ath": 53.08,
-        "pct_to_ath": 235.1,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
       {
         "sym": "LLYVK",
         "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
@@ -2774,6 +2745,21 @@
         "pct_to_ath": 5.8,
         "wk52_high": 109.75,
         "wk52_low": 76.93,
+        "ath_30d": 3
+      }
+    ],
+    "bxt_red_removed": [
+      {
+        "sym": "LLYVA",
+        "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+        "mcap": 9.17,
+        "price": 100.0,
+        "basis": 93.81,
+        "bxt_today": -2.55,
+        "ath": 106.06,
+        "pct_to_ath": 6.1,
+        "wk52_high": 106.06,
+        "wk52_low": 74.38,
         "ath_30d": 1
       }
     ]
