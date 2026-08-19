@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T05:59:51.115795+00:00",
+  "updated_at": "2026-08-19T06:58:58.510102+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.94,
+  "scan_seconds": 15.36,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -1345,29 +1345,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9.5,
-      "price": 103.73,
-      "basis": 96.57,
-      "bxt_today": -4.02,
-      "bxt_yest": 1.32,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 109.75,
-      "atl": 29.63,
-      "pct_to_ath": 5.8,
-      "pct_to_atl": 250.1,
-      "wk52_high": 109.75,
-      "wk52_low": 76.93,
-      "ath_30d": 1,
-      "atl_30d": 0
-    },
-    {
       "sym": "PRI",
       "name": "Primerica, Inc.",
       "mcap": 9.5,
@@ -1388,6 +1365,29 @@
       "wk52_high": 327.28,
       "wk52_low": 230.09,
       "ath_30d": 11,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
+      "mcap": 9.5,
+      "price": 103.73,
+      "basis": 96.57,
+      "bxt_today": -4.02,
+      "bxt_yest": 1.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 109.75,
+      "atl": 29.63,
+      "pct_to_ath": 5.8,
+      "pct_to_atl": 250.1,
+      "wk52_high": 109.75,
+      "wk52_low": 76.93,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -1898,7 +1898,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T05:31:13.488086+00:00",
+    "compared_to": "2026-08-19T05:59:51.115795+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
