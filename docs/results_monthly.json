@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T20:28:09.340669+00:00",
+  "updated_at": "2026-08-19T20:56:20.309337+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.3,
+  "scan_seconds": 18.86,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -948,7 +948,7 @@
       "pct_to_atl": 156.7,
       "wk52_high": 61.8,
       "wk52_low": 34.08,
-      "ath_30d": 6,
+      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -1297,6 +1297,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
+      "mcap": 9.5,
+      "price": 106.84,
+      "basis": 96.65,
+      "bxt_today": 0.71,
+      "bxt_yest": -2.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 109.75,
+      "atl": 29.63,
+      "pct_to_ath": 2.7,
+      "pct_to_atl": 260.6,
+      "wk52_high": 109.75,
+      "wk52_low": 76.93,
+      "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
       "sym": "LLYVA",
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9.17,
@@ -1486,8 +1509,8 @@
       "mcap": 6.4,
       "price": 34.06,
       "basis": 38.35,
-      "bxt_today": 1.55,
-      "bxt_yest": -5.04,
+      "bxt_today": 1.11,
+      "bxt_yest": -5.49,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1853,9 +1876,9 @@
       "name": "California Resources Corporation",
       "mcap": 4.66,
       "price": 53.79,
-      "basis": 57.78,
-      "bxt_today": 5.93,
-      "bxt_yest": -6.27,
+      "basis": 57.77,
+      "bxt_today": 7.01,
+      "bxt_yest": -3.83,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1923,8 +1946,8 @@
       "mcap": 4.23,
       "price": 13.06,
       "basis": 16.89,
-      "bxt_today": 0.82,
-      "bxt_yest": -1.09,
+      "bxt_today": 1.49,
+      "bxt_yest": -0.68,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -2453,7 +2476,7 @@
       "name": "Comfort Systems USA, Inc.",
       "mcap": 62.44,
       "price": 1696.06,
-      "basis": 779.1,
+      "basis": 779.04,
       "bxt_today": -0.83,
       "bxt_yest": 13.07,
       "fvb_g": false,
@@ -2729,7 +2752,7 @@
       "name": "Qnity Electronics, Inc.",
       "mcap": 29.77,
       "price": 126.04,
-      "basis": 138.58,
+      "basis": 138.57,
       "bxt_today": -19.08,
       "bxt_yest": 4.42,
       "fvb_g": false,
@@ -3226,7 +3249,7 @@
       "pct_to_ath": 11.3,
       "pct_to_atl": 38296.4,
       "wk52_high": 235.97,
-      "wk52_low": 135.64,
+      "wk52_low": 137.31,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3248,9 +3271,9 @@
       "atl": 7.51,
       "pct_to_ath": 10.5,
       "pct_to_atl": 296.0,
-      "wk52_high": 32.8,
+      "wk52_high": 32.86,
       "wk52_low": 24.66,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -3604,8 +3627,8 @@
       "mcap": 5.32,
       "price": 18.11,
       "basis": 14.68,
-      "bxt_today": -7.9,
-      "bxt_yest": 4.37,
+      "bxt_today": -8.1,
+      "bxt_yest": 3.6,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3640,7 +3663,7 @@
       "pct_to_ath": 13.7,
       "pct_to_atl": 787.5,
       "wk52_high": 181.63,
-      "wk52_low": 38.83,
+      "wk52_low": 39.52,
       "ath_30d": 2,
       "atl_30d": 0
     },
@@ -3807,175 +3830,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T19:56:42.723149+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 63,
-        "price": 66.45,
-        "basis": 64.58,
-        "bxt_today": -5.76,
-        "ath": 73.0,
-        "pct_to_ath": 9.9,
-        "wk52_high": 66.5,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MBLY",
-        "name": "Mobileye Global Inc.",
-        "mcap": 8.04,
-        "price": 9.1,
-        "basis": 8.86,
-        "bxt_today": 12.19,
-        "ath": 48.11,
-        "pct_to_ath": 428.7,
-        "wk52_high": 15.81,
-        "wk52_low": 6.47,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SM",
-        "name": "SM Energy Company",
-        "mcap": 6.67,
-        "price": 36.14,
-        "basis": 33.62,
-        "bxt_today": 39.4,
-        "ath": 94.0,
-        "pct_to_ath": 160.1,
-        "wk52_high": 36.72,
-        "wk52_low": 17.45,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "mcap": 14.62,
-        "price": 181.32,
-        "basis": 171.44,
-        "bxt_today": 4.81,
-        "ath": 272.6,
-        "pct_to_ath": 50.3,
-        "wk52_high": 272.6,
-        "wk52_low": 102.3,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-19T20:28:09.340669+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "PTC",
-        "name": "PTC Inc.",
-        "mcap": 16.25,
-        "price": 152.52,
-        "basis": 171.44,
-        "bxt_today": 0.04,
-        "ath": 219.69,
-        "pct_to_ath": 44.0,
-        "wk52_high": 217.64,
-        "wk52_low": 108.5,
-        "ath_30d": 0
-      },
+    "bxt_green_added": [
       {
         "sym": "LLYVK",
         "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
         "mcap": 9.5,
-        "price": 106.65,
+        "price": 106.84,
         "basis": 96.65,
-        "bxt_today": 0.02,
+        "bxt_today": 0.71,
         "ath": 109.75,
-        "pct_to_ath": 2.9,
+        "pct_to_ath": 2.7,
         "wk52_high": 109.75,
         "wk52_low": 76.93,
         "ath_30d": 2
-      },
-      {
-        "sym": "CELC",
-        "name": "Celcuity Inc.",
-        "mcap": 5.25,
-        "price": 93.86,
-        "basis": 107.91,
-        "bxt_today": 0.32,
-        "ath": 151.02,
-        "pct_to_ath": 60.9,
-        "wk52_high": 151.02,
-        "wk52_low": 44.42,
-        "ath_30d": 0
       }
     ],
-    "bxt_red_added": [
-      {
-        "sym": "DUK",
-        "name": "Duke Energy Corporation (Holding Company)",
-        "mcap": 96.62,
-        "price": 123.6,
-        "basis": 101.76,
-        "bxt_today": -0.05,
-        "ath": 134.49,
-        "pct_to_ath": 8.8,
-        "wk52_high": 134.49,
-        "wk52_low": 113.9,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FCFS",
-        "name": "FirstCash Holdings, Inc.",
-        "mcap": 9.58,
-        "price": 211.98,
-        "basis": 145.17,
-        "bxt_today": -0.13,
-        "ath": 235.97,
-        "pct_to_ath": 11.3,
-        "wk52_high": 235.97,
-        "wk52_low": 135.64,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ECG",
-        "name": "Everus Construction Group, Inc.",
-        "mcap": 6.98,
-        "price": 129.56,
-        "basis": 136.37,
-        "bxt_today": -10.1,
-        "ath": 171.58,
-        "pct_to_ath": 32.4,
-        "wk52_high": 171.58,
-        "wk52_low": 72.43,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "RRX",
-        "name": "Regal Rexnord Corporation",
-        "mcap": 11.69,
-        "price": 169.46,
-        "basis": 133.17,
-        "bxt_today": -0.01,
-        "ath": 247.8,
-        "pct_to_ath": 46.2,
-        "wk52_high": 247.8,
-        "wk52_low": 127.96,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LEA",
-        "name": "Lear Corporation",
-        "mcap": 6.82,
-        "price": 123.54,
-        "basis": 113.97,
-        "bxt_today": -0.02,
-        "ath": 206.36,
-        "pct_to_ath": 67.0,
-        "wk52_high": 150.33,
-        "wk52_low": 96.04,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
