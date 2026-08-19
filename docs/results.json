@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T07:44:33.374270+00:00",
+  "updated_at": "2026-08-19T08:17:25.426138+00:00",
   "timeframe": "daily",
-  "scan_seconds": 19.84,
+  "scan_seconds": 13.93,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -5416,29 +5416,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PEN",
-      "name": "Penumbra, Inc.",
-      "mcap": 12.88,
-      "price": 324.75,
-      "basis": 320.58,
-      "bxt_today": -10.8,
-      "bxt_yest": 36.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 362.41,
-      "atl": 35.31,
-      "pct_to_ath": 11.6,
-      "pct_to_atl": 819.6,
-      "wk52_high": 362.41,
-      "wk52_low": 221.26,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12.88,
@@ -5458,6 +5435,29 @@
       "pct_to_atl": 13226.2,
       "wk52_high": 200.44,
       "wk52_low": 122.0,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PEN",
+      "name": "Penumbra, Inc.",
+      "mcap": 12.88,
+      "price": 324.75,
+      "basis": 320.58,
+      "bxt_today": -10.8,
+      "bxt_yest": 36.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 362.41,
+      "atl": 35.31,
+      "pct_to_ath": 11.6,
+      "pct_to_atl": 819.6,
+      "wk52_high": 362.41,
+      "wk52_low": 221.26,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -7855,7 +7855,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T06:58:36.948207+00:00",
+    "compared_to": "2026-08-19T07:44:33.374270+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
