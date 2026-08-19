@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T10:04:24.643918+00:00",
+  "updated_at": "2026-08-19T10:42:27.486576+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.83,
+  "scan_seconds": 13.99,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -1345,29 +1345,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
-      "mcap": 9.5,
-      "price": 308.21,
-      "basis": 277.45,
-      "bxt_today": -9.04,
-      "bxt_yest": 2.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 327.28,
-      "atl": 18.61,
-      "pct_to_ath": 6.2,
-      "pct_to_atl": 1556.2,
-      "wk52_high": 327.28,
-      "wk52_low": 230.09,
-      "ath_30d": 11,
-      "atl_30d": 0
-    },
-    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9.5,
@@ -1388,6 +1365,29 @@
       "wk52_high": 109.75,
       "wk52_low": 76.93,
       "ath_30d": 1,
+      "atl_30d": 0
+    },
+    {
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
+      "mcap": 9.5,
+      "price": 308.21,
+      "basis": 277.45,
+      "bxt_today": -9.04,
+      "bxt_yest": 2.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 327.28,
+      "atl": 18.61,
+      "pct_to_ath": 6.2,
+      "pct_to_atl": 1556.2,
+      "wk52_high": 327.28,
+      "wk52_low": 230.09,
+      "ath_30d": 11,
       "atl_30d": 0
     },
     {
@@ -1898,96 +1898,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T09:41:30.700583+00:00",
+    "compared_to": "2026-08-19T10:04:24.643918+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "GATX",
-        "name": "GATX Corporation",
-        "mcap": 6.4,
-        "price": 178.31,
-        "basis": 180.63,
-        "bxt_today": -4.89,
-        "ath": 205.56,
-        "pct_to_ath": 15.3,
-        "wk52_high": 205.56,
-        "wk52_low": 150.42,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "PFSI",
-        "name": "PennyMac Financial Services, Inc.",
-        "mcap": 4.28,
-        "price": 75.3,
-        "basis": 91.06,
-        "bxt_today": 0.33,
-        "ath": 160.36,
-        "pct_to_ath": 113.0,
-        "wk52_high": 160.36,
-        "wk52_low": 71.68,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "GATX",
-        "name": "GATX Corporation",
-        "mcap": 6.4,
-        "price": 178.31,
-        "basis": 180.6,
-        "bxt_today": -2.74,
-        "ath": 205.56,
-        "pct_to_ath": 15.3,
-        "wk52_high": 205.56,
-        "wk52_low": 150.42,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "IEX",
-        "name": "IDEX Corporation",
-        "mcap": 17.61,
-        "price": 234.16,
-        "basis": 211.77,
-        "bxt_today": -1.77,
-        "ath": 246.36,
-        "pct_to_ath": 5.2,
-        "wk52_high": 243.8,
-        "wk52_low": 158.19,
-        "ath_30d": 0
-      },
-      {
-        "sym": "XP",
-        "name": "XP Inc.",
-        "mcap": 8.17,
-        "price": 15.84,
-        "basis": 18.02,
-        "bxt_today": -0.24,
-        "ath": 53.08,
-        "pct_to_ath": 235.1,
-        "wk52_high": 23.13,
-        "wk52_low": 14.8,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNO",
-        "name": "CNO Financial Group, Inc.",
-        "mcap": 4.85,
-        "price": 54.52,
-        "basis": 46.7,
-        "bxt_today": -13.18,
-        "ath": 57.59,
-        "pct_to_ath": 5.6,
-        "wk52_high": 57.59,
-        "wk52_low": 37.36,
-        "ath_30d": 3
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T10:04:34.687253+00:00",
+  "updated_at": "2026-08-19T10:42:44.498874+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.1,
+  "scan_seconds": 14.65,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2703,95 +2703,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T09:41:43.658749+00:00",
+    "compared_to": "2026-08-19T10:04:34.687253+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.15,
-        "price": 41.91,
-        "basis": 42.88,
-        "bxt_today": -40.25,
-        "ath": 57.14,
-        "pct_to_ath": 36.3,
-        "wk52_high": 57.14,
-        "wk52_low": 31.2,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "MICC",
-        "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
-        "mcap": 11.36,
-        "price": 18.98,
-        "basis": 18.65,
-        "bxt_today": -10.9,
-        "ath": 20.1,
-        "pct_to_ath": 5.9,
-        "wk52_high": 20.1,
-        "wk52_low": 12.94,
-        "ath_30d": 1
-      },
-      {
-        "sym": "LLYVA",
-        "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-        "mcap": 9.17,
-        "price": 100.0,
-        "basis": 93.81,
-        "bxt_today": -2.55,
-        "ath": 106.06,
-        "pct_to_ath": 6.1,
-        "wk52_high": 106.06,
-        "wk52_low": 74.38,
-        "ath_30d": 1
-      },
-      {
-        "sym": "OTF",
-        "name": "Blue Owl Technology Finance Corp.",
-        "mcap": 4.78,
-        "price": 11.12,
-        "basis": 10.51,
-        "bxt_today": -4.11,
-        "ath": 21.62,
-        "pct_to_ath": 94.4,
-        "wk52_high": 15.82,
-        "wk52_low": 9.75,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 6.63,
-        "price": 59.43,
-        "basis": 52.29,
-        "bxt_today": -1.44,
-        "ath": 118.38,
-        "pct_to_ath": 99.2,
-        "wk52_high": 118.38,
-        "wk52_low": 44.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "mcap": 4.8,
-        "price": 20.97,
-        "basis": 18.01,
-        "bxt_today": -5.07,
-        "ath": 42.5,
-        "pct_to_ath": 102.7,
-        "wk52_high": 42.5,
-        "wk52_low": 14.19,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
