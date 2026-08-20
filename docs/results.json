@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T07:12:40.096224+00:00",
+  "updated_at": "2026-08-20T07:58:08.969921+00:00",
   "timeframe": "daily",
-  "scan_seconds": 27.02,
+  "scan_seconds": 26.34,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -4452,9 +4452,9 @@
       "name": "NVR, Inc.",
       "mcap": 16.81,
       "price": 6418.86,
-      "basis": 6434.71,
-      "bxt_today": 15.04,
-      "bxt_yest": -6.81,
+      "basis": 6394.84,
+      "bxt_today": 14.47,
+      "bxt_yest": -5.51,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -9419,230 +9419,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T06:20:08.264472+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "WIT",
-        "name": "Wipro Limited",
-        "mcap": 19.19,
-        "price": 1.95,
-        "basis": 1.92,
-        "bxt_today": -16.43,
-        "ath": 4.98,
-        "pct_to_ath": 155.4,
-        "wk52_high": 3.09,
-        "wk52_low": 1.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CUBE",
-        "name": "CubeSmart Common Shares",
-        "mcap": 9.1,
-        "price": 41.46,
-        "basis": 41.24,
-        "bxt_today": -14.7,
-        "ath": 57.34,
-        "pct_to_ath": 38.3,
-        "wk52_high": 43.26,
-        "wk52_low": 35.09,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "BRO",
-        "name": "Brown & Brown, Inc.",
-        "mcap": 23.6,
-        "price": 71.49,
-        "basis": 69.63,
-        "bxt_today": -20.8,
-        "ath": 125.68,
-        "pct_to_ath": 75.8,
-        "wk52_high": 98.3,
-        "wk52_low": 53.81,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "PCAR",
-        "name": "PACCAR Inc.",
-        "mcap": 68.84,
-        "price": 127.47,
-        "basis": 129.11,
-        "bxt_today": -45.08,
-        "ath": 139.24,
-        "pct_to_ath": 9.2,
-        "wk52_high": 139.24,
-        "wk52_low": 92.25,
-        "ath_30d": 4
-      },
-      {
-        "sym": "VRSN",
-        "name": "VeriSign, Inc.",
-        "mcap": 25.7,
-        "price": 273.03,
-        "basis": 276.98,
-        "bxt_today": -42.18,
-        "ath": 312.48,
-        "pct_to_ath": 14.4,
-        "wk52_high": 312.48,
-        "wk52_low": 208.86,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PRI",
-        "name": "Primerica, Inc.",
-        "mcap": 9.5,
-        "price": 300.97,
-        "basis": 310.02,
-        "bxt_today": -46.26,
-        "ath": 327.28,
-        "pct_to_ath": 8.7,
-        "wk52_high": 327.28,
-        "wk52_low": 230.09,
-        "ath_30d": 10
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "BJ",
-        "name": "BJ's Wholesale Club Holdings, Inc.",
-        "mcap": 11.93,
-        "price": 91.79,
-        "basis": 93.21,
-        "bxt_today": -40.36,
-        "ath": 121.1,
-        "pct_to_ath": 31.9,
-        "wk52_high": 107.62,
-        "wk52_low": 83.21,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HESM",
-        "name": "Hess Midstream LP Representing Limited Partner Interests",
-        "mcap": 4.96,
-        "price": 39.75,
-        "basis": 39.97,
-        "bxt_today": -27.19,
-        "ath": 44.14,
-        "pct_to_ath": 11.0,
-        "wk52_high": 41.8,
-        "wk52_low": 31.63,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "TXNM",
-        "name": "TXNM Energy, Inc.",
-        "mcap": 6.3,
-        "price": 57.6,
-        "basis": 57.38,
-        "bxt_today": 9.1,
-        "ath": 59.53,
-        "pct_to_ath": 3.4,
-        "wk52_high": 59.53,
-        "wk52_low": 55.64,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LOPE",
-        "name": "Grand Canyon Education, Inc.",
-        "mcap": 3.96,
-        "price": 146.92,
-        "basis": 147.31,
-        "bxt_today": 0.1,
-        "ath": 223.04,
-        "pct_to_ath": 51.8,
-        "wk52_high": 223.04,
-        "wk52_low": 135.49,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "UTHR",
-        "name": "United Therapeutics Corporation",
-        "mcap": 21.43,
-        "price": 529.14,
-        "basis": 528.2,
-        "bxt_today": 16.78,
-        "ath": 609.35,
-        "pct_to_ath": 15.2,
-        "wk52_high": 609.35,
-        "wk52_low": 302.19,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GPI",
-        "name": "Group 1 Automotive, Inc.",
-        "mcap": 3.54,
-        "price": 263.87,
-        "basis": 296.78,
-        "bxt_today": 2.41,
-        "ath": 490.09,
-        "pct_to_ath": 85.7,
-        "wk52_high": 488.39,
-        "wk52_low": 249.54,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ROAD",
-        "name": "Construction Partners, Inc.",
-        "mcap": 5.36,
-        "price": 115.61,
-        "basis": 108.22,
-        "bxt_today": -8.12,
-        "ath": 151.0,
-        "pct_to_ath": 30.6,
-        "wk52_high": 151.0,
-        "wk52_low": 93.42,
-        "ath_30d": 0
-      },
-      {
-        "sym": "OII",
-        "name": "Oceaneering International, Inc.",
-        "mcap": 4.29,
-        "price": 52.69,
-        "basis": 46.61,
-        "bxt_today": -0.11,
-        "ath": 87.64,
-        "pct_to_ath": 66.3,
-        "wk52_high": 54.25,
-        "wk52_low": 22.02,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "R",
-        "name": "Ryder System, Inc.",
-        "mcap": 10.4,
-        "price": 250.54,
-        "basis": 265.12,
-        "bxt_today": -23.43,
-        "ath": 284.25,
-        "pct_to_ath": 13.5,
-        "wk52_high": 284.25,
-        "wk52_low": 157.67,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AXS",
-        "name": "Axis Capital Holdings Limited",
-        "mcap": 8.34,
-        "price": 98.55,
-        "basis": 108.53,
-        "bxt_today": -4.65,
-        "ath": 119.99,
-        "pct_to_ath": 21.8,
-        "wk52_high": 119.99,
-        "wk52_low": 88.07,
-        "ath_30d": 6
-      }
-    ]
+    "compared_to": "2026-08-20T07:12:40.096224+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

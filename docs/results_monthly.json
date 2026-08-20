@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T07:13:27.435125+00:00",
+  "updated_at": "2026-08-20T07:58:52.651840+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 19.74,
+  "scan_seconds": 17.49,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -164,7 +164,7 @@
       "pct_to_atl": 39.1,
       "wk52_high": 33.82,
       "wk52_low": 22.5,
-      "ath_30d": 11,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -1324,9 +1324,9 @@
       "name": "California Resources Corporation",
       "mcap": 4.66,
       "price": 53.79,
-      "basis": 57.78,
-      "bxt_today": 8.12,
-      "bxt_yest": -0.26,
+      "basis": 57.79,
+      "bxt_today": 7.27,
+      "bxt_yest": -1.82,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -3301,7 +3301,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T06:20:34.949653+00:00",
+    "compared_to": "2026-08-20T07:13:27.435125+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T07:13:05.487531+00:00",
+  "updated_at": "2026-08-20T07:58:32.333516+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 18.25,
+  "scan_seconds": 16.18,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -912,7 +912,7 @@
       "name": "U.S. Bancorp",
       "mcap": 101.93,
       "price": 62.82,
-      "basis": 57.56,
+      "basis": 57.57,
       "bxt_today": -11.27,
       "bxt_yest": 2.5,
       "fvb_g": false,
@@ -2220,42 +2220,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T06:20:22.530137+00:00",
+    "compared_to": "2026-08-20T07:13:05.487531+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "DHI",
-        "name": "D.R. Horton, Inc.",
-        "mcap": 41.62,
-        "price": 151.86,
-        "basis": 150.19,
-        "bxt_today": 0.73,
-        "ath": 199.85,
-        "pct_to_ath": 31.6,
-        "wk52_high": 184.55,
-        "wk52_low": 131.75,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "AON",
-        "name": "Aon plc Ordinary Shares (Ireland)",
-        "mcap": 75.48,
-        "price": 348.43,
-        "basis": 334.74,
-        "bxt_today": -9.24,
-        "ath": 412.97,
-        "pct_to_ath": 18.5,
-        "wk52_high": 382.34,
-        "wk52_low": 304.59,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
