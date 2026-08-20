@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T04:40:35.993808+00:00",
+  "updated_at": "2026-08-20T05:15:39.682966+00:00",
   "count": 24,
   "list": [
     {
@@ -4237,17 +4237,5 @@
       "first_seen_at": "2026-08-20T04:40:35.993808+00:00"
     }
   ],
-  "added_this_run": [
-    "AMGN",
-    "DINO",
-    "FTI",
-    "INSW",
-    "JLL",
-    "MRK",
-    "ROIV",
-    "RVMD",
-    "SEIC",
-    "THC",
-    "WHD"
-  ]
+  "added_this_run": []
 }
