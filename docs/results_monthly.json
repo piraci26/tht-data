@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T11:55:11.337054+00:00",
+  "updated_at": "2026-08-20T12:41:27.204298+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.13,
+  "scan_seconds": 17.07,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1324,9 +1324,9 @@
       "name": "California Resources Corporation",
       "mcap": 4.66,
       "price": 53.79,
-      "basis": 57.79,
-      "bxt_today": 7.27,
-      "bxt_yest": -1.82,
+      "basis": 57.78,
+      "bxt_today": 8.12,
+      "bxt_yest": -0.26,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1452,7 +1452,7 @@
       "atl": 17.32,
       "pct_to_ath": 94.3,
       "pct_to_atl": 505.4,
-      "wk52_high": 159.47,
+      "wk52_high": 159.87,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -2029,9 +2029,9 @@
       "atl": 5.23,
       "pct_to_ath": 12.0,
       "pct_to_atl": 6950.5,
-      "wk52_high": 413.25,
+      "wk52_high": 403.3,
       "wk52_low": 230.45,
-      "ath_30d": 3,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2522,15 +2522,15 @@
       "name": "Solstice Advanced Materials Inc.",
       "mcap": 9.95,
       "price": 57.34,
-      "basis": 61.19,
-      "bxt_today": -11.48,
-      "bxt_yest": 14.53,
+      "basis": 62.6,
+      "bxt_today": -7.34,
+      "bxt_yest": 19.33,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 21,
+      "bxt_streak": 19,
       "ath": 90.8,
       "atl": 40.43,
       "pct_to_ath": 58.4,
@@ -2653,6 +2653,29 @@
       "wk52_high": 94.66,
       "wk52_low": 36.45,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LTH",
+      "name": "Life Time Group Holdings, Inc.",
+      "mcap": 9.32,
+      "price": 44.65,
+      "basis": 33.39,
+      "bxt_today": -1.3,
+      "bxt_yest": 14.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 47.24,
+      "atl": 8.75,
+      "pct_to_ath": 5.8,
+      "pct_to_atl": 410.3,
+      "wk52_high": 47.24,
+      "wk52_low": 24.14,
+      "ath_30d": 10,
       "atl_30d": 0
     },
     {
@@ -2937,8 +2960,8 @@
       "mcap": 5.5,
       "price": 26.08,
       "basis": 23.54,
-      "bxt_today": -3.23,
-      "bxt_yest": 3.49,
+      "bxt_today": -4.34,
+      "bxt_yest": 2.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3006,8 +3029,8 @@
       "mcap": 4.8,
       "price": 23.01,
       "basis": 20.87,
-      "bxt_today": -0.06,
-      "bxt_yest": 13.14,
+      "bxt_today": -0.75,
+      "bxt_yest": 12.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3019,7 +3042,7 @@
       "pct_to_ath": 3.3,
       "pct_to_atl": 131.7,
       "wk52_high": 23.77,
-      "wk52_low": 15.74,
+      "wk52_low": 15.71,
       "ath_30d": 4,
       "atl_30d": 0
     },
@@ -3301,29 +3324,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T11:28:22.625149+00:00",
+    "compared_to": "2026-08-20T11:55:11.337054+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CELC",
-        "name": "Celcuity Inc.",
-        "mcap": 5.25,
-        "price": 93.65,
-        "basis": 107.92,
-        "bxt_today": 0.24,
-        "ath": 151.02,
-        "pct_to_ath": 61.3,
-        "wk52_high": 151.02,
-        "wk52_low": 44.42,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_green_removed": [],
+    "bxt_red_added": [
       {
         "sym": "LTH",
         "name": "Life Time Group Holdings, Inc.",
@@ -3335,21 +3343,9 @@
         "pct_to_ath": 5.8,
         "wk52_high": 47.24,
         "wk52_low": 24.14,
-        "ath_30d": 9
-      },
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 6.63,
-        "price": 58.2,
-        "basis": 52.19,
-        "bxt_today": -8.79,
-        "ath": 118.38,
-        "pct_to_ath": 103.4,
-        "wk52_high": 118.38,
-        "wk52_low": 43.68,
-        "ath_30d": 0
+        "ath_30d": 10
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
