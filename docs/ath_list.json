@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:18:27.943602+00:00",
+  "updated_at": "2026-08-20T15:00:36.089340+00:00",
   "count": 17,
   "list": [
     {
@@ -4111,17 +4111,5 @@
       "first_seen_at": "2026-08-20T14:18:27.943602+00:00"
     }
   ],
-  "added_this_run": [
-    "EOG",
-    "FANG",
-    "KO",
-    "LB",
-    "MPC",
-    "NDSN",
-    "NTRA",
-    "PSX",
-    "TMHC",
-    "TRGP",
-    "VLO"
-  ]
+  "added_this_run": []
 }
