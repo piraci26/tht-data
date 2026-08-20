@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T06:20:34.949653+00:00",
+  "updated_at": "2026-08-20T07:13:27.435125+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.54,
+  "scan_seconds": 19.74,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1071,9 +1071,9 @@
       "name": "ServiceTitan, Inc.",
       "mcap": 7.41,
       "price": 95.02,
-      "basis": 81.43,
-      "bxt_today": 8.06,
-      "bxt_yest": -5.69,
+      "basis": 81.35,
+      "bxt_today": 8.4,
+      "bxt_yest": -4.7,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1452,7 +1452,7 @@
       "atl": 17.32,
       "pct_to_ath": 94.3,
       "pct_to_atl": 505.4,
-      "wk52_high": 159.47,
+      "wk52_high": 159.87,
       "wk52_low": 71.88,
       "ath_30d": 0,
       "atl_30d": 0
@@ -1639,7 +1639,7 @@
       "pct_to_ath": 17.6,
       "pct_to_atl": 52745.6,
       "wk52_high": 170.0,
-      "wk52_low": 133.34,
+      "wk52_low": 132.01,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2398,7 +2398,7 @@
       "pct_to_ath": 6.3,
       "pct_to_atl": 337.1,
       "wk52_high": 58.7,
-      "wk52_low": 40.0,
+      "wk52_low": 39.68,
       "ath_30d": 5,
       "atl_30d": 0
     },
@@ -3301,27 +3301,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T05:49:33.877362+00:00",
+    "compared_to": "2026-08-20T06:20:34.949653+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CELC",
-        "name": "Celcuity Inc.",
-        "mcap": 5.25,
-        "price": 93.65,
-        "basis": 107.92,
-        "bxt_today": 0.24,
-        "ath": 151.02,
-        "pct_to_ath": 61.3,
-        "wk52_high": 151.02,
-        "wk52_low": 44.42,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
