@@ -1,7 +1,44 @@
 {
-  "updated_at": "2026-08-20T13:34:07.452111+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-08-20T14:18:27.946117+00:00",
+  "count": 2,
+  "list": [
+    {
+      "sym": "MAIR",
+      "name": "Madison Air Solutions Corporation",
+      "mcap": 15.69,
+      "price": 26.87,
+      "ath": 44.5,
+      "atl": 26.86,
+      "pct_to_ath": 65.6,
+      "pct_to_atl": 0.0,
+      "wk52_high": 44.5,
+      "wk52_low": 26.86,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 28.24,
+      "last_low": 26.86,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 9.35,
+      "ath": 44.54,
+      "atl": 9.29,
+      "pct_to_ath": 376.1,
+      "pct_to_atl": 0.7,
+      "wk52_high": 44.54,
+      "wk52_low": 9.29,
+      "ath_30d": 0,
+      "atl_30d": 12,
+      "last_high": 10.0,
+      "last_low": 9.29,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -741,40 +778,43 @@
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
       "mcap": 15.69,
-      "price": 27.62,
+      "price": 26.87,
       "ath": 44.5,
-      "atl": 27.29,
-      "pct_to_ath": 61.1,
-      "pct_to_atl": 1.2,
+      "atl": 26.86,
+      "pct_to_ath": 65.6,
+      "pct_to_atl": 0.0,
       "wk52_high": 44.5,
-      "wk52_low": 27.29,
+      "wk52_low": 26.86,
       "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 29.59,
-      "last_low": 27.29,
+      "atl_30d": 4,
+      "last_high": 28.24,
+      "last_low": 26.86,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-08-18T19:20:11.258792+00:00"
+      "first_seen_at": "2026-08-20T14:18:27.946117+00:00"
     },
     {
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 10.42,
+      "price": 9.35,
       "ath": 44.54,
-      "atl": 9.4,
-      "pct_to_ath": 327.4,
-      "pct_to_atl": 10.9,
+      "atl": 9.29,
+      "pct_to_ath": 376.1,
+      "pct_to_atl": 0.7,
       "wk52_high": 44.54,
-      "wk52_low": 9.4,
+      "wk52_low": 9.29,
       "ath_30d": 0,
-      "atl_30d": 11,
-      "last_high": 10.74,
-      "last_low": 9.4,
+      "atl_30d": 12,
+      "last_high": 10.0,
+      "last_low": 9.29,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-08-19T06:00:18.284610+00:00"
+      "first_seen_at": "2026-08-20T14:18:27.946117+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MAIR",
+    "YSS"
+  ]
 }
