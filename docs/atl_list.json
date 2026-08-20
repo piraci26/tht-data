@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-08-20T15:00:36.093971+00:00",
-  "count": 2,
+  "updated_at": "2026-08-20T15:42:31.185565+00:00",
+  "count": 3,
   "list": [
     {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
       "mcap": 15.69,
-      "price": 26.87,
+      "price": 26.78,
       "ath": 44.5,
-      "atl": 26.86,
-      "pct_to_ath": 65.6,
-      "pct_to_atl": 0.0,
+      "atl": 26.71,
+      "pct_to_ath": 66.2,
+      "pct_to_atl": 0.3,
       "wk52_high": 44.5,
-      "wk52_low": 26.86,
+      "wk52_low": 26.71,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 28.24,
-      "last_low": 26.86,
+      "last_low": 26.71,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.52,
+      "price": 15.01,
+      "ath": 34.11,
+      "atl": 15.0,
+      "pct_to_ath": 127.2,
+      "pct_to_atl": 0.1,
+      "wk52_high": 20.17,
+      "wk52_low": 15.0,
+      "ath_30d": 0,
+      "atl_30d": 3,
+      "last_high": 15.18,
+      "last_low": 15.0,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -24,17 +42,17 @@
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 9.35,
+      "price": 9.06,
       "ath": 44.54,
-      "atl": 9.29,
-      "pct_to_ath": 376.1,
-      "pct_to_atl": 0.7,
+      "atl": 9.0,
+      "pct_to_ath": 391.9,
+      "pct_to_atl": 0.6,
       "wk52_high": 44.54,
-      "wk52_low": 9.29,
+      "wk52_low": 9.0,
       "ath_30d": 0,
       "atl_30d": 12,
       "last_high": 10.0,
-      "last_low": 9.29,
+      "last_low": 9.0,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -737,25 +755,6 @@
       "first_seen_at": "2026-08-07T05:08:04.080589+00:00"
     },
     {
-      "sym": "PDI",
-      "name": "PIMCO Dynamic Income Fund",
-      "mcap": 7.52,
-      "price": 15.44,
-      "ath": 34.11,
-      "atl": 15.4,
-      "pct_to_ath": 120.9,
-      "pct_to_atl": 0.3,
-      "wk52_high": 20.17,
-      "wk52_low": 15.4,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 15.69,
-      "last_low": 15.4,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-17T20:11:34.224968+00:00"
-    },
-    {
       "sym": "CSAN",
       "name": "Cosan S.A. ADS",
       "mcap": 3.04,
@@ -811,7 +810,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-20T14:18:27.946117+00:00"
+    },
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.52,
+      "price": 15.01,
+      "ath": 34.11,
+      "atl": 15.0,
+      "pct_to_ath": 127.2,
+      "pct_to_atl": 0.1,
+      "wk52_high": 20.17,
+      "wk52_low": 15.0,
+      "ath_30d": 0,
+      "atl_30d": 3,
+      "last_high": 15.18,
+      "last_low": 15.0,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-20T15:42:31.185565+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PDI"
+  ]
 }
