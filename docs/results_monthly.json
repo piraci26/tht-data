@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T23:53:46.179516+00:00",
+  "updated_at": "2026-08-20T00:43:31.788713+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.8,
+  "scan_seconds": 19.17,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3830,69 +3830,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-19T23:32:15.631631+00:00",
+    "compared_to": "2026-08-19T23:53:46.179516+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "CELC",
-        "name": "Celcuity Inc.",
-        "mcap": 5.25,
-        "price": 93.65,
-        "basis": 107.9,
-        "bxt_today": 0.03,
-        "ath": 151.02,
-        "pct_to_ath": 61.3,
-        "wk52_high": 151.02,
-        "wk52_low": 44.42,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "LLYVK",
-        "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-        "mcap": 9.5,
-        "price": 106.84,
-        "basis": 96.65,
-        "bxt_today": 0.71,
-        "ath": 109.75,
-        "pct_to_ath": 2.7,
-        "wk52_high": 109.75,
-        "wk52_low": 76.93,
-        "ath_30d": 2
-      },
-      {
-        "sym": "LLYVA",
-        "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-        "mcap": 9.17,
-        "price": 103.46,
-        "basis": 93.91,
-        "bxt_today": 3.44,
-        "ath": 106.06,
-        "pct_to_ath": 2.5,
-        "wk52_high": 106.06,
-        "wk52_low": 74.38,
-        "ath_30d": 1
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "KRMN",
-        "name": "Karman Holdings Inc.",
-        "mcap": 6.63,
-        "price": 58.2,
-        "basis": 52.19,
-        "bxt_today": -8.79,
-        "ath": 118.38,
-        "pct_to_ath": 103.4,
-        "wk52_high": 118.38,
-        "wk52_low": 43.68,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
