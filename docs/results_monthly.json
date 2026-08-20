@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-20T09:55:24.674021+00:00",
+  "updated_at": "2026-08-20T10:24:59.828782+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.09,
+  "scan_seconds": 10.07,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -126,9 +126,9 @@
       "name": "Ralliant Corporation",
       "mcap": 7.75,
       "price": 66.51,
-      "basis": 69.1,
-      "bxt_today": -16.31,
-      "bxt_yest": 8.37,
+      "basis": 68.85,
+      "bxt_today": -15.16,
+      "bxt_yest": 9.89,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -164,7 +164,7 @@
       "pct_to_atl": 39.1,
       "wk52_high": 33.82,
       "wk52_low": 22.5,
-      "ath_30d": 11,
+      "ath_30d": 9,
       "atl_30d": 0
     },
     {
@@ -1071,9 +1071,9 @@
       "name": "ServiceTitan, Inc.",
       "mcap": 7.41,
       "price": 95.02,
-      "basis": 81.35,
-      "bxt_today": 8.4,
-      "bxt_yest": -4.7,
+      "basis": 81.43,
+      "bxt_today": 8.06,
+      "bxt_yest": -5.69,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -1639,7 +1639,7 @@
       "pct_to_ath": 17.6,
       "pct_to_atl": 52745.6,
       "wk52_high": 170.0,
-      "wk52_low": 133.34,
+      "wk52_low": 132.01,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2029,9 +2029,9 @@
       "atl": 5.23,
       "pct_to_ath": 12.0,
       "pct_to_atl": 6950.5,
-      "wk52_high": 403.3,
+      "wk52_high": 413.25,
       "wk52_low": 230.45,
-      "ath_30d": 0,
+      "ath_30d": 3,
       "atl_30d": 0
     },
     {
@@ -2398,7 +2398,7 @@
       "pct_to_ath": 6.3,
       "pct_to_atl": 337.1,
       "wk52_high": 58.7,
-      "wk52_low": 40.0,
+      "wk52_low": 39.68,
       "ath_30d": 5,
       "atl_30d": 0
     },
@@ -2559,7 +2559,7 @@
       "pct_to_ath": 11.3,
       "pct_to_atl": 38296.4,
       "wk52_high": 235.97,
-      "wk52_low": 135.64,
+      "wk52_low": 137.31,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2581,9 +2581,9 @@
       "atl": 7.51,
       "pct_to_ath": 10.5,
       "pct_to_atl": 296.0,
-      "wk52_high": 32.8,
+      "wk52_high": 32.86,
       "wk52_low": 24.66,
-      "ath_30d": 0,
+      "ath_30d": 1,
       "atl_30d": 0
     },
     {
@@ -2697,7 +2697,7 @@
       "pct_to_ath": 24.5,
       "pct_to_atl": 22053.9,
       "wk52_high": 362.15,
-      "wk52_low": 185.5,
+      "wk52_low": 182.85,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2729,9 +2729,9 @@
       "name": "Ralliant Corporation",
       "mcap": 7.75,
       "price": 66.51,
-      "basis": 69.1,
-      "bxt_today": -16.31,
-      "bxt_yest": 8.37,
+      "basis": 68.85,
+      "bxt_today": -15.16,
+      "bxt_yest": 9.89,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -2960,8 +2960,8 @@
       "mcap": 5.32,
       "price": 18.11,
       "basis": 14.68,
-      "bxt_today": -8.5,
-      "bxt_yest": 2.24,
+      "bxt_today": -8.32,
+      "bxt_yest": 2.89,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3006,8 +3006,8 @@
       "mcap": 4.8,
       "price": 23.01,
       "basis": 20.87,
-      "bxt_today": -0.06,
-      "bxt_yest": 13.14,
+      "bxt_today": -0.75,
+      "bxt_yest": 12.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3019,7 +3019,7 @@
       "pct_to_ath": 3.3,
       "pct_to_atl": 131.7,
       "wk52_high": 23.77,
-      "wk52_low": 15.71,
+      "wk52_low": 15.74,
       "ath_30d": 4,
       "atl_30d": 0
     },
@@ -3301,27 +3301,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T09:19:30.817702+00:00",
+    "compared_to": "2026-08-20T09:55:24.674021+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CELC",
-        "name": "Celcuity Inc.",
-        "mcap": 5.25,
-        "price": 93.65,
-        "basis": 107.92,
-        "bxt_today": 0.24,
-        "ath": 151.02,
-        "pct_to_ath": 61.3,
-        "wk52_high": 151.02,
-        "wk52_low": 44.42,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
