@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-20T00:44:09.668056+00:00",
-  "count": 24,
+  "updated_at": "2026-08-20T02:08:02.737821+00:00",
+  "count": 21,
   "list": [
     {
       "sym": "LLY",
@@ -103,7 +103,7 @@
       "pct_to_atl": 742.7,
       "wk52_high": 244.73,
       "wk52_low": 121.24,
-      "ath_30d": 15,
+      "ath_30d": 16,
       "atl_30d": 0,
       "last_high": 244.73,
       "last_low": 240.22,
@@ -129,24 +129,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "RVMD",
-      "name": "Revolution Medicines, Inc.",
-      "mcap": 43.66,
-      "price": 214.66,
-      "ath": 220.3,
-      "atl": 14.08,
-      "pct_to_ath": 2.6,
-      "pct_to_atl": 1424.6,
-      "wk52_high": 220.3,
-      "wk52_low": 35.42,
-      "ath_30d": 9,
-      "atl_30d": 0,
-      "last_high": 220.3,
-      "last_low": 212.25,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "FTI",
       "name": "TechnipFMC plc Ordinary Share",
       "mcap": 30.83,
@@ -161,24 +143,6 @@
       "atl_30d": 0,
       "last_high": 80.55,
       "last_low": 76.5,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ROIV",
-      "name": "Roivant Sciences Ltd. Common Shares",
-      "mcap": 26.15,
-      "price": 37.4,
-      "ath": 37.95,
-      "atl": 2.52,
-      "pct_to_ath": 1.5,
-      "pct_to_atl": 1384.1,
-      "wk52_high": 37.95,
-      "wk52_low": 11.54,
-      "ath_30d": 6,
-      "atl_30d": 0,
-      "last_high": 37.95,
-      "last_low": 36.75,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -211,7 +175,7 @@
       "pct_to_atl": 6686.2,
       "wk52_high": 242.39,
       "wk52_low": 171.18,
-      "ath_30d": 3,
+      "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 242.39,
       "last_low": 237.38,
@@ -337,7 +301,7 @@
       "pct_to_atl": 7532.6,
       "wk52_high": 107.96,
       "wk52_low": 61.23,
-      "ath_30d": 9,
+      "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 107.96,
       "last_low": 105.5,
@@ -372,8 +336,8 @@
       "pct_to_ath": 3.8,
       "pct_to_atl": 3366.2,
       "wk52_high": 160.81,
-      "wk52_low": 54.5,
-      "ath_30d": 10,
+      "wk52_low": 54.18,
+      "ath_30d": 13,
       "atl_30d": 0,
       "last_high": 160.81,
       "last_low": 154.22,
@@ -391,28 +355,10 @@
       "pct_to_atl": 445.1,
       "wk52_high": 80.97,
       "wk52_low": 24.85,
-      "ath_30d": 2,
+      "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 80.97,
       "last_low": 77.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "TMHC",
-      "name": "Taylor Morrison Home Corporation",
-      "mcap": 6.61,
-      "price": 72.45,
-      "ath": 72.48,
-      "atl": 72.07,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 0.5,
-      "wk52_high": 72.48,
-      "wk52_low": 72.07,
-      "ath_30d": 2,
-      "atl_30d": 1,
-      "last_high": 72.48,
-      "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4237,7 +4183,5 @@
       "first_seen_at": "2026-08-20T00:44:09.668056+00:00"
     }
   ],
-  "added_this_run": [
-    "TMHC"
-  ]
+  "added_this_run": []
 }
