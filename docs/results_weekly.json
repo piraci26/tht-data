@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T23:28:04.958865+00:00",
+  "updated_at": "2026-08-21T23:50:50.840195+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.65,
-  "scanned_count": 1502,
+  "scan_seconds": 10.94,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "SNY",
@@ -2890,9 +2890,9 @@
       "name": "ServisFirst Bancshares, Inc.",
       "mcap": 4.67,
       "price": 43.34,
-      "basis": 40.76,
-      "bxt_today": -9.86,
-      "bxt_yest": 7.26,
+      "basis": 40.75,
+      "bxt_today": -10.63,
+      "bxt_yest": 4.02,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -3071,7 +3071,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T22:57:43.672751+00:00",
+    "compared_to": "2026-08-21T23:28:04.958865+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
