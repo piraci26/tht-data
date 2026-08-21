@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T12:16:27.479803+00:00",
+  "updated_at": "2026-08-21T13:15:18.314217+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.6,
-  "scanned_count": 1502,
+  "scan_seconds": 10.27,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "GIS",
@@ -1634,13 +1634,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 9,
-      "ath": 78.14,
+      "ath": 79.74,
       "atl": 1.93,
-      "pct_to_ath": 0.7,
+      "pct_to_ath": 2.8,
       "pct_to_atl": 3915.2,
       "wk52_high": 79.4,
       "wk52_low": 52.69,
-      "ath_30d": 8,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2381,7 +2381,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T11:47:29.394971+00:00",
+    "compared_to": "2026-08-21T12:16:27.479803+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

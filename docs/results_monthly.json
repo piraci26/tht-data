@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T12:16:41.684477+00:00",
+  "updated_at": "2026-08-21T13:15:30.882171+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.79,
+  "scan_seconds": 10.17,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -25,29 +25,6 @@
       "wk52_high": 18.39,
       "wk52_low": 9.43,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12.8,
-      "price": 77.57,
-      "basis": 49.8,
-      "bxt_today": 30.35,
-      "bxt_yest": -4.22,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": 6,
-      "ath": 78.14,
-      "atl": 1.93,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 3915.2,
-      "wk52_high": 79.4,
-      "wk52_low": 52.69,
-      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -949,29 +926,6 @@
       "wk52_high": 80.75,
       "wk52_low": 53.56,
       "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12.8,
-      "price": 77.57,
-      "basis": 49.8,
-      "bxt_today": 30.35,
-      "bxt_yest": -4.22,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": 6,
-      "ath": 78.14,
-      "atl": 1.93,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 3915.2,
-      "wk52_high": 79.4,
-      "wk52_low": 52.69,
-      "ath_30d": 8,
       "atl_30d": 0
     },
     {
@@ -3485,13 +3439,41 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T11:47:43.733125+00:00",
+    "compared_to": "2026-08-21T12:16:41.684477+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "WBS",
+        "name": "Webster Financial Corporation",
+        "mcap": 12.8,
+        "price": 77.57,
+        "basis": 49.8,
+        "bxt_today": 30.35,
+        "ath": 78.14,
+        "pct_to_ath": 0.7,
+        "wk52_high": 79.4,
+        "wk52_low": 52.69,
+        "ath_30d": 8
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "WBS",
+        "name": "Webster Financial Corporation",
+        "mcap": 12.8,
+        "price": 77.57,
+        "basis": 49.8,
+        "bxt_today": 30.35,
+        "ath": 78.14,
+        "pct_to_ath": 0.7,
+        "wk52_high": 79.4,
+        "wk52_low": 52.69,
+        "ath_30d": 8
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
