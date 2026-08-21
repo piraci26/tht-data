@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T07:03:45.063650+00:00",
+  "updated_at": "2026-08-21T07:53:10.127165+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.13,
+  "scan_seconds": 11.83,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3485,68 +3485,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T06:04:15.305811+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "WBS",
-        "name": "Webster Financial Corporation",
-        "mcap": 12.8,
-        "price": 77.57,
-        "basis": 49.8,
-        "bxt_today": 30.35,
-        "ath": 78.14,
-        "pct_to_ath": 0.7,
-        "wk52_high": 79.4,
-        "wk52_low": 52.69,
-        "ath_30d": 8
-      }
-    ],
+    "compared_to": "2026-08-21T07:03:45.063650+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "WBS",
-        "name": "Webster Financial Corporation",
-        "mcap": 12.8,
-        "price": 77.57,
-        "basis": 49.8,
-        "bxt_today": 30.35,
-        "ath": 78.14,
-        "pct_to_ath": 0.7,
-        "wk52_high": 79.4,
-        "wk52_low": 52.69,
-        "ath_30d": 8
-      },
-      {
-        "sym": "CAI",
-        "name": "Caris Life Sciences, Inc.",
-        "mcap": 4.8,
-        "price": 24.58,
-        "basis": 18.29,
-        "bxt_today": 12.8,
-        "ath": 42.5,
-        "pct_to_ath": 72.9,
-        "wk52_high": 42.5,
-        "wk52_low": 14.19,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "MICC",
-        "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
-        "mcap": 11.36,
-        "price": 19.74,
-        "basis": 18.73,
-        "bxt_today": 0.04,
-        "ath": 20.1,
-        "pct_to_ath": 1.8,
-        "wk52_high": 20.1,
-        "wk52_low": 12.94,
-        "ath_30d": 1
-      }
-    ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }

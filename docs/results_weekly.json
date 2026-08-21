@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T07:03:33.117289+00:00",
+  "updated_at": "2026-08-21T07:52:56.520594+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.02,
-  "scanned_count": 1503,
+  "scan_seconds": 9.96,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "GIS",
@@ -2381,55 +2381,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T06:04:03.905132+00:00",
+    "compared_to": "2026-08-21T07:03:33.117289+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "WBS",
-        "name": "Webster Financial Corporation",
-        "mcap": 12.8,
-        "price": 77.57,
-        "basis": 72.08,
-        "bxt_today": -11.93,
-        "ath": 78.14,
-        "pct_to_ath": 0.7,
-        "wk52_high": 79.4,
-        "wk52_low": 52.69,
-        "ath_30d": 8
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 179.6,
-        "bxt_today": -7.29,
-        "ath": 259.05,
-        "pct_to_ath": 40.7,
-        "wk52_high": 204.68,
-        "wk52_low": 160.1,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EQR",
-        "name": "Equity Residential Common Shares of Beneficial Interest",
-        "mcap": 24.73,
-        "price": 63.66,
-        "basis": 63.79,
-        "bxt_today": -21.49,
-        "ath": 94.32,
-        "pct_to_ath": 48.2,
-        "wk52_high": 71.5,
-        "wk52_low": 57.57,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
