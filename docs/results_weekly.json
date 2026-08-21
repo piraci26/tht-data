@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T10:53:33.191196+00:00",
+  "updated_at": "2026-08-21T11:19:06.519536+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.57,
-  "scanned_count": 1502,
+  "scan_seconds": 8.05,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "GIS",
@@ -2381,7 +2381,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T10:19:38.312612+00:00",
+    "compared_to": "2026-08-21T10:53:33.191196+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
