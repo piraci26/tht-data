@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T22:36:26.109033+00:00",
+  "updated_at": "2026-08-21T22:57:57.135791+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 28.71,
-  "scanned_count": 1499,
+  "scan_seconds": 11.46,
+  "scanned_count": 1500,
   "fvb_green": [
     {
       "sym": "ICE",
@@ -3669,7 +3669,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T22:02:48.532418+00:00",
+    "compared_to": "2026-08-21T22:36:26.109033+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
