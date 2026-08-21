@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T20:55:16.732539+00:00",
+  "updated_at": "2026-08-21T21:22:09.289114+00:00",
   "timeframe": "daily",
-  "scan_seconds": 20.07,
-  "scanned_count": 1502,
+  "scan_seconds": 22.51,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "TSLA",
@@ -1669,7 +1669,7 @@
       "name": "eBay Inc.",
       "mcap": 45.9,
       "price": 104.13,
-      "basis": 110.08,
+      "basis": 110.09,
       "bxt_today": 8.49,
       "bxt_yest": -1.18,
       "fvb_g": false,
@@ -3718,7 +3718,7 @@
       "name": "Xcel Energy Inc.",
       "mcap": 49.45,
       "price": 76.3,
-      "basis": 79.13,
+      "basis": 79.14,
       "bxt_today": -13.16,
       "bxt_yest": 23.08,
       "fvb_g": false,
@@ -5026,7 +5026,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T20:32:44.869155+00:00",
+    "compared_to": "2026-08-21T20:55:16.732539+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

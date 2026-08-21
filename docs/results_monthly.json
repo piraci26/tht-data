@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T20:55:58.711413+00:00",
+  "updated_at": "2026-08-21T21:22:56.068830+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.05,
+  "scan_seconds": 20.12,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2338,7 +2338,7 @@
       "name": "Marriott International",
       "mcap": 93.02,
       "price": 356.39,
-      "basis": 283.16,
+      "basis": 283.15,
       "bxt_today": -3.4,
       "bxt_yest": 11.65,
       "fvb_g": false,
@@ -3669,7 +3669,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T20:33:16.428606+00:00",
+    "compared_to": "2026-08-21T20:55:58.711413+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
