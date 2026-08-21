@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-08-21T01:15:51.524100+00:00",
-  "count": 18,
+  "updated_at": "2026-08-21T02:38:38.098440+00:00",
+  "count": 13,
   "list": [
-    {
-      "sym": "KO",
-      "name": "Coca-Cola Company (The)",
-      "mcap": 377.38,
-      "price": 90.5,
-      "ath": 91.86,
-      "atl": 1.24,
-      "pct_to_ath": 1.5,
-      "pct_to_atl": 7200.8,
-      "wk52_high": 91.86,
-      "wk52_low": 65.35,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 91.86,
-      "last_low": 89.74,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
     {
       "sym": "MPC",
       "name": "Marathon Petroleum Corporation",
@@ -53,24 +35,6 @@
       "atl_30d": 0,
       "last_high": 352.7,
       "last_low": 340.94,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "PSX",
-      "name": "Phillips 66",
-      "mcap": 93.22,
-      "price": 240.0,
-      "ath": 246.89,
-      "atl": 28.75,
-      "pct_to_ath": 2.9,
-      "pct_to_atl": 734.8,
-      "wk52_high": 246.89,
-      "wk52_low": 122.13,
-      "ath_30d": 16,
-      "atl_30d": 0,
-      "last_high": 246.89,
-      "last_low": 239.31,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -147,42 +111,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 44.67,
-      "price": 324.84,
-      "ath": 333.52,
-      "atl": 6.52,
-      "pct_to_ath": 2.7,
-      "pct_to_atl": 4882.2,
-      "wk52_high": 333.52,
-      "wk52_low": 156.71,
-      "ath_30d": 3,
-      "atl_30d": 0,
-      "last_high": 333.52,
-      "last_low": 320.9,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "RPRX",
-      "name": "Royalty Pharma plc Ordinary Shares",
-      "mcap": 26.09,
-      "price": 60.58,
-      "ath": 62.1,
-      "atl": 24.05,
-      "pct_to_ath": 2.5,
-      "pct_to_atl": 151.9,
-      "wk52_high": 62.1,
-      "wk52_low": 34.08,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 62.1,
-      "last_low": 60.37,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "DGX",
       "name": "Quest Diagnostics Incorporated",
       "mcap": 25.87,
@@ -233,24 +161,6 @@
       "atl_30d": 0,
       "last_high": 24.09,
       "last_low": 23.33,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "NDSN",
-      "name": "Nordson Corporation",
-      "mcap": 17.2,
-      "price": 334.7,
-      "ath": 336.7,
-      "atl": 1.25,
-      "pct_to_ath": 0.6,
-      "pct_to_atl": 26676.0,
-      "wk52_high": 336.7,
-      "wk52_low": 211.5,
-      "ath_30d": 4,
-      "atl_30d": 0,
-      "last_high": 336.7,
-      "last_low": 308.42,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4129,7 +4039,5 @@
       "first_seen_at": "2026-08-21T01:15:51.524100+00:00"
     }
   ],
-  "added_this_run": [
-    "SFBS"
-  ]
+  "added_this_run": []
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T01:14:41.710510+00:00",
+  "updated_at": "2026-08-21T02:37:47.223859+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.35,
+  "scan_seconds": 13.18,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -70,29 +70,6 @@
       "pct_to_atl": 77497.9,
       "wk52_high": 254.93,
       "wk52_low": 189.2,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CCZ",
-      "name": "Comcast Holdings ZONES",
-      "mcap": 63,
-      "price": 66.45,
-      "basis": 65.35,
-      "bxt_today": 28.95,
-      "bxt_yest": 5.62,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 10,
-      "bxt_streak": null,
-      "ath": 73.0,
-      "atl": 49.75,
-      "pct_to_ath": 9.9,
-      "pct_to_atl": 33.6,
-      "wk52_high": 66.5,
-      "wk52_low": 59.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2374,7 +2351,7 @@
       "pct_to_atl": 26676.0,
       "wk52_high": 336.7,
       "wk52_low": 211.5,
-      "ath_30d": 4,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -6153,9 +6130,23 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-20T23:55:43.043015+00:00",
+    "compared_to": "2026-08-21T01:14:41.710510+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "CCZ",
+        "name": "Comcast Holdings ZONES",
+        "mcap": 63,
+        "price": 66.45,
+        "basis": 65.35,
+        "bxt_today": 28.95,
+        "ath": 73.0,
+        "pct_to_ath": 9.9,
+        "wk52_high": 66.5,
+        "wk52_low": 59.0,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
