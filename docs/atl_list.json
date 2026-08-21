@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-08-21T14:47:01.568044+00:00",
-  "count": 1,
+  "updated_at": "2026-08-21T15:18:54.353614+00:00",
+  "count": 2,
   "list": [
+    {
+      "sym": "MAIR",
+      "name": "Madison Air Solutions Corporation",
+      "mcap": 15.69,
+      "price": 26.27,
+      "ath": 44.5,
+      "atl": 25.78,
+      "pct_to_ath": 69.4,
+      "pct_to_atl": 1.9,
+      "wk52_high": 44.5,
+      "wk52_low": 25.78,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 26.61,
+      "last_low": 25.78,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.52,
-      "price": 14.98,
+      "price": 14.9,
       "ath": 34.11,
-      "atl": 14.91,
-      "pct_to_ath": 127.6,
-      "pct_to_atl": 0.5,
+      "atl": 14.88,
+      "pct_to_ath": 128.9,
+      "pct_to_atl": 0.1,
       "wk52_high": 20.17,
-      "wk52_low": 14.91,
+      "wk52_low": 14.88,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 15.06,
-      "last_low": 14.91,
+      "last_low": 14.88,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -719,25 +737,6 @@
       "first_seen_at": "2026-08-18T19:20:11.258792+00:00"
     },
     {
-      "sym": "MAIR",
-      "name": "Madison Air Solutions Corporation",
-      "mcap": 15.69,
-      "price": 26.87,
-      "ath": 44.5,
-      "atl": 26.86,
-      "pct_to_ath": 65.6,
-      "pct_to_atl": 0.0,
-      "wk52_high": 44.5,
-      "wk52_low": 26.86,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 28.24,
-      "last_low": 26.86,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-20T14:18:27.946117+00:00"
-    },
-    {
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
@@ -793,7 +792,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-20T18:17:44.785061+00:00"
+    },
+    {
+      "sym": "MAIR",
+      "name": "Madison Air Solutions Corporation",
+      "mcap": 15.69,
+      "price": 26.27,
+      "ath": 44.5,
+      "atl": 25.78,
+      "pct_to_ath": 69.4,
+      "pct_to_atl": 1.9,
+      "wk52_high": 44.5,
+      "wk52_low": 25.78,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 26.61,
+      "last_low": 25.78,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-08-21T15:18:54.353614+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MAIR"
+  ]
 }
