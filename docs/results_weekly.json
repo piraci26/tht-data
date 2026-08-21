@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T20:33:01.083129+00:00",
+  "updated_at": "2026-08-21T20:55:37.740860+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.55,
+  "scan_seconds": 16.22,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -3071,162 +3071,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T19:58:49.314203+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "GMED",
-        "name": "Globus Medical, Inc.",
-        "mcap": 11.53,
-        "price": 86.91,
-        "basis": 85.47,
-        "bxt_today": 31.59,
-        "ath": 101.4,
-        "pct_to_ath": 16.7,
-        "wk52_high": 101.4,
-        "wk52_low": 54.15,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-21T20:33:01.083129+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "LMT",
-        "name": "Lockheed Martin Corporation",
-        "mcap": 140.48,
-        "price": 563.57,
-        "basis": 576.68,
-        "bxt_today": 14.85,
-        "ath": 692.0,
-        "pct_to_ath": 22.8,
-        "wk52_high": 692.0,
-        "wk52_low": 437.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ES",
-        "name": "Eversource Energy (D/B/A)",
-        "mcap": 27.21,
-        "price": 70.21,
-        "basis": 70.9,
-        "bxt_today": -23.66,
-        "ath": 99.42,
-        "pct_to_ath": 41.6,
-        "wk52_high": 76.57,
-        "wk52_low": 61.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "DD",
-        "name": "DuPont de Nemours, Inc.",
-        "mcap": 19.75,
-        "price": 138.33,
-        "basis": 140.02,
-        "bxt_today": -9.72,
-        "ath": 157.98,
-        "pct_to_ath": 14.2,
-        "wk52_high": 157.98,
-        "wk52_low": 92.47,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MRCY",
-        "name": "Mercury Systems Inc",
-        "mcap": 6.48,
-        "price": 91.36,
-        "basis": 95.02,
-        "bxt_today": -29.65,
-        "ath": 128.45,
-        "pct_to_ath": 40.6,
-        "wk52_high": 128.45,
-        "wk52_low": 64.05,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "WY",
-        "name": "Weyerhaeuser Company",
-        "mcap": 17.7,
-        "price": 24.4,
-        "basis": 24.67,
-        "bxt_today": 1.82,
-        "ath": 87.09,
-        "pct_to_ath": 256.9,
-        "wk52_high": 27.75,
-        "wk52_low": 21.16,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "RIVN",
-        "name": "Rivian Automotive, Inc.",
-        "mcap": 22.24,
-        "price": 17.0,
-        "basis": 15.92,
-        "bxt_today": 0.11,
-        "ath": 179.47,
-        "pct_to_ath": 955.7,
-        "wk52_high": 22.69,
-        "wk52_low": 11.84,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TFX",
-        "name": "Teleflex Incorporated",
-        "mcap": 6.01,
-        "price": 139.04,
-        "basis": 123.38,
-        "bxt_today": 0.16,
-        "ath": 449.38,
-        "pct_to_ath": 223.2,
-        "wk52_high": 145.0,
-        "wk52_low": 100.18,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CDW",
-        "name": "CDW Corporation",
-        "mcap": 17.43,
-        "price": 137.25,
-        "basis": 128.37,
-        "bxt_today": -0.08,
-        "ath": 263.37,
-        "pct_to_ath": 91.9,
-        "wk52_high": 171.55,
-        "wk52_low": 97.12,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CVCO",
-        "name": "Cavco Industries, Inc. When Issued",
-        "mcap": 4.32,
-        "price": 582.55,
-        "basis": 554.64,
-        "bxt_today": -0.07,
-        "ath": 713.01,
-        "pct_to_ath": 22.4,
-        "wk52_high": 713.01,
-        "wk52_low": 443.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "HHH",
-        "name": "Howard Hughes Holdings Inc.",
-        "mcap": 4.31,
-        "price": 66.5,
-        "basis": 69.29,
-        "bxt_today": -0.7,
-        "ath": 153.12,
-        "pct_to_ath": 130.3,
-        "wk52_high": 91.07,
-        "wk52_low": 61.01,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

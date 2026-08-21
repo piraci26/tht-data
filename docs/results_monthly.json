@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-21T20:33:16.428606+00:00",
+  "updated_at": "2026-08-21T20:55:58.711413+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.03,
+  "scan_seconds": 18.05,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3669,7 +3669,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-21T19:59:05.686312+00:00",
+    "compared_to": "2026-08-21T20:33:16.428606+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -3677,20 +3677,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "VNOM",
-        "name": "Viper Energy, Inc.",
-        "mcap": 15.22,
-        "price": 45.26,
-        "basis": 42.23,
-        "bxt_today": -0.04,
-        "ath": 56.76,
-        "pct_to_ath": 25.4,
-        "wk52_high": 51.13,
-        "wk52_low": 35.1,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
