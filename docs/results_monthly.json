@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T05:50:22.684974+00:00",
+  "updated_at": "2026-08-22T06:16:16.527534+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.9,
+  "scan_seconds": 8.72,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1523,29 +1523,6 @@
       "pct_to_atl": 5242.0,
       "wk52_high": 24.41,
       "wk52_low": 3.97,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "SFBS",
-      "name": "ServisFirst Bancshares, Inc.",
-      "mcap": 4.67,
-      "price": 43.34,
-      "basis": 66.58,
-      "bxt_today": 0.93,
-      "bxt_yest": -6.8,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 101.37,
-      "atl": 12.39,
-      "pct_to_ath": 133.9,
-      "pct_to_atl": 249.9,
-      "wk52_high": 46.04,
-      "wk52_low": 33.6,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3554,13 +3531,27 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T05:22:25.774520+00:00",
+    "compared_to": "2026-08-22T05:50:22.684974+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "SFBS",
+        "name": "ServisFirst Bancshares, Inc.",
+        "mcap": 4.67,
+        "price": 43.34,
+        "basis": 66.58,
+        "bxt_today": 0.93,
+        "ath": 101.37,
+        "pct_to_ath": 133.9,
+        "wk52_high": 46.04,
+        "wk52_low": 33.6,
+        "ath_30d": 0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
