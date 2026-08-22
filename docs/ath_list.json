@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-22T09:37:24.635051+00:00",
-  "count": 19,
+  "updated_at": "2026-08-22T09:57:53.382826+00:00",
+  "count": 20,
   "list": [
     {
       "sym": "MRK",
@@ -251,6 +251,24 @@
       "atl_30d": 0,
       "last_high": 108.49,
       "last_low": 105.91,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "TMHC",
+      "name": "Taylor Morrison Home Corporation",
+      "mcap": 6.61,
+      "price": 72.45,
+      "ath": 72.48,
+      "atl": 72.07,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 0.5,
+      "wk52_high": 72.48,
+      "wk52_low": 72.07,
+      "ath_30d": 2,
+      "atl_30d": 1,
+      "last_high": 72.48,
+      "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4144,8 +4162,10 @@
       "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false,
-      "first_seen_at": "2026-08-22T06:16:33.582507+00:00"
+      "first_seen_at": "2026-08-22T09:57:53.382826+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "TMHC"
+  ]
 }
