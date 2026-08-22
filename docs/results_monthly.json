@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T13:41:44.430221+00:00",
+  "updated_at": "2026-08-22T13:59:49.324014+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.38,
+  "scan_seconds": 18.54,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -78,9 +78,9 @@
       "name": "AvalonBay Communities, Inc.",
       "mcap": 26.28,
       "price": 184.06,
-      "basis": 77.27,
-      "bxt_today": 49.59,
-      "bxt_yest": 47.17,
+      "basis": 73.76,
+      "bxt_today": 48.6,
+      "bxt_yest": 35.52,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
@@ -3485,42 +3485,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T13:06:40.982240+00:00",
+    "compared_to": "2026-08-22T13:41:44.430221+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 153.52,
-        "bxt_today": 23.54,
-        "ath": 259.05,
-        "pct_to_ath": 40.7,
-        "wk52_high": 71.12,
-        "wk52_low": 57.32,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "EQR",
-        "name": "Equity Residential Common Shares of Beneficial Interest",
-        "mcap": 24.73,
-        "price": 63.66,
-        "basis": 63.61,
-        "bxt_today": -0.06,
-        "ath": 94.32,
-        "pct_to_ath": 48.2,
-        "wk52_high": 71.5,
-        "wk52_low": 57.57,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
