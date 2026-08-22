@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T04:54:48.855239+00:00",
+  "updated_at": "2026-08-22T05:22:27.783348+00:00",
   "count": 19,
   "list": [
     {
@@ -4147,12 +4147,5 @@
       "first_seen_at": "2026-08-22T04:54:48.855239+00:00"
     }
   ],
-  "added_this_run": [
-    "CNQ",
-    "CORT",
-    "HALO",
-    "INSW",
-    "NDSN",
-    "VRTX"
-  ]
+  "added_this_run": []
 }
