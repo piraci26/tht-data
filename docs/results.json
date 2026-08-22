@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T23:40:50.510153+00:00",
+  "updated_at": "2026-08-22T23:57:39.943621+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.79,
+  "scan_seconds": 11.04,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -672,29 +672,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LBRDK",
-      "name": "Liberty Broadband Corporation Class C",
-      "mcap": 4.41,
-      "price": 36.02,
-      "basis": 31.89,
-      "bxt_today": 35.05,
-      "bxt_yest": 1.19,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 11,
-      "bxt_streak": null,
-      "ath": 194.05,
-      "atl": 26.25,
-      "pct_to_ath": 438.7,
-      "pct_to_atl": 37.2,
-      "wk52_high": 91.79,
-      "wk52_low": 29.08,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 4.41,
@@ -714,6 +691,29 @@
       "pct_to_atl": 37.7,
       "wk52_high": 91.04,
       "wk52_low": 29.18,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LBRDK",
+      "name": "Liberty Broadband Corporation Class C",
+      "mcap": 4.41,
+      "price": 36.02,
+      "basis": 31.89,
+      "bxt_today": 35.05,
+      "bxt_yest": 1.19,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 11,
+      "bxt_streak": null,
+      "ath": 194.05,
+      "atl": 26.25,
+      "pct_to_ath": 438.7,
+      "pct_to_atl": 37.2,
+      "wk52_high": 91.79,
+      "wk52_low": 29.08,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5072,7 +5072,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T23:20:16.571948+00:00",
+    "compared_to": "2026-08-22T23:40:50.510153+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
