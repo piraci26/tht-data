@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T16:15:49.047938+00:00",
+  "updated_at": "2026-08-22T16:44:20.586787+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.39,
+  "scan_seconds": 8.97,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -1255,7 +1255,7 @@
       "name": "Chemed Corp",
       "mcap": 6.49,
       "price": 540.57,
-      "basis": 482.37,
+      "basis": 482.36,
       "bxt_today": 2.39,
       "bxt_yest": -4.57,
       "fvb_g": false,
@@ -3485,7 +3485,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T15:53:47.639549+00:00",
+    "compared_to": "2026-08-22T16:15:49.047938+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
