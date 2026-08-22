@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-22T08:00:46.470540+00:00",
+  "updated_at": "2026-08-22T08:40:56.025056+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.81,
-  "scanned_count": 1503,
+  "scan_seconds": 17.43,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "COIN",
@@ -2266,7 +2266,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T07:40:08.277695+00:00",
+    "compared_to": "2026-08-22T08:00:46.470540+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
