@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T13:59:49.324014+00:00",
+  "updated_at": "2026-08-22T14:29:48.846509+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.54,
+  "scan_seconds": 8.97,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -79,17 +79,17 @@
       "mcap": 26.28,
       "price": 184.06,
       "basis": 73.76,
-      "bxt_today": 48.6,
-      "bxt_yest": 35.52,
+      "bxt_today": 47.45,
+      "bxt_yest": 20.59,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 48,
+      "fvb_streak": 14,
       "bxt_streak": null,
-      "ath": 259.05,
+      "ath": 222.87,
       "atl": 16.75,
-      "pct_to_ath": 40.7,
+      "pct_to_ath": 21.1,
       "pct_to_atl": 998.9,
       "wk52_high": 71.12,
       "wk52_low": 57.32,
@@ -3485,7 +3485,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-22T13:41:44.430221+00:00",
+    "compared_to": "2026-08-22T13:59:49.324014+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
