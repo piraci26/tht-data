@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-23T14:58:55.152726+00:00",
+  "updated_at": "2026-08-23T15:29:52.402359+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.85,
-  "scanned_count": 1503,
+  "scan_seconds": 16.92,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "TSLA",
@@ -5072,7 +5072,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-23T14:38:22.114587+00:00",
+    "compared_to": "2026-08-23T14:58:55.152726+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
