@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-24T21:47:46.572453+00:00",
+  "updated_at": "2026-08-24T22:10:49.376509+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 11.42,
-  "scanned_count": 1503,
+  "scan_seconds": 12.02,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "CCZ",
@@ -2864,7 +2864,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T21:15:54.938678+00:00",
+    "compared_to": "2026-08-24T21:47:46.572453+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
