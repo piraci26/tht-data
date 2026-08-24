@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-08-24T17:55:57.115965+00:00",
+  "updated_at": "2026-08-24T18:36:59.355703+00:00",
   "count": 1,
   "list": [
     {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
       "mcap": 15.69,
-      "price": 24.76,
+      "price": 25.11,
       "ath": 44.5,
-      "atl": 24.76,
-      "pct_to_ath": 79.7,
-      "pct_to_atl": 0.0,
+      "atl": 24.75,
+      "pct_to_ath": 77.2,
+      "pct_to_atl": 1.5,
       "wk52_high": 44.5,
-      "wk52_low": 24.76,
+      "wk52_low": 24.75,
       "ath_30d": 0,
       "atl_30d": 6,
       "last_high": 26.37,
-      "last_low": 24.76,
+      "last_low": 24.75,
       "made_ath_today": false,
       "made_atl_today": true
     }
