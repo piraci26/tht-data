@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T14:52:49.729040+00:00",
+  "updated_at": "2026-08-24T15:28:32.966320+00:00",
   "count": 18,
   "list": [
     {
@@ -4129,18 +4129,5 @@
       "first_seen_at": "2026-08-24T14:52:49.729040+00:00"
     }
   ],
-  "added_this_run": [
-    "ANDG",
-    "CRNX",
-    "DGX",
-    "EXPE",
-    "FIVE",
-    "HCC",
-    "KO",
-    "LH",
-    "MICC",
-    "SXT",
-    "V",
-    "VLO"
-  ]
+  "added_this_run": []
 }
