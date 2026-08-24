@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-24T23:31:42.563283+00:00",
+  "updated_at": "2026-08-24T23:52:21.384153+00:00",
   "timeframe": "daily",
-  "scan_seconds": 26.7,
-  "scanned_count": 1503,
+  "scan_seconds": 28.41,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "MCD",
@@ -4911,22 +4911,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T23:03:43.083094+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 68.14,
-        "basis": 67.28,
-        "bxt_today": 30.87,
-        "ath": 185.62,
-        "pct_to_ath": 172.4,
-        "wk52_high": 71.12,
-        "wk52_low": 57.32,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-24T23:31:42.563283+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],

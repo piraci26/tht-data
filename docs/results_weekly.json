@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T23:32:10.618698+00:00",
+  "updated_at": "2026-08-24T23:52:51.950869+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 22.4,
+  "scan_seconds": 24.37,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -2841,25 +2841,11 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T23:03:57.975519+00:00",
+    "compared_to": "2026-08-24T23:32:10.618698+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "IESC",
-        "name": "IES Holdings, Inc.",
-        "mcap": 13.02,
-        "price": 324.12,
-        "basis": 535.62,
-        "bxt_today": -43.51,
-        "ath": 408.26,
-        "pct_to_ath": 26.0,
-        "wk52_high": 804.0,
-        "wk52_low": 291.55,
-        "ath_30d": 4
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
