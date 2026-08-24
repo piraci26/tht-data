@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T20:50:27.262761+00:00",
+  "updated_at": "2026-08-24T21:15:38.733436+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.62,
+  "scan_seconds": 12.58,
   "scanned_count": 1503,
   "fvb_green": [
     {
@@ -1069,7 +1069,7 @@
       "name": "Credo Technology Group Holding Ltd Ordinary Shares",
       "mcap": 41.38,
       "price": 222.61,
-      "basis": 231.97,
+      "basis": 231.95,
       "bxt_today": -27.56,
       "bxt_yest": -22.58,
       "fvb_g": false,
@@ -3810,7 +3810,7 @@
       "name": "Atlassian Corporation",
       "mcap": 43.62,
       "price": 171.33,
-      "basis": 119.4,
+      "basis": 119.41,
       "bxt_today": -7.55,
       "bxt_yest": 6.22,
       "fvb_g": false,
@@ -3994,7 +3994,7 @@
       "name": "Sterling Infrastructure, Inc.",
       "mcap": 15.04,
       "price": 496.66,
-      "basis": 599.18,
+      "basis": 599.17,
       "bxt_today": -8.32,
       "bxt_yest": 1.38,
       "fvb_g": false,
@@ -4888,56 +4888,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T20:13:26.651724+00:00",
+    "compared_to": "2026-08-24T20:50:27.262761+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "AZN",
-        "name": "AstraZeneca PLC Ordinary Shares",
-        "mcap": 258.35,
-        "price": 166.75,
-        "basis": 165.3,
-        "bxt_today": 43.46,
-        "ath": 212.71,
-        "pct_to_ath": 27.6,
-        "wk52_high": 212.71,
-        "wk52_low": 145.8,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "FBP",
-        "name": "First BanCorp. New",
-        "mcap": 4.14,
-        "price": 28.22,
-        "basis": 28.45,
-        "bxt_today": -44.17,
-        "ath": 491.17,
-        "pct_to_ath": 1640.5,
-        "wk52_high": 29.88,
-        "wk52_low": 19.16,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "EXPD",
-        "name": "Expeditors International of Washington, Inc.",
-        "mcap": 24.31,
-        "price": 187.83,
-        "basis": 178.58,
-        "bxt_today": -0.03,
-        "ath": 189.99,
-        "pct_to_ath": 1.1,
-        "wk52_high": 189.99,
-        "wk52_low": 112.95,
-        "ath_30d": 7
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T20:50:58.724260+00:00",
+  "updated_at": "2026-08-24T21:16:11.036749+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.35,
+  "scan_seconds": 13.49,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2775,7 +2775,7 @@
       "name": "Sterling Infrastructure, Inc.",
       "mcap": 15.04,
       "price": 496.66,
-      "basis": 278.77,
+      "basis": 278.75,
       "bxt_today": -9.26,
       "bxt_yest": 2.33,
       "fvb_g": false,
@@ -3715,7 +3715,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T20:13:51.390373+00:00",
+    "compared_to": "2026-08-24T20:50:58.724260+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -3723,20 +3723,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "BIPC",
-        "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
-        "mcap": 4.86,
-        "price": 39.2,
-        "basis": 42.33,
-        "bxt_today": -0.19,
-        "ath": 53.73,
-        "pct_to_ath": 37.1,
-        "wk52_high": 51.72,
-        "wk52_low": 34.18,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
