@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-24T23:03:43.083094+00:00",
+  "updated_at": "2026-08-24T23:31:42.563283+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.72,
-  "scanned_count": 1502,
+  "scan_seconds": 26.7,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "MCD",
@@ -300,6 +300,29 @@
       "pct_to_atl": 488.4,
       "wk52_high": 158.23,
       "wk52_low": 95.11,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "AVB",
+      "name": "AvalonBay Communities, Inc.",
+      "mcap": 26.28,
+      "price": 68.14,
+      "basis": 67.28,
+      "bxt_today": 30.87,
+      "bxt_yest": 19.08,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 17,
+      "bxt_streak": null,
+      "ath": 185.62,
+      "atl": 6.0,
+      "pct_to_ath": 172.4,
+      "pct_to_atl": 1036.2,
+      "wk52_high": 71.12,
+      "wk52_low": 57.32,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4888,8 +4911,22 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T22:44:04.168225+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-08-24T23:03:43.083094+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "AVB",
+        "name": "AvalonBay Communities, Inc.",
+        "mcap": 26.28,
+        "price": 68.14,
+        "basis": 67.28,
+        "bxt_today": 30.87,
+        "ath": 185.62,
+        "pct_to_ath": 172.4,
+        "wk52_high": 71.12,
+        "wk52_low": 57.32,
+        "ath_30d": 0
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
