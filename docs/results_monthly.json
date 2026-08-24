@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T22:11:03.241946+00:00",
+  "updated_at": "2026-08-24T22:44:47.785464+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.57,
+  "scan_seconds": 17.86,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3715,7 +3715,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T21:48:01.670401+00:00",
+    "compared_to": "2026-08-24T22:11:03.241946+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -3723,20 +3723,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "WBI",
-        "name": "WaterBridge Infrastructure LLC Shares Representing Limited Liability Company Interests",
-        "mcap": 1.67,
-        "price": 31.48,
-        "basis": 33.49,
-        "bxt_today": -0.39,
-        "ath": 36.89,
-        "pct_to_ath": 17.2,
-        "wk52_high": 36.89,
-        "wk52_low": 18.64,
-        "ath_30d": 2
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

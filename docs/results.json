@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T22:10:33.807782+00:00",
+  "updated_at": "2026-08-24T22:44:04.168225+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.97,
+  "scan_seconds": 22.67,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -4888,55 +4888,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T21:47:30.686260+00:00",
+    "compared_to": "2026-08-24T22:10:33.807782+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "UHAL",
-        "name": "U-Haul Holding Company",
-        "mcap": 14.51,
-        "price": 71.1,
-        "basis": 71.84,
-        "bxt_today": -45.16,
-        "ath": 79.04,
-        "pct_to_ath": 11.2,
-        "wk52_high": 76.45,
-        "wk52_low": 41.95,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "ASML",
-        "name": "ASML Holding N.V. New York Registry Shares",
-        "mcap": 673.35,
-        "price": 1740.13,
-        "basis": 1757.16,
-        "bxt_today": -18.05,
-        "ath": 1999.96,
-        "pct_to_ath": 14.9,
-        "wk52_high": 1999.96,
-        "wk52_low": 716.2,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "TFSL",
-        "name": "TFS Financial Corporation",
-        "mcap": 4.97,
-        "price": 17.65,
-        "basis": 17.91,
-        "bxt_today": 8.17,
-        "ath": 22.54,
-        "pct_to_ath": 27.7,
-        "wk52_high": 19.49,
-        "wk52_low": 12.54,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
