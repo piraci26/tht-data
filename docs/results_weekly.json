@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T21:02:40.253922+00:00",
+  "updated_at": "2026-08-25T21:38:10.015077+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.55,
+  "scan_seconds": 14.76,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -193,7 +193,7 @@
       "name": "Hamilton Lane Incorporated",
       "mcap": 3.54,
       "price": 106.83,
-      "basis": 99.29,
+      "basis": 99.28,
       "bxt_today": 48.3,
       "bxt_yest": 48.1,
       "fvb_g": true,
@@ -494,7 +494,7 @@
       "name": "BancFirst Corporation",
       "mcap": 3.87,
       "price": 111.09,
-      "basis": 112.57,
+      "basis": 112.56,
       "bxt_today": -22.75,
       "bxt_yest": -13.75,
       "fvb_g": false,
@@ -634,7 +634,7 @@
       "name": "Interactive Brokers Group, Inc.",
       "mcap": 44.51,
       "price": 98.19,
-      "basis": 81.93,
+      "basis": 81.92,
       "bxt_today": 2.71,
       "bxt_yest": -17.22,
       "fvb_g": false,
@@ -1809,7 +1809,7 @@
       "name": "ICON plc Ordinary Shares",
       "mcap": 12.94,
       "price": 168.91,
-      "basis": 138.35,
+      "basis": 138.33,
       "bxt_today": -2.47,
       "bxt_yest": 8.07,
       "fvb_g": false,
@@ -2404,7 +2404,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T20:39:48.791418+00:00",
+    "compared_to": "2026-08-25T21:02:40.253922+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
