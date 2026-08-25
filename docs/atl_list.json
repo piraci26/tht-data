@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-25T17:09:23.534513+00:00",
+  "updated_at": "2026-08-25T17:45:54.563038+00:00",
   "count": 1,
   "list": [
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
       "mcap": 24.69,
-      "price": 43.92,
+      "price": 44.11,
       "ath": 65.94,
       "atl": 43.69,
-      "pct_to_ath": 50.1,
-      "pct_to_atl": 0.5,
+      "pct_to_ath": 49.5,
+      "pct_to_atl": 1.0,
       "wk52_high": 65.94,
       "wk52_low": 43.69,
       "ath_30d": 0,
