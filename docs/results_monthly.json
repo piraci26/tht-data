@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T00:39:09.100351+00:00",
+  "updated_at": "2026-08-25T02:08:24.237318+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.94,
+  "scan_seconds": 10.95,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -24,29 +24,6 @@
       "pct_to_atl": 473.8,
       "wk52_high": 51.68,
       "wk52_low": 38.39,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CCZ",
-      "name": "Comcast Holdings ZONES",
-      "mcap": 63,
-      "price": 66.45,
-      "basis": 64.46,
-      "bxt_today": -9.37,
-      "bxt_yest": -34.22,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 73.0,
-      "atl": 49.75,
-      "pct_to_ath": 9.9,
-      "pct_to_atl": 33.6,
-      "wk52_high": 66.5,
-      "wk52_low": 59.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -764,6 +741,29 @@
       "pct_to_atl": 6282.1,
       "wk52_high": 165.76,
       "wk52_low": 92.57,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "CCZ",
+      "name": "Comcast Holdings ZONES",
+      "mcap": 63,
+      "price": 66.45,
+      "basis": 64.63,
+      "bxt_today": 1.28,
+      "bxt_yest": -9.37,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 73.0,
+      "atl": 49.75,
+      "pct_to_ath": 9.9,
+      "pct_to_atl": 33.6,
+      "wk52_high": 66.5,
+      "wk52_low": 59.0,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3715,12 +3715,40 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-24T23:53:22.112535+00:00",
+    "compared_to": "2026-08-25T00:39:09.100351+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "CCZ",
+        "name": "Comcast Holdings ZONES",
+        "mcap": 63,
+        "price": 66.45,
+        "basis": 64.46,
+        "bxt_today": -9.37,
+        "ath": 73.0,
+        "pct_to_ath": 9.9,
+        "wk52_high": 66.5,
+        "wk52_low": 59.0,
+        "ath_30d": 0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "bxt_green_added": [
+      {
+        "sym": "CCZ",
+        "name": "Comcast Holdings ZONES",
+        "mcap": 63,
+        "price": 66.45,
+        "basis": 64.63,
+        "bxt_today": 1.28,
+        "ath": 73.0,
+        "pct_to_ath": 9.9,
+        "wk52_high": 66.5,
+        "wk52_low": 59.0,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
