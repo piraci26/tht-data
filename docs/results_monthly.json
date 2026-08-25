@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T05:53:49.242253+00:00",
+  "updated_at": "2026-08-25T06:32:56.842854+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 18.36,
+  "scan_seconds": 16.08,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2817,29 +2817,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IESC",
-      "name": "IES Holdings, Inc.",
-      "mcap": 13.02,
-      "price": 324.12,
-      "basis": 317.72,
-      "bxt_today": -19.78,
-      "bxt_yest": 26.64,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 816.51,
-      "atl": 1.75,
-      "pct_to_ath": 151.9,
-      "pct_to_atl": 18421.1,
-      "wk52_high": 816.51,
-      "wk52_low": 323.64,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "ALLY",
       "name": "Ally Financial Inc.",
       "mcap": 12.98,
@@ -3738,7 +3715,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T05:20:46.051884+00:00",
+    "compared_to": "2026-08-25T05:53:49.242253+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -3746,6 +3723,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "IESC",
+        "name": "IES Holdings, Inc.",
+        "mcap": 13.02,
+        "price": 324.12,
+        "basis": 317.72,
+        "bxt_today": -19.78,
+        "ath": 816.51,
+        "pct_to_ath": 151.9,
+        "wk52_high": 816.51,
+        "wk52_low": 323.64,
+        "ath_30d": 2
+      }
+    ]
   }
 }
