@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T02:07:48.377836+00:00",
+  "updated_at": "2026-08-25T03:11:19.964792+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.41,
+  "scan_seconds": 26.88,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -1315,6 +1315,29 @@
       "wk52_high": 78.82,
       "wk52_low": 40.5,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IESC",
+      "name": "IES Holdings, Inc.",
+      "mcap": 13.02,
+      "price": 324.12,
+      "basis": 671.35,
+      "bxt_today": -45.05,
+      "bxt_yest": -34.44,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 16,
+      "bxt_streak": null,
+      "ath": 816.51,
+      "atl": 1.75,
+      "pct_to_ath": 151.9,
+      "pct_to_atl": 18421.1,
+      "wk52_high": 816.51,
+      "wk52_low": 323.64,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -4911,10 +4934,24 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T00:38:26.143127+00:00",
+    "compared_to": "2026-08-25T02:07:48.377836+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
+    "fvb_red_added": [
+      {
+        "sym": "IESC",
+        "name": "IES Holdings, Inc.",
+        "mcap": 13.02,
+        "price": 324.12,
+        "basis": 671.35,
+        "bxt_today": -45.05,
+        "ath": 816.51,
+        "pct_to_ath": 151.9,
+        "wk52_high": 816.51,
+        "wk52_low": 323.64,
+        "ath_30d": 2
+      }
+    ],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
