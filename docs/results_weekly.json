@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T20:39:48.791418+00:00",
+  "updated_at": "2026-08-25T21:02:40.253922+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.28,
+  "scan_seconds": 10.55,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -193,7 +193,7 @@
       "name": "Hamilton Lane Incorporated",
       "mcap": 3.54,
       "price": 106.83,
-      "basis": 99.28,
+      "basis": 99.29,
       "bxt_today": 48.3,
       "bxt_yest": 48.1,
       "fvb_g": true,
@@ -494,7 +494,7 @@
       "name": "BancFirst Corporation",
       "mcap": 3.87,
       "price": 111.09,
-      "basis": 112.56,
+      "basis": 112.57,
       "bxt_today": -22.75,
       "bxt_yest": -13.75,
       "fvb_g": false,
@@ -634,7 +634,7 @@
       "name": "Interactive Brokers Group, Inc.",
       "mcap": 44.51,
       "price": 98.19,
-      "basis": 81.92,
+      "basis": 81.93,
       "bxt_today": 2.71,
       "bxt_yest": -17.22,
       "fvb_g": false,
@@ -1809,7 +1809,7 @@
       "name": "ICON plc Ordinary Shares",
       "mcap": 12.94,
       "price": 168.91,
-      "basis": 138.33,
+      "basis": 138.35,
       "bxt_today": -2.47,
       "bxt_yest": 8.07,
       "fvb_g": false,
@@ -2404,55 +2404,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T20:01:47.367515+00:00",
+    "compared_to": "2026-08-25T20:39:48.791418+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CHT",
-        "name": "Chunghwa Telecom Co., Ltd.",
-        "mcap": 33.49,
-        "price": 43.19,
-        "basis": 43.14,
-        "bxt_today": 0.06,
-        "ath": 47.03,
-        "pct_to_ath": 8.9,
-        "wk52_high": 46.48,
-        "wk52_low": 39.28,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "ORI",
-        "name": "Old Republic International Corporation",
-        "mcap": 10.09,
-        "price": 42.1,
-        "basis": 40.7,
-        "bxt_today": -0.16,
-        "ath": 46.76,
-        "pct_to_ath": 11.1,
-        "wk52_high": 46.76,
-        "wk52_low": 36.65,
-        "ath_30d": 0
-      },
-      {
-        "sym": "MATX",
-        "name": "Matson, Inc.",
-        "mcap": 6.2,
-        "price": 222.36,
-        "basis": 183.82,
-        "bxt_today": -0.56,
-        "ath": 230.74,
-        "pct_to_ath": 3.8,
-        "wk52_high": 230.74,
-        "wk52_low": 86.97,
-        "ath_30d": 2
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

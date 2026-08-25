@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T20:39:32.035288+00:00",
+  "updated_at": "2026-08-25T21:02:26.095908+00:00",
   "timeframe": "daily",
-  "scan_seconds": 14.32,
+  "scan_seconds": 12.38,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -2773,7 +2773,7 @@
       "name": "USA Rare Earth, Inc.",
       "mcap": 4.52,
       "price": 19.41,
-      "basis": 17.03,
+      "basis": 17.02,
       "bxt_today": 2.18,
       "bxt_yest": -7.92,
       "fvb_g": false,
@@ -4615,7 +4615,7 @@
       "name": "Colliers International Group Inc. Subordinate Voting Shares",
       "mcap": 4.99,
       "price": 105.55,
-      "basis": 101.44,
+      "basis": 101.45,
       "bxt_today": -2.5,
       "bxt_yest": 22.08,
       "fvb_g": false,
@@ -4888,69 +4888,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T20:01:24.957609+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "TOL",
-        "name": "Toll Brothers, Inc.",
-        "mcap": 13.83,
-        "price": 150.83,
-        "basis": 150.04,
-        "bxt_today": 14.51,
-        "ath": 169.52,
-        "pct_to_ath": 12.4,
-        "wk52_high": 168.36,
-        "wk52_low": 123.15,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-08-25T20:39:32.035288+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "GPC",
-        "name": "Genuine Parts Company",
-        "mcap": 18.98,
-        "price": 137.99,
-        "basis": 128.84,
-        "bxt_today": 0.0,
-        "ath": 187.73,
-        "pct_to_ath": 36.0,
-        "wk52_high": 151.57,
-        "wk52_low": 90.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GHC",
-        "name": "Graham Holdings Company",
-        "mcap": 4.99,
-        "price": 1181.8,
-        "basis": 1182.36,
-        "bxt_today": 2.44,
-        "ath": 1262.35,
-        "pct_to_ath": 6.8,
-        "wk52_high": 1262.35,
-        "wk52_low": 929.76,
-        "ath_30d": 2
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "PJT",
-        "name": "PJT Partners Inc.",
-        "mcap": 4.05,
-        "price": 174.61,
-        "basis": 169.27,
-        "bxt_today": -0.22,
-        "ath": 195.62,
-        "pct_to_ath": 12.0,
-        "wk52_high": 195.62,
-        "wk52_low": 127.73,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

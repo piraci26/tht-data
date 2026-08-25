@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T20:40:05.426641+00:00",
+  "updated_at": "2026-08-25T21:02:53.665011+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.43,
+  "scan_seconds": 11.39,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3304,7 +3304,7 @@
       "name": "Vicor Corporation",
       "mcap": 8.95,
       "price": 194.62,
-      "basis": 97.64,
+      "basis": 97.63,
       "bxt_today": -8.46,
       "bxt_yest": 1.0,
       "fvb_g": false,
@@ -3830,7 +3830,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T20:02:12.576365+00:00",
+    "compared_to": "2026-08-25T20:40:05.426641+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
