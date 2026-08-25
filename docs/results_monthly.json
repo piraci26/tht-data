@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T23:00:31.077576+00:00",
+  "updated_at": "2026-08-25T23:32:52.361419+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 29.1,
+  "scan_seconds": 26.55,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2702,29 +2702,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SQM",
-      "name": "Sociedad Quimica y Minera S.A.",
-      "mcap": 22.64,
-      "price": 79.21,
-      "basis": 52.51,
-      "bxt_today": -3.28,
-      "bxt_yest": 0.16,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 115.76,
-      "atl": 1.54,
-      "pct_to_ath": 46.1,
-      "pct_to_atl": 5032.4,
-      "wk52_high": 98.0,
-      "wk52_low": 40.58,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "XPO",
       "name": "XPO, Inc.",
       "mcap": 22.64,
@@ -2744,6 +2721,29 @@
       "pct_to_atl": 30060.1,
       "wk52_high": 232.05,
       "wk52_low": 121.48,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SQM",
+      "name": "Sociedad Quimica y Minera S.A.",
+      "mcap": 22.64,
+      "price": 79.21,
+      "basis": 52.51,
+      "bxt_today": -3.28,
+      "bxt_yest": 0.16,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 115.76,
+      "atl": 1.54,
+      "pct_to_ath": 46.1,
+      "pct_to_atl": 5032.4,
+      "wk52_high": 98.0,
+      "wk52_low": 40.58,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3830,7 +3830,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-25T22:35:14.864941+00:00",
+    "compared_to": "2026-08-25T23:00:31.077576+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
