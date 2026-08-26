@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T07:13:52.088804+00:00",
+  "updated_at": "2026-08-26T08:02:17.945012+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.37,
+  "scan_seconds": 23.66,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -2792,29 +2792,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "FHI",
-      "name": "Federated Hermes, Inc.",
-      "mcap": 4.46,
-      "price": 65.39,
-      "basis": 61.44,
-      "bxt_today": 0.52,
-      "bxt_yest": -16.35,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 67.2,
-      "atl": 7.33,
-      "pct_to_ath": 2.8,
-      "pct_to_atl": 791.7,
-      "wk52_high": 67.2,
-      "wk52_low": 46.66,
-      "ath_30d": 4,
-      "atl_30d": 0
-    },
-    {
       "sym": "CVSA",
       "name": "Covista Inc. Common Shares",
       "mcap": 4.46,
@@ -2835,6 +2812,29 @@
       "wk52_high": 156.26,
       "wk52_low": 86.97,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "FHI",
+      "name": "Federated Hermes, Inc.",
+      "mcap": 4.46,
+      "price": 65.39,
+      "basis": 61.44,
+      "bxt_today": 0.52,
+      "bxt_yest": -16.35,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 67.2,
+      "atl": 7.33,
+      "pct_to_ath": 2.8,
+      "pct_to_atl": 791.7,
+      "wk52_high": 67.2,
+      "wk52_low": 46.66,
+      "ath_30d": 4,
       "atl_30d": 0
     },
     {
@@ -4888,7 +4888,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-26T06:18:41.819588+00:00",
+    "compared_to": "2026-08-26T07:13:52.088804+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
