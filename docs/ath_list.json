@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T05:02:12.766267+00:00",
+  "updated_at": "2026-08-26T05:43:20.443903+00:00",
   "count": 20,
   "list": [
     {
@@ -4165,14 +4165,5 @@
       "first_seen_at": "2026-08-26T05:02:12.766267+00:00"
     }
   ],
-  "added_this_run": [
-    "AMGN",
-    "BNS",
-    "FCX",
-    "HALO",
-    "IBKR",
-    "JAZZ",
-    "MRK",
-    "TECK"
-  ]
+  "added_this_run": []
 }
