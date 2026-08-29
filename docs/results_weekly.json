@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-29T18:33:05.258268+00:00",
+  "updated_at": "2026-08-29T21:09:44.146081+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.91,
-  "scanned_count": 1502,
+  "scan_seconds": 9.08,
+  "scanned_count": 1501,
   "fvb_green": [
     {
       "sym": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "mcap": 24.89,
+      "mcap": 24.96,
       "price": 191.77,
       "basis": 187.9,
       "bxt_today": 13.91,
@@ -55,7 +55,7 @@
     {
       "sym": "GEV",
       "name": "GE Vernova Inc.",
-      "mcap": 243.9,
+      "mcap": 242.88,
       "price": 911.93,
       "basis": 948.73,
       "bxt_today": -38.55,
@@ -78,7 +78,7 @@
     {
       "sym": "GLW",
       "name": "Corning Incorporated",
-      "mcap": 127.91,
+      "mcap": 128.33,
       "price": 148.98,
       "basis": 158.23,
       "bxt_today": -34.04,
@@ -101,7 +101,7 @@
     {
       "sym": "TT",
       "name": "Trane Technologies plc",
-      "mcap": 98.8,
+      "mcap": 98.78,
       "price": 448.96,
       "basis": 456.4,
       "bxt_today": -35.32,
@@ -124,7 +124,7 @@
     {
       "sym": "PWR",
       "name": "Quanta Services, Inc.",
-      "mcap": 90.88,
+      "mcap": 90.61,
       "price": 602.7,
       "basis": 624.12,
       "bxt_today": -37.13,
@@ -141,29 +141,6 @@
       "pct_to_atl": 34340.0,
       "wk52_high": 788.75,
       "wk52_low": 363.01,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "VIAV",
-      "name": "Viavi Solutions Inc.",
-      "mcap": 9.17,
-      "price": 36.54,
-      "basis": 39.17,
-      "bxt_today": -35.1,
-      "bxt_yest": -33.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 56,
-      "bxt_streak": null,
-      "ath": 698.17,
-      "atl": 0.96,
-      "pct_to_ath": 1810.7,
-      "pct_to_atl": 3706.7,
-      "wk52_high": 60.43,
-      "wk52_low": 11.09,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -187,6 +164,29 @@
       "pct_to_atl": 7077.7,
       "wk52_high": 233.67,
       "wk52_low": 18.5,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "VIAV",
+      "name": "Viavi Solutions Inc.",
+      "mcap": 9.02,
+      "price": 36.54,
+      "basis": 39.17,
+      "bxt_today": -35.1,
+      "bxt_yest": -33.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 56,
+      "bxt_streak": null,
+      "ath": 698.17,
+      "atl": 0.96,
+      "pct_to_ath": 1810.7,
+      "pct_to_atl": 3706.7,
+      "wk52_high": 60.43,
+      "wk52_low": 11.09,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -218,7 +218,7 @@
     {
       "sym": "TSLA",
       "name": "Tesla, Inc.",
-      "mcap": 1364.02,
+      "mcap": 1377.4,
       "price": 348.75,
       "basis": 387.47,
       "bxt_today": 2.4,
@@ -264,7 +264,7 @@
     {
       "sym": "YUM",
       "name": "Yum! Brands, Inc.",
-      "mcap": 42.0,
+      "mcap": 41.99,
       "price": 153.86,
       "basis": 156.09,
       "bxt_today": 5.57,
@@ -287,7 +287,7 @@
     {
       "sym": "CCI",
       "name": "Crown Castle Inc.",
-      "mcap": 32.24,
+      "mcap": 32.39,
       "price": 76.14,
       "basis": 84.04,
       "bxt_today": 1.12,
@@ -310,9 +310,9 @@
     {
       "sym": "ALNY",
       "name": "Alnylam Pharmaceuticals, Inc.",
-      "mcap": 31.52,
+      "mcap": 31.73,
       "price": 237.1,
-      "basis": 296.11,
+      "basis": 296.1,
       "bxt_today": 1.94,
       "bxt_yest": -7.18,
       "fvb_g": false,
@@ -333,7 +333,7 @@
     {
       "sym": "RBLX",
       "name": "Roblox Corporation",
-      "mcap": 27.36,
+      "mcap": 27.52,
       "price": 38.53,
       "basis": 52.63,
       "bxt_today": 2.26,
@@ -356,7 +356,7 @@
     {
       "sym": "BG",
       "name": "Bunge Limited Common Shares",
-      "mcap": 22.17,
+      "mcap": 22.19,
       "price": 115.48,
       "basis": 118.78,
       "bxt_today": 3.29,
@@ -379,7 +379,7 @@
     {
       "sym": "UNM",
       "name": "Unum Group",
-      "mcap": 14.71,
+      "mcap": 14.73,
       "price": 93.05,
       "basis": 81.88,
       "bxt_today": 1.2,
@@ -402,7 +402,7 @@
     {
       "sym": "QXO",
       "name": "QXO, Inc.",
-      "mcap": 14.09,
+      "mcap": 14.03,
       "price": 13.52,
       "basis": 18.71,
       "bxt_today": 2.39,
@@ -425,7 +425,7 @@
     {
       "sym": "IONS",
       "name": "Ionis Pharmaceuticals, Inc.",
-      "mcap": 10.13,
+      "mcap": 10.15,
       "price": 61.05,
       "basis": 71.83,
       "bxt_today": 7.45,
@@ -471,7 +471,7 @@
     {
       "sym": "TTD",
       "name": "The Trade Desk, Inc.",
-      "mcap": 6.37,
+      "mcap": 6.38,
       "price": 13.57,
       "basis": 21.79,
       "bxt_today": 0.24,
@@ -657,7 +657,7 @@
     {
       "sym": "ABBV",
       "name": "AbbVie Inc.",
-      "mcap": 451.6,
+      "mcap": 451.46,
       "price": 255.48,
       "basis": 228.62,
       "bxt_today": -2.96,
@@ -680,7 +680,7 @@
     {
       "sym": "BAC",
       "name": "Bank of America Corporation",
-      "mcap": 436.28,
+      "mcap": 435.79,
       "price": 62.32,
       "basis": 54.87,
       "bxt_today": -7.31,
@@ -703,7 +703,7 @@
     {
       "sym": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "mcap": 302.1,
+      "mcap": 302.85,
       "price": 371.59,
       "basis": 243.85,
       "bxt_today": -7.01,
@@ -726,7 +726,7 @@
     {
       "sym": "WFC",
       "name": "Wells Fargo & Company",
-      "mcap": 260.79,
+      "mcap": 262.15,
       "price": 86.69,
       "basis": 83.34,
       "bxt_today": -0.11,
@@ -749,7 +749,7 @@
     {
       "sym": "MUFG",
       "name": "Mitsubishi UFJ Financial Group, Inc.",
-      "mcap": 256.97,
+      "mcap": 257.76,
       "price": 22.9,
       "basis": 19.54,
       "bxt_today": -5.78,
@@ -772,7 +772,7 @@
     {
       "sym": "PH",
       "name": "Parker-Hannifin Corporation",
-      "mcap": 125.15,
+      "mcap": 125.42,
       "price": 995.02,
       "basis": 950.28,
       "bxt_today": -3.79,
@@ -795,7 +795,7 @@
     {
       "sym": "GD",
       "name": "General Dynamics Corporation",
-      "mcap": 102.53,
+      "mcap": 102.63,
       "price": 379.32,
       "basis": 357.46,
       "bxt_today": -7.92,
@@ -818,7 +818,7 @@
     {
       "sym": "ITW",
       "name": "Illinois Tool Works Inc.",
-      "mcap": 79.67,
+      "mcap": 79.77,
       "price": 280.1,
       "basis": 271.05,
       "bxt_today": -3.91,
@@ -841,7 +841,7 @@
     {
       "sym": "E",
       "name": "ENI S.p.A.",
-      "mcap": 76.04,
+      "mcap": 76.08,
       "price": 52.81,
       "basis": 50.72,
       "bxt_today": -2.03,
@@ -864,7 +864,7 @@
     {
       "sym": "AON",
       "name": "Aon plc Ordinary Shares (Ireland)",
-      "mcap": 75.8,
+      "mcap": 75.39,
       "price": 355.4,
       "basis": 335.27,
       "bxt_today": -6.1,
@@ -887,7 +887,7 @@
     {
       "sym": "EOG",
       "name": "EOG Resources, Inc.",
-      "mcap": 75.26,
+      "mcap": 75.19,
       "price": 143.35,
       "basis": 133.86,
       "bxt_today": -0.19,
@@ -910,7 +910,7 @@
     {
       "sym": "TEL",
       "name": "TE Connectivity plc Ordinary Shares",
-      "mcap": 58.48,
+      "mcap": 58.67,
       "price": 202.66,
       "basis": 212.74,
       "bxt_today": -0.95,
@@ -933,7 +933,7 @@
     {
       "sym": "FANG",
       "name": "Diamondback Energy, Inc.",
-      "mcap": 55.46,
+      "mcap": 55.35,
       "price": 197.67,
       "basis": 187.66,
       "bxt_today": -1.13,
@@ -956,7 +956,7 @@
     {
       "sym": "STT",
       "name": "State Street Corporation",
-      "mcap": 53.01,
+      "mcap": 53.11,
       "price": 193.33,
       "basis": 154.09,
       "bxt_today": -5.46,
@@ -979,7 +979,7 @@
     {
       "sym": "RVMD",
       "name": "Revolution Medicines, Inc.",
-      "mcap": 44.49,
+      "mcap": 44.56,
       "price": 207.88,
       "basis": 145.72,
       "bxt_today": -12.3,
@@ -1002,7 +1002,7 @@
     {
       "sym": "FERG",
       "name": "Ferguson Enterprises Inc.",
-      "mcap": 44.23,
+      "mcap": 44.2,
       "price": 228.49,
       "basis": 240.82,
       "bxt_today": -10.29,
@@ -1025,7 +1025,7 @@
     {
       "sym": "WCN",
       "name": "Waste Connections, Inc. Common Shares",
-      "mcap": 41.82,
+      "mcap": 41.74,
       "price": 165.93,
       "basis": 163.77,
       "bxt_today": -3.12,
@@ -1048,7 +1048,7 @@
     {
       "sym": "PRU",
       "name": "Prudential Financial, Inc.",
-      "mcap": 41.5,
+      "mcap": 41.33,
       "price": 119.79,
       "basis": 106.7,
       "bxt_today": -5.71,
@@ -1071,7 +1071,7 @@
     {
       "sym": "NTAP",
       "name": "NetApp, Inc.",
-      "mcap": 36.78,
+      "mcap": 36.7,
       "price": 187.02,
       "basis": 135.98,
       "bxt_today": -5.31,
@@ -1094,7 +1094,7 @@
     {
       "sym": "RPRX",
       "name": "Royalty Pharma plc Ordinary Shares",
-      "mcap": 27.05,
+      "mcap": 27.1,
       "price": 60.85,
       "basis": 51.6,
       "bxt_today": -4.58,
@@ -1117,7 +1117,7 @@
     {
       "sym": "FCNCA",
       "name": "First Citizens BancShares, Inc.",
-      "mcap": 24.75,
+      "mcap": 24.78,
       "price": 2194.07,
       "basis": 2038.42,
       "bxt_today": -2.13,
@@ -1140,7 +1140,7 @@
     {
       "sym": "PHM",
       "name": "PulteGroup, Inc.",
-      "mcap": 24.36,
+      "mcap": 24.49,
       "price": 128.55,
       "basis": 125.91,
       "bxt_today": -5.35,
@@ -1163,7 +1163,7 @@
     {
       "sym": "STZ",
       "name": "Constellation Brands, Inc.",
-      "mcap": 22.51,
+      "mcap": 22.32,
       "price": 130.69,
       "basis": 146.49,
       "bxt_today": -2.11,
@@ -1186,7 +1186,7 @@
     {
       "sym": "CLH",
       "name": "Clean Harbors, Inc.",
-      "mcap": 16.45,
+      "mcap": 16.4,
       "price": 310.71,
       "basis": 293.45,
       "bxt_today": -8.5,
@@ -1209,7 +1209,7 @@
     {
       "sym": "CSL",
       "name": "Carlisle Companies Incorporated",
-      "mcap": 14.18,
+      "mcap": 14.16,
       "price": 356.53,
       "basis": 358.07,
       "bxt_today": -2.34,
@@ -1301,7 +1301,7 @@
     {
       "sym": "AFG",
       "name": "American Financial Group, Inc.",
-      "mcap": 11.87,
+      "mcap": 11.91,
       "price": 143.62,
       "basis": 134.51,
       "bxt_today": -6.05,
@@ -1347,7 +1347,7 @@
     {
       "sym": "BJ",
       "name": "BJ's Wholesale Club Holdings, Inc.",
-      "mcap": 11.49,
+      "mcap": 11.44,
       "price": 90.6,
       "basis": 93.63,
       "bxt_today": -3.59,
@@ -1485,7 +1485,7 @@
     {
       "sym": "WYNN",
       "name": "Wynn Resorts, Limited Common stock",
-      "mcap": 9.8,
+      "mcap": 9.81,
       "price": 95.26,
       "basis": 103.33,
       "bxt_today": -7.51,
@@ -1921,7 +1921,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-29T15:12:57.193074+00:00",
+    "compared_to": "2026-08-29T18:33:05.258268+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-29T18:33:48.782837+00:00",
-  "count": 10,
+  "updated_at": "2026-08-29T21:10:24.719774+00:00",
+  "count": 9,
   "list": [
     {
       "sym": "MPC",
       "name": "Marathon Petroleum Corporation",
-      "mcap": 102.46,
+      "mcap": 103.58,
       "price": 368.83,
       "ath": 369.12,
       "atl": 13.18,
@@ -23,7 +23,7 @@
     {
       "sym": "SN",
       "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 27.33,
+      "mcap": 27.06,
       "price": 191.23,
       "ath": 194.54,
       "atl": 25.84,
@@ -59,7 +59,7 @@
     {
       "sym": "DINO",
       "name": "HF Sinclair Corporation",
-      "mcap": 17.64,
+      "mcap": 17.73,
       "price": 99.71,
       "ath": 100.13,
       "atl": 0.12,
@@ -77,7 +77,7 @@
     {
       "sym": "SEIC",
       "name": "SEI Investments Company",
-      "mcap": 13.37,
+      "mcap": 13.4,
       "price": 111.63,
       "ath": 112.15,
       "atl": 0.28,
@@ -125,24 +125,6 @@
       "atl_30d": 0,
       "last_high": 123.55,
       "last_low": 117.92,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "TMHC",
-      "name": "Taylor Morrison Home Corporation",
-      "mcap": 6.61,
-      "price": 72.45,
-      "ath": 72.48,
-      "atl": 72.07,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 0.5,
-      "wk52_high": 72.48,
-      "wk52_low": 72.07,
-      "ath_30d": 2,
-      "atl_30d": 1,
-      "last_high": 72.48,
-      "last_low": 72.44,
       "made_ath_today": true,
       "made_atl_today": false
     },

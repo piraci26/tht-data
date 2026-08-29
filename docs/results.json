@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-29T18:32:42.565277+00:00",
+  "updated_at": "2026-08-29T21:09:21.913231+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.47,
-  "scanned_count": 1502,
+  "scan_seconds": 11.82,
+  "scanned_count": 1501,
   "fvb_green": [
     {
       "sym": "MUFG",
       "name": "Mitsubishi UFJ Financial Group, Inc.",
-      "mcap": 256.97,
+      "mcap": 257.76,
       "price": 22.9,
       "basis": 22.4,
       "bxt_today": 15.54,
@@ -30,7 +30,7 @@
     {
       "sym": "MFG",
       "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-      "mcap": 129.08,
+      "mcap": 129.26,
       "price": 10.64,
       "basis": 10.44,
       "bxt_today": 6.93,
@@ -53,7 +53,7 @@
     {
       "sym": "PBR",
       "name": "Petroleo Brasileiro S.A. Petrobras ADS",
-      "mcap": 118.51,
+      "mcap": 119.41,
       "price": 18.53,
       "basis": 18.39,
       "bxt_today": -3.85,
@@ -76,7 +76,7 @@
     {
       "sym": "CTVA",
       "name": "Corteva, Inc.",
-      "mcap": 55.48,
+      "mcap": 55.98,
       "price": 83.9,
       "basis": 82.11,
       "bxt_today": 44.77,
@@ -99,7 +99,7 @@
     {
       "sym": "KR",
       "name": "Kroger Company (The)",
-      "mcap": 35.31,
+      "mcap": 35.36,
       "price": 57.72,
       "basis": 57.45,
       "bxt_today": 13.26,
@@ -122,7 +122,7 @@
     {
       "sym": "ZTS",
       "name": "Zoetis Inc.",
-      "mcap": 31.98,
+      "mcap": 31.96,
       "price": 77.34,
       "basis": 75.79,
       "bxt_today": 12.17,
@@ -145,7 +145,7 @@
     {
       "sym": "BG",
       "name": "Bunge Limited Common Shares",
-      "mcap": 22.17,
+      "mcap": 22.19,
       "price": 115.48,
       "basis": 113.73,
       "bxt_today": 9.74,
@@ -168,7 +168,7 @@
     {
       "sym": "LEN",
       "name": "Lennar Corporation",
-      "mcap": 20.63,
+      "mcap": 20.8,
       "price": 86.33,
       "basis": 85.68,
       "bxt_today": -14.94,
@@ -191,7 +191,7 @@
     {
       "sym": "LULU",
       "name": "lululemon athletica inc.",
-      "mcap": 13.53,
+      "mcap": 13.72,
       "price": 120.81,
       "basis": 119.24,
       "bxt_today": -3.94,
@@ -214,7 +214,7 @@
     {
       "sym": "DPZ",
       "name": "Domino's Pizza Inc",
-      "mcap": 11.61,
+      "mcap": 11.58,
       "price": 350.0,
       "basis": 342.75,
       "bxt_today": -2.12,
@@ -237,7 +237,7 @@
     {
       "sym": "SOLS",
       "name": "Solstice Advanced Materials Inc.",
-      "mcap": 10.07,
+      "mcap": 10.09,
       "price": 63.53,
       "basis": 59.83,
       "bxt_today": 24.67,
@@ -327,29 +327,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "LBRDK",
-      "name": "Liberty Broadband Corporation Class C",
-      "mcap": 4.41,
-      "price": 36.02,
-      "basis": 31.89,
-      "bxt_today": 35.05,
-      "bxt_yest": 1.19,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 11,
-      "bxt_streak": null,
-      "ath": 194.05,
-      "atl": 26.25,
-      "pct_to_ath": 438.7,
-      "pct_to_atl": 37.2,
-      "wk52_high": 91.79,
-      "wk52_low": 29.08,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "LBRDA",
       "name": "Liberty Broadband Corporation",
       "mcap": 4.41,
@@ -369,6 +346,29 @@
       "pct_to_atl": 37.7,
       "wk52_high": 91.04,
       "wk52_low": 29.18,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "LBRDK",
+      "name": "Liberty Broadband Corporation Class C",
+      "mcap": 4.41,
+      "price": 36.02,
+      "basis": 31.89,
+      "bxt_today": 35.05,
+      "bxt_yest": 1.19,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 11,
+      "bxt_streak": null,
+      "ath": 194.05,
+      "atl": 26.25,
+      "pct_to_ath": 438.7,
+      "pct_to_atl": 37.2,
+      "wk52_high": 91.79,
+      "wk52_low": 29.08,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -400,7 +400,7 @@
     {
       "sym": "ASML",
       "name": "ASML Holding N.V. New York Registry Shares",
-      "mcap": 653.25,
+      "mcap": 651.5,
       "price": 1696.16,
       "basis": 1745.85,
       "bxt_today": -31.59,
@@ -423,7 +423,7 @@
     {
       "sym": "LRCX",
       "name": "Lam Research Corporation",
-      "mcap": 381.04,
+      "mcap": 377.77,
       "price": 301.9,
       "basis": 312.42,
       "bxt_today": -18.6,
@@ -446,7 +446,7 @@
     {
       "sym": "NVS",
       "name": "Novartis AG",
-      "mcap": 290.87,
+      "mcap": 292.35,
       "price": 153.81,
       "basis": 155.17,
       "bxt_today": -15.37,
@@ -469,7 +469,7 @@
     {
       "sym": "AZN",
       "name": "AstraZeneca PLC Ordinary Shares",
-      "mcap": 251.51,
+      "mcap": 252.33,
       "price": 162.7,
       "basis": 164.62,
       "bxt_today": 11.64,
@@ -492,7 +492,7 @@
     {
       "sym": "PH",
       "name": "Parker-Hannifin Corporation",
-      "mcap": 125.15,
+      "mcap": 125.42,
       "price": 995.02,
       "basis": 1008.56,
       "bxt_today": -30.4,
@@ -515,7 +515,7 @@
     {
       "sym": "EQIX",
       "name": "Equinix, Inc. REIT",
-      "mcap": 103.09,
+      "mcap": 103.05,
       "price": 1044.41,
       "basis": 1052.73,
       "bxt_today": -28.59,
@@ -538,7 +538,7 @@
     {
       "sym": "MMM",
       "name": "3M Company",
-      "mcap": 89.94,
+      "mcap": 89.91,
       "price": 174.34,
       "basis": 176.66,
       "bxt_today": -47.68,
@@ -561,7 +561,7 @@
     {
       "sym": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
-      "mcap": 72.62,
+      "mcap": 72.44,
       "price": 321.85,
       "basis": 323.86,
       "bxt_today": -16.07,
@@ -584,7 +584,7 @@
     {
       "sym": "TER",
       "name": "Teradyne, Inc.",
-      "mcap": 55.63,
+      "mcap": 55.5,
       "price": 354.97,
       "basis": 370.71,
       "bxt_today": -31.16,
@@ -607,7 +607,7 @@
     {
       "sym": "FANG",
       "name": "Diamondback Energy, Inc.",
-      "mcap": 55.46,
+      "mcap": 55.35,
       "price": 197.67,
       "basis": 199.34,
       "bxt_today": -32.46,
@@ -630,7 +630,7 @@
     {
       "sym": "PYPL",
       "name": "PayPal Holdings, Inc.",
-      "mcap": 45.96,
+      "mcap": 45.9,
       "price": 53.66,
       "basis": 58.51,
       "bxt_today": -46.62,
@@ -653,7 +653,7 @@
     {
       "sym": "RKT",
       "name": "Rocket Companies, Inc.",
-      "mcap": 39.2,
+      "mcap": 38.99,
       "price": 13.77,
       "basis": 13.98,
       "bxt_today": -20.1,
@@ -676,7 +676,7 @@
     {
       "sym": "PCG",
       "name": "Pacific Gas & Electric Co.",
-      "mcap": 36.42,
+      "mcap": 36.56,
       "price": 16.6,
       "basis": 17.6,
       "bxt_today": -25.15,
@@ -699,7 +699,7 @@
     {
       "sym": "ROIV",
       "name": "Roivant Sciences Ltd. Common Shares",
-      "mcap": 25.51,
+      "mcap": 25.07,
       "price": 34.71,
       "basis": 35.35,
       "bxt_today": -26.63,
@@ -722,7 +722,7 @@
     {
       "sym": "RIVN",
       "name": "Rivian Automotive, Inc.",
-      "mcap": 22.84,
+      "mcap": 23.27,
       "price": 16.07,
       "basis": 16.31,
       "bxt_today": 12.21,
@@ -745,7 +745,7 @@
     {
       "sym": "FFIV",
       "name": "F5, Inc.",
-      "mcap": 22.54,
+      "mcap": 22.32,
       "price": 394.24,
       "basis": 401.93,
       "bxt_today": 17.63,
@@ -768,7 +768,7 @@
     {
       "sym": "UTHR",
       "name": "United Therapeutics Corporation",
-      "mcap": 22.05,
+      "mcap": 22.11,
       "price": 515.46,
       "basis": 522.05,
       "bxt_today": 16.0,
@@ -791,7 +791,7 @@
     {
       "sym": "ENTG",
       "name": "Entegris, Inc.",
-      "mcap": 20.5,
+      "mcap": 20.62,
       "price": 134.92,
       "basis": 140.15,
       "bxt_today": -27.84,
@@ -814,7 +814,7 @@
     {
       "sym": "KEP",
       "name": "Korea Electric Power Corporation",
-      "mcap": 14.89,
+      "mcap": 15.0,
       "price": 11.68,
       "basis": 11.83,
       "bxt_today": 19.93,
@@ -837,7 +837,7 @@
     {
       "sym": "IREN",
       "name": "IREN Limited Ordinary Shares",
-      "mcap": 12.5,
+      "mcap": 12.67,
       "price": 35.45,
       "basis": 39.73,
       "bxt_today": -36.11,
@@ -860,7 +860,7 @@
     {
       "sym": "ELAN",
       "name": "Elanco Animal Health Incorporated",
-      "mcap": 12.08,
+      "mcap": 12.04,
       "price": 24.11,
       "basis": 24.68,
       "bxt_today": 15.86,
@@ -883,7 +883,7 @@
     {
       "sym": "SANM",
       "name": "Sanmina Corporation",
-      "mcap": 10.44,
+      "mcap": 10.4,
       "price": 194.01,
       "basis": 199.67,
       "bxt_today": 6.62,
@@ -906,7 +906,7 @@
     {
       "sym": "KTOS",
       "name": "Kratos Defense & Security Solutions, Inc.",
-      "mcap": 9.69,
+      "mcap": 9.76,
       "price": 52.0,
       "basis": 53.8,
       "bxt_today": -41.76,
@@ -1320,7 +1320,7 @@
     {
       "sym": "XE",
       "name": "X-Energy, Inc.",
-      "mcap": 5.0,
+      "mcap": 4.95,
       "price": 17.22,
       "basis": 18.03,
       "bxt_today": -36.63,
@@ -1598,7 +1598,7 @@
     {
       "sym": "GOOGL",
       "name": "Alphabet Inc.",
-      "mcap": 4238.96,
+      "mcap": 4238.77,
       "price": 346.59,
       "basis": 347.0,
       "bxt_today": 3.61,
@@ -1621,7 +1621,7 @@
     {
       "sym": "GOOG",
       "name": "Alphabet Inc. Class C Capital Stock",
-      "mcap": 4195.23,
+      "mcap": 4193.4,
       "price": 342.88,
       "basis": 345.41,
       "bxt_today": 2.95,
@@ -1644,7 +1644,7 @@
     {
       "sym": "MSFT",
       "name": "Microsoft Corporation",
-      "mcap": 3821.37,
+      "mcap": 3813.24,
       "price": 513.53,
       "basis": 456.75,
       "bxt_today": 2.32,
@@ -1667,7 +1667,7 @@
     {
       "sym": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "mcap": 302.1,
+      "mcap": 302.85,
       "price": 371.59,
       "basis": 353.9,
       "bxt_today": 1.42,
@@ -1690,7 +1690,7 @@
     {
       "sym": "WFC",
       "name": "Wells Fargo & Company",
-      "mcap": 260.79,
+      "mcap": 262.15,
       "price": 86.69,
       "basis": 86.81,
       "bxt_today": 6.1,
@@ -1713,7 +1713,7 @@
     {
       "sym": "T",
       "name": "AT&T Inc.",
-      "mcap": 177.72,
+      "mcap": 178.23,
       "price": 26.01,
       "basis": 23.97,
       "bxt_today": 4.48,
@@ -1736,7 +1736,7 @@
     {
       "sym": "MFG",
       "name": "Mizuho Financial Group, Inc. Sponosred ADR (Japan)",
-      "mcap": 129.08,
+      "mcap": 129.26,
       "price": 10.64,
       "basis": 10.44,
       "bxt_today": 6.93,
@@ -1759,7 +1759,7 @@
     {
       "sym": "SLB",
       "name": "SLB Limited Common Shares",
-      "mcap": 84.85,
+      "mcap": 85.09,
       "price": 57.33,
       "basis": 51.12,
       "bxt_today": 23.85,
@@ -1782,7 +1782,7 @@
     {
       "sym": "TRV",
       "name": "The Travelers Companies, Inc.",
-      "mcap": 77.04,
+      "mcap": 77.15,
       "price": 369.9,
       "basis": 371.47,
       "bxt_today": 1.58,
@@ -1805,7 +1805,7 @@
     {
       "sym": "AON",
       "name": "Aon plc Ordinary Shares (Ireland)",
-      "mcap": 75.8,
+      "mcap": 75.39,
       "price": 355.4,
       "basis": 357.88,
       "bxt_today": 8.77,
@@ -1828,7 +1828,7 @@
     {
       "sym": "APD",
       "name": "Air Products and Chemicals, Inc.",
-      "mcap": 68.21,
+      "mcap": 68.61,
       "price": 308.09,
       "basis": 300.41,
       "bxt_today": 4.98,
@@ -1851,7 +1851,7 @@
     {
       "sym": "TEAM",
       "name": "Atlassian Corporation",
-      "mcap": 48.52,
+      "mcap": 48.2,
       "price": 190.41,
       "basis": 129.69,
       "bxt_today": 0.7,
@@ -1874,7 +1874,7 @@
     {
       "sym": "CCEP",
       "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
-      "mcap": 48.11,
+      "mcap": 48.15,
       "price": 109.1,
       "basis": 107.44,
       "bxt_today": 4.21,
@@ -1897,7 +1897,7 @@
     {
       "sym": "ED",
       "name": "Consolidated Edison, Inc.",
-      "mcap": 39.63,
+      "mcap": 39.75,
       "price": 107.49,
       "basis": 109.35,
       "bxt_today": 3.59,
@@ -1943,7 +1943,7 @@
     {
       "sym": "TWLO",
       "name": "Twilio Inc.",
-      "mcap": 36.95,
+      "mcap": 36.52,
       "price": 237.78,
       "basis": 215.2,
       "bxt_today": 3.55,
@@ -1966,7 +1966,7 @@
     {
       "sym": "VMC",
       "name": "Vulcan Materials Company (Holding Company)",
-      "mcap": 35.51,
+      "mcap": 35.57,
       "price": 274.51,
       "basis": 280.74,
       "bxt_today": 8.16,
@@ -1989,7 +1989,7 @@
     {
       "sym": "KHC",
       "name": "The Kraft Heinz Company",
-      "mcap": 30.32,
+      "mcap": 30.48,
       "price": 25.7,
       "basis": 25.66,
       "bxt_today": 8.28,
@@ -2012,7 +2012,7 @@
     {
       "sym": "FISV",
       "name": "Fiserv, Inc.",
-      "mcap": 28.24,
+      "mcap": 28.28,
       "price": 53.18,
       "basis": 52.55,
       "bxt_today": 8.09,
@@ -2035,7 +2035,7 @@
     {
       "sym": "SN",
       "name": "SharkNinja, Inc. Ordinary Shares",
-      "mcap": 27.33,
+      "mcap": 27.06,
       "price": 191.23,
       "basis": 170.92,
       "bxt_today": 0.54,
@@ -2058,7 +2058,7 @@
     {
       "sym": "EFX",
       "name": "Equifax, Inc.",
-      "mcap": 22.77,
+      "mcap": 22.83,
       "price": 194.35,
       "basis": 180.76,
       "bxt_today": 2.3,
@@ -2081,7 +2081,7 @@
     {
       "sym": "BG",
       "name": "Bunge Limited Common Shares",
-      "mcap": 22.17,
+      "mcap": 22.19,
       "price": 115.48,
       "basis": 113.73,
       "bxt_today": 9.74,
@@ -2104,7 +2104,7 @@
     {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
-      "mcap": 21.36,
+      "mcap": 21.37,
       "price": 41.44,
       "basis": 42.32,
       "bxt_today": 2.45,
@@ -2127,7 +2127,7 @@
     {
       "sym": "FLUT",
       "name": "Flutter Entertainment plc Ordinary Shares",
-      "mcap": 17.52,
+      "mcap": 17.66,
       "price": 101.78,
       "basis": 101.12,
       "bxt_today": 7.41,
@@ -2150,7 +2150,7 @@
     {
       "sym": "GFL",
       "name": "GFL Environmental Inc. Subordinate voting shares, no par value",
-      "mcap": 15.26,
+      "mcap": 15.46,
       "price": 42.83,
       "basis": 40.72,
       "bxt_today": 12.63,
@@ -2173,7 +2173,7 @@
     {
       "sym": "MAS",
       "name": "Masco Corporation",
-      "mcap": 14.43,
+      "mcap": 14.44,
       "price": 73.25,
       "basis": 75.67,
       "bxt_today": 4.27,
@@ -2196,7 +2196,7 @@
     {
       "sym": "SGI",
       "name": "Somnigroup International Inc.",
-      "mcap": 13.67,
+      "mcap": 13.54,
       "price": 64.37,
       "basis": 67.47,
       "bxt_today": 13.66,
@@ -2219,7 +2219,7 @@
     {
       "sym": "FNF",
       "name": "Fidelity National Financial, Inc.",
-      "mcap": 12.78,
+      "mcap": 12.75,
       "price": 47.55,
       "basis": 49.91,
       "bxt_today": 4.44,
@@ -2265,7 +2265,7 @@
     {
       "sym": "WTRG",
       "name": "Essential Utilities, Inc.",
-      "mcap": 11.63,
+      "mcap": 11.66,
       "price": 41.1,
       "basis": 39.96,
       "bxt_today": 2.22,
@@ -2311,7 +2311,7 @@
     {
       "sym": "SOLS",
       "name": "Solstice Advanced Materials Inc.",
-      "mcap": 10.07,
+      "mcap": 10.09,
       "price": 63.53,
       "basis": 59.83,
       "bxt_today": 24.67,
@@ -2334,7 +2334,7 @@
     {
       "sym": "ONON",
       "name": "On Holding AG Ordinary Shares",
-      "mcap": 9.65,
+      "mcap": 9.64,
       "price": 28.85,
       "basis": 34.45,
       "bxt_today": 0.96,
@@ -2357,7 +2357,7 @@
     {
       "sym": "APTV",
       "name": "Aptiv PLC Ordinary Shares",
-      "mcap": 9.51,
+      "mcap": 9.5,
       "price": 45.75,
       "basis": 52.21,
       "bxt_today": 4.08,
@@ -2911,7 +2911,7 @@
     {
       "sym": "CSCO",
       "name": "Cisco Systems, Inc. (DE)",
-      "mcap": 433.99,
+      "mcap": 433.28,
       "price": 109.93,
       "basis": 114.42,
       "bxt_today": -4.07,
@@ -2934,7 +2934,7 @@
     {
       "sym": "MRK",
       "name": "Merck & Company, Inc. (new)",
-      "mcap": 364.5,
+      "mcap": 366.0,
       "price": 148.35,
       "basis": 135.01,
       "bxt_today": -5.63,
@@ -2957,7 +2957,7 @@
     {
       "sym": "DELL",
       "name": "Dell Technologies Inc. Class C",
-      "mcap": 295.29,
+      "mcap": 294.8,
       "price": 456.24,
       "basis": 438.87,
       "bxt_today": -2.96,
@@ -2980,7 +2980,7 @@
     {
       "sym": "TMO",
       "name": "Thermo Fisher Scientific Inc",
-      "mcap": 229.82,
+      "mcap": 230.05,
       "price": 622.18,
       "basis": 582.26,
       "bxt_today": -13.08,
@@ -3003,7 +3003,7 @@
     {
       "sym": "NVO",
       "name": "Novo Nordisk A/S",
-      "mcap": 200.96,
+      "mcap": 201.64,
       "price": 45.61,
       "basis": 47.75,
       "bxt_today": -1.47,
@@ -3026,7 +3026,7 @@
     {
       "sym": "MRVL",
       "name": "Marvell Technology, Inc.",
-      "mcap": 194.03,
+      "mcap": 194.68,
       "price": 216.62,
       "basis": 212.5,
       "bxt_today": -17.27,
@@ -3049,7 +3049,7 @@
     {
       "sym": "GILD",
       "name": "Gilead Sciences, Inc.",
-      "mcap": 179.94,
+      "mcap": 180.64,
       "price": 145.68,
       "basis": 136.64,
       "bxt_today": -3.7,
@@ -3072,7 +3072,7 @@
     {
       "sym": "RIO",
       "name": "Rio Tinto Plc",
-      "mcap": 167.69,
+      "mcap": 168.0,
       "price": 103.3,
       "basis": 97.53,
       "bxt_today": -0.0,
@@ -3095,7 +3095,7 @@
     {
       "sym": "VRTX",
       "name": "Vertex Pharmaceuticals Incorporated",
-      "mcap": 136.9,
+      "mcap": 137.3,
       "price": 541.69,
       "basis": 505.44,
       "bxt_today": -14.9,
@@ -3118,7 +3118,7 @@
     {
       "sym": "NEM",
       "name": "Newmont Corporation",
-      "mcap": 134.1,
+      "mcap": 134.85,
       "price": 127.98,
       "basis": 108.51,
       "bxt_today": -14.46,
@@ -3141,7 +3141,7 @@
     {
       "sym": "AEM",
       "name": "Agnico Eagle Mines Limited",
-      "mcap": 103.99,
+      "mcap": 104.44,
       "price": 206.25,
       "basis": 171.3,
       "bxt_today": -15.68,
@@ -3164,7 +3164,7 @@
     {
       "sym": "VRT",
       "name": "Vertiv Holdings, LLC",
-      "mcap": 99.39,
+      "mcap": 98.97,
       "price": 257.08,
       "basis": 275.49,
       "bxt_today": -4.67,
@@ -3187,7 +3187,7 @@
     {
       "sym": "MAR",
       "name": "Marriott International",
-      "mcap": 91.76,
+      "mcap": 91.55,
       "price": 351.08,
       "basis": 361.97,
       "bxt_today": -3.95,
@@ -3210,7 +3210,7 @@
     {
       "sym": "ICE",
       "name": "Intercontinental Exchange Inc.",
-      "mcap": 91.15,
+      "mcap": 91.13,
       "price": 162.33,
       "basis": 151.51,
       "bxt_today": -2.54,
@@ -3233,7 +3233,7 @@
     {
       "sym": "HCA",
       "name": "HCA Healthcare, Inc.",
-      "mcap": 90.48,
+      "mcap": 90.46,
       "price": 417.82,
       "basis": 402.59,
       "bxt_today": -8.4,
@@ -3256,7 +3256,7 @@
     {
       "sym": "ELV",
       "name": "Elevance Health, Inc.",
-      "mcap": 86.2,
+      "mcap": 85.54,
       "price": 394.43,
       "basis": 389.35,
       "bxt_today": -16.96,
@@ -3279,7 +3279,7 @@
     {
       "sym": "CTAS",
       "name": "Cintas Corporation",
-      "mcap": 82.05,
+      "mcap": 81.71,
       "price": 204.18,
       "basis": 203.71,
       "bxt_today": -4.82,
@@ -3302,7 +3302,7 @@
     {
       "sym": "NSC",
       "name": "Norfolk Southern Corporation",
-      "mcap": 78.25,
+      "mcap": 78.32,
       "price": 348.68,
       "basis": 340.89,
       "bxt_today": -1.08,
@@ -3325,7 +3325,7 @@
     {
       "sym": "B",
       "name": "Barrick Mining Corporation Common Shares",
-      "mcap": 74.8,
+      "mcap": 75.13,
       "price": 45.65,
       "basis": 40.53,
       "bxt_today": -9.61,
@@ -3348,7 +3348,7 @@
     {
       "sym": "TGT",
       "name": "Target Corporation",
-      "mcap": 73.95,
+      "mcap": 74.13,
       "price": 163.18,
       "basis": 149.46,
       "bxt_today": -5.73,
@@ -3371,7 +3371,7 @@
     {
       "sym": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
-      "mcap": 72.62,
+      "mcap": 72.44,
       "price": 321.85,
       "basis": 323.86,
       "bxt_today": -16.07,
@@ -3394,7 +3394,7 @@
     {
       "sym": "CL",
       "name": "Colgate-Palmolive Company",
-      "mcap": 72.21,
+      "mcap": 72.34,
       "price": 90.75,
       "basis": 91.77,
       "bxt_today": -6.59,
@@ -3417,7 +3417,7 @@
     {
       "sym": "WBD",
       "name": "Warner Bros. Discovery, Inc. Series A",
-      "mcap": 72.09,
+      "mcap": 72.13,
       "price": 28.77,
       "basis": 27.07,
       "bxt_today": -6.04,
@@ -3440,7 +3440,7 @@
     {
       "sym": "WPM",
       "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
-      "mcap": 69.05,
+      "mcap": 69.64,
       "price": 153.33,
       "basis": 127.13,
       "bxt_today": -5.97,
@@ -3463,7 +3463,7 @@
     {
       "sym": "NU",
       "name": "Nu Holdings Ltd. Ordinary Shares",
-      "mcap": 68.9,
+      "mcap": 69.08,
       "price": 14.3,
       "basis": 14.36,
       "bxt_today": -8.68,
@@ -3486,7 +3486,7 @@
     {
       "sym": "COR",
       "name": "Cencora, Inc.",
-      "mcap": 61.39,
+      "mcap": 61.45,
       "price": 322.03,
       "basis": 314.35,
       "bxt_today": -1.23,
@@ -3509,7 +3509,7 @@
     {
       "sym": "AU",
       "name": "AngloGold Ashanti PLC Ordinary Shares",
-      "mcap": 56.81,
+      "mcap": 57.25,
       "price": 113.19,
       "basis": 92.97,
       "bxt_today": -8.01,
@@ -3532,7 +3532,7 @@
     {
       "sym": "NDAQ",
       "name": "Nasdaq, Inc.",
-      "mcap": 55.48,
+      "mcap": 55.51,
       "price": 99.31,
       "basis": 95.15,
       "bxt_today": -0.32,
@@ -3555,7 +3555,7 @@
     {
       "sym": "NTRA",
       "name": "Natera, Inc.",
-      "mcap": 47.08,
+      "mcap": 47.03,
       "price": 326.26,
       "basis": 293.3,
       "bxt_today": -19.87,
@@ -3578,7 +3578,7 @@
     {
       "sym": "RVMD",
       "name": "Revolution Medicines, Inc.",
-      "mcap": 44.49,
+      "mcap": 44.56,
       "price": 207.88,
       "basis": 197.66,
       "bxt_today": -17.93,
@@ -3601,7 +3601,7 @@
     {
       "sym": "KGC",
       "name": "Kinross Gold Corporation",
-      "mcap": 36.83,
+      "mcap": 37.09,
       "price": 31.27,
       "basis": 26.54,
       "bxt_today": -4.23,
@@ -3624,7 +3624,7 @@
     {
       "sym": "PCG",
       "name": "Pacific Gas & Electric Co.",
-      "mcap": 36.42,
+      "mcap": 36.56,
       "price": 16.6,
       "basis": 17.6,
       "bxt_today": -25.15,
@@ -3647,7 +3647,7 @@
     {
       "sym": "VG",
       "name": "Venture Global, Inc. common stock",
-      "mcap": 35.59,
+      "mcap": 35.45,
       "price": 14.18,
       "basis": 13.7,
       "bxt_today": -5.59,
@@ -3670,7 +3670,7 @@
     {
       "sym": "PUK",
       "name": "Prudential Public Limited Company",
-      "mcap": 34.27,
+      "mcap": 34.28,
       "price": 27.65,
       "basis": 28.6,
       "bxt_today": -5.73,
@@ -3693,7 +3693,7 @@
     {
       "sym": "ACGL",
       "name": "Arch Capital Group Ltd.",
-      "mcap": 33.48,
+      "mcap": 33.73,
       "price": 98.84,
       "basis": 100.07,
       "bxt_today": -0.08,
@@ -3716,7 +3716,7 @@
     {
       "sym": "CHT",
       "name": "Chunghwa Telecom Co., Ltd.",
-      "mcap": 33.36,
+      "mcap": 33.35,
       "price": 42.99,
       "basis": 42.67,
       "bxt_today": -0.16,
@@ -3739,7 +3739,7 @@
     {
       "sym": "BAP",
       "name": "Credicorp Ltd.",
-      "mcap": 29.33,
+      "mcap": 29.26,
       "price": 368.4,
       "basis": 385.96,
       "bxt_today": -5.9,
@@ -3762,7 +3762,7 @@
     {
       "sym": "ATO",
       "name": "Atmos Energy Corporation",
-      "mcap": 28.17,
+      "mcap": 28.16,
       "price": 166.65,
       "basis": 172.9,
       "bxt_today": -6.54,
@@ -3785,7 +3785,7 @@
     {
       "sym": "RPRX",
       "name": "Royalty Pharma plc Ordinary Shares",
-      "mcap": 27.05,
+      "mcap": 27.1,
       "price": 60.85,
       "basis": 59.06,
       "bxt_today": -2.53,
@@ -3808,7 +3808,7 @@
     {
       "sym": "EIX",
       "name": "Edison International",
-      "mcap": 26.86,
+      "mcap": 27.0,
       "price": 70.17,
       "basis": 74.15,
       "bxt_today": -4.49,
@@ -3831,7 +3831,7 @@
     {
       "sym": "DOV",
       "name": "Dover Corporation",
-      "mcap": 26.67,
+      "mcap": 26.76,
       "price": 198.68,
       "basis": 206.59,
       "bxt_today": -13.5,
@@ -3852,32 +3852,9 @@
       "atl_30d": 0
     },
     {
-      "sym": "ROIV",
-      "name": "Roivant Sciences Ltd. Common Shares",
-      "mcap": 25.51,
-      "price": 34.71,
-      "basis": 35.35,
-      "bxt_today": -26.63,
-      "bxt_yest": 2.77,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 1,
-      "ath": 37.97,
-      "atl": 2.52,
-      "pct_to_ath": 9.4,
-      "pct_to_atl": 1277.4,
-      "wk52_high": 37.97,
-      "wk52_low": 11.85,
-      "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
       "sym": "INCY",
       "name": "Incyte Corp.",
-      "mcap": 25.12,
+      "mcap": 25.21,
       "price": 124.37,
       "basis": 121.67,
       "bxt_today": -18.62,
@@ -3898,9 +3875,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "ROIV",
+      "name": "Roivant Sciences Ltd. Common Shares",
+      "mcap": 25.07,
+      "price": 34.71,
+      "basis": 35.35,
+      "bxt_today": -26.63,
+      "bxt_yest": 2.77,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 1,
+      "ath": 37.97,
+      "atl": 2.52,
+      "pct_to_ath": 9.4,
+      "pct_to_atl": 1277.4,
+      "wk52_high": 37.97,
+      "wk52_low": 11.85,
+      "ath_30d": 3,
+      "atl_30d": 0
+    },
+    {
       "sym": "SOFI",
       "name": "SoFi Technologies, Inc.",
-      "mcap": 23.36,
+      "mcap": 23.33,
       "price": 18.06,
       "basis": 17.77,
       "bxt_today": -6.95,
@@ -3923,7 +3923,7 @@
     {
       "sym": "SQM",
       "name": "Sociedad Quimica y Minera S.A.",
-      "mcap": 22.59,
+      "mcap": 22.46,
       "price": 78.63,
       "basis": 72.4,
       "bxt_today": -1.23,
@@ -3946,7 +3946,7 @@
     {
       "sym": "ULTA",
       "name": "Ulta Beauty, Inc.",
-      "mcap": 22.17,
+      "mcap": 22.25,
       "price": 517.5,
       "basis": 513.82,
       "bxt_today": -9.88,
@@ -3967,32 +3967,9 @@
       "atl_30d": 0
     },
     {
-      "sym": "GH",
-      "name": "Guardant Health, Inc.",
-      "mcap": 21.83,
-      "price": 161.5,
-      "basis": 159.21,
-      "bxt_today": -14.69,
-      "bxt_yest": 7.03,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 181.07,
-      "atl": 15.81,
-      "pct_to_ath": 12.1,
-      "pct_to_atl": 921.5,
-      "wk52_high": 176.58,
-      "wk52_low": 53.4,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CDE",
       "name": "Coeur Mining, Inc.",
-      "mcap": 21.55,
+      "mcap": 21.72,
       "price": 21.13,
       "basis": 17.48,
       "bxt_today": -0.53,
@@ -4013,9 +3990,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "GH",
+      "name": "Guardant Health, Inc.",
+      "mcap": 21.67,
+      "price": 161.5,
+      "basis": 159.21,
+      "bxt_today": -14.69,
+      "bxt_yest": 7.03,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 181.07,
+      "atl": 15.81,
+      "pct_to_ath": 12.1,
+      "pct_to_atl": 921.5,
+      "wk52_high": 176.58,
+      "wk52_low": 53.4,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "BR",
       "name": "Broadridge Financial Solutions, Inc.",
-      "mcap": 20.95,
+      "mcap": 20.94,
       "price": 183.64,
       "basis": 164.39,
       "bxt_today": -5.18,
@@ -4038,7 +4038,7 @@
     {
       "sym": "KSPI",
       "name": "Joint Stock Company Kaspi.kz American Depository Shares",
-      "mcap": 20.19,
+      "mcap": 20.2,
       "price": 106.29,
       "basis": 94.69,
       "bxt_today": -3.75,
@@ -4061,7 +4061,7 @@
     {
       "sym": "GPC",
       "name": "Genuine Parts Company",
-      "mcap": 18.9,
+      "mcap": 18.96,
       "price": 137.51,
       "basis": 130.02,
       "bxt_today": -2.21,
@@ -4084,7 +4084,7 @@
     {
       "sym": "NDSN",
       "name": "Nordson Corporation",
-      "mcap": 18.14,
+      "mcap": 18.08,
       "price": 324.59,
       "basis": 307.4,
       "bxt_today": -5.42,
@@ -4107,7 +4107,7 @@
     {
       "sym": "KIM",
       "name": "Kimco Realty Corporation (HC)",
-      "mcap": 16.01,
+      "mcap": 15.95,
       "price": 23.78,
       "basis": 24.99,
       "bxt_today": -3.99,
@@ -4130,7 +4130,7 @@
     {
       "sym": "LECO",
       "name": "Lincoln Electric Holdings, Inc. Common Shares",
-      "mcap": 15.54,
+      "mcap": 15.53,
       "price": 284.9,
       "basis": 270.75,
       "bxt_today": -7.42,
@@ -4153,7 +4153,7 @@
     {
       "sym": "AGI",
       "name": "Alamos Gold Inc. Common Shares",
-      "mcap": 15.25,
+      "mcap": 15.38,
       "price": 36.75,
       "basis": 32.15,
       "bxt_today": -5.03,
@@ -4176,7 +4176,7 @@
     {
       "sym": "EQX",
       "name": "Equinox Gold Corp. Common Shares",
-      "mcap": 14.99,
+      "mcap": 15.17,
       "price": 12.99,
       "basis": 10.81,
       "bxt_today": -9.75,
@@ -4199,7 +4199,7 @@
     {
       "sym": "IVZ",
       "name": "Invesco Ltd",
-      "mcap": 14.47,
+      "mcap": 14.51,
       "price": 32.86,
       "basis": 31.18,
       "bxt_today": -0.42,
@@ -4222,7 +4222,7 @@
     {
       "sym": "QXO",
       "name": "QXO, Inc.",
-      "mcap": 14.09,
+      "mcap": 14.03,
       "price": 13.52,
       "basis": 14.35,
       "bxt_today": -3.55,
@@ -4245,7 +4245,7 @@
     {
       "sym": "HL",
       "name": "Hecla Mining Company",
-      "mcap": 13.62,
+      "mcap": 13.69,
       "price": 20.38,
       "basis": 17.04,
       "bxt_today": -6.93,
@@ -4291,7 +4291,7 @@
     {
       "sym": "UDR",
       "name": "UDR, Inc.",
-      "mcap": 11.94,
+      "mcap": 11.93,
       "price": 37.12,
       "basis": 38.48,
       "bxt_today": -4.38,
@@ -4314,7 +4314,7 @@
     {
       "sym": "AMKR",
       "name": "Amkor Technology, Inc.",
-      "mcap": 11.93,
+      "mcap": 11.9,
       "price": 47.88,
       "basis": 55.89,
       "bxt_today": -3.84,
@@ -4889,7 +4889,7 @@
     {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
-      "mcap": 7.36,
+      "mcap": 7.47,
       "price": 40.14,
       "basis": 42.76,
       "bxt_today": -10.87,
@@ -5785,7 +5785,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-29T15:12:35.983640+00:00",
+    "compared_to": "2026-08-29T18:32:42.565277+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
