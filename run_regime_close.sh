@@ -160,21 +160,28 @@ for attempt in 1 2 3; do
   break
 done
 
-# Classifier freshness gate: only run if regime_state.json was actually
-# modified by THIS wrapper invocation. If the scan died at startup and
-# regime_state.json is from a prior run, classifying it would silently
-# re-push stale numbers to Supabase as if they were today's close (this
-# was the June 18 + June 19 failure mode — both pushed June 17's data to
-# the dashboard for two days running).
+# Classifier freshness gate: only run if regime_state.json holds data from
+# THIS run. If the scan died at startup and regime_state.json is from a
+# prior run, classifying it would silently re-push stale numbers to
+# Supabase as if they were today's close (June 18/19 failure mode, and
+# again Aug 26/28 when the old mtime-based gate was fooled: git operations
+# — autostash pulls, stash pops — refresh mtimes without changing content,
+# so Aug 12 data looked "562s old" and sailed through). Gate on the JSON's
+# INTERNAL updated_at stamp, which only a real scan rewrites.
 REGIME_FILE="$HOME/tht-data/docs/regime_state.json"
 STATUS_CLASSIFY=0
 if [ -f "$REGIME_FILE" ]; then
-  # File mtime in seconds since epoch, compared to wrapper start.
-  REGIME_MTIME=$(stat -f "%m" "$REGIME_FILE")
-  # Wrapper start time wasn't captured as epoch — use NOW minus a generous
-  # window. If the file was touched in the last 4 hours, count it as fresh.
-  NOW=$(date -u +%s)
-  AGE=$(( NOW - REGIME_MTIME ))
+  AGE=$("$PYTHON" - "$REGIME_FILE" <<'PY'
+import json, sys, datetime
+try:
+    doc = json.load(open(sys.argv[1]))
+    ts = datetime.datetime.fromisoformat(doc["updated_at"])
+    now = datetime.datetime.now(datetime.timezone.utc)
+    print(int((now - ts).total_seconds()))
+except Exception:
+    print(999999)  # unparseable → treat as stale, never classify blind
+PY
+)
   if [ $AGE -lt 14400 ]; then
     echo "  regime_state.json fresh (${AGE}s old) → running classifier"
     "$PYTHON" setups_classify.py
