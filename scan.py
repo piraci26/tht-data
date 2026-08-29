@@ -231,14 +231,22 @@ def fetch(sym, interval="1d", rng="1y"):
             data = json.loads(r.read())
         result = data["chart"]["result"][0]
         q = result["indicators"]["quote"][0]
+        t = result.get("timestamp", [])
+        v = q.get("volume", [None] * len(t))
         n = len(q["close"])
-        opens = []; highs = []; lows = []; closes = []
+        opens = []; highs = []; lows = []; closes = []; bars = []
         for i in range(n):
             o, h, l, c = q["open"][i], q["high"][i], q["low"][i], q["close"][i]
             if c is None or o is None or h is None or l is None:
                 continue
             opens.append(o); highs.append(h); lows.append(l); closes.append(c)
-        return sym, {"opens": opens, "highs": highs, "lows": lows, "closes": closes}
+            if i < len(t):
+                bars.append({"time": t[i], "open": o, "high": h, "low": l, "close": c,
+                             "volume": v[i] if i < len(v) and v[i] is not None else 0})
+        # bars ride along so every scanned ticker's chart cache stays fresh
+        # without a second fetch (charts previously staled for tickers that
+        # never went "clickable" — day-0 flips looked days old in the app).
+        return sym, {"opens": opens, "highs": highs, "lows": lows, "closes": closes, "bars": bars}
     except Exception:
         return sym, None
 
@@ -654,25 +662,23 @@ def run_scan(timeframe="daily"):
         "events": len(events),
     }])
 
-    # Cache OHLC bars for EVERY clickable ticker on the dashboard:
-    # flipped tickers + every "removed" row in the changes table. Always re-fetch
-    # so bars files never go stale even when a ticker stays in the changes
-    # accumulator longer than a single cron tick.
-    clickable_syms = set(flipped_syms)
-    for k in cur_sets:
-        for r in changes.get(f"{k}_removed", []):
-            clickable_syms.add(r["sym"])
+    # Cache OHLC bars for EVERY scanned ticker from the data already
+    # fetched this run (no second download). The app draws charts for any
+    # row, so every file must stay fresh — the old clickable-only refresh
+    # left non-dashboard tickers days stale and their chart events looked
+    # misplaced against the day counters.
     bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
     os.makedirs(bars_dir, exist_ok=True)
-    with ThreadPoolExecutor(max_workers=15) as ex:
-        for f in as_completed([ex.submit(fetch_ohlc, s, interval, rng) for s in clickable_syms]):
-            sym, bars = f.result()
-            if bars:
-                merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
+    n_bars_written = 0
+    for sym, ohlc in ohlc_map.items():
+        bars = ohlc.get("bars")
+        if bars:
+            merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
+            n_bars_written += 1
 
     print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r "
-          f"({n_changes} changes, {len(clickable_syms)} bars refreshed)")
+          f"({n_changes} changes, {n_bars_written} bars refreshed)")
 
 def dual_write_extrema(ath_path, atl_path, now_iso):
     """Mirror ath_list.json / atl_list.json into Supabase `extrema_events`.
