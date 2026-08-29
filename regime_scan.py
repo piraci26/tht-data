@@ -20,7 +20,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from cdp_lib import (
     CDPClient, set_timeframe, set_symbol, is_loading, read_lux,
-    read_lux_all_panes, enumerate_panes, enable_symbol_sync,
+    read_lux_all_panes, enumerate_panes, enable_symbol_sync, wait_for_api,
     load_universe, load_names, load_mcaps,
     TVCrashedError,
 )
@@ -200,7 +200,9 @@ def scan_multi_pane(cdp, tickers, names, mcaps, expected_tfs, wait, sym_set,
     # Discover the pane layout once.
     panes_info = enumerate_panes(cdp) or []
     if isinstance(panes_info, dict) and panes_info.get("error"):
-        sys.exit(f"enumerate_panes failed: {panes_info['error']}")
+        # A TypeError mentioning TradingViewApi internals means the page is
+        # half-booted (spinner state) — restartable, not fatal.
+        raise TVCrashedError(f"enumerate_panes failed: {panes_info['error']}")
     print("Panes:", panes_info)
     res_to_pane = {p["resolution"]: p["pane"] for p in panes_info if "resolution" in p}
     missing = [tf for tf in expected_tfs if f"1{tf}" not in res_to_pane and tf not in res_to_pane]
@@ -349,6 +351,10 @@ def main():
         # page hasn't fully loaded yet (e.g. fresh TV launch). Catch it here
         # so the wrapper sees exit 87 (retriable) instead of exit 1.
         cdp = CDPClient()
+        # A connected chart page can still be half-booted (endless spinner,
+        # window.TradingViewApi undefined). Wait for the API before touching
+        # it; raises TVCrashedError → exit 87 → wrapper restarts TV.
+        wait_for_api(cdp)
         if args.multi_pane:
             sync = enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False)
             print(f"Sync state: {sync}")

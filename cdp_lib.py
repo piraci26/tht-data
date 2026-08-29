@@ -171,6 +171,31 @@ def is_loading(cdp):
     """)
 
 
+def wait_for_api(cdp, max_attempts=30, poll_interval=3):
+    """Block until window.TradingViewApi is fully initialized.
+
+    A chart page can exist in CDP (URL loaded, Runtime.evaluate answering)
+    while the page's own JS never finished booting — the visible symptom is
+    the endless loading spinner. In that state window.TradingViewApi is
+    undefined and every scan primitive dies on first touch (the Aug 21-28
+    2026 failure mode: six nightly runs exited in 1-3s). Poll for up to
+    ~90s; if the API never appears the page is wedged and only a TV
+    restart helps, so raise TVCrashedError → exit 87 → wrapper retries.
+    """
+    for _ in range(max_attempts):
+        ready = cdp.evaluate(
+            "typeof window.TradingViewApi === 'object'"
+            " && !!window.TradingViewApi._chartWidgetCollection"
+        )
+        if ready:
+            return
+        time.sleep(poll_interval)
+    raise TVCrashedError(
+        "window.TradingViewApi never initialized (page stuck on loading "
+        f"spinner) after {max_attempts * poll_interval}s — TV needs a restart"
+    )
+
+
 def enable_symbol_sync(cdp, enable_symbol=True, enable_interval=False):
     """Toggle TradingView's per-layout symbol sync. With symbol sync ON,
     a single setSymbol() call cascades to every pane in the layout. With

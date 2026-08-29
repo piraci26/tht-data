@@ -61,16 +61,20 @@ health() {
   curl -sf --max-time 3 "http://localhost:9222/json/version" >/dev/null || { REASON="CDP not responding"; return 1; }
   curl -s --max-time 3 "http://localhost:9222/json" 2>/dev/null | grep -q "tradingview.com/chart/" \
     || { REASON="no chart page (white/login/splash state)"; return 1; }
-  # Tier 4: does the chart actually execute JS, or is it a zombie?
-  "$PYTHON" - <<'PY' >/dev/null 2>&1 || { REASON="chart page unresponsive to Runtime.evaluate (zombie)"; return 1; }
+  # Tier 4: does the chart actually execute JS, AND is TradingViewApi
+  # initialized? A page stuck on the boot spinner answers Runtime.evaluate
+  # but never defines window.TradingViewApi — that state killed the Aug
+  # 21-28 nightly scans while this check kept saying "healthy".
+  "$PYTHON" - <<'PY' >/dev/null 2>&1 || { REASON="chart page zombie or stuck on boot spinner (TradingViewApi missing)"; return 1; }
 import json, sys, urllib.request, websocket
 pages = json.loads(urllib.request.urlopen("http://localhost:9222/json", timeout=5).read())
 chart = next(p for p in pages if p.get('type') == 'page' and 'tradingview.com/chart/' in p.get('url', ''))
 ws = websocket.create_connection(chart['webSocketDebuggerUrl'], timeout=8, suppress_origin=True)
-ws.send(json.dumps({"id": 1, "method": "Runtime.evaluate", "params": {"expression": "2+2", "returnByValue": True}}))
+expr = "typeof window.TradingViewApi === 'object' && !!window.TradingViewApi._chartWidgetCollection"
+ws.send(json.dumps({"id": 1, "method": "Runtime.evaluate", "params": {"expression": expr, "returnByValue": True}}))
 msg = json.loads(ws.recv())
 ws.close()
-sys.exit(0 if msg.get('result', {}).get('result', {}).get('value') == 4 else 1)
+sys.exit(0 if msg.get('result', {}).get('result', {}).get('value') is True else 1)
 PY
   return 0
 }
