@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-29T21:09:44.146081+00:00",
+  "updated_at": "2026-08-29T23:18:40.818593+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.08,
-  "scanned_count": 1501,
+  "scan_seconds": 8.11,
+  "scanned_count": 1502,
   "fvb_green": [
     {
       "sym": "VRSK",
@@ -312,7 +312,7 @@
       "name": "Alnylam Pharmaceuticals, Inc.",
       "mcap": 31.73,
       "price": 237.1,
-      "basis": 296.1,
+      "basis": 296.11,
       "bxt_today": 1.94,
       "bxt_yest": -7.18,
       "fvb_g": false,
@@ -1921,7 +1921,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-29T18:33:05.258268+00:00",
+    "compared_to": "2026-08-29T21:09:44.146081+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
