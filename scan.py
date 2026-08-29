@@ -264,6 +264,27 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
     except Exception:
         return sym, None
 
+# Bars files ACCUMULATE history: each write merges the fresh fetch into the
+# existing file (keyed by bar time, fresh wins) and keeps the newest `cap`
+# bars. Scan fetches stay short (1y daily) — the long tail was backfilled
+# once (2026-08-29, backfill_bars.py) and survives here. Caps keep repo
+# size sane: daily ~3y, weekly ~10y, monthly ~40y.
+BARS_CAP = {"daily": 780, "weekly": 520, "monthly": 480}
+
+def merge_bars(path, new_bars, cap):
+    merged = {}
+    try:
+        with open(path) as f:
+            for b in json.load(f):
+                merged[b["time"]] = b
+    except Exception:
+        pass
+    for b in new_bars:
+        merged[b["time"]] = b
+    out = [merged[t] for t in sorted(merged)][-cap:]
+    with open(path, "w") as fh:
+        json.dump(out, fh, separators=(',', ':'))
+
 def fetch_ath(sym):
     """Returns (sym, ath, atl, wk52_high, wk52_low, ath_30d_count, atl_30d_count,
                 last_high, last_low, last_close, made_ath_today, made_atl_today)."""
@@ -647,8 +668,7 @@ def run_scan(timeframe="daily"):
         for f in as_completed([ex.submit(fetch_ohlc, s, interval, rng) for s in clickable_syms]):
             sym, bars = f.result()
             if bars:
-                with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
-                    json.dump(bars, fh, separators=(',', ':'))
+                merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
 
     print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r "
@@ -881,8 +901,7 @@ def run_ath_atl_universe():
             for f in as_completed([ex.submit(fetch_ohlc, s, "1d", "1y") for s in clickable]):
                 sym, bars = f.result()
                 if bars:
-                    with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
-                        json.dump(bars, fh, separators=(',', ':'))
+                    merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP["daily"])
 
     print(f"[{datetime.now(timezone.utc).isoformat()}] [ath-atl-universe] "
           f"{'FULL SCAN' if do_full_scan else 'cached'} in {round(time.time()-t0,1)}s — "

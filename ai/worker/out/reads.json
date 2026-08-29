@@ -1,0 +1,177 @@
+{
+ "ABBV": {
+  "read": "ABBV's momentum flipped bullish on this bar, ending a one-bar bearish wave, and aligns with the IQ Bands' bullish trend regime that has held for at least one bar. The IQ Oscillator value is rising (13.3 from -4.9), putting it above zero, while money flow is on the buy side, contributing to confluence of 1/4.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:27:06+00:00"
+ },
+ "ABT": {
+  "read": "ABT flipped bullish on the weekly trend regime today after a 42-bar bearish stint. The IQ Oscillator is above zero and rising, with price sitting above both the basis of the IQ Bands (102.84) and its own all-time high (29.2% below). Price remains within its 52-week range of 81.97 to 137.49.",
+  "state_hash": "d1ae6955b5c41e33",
+  "updated_at": "2026-07-28T16:28:31+00:00"
+ },
+ "ANET": {
+  "read": "ANET's momentum flipped bearish on the weekly timeframe, ending a four-bar bullish wave, with IQ Oscillator value -8.4 (falling from 3.0). Price sits above the IQ Bands basis and is 13.6% below the all-time high. The scan shows nothing aligned bullish here, with money flow not provided in the STATE payload.",
+  "state_hash": "40840e0999f11014",
+  "updated_at": "2026-07-28T16:27:58+00:00"
+ },
+ "APH": {
+  "read": "APH's momentum signal flipped bearish on this bar, ending a two-bar bullish wave, with the IQ Oscillator value falling from 3.7 to -13.4 below zero. Price remains above the IQ Bands basis at 95.31, but sits 24.1% below the all-time high.",
+  "state_hash": "566c520441aba62d",
+  "updated_at": "2026-07-28T16:28:38+00:00"
+ },
+ "AVGO": {
+  "read": "AVGO's momentum signal flipped bearish on this bar after a five-bar bullish wave, joining a trend regime that has been bearish for one day. Price is still below the IQ Bands basis and sits 29% below the all-time high with money flow on the sell side. The scan shows confluence at 0/4.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:26:35+00:00"
+ },
+ "AXP": {
+  "read": "AXP's price is above the IQ Bands basis on the monthly timeframe, marking a bullish regime that has held for at least one bar. Momentum flipped bearish today with the IQ Oscillator signal falling from 2.5 to -3.6, and money flow is on the sell side with AXP sitting 15.5% below its all-time high.",
+  "state_hash": "566c520441aba62d",
+  "updated_at": "2026-07-28T16:27:51+00:00"
+ },
+ "BA": {
+  "read": "BA's trend regime flipped bullish on the daily timeframe today, ending an 11-bar bearish stint, with the IQ Oscillator's momentum signal also flipping bullish after a 12-bar opposite wave. The IQ Oscillator value is now 22.2, rising from -4.1, and price is above the IQ Bands basis at 221.46. With trend and momentum both flipping bullish together, confluence is aligned, and while the stock has a long way to go to reclaim its all-time high, needing a 101.4% gain, this marks a significant early shift in the daily regime.",
+  "state_hash": "5a471657a8ca38ef",
+  "updated_at": "2026-07-28T16:43:05+00:00"
+ },
+ "BLK": {
+  "read": "BLK's momentum signal flipped bullish on the daily IQ Oscillator today, ending a three-bar bearish wave, with the oscillator value rising to 15.8. The price of 1094.79 is above the IQ Bands basis of 1029.20, and with a momentum value above zero, the trend regime may be shifting. The scan shows BLK needs +11.4% to reclaim the all-time high, indicating this is not a stretched or extreme level.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:44:41+00:00"
+ },
+ "COST": {
+  "read": "COST trend regime flipped bullish on this bar after a 43-bar bearish stint. Momentum is now above zero, with the IQ Oscillator value rising from 35.5 to 42.1 on both timeframes and signaling a bullish wave, while money flow is neutral. Price sits at 12.7% below the all-time high in daily timeframe and 12.6% in weekly.",
+  "state_hash": "7acfb24c3d2a7936",
+  "updated_at": "2026-07-28T16:27:11+00:00"
+ },
+ "CVX": {
+  "read": "CVX flipped bearish on the momentum signal today, ending a 16-bar bullish wave, and joins a trend regime that has been above the IQ Bands basis for one bar. Momentum favors selling with the oscillator value at -3.9 (down from 18.4) and price sitting 14.6% below the all-time high.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:27:15+00:00"
+ },
+ "DELL": {
+  "read": "DELL's daily trend regime flipped bearish today, ending a four-bar bullish stint, with price now below the IQ Bands basis at 385.15. Momentum also turned bearish on this bar, following a three-bar opposite wave, and is falling further from -7.3 to -14.7 on the IQ Oscillator. Price sits 21.9% below the all-time high.",
+  "state_hash": "e1ebfdc86f373bf9",
+  "updated_at": "2026-07-28T16:27:38+00:00"
+ },
+ "DIS": {
+  "read": "DIS's momentum signal flipped bullish on the weekly timeframe, ending a six-bar bearish wave, with the IQ Oscillator value rising to 1.4 from -18.4. The price of 98.79 remains below the IQ Bands basis of 103.15. The scan shows momentum favors the buy side, though price needs a significant +105.5% gain to reclaim the all-time high.",
+  "state_hash": "b9399c65b777c79f",
+  "updated_at": "2026-07-28T16:46:13+00:00"
+ },
+ "HD": {
+  "read": "HD's trend regime flipped bullish today after a five-bar bearish stint, with price above the IQ Bands basis and momentum signal also flipping bullish on this bar (prior opposite wave lasted 15 bars). The scan shows confluence at 2/4 as both trend and momentum are aligned. Price sits 27.3% below the all-time high in the 52-week range of 289.10 to 426.75.",
+  "state_hash": "5a471657a8ca38ef",
+  "updated_at": "2026-07-28T16:27:25+00:00"
+ },
+ "IBM": {
+  "read": "IBM's momentum signal flipped bullish on this bar after an eleven-bar bearish wave and joins a trend regime that has been bearish for at least one bar, as price sits above IQ Bands basis but below the all-time high (47.2% below). The scan shows money flow is still on the sell side, with confluence reading 1/4.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:28:06+00:00"
+ },
+ "LIN": {
+  "read": "LIN flipped bullish on the daily momentum signal today, ending a 13-bar bearish wave. Price remains below the IQ Bands basis and is 5.8% below the all-time high, with money flow not explicitly stated but confluence at an unknown level due to missing data.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:27:46+00:00"
+ },
+ "MA": {
+  "read": "MA's momentum signal flipped bullish on this bar, ending an 11-bar bearish wave, and joins a trend regime that has been above IQ Bands for one bar daily and two bars monthly. The IQ Oscillator value is rising from -13.2 to 1.9 in the monthly timeframe, with money flow on the buy side. Price sits at 7.1% below the all-time high.",
+  "state_hash": "c9ce82b304bcb1ed",
+  "updated_at": "2026-07-28T16:26:57+00:00"
+ },
+ "MCD": {
+  "read": "MCD's momentum signal flipped bullish on this bar after a three-bar bearish wave, with IQ Oscillator value at 14.2 (rising from -0.0). Price sits below the IQ Bands basis and is 24.8% below the all-time high, indicating an early flip rather than a stretched one.",
+  "state_hash": "b9399c65b777c79f",
+  "updated_at": "2026-07-28T16:28:14+00:00"
+ },
+ "MRVL": {
+  "read": "MRVL's momentum signal flipped bearish on the daily IQ Oscillator today, ending a four-bar bullish wave, with the oscillator value falling to -10.4. The price of 177.86 is below the IQ Bands basis of 246.72, and it would need a significant gain of +85.5% to reclaim the all-time high. The scan shows momentum favors the bearish side, with a large upside gap to the all-time high.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:43:05+00:00"
+ },
+ "MSFT": {
+  "read": "MSFT's momentum signal flipped bullish on this bar after a three-bar bearish wave, with IQ Oscillator value now above zero (4.0 from -14.8). Price remains above the IQ Bands basis and is still 39.3% below the all-time high. The trend regime has been bullish for one day.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:26:29+00:00"
+ },
+ "MU": {
+  "read": "MU's momentum flipped bearish on this bar, ending a four-bar bullish wave, with the IQ Oscillator value at -13.4 (below zero and falling from 4.0). Price sits 52.7% below the all-time high, and money flow is on the sell side. Confluence reads 0/4 \u2014 the scan shows nothing aligned bullish here.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:26:42+00:00"
+ },
+ "NVDA": {
+  "read": "NVDA's daily trend regime flipped bearish today, ending a three-bar bullish stint, with price sitting at 196.46 below the IQ Bands basis of 203.57. Momentum also turned bearish on this bar, ending a 13-bar wave in the opposite direction, as the IQ Oscillator value fell to -15.3 from 15.3. The scan shows confluence at 20.4% below the all-time high, with no bullish alignment in trend or momentum.",
+  "state_hash": "e1ebfdc86f373bf9",
+  "updated_at": "2026-07-28T16:13:33+00:00"
+ },
+ "PANW": {
+  "read": "PANW's momentum signal flipped bearish on this bar, ending an 18-bar bullish wave. Price remains above the IQ Bands basis at 220.63 and is still 14.9% below the all-time high. The scan shows a stretched condition with price sitting near its weekly peak of 368.80.",
+  "state_hash": "40840e0999f11014",
+  "updated_at": "2026-07-28T16:27:43+00:00"
+ },
+ "PEP": {
+  "read": "PEP flipped bullish on the daily trend regime today after a 14-bar bearish stint. The IQ Oscillator's momentum signal also flipped bullish, rising from -15.3 to 5.0, with money flow on the buy side and price sitting 38.7% below the all-time high.",
+  "state_hash": "7acfb24c3d2a7936",
+  "updated_at": "2026-07-28T16:28:22+00:00"
+ },
+ "PG": {
+  "read": "PG's daily trend regime flipped bullish today after a three-bar bearish stint, with price above the IQ Bands basis at 151.43 and momentum also flipping bullish on the oscillator signal. The scan shows momentum favors the buy side as the wave rises from -10.7, but price still sits 19.2% below the all-time high.",
+  "state_hash": "5a471657a8ca38ef",
+  "updated_at": "2026-07-28T16:27:19+00:00"
+ },
+ "PLTR": {
+  "read": "PLTR's trend regime flipped bearish on this bar after a one-bar bullish stint. Momentum favors selling with an IQ Oscillator value of -16.4, falling from -10.5 and price is stretched 67% below the all-time high. The scan shows money flow on the sell side.",
+  "state_hash": "ff1d3b3b55607d08",
+  "updated_at": "2026-07-28T16:27:29+00:00"
+ },
+ "QCOM": {
+  "read": "QCOM's price remains above the IQ Bands basis on the monthly timeframe, a bullish stance that has held for at least one bar. Momentum flipped bearish today, ending a three-bar bullish wave in the IQ Oscillator, with the value now below zero and falling (-1.4 from 6.7). Price sits 56.8% below the all-time high.",
+  "state_hash": "566c520441aba62d",
+  "updated_at": "2026-07-28T16:29:02+00:00"
+ },
+ "RY": {
+  "read": "RY's momentum signal flipped bearish on this bar, ending a 16-bar bullish wave, and joins a trend regime that has been above the IQ Bands basis for some time. The price is 3.4% below the all-time high with money flow on the sell side. Confluence reads 0/4 \u2014 the scan shows nothing aligned bullish here.",
+  "state_hash": "40840e0999f11014",
+  "updated_at": "2026-07-28T16:27:33+00:00"
+ },
+ "SCHW": {
+  "read": "SCHW flipped bullish on the momentum signal today after a seven-bar bearish wave, with price currently above the IQ Bands basis and within 1.6% of its all-time high. The IQ Oscillator value is rising from -13.1, putting it above zero for the first time in this regime.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:28:45+00:00"
+ },
+ "SHOP": {
+  "read": "SHOP's momentum signal flipped bullish on the daily IQ Oscillator, ending a seven-bar bearish wave, with the oscillator value rising to 11.6. The weekly trend regime also flipped bullish, ending a 28-bar bearish stint, with price above the IQ Bands basis on both timeframes. The scan shows momentum favors the buy side, with price needing +37.5% to reclaim the all-time high.",
+  "state_hash": "a9b14fb10cc17d95",
+  "updated_at": "2026-07-28T16:44:41+00:00"
+ },
+ "STX": {
+  "read": "STX's momentum signal flipped bearish on this bar after a five-bar bullish wave, and joins a trend regime below the IQ Bands basis of 908.37. The price sits at 54% below the all-time high, with an IQ Oscillator value of -13.6 (below zero, falling from 4.3).",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:28:54+00:00"
+ },
+ "TJX": {
+  "read": "TJX's trend regime flipped bullish on both the daily and weekly timeframes, ending a 22-bar bearish stint on the daily and a 5-bar bearish stint on the weekly. The IQ Oscillator is also rising on both timeframes, with the daily value at 40.8 and the weekly value at 0.7, having flipped bullish on the weekly. The scan shows confluence is aligned bullish as both trend and momentum flipped together on the weekly, with price sitting 6.4% below the all-time high.",
+  "state_hash": "3b601968b360425e",
+  "updated_at": "2026-07-28T16:41:51+00:00"
+ },
+ "UNP": {
+  "read": "UNP's momentum signal flipped bearish on the daily IQ Oscillator today, ending a three-bar bullish wave, with the oscillator value falling to -8.8. The price is still above the IQ Bands basis at 280.63, sitting 5.8% below the all-time high. The scan shows a recent strong uptrend, with nine new all-time highs in the last 30 days, but momentum now favors the bearish side.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:41:50+00:00"
+ },
+ "V": {
+  "read": "V's price is above the IQ Bands basis and has flipped bullish on the momentum signal after a six-bar bearish wave, with the oscillator value rising from -13.4 to 6.2. The scan shows this as an early flip rather than a stretched one, given it's within 1.9% of the all-time high.",
+  "state_hash": "a71a83c39a6bcbb4",
+  "updated_at": "2026-07-28T16:26:49+00:00"
+ },
+ "WDC": {
+  "read": "WDC's momentum signal flipped bearish on the daily IQ Oscillator today, ending a four-bar bullish wave, with the oscillator value now at -14.0 and falling from 1.6. The price of 454.06 is below the IQ Bands basis of 582.00 and sits 76.2% below the all-time high. The scan shows a bearish momentum wave, with price action in a significant downturn from recent highs.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:41:51+00:00"
+ },
+ "WELL": {
+  "read": "WELL's momentum signal flipped bearish today, ending a seven-bar bullish wave, with the IQ Oscillator value falling to -16.7. The price is currently above the IQ Bands basis, sitting 4.7% below the all-time high. The scan shows a recent stretch of strength, with 14 new all-time highs in the last 30 days, but momentum now favors the bearish side.",
+  "state_hash": "6b25396e51887c5e",
+  "updated_at": "2026-07-28T16:41:50+00:00"
+ }
+}
