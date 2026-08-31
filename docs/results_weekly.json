@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-31T05:57:10.731106+00:00",
+  "updated_at": "2026-08-31T12:58:20.162926+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.51,
+  "scan_seconds": 8.91,
   "scanned_count": 1502,
   "fvb_green": [
     {
@@ -1276,29 +1276,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12.57,
-      "price": 77.57,
-      "basis": 72.13,
-      "bxt_today": -6.09,
-      "bxt_yest": 20.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 79.74,
-      "atl": 1.93,
-      "pct_to_ath": 2.8,
-      "pct_to_atl": 3915.2,
-      "wk52_high": 79.74,
-      "wk52_low": 52.69,
-      "ath_30d": 6,
-      "atl_30d": 0
-    },
-    {
       "sym": "AFG",
       "name": "American Financial Group, Inc.",
       "mcap": 11.91,
@@ -1921,7 +1898,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-31T00:27:14.596862+00:00",
+    "compared_to": "2026-08-31T05:57:10.731106+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -1929,6 +1906,20 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "WBS",
+        "name": "Webster Financial Corporation",
+        "mcap": 12.57,
+        "price": 77.57,
+        "basis": 72.13,
+        "bxt_today": -6.09,
+        "ath": 79.74,
+        "pct_to_ath": 2.8,
+        "wk52_high": 79.74,
+        "wk52_low": 52.69,
+        "ath_30d": 6
+      }
+    ]
   }
 }
