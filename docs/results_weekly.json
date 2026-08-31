@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-30T22:02:04.930311+00:00",
+  "updated_at": "2026-08-31T00:27:14.596862+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.04,
-  "scanned_count": 1502,
+  "scan_seconds": 10.79,
+  "scanned_count": 1501,
   "fvb_green": [
     {
       "sym": "VRSK",
@@ -1921,7 +1921,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-30T19:31:48.104270+00:00",
+    "compared_to": "2026-08-30T22:02:04.930311+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

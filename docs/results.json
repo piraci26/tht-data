@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-30T22:01:41.084083+00:00",
+  "updated_at": "2026-08-31T00:26:50.330115+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.99,
-  "scanned_count": 1502,
+  "scan_seconds": 14.1,
+  "scanned_count": 1501,
   "fvb_green": [
     {
       "sym": "MUFG",
@@ -5785,7 +5785,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-30T19:31:30.272152+00:00",
+    "compared_to": "2026-08-30T22:01:41.084083+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

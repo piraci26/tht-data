@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-30T22:02:23.730388+00:00",
+  "updated_at": "2026-08-31T00:27:33.553059+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.26,
+  "scan_seconds": 10.85,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -450,7 +450,7 @@
       "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
       "mcap": 69.64,
       "price": 153.33,
-      "basis": 88.93,
+      "basis": 88.94,
       "bxt_today": 4.24,
       "bxt_yest": -3.87,
       "fvb_g": false,
@@ -3485,7 +3485,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-08-30T19:32:01.595491+00:00",
+    "compared_to": "2026-08-30T22:02:23.730388+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
