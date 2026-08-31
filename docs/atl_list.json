@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-08-31T19:28:52.146700+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-08-31T23:19:29.579328+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "AMRZ",
+      "name": "Amrize Ltd Ordinary Shares",
+      "mcap": 23.96,
+      "price": 43.7,
+      "ath": 65.94,
+      "atl": 43.67,
+      "pct_to_ath": 50.9,
+      "pct_to_atl": 0.1,
+      "wk52_high": 65.94,
+      "wk52_low": 43.67,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 44.5,
+      "last_low": 43.67,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -778,22 +797,24 @@
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
-      "mcap": 24.69,
-      "price": 43.74,
+      "mcap": 23.96,
+      "price": 43.7,
       "ath": 65.94,
-      "atl": 43.69,
-      "pct_to_ath": 50.8,
+      "atl": 43.67,
+      "pct_to_ath": 50.9,
       "pct_to_atl": 0.1,
       "wk52_high": 65.94,
-      "wk52_low": 43.69,
+      "wk52_low": 43.67,
       "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 44.38,
-      "last_low": 43.69,
+      "atl_30d": 2,
+      "last_high": 44.5,
+      "last_low": 43.67,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-08-25T15:04:26.479618+00:00"
+      "first_seen_at": "2026-08-31T23:19:29.579328+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "AMRZ"
+  ]
 }
