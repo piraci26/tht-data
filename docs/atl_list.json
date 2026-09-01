@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-09-01T12:33:09.164252+00:00",
-  "count": 1,
+  "updated_at": "2026-09-01T16:53:58.387216+00:00",
+  "count": 2,
   "list": [
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
       "mcap": 23.96,
-      "price": 43.7,
+      "price": 43.04,
       "ath": 65.94,
-      "atl": 43.67,
-      "pct_to_ath": 50.9,
-      "pct_to_atl": 0.1,
+      "atl": 42.86,
+      "pct_to_ath": 53.2,
+      "pct_to_atl": 0.4,
       "wk52_high": 65.94,
-      "wk52_low": 43.67,
+      "wk52_low": 42.86,
       "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 44.5,
-      "last_low": 43.67,
+      "atl_30d": 3,
+      "last_high": 43.64,
+      "last_low": 42.86,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 8.7,
+      "ath": 44.54,
+      "atl": 8.61,
+      "pct_to_ath": 411.7,
+      "pct_to_atl": 1.1,
+      "wk52_high": 44.54,
+      "wk52_low": 8.61,
+      "ath_30d": 0,
+      "atl_30d": 13,
+      "last_high": 8.99,
+      "last_low": 8.61,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -719,25 +737,6 @@
       "first_seen_at": "2026-08-18T19:20:11.258792+00:00"
     },
     {
-      "sym": "YSS",
-      "name": "York Space Systems Inc.",
-      "mcap": 2.81,
-      "price": 9.35,
-      "ath": 44.54,
-      "atl": 9.29,
-      "pct_to_ath": 376.1,
-      "pct_to_atl": 0.7,
-      "wk52_high": 44.54,
-      "wk52_low": 9.29,
-      "ath_30d": 0,
-      "atl_30d": 12,
-      "last_high": 10.0,
-      "last_low": 9.29,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-20T14:18:27.946117+00:00"
-    },
-    {
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.52,
@@ -812,7 +811,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-08-31T23:19:29.579328+00:00"
+    },
+    {
+      "sym": "YSS",
+      "name": "York Space Systems Inc.",
+      "mcap": 2.81,
+      "price": 8.7,
+      "ath": 44.54,
+      "atl": 8.61,
+      "pct_to_ath": 411.7,
+      "pct_to_atl": 1.1,
+      "wk52_high": 44.54,
+      "wk52_low": 8.61,
+      "ath_30d": 0,
+      "atl_30d": 13,
+      "last_high": 8.99,
+      "last_low": 8.61,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-09-01T16:53:58.387216+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "YSS"
+  ]
 }
