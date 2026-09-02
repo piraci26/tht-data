@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T22:05:58.234553+00:00",
+  "updated_at": "2026-09-02T00:05:51.991374+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.27,
+  "scan_seconds": 10.57,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -4014,149 +4014,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-01T19:42:40.324309+00:00",
+    "compared_to": "2026-09-01T22:05:58.234553+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "LINE",
-        "name": "Lineage, Inc.",
-        "mcap": 9.82,
-        "price": 38.73,
-        "basis": 39.57,
-        "bxt_today": -41.64,
-        "ath": 89.85,
-        "pct_to_ath": 132.0,
-        "wk52_high": 45.75,
-        "wk52_low": 31.33,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "TTD",
-        "name": "The Trade Desk, Inc.",
-        "mcap": 6.44,
-        "price": 13.78,
-        "basis": 65.57,
-        "bxt_today": 0.05,
-        "ath": 141.53,
-        "pct_to_ath": 927.1,
-        "wk52_high": 56.39,
-        "wk52_low": 12.83,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "MSI",
-        "name": "Motorola Solutions, Inc.",
-        "mcap": 81.71,
-        "price": 493.42,
-        "basis": 283.91,
-        "bxt_today": 0.36,
-        "ath": 507.82,
-        "pct_to_ath": 2.9,
-        "wk52_high": 494.77,
-        "wk52_low": 359.36,
-        "ath_30d": 0
-      },
-      {
-        "sym": "WPM",
-        "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
-        "mcap": 66.52,
-        "price": 146.26,
-        "basis": 88.64,
-        "bxt_today": 0.58,
-        "ath": 165.76,
-        "pct_to_ath": 13.3,
-        "wk52_high": 165.76,
-        "wk52_low": 92.57,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 69.13,
-        "bxt_today": 49.67,
-        "ath": 184.06,
-        "pct_to_ath": -0.0,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 65.91,
-        "basis": 65.55,
-        "bxt_today": -3.58,
-        "ath": 70.61,
-        "pct_to_ath": 7.1,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 1
-      },
-      {
-        "sym": "MIAX",
-        "name": "Miami International Holdings, Inc.",
-        "mcap": 4.15,
-        "price": 42.11,
-        "basis": 43.57,
-        "bxt_today": -4.33,
-        "ath": 57.14,
-        "pct_to_ath": 35.7,
-        "wk52_high": 57.14,
-        "wk52_low": 34.02,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "GM",
-        "name": "General Motors Company",
-        "mcap": 77.31,
-        "price": 85.26,
-        "basis": 59.15,
-        "bxt_today": -0.56,
-        "ath": 91.85,
-        "pct_to_ath": 7.7,
-        "wk52_high": 91.85,
-        "wk52_low": 54.33,
-        "ath_30d": 2
-      },
-      {
-        "sym": "IRM",
-        "name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
-        "mcap": 33.73,
-        "price": 113.42,
-        "basis": 100.08,
-        "bxt_today": -0.37,
-        "ath": 134.68,
-        "pct_to_ath": 18.7,
-        "wk52_high": 134.68,
-        "wk52_low": 77.77,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SMG",
-        "name": "Scotts Miracle-Gro Company (The)",
-        "mcap": 3.53,
-        "price": 58.68,
-        "basis": 65.11,
-        "bxt_today": -0.28,
-        "ath": 254.34,
-        "pct_to_ath": 333.4,
-        "wk52_high": 75.34,
-        "wk52_low": 52.0,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
