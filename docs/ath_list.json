@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T08:55:21.903143+00:00",
+  "updated_at": "2026-09-02T13:12:28.949254+00:00",
   "count": 12,
   "list": [
     {
@@ -43,7 +43,7 @@
       "name": "Marathon Petroleum Corporation",
       "mcap": 106.22,
       "price": 383.0,
-      "ath": 383.0,
+      "ath": 383.01,
       "atl": 13.18,
       "pct_to_ath": 0.0,
       "pct_to_atl": 2807.0,
@@ -151,9 +151,9 @@
       "name": "PBF Energy Inc.",
       "mcap": 8.13,
       "price": 74.99,
-      "ath": 76.15,
+      "ath": 76.16,
       "atl": 4.06,
-      "pct_to_ath": 1.5,
+      "pct_to_ath": 1.6,
       "pct_to_atl": 1747.0,
       "wk52_high": 76.16,
       "wk52_low": 25.62,
