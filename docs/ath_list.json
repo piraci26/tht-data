@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-03T04:18:12.345564+00:00",
-  "count": 19,
+  "updated_at": "2026-09-03T09:01:01.727716+00:00",
+  "count": 20,
   "list": [
     {
       "sym": "JNJ",
@@ -120,8 +120,8 @@
       "pct_to_ath": 1.1,
       "pct_to_atl": 35500.2,
       "wk52_high": 370.11,
-      "wk52_low": 153.2,
-      "ath_30d": 11,
+      "wk52_low": 151.25,
+      "ath_30d": 12,
       "atl_30d": 0,
       "last_high": 370.11,
       "last_low": 359.52,
@@ -139,7 +139,7 @@
       "pct_to_atl": 790.7,
       "wk52_high": 258.48,
       "wk52_low": 126.74,
-      "ath_30d": 11,
+      "ath_30d": 12,
       "atl_30d": 0,
       "last_high": 258.48,
       "last_low": 249.47,
@@ -255,6 +255,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "CRNX",
+      "name": "Crinetics Pharmaceuticals, Inc.",
+      "mcap": 9.0,
+      "price": 84.95,
+      "ath": 84.95,
+      "atl": 10.63,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 699.2,
+      "wk52_high": 84.95,
+      "wk52_low": 25.83,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 84.95,
+      "last_low": 84.95,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "JXN",
       "name": "Jackson Financial Inc.",
       "mcap": 8.14,
@@ -283,7 +301,7 @@
       "pct_to_atl": 1759.1,
       "wk52_high": 77.94,
       "wk52_low": 25.62,
-      "ath_30d": 4,
+      "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 77.94,
       "last_low": 74.71,
@@ -319,7 +337,7 @@
       "pct_to_atl": 209.7,
       "wk52_high": 57.31,
       "wk52_low": 18.12,
-      "ath_30d": 12,
+      "ath_30d": 11,
       "atl_30d": 0,
       "last_high": 57.31,
       "last_low": 55.7,
@@ -3691,25 +3709,6 @@
       "first_seen_at": "2026-08-31T19:28:52.142360+00:00"
     },
     {
-      "sym": "CRNX",
-      "name": "Crinetics Pharmaceuticals, Inc.",
-      "mcap": 9.0,
-      "price": 84.99,
-      "ath": 85.01,
-      "atl": 10.63,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 699.5,
-      "wk52_high": 85.01,
-      "wk52_low": 30.25,
-      "ath_30d": 15,
-      "atl_30d": 0,
-      "last_high": 85.01,
-      "last_low": 84.96,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-08-31T19:28:52.142360+00:00"
-    },
-    {
       "sym": "MICC",
       "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
       "mcap": 11.36,
@@ -4145,7 +4144,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-09-02T22:02:19.506328+00:00"
+    },
+    {
+      "sym": "CRNX",
+      "name": "Crinetics Pharmaceuticals, Inc.",
+      "mcap": 9.0,
+      "price": 84.95,
+      "ath": 84.95,
+      "atl": 10.63,
+      "pct_to_ath": 0.0,
+      "pct_to_atl": 699.2,
+      "wk52_high": 84.95,
+      "wk52_low": 25.83,
+      "ath_30d": 5,
+      "atl_30d": 0,
+      "last_high": 84.95,
+      "last_low": 84.95,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-09-03T09:01:01.727716+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "CRNX"
+  ]
 }
