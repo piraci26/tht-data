@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T21:57:00.766325+00:00",
+  "updated_at": "2026-09-03T23:50:14.015458+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.14,
+  "scan_seconds": 10.66,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2197,84 +2197,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-03T19:50:31.103382+00:00",
+    "compared_to": "2026-09-03T21:57:00.766325+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "PECO",
-        "name": "Phillips Edison & Company, Inc.",
-        "mcap": 5.05,
-        "price": 39.18,
-        "basis": 39.69,
-        "bxt_today": -41.17,
-        "ath": 44.38,
-        "pct_to_ath": 13.3,
-        "wk52_high": 44.38,
-        "wk52_low": 32.98,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "ONTO",
-        "name": "Onto Innovation Inc.",
-        "mcap": 15.41,
-        "price": 250.96,
-        "basis": 262.59,
-        "bxt_today": -31.32,
-        "ath": 386.46,
-        "pct_to_ath": 54.0,
-        "wk52_high": 386.46,
-        "wk52_low": 101.06,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "DELL",
-        "name": "Dell Technologies Inc. Class C",
-        "mcap": 332.72,
-        "price": 516.39,
-        "basis": 296.37,
-        "bxt_today": 0.7,
-        "ath": 530.78,
-        "pct_to_ath": 2.8,
-        "wk52_high": 530.78,
-        "wk52_low": 110.22,
-        "ath_30d": 4
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "CLH",
-        "name": "Clean Harbors, Inc.",
-        "mcap": 16.87,
-        "price": 319.58,
-        "basis": 295.29,
-        "bxt_today": 1.92,
-        "ath": 335.94,
-        "pct_to_ath": 5.1,
-        "wk52_high": 335.94,
-        "wk52_low": 201.34,
-        "ath_30d": 1
-      }
-    ],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "STNG",
-        "name": "Scorpio Tankers Inc. Common Shares",
-        "mcap": 3.88,
-        "price": 79.93,
-        "basis": 75.87,
-        "bxt_today": -0.04,
-        "ath": 130.1,
-        "pct_to_ath": 62.8,
-        "wk52_high": 87.39,
-        "wk52_low": 48.93,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T21:57:19.363618+00:00",
+  "updated_at": "2026-09-03T23:50:31.908504+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.68,
+  "scan_seconds": 10.38,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2588,164 +2588,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-03T19:50:55.060240+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "JKHY",
-        "name": "Jack Henry & Associates, Inc.",
-        "mcap": 11.79,
-        "price": 168.37,
-        "basis": 164.16,
-        "bxt_today": -10.24,
-        "ath": 212.62,
-        "pct_to_ath": 26.3,
-        "wk52_high": 193.39,
-        "wk52_low": 121.04,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-09-03T21:57:19.363618+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "PECO",
-        "name": "Phillips Edison & Company, Inc.",
-        "mcap": 5.05,
-        "price": 39.18,
-        "basis": 39.69,
-        "bxt_today": -41.17,
-        "ath": 44.38,
-        "pct_to_ath": 13.3,
-        "wk52_high": 44.38,
-        "wk52_low": 32.98,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "ONTO",
-        "name": "Onto Innovation Inc.",
-        "mcap": 15.41,
-        "price": 250.96,
-        "basis": 262.59,
-        "bxt_today": -31.32,
-        "ath": 386.46,
-        "pct_to_ath": 54.0,
-        "wk52_high": 386.46,
-        "wk52_low": 101.06,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NHI",
-        "name": "National Health Investors, Inc.",
-        "mcap": 3.56,
-        "price": 71.74,
-        "basis": 73.42,
-        "bxt_today": -38.39,
-        "ath": 91.38,
-        "pct_to_ath": 27.4,
-        "wk52_high": 91.38,
-        "wk52_low": 67.94,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "SNDK",
-        "name": "Sandisk Corporation",
-        "mcap": 230.23,
-        "price": 1554.99,
-        "basis": 1439.36,
-        "bxt_today": 1.47,
-        "ath": 2354.39,
-        "pct_to_ath": 51.4,
-        "wk52_high": 2354.39,
-        "wk52_low": 55.55,
-        "ath_30d": 0
-      },
-      {
-        "sym": "RAL",
-        "name": "Ralliant Corporation",
-        "mcap": 7.75,
-        "price": 62.74,
-        "basis": 66.99,
-        "bxt_today": 0.06,
-        "ath": 75.41,
-        "pct_to_ath": 20.2,
-        "wk52_high": 75.41,
-        "wk52_low": 37.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "JAN",
-        "name": "Janus Living, Inc.-1",
-        "mcap": 6.09,
-        "price": 31.29,
-        "basis": 30.62,
-        "bxt_today": 1.54,
-        "ath": 32.83,
-        "pct_to_ath": 4.9,
-        "wk52_high": 32.83,
-        "wk52_low": 22.76,
-        "ath_30d": 3
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 69.13,
-        "bxt_today": 49.67,
-        "ath": 184.06,
-        "pct_to_ath": -0.0,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 65.91,
-        "basis": 65.55,
-        "bxt_today": -3.58,
-        "ath": 70.61,
-        "pct_to_ath": 7.1,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 1
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "SBRA",
-        "name": "Sabra Health Care REIT, Inc.",
-        "mcap": 5.29,
-        "price": 20.86,
-        "basis": 17.99,
-        "bxt_today": -1.05,
-        "ath": 68.4,
-        "pct_to_ath": 227.9,
-        "wk52_high": 22.77,
-        "wk52_low": 17.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LBRDK",
-        "name": "Liberty Broadband Corporation Class C",
-        "mcap": 4.41,
-        "price": 36.02,
-        "basis": 35.87,
-        "bxt_today": -7.96,
-        "ath": 37.59,
-        "pct_to_ath": 4.4,
-        "wk52_high": 36.02,
-        "wk52_low": 30.84,
-        "ath_30d": 0
-      }
-    ]
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
