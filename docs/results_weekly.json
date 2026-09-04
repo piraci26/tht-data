@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T01:26:33.197306+00:00",
+  "updated_at": "2026-09-04T06:19:17.907074+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.05,
-  "scanned_count": 1500,
+  "scan_seconds": 8.01,
+  "scanned_count": 1499,
   "fvb_green": [
     {
       "sym": "ACN",
@@ -2197,7 +2197,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-03T23:50:14.015458+00:00",
+    "compared_to": "2026-09-04T01:26:33.197306+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
