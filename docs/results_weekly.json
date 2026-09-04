@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T20:53:17.558747+00:00",
+  "updated_at": "2026-09-04T22:39:05.813253+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 19.04,
+  "scan_seconds": 14.18,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -774,7 +774,7 @@
       "name": "Amazon.com, Inc.",
       "mcap": 2779.2,
       "price": 258.51,
-      "basis": 241.74,
+      "basis": 241.75,
       "bxt_today": -5.38,
       "bxt_yest": 1.82,
       "fvb_g": false,
@@ -2289,228 +2289,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-04T18:21:22.833190+00:00",
+    "compared_to": "2026-09-04T20:53:17.558747+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "SOFI",
-        "name": "SoFi Technologies, Inc.",
-        "mcap": 24.11,
-        "price": 18.31,
-        "basis": 17.91,
-        "bxt_today": 30.48,
-        "ath": 32.73,
-        "pct_to_ath": 78.8,
-        "wk52_high": 32.73,
-        "wk52_low": 14.88,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "COO",
-        "name": "The Cooper Companies, Inc.",
-        "mcap": 13.6,
-        "price": 69.59,
-        "basis": 71.35,
-        "bxt_today": -9.85,
-        "ath": 115.9,
-        "pct_to_ath": 66.5,
-        "wk52_high": 89.83,
-        "wk52_low": 58.89,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "BE",
-        "name": "Bloom Energy Corporation",
-        "mcap": 71.92,
-        "price": 252.87,
-        "basis": 214.1,
-        "bxt_today": 0.56,
-        "ath": 351.28,
-        "pct_to_ath": 38.9,
-        "wk52_high": 351.28,
-        "wk52_low": 52.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VST",
-        "name": "Vistra Corp.",
-        "mcap": 49.89,
-        "price": 149.3,
-        "basis": 155.0,
-        "bxt_today": 0.72,
-        "ath": 219.82,
-        "pct_to_ath": 47.2,
-        "wk52_high": 219.82,
-        "wk52_low": 132.66,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "ELV",
-        "name": "Elevance Health, Inc.",
-        "mcap": 89.86,
-        "price": 408.44,
-        "basis": 363.68,
-        "bxt_today": 0.55,
-        "ath": 567.26,
-        "pct_to_ath": 38.9,
-        "wk52_high": 436.24,
-        "wk52_low": 274.84,
-        "ath_30d": 0
-      },
-      {
-        "sym": "TKO",
-        "name": "TKO Group Holdings, Inc.",
-        "mcap": 13.72,
-        "price": 188.46,
-        "basis": 195.88,
-        "bxt_today": 0.19,
-        "ath": 226.94,
-        "pct_to_ath": 20.4,
-        "wk52_high": 226.94,
-        "wk52_low": 176.0,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "IMO",
-        "name": "Imperial Oil Limited",
-        "mcap": 64.19,
-        "price": 128.62,
-        "basis": 123.46,
-        "bxt_today": -0.45,
-        "ath": 139.44,
-        "pct_to_ath": 8.4,
-        "wk52_high": 139.44,
-        "wk52_low": 83.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "YUM",
-        "name": "Yum! Brands, Inc.",
-        "mcap": 41.36,
-        "price": 150.71,
-        "basis": 155.95,
-        "bxt_today": -2.45,
-        "ath": 170.14,
-        "pct_to_ath": 12.9,
-        "wk52_high": 170.14,
-        "wk52_low": 137.33,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EXPE",
-        "name": "Expedia Group, Inc.",
-        "mcap": 36.19,
-        "price": 298.04,
-        "basis": 254.25,
-        "bxt_today": -0.51,
-        "ath": 342.0,
-        "pct_to_ath": 14.7,
-        "wk52_high": 342.0,
-        "wk52_low": 185.34,
-        "ath_30d": 8
-      },
-      {
-        "sym": "DOW",
-        "name": "Dow Inc.",
-        "mcap": 21.16,
-        "price": 29.44,
-        "basis": 33.36,
-        "bxt_today": -0.02,
-        "ath": 71.86,
-        "pct_to_ath": 144.1,
-        "wk52_high": 42.74,
-        "wk52_low": 20.65,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SUI",
-        "name": "Sun Communities, Inc.",
-        "mcap": 14.64,
-        "price": 119.44,
-        "basis": 125.72,
-        "bxt_today": -3.41,
-        "ath": 211.79,
-        "pct_to_ath": 77.3,
-        "wk52_high": 137.85,
-        "wk52_low": 115.9,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BAX",
-        "name": "Baxter International Inc.",
-        "mcap": 11.68,
-        "price": 25.83,
-        "basis": 20.79,
-        "bxt_today": -1.42,
-        "ath": 95.19,
-        "pct_to_ath": 268.5,
-        "wk52_high": 30.0,
-        "wk52_low": 15.73,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EMN",
-        "name": "Eastman Chemical Company",
-        "mcap": 7.73,
-        "price": 71.19,
-        "basis": 72.59,
-        "bxt_today": -0.72,
-        "ath": 130.47,
-        "pct_to_ath": 83.3,
-        "wk52_high": 83.47,
-        "wk52_low": 56.11,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NEU",
-        "name": "NewMarket Corp",
-        "mcap": 6.84,
-        "price": 885.0,
-        "basis": 738.51,
-        "bxt_today": -0.79,
-        "ath": 981.66,
-        "pct_to_ath": 10.9,
-        "wk52_high": 981.66,
-        "wk52_low": 580.03,
-        "ath_30d": 10
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "ITT",
-        "name": "ITT Inc.",
-        "mcap": 18.32,
-        "price": 203.57,
-        "basis": 199.31,
-        "bxt_today": -0.71,
-        "ath": 230.32,
-        "pct_to_ath": 13.1,
-        "wk52_high": 230.32,
-        "wk52_low": 166.96,
-        "ath_30d": 1
-      },
-      {
-        "sym": "STVN",
-        "name": "Stevanato Group S.p.A. Ordinary Shares",
-        "mcap": 6.05,
-        "price": 20.42,
-        "basis": 17.58,
-        "bxt_today": -0.83,
-        "ath": 36.3,
-        "pct_to_ath": 77.8,
-        "wk52_high": 28.0,
-        "wk52_low": 12.89,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
