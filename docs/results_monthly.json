@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T08:40:12.259341+00:00",
+  "updated_at": "2026-09-05T12:05:25.800244+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.08,
+  "scan_seconds": 8.43,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2334,29 +2334,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SBRA",
-      "name": "Sabra Health Care REIT, Inc.",
-      "mcap": 5.29,
-      "price": 20.78,
-      "basis": 17.99,
-      "bxt_today": -2.12,
-      "bxt_yest": 2.79,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 68.4,
-      "atl": 0.33,
-      "pct_to_ath": 229.2,
-      "pct_to_atl": 6197.0,
-      "wk52_high": 22.77,
-      "wk52_low": 17.17,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GLNG",
       "name": "Golar Lng Ltd",
       "mcap": 5.29,
@@ -2376,6 +2353,29 @@
       "pct_to_atl": 1913.5,
       "wk52_high": 57.79,
       "wk52_low": 35.02,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SBRA",
+      "name": "Sabra Health Care REIT, Inc.",
+      "mcap": 5.29,
+      "price": 20.78,
+      "basis": 17.99,
+      "bxt_today": -2.12,
+      "bxt_yest": 2.79,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 68.4,
+      "atl": 0.33,
+      "pct_to_ath": 229.2,
+      "pct_to_atl": 6197.0,
+      "wk52_high": 22.77,
+      "wk52_low": 17.17,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2542,7 +2542,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-05T04:46:10.412789+00:00",
+    "compared_to": "2026-09-05T08:40:12.259341+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
