@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T18:17:18.536051+00:00",
+  "updated_at": "2026-09-06T20:30:36.971780+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.96,
+  "scan_seconds": 9.81,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -3047,7 +3047,7 @@
     {
       "sym": "DOCN",
       "name": "DigitalOcean Holdings, Inc.",
-      "mcap": 13.1,
+      "mcap": 13.22,
       "price": 112.47,
       "basis": 120.9,
       "bxt_today": 2.43,
@@ -6268,7 +6268,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-06T16:09:42.778860+00:00",
+    "compared_to": "2026-09-06T18:17:18.536051+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

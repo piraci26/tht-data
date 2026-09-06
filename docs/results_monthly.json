@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T18:18:10.417072+00:00",
+  "updated_at": "2026-09-06T20:31:09.685205+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.2,
+  "scan_seconds": 7.96,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2014,7 +2014,7 @@
     {
       "sym": "EHC",
       "name": "Encompass Health Corporation",
-      "mcap": 12.09,
+      "mcap": 12.01,
       "price": 121.79,
       "basis": 75.41,
       "bxt_today": -0.06,
@@ -2749,7 +2749,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-06T16:10:22.517785+00:00",
+    "compared_to": "2026-09-06T18:18:10.417072+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
