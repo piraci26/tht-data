@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T00:39:21.898645+00:00",
+  "updated_at": "2026-09-06T05:06:14.933985+00:00",
   "count": 8,
   "list": [
     {
@@ -7,7 +7,7 @@
       "name": "Dell Technologies Inc. Class C",
       "mcap": 338.67,
       "price": 524.14,
-      "ath": 534.96,
+      "ath": 534.99,
       "atl": 11.79,
       "pct_to_ath": 2.1,
       "pct_to_atl": 4344.6,
@@ -133,9 +133,9 @@
       "name": "International Seaways, Inc.",
       "mcap": 4.32,
       "price": 104.5,
-      "ath": 105.43,
+      "ath": 105.5,
       "atl": 10.36,
-      "pct_to_ath": 0.9,
+      "pct_to_ath": 1.0,
       "pct_to_atl": 908.7,
       "wk52_high": 105.5,
       "wk52_low": 42.26,
