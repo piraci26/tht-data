@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-09-09T09:54:47.268994+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-09-09T14:05:26.619448+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "AMRZ",
+      "name": "Amrize Ltd Ordinary Shares",
+      "mcap": 23.06,
+      "price": 41.92,
+      "ath": 65.94,
+      "atl": 41.44,
+      "pct_to_ath": 57.3,
+      "pct_to_atl": 1.1,
+      "wk52_high": 65.94,
+      "wk52_low": 41.44,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 41.92,
+      "last_low": 41.44,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -757,25 +776,6 @@
       "first_seen_at": "2026-08-21T15:18:54.353614+00:00"
     },
     {
-      "sym": "AMRZ",
-      "name": "Amrize Ltd Ordinary Shares",
-      "mcap": 23.96,
-      "price": 43.7,
-      "ath": 65.94,
-      "atl": 43.67,
-      "pct_to_ath": 50.9,
-      "pct_to_atl": 0.1,
-      "wk52_high": 65.94,
-      "wk52_low": 43.67,
-      "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 44.5,
-      "last_low": 43.67,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-08-31T23:19:29.579328+00:00"
-    },
-    {
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
@@ -793,7 +793,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-09-01T16:53:58.387216+00:00"
+    },
+    {
+      "sym": "AMRZ",
+      "name": "Amrize Ltd Ordinary Shares",
+      "mcap": 23.06,
+      "price": 41.92,
+      "ath": 65.94,
+      "atl": 41.44,
+      "pct_to_ath": 57.3,
+      "pct_to_atl": 1.1,
+      "wk52_high": 65.94,
+      "wk52_low": 41.44,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 41.92,
+      "last_low": 41.44,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-09-09T14:05:26.619448+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "AMRZ"
+  ]
 }
