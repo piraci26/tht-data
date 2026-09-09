@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-09T20:05:05.875454+00:00",
+  "updated_at": "2026-09-09T22:30:45.121732+00:00",
   "count": 2,
   "list": [
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
       "mcap": 22.52,
-      "price": 40.95,
+      "price": 40.97,
       "ath": 65.94,
       "atl": 40.92,
-      "pct_to_ath": 61.0,
+      "pct_to_ath": 60.9,
       "pct_to_atl": 0.1,
       "wk52_high": 65.94,
       "wk52_low": 40.92,
@@ -24,11 +24,11 @@
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 2.81,
-      "price": 8.06,
+      "price": 8.07,
       "ath": 44.54,
       "atl": 8.05,
-      "pct_to_ath": 452.6,
-      "pct_to_atl": 0.1,
+      "pct_to_ath": 451.9,
+      "pct_to_atl": 0.2,
       "wk52_high": 44.54,
       "wk52_low": 8.05,
       "ath_30d": 0,
@@ -832,7 +832,5 @@
       "first_seen_at": "2026-09-09T20:05:05.875454+00:00"
     }
   ],
-  "added_this_run": [
-    "YSS"
-  ]
+  "added_this_run": []
 }
