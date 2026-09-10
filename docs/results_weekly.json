@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-09T22:30:04.407387+00:00",
+  "updated_at": "2026-09-10T00:31:30.356031+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.36,
+  "scan_seconds": 16.06,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -4129,42 +4129,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-09T20:04:22.066365+00:00",
+    "compared_to": "2026-09-09T22:30:04.407387+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "OBDC",
-        "name": "Blue Owl Capital Corporation",
-        "mcap": 5.44,
-        "price": 11.14,
-        "basis": 11.22,
-        "bxt_today": 10.08,
-        "ath": 19.19,
-        "pct_to_ath": 72.3,
-        "wk52_high": 14.31,
-        "wk52_low": 10.52,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "IMO",
-        "name": "Imperial Oil Limited",
-        "mcap": 65.37,
-        "price": 131.54,
-        "basis": 124.37,
-        "bxt_today": -0.06,
-        "ath": 139.44,
-        "pct_to_ath": 6.0,
-        "wk52_high": 139.44,
-        "wk52_low": 83.27,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
