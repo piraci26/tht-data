@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T22:03:46.371190+00:00",
+  "updated_at": "2026-09-11T00:04:23.632738+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.64,
+  "scan_seconds": 16.74,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -2955,29 +2955,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "SKM",
-      "name": "SK Telecom Co., Ltd.",
-      "mcap": 14.3,
-      "price": 37.05,
-      "basis": 34.52,
-      "bxt_today": -1.08,
-      "bxt_yest": 7.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 86.7,
-      "atl": 7.07,
-      "pct_to_ath": 134.0,
-      "pct_to_atl": 424.3,
-      "wk52_high": 47.18,
-      "wk52_low": 19.66,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "GIB",
       "name": "CGI Inc.",
       "mcap": 14.3,
@@ -2997,6 +2974,29 @@
       "pct_to_atl": 2058.1,
       "wk52_high": 95.87,
       "wk52_low": 59.63,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "SKM",
+      "name": "SK Telecom Co., Ltd.",
+      "mcap": 14.3,
+      "price": 37.05,
+      "basis": 34.52,
+      "bxt_today": -1.08,
+      "bxt_yest": 7.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 86.7,
+      "atl": 7.07,
+      "pct_to_ath": 134.0,
+      "pct_to_atl": 424.3,
+      "wk52_high": 47.18,
+      "wk52_low": 19.66,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4451,241 +4451,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-10T19:52:42.052599+00:00",
+    "compared_to": "2026-09-10T22:03:46.371190+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "TGS",
-        "name": "Transportadora de Gas del Sur SA TGS",
-        "mcap": 4.3,
-        "price": 30.9,
-        "basis": 30.43,
-        "bxt_today": 14.85,
-        "ath": 36.35,
-        "pct_to_ath": 17.6,
-        "wk52_high": 36.35,
-        "wk52_low": 19.74,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "VAL",
-        "name": "Valaris Limited Common Shares",
-        "mcap": 5.37,
-        "price": 85.71,
-        "basis": 88.12,
-        "bxt_today": 16.87,
-        "ath": 114.12,
-        "pct_to_ath": 33.1,
-        "wk52_high": 114.12,
-        "wk52_low": 46.7,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "KLAC",
-        "name": "KLA Corporation",
-        "mcap": 231.62,
-        "price": 176.86,
-        "basis": 185.32,
-        "bxt_today": -41.87,
-        "ath": 307.37,
-        "pct_to_ath": 73.8,
-        "wk52_high": 307.37,
-        "wk52_low": 91.49,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FMX",
-        "name": "Fomento Economico Mexicano S.A.B. de C.V.",
-        "mcap": 39.98,
-        "price": 117.16,
-        "basis": 118.94,
-        "bxt_today": -46.36,
-        "ath": 143.43,
-        "pct_to_ath": 22.4,
-        "wk52_high": 141.47,
-        "wk52_low": 86.27,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "mcap": 29.74,
-        "price": 286.18,
-        "basis": 293.97,
-        "bxt_today": -1.68,
-        "ath": 371.18,
-        "pct_to_ath": 29.7,
-        "wk52_high": 371.18,
-        "wk52_low": 227.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GWRE",
-        "name": "Guidewire Software, Inc.",
-        "mcap": 11.67,
-        "price": 139.9,
-        "basis": 145.1,
-        "bxt_today": -11.15,
-        "ath": 272.6,
-        "pct_to_ath": 94.9,
-        "wk52_high": 259.0,
-        "wk52_low": 102.3,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LLYVK",
-        "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-        "mcap": 9.5,
-        "price": 96.51,
-        "basis": 97.94,
-        "bxt_today": -32.89,
-        "ath": 109.75,
-        "pct_to_ath": 13.7,
-        "wk52_high": 109.75,
-        "wk52_low": 76.93,
-        "ath_30d": 1
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "HSY",
-        "name": "The Hershey Company",
-        "mcap": 34.83,
-        "price": 174.34,
-        "basis": 193.07,
-        "bxt_today": 0.22,
-        "ath": 276.88,
-        "pct_to_ath": 58.8,
-        "wk52_high": 239.48,
-        "wk52_low": 161.43,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CLH",
-        "name": "Clean Harbors, Inc.",
-        "mcap": 16.86,
-        "price": 320.94,
-        "basis": 297.08,
-        "bxt_today": 0.28,
-        "ath": 335.94,
-        "pct_to_ath": 4.7,
-        "wk52_high": 335.94,
-        "wk52_low": 201.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CAAP",
-        "name": "Corporacion America Airports SA Common Shares",
-        "mcap": 4.07,
-        "price": 24.78,
-        "basis": 25.7,
-        "bxt_today": 0.08,
-        "ath": 30.5,
-        "pct_to_ath": 23.1,
-        "wk52_high": 30.5,
-        "wk52_low": 17.36,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "TRGP",
-        "name": "Targa Resources, Inc.",
-        "mcap": 62.81,
-        "price": 291.91,
-        "basis": 258.33,
-        "bxt_today": -0.51,
-        "ath": 307.94,
-        "pct_to_ath": 5.5,
-        "wk52_high": 307.94,
-        "wk52_low": 144.14,
-        "ath_30d": 3
-      },
-      {
-        "sym": "J",
-        "name": "Jacobs Solutions Inc.",
-        "mcap": 16.45,
-        "price": 140.53,
-        "basis": 131.75,
-        "bxt_today": -0.15,
-        "ath": 168.44,
-        "pct_to_ath": 19.9,
-        "wk52_high": 168.44,
-        "wk52_low": 105.68,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SAIL",
-        "name": "SailPoint, Inc.",
-        "mcap": 7.78,
-        "price": 17.64,
-        "basis": 15.12,
-        "bxt_today": -0.57,
-        "ath": 26.35,
-        "pct_to_ath": 49.4,
-        "wk52_high": 24.0,
-        "wk52_low": 10.3,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FLR",
-        "name": "Fluor Corporation",
-        "mcap": 7.09,
-        "price": 53.55,
-        "basis": 49.64,
-        "bxt_today": -0.5,
-        "ath": 101.36,
-        "pct_to_ath": 89.3,
-        "wk52_high": 58.35,
-        "wk52_low": 39.33,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SBRA",
-        "name": "Sabra Health Care REIT, Inc.",
-        "mcap": 5.29,
-        "price": 20.83,
-        "basis": 20.14,
-        "bxt_today": -0.22,
-        "ath": 68.4,
-        "pct_to_ath": 228.4,
-        "wk52_high": 22.77,
-        "wk52_low": 17.17,
-        "ath_30d": 0
-      },
-      {
-        "sym": "IRTC",
-        "name": "iRhythm Holdings, Inc.",
-        "mcap": 4.01,
-        "price": 112.88,
-        "basis": 121.89,
-        "bxt_today": -0.9,
-        "ath": 286.19,
-        "pct_to_ath": 153.5,
-        "wk52_high": 212.0,
-        "wk52_low": 100.85,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "POST",
-        "name": "Post Holdings, Inc.",
-        "mcap": 3.69,
-        "price": 80.08,
-        "basis": 94.77,
-        "bxt_today": -0.73,
-        "ath": 125.84,
-        "pct_to_ath": 57.1,
-        "wk52_high": 117.28,
-        "wk52_low": 75.4,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
