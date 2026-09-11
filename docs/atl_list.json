@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-11T17:09:50.326773+00:00",
+  "updated_at": "2026-09-11T19:42:22.905021+00:00",
   "count": 3,
   "list": [
     {
       "sym": "MDLN",
       "name": "Medline Inc.",
       "mcap": 28.77,
-      "price": 32.19,
+      "price": 32.54,
       "ath": 50.88,
       "atl": 31.87,
-      "pct_to_ath": 58.0,
-      "pct_to_atl": 1.0,
+      "pct_to_ath": 56.3,
+      "pct_to_atl": 2.1,
       "wk52_high": 50.88,
       "wk52_low": 31.87,
       "ath_30d": 0,
@@ -24,11 +24,11 @@
       "sym": "TTAN",
       "name": "ServiceTitan, Inc.",
       "mcap": 7.41,
-      "price": 54.05,
+      "price": 55.04,
       "ath": 131.33,
       "atl": 53.8,
-      "pct_to_ath": 143.0,
-      "pct_to_atl": 0.5,
+      "pct_to_ath": 138.6,
+      "pct_to_atl": 2.3,
       "wk52_high": 119.6,
       "wk52_low": 53.8,
       "ath_30d": 0,
@@ -42,17 +42,17 @@
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.15,
-      "price": 14.77,
+      "price": 14.73,
       "ath": 34.11,
-      "atl": 14.73,
-      "pct_to_ath": 131.0,
+      "atl": 14.69,
+      "pct_to_ath": 131.6,
       "pct_to_atl": 0.2,
       "wk52_high": 20.08,
-      "wk52_low": 14.73,
+      "wk52_low": 14.69,
       "ath_30d": 0,
       "atl_30d": 5,
       "last_high": 14.88,
-      "last_low": 14.73,
+      "last_low": 14.69,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -850,8 +850,5 @@
       "first_seen_at": "2026-09-11T17:09:50.326773+00:00"
     }
   ],
-  "added_this_run": [
-    "MDLN",
-    "TTAN"
-  ]
+  "added_this_run": []
 }
