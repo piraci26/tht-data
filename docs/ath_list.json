@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-12T17:52:32.532310+00:00",
+  "updated_at": "2026-09-12T19:46:52.751951+00:00",
   "count": 13,
   "list": [
     {
       "sym": "DELL",
       "name": "Dell Technologies Inc. Class C",
-      "mcap": 355.42,
+      "mcap": 360.69,
       "price": 567.29,
       "ath": 567.75,
       "atl": 11.79,
@@ -23,7 +23,7 @@
     {
       "sym": "VLO",
       "name": "Valero Energy Corporation",
-      "mcap": 112.65,
+      "mcap": 112.41,
       "price": 390.42,
       "ath": 399.26,
       "atl": 1.03,
@@ -41,7 +41,7 @@
     {
       "sym": "MPC",
       "name": "Marathon Petroleum Corporation",
-      "mcap": 111.66,
+      "mcap": 111.19,
       "price": 395.93,
       "ath": 409.11,
       "atl": 13.18,
@@ -59,7 +59,7 @@
     {
       "sym": "PSX",
       "name": "Phillips 66",
-      "mcap": 103.65,
+      "mcap": 103.53,
       "price": 259.47,
       "ath": 265.43,
       "atl": 28.75,
@@ -77,7 +77,7 @@
     {
       "sym": "EXPD",
       "name": "Expeditors International of Washington, Inc.",
-      "mcap": 24.98,
+      "mcap": 25.04,
       "price": 192.6,
       "ath": 193.15,
       "atl": 0.15,
@@ -95,7 +95,7 @@
     {
       "sym": "DINO",
       "name": "HF Sinclair Corporation",
-      "mcap": 19.3,
+      "mcap": 19.17,
       "price": 107.84,
       "ath": 112.17,
       "atl": 0.12,
