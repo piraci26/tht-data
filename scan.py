@@ -676,9 +676,18 @@ def run_scan(timeframe="daily"):
             merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
             n_bars_written += 1
 
+    # The major indices and their ETFs ride along: not scanned, but their
+    # bars files stay as fresh as every stock's (markets.py, 2026-09-12).
+    try:
+        from markets import refresh_markets
+        m_ok, m_fail = refresh_markets(timeframe)
+    except Exception as e:
+        m_ok, m_fail = 0, -1
+        print(f"markets refresh failed: {e}", flush=True)
+
     print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r "
-          f"({n_changes} changes, {n_bars_written} bars refreshed)")
+          f"({n_changes} changes, {n_bars_written} bars refreshed, {m_ok} markets)")
 
 def dual_write_extrema(ath_path, atl_path, now_iso):
     """Mirror ath_list.json / atl_list.json into Supabase `extrema_events`.
