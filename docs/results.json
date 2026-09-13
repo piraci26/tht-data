@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13T18:48:08.834371+00:00",
+  "updated_at": "2026-09-13T21:09:38.411300+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.81,
+  "scan_seconds": 17.17,
   "scanned_count": 1500,
   "fvb_green": [
     {
@@ -743,7 +743,7 @@
     {
       "sym": "URBN",
       "name": "Urban Outfitters, Inc.",
-      "mcap": 5.89,
+      "mcap": 6.73,
       "price": 78.58,
       "basis": 77.47,
       "bxt_today": -24.29,
@@ -1090,7 +1090,7 @@
     {
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
-      "mcap": 10.99,
+      "mcap": 10.75,
       "price": 87.18,
       "basis": 88.82,
       "bxt_today": -33.36,
@@ -4198,7 +4198,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-13T16:12:06.819880+00:00",
+    "compared_to": "2026-09-13T18:48:08.834371+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
