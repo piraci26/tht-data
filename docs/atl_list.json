@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-14T18:14:40.502078+00:00",
+  "updated_at": "2026-09-14T21:52:40.172039+00:00",
   "count": 3,
   "list": [
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
-      "mcap": 22.16,
-      "price": 39.71,
+      "mcap": 21.67,
+      "price": 39.43,
       "ath": 65.94,
-      "atl": 39.58,
-      "pct_to_ath": 66.1,
-      "pct_to_atl": 0.3,
+      "atl": 39.42,
+      "pct_to_ath": 67.2,
+      "pct_to_atl": 0.0,
       "wk52_high": 65.94,
-      "wk52_low": 39.58,
+      "wk52_low": 39.42,
       "ath_30d": 0,
       "atl_30d": 7,
       "last_high": 40.22,
-      "last_low": 39.58,
+      "last_low": 39.42,
       "made_ath_today": false,
       "made_atl_today": true
     },
     {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
-      "mcap": 12.65,
-      "price": 23.84,
+      "mcap": 12.0,
+      "price": 23.66,
       "ath": 44.5,
       "atl": 23.44,
-      "pct_to_ath": 86.7,
-      "pct_to_atl": 1.7,
+      "pct_to_ath": 88.1,
+      "pct_to_atl": 0.9,
       "wk52_high": 44.5,
       "wk52_low": 23.44,
       "ath_30d": 0,
@@ -850,8 +850,5 @@
       "first_seen_at": "2026-09-14T18:14:40.502078+00:00"
     }
   ],
-  "added_this_run": [
-    "AMRZ",
-    "MAIR"
-  ]
+  "added_this_run": []
 }
