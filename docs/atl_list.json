@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-09-16T17:03:01.583267+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-09-16T20:02:39.324413+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "AMRZ",
+      "name": "Amrize Ltd Ordinary Shares",
+      "mcap": 21.16,
+      "price": 38.41,
+      "ath": 65.94,
+      "atl": 38.19,
+      "pct_to_ath": 71.7,
+      "pct_to_atl": 0.6,
+      "wk52_high": 65.94,
+      "wk52_low": 38.19,
+      "ath_30d": 0,
+      "atl_30d": 9,
+      "last_high": 39.51,
+      "last_low": 38.19,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -719,25 +738,6 @@
       "first_seen_at": "2026-09-11T17:09:50.326773+00:00"
     },
     {
-      "sym": "AMRZ",
-      "name": "Amrize Ltd Ordinary Shares",
-      "mcap": 22.16,
-      "price": 39.71,
-      "ath": 65.94,
-      "atl": 39.58,
-      "pct_to_ath": 66.1,
-      "pct_to_atl": 0.3,
-      "wk52_high": 65.94,
-      "wk52_low": 39.58,
-      "ath_30d": 0,
-      "atl_30d": 7,
-      "last_high": 40.22,
-      "last_low": 39.58,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-09-14T18:14:40.502078+00:00"
-    },
-    {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
       "mcap": 12.65,
@@ -793,7 +793,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-09-15T18:27:36.254353+00:00"
+    },
+    {
+      "sym": "AMRZ",
+      "name": "Amrize Ltd Ordinary Shares",
+      "mcap": 21.16,
+      "price": 38.41,
+      "ath": 65.94,
+      "atl": 38.19,
+      "pct_to_ath": 71.7,
+      "pct_to_atl": 0.6,
+      "wk52_high": 65.94,
+      "wk52_low": 38.19,
+      "ath_30d": 0,
+      "atl_30d": 9,
+      "last_high": 39.51,
+      "last_low": 38.19,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-09-16T20:02:39.324413+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "AMRZ"
+  ]
 }
