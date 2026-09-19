@@ -8,10 +8,16 @@ through scan.merge_bars so subsequent scans keep accumulating on top:
 Also fills the coverage gaps (tickers that never went "clickable" on a
 timeframe and so never got a bars file there at all).
 """
-import json, os, random, time
+import json, os, random, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from scan import fetch_ohlc, merge_bars, BARS_CAP
+
+# --replace: refetch EVERY symbol deep and overwrite its file instead of
+# merging. The remediation for split re-adjustments that happened while the
+# old merge had no overlap check: those files carry pre-split prices in the
+# older half and no amount of merging repairs them. One-time, then done.
+REPLACE = "--replace" in sys.argv
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -53,7 +59,7 @@ def main():
     for dirname, interval, rng, cap, done_at in JOBS:
         bars_dir = os.path.join(HERE, "docs", dirname)
         os.makedirs(bars_dir, exist_ok=True)
-        todo = [s for s in syms if bar_count(os.path.join(bars_dir, f"{s}.json")) < done_at]
+        todo = list(syms) if REPLACE else [s for s in syms if bar_count(os.path.join(bars_dir, f"{s}.json")) < done_at]
         print(f"{dirname}: {len(todo)} to fetch ({len(syms) - len(todo)} already done)", flush=True)
         done = fail = 0
         with ThreadPoolExecutor(max_workers=4) as ex:
@@ -61,7 +67,13 @@ def main():
             for f in as_completed(futs):
                 sym, bars = f.result()
                 if bars:
-                    merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, cap)
+                    p = os.path.join(bars_dir, f"{sym}.json")
+                    if REPLACE:
+                        out = sorted(bars, key=lambda b: b["time"])[-cap:]
+                        with open(p, "w") as fh:
+                            json.dump(out, fh, separators=(",", ":"))
+                    else:
+                        merge_bars(p, bars, cap, sym=sym, interval=interval)
                     done += 1
                 else:
                     fail += 1

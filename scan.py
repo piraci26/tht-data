@@ -264,7 +264,7 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
         bars = []
         v = q.get("volume", [None]*len(t))
         for i, ts in enumerate(t):
-            if q["open"][i] is None: continue
+            if None in (q["open"][i], q["high"][i], q["low"][i], q["close"][i]): continue
             bars.append({"time": ts, "open": q["open"][i], "high": q["high"][i],
                          "low": q["low"][i], "close": q["close"][i],
                          "volume": v[i] if v[i] is not None else 0})
@@ -279,7 +279,45 @@ def fetch_ohlc(sym, interval="1d", rng="1y"):
 # size sane: daily ~3y, weekly ~10y, monthly ~40y.
 BARS_CAP = {"daily": 780, "weekly": 520, "monthly": 480}
 
-def merge_bars(path, new_bars, cap):
+# deep ranges for a full-history refetch after a split re-adjustment
+LONG_RNG = {"1d": "5y", "1wk": "10y", "1mo": "max"}
+
+try:
+    from zoneinfo import ZoneInfo
+    _NY = ZoneInfo("America/New_York")
+except Exception:
+    _NY = None
+
+def _confirmed_daily(bars, interval, now=None):
+    """Daily rows minus today's forming bar: until the New York close a daily
+    bar is a half-day pretending to be a day, and a backtest trades it."""
+    if interval != "1d" or not bars or _NY is None:
+        return bars
+    now = now or datetime.now(_NY)
+    if now.weekday() >= 5 or (now.hour, now.minute) >= (16, 5):
+        return bars
+    today = now.strftime("%Y-%m-%d")
+    return [b for b in bars if datetime.fromtimestamp(b["time"], _NY).strftime("%Y-%m-%d") != today]
+
+def _bars_readjusted(stored, new_bars):
+    """Two or more overlapping closes off by >0.5% means the vendor re-adjusted
+    the whole history (a split); one lone disagreement is just a bad tick."""
+    hits = 0
+    for b in new_bars:
+        s = stored.get(b["time"])
+        if not s:
+            continue
+        a, c = s.get("close"), b.get("close")
+        if a and c and abs(a / c - 1) > 0.005:
+            hits += 1
+            if hits >= 2:
+                return True
+    return False
+
+def merge_bars(path, new_bars, cap, sym=None, interval=None):
+    new_bars = _confirmed_daily(new_bars, interval)
+    if not new_bars:
+        return
     merged = {}
     try:
         with open(path) as f:
@@ -287,8 +325,20 @@ def merge_bars(path, new_bars, cap):
                 merged[b["time"]] = b
     except Exception:
         pass
-    for b in new_bars:
-        merged[b["time"]] = b
+    # A split re-adjusts the vendor's whole history, but a short fetch only
+    # rewrites its own window — older stored bars keep the pre-split scale and
+    # the file grows a phantom cliff mid-history. When the overlap disagrees,
+    # refetch deep and REPLACE instead of merging; if the deep fetch fails,
+    # the short fresh window alone still beats a cliffed long one.
+    if merged and sym and interval and _bars_readjusted(merged, new_bars):
+        _, deep = fetch_ohlc(sym, interval, LONG_RNG.get(interval, "5y"))
+        fresh = _confirmed_daily(deep, interval) or new_bars
+        print(f"  {sym} [{interval}]: stored closes off the fresh fetch (split re-adjustment) — "
+              f"replaced {len(merged)} stored bars with {len(fresh)} refetched", flush=True)
+        merged = {b["time"]: b for b in fresh}
+    else:
+        for b in new_bars:
+            merged[b["time"]] = b
     out = [merged[t] for t in sorted(merged)][-cap:]
     with open(path, "w") as fh:
         json.dump(out, fh, separators=(',', ':'))
@@ -673,7 +723,7 @@ def run_scan(timeframe="daily"):
     for sym, ohlc in ohlc_map.items():
         bars = ohlc.get("bars")
         if bars:
-            merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
+            merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe], sym=sym, interval=interval)
             n_bars_written += 1
 
     # The major indices and their ETFs ride along: not scanned, but their
@@ -916,7 +966,7 @@ def run_ath_atl_universe():
             for f in as_completed([ex.submit(fetch_ohlc, s, "1d", "1y") for s in clickable]):
                 sym, bars = f.result()
                 if bars:
-                    merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP["daily"])
+                    merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP["daily"], sym=sym, interval="1d")
 
     print(f"[{datetime.now(timezone.utc).isoformat()}] [ath-atl-universe] "
           f"{'FULL SCAN' if do_full_scan else 'cached'} in {round(time.time()-t0,1)}s — "

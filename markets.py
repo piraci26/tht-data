@@ -61,7 +61,7 @@ def refresh_markets(timeframe="daily", ranges=None):
     for sym, (yahoo, _, _, _) in MARKETS.items():
         _, bars = fetch_ohlc(yahoo, interval, rng)
         if bars:
-            merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe])
+            merge_bars(os.path.join(bars_dir, f"{sym}.json"), bars, BARS_CAP[timeframe], sym=yahoo, interval=interval)
             ok += 1
         else:
             fail += 1
