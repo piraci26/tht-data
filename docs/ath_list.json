@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-19T17:30:34.056777+00:00",
+  "updated_at": "2026-09-19T19:35:09.410053+00:00",
   "count": 13,
   "list": [
     {
       "sym": "DELL",
       "name": "Dell Technologies Inc. Class C",
-      "mcap": 365.12,
+      "mcap": 361.18,
       "price": 568.06,
       "ath": 595.51,
       "atl": 11.79,
@@ -23,7 +23,7 @@
     {
       "sym": "MPC",
       "name": "Marathon Petroleum Corporation",
-      "mcap": 123.45,
+      "mcap": 124.04,
       "price": 424.89,
       "ath": 428.0,
       "atl": 13.18,
@@ -41,7 +41,7 @@
     {
       "sym": "VLO",
       "name": "Valero Energy Corporation",
-      "mcap": 118.54,
+      "mcap": 118.99,
       "price": 413.28,
       "ath": 416.66,
       "atl": 1.03,
@@ -59,7 +59,7 @@
     {
       "sym": "NET",
       "name": "Cloudflare, Inc.",
-      "mcap": 114.97,
+      "mcap": 115.23,
       "price": 323.6,
       "ath": 338.0,
       "atl": 14.5,
@@ -77,7 +77,7 @@
     {
       "sym": "PSX",
       "name": "Phillips 66",
-      "mcap": 108.67,
+      "mcap": 108.98,
       "price": 273.13,
       "ath": 277.12,
       "atl": 28.75,
@@ -95,7 +95,7 @@
     {
       "sym": "NTRA",
       "name": "Natera, Inc.",
-      "mcap": 52.27,
+      "mcap": 53.25,
       "price": 369.39,
       "ath": 369.69,
       "atl": 6.52,
@@ -113,7 +113,7 @@
     {
       "sym": "FFIV",
       "name": "F5, Inc.",
-      "mcap": 24.23,
+      "mcap": 24.46,
       "price": 432.03,
       "ath": 439.83,
       "atl": 1.88,
@@ -131,7 +131,7 @@
     {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
-      "mcap": 21.86,
+      "mcap": 22.12,
       "price": 106.71,
       "ath": 109.0,
       "atl": 28.34,
@@ -149,7 +149,7 @@
     {
       "sym": "DINO",
       "name": "HF Sinclair Corporation",
-      "mcap": 20.53,
+      "mcap": 20.61,
       "price": 115.9,
       "ath": 117.7,
       "atl": 0.12,

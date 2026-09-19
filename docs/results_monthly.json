@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19T17:30:08.531145+00:00",
+  "updated_at": "2026-09-19T19:34:15.136665+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.33,
+  "scan_seconds": 19.38,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -30,7 +30,7 @@
     {
       "sym": "GLXY",
       "name": "Galaxy Digital Inc.",
-      "mcap": 4.73,
+      "mcap": 4.8,
       "price": 24.69,
       "basis": 22.96,
       "bxt_today": -13.6,
@@ -55,7 +55,7 @@
     {
       "sym": "GEV",
       "name": "GE Vernova Inc.",
-      "mcap": 249.05,
+      "mcap": 250.44,
       "price": 940.33,
       "basis": 969.02,
       "bxt_today": -38.88,
@@ -78,7 +78,7 @@
     {
       "sym": "ABT",
       "name": "Abbott Laboratories",
-      "mcap": 177.44,
+      "mcap": 177.55,
       "price": 102.61,
       "basis": 107.11,
       "bxt_today": -35.47,
@@ -101,7 +101,7 @@
     {
       "sym": "APO",
       "name": "Apollo Global Management, Inc. (New)",
-      "mcap": 74.58,
+      "mcap": 74.36,
       "price": 125.91,
       "basis": 130.74,
       "bxt_today": -1.42,
@@ -124,7 +124,7 @@
     {
       "sym": "VG",
       "name": "Venture Global, Inc. common stock",
-      "mcap": 35.63,
+      "mcap": 35.05,
       "price": 14.02,
       "basis": 14.26,
       "bxt_today": -33.87,
@@ -147,7 +147,7 @@
     {
       "sym": "HSY",
       "name": "The Hershey Company",
-      "mcap": 34.08,
+      "mcap": 34.12,
       "price": 169.79,
       "basis": 180.13,
       "bxt_today": -22.11,
@@ -172,7 +172,7 @@
     {
       "sym": "SNDK",
       "name": "Sandisk Corporation",
-      "mcap": 254.75,
+      "mcap": 262.36,
       "price": 1791.82,
       "basis": 1530.16,
       "bxt_today": 6.98,
@@ -195,7 +195,7 @@
     {
       "sym": "AMT",
       "name": "American Tower Corporation (REIT)",
-      "mcap": 81.73,
+      "mcap": 81.07,
       "price": 173.98,
       "basis": 194.67,
       "bxt_today": 4.23,
@@ -218,7 +218,7 @@
     {
       "sym": "MSTR",
       "name": "Strategy Inc",
-      "mcap": 60.39,
+      "mcap": 61.15,
       "price": 153.92,
       "basis": 216.16,
       "bxt_today": 2.76,
@@ -241,7 +241,7 @@
     {
       "sym": "OKE",
       "name": "ONEOK, Inc.",
-      "mcap": 59.71,
+      "mcap": 58.92,
       "price": 93.46,
       "basis": 67.36,
       "bxt_today": 1.97,
@@ -264,7 +264,7 @@
     {
       "sym": "HPQ",
       "name": "HP Inc.",
-      "mcap": 31.04,
+      "mcap": 31.02,
       "price": 34.4,
       "basis": 26.94,
       "bxt_today": 12.14,
@@ -287,7 +287,7 @@
     {
       "sym": "CTSH",
       "name": "Cognizant Technology Solutions Corporation",
-      "mcap": 28.42,
+      "mcap": 28.32,
       "price": 59.87,
       "basis": 70.85,
       "bxt_today": 4.29,
@@ -310,7 +310,7 @@
     {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
-      "mcap": 25.11,
+      "mcap": 25.12,
       "price": 120.05,
       "basis": 128.11,
       "bxt_today": 7.72,
@@ -333,7 +333,7 @@
     {
       "sym": "BCE",
       "name": "BCE, Inc.",
-      "mcap": 20.54,
+      "mcap": 20.57,
       "price": 22.06,
       "basis": 38.62,
       "bxt_today": 2.32,
@@ -356,7 +356,7 @@
     {
       "sym": "EMBJ",
       "name": "Embraer S.A.",
-      "mcap": 13.28,
+      "mcap": 13.36,
       "price": 75.07,
       "basis": 49.63,
       "bxt_today": 3.28,
@@ -379,7 +379,7 @@
     {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
-      "mcap": 11.87,
+      "mcap": 12.05,
       "price": 24.01,
       "basis": 27.61,
       "bxt_today": 12.89,
@@ -473,7 +473,7 @@
     {
       "sym": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
-      "mcap": 2230.5,
+      "mcap": 2254.4,
       "price": 434.67,
       "basis": 256.55,
       "bxt_today": -2.6,
@@ -496,7 +496,7 @@
     {
       "sym": "WMT",
       "name": "Walmart Inc.",
-      "mcap": 852.88,
+      "mcap": 846.77,
       "price": 106.73,
       "basis": 63.42,
       "bxt_today": -5.39,
@@ -519,7 +519,7 @@
     {
       "sym": "MS",
       "name": "Morgan Stanley",
-      "mcap": 318.24,
+      "mcap": 318.17,
       "price": 202.58,
       "basis": 144.65,
       "bxt_today": -9.27,
@@ -542,7 +542,7 @@
     {
       "sym": "PM",
       "name": "Philip Morris International Inc",
-      "mcap": 295.1,
+      "mcap": 293.99,
       "price": 188.62,
       "basis": 148.91,
       "bxt_today": -2.64,
@@ -565,7 +565,7 @@
     {
       "sym": "NEE",
       "name": "NextEra Energy, Inc.",
-      "mcap": 168.11,
+      "mcap": 167.83,
       "price": 80.47,
       "basis": 71.93,
       "bxt_today": -3.34,
@@ -588,7 +588,7 @@
     {
       "sym": "RIO",
       "name": "Rio Tinto Plc",
-      "mcap": 157.63,
+      "mcap": 158.36,
       "price": 97.37,
       "basis": 74.38,
       "bxt_today": -8.05,
@@ -611,7 +611,7 @@
     {
       "sym": "BUD",
       "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
-      "mcap": 152.9,
+      "mcap": 153.06,
       "price": 77.73,
       "basis": 65.76,
       "bxt_today": -4.38,
@@ -634,7 +634,7 @@
     {
       "sym": "CB",
       "name": "Chubb Limited",
-      "mcap": 131.76,
+      "mcap": 131.42,
       "price": 340.64,
       "basis": 293.54,
       "bxt_today": -1.19,
@@ -657,7 +657,7 @@
     {
       "sym": "LMT",
       "name": "Lockheed Martin Corporation",
-      "mcap": 123.34,
+      "mcap": 123.1,
       "price": 533.38,
       "basis": 427.98,
       "bxt_today": -2.6,
@@ -680,7 +680,7 @@
     {
       "sym": "SBUX",
       "name": "Starbucks Corporation",
-      "mcap": 109.01,
+      "mcap": 109.25,
       "price": 95.83,
       "basis": 93.0,
       "bxt_today": -2.04,
@@ -703,7 +703,7 @@
     {
       "sym": "ENB",
       "name": "Enbridge Inc",
-      "mcap": 106.51,
+      "mcap": 106.43,
       "price": 48.73,
       "basis": 40.25,
       "bxt_today": -0.21,
@@ -726,7 +726,7 @@
     {
       "sym": "CM",
       "name": "Canadian Imperial Bank of Commerce",
-      "mcap": 103.6,
+      "mcap": 104.29,
       "price": 114.87,
       "basis": 76.52,
       "bxt_today": -3.71,
@@ -749,7 +749,7 @@
     {
       "sym": "CEG",
       "name": "Constellation Energy Corporation",
-      "mcap": 91.07,
+      "mcap": 90.25,
       "price": 254.71,
       "basis": 281.6,
       "bxt_today": -6.15,
@@ -772,7 +772,7 @@
     {
       "sym": "CP",
       "name": "Canadian Pacific Kansas City Limited Common Shares",
-      "mcap": 77.1,
+      "mcap": 76.9,
       "price": 87.48,
       "basis": 71.12,
       "bxt_today": -0.92,
@@ -795,7 +795,7 @@
     {
       "sym": "ECL",
       "name": "Ecolab Inc.",
-      "mcap": 76.02,
+      "mcap": 75.54,
       "price": 269.46,
       "basis": 210.57,
       "bxt_today": -3.22,
@@ -818,7 +818,7 @@
     {
       "sym": "APO",
       "name": "Apollo Global Management, Inc. (New)",
-      "mcap": 74.58,
+      "mcap": 74.36,
       "price": 125.91,
       "basis": 130.74,
       "bxt_today": -1.42,
@@ -841,7 +841,7 @@
     {
       "sym": "NU",
       "name": "Nu Holdings Ltd. Ordinary Shares",
-      "mcap": 66.04,
+      "mcap": 65.94,
       "price": 13.65,
       "basis": 14.19,
       "bxt_today": -9.17,
@@ -864,7 +864,7 @@
     {
       "sym": "PSA",
       "name": "Public Storage",
-      "mcap": 55.53,
+      "mcap": 55.37,
       "price": 296.31,
       "basis": 277.57,
       "bxt_today": -3.25,
@@ -887,7 +887,7 @@
     {
       "sym": "DAL",
       "name": "Delta Air Lines, Inc.",
-      "mcap": 52.21,
+      "mcap": 52.36,
       "price": 79.62,
       "basis": 59.9,
       "bxt_today": -3.11,
@@ -910,7 +910,7 @@
     {
       "sym": "XEL",
       "name": "Xcel Energy Inc.",
-      "mcap": 45.26,
+      "mcap": 45.16,
       "price": 72.3,
       "basis": 66.7,
       "bxt_today": -6.98,
@@ -933,7 +933,7 @@
     {
       "sym": "STM",
       "name": "STMicroelectronics N.V.",
-      "mcap": 44.13,
+      "mcap": 44.76,
       "price": 50.18,
       "basis": 35.72,
       "bxt_today": -0.07,
@@ -956,7 +956,7 @@
     {
       "sym": "FLEX",
       "name": "Flex Ltd. Ordinary Shares",
-      "mcap": 40.0,
+      "mcap": 40.08,
       "price": 108.51,
       "basis": 58.51,
       "bxt_today": -4.52,
@@ -979,7 +979,7 @@
     {
       "sym": "ED",
       "name": "Consolidated Edison, Inc.",
-      "mcap": 39.16,
+      "mcap": 38.99,
       "price": 105.43,
       "basis": 90.28,
       "bxt_today": -1.18,
@@ -1002,7 +1002,7 @@
     {
       "sym": "SYY",
       "name": "Sysco Corporation",
-      "mcap": 38.07,
+      "mcap": 37.91,
       "price": 79.05,
       "basis": 74.62,
       "bxt_today": -0.46,
@@ -1025,7 +1025,7 @@
     {
       "sym": "ACGL",
       "name": "Arch Capital Group Ltd.",
-      "mcap": 33.37,
+      "mcap": 33.06,
       "price": 96.89,
       "basis": 95.32,
       "bxt_today": -0.9,
@@ -1048,7 +1048,7 @@
     {
       "sym": "BAP",
       "name": "Credicorp Ltd.",
-      "mcap": 30.21,
+      "mcap": 30.32,
       "price": 381.83,
       "basis": 247.38,
       "bxt_today": -3.43,
@@ -1071,7 +1071,7 @@
     {
       "sym": "EXR",
       "name": "Extra Space Storage Inc",
-      "mcap": 29.26,
+      "mcap": 28.88,
       "price": 136.71,
       "basis": 147.48,
       "bxt_today": -2.5,
@@ -1092,32 +1092,9 @@
       "atl_30d": 0
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 28.21,
-      "price": 67.04,
-      "basis": 49.72,
-      "bxt_today": -9.04,
-      "bxt_yest": 2.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 75.33,
-      "atl": 14.12,
-      "pct_to_ath": 12.4,
-      "pct_to_atl": 374.8,
-      "wk52_high": 75.33,
-      "wk52_low": 47.96,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "FTI",
       "name": "TechnipFMC plc Ordinary Share",
-      "mcap": 27.92,
+      "mcap": 28.24,
       "price": 72.02,
       "basis": 42.11,
       "bxt_today": -5.56,
@@ -1138,9 +1115,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 28.24,
+      "price": 67.04,
+      "basis": 49.72,
+      "bxt_today": -9.04,
+      "bxt_yest": 2.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 75.33,
+      "atl": 14.12,
+      "pct_to_ath": 12.4,
+      "pct_to_atl": 374.8,
+      "wk52_high": 75.33,
+      "wk52_low": 47.96,
+      "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
       "sym": "DTE",
       "name": "DTE Energy Company",
-      "mcap": 26.8,
+      "mcap": 26.74,
       "price": 128.52,
       "basis": 116.03,
       "bxt_today": -11.22,
@@ -1184,32 +1184,9 @@
       "atl_30d": 12
     },
     {
-      "sym": "TSEM",
-      "name": "Tower Semiconductor Ltd. Ordinary Shares",
-      "mcap": 25.35,
-      "price": 223.6,
-      "basis": 95.11,
-      "bxt_today": -1.02,
-      "bxt_yest": 6.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 652.5,
-      "atl": 1.35,
-      "pct_to_ath": 191.8,
-      "pct_to_atl": 16463.0,
-      "wk52_high": 319.94,
-      "wk52_low": 66.0,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "QSR",
       "name": "Restaurant Brands International Inc. Common Shares",
-      "mcap": 25.27,
+      "mcap": 25.42,
       "price": 72.88,
       "basis": 70.54,
       "bxt_today": -4.31,
@@ -1230,9 +1207,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "TSEM",
+      "name": "Tower Semiconductor Ltd. Ordinary Shares",
+      "mcap": 25.27,
+      "price": 223.6,
+      "basis": 95.11,
+      "bxt_today": -1.02,
+      "bxt_yest": 6.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 652.5,
+      "atl": 1.35,
+      "pct_to_ath": 191.8,
+      "pct_to_atl": 16463.0,
+      "wk52_high": 319.94,
+      "wk52_low": 66.0,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "DRI",
       "name": "Darden Restaurants, Inc.",
-      "mcap": 23.77,
+      "mcap": 23.76,
       "price": 209.28,
       "basis": 187.4,
       "bxt_today": -0.57,
@@ -1255,7 +1255,7 @@
     {
       "sym": "DLTR",
       "name": "Dollar Tree Inc.",
-      "mcap": 21.37,
+      "mcap": 21.01,
       "price": 111.96,
       "basis": 103.27,
       "bxt_today": -6.82,
@@ -1276,32 +1276,9 @@
       "atl_30d": 0
     },
     {
-      "sym": "EXE",
-      "name": "Expand Energy Corporation",
-      "mcap": 20.97,
-      "price": 87.49,
-      "basis": 96.98,
-      "bxt_today": -10.84,
-      "bxt_yest": 0.39,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 126.62,
-      "atl": 40.0,
-      "pct_to_ath": 44.7,
-      "pct_to_atl": 118.7,
-      "wk52_high": 126.62,
-      "wk52_low": 84.99,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "CW",
       "name": "Curtiss-Wright Corporation",
-      "mcap": 20.73,
+      "mcap": 20.99,
       "price": 568.27,
       "basis": 263.91,
       "bxt_today": -0.98,
@@ -1322,9 +1299,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "EXE",
+      "name": "Expand Energy Corporation",
+      "mcap": 20.93,
+      "price": 87.49,
+      "basis": 96.98,
+      "bxt_today": -10.84,
+      "bxt_yest": 0.39,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 126.62,
+      "atl": 40.0,
+      "pct_to_ath": 44.7,
+      "pct_to_atl": 118.7,
+      "wk52_high": 126.62,
+      "wk52_low": 84.99,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "NI",
       "name": "NiSource Inc",
-      "mcap": 19.47,
+      "mcap": 19.46,
       "price": 40.58,
       "basis": 31.0,
       "bxt_today": -7.91,
@@ -1347,7 +1347,7 @@
     {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
-      "mcap": 19.17,
+      "mcap": 19.25,
       "price": 372.15,
       "basis": 250.71,
       "bxt_today": -0.83,
@@ -1370,7 +1370,7 @@
     {
       "sym": "KSPI",
       "name": "Joint Stock Company Kaspi.kz American Depository Shares",
-      "mcap": 18.49,
+      "mcap": 18.53,
       "price": 97.53,
       "basis": 86.22,
       "bxt_today": -9.0,
@@ -1393,7 +1393,7 @@
     {
       "sym": "U",
       "name": "Unity Software Inc.",
-      "mcap": 18.03,
+      "mcap": 18.22,
       "price": 41.4,
       "basis": 29.49,
       "bxt_today": -2.3,
@@ -1416,7 +1416,7 @@
     {
       "sym": "EWBC",
       "name": "East West Bancorp, Inc.",
-      "mcap": 17.28,
+      "mcap": 17.39,
       "price": 126.92,
       "basis": 100.43,
       "bxt_today": -4.27,
@@ -1439,7 +1439,7 @@
     {
       "sym": "LNT",
       "name": "Alliant Energy Corporation",
-      "mcap": 17.05,
+      "mcap": 17.01,
       "price": 65.61,
       "basis": 56.62,
       "bxt_today": -1.37,
@@ -1462,7 +1462,7 @@
     {
       "sym": "WCC",
       "name": "WESCO International, Inc.",
-      "mcap": 16.6,
+      "mcap": 16.77,
       "price": 344.15,
       "basis": 228.04,
       "bxt_today": -4.34,
@@ -1485,7 +1485,7 @@
     {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
-      "mcap": 15.38,
+      "mcap": 15.48,
       "price": 336.38,
       "basis": 274.59,
       "bxt_today": -4.33,
@@ -1506,32 +1506,9 @@
       "atl_30d": 0
     },
     {
-      "sym": "NBIX",
-      "name": "Neurocrine Biosciences, Inc.",
-      "mcap": 15.18,
-      "price": 146.23,
-      "basis": 136.69,
-      "bxt_today": -7.41,
-      "bxt_yest": 1.18,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 186.12,
-      "atl": 1.94,
-      "pct_to_ath": 27.3,
-      "pct_to_atl": 7437.6,
-      "wk52_high": 186.12,
-      "wk52_low": 122.14,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SOLV",
       "name": "Solventum Corporation",
-      "mcap": 15.13,
+      "mcap": 15.12,
       "price": 88.84,
       "basis": 77.03,
       "bxt_today": -2.52,
@@ -1554,7 +1531,7 @@
     {
       "sym": "LAMR",
       "name": "Lamar Advertising Company",
-      "mcap": 14.87,
+      "mcap": 14.91,
       "price": 146.81,
       "basis": 128.31,
       "bxt_today": -0.43,
@@ -1575,9 +1552,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "NBIX",
+      "name": "Neurocrine Biosciences, Inc.",
+      "mcap": 14.86,
+      "price": 146.23,
+      "basis": 136.69,
+      "bxt_today": -7.41,
+      "bxt_yest": 1.18,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 186.12,
+      "atl": 1.94,
+      "pct_to_ath": 27.3,
+      "pct_to_atl": 7437.6,
+      "wk52_high": 186.12,
+      "wk52_low": 122.14,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "TRU",
       "name": "TransUnion",
-      "mcap": 13.91,
+      "mcap": 13.88,
       "price": 72.43,
       "basis": 83.39,
       "bxt_today": -2.8,
@@ -1600,7 +1600,7 @@
     {
       "sym": "BWA",
       "name": "BorgWarner Inc.",
-      "mcap": 12.81,
+      "mcap": 12.9,
       "price": 63.32,
       "basis": 42.64,
       "bxt_today": -1.1,
@@ -1623,7 +1623,7 @@
     {
       "sym": "IESC",
       "name": "IES Holdings, Inc.",
-      "mcap": 12.79,
+      "mcap": 12.84,
       "price": 322.16,
       "basis": 171.4,
       "bxt_today": -6.92,
@@ -1715,7 +1715,7 @@
     {
       "sym": "TFII",
       "name": "TFI International Inc. Common Shares",
-      "mcap": 10.27,
+      "mcap": 10.29,
       "price": 125.16,
       "basis": 121.13,
       "bxt_today": -0.0,
@@ -1807,7 +1807,7 @@
     {
       "sym": "DY",
       "name": "Dycom Industries, Inc.",
-      "mcap": 8.76,
+      "mcap": 8.8,
       "price": 291.8,
       "basis": 147.01,
       "bxt_today": -6.37,
@@ -2542,7 +2542,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-19T14:46:44.646977+00:00",
+    "compared_to": "2026-09-19T17:30:08.531145+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

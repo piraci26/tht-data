@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-19T17:30:34.061165+00:00",
+  "updated_at": "2026-09-19T19:35:09.414622+00:00",
   "count": 4,
   "list": [
     {
       "sym": "MDLN",
       "name": "Medline Inc.",
-      "mcap": 27.99,
+      "mcap": 27.76,
       "price": 31.64,
       "ath": 50.88,
       "atl": 31.49,
@@ -23,7 +23,7 @@
     {
       "sym": "AMRZ",
       "name": "Amrize Ltd Ordinary Shares",
-      "mcap": 20.56,
+      "mcap": 20.53,
       "price": 37.54,
       "ath": 65.94,
       "atl": 37.38,
