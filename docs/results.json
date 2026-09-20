@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T01:36:49.205464+00:00",
+  "updated_at": "2026-09-20T06:59:44.071541+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.81,
-  "scanned_count": 1498,
+  "scan_seconds": 25.83,
+  "scanned_count": 1497,
   "fvb_green": [
     {
       "sym": "NVDA",
@@ -5233,7 +5233,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-19T23:36:19.449902+00:00",
+    "compared_to": "2026-09-20T01:36:49.205464+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
