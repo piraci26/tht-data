@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T21:06:42.920883+00:00",
+  "updated_at": "2026-09-20T23:13:05.315147+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.1,
+  "scan_seconds": 11.71,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -954,29 +954,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "DG",
-      "name": "Dollar General Corporation",
-      "mcap": 27.01,
-      "price": 122.41,
-      "basis": 123.65,
-      "bxt_today": -2.83,
-      "bxt_yest": 5.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 262.21,
-      "atl": 21.3,
-      "pct_to_ath": 114.2,
-      "pct_to_atl": 474.7,
-      "wk52_high": 158.23,
-      "wk52_low": 95.11,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "AWK",
       "name": "American Water Works Company, Inc.",
       "mcap": 27.01,
@@ -996,6 +973,29 @@
       "pct_to_atl": 737.9,
       "wk52_high": 145.64,
       "wk52_low": 120.57,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "DG",
+      "name": "Dollar General Corporation",
+      "mcap": 27.01,
+      "price": 122.41,
+      "basis": 123.65,
+      "bxt_today": -2.83,
+      "bxt_yest": 5.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 262.21,
+      "atl": 21.3,
+      "pct_to_ath": 114.2,
+      "pct_to_atl": 474.7,
+      "wk52_high": 158.23,
+      "wk52_low": 95.11,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1921,7 +1921,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-20T16:12:21.553443+00:00",
+    "compared_to": "2026-09-20T21:06:42.920883+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
