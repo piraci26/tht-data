@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T06:19:22.950000+00:00",
+  "updated_at": "2026-09-21T13:02:38.068911+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.51,
+  "scan_seconds": 17.36,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -747,29 +747,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "COR",
-      "name": "Cencora, Inc.",
-      "mcap": 58.92,
-      "price": 308.78,
-      "basis": 311.9,
-      "bxt_today": -2.74,
-      "bxt_yest": 9.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 377.54,
-      "atl": 2.47,
-      "pct_to_ath": 22.3,
-      "pct_to_atl": 12407.5,
-      "wk52_high": 377.54,
-      "wk52_low": 244.82,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "OKE",
       "name": "ONEOK, Inc.",
       "mcap": 58.92,
@@ -789,6 +766,29 @@
       "pct_to_atl": 8772.7,
       "wk52_high": 99.85,
       "wk52_low": 64.02,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "COR",
+      "name": "Cencora, Inc.",
+      "mcap": 58.92,
+      "price": 308.78,
+      "basis": 311.9,
+      "bxt_today": -2.74,
+      "bxt_yest": 9.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 377.54,
+      "atl": 2.47,
+      "pct_to_ath": 22.3,
+      "pct_to_atl": 12407.5,
+      "wk52_high": 377.54,
+      "wk52_low": 244.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -1921,7 +1921,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-21T01:09:23.190756+00:00",
+    "compared_to": "2026-09-21T06:19:22.950000+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
