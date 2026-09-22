@@ -1,7 +1,44 @@
 {
-  "updated_at": "2026-09-22T10:20:08.578629+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-09-22T15:04:23.276503+00:00",
+  "count": 2,
+  "list": [
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.15,
+      "price": 14.1,
+      "ath": 34.11,
+      "atl": 14.07,
+      "pct_to_ath": 141.9,
+      "pct_to_atl": 0.2,
+      "wk52_high": 19.96,
+      "wk52_low": 14.07,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 14.23,
+      "last_low": 14.07,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "XNDU",
+      "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
+      "mcap": 2.46,
+      "price": 5.98,
+      "ath": 42.44,
+      "atl": 5.32,
+      "pct_to_ath": 609.7,
+      "pct_to_atl": 12.4,
+      "wk52_high": 42.44,
+      "wk52_low": 5.32,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 6.18,
+      "last_low": 5.32,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -226,21 +263,6 @@
       "wk52_low": 61.03,
       "ath_30d": 2,
       "atl_30d": 2,
-      "first_seen_at": "2026-05-11T15:41:47.611404+00:00"
-    },
-    {
-      "sym": "XNDU",
-      "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
-      "mcap": 5,
-      "price": 15.13,
-      "ath": 42.44,
-      "atl": 6.97,
-      "pct_to_ath": 180.5,
-      "pct_to_atl": 117.0,
-      "wk52_high": 42.44,
-      "wk52_low": 6.97,
-      "ath_30d": 4,
-      "atl_30d": 4,
       "first_seen_at": "2026-05-11T15:41:47.611404+00:00"
     },
     {
@@ -681,25 +703,6 @@
       "first_seen_at": "2026-09-09T20:05:05.875454+00:00"
     },
     {
-      "sym": "PDI",
-      "name": "PIMCO Dynamic Income Fund",
-      "mcap": 7.15,
-      "price": 14.79,
-      "ath": 34.11,
-      "atl": 14.78,
-      "pct_to_ath": 130.6,
-      "pct_to_atl": 0.1,
-      "wk52_high": 20.08,
-      "wk52_low": 14.78,
-      "ath_30d": 0,
-      "atl_30d": 5,
-      "last_high": 14.87,
-      "last_low": 14.78,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-09-11T13:31:30.538867+00:00"
-    },
-    {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
       "mcap": 12.65,
@@ -812,7 +815,48 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-09-18T21:56:13.544904+00:00"
+    },
+    {
+      "sym": "PDI",
+      "name": "PIMCO Dynamic Income Fund",
+      "mcap": 7.15,
+      "price": 14.1,
+      "ath": 34.11,
+      "atl": 14.07,
+      "pct_to_ath": 141.9,
+      "pct_to_atl": 0.2,
+      "wk52_high": 19.96,
+      "wk52_low": 14.07,
+      "ath_30d": 0,
+      "atl_30d": 8,
+      "last_high": 14.23,
+      "last_low": 14.07,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-09-22T15:04:23.276503+00:00"
+    },
+    {
+      "sym": "XNDU",
+      "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
+      "mcap": 2.46,
+      "price": 5.98,
+      "ath": 42.44,
+      "atl": 5.32,
+      "pct_to_ath": 609.7,
+      "pct_to_atl": 12.4,
+      "wk52_high": 42.44,
+      "wk52_low": 5.32,
+      "ath_30d": 0,
+      "atl_30d": 1,
+      "last_high": 6.18,
+      "last_low": 5.32,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-09-22T15:04:23.276503+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "PDI",
+    "XNDU"
+  ]
 }
