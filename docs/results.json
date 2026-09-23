@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T07:44:27.107913+00:00",
+  "updated_at": "2026-09-23T13:02:56.232105+00:00",
   "timeframe": "daily",
-  "scan_seconds": 17.64,
+  "scan_seconds": 25.75,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -877,6 +877,29 @@
       "wk52_low": 37.76,
       "ath_30d": 1,
       "atl_30d": 0
+    },
+    {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 2.75,
+      "price": 2.97,
+      "basis": 2.79,
+      "bxt_today": 7.31,
+      "bxt_yest": -25.78,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": 6,
+      "ath": 21.3,
+      "atl": 2.38,
+      "pct_to_ath": 617.2,
+      "pct_to_atl": 24.8,
+      "wk52_high": 5.74,
+      "wk52_low": 2.38,
+      "ath_30d": 0,
+      "atl_30d": 4
     }
   ],
   "fvb_red": [
@@ -5069,6 +5092,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "CSAN",
+      "name": "Cosan S.A. ADS",
+      "mcap": 2.75,
+      "price": 2.97,
+      "basis": 2.79,
+      "bxt_today": 7.31,
+      "bxt_yest": -25.78,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": 6,
+      "ath": 21.3,
+      "atl": 2.38,
+      "pct_to_ath": 617.2,
+      "pct_to_atl": 24.8,
+      "wk52_high": 5.74,
+      "wk52_low": 2.38,
+      "ath_30d": 0,
+      "atl_30d": 4
+    },
+    {
       "sym": "HWKN",
       "name": "Hawkins, Inc.",
       "mcap": 2.55,
@@ -6406,41 +6452,41 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-23T02:08:55.771895+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-09-23T07:44:27.107913+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "CSAN",
+        "name": "Cosan S.A. ADS",
+        "mcap": 2.75,
+        "price": 2.97,
+        "basis": 2.79,
+        "bxt_today": 7.31,
+        "ath": 21.3,
+        "pct_to_ath": 617.2,
+        "wk52_high": 5.74,
+        "wk52_low": 2.38,
+        "ath_30d": 0
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [
       {
-        "sym": "CET",
-        "name": "Central Securities Corporation",
-        "mcap": 1.66,
-        "price": 56.74,
-        "basis": 55.13,
-        "bxt_today": 17.94,
-        "ath": 57.39,
-        "pct_to_ath": 1.1,
-        "wk52_high": 57.39,
-        "wk52_low": 47.82,
-        "ath_30d": 5
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "ADEA",
-        "name": "Adeia Inc.",
-        "mcap": 3.01,
-        "price": 25.53,
-        "basis": 26.83,
-        "bxt_today": 2.13,
-        "ath": 34.34,
-        "pct_to_ath": 34.5,
-        "wk52_high": 34.34,
-        "wk52_low": 11.61,
+        "sym": "CSAN",
+        "name": "Cosan S.A. ADS",
+        "mcap": 2.75,
+        "price": 2.97,
+        "basis": 2.79,
+        "bxt_today": 7.31,
+        "ath": 21.3,
+        "pct_to_ath": 617.2,
+        "wk52_high": 5.74,
+        "wk52_low": 2.38,
         "ath_30d": 0
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
