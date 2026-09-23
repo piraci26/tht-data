@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-23T17:51:13.545827+00:00",
+  "updated_at": "2026-09-23T20:44:18.729271+00:00",
   "count": 3,
   "list": [
     {
       "sym": "JBS",
       "name": "JBS N.V. Common Shares",
-      "mcap": 39.14,
-      "price": 11.49,
+      "mcap": 37.61,
+      "price": 11.51,
       "ath": 18.65,
       "atl": 11.42,
-      "pct_to_ath": 62.3,
-      "pct_to_atl": 0.6,
+      "pct_to_ath": 62.0,
+      "pct_to_atl": 0.8,
       "wk52_high": 18.65,
       "wk52_low": 11.42,
       "ath_30d": 0,
@@ -24,17 +24,17 @@
       "sym": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "mcap": 7.15,
-      "price": 13.78,
+      "price": 13.86,
       "ath": 34.11,
-      "atl": 13.75,
-      "pct_to_ath": 147.5,
-      "pct_to_atl": 0.2,
+      "atl": 13.73,
+      "pct_to_ath": 146.1,
+      "pct_to_atl": 0.9,
       "wk52_high": 19.96,
-      "wk52_low": 13.75,
+      "wk52_low": 13.73,
       "ath_30d": 0,
-      "atl_30d": 8,
+      "atl_30d": 9,
       "last_high": 14.07,
-      "last_low": 13.75,
+      "last_low": 13.73,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -42,17 +42,17 @@
       "sym": "XNDU",
       "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
       "mcap": 2.46,
-      "price": 5.43,
+      "price": 5.33,
       "ath": 42.44,
-      "atl": 5.42,
-      "pct_to_ath": 681.3,
-      "pct_to_atl": 0.2,
+      "atl": 5.3,
+      "pct_to_ath": 696.2,
+      "pct_to_atl": 0.7,
       "wk52_high": 42.44,
-      "wk52_low": 5.42,
+      "wk52_low": 5.3,
       "ath_30d": 0,
-      "atl_30d": 1,
+      "atl_30d": 2,
       "last_high": 6.0,
-      "last_low": 5.42,
+      "last_low": 5.3,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -873,8 +873,5 @@
       "first_seen_at": "2026-09-23T17:51:13.545827+00:00"
     }
   ],
-  "added_this_run": [
-    "JBS",
-    "PDI"
-  ]
+  "added_this_run": []
 }
