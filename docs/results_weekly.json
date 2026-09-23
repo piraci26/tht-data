@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T02:09:19.240353+00:00",
+  "updated_at": "2026-09-23T07:44:55.158706+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.53,
+  "scan_seconds": 14.92,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2094,13 +2094,13 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 5,
-      "ath": 95.72,
+      "ath": 95.74,
       "atl": 13.19,
       "pct_to_ath": 1.8,
       "pct_to_atl": 612.8,
       "wk52_high": 95.72,
       "wk52_low": 62.98,
-      "ath_30d": 8,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -2347,9 +2347,9 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 17,
-      "ath": 248.7,
+      "ath": 248.84,
       "atl": 3.56,
-      "pct_to_ath": 5.9,
+      "pct_to_ath": 6.0,
       "pct_to_atl": 6489.8,
       "wk52_high": 248.84,
       "wk52_low": 171.18,
@@ -3117,7 +3117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-22T23:52:09.018244+00:00",
+    "compared_to": "2026-09-23T02:09:19.240353+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

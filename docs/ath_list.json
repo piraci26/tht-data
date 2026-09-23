@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-23T02:09:59.800028+00:00",
-  "count": 12,
+  "updated_at": "2026-09-23T07:45:52.374903+00:00",
+  "count": 8,
   "list": [
     {
       "sym": "AAPL",
@@ -75,42 +75,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "BNS",
-      "name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
-      "mcap": 114.99,
-      "price": 95.35,
-      "ath": 95.72,
-      "atl": 13.19,
-      "pct_to_ath": 0.4,
-      "pct_to_atl": 622.6,
-      "wk52_high": 95.72,
-      "wk52_low": 62.98,
-      "ath_30d": 8,
-      "atl_30d": 0,
-      "last_high": 95.72,
-      "last_low": 93.98,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 56.34,
-      "price": 370.64,
-      "ath": 391.81,
-      "atl": 6.52,
-      "pct_to_ath": 5.7,
-      "pct_to_atl": 5584.7,
-      "wk52_high": 391.81,
-      "wk52_low": 157.43,
-      "ath_30d": 10,
-      "atl_30d": 0,
-      "last_high": 391.81,
-      "last_low": 365.2,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "WAT",
       "name": "Waters Corporation",
       "mcap": 41.91,
@@ -125,24 +89,6 @@
       "atl_30d": 0,
       "last_high": 433.09,
       "last_low": 423.64,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "FFIV",
-      "name": "F5, Inc.",
-      "mcap": 25.57,
-      "price": 450.1,
-      "ath": 454.0,
-      "atl": 1.88,
-      "pct_to_ath": 0.9,
-      "pct_to_atl": 23905.3,
-      "wk52_high": 454.0,
-      "wk52_low": 223.76,
-      "ath_30d": 5,
-      "atl_30d": 0,
-      "last_high": 454.0,
-      "last_low": 442.01,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -183,32 +129,14 @@
       "made_atl_today": false
     },
     {
-      "sym": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "mcap": 2.75,
-      "price": 2.97,
-      "ath": 3.1,
-      "atl": 2.71,
-      "pct_to_ath": 4.4,
-      "pct_to_atl": 9.6,
-      "wk52_high": 3.1,
-      "wk52_low": 2.71,
-      "ath_30d": 2,
-      "atl_30d": 1,
-      "last_high": 3.1,
-      "last_low": 2.79,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "CET",
       "name": "Central Securities Corporation",
       "mcap": 1.66,
-      "price": 56.99,
+      "price": 56.74,
       "ath": 57.39,
       "atl": 7.38,
-      "pct_to_ath": 0.7,
-      "pct_to_atl": 672.7,
+      "pct_to_ath": 1.1,
+      "pct_to_atl": 669.4,
       "wk52_high": 57.39,
       "wk52_low": 47.82,
       "ath_30d": 5,
@@ -4021,7 +3949,5 @@
       "first_seen_at": "2026-09-23T02:09:59.800028+00:00"
     }
   ],
-  "added_this_run": [
-    "CSAN"
-  ]
+  "added_this_run": []
 }

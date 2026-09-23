@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-09-23T02:09:59.804593+00:00",
-  "count": 2,
+  "updated_at": "2026-09-23T07:45:52.377489+00:00",
+  "count": 1,
   "list": [
-    {
-      "sym": "PDI",
-      "name": "PIMCO Dynamic Income Fund",
-      "mcap": 7.15,
-      "price": 14.04,
-      "ath": 34.11,
-      "atl": 13.96,
-      "pct_to_ath": 142.9,
-      "pct_to_atl": 0.6,
-      "wk52_high": 19.96,
-      "wk52_low": 13.96,
-      "ath_30d": 0,
-      "atl_30d": 8,
-      "last_high": 14.23,
-      "last_low": 13.96,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
     {
       "sym": "XNDU",
       "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
