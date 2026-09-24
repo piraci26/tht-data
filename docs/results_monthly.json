@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24T20:31:07.337095+00:00",
+  "updated_at": "2026-09-24T23:24:02.775709+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.54,
+  "scan_seconds": 16.99,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -172,7 +172,7 @@
       "name": "IDEXX Laboratories, Inc.",
       "mcap": 40.41,
       "price": 513.39,
-      "basis": 536.21,
+      "basis": 536.22,
       "bxt_today": -37.0,
       "bxt_yest": -34.8,
       "fvb_g": false,
@@ -1776,10 +1776,10 @@
       "atl": 64.25,
       "pct_to_ath": 7.1,
       "pct_to_atl": 2.6,
-      "wk52_high": 70.61,
-      "wk52_low": 63.26,
+      "wk52_high": 185.62,
+      "wk52_low": 182.8,
       "ath_30d": 1,
-      "atl_30d": 12
+      "atl_30d": 0
     },
     {
       "sym": "CINF",
@@ -2223,7 +2223,7 @@
       "name": "Akamai Technologies, Inc.",
       "mcap": 16.27,
       "price": 110.41,
-      "basis": 97.44,
+      "basis": 97.45,
       "bxt_today": -0.55,
       "bxt_yest": 10.56,
       "fvb_g": false,
@@ -3876,398 +3876,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-24T17:10:38.453173+00:00",
+    "compared_to": "2026-09-24T20:31:07.337095+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "MDA",
-        "name": "MDA Space Ltd. Common Shares",
-        "mcap": 4.68,
-        "price": 32.01,
-        "basis": 31.13,
-        "bxt_today": 46.87,
-        "ath": 49.37,
-        "pct_to_ath": 54.2,
-        "wk52_high": 49.37,
-        "wk52_low": 23.23,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_added": [
-      {
-        "sym": "MCD",
-        "name": "McDonald's Corporation",
-        "mcap": 169.01,
-        "price": 237.02,
-        "basis": 249.57,
-        "bxt_today": -43.44,
-        "ath": 341.75,
-        "pct_to_ath": 44.2,
-        "wk52_high": 341.75,
-        "wk52_low": 234.03,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PAYX",
-        "name": "Paychex, Inc.",
-        "mcap": 36.41,
-        "price": 101.59,
-        "basis": 108.26,
-        "bxt_today": -36.27,
-        "ath": 161.24,
-        "pct_to_ath": 58.7,
-        "wk52_high": 130.64,
-        "wk52_low": 85.45,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AWK",
-        "name": "American Water Works Company, Inc.",
-        "mcap": 26.19,
-        "price": 131.53,
-        "basis": 133.93,
-        "bxt_today": 7.81,
-        "ath": 189.65,
-        "pct_to_ath": 44.2,
-        "wk52_high": 145.64,
-        "wk52_low": 120.57,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AXTA",
-        "name": "Axalta Coating Systems Ltd. Common Shares",
-        "mcap": 6.96,
-        "price": 32.26,
-        "basis": 33.03,
-        "bxt_today": 7.49,
-        "ath": 41.65,
-        "pct_to_ath": 29.1,
-        "wk52_high": 38.61,
-        "wk52_low": 24.94,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CWEN",
-        "name": "Clearway Energy, Inc. Class C",
-        "mcap": 6.23,
-        "price": 29.19,
-        "basis": 30.42,
-        "bxt_today": -34.43,
-        "ath": 41.79,
-        "pct_to_ath": 43.2,
-        "wk52_high": 41.74,
-        "wk52_low": 27.97,
-        "ath_30d": 0
-      }
-    ],
-    "fvb_red_removed": [
-      {
-        "sym": "UHAL",
-        "name": "U-Haul Holding Company",
-        "mcap": 12.43,
-        "price": 60.72,
-        "basis": 62.6,
-        "bxt_today": 17.64,
-        "ath": 79.04,
-        "pct_to_ath": 30.2,
-        "wk52_high": 76.45,
-        "wk52_low": 41.95,
-        "ath_30d": 0
-      },
-      {
-        "sym": "BYD",
-        "name": "Boyd Gaming Corporation",
-        "mcap": 6.41,
-        "price": 71.12,
-        "basis": 74.09,
-        "bxt_today": -41.56,
-        "ath": 91.41,
-        "pct_to_ath": 28.5,
-        "wk52_high": 91.41,
-        "wk52_low": 69.9,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNR",
-        "name": "Core Natural Resources, Inc.",
-        "mcap": 5.05,
-        "price": 88.4,
-        "basis": 90.52,
-        "bxt_today": -9.72,
-        "ath": 134.59,
-        "pct_to_ath": 52.3,
-        "wk52_high": 114.8,
-        "wk52_low": 74.75,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "WBD",
-        "name": "Warner Bros. Discovery, Inc. Series A",
-        "mcap": 77.32,
-        "price": 30.84,
-        "basis": 16.5,
-        "bxt_today": 0.08,
-        "ath": 78.14,
-        "pct_to_ath": 153.4,
-        "wk52_high": 30.92,
-        "wk52_low": 17.08,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KNSL",
-        "name": "Kinsale Capital Group, Inc.",
-        "mcap": 7.7,
-        "price": 340.51,
-        "basis": 417.17,
-        "bxt_today": 0.55,
-        "ath": 548.47,
-        "pct_to_ath": 61.1,
-        "wk52_high": 485.0,
-        "wk52_low": 287.2,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 69.13,
-        "bxt_today": 49.67,
-        "ath": 184.06,
-        "pct_to_ath": -0.0,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AMTM",
-        "name": "Amentum Holdings, Inc.",
-        "mcap": 5.04,
-        "price": 19.7,
-        "basis": 23.83,
-        "bxt_today": 1.65,
-        "ath": 38.11,
-        "pct_to_ath": 93.5,
-        "wk52_high": 38.11,
-        "wk52_low": 19.21,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CP",
-        "name": "Canadian Pacific Kansas City Limited Common Shares",
-        "mcap": 77.03,
-        "price": 87.32,
-        "basis": 71.13,
-        "bxt_today": -0.64,
-        "ath": 96.9,
-        "pct_to_ath": 11.0,
-        "wk52_high": 96.9,
-        "wk52_low": 68.42,
-        "ath_30d": 5
-      },
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 65.91,
-        "basis": 65.55,
-        "bxt_today": -3.58,
-        "ath": 70.61,
-        "pct_to_ath": 7.1,
-        "wk52_high": 70.61,
-        "wk52_low": 63.26,
-        "ath_30d": 1
-      },
-      {
-        "sym": "DRI",
-        "name": "Darden Restaurants, Inc.",
-        "mcap": 23.7,
-        "price": 207.24,
-        "basis": 187.46,
-        "bxt_today": -1.13,
-        "ath": 229.76,
-        "pct_to_ath": 10.9,
-        "wk52_high": 229.76,
-        "wk52_low": 169.0,
-        "ath_30d": 2
-      },
-      {
-        "sym": "MTZ",
-        "name": "MasTec, Inc.",
-        "mcap": 17.16,
-        "price": 211.95,
-        "basis": 114.0,
-        "bxt_today": -0.13,
-        "ath": 441.43,
-        "pct_to_ath": 108.3,
-        "wk52_high": 441.43,
-        "wk52_low": 182.34,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AKAM",
-        "name": "Akamai Technologies, Inc.",
-        "mcap": 16.27,
-        "price": 110.41,
-        "basis": 97.44,
-        "bxt_today": -0.55,
-        "ath": 345.5,
-        "pct_to_ath": 212.9,
-        "wk52_high": 165.45,
-        "wk52_low": 70.82,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ERIE",
-        "name": "Erie Indemnity Company",
-        "mcap": 13.21,
-        "price": 218.96,
-        "basis": 344.65,
-        "bxt_today": -0.01,
-        "ath": 547.0,
-        "pct_to_ath": 149.8,
-        "wk52_high": 330.54,
-        "wk52_low": 204.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "FIVE",
-        "name": "Five Below, Inc.",
-        "mcap": 12.51,
-        "price": 222.38,
-        "basis": 151.62,
-        "bxt_today": -2.53,
-        "ath": 263.88,
-        "pct_to_ath": 18.7,
-        "wk52_high": 263.88,
-        "wk52_low": 137.77,
-        "ath_30d": 1
-      },
-      {
-        "sym": "DVA",
-        "name": "DaVita Inc.",
-        "mcap": 12.08,
-        "price": 174.67,
-        "basis": 150.86,
-        "bxt_today": -0.23,
-        "ath": 247.49,
-        "pct_to_ath": 41.7,
-        "wk52_high": 247.49,
-        "wk52_low": 101.0,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SANM",
-        "name": "Sanmina Corporation",
-        "mcap": 11.98,
-        "price": 221.88,
-        "basis": 120.04,
-        "bxt_today": -0.09,
-        "ath": 363.0,
-        "pct_to_ath": 63.6,
-        "wk52_high": 288.68,
-        "wk52_low": 110.44,
-        "ath_30d": 0
-      },
-      {
-        "sym": "KNX",
-        "name": "Knight-Swift Transportation Holdings Inc.",
-        "mcap": 11.13,
-        "price": 65.5,
-        "basis": 54.27,
-        "bxt_today": -0.62,
-        "ath": 82.86,
-        "pct_to_ath": 26.5,
-        "wk52_high": 82.86,
-        "wk52_low": 38.63,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SARO",
-        "name": "StandardAero, Inc.",
-        "mcap": 7.81,
-        "price": 22.18,
-        "basis": 25.17,
-        "bxt_today": -2.61,
-        "ath": 34.48,
-        "pct_to_ath": 55.5,
-        "wk52_high": 34.48,
-        "wk52_low": 22.15,
-        "ath_30d": 0
-      },
-      {
-        "sym": "NJR",
-        "name": "NewJersey Resources Corporation",
-        "mcap": 5.89,
-        "price": 51.06,
-        "basis": 44.78,
-        "bxt_today": -0.38,
-        "ath": 60.86,
-        "pct_to_ath": 19.2,
-        "wk52_high": 60.86,
-        "wk52_low": 43.46,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PII",
-        "name": "Polaris Inc.",
-        "mcap": 3.18,
-        "price": 52.38,
-        "basis": 88.7,
-        "bxt_today": -0.02,
-        "ath": 159.33,
-        "pct_to_ath": 204.2,
-        "wk52_high": 77.98,
-        "wk52_low": 47.14,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "AMP",
-        "name": "Ameriprise Financial, Inc.",
-        "mcap": 44.7,
-        "price": 480.96,
-        "basis": 481.96,
-        "bxt_today": -0.5,
-        "ath": 582.05,
-        "pct_to_ath": 21.0,
-        "wk52_high": 572.56,
-        "wk52_low": 422.37,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRNX",
-        "name": "Crinetics Pharmaceuticals, Inc.",
-        "mcap": 9.0,
-        "price": 84.95,
-        "basis": 84.88,
-        "bxt_today": -4.6,
-        "ath": 85.01,
-        "pct_to_ath": 0.1,
-        "wk52_high": 85.01,
-        "wk52_low": 83.81,
-        "ath_30d": 6
-      },
-      {
-        "sym": "LBRDK",
-        "name": "Liberty Broadband Corporation Class C",
-        "mcap": 4.41,
-        "price": 36.02,
-        "basis": 35.87,
-        "bxt_today": -7.96,
-        "ath": 37.59,
-        "pct_to_ath": 4.4,
-        "wk52_high": 37.59,
-        "wk52_low": 35.01,
-        "ath_30d": 1
-      }
-    ]
+    "fvb_green_removed": [],
+    "fvb_red_added": [],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
