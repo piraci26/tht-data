@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T01:41:56.552683+00:00",
+  "updated_at": "2026-09-25T06:38:25.946364+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.69,
+  "scan_seconds": 10.08,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -3646,174 +3646,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-24T23:24:02.775709+00:00",
+    "compared_to": "2026-09-25T01:41:56.552683+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "CTVA",
-        "name": "Corteva, Inc.",
-        "mcap": 52.78,
-        "price": 79.45,
-        "basis": 81.03,
-        "bxt_today": -18.7,
-        "ath": 90.97,
-        "pct_to_ath": 14.5,
-        "wk52_high": 90.97,
-        "wk52_low": 60.53,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PCOR",
-        "name": "Procore Technologies, Inc.",
-        "mcap": 8.55,
-        "price": 49.5,
-        "basis": 52.04,
-        "bxt_today": -14.08,
-        "ath": 108.75,
-        "pct_to_ath": 119.7,
-        "wk52_high": 82.32,
-        "wk52_low": 38.03,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "MDB",
-        "name": "MongoDB, Inc.",
-        "mcap": 33.79,
-        "price": 421.4,
-        "basis": 329.96,
-        "bxt_today": 3.35,
-        "ath": 590.0,
-        "pct_to_ath": 40.0,
-        "wk52_high": 473.1,
-        "wk52_low": 215.68,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "APP",
-        "name": "Applovin Corporation",
-        "mcap": 105.14,
-        "price": 312.47,
-        "basis": 425.7,
-        "bxt_today": 0.19,
-        "ath": 745.61,
-        "pct_to_ath": 138.6,
-        "wk52_high": 745.61,
-        "wk52_low": 297.5,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AMRX",
-        "name": "Amneal Pharmaceuticals, Inc.",
-        "mcap": 5.32,
-        "price": 19.81,
-        "basis": 15.34,
-        "bxt_today": 8.43,
-        "ath": 24.48,
-        "pct_to_ath": 23.6,
-        "wk52_high": 21.17,
-        "wk52_low": 9.49,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LUNR",
-        "name": "Intuitive Machines, Inc.",
-        "mcap": 2.58,
-        "price": 15.7,
-        "basis": 21.06,
-        "bxt_today": 8.05,
-        "ath": 136.0,
-        "pct_to_ath": 766.2,
-        "wk52_high": 46.75,
-        "wk52_low": 7.78,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "U",
-        "name": "Unity Software Inc.",
-        "mcap": 18.22,
-        "price": 41.42,
-        "basis": 30.12,
-        "bxt_today": -7.13,
-        "ath": 210.0,
-        "pct_to_ath": 407.0,
-        "wk52_high": 52.15,
-        "wk52_low": 16.78,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EQH",
-        "name": "Equitable Holdings, Inc.",
-        "mcap": 14.31,
-        "price": 52.61,
-        "basis": 44.88,
-        "bxt_today": -0.1,
-        "ath": 56.61,
-        "pct_to_ath": 7.6,
-        "wk52_high": 55.15,
-        "wk52_low": 35.19,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VAL",
-        "name": "Valaris Limited Common Shares",
-        "mcap": 5.71,
-        "price": 81.79,
-        "basis": 88.69,
-        "bxt_today": -6.73,
-        "ath": 114.12,
-        "pct_to_ath": 39.5,
-        "wk52_high": 114.12,
-        "wk52_low": 46.7,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNR",
-        "name": "Core Natural Resources, Inc.",
-        "mcap": 5.05,
-        "price": 88.76,
-        "basis": 90.52,
-        "bxt_today": -9.18,
-        "ath": 134.59,
-        "pct_to_ath": 51.6,
-        "wk52_high": 114.8,
-        "wk52_low": 74.75,
-        "ath_30d": 0
-      },
-      {
-        "sym": "VNT",
-        "name": "Vontier Corporation",
-        "mcap": 4.28,
-        "price": 30.91,
-        "basis": 33.05,
-        "bxt_today": -5.76,
-        "ath": 48.2,
-        "pct_to_ath": 55.9,
-        "wk52_high": 48.2,
-        "wk52_low": 27.25,
-        "ath_30d": 0
-      },
-      {
-        "sym": "STEP",
-        "name": "StepStone Group Inc.",
-        "mcap": 3.58,
-        "price": 43.55,
-        "basis": 47.7,
-        "bxt_today": -8.89,
-        "ath": 77.79,
-        "pct_to_ath": 78.6,
-        "wk52_high": 77.79,
-        "wk52_low": 38.85,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
