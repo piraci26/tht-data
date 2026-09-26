@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T01:54:25.477735+00:00",
+  "updated_at": "2026-09-26T06:57:41.212726+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.99,
+  "scan_seconds": 7.58,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -2104,29 +2104,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NNN",
-      "name": "NNN REIT, Inc.",
-      "mcap": 8.33,
-      "price": 41.3,
-      "basis": 43.79,
-      "bxt_today": -5.31,
-      "bxt_yest": 0.6,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 59.26,
-      "atl": 7.0,
-      "pct_to_ath": 43.5,
-      "pct_to_atl": 490.0,
-      "wk52_high": 50.0,
-      "wk52_low": 38.9,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SNEX",
       "name": "StoneX Group Inc.",
       "mcap": 8.33,
@@ -2146,6 +2123,29 @@
       "pct_to_atl": 75061.2,
       "wk52_high": 94.66,
       "wk52_low": 36.45,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "NNN",
+      "name": "NNN REIT, Inc.",
+      "mcap": 8.33,
+      "price": 41.3,
+      "basis": 43.79,
+      "bxt_today": -5.31,
+      "bxt_yest": 0.6,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 59.26,
+      "atl": 7.0,
+      "pct_to_ath": 43.5,
+      "pct_to_atl": 490.0,
+      "wk52_high": 50.0,
+      "wk52_low": 38.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2933,136 +2933,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-25T23:30:11.622075+00:00",
+    "compared_to": "2026-09-26T01:54:25.477735+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "CRDO",
-        "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-        "mcap": 39.85,
-        "price": 210.97,
-        "basis": 188.13,
-        "bxt_today": -17.0,
-        "ath": 308.67,
-        "pct_to_ath": 46.3,
-        "wk52_high": 308.67,
-        "wk52_low": 86.49,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "DDOG",
-        "name": "Datadog, Inc.",
-        "mcap": 97.13,
-        "price": 268.13,
-        "basis": 198.18,
-        "bxt_today": 1.14,
-        "ath": 292.72,
-        "pct_to_ath": 9.2,
-        "wk52_high": 292.72,
-        "wk52_low": 98.01,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CNM",
-        "name": "Core & Main, Inc.",
-        "mcap": 7.53,
-        "price": 42.64,
-        "basis": 47.59,
-        "bxt_today": 2.1,
-        "ath": 67.18,
-        "pct_to_ath": 57.6,
-        "wk52_high": 59.66,
-        "wk52_low": 40.03,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LBRT",
-        "name": "Liberty Energy Inc. common stock",
-        "mcap": 3.15,
-        "price": 18.94,
-        "basis": 25.76,
-        "bxt_today": 0.78,
-        "ath": 34.48,
-        "pct_to_ath": 82.0,
-        "wk52_high": 34.48,
-        "wk52_low": 11.52,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "BJ",
-        "name": "BJ's Wholesale Club Holdings, Inc.",
-        "mcap": 11.88,
-        "price": 93.79,
-        "basis": 93.12,
-        "bxt_today": 1.49,
-        "ath": 121.1,
-        "pct_to_ath": 29.1,
-        "wk52_high": 105.78,
-        "wk52_low": 83.21,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ONON",
-        "name": "On Holding AG Ordinary Shares",
-        "mcap": 10.05,
-        "price": 29.96,
-        "basis": 36.01,
-        "bxt_today": 0.41,
-        "ath": 64.05,
-        "pct_to_ath": 113.8,
-        "wk52_high": 51.08,
-        "wk52_low": 26.36,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "STEP",
-        "name": "StepStone Group Inc.",
-        "mcap": 3.58,
-        "price": 44.36,
-        "basis": 47.68,
-        "bxt_today": -7.32,
-        "ath": 77.79,
-        "pct_to_ath": 75.4,
-        "wk52_high": 77.79,
-        "wk52_low": 38.85,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "NE",
-        "name": "Noble Corporation plc A Ordinary Shares",
-        "mcap": 6.98,
-        "price": 42.82,
-        "basis": 45.59,
-        "bxt_today": -10.47,
-        "ath": 55.34,
-        "pct_to_ath": 29.2,
-        "wk52_high": 54.98,
-        "wk52_low": 26.69,
-        "ath_30d": 0
-      },
-      {
-        "sym": "STVN",
-        "name": "Stevanato Group S.p.A. Ordinary Shares",
-        "mcap": 6.13,
-        "price": 21.13,
-        "basis": 18.08,
-        "bxt_today": -6.98,
-        "ath": 36.3,
-        "pct_to_ath": 71.8,
-        "wk52_high": 27.99,
-        "wk52_low": 12.89,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
