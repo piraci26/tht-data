@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T16:20:28.925803+00:00",
+  "updated_at": "2026-09-26T19:16:53.658074+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.62,
+  "scan_seconds": 14.13,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -55,7 +55,7 @@
     {
       "sym": "OKE",
       "name": "ONEOK, Inc.",
-      "mcap": 55.69,
+      "mcap": 55.87,
       "price": 88.63,
       "basis": 89.59,
       "bxt_today": -27.63,
@@ -78,7 +78,7 @@
     {
       "sym": "VG",
       "name": "Venture Global, Inc. common stock",
-      "mcap": 31.74,
+      "mcap": 31.55,
       "price": 12.62,
       "basis": 13.06,
       "bxt_today": -23.86,
@@ -149,7 +149,7 @@
     {
       "sym": "ADI",
       "name": "Analog Devices, Inc.",
-      "mcap": 190.67,
+      "mcap": 190.72,
       "price": 393.6,
       "basis": 374.53,
       "bxt_today": 6.99,
@@ -172,7 +172,7 @@
     {
       "sym": "DDOG",
       "name": "Datadog, Inc.",
-      "mcap": 97.13,
+      "mcap": 96.28,
       "price": 268.13,
       "basis": 198.18,
       "bxt_today": 1.14,
@@ -195,7 +195,7 @@
     {
       "sym": "JCI",
       "name": "Johnson Controls International plc Ordinary Share",
-      "mcap": 90.7,
+      "mcap": 90.98,
       "price": 150.2,
       "basis": 141.68,
       "bxt_today": 3.29,
@@ -218,7 +218,7 @@
     {
       "sym": "EMR",
       "name": "Emerson Electric Company",
-      "mcap": 88.49,
+      "mcap": 88.26,
       "price": 158.23,
       "basis": 144.4,
       "bxt_today": 2.11,
@@ -241,7 +241,7 @@
     {
       "sym": "MPWR",
       "name": "Monolithic Power Systems, Inc.",
-      "mcap": 66.96,
+      "mcap": 67.2,
       "price": 1367.43,
       "basis": 1345.6,
       "bxt_today": 3.42,
@@ -264,7 +264,7 @@
     {
       "sym": "ALAB",
       "name": "Astera Labs, Inc.",
-      "mcap": 63.97,
+      "mcap": 63.26,
       "price": 364.62,
       "basis": 261.99,
       "bxt_today": 5.57,
@@ -287,7 +287,7 @@
     {
       "sym": "TER",
       "name": "Teradyne, Inc.",
-      "mcap": 62.31,
+      "mcap": 62.28,
       "price": 398.38,
       "basis": 359.51,
       "bxt_today": 3.04,
@@ -333,7 +333,7 @@
     {
       "sym": "RKLB",
       "name": "Rocket Lab Corporation",
-      "mcap": 47.32,
+      "mcap": 47.28,
       "price": 73.95,
       "basis": 82.66,
       "bxt_today": 7.65,
@@ -356,7 +356,7 @@
     {
       "sym": "AZO",
       "name": "AutoZone, Inc.",
-      "mcap": 46.59,
+      "mcap": 46.45,
       "price": 2872.16,
       "basis": 3237.55,
       "bxt_today": 7.95,
@@ -379,7 +379,7 @@
     {
       "sym": "MCHP",
       "name": "Microchip Technology Incorporated",
-      "mcap": 42.55,
+      "mcap": 42.73,
       "price": 78.69,
       "basis": 80.62,
       "bxt_today": 1.24,
@@ -402,7 +402,7 @@
     {
       "sym": "WST",
       "name": "West Pharmaceutical Services, Inc.",
-      "mcap": 26.1,
+      "mcap": 26.07,
       "price": 370.44,
       "basis": 312.78,
       "bxt_today": 4.87,
@@ -425,7 +425,7 @@
     {
       "sym": "LEN",
       "name": "Lennar Corporation",
-      "mcap": 19.66,
+      "mcap": 19.79,
       "price": 82.15,
       "basis": 89.93,
       "bxt_today": 5.66,
@@ -448,7 +448,7 @@
     {
       "sym": "ASTS",
       "name": "AST SpaceMobile, Inc.",
-      "mcap": 18.42,
+      "mcap": 18.53,
       "price": 61.81,
       "basis": 77.71,
       "bxt_today": 7.81,
@@ -471,7 +471,7 @@
     {
       "sym": "WCC",
       "name": "WESCO International, Inc.",
-      "mcap": 17.97,
+      "mcap": 17.91,
       "price": 367.44,
       "basis": 329.18,
       "bxt_today": 6.2,
@@ -494,7 +494,7 @@
     {
       "sym": "WSO",
       "name": "Watsco, Inc.",
-      "mcap": 13.08,
+      "mcap": 13.09,
       "price": 317.23,
       "basis": 371.22,
       "bxt_today": 9.18,
@@ -517,7 +517,7 @@
     {
       "sym": "QXO",
       "name": "QXO, Inc.",
-      "mcap": 12.82,
+      "mcap": 12.9,
       "price": 12.43,
       "basis": 17.32,
       "bxt_today": 3.74,
@@ -540,7 +540,7 @@
     {
       "sym": "GNRC",
       "name": "Generac Holdlings Inc.",
-      "mcap": 12.28,
+      "mcap": 12.29,
       "price": 208.14,
       "basis": 225.65,
       "bxt_today": 4.99,
@@ -563,7 +563,7 @@
     {
       "sym": "VIAV",
       "name": "Viavi Solutions Inc.",
-      "mcap": 9.94,
+      "mcap": 10.04,
       "price": 40.68,
       "basis": 40.86,
       "bxt_today": 1.27,
@@ -841,7 +841,7 @@
     {
       "sym": "XOM",
       "name": "Exxon Mobil Corporation",
-      "mcap": 659.98,
+      "mcap": 660.33,
       "price": 160.59,
       "basis": 153.28,
       "bxt_today": -0.21,
@@ -864,7 +864,7 @@
     {
       "sym": "NFLX",
       "name": "Netflix, Inc.",
-      "mcap": 296.29,
+      "mcap": 296.26,
       "price": 71.14,
       "basis": 83.24,
       "bxt_today": -2.98,
@@ -887,7 +887,7 @@
     {
       "sym": "COP",
       "name": "ConocoPhillips",
-      "mcap": 155.22,
+      "mcap": 155.09,
       "price": 127.3,
       "basis": 120.85,
       "bxt_today": -6.49,
@@ -910,7 +910,7 @@
     {
       "sym": "MDT",
       "name": "Medtronic plc. Ordinary Shares",
-      "mcap": 112.83,
+      "mcap": 113.38,
       "price": 88.64,
       "basis": 85.95,
       "bxt_today": -3.96,
@@ -933,7 +933,7 @@
     {
       "sym": "SPOT",
       "name": "Spotify Technology S.A. Ordinary Shares",
-      "mcap": 104.35,
+      "mcap": 104.87,
       "price": 510.01,
       "basis": 495.09,
       "bxt_today": -4.61,
@@ -956,7 +956,7 @@
     {
       "sym": "FCX",
       "name": "Freeport-McMoRan, Inc.",
-      "mcap": 103.78,
+      "mcap": 103.84,
       "price": 72.31,
       "basis": 64.94,
       "bxt_today": -2.48,
@@ -979,7 +979,7 @@
     {
       "sym": "MCK",
       "name": "McKesson Corporation",
-      "mcap": 100.95,
+      "mcap": 101.04,
       "price": 866.64,
       "basis": 846.59,
       "bxt_today": -4.37,
@@ -1002,7 +1002,7 @@
     {
       "sym": "EQNR",
       "name": "Equinor ASA",
-      "mcap": 99.57,
+      "mcap": 100.01,
       "price": 42.19,
       "basis": 37.93,
       "bxt_today": -4.83,
@@ -1025,7 +1025,7 @@
     {
       "sym": "REGN",
       "name": "Regeneron Pharmaceuticals, Inc.",
-      "mcap": 81.29,
+      "mcap": 81.13,
       "price": 788.04,
       "basis": 727.11,
       "bxt_today": -0.31,
@@ -1048,7 +1048,7 @@
     {
       "sym": "AU",
       "name": "AngloGold Ashanti PLC Ordinary Shares",
-      "mcap": 49.94,
+      "mcap": 50.09,
       "price": 99.03,
       "basis": 96.9,
       "bxt_today": -4.47,
@@ -1071,7 +1071,7 @@
     {
       "sym": "KB",
       "name": "KB Financial Group Inc",
-      "mcap": 44.7,
+      "mcap": 44.68,
       "price": 127.26,
       "basis": 112.43,
       "bxt_today": -3.04,
@@ -1094,7 +1094,7 @@
     {
       "sym": "HPQ",
       "name": "HP Inc.",
-      "mcap": 28.25,
+      "mcap": 28.23,
       "price": 31.3,
       "basis": 24.45,
       "bxt_today": -3.79,
@@ -1117,7 +1117,7 @@
     {
       "sym": "FOXA",
       "name": "Fox Corporation",
-      "mcap": 26.52,
+      "mcap": 26.59,
       "price": 63.07,
       "basis": 61.12,
       "bxt_today": -6.19,
@@ -1140,7 +1140,7 @@
     {
       "sym": "FOX",
       "name": "Fox Corporation",
-      "mcap": 23.76,
+      "mcap": 23.84,
       "price": 56.54,
       "basis": 54.91,
       "bxt_today": -4.37,
@@ -1163,7 +1163,7 @@
     {
       "sym": "TW",
       "name": "Tradeweb Markets Inc.",
-      "mcap": 21.45,
+      "mcap": 21.55,
       "price": 101.19,
       "basis": 108.72,
       "bxt_today": -0.59,
@@ -1186,7 +1186,7 @@
     {
       "sym": "BBY",
       "name": "Best Buy Co., Inc.",
-      "mcap": 19.08,
+      "mcap": 18.98,
       "price": 90.51,
       "basis": 74.14,
       "bxt_today": -2.59,
@@ -1209,7 +1209,7 @@
     {
       "sym": "BR",
       "name": "Broadridge Financial Solutions, Inc.",
-      "mcap": 19.0,
+      "mcap": 18.94,
       "price": 163.77,
       "basis": 161.07,
       "bxt_today": -0.87,
@@ -1232,7 +1232,7 @@
     {
       "sym": "SSNC",
       "name": "SS&C Technologies Holdings, Inc.",
-      "mcap": 18.48,
+      "mcap": 18.45,
       "price": 78.61,
       "basis": 72.36,
       "bxt_today": -8.03,
@@ -1255,7 +1255,7 @@
     {
       "sym": "NTNX",
       "name": "Nutanix, Inc.",
-      "mcap": 18.43,
+      "mcap": 18.41,
       "price": 68.03,
       "basis": 51.32,
       "bxt_today": -4.02,
@@ -1278,7 +1278,7 @@
     {
       "sym": "PTC",
       "name": "PTC Inc.",
-      "mcap": 15.02,
+      "mcap": 14.99,
       "price": 138.12,
       "basis": 139.29,
       "bxt_today": -0.79,
@@ -1301,7 +1301,7 @@
     {
       "sym": "TYL",
       "name": "Tyler Technologies, Inc.",
-      "mcap": 13.45,
+      "mcap": 13.33,
       "price": 325.57,
       "basis": 327.42,
       "bxt_today": -1.02,
@@ -1324,7 +1324,7 @@
     {
       "sym": "TLK",
       "name": "PT Telekomunikasi Indonesia, Tbk",
-      "mcap": 13.1,
+      "mcap": 13.15,
       "price": 13.34,
       "basis": 16.29,
       "bxt_today": -6.3,
@@ -1416,7 +1416,7 @@
     {
       "sym": "HUBS",
       "name": "HubSpot, Inc.",
-      "mcap": 10.79,
+      "mcap": 10.66,
       "price": 213.74,
       "basis": 224.43,
       "bxt_today": -3.59,
@@ -1875,7 +1875,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-26T12:07:41.824742+00:00",
+    "compared_to": "2026-09-26T16:20:28.925803+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
