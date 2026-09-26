@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-26T06:57:23.881139+00:00",
+  "updated_at": "2026-09-26T12:07:41.824742+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.08,
-  "scanned_count": 1497,
+  "scan_seconds": 14.94,
+  "scanned_count": 1496,
   "fvb_green": [
     {
       "sym": "UHS",
@@ -1875,7 +1875,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-26T01:54:06.105606+00:00",
+    "compared_to": "2026-09-26T06:57:23.881139+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
