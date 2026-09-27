@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-27T15:20:08.294553+00:00",
+  "updated_at": "2026-09-27T19:05:11.198681+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.11,
+  "scan_seconds": 9.76,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -695,6 +695,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "HHH",
+      "name": "Howard Hughes Holdings Inc.",
+      "mcap": 4.09,
+      "price": 68.43,
+      "basis": 64.82,
+      "bxt_today": 40.64,
+      "bxt_yest": 33.9,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 153.12,
+      "atl": 33.46,
+      "pct_to_ath": 123.8,
+      "pct_to_atl": 104.5,
+      "wk52_high": 91.07,
+      "wk52_low": 60.09,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "SYNA",
       "name": "Synaptics Incorporated $0.001 Par Value",
       "mcap": 4.08,
@@ -714,29 +737,6 @@
       "pct_to_atl": 4822.7,
       "wk52_high": 149.11,
       "wk52_low": 58.28,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HHH",
-      "name": "Howard Hughes Holdings Inc.",
-      "mcap": 4.06,
-      "price": 68.43,
-      "basis": 64.82,
-      "bxt_today": 40.64,
-      "bxt_yest": 33.9,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 153.12,
-      "atl": 33.46,
-      "pct_to_ath": 123.8,
-      "pct_to_atl": 104.5,
-      "wk52_high": 91.07,
-      "wk52_low": 60.09,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3968,7 +3968,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-27T10:43:39.136231+00:00",
+    "compared_to": "2026-09-27T15:20:08.294553+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
