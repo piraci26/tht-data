@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-27T00:26:57.425881+00:00",
+  "updated_at": "2026-09-27T05:36:30.620535+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.14,
+  "scan_seconds": 9.03,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -2104,29 +2104,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "NNN",
-      "name": "NNN REIT, Inc.",
-      "mcap": 8.33,
-      "price": 41.3,
-      "basis": 43.79,
-      "bxt_today": -5.31,
-      "bxt_yest": 0.6,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 59.26,
-      "atl": 7.0,
-      "pct_to_ath": 43.5,
-      "pct_to_atl": 490.0,
-      "wk52_high": 50.0,
-      "wk52_low": 38.9,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "SNEX",
       "name": "StoneX Group Inc.",
       "mcap": 8.33,
@@ -2146,6 +2123,29 @@
       "pct_to_atl": 75061.2,
       "wk52_high": 94.66,
       "wk52_low": 36.45,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "NNN",
+      "name": "NNN REIT, Inc.",
+      "mcap": 8.33,
+      "price": 41.3,
+      "basis": 43.79,
+      "bxt_today": -5.31,
+      "bxt_yest": 0.6,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 59.26,
+      "atl": 7.0,
+      "pct_to_ath": 43.5,
+      "pct_to_atl": 490.0,
+      "wk52_high": 50.0,
+      "wk52_low": 38.9,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2933,7 +2933,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-09-26T22:00:49.223791+00:00",
+    "compared_to": "2026-09-27T00:26:57.425881+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
