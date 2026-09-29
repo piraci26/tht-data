@@ -1,44 +1,7 @@
 {
-  "updated_at": "2026-09-29T11:27:06.238612+00:00",
-  "count": 2,
-  "list": [
-    {
-      "sym": "MWH",
-      "name": "SOLV Energy, Inc.",
-      "mcap": 5.15,
-      "price": 23.81,
-      "ath": 48.4,
-      "atl": 23.53,
-      "pct_to_ath": 103.3,
-      "pct_to_atl": 1.2,
-      "wk52_high": 48.4,
-      "wk52_low": 23.53,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 25.13,
-      "last_low": 23.53,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "XNDU",
-      "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
-      "mcap": 2.46,
-      "price": 4.77,
-      "ath": 42.44,
-      "atl": 4.7,
-      "pct_to_ath": 789.7,
-      "pct_to_atl": 1.5,
-      "wk52_high": 42.44,
-      "wk52_low": 4.7,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 4.94,
-      "last_low": 4.7,
-      "made_ath_today": false,
-      "made_atl_today": true
-    }
-  ],
+  "updated_at": "2026-09-29T16:58:49.248785+00:00",
+  "count": 0,
+  "list": [],
   "accumulator": [
     {
       "sym": "BETA",
