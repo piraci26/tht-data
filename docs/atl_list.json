@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-01T01:18:50.233678+00:00",
+  "updated_at": "2026-10-01T07:15:47.816212+00:00",
   "count": 1,
   "list": [
     {
       "sym": "XNDU",
       "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
       "mcap": 2.46,
-      "price": 4.77,
+      "price": 4.58,
       "ath": 42.44,
-      "atl": 4.57,
-      "pct_to_ath": 789.7,
-      "pct_to_atl": 4.5,
+      "atl": 4.56,
+      "pct_to_ath": 826.6,
+      "pct_to_atl": 0.4,
       "wk52_high": 42.44,
-      "wk52_low": 4.57,
+      "wk52_low": 4.56,
       "ath_30d": 0,
       "atl_30d": 5,
       "last_high": 4.84,
-      "last_low": 4.57,
+      "last_low": 4.56,
       "made_ath_today": false,
       "made_atl_today": true
     }
