@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-02T20:01:10.334438+00:00",
+  "updated_at": "2026-10-02T23:43:38.588220+00:00",
   "count": 2,
   "list": [
     {
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 4.86,
-      "price": 9.59,
+      "price": 9.58,
       "ath": 21.62,
       "atl": 9.57,
-      "pct_to_ath": 125.4,
-      "pct_to_atl": 0.2,
+      "pct_to_ath": 125.7,
+      "pct_to_atl": 0.1,
       "wk52_high": 15.0,
       "wk52_low": 9.57,
       "ath_30d": 0,
