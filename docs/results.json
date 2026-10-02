@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-02T02:30:47.423084+00:00",
+  "updated_at": "2026-10-02T08:55:06.510023+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.81,
+  "scan_seconds": 16.36,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -6245,7 +6245,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-01T23:28:06.402535+00:00",
+    "compared_to": "2026-10-02T02:30:47.423084+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -6253,20 +6253,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 60,
-        "price": 62.9,
-        "basis": 65.17,
-        "bxt_today": -32.13,
-        "ath": 73.0,
-        "pct_to_ath": 16.1,
-        "wk52_high": 66.5,
-        "wk52_low": 59.0,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
