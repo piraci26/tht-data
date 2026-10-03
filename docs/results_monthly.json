@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-03T17:35:28.740164+00:00",
+  "updated_at": "2026-10-03T20:12:06.143391+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.71,
+  "scan_seconds": 15.31,
   "scanned_count": 1496,
   "fvb_green": [
     {
       "sym": "CRWV",
       "name": "CoreWeave, Inc.",
-      "mcap": 49.3,
+      "mcap": 49.43,
       "price": 89.62,
       "basis": 87.32,
       "bxt_today": 25.16,
@@ -78,7 +78,7 @@
     {
       "sym": "LOW",
       "name": "Lowe's Companies, Inc.",
-      "mcap": 101.95,
+      "mcap": 101.44,
       "price": 180.8,
       "basis": 194.07,
       "bxt_today": -41.41,
@@ -101,7 +101,7 @@
     {
       "sym": "RSG",
       "name": "Republic Services, Inc.",
-      "mcap": 64.3,
+      "mcap": 64.17,
       "price": 209.56,
       "basis": 214.8,
       "bxt_today": -23.35,
@@ -124,7 +124,7 @@
     {
       "sym": "PAC",
       "name": "Grupo Aeroportuario Del Pacifico, S.A. B. de C.V. Grupo Aeroportuario Del Pacifico, S.A. de C.V. (each representing 10 Series B shares)",
-      "mcap": 12.01,
+      "mcap": 11.95,
       "price": 200.9,
       "basis": 209.25,
       "bxt_today": -42.55,
@@ -147,7 +147,7 @@
     {
       "sym": "EVR",
       "name": "Evercore Inc.",
-      "mcap": 10.1,
+      "mcap": 10.06,
       "price": 261.68,
       "basis": 274.17,
       "bxt_today": -41.84,
@@ -218,7 +218,7 @@
     {
       "sym": "DIS",
       "name": "Walt Disney Company (The)",
-      "mcap": 176.81,
+      "mcap": 176.45,
       "price": 102.19,
       "basis": 118.24,
       "bxt_today": 0.63,
@@ -241,7 +241,7 @@
     {
       "sym": "NBIS",
       "name": "Nebius Group N.V. Ordinary Shares",
-      "mcap": 65.82,
+      "mcap": 66.01,
       "price": 242.81,
       "basis": 224.93,
       "bxt_today": 10.2,
@@ -264,7 +264,7 @@
     {
       "sym": "JBS",
       "name": "JBS N.V. Common Shares",
-      "mcap": 38.3,
+      "mcap": 38.39,
       "price": 11.67,
       "basis": 12.67,
       "bxt_today": 11.88,
@@ -310,7 +310,7 @@
     {
       "sym": "APG",
       "name": "APi Group Corporation",
-      "mcap": 17.53,
+      "mcap": 17.49,
       "price": 40.48,
       "basis": 41.78,
       "bxt_today": 7.32,
@@ -333,7 +333,7 @@
     {
       "sym": "TLN",
       "name": "Talen Energy Corporation",
-      "mcap": 15.19,
+      "mcap": 15.17,
       "price": 320.77,
       "basis": 347.82,
       "bxt_today": 2.21,
@@ -356,7 +356,7 @@
     {
       "sym": "NXT",
       "name": "Nextpower Inc.",
-      "mcap": 12.73,
+      "mcap": 12.79,
       "price": 84.3,
       "basis": 109.03,
       "bxt_today": 0.69,
@@ -379,7 +379,7 @@
     {
       "sym": "QXO",
       "name": "QXO, Inc.",
-      "mcap": 12.49,
+      "mcap": 12.51,
       "price": 12.06,
       "basis": 31.49,
       "bxt_today": 2.9,
@@ -818,7 +818,7 @@
     {
       "sym": "WMT",
       "name": "Walmart Inc.",
-      "mcap": 830.11,
+      "mcap": 827.17,
       "price": 104.26,
       "basis": 63.33,
       "bxt_today": -7.58,
@@ -841,7 +841,7 @@
     {
       "sym": "WFC",
       "name": "Wells Fargo & Company",
-      "mcap": 243.13,
+      "mcap": 243.28,
       "price": 80.45,
       "basis": 54.9,
       "bxt_today": -6.93,
@@ -864,7 +864,7 @@
     {
       "sym": "APH",
       "name": "Amphenol Corporation",
-      "mcap": 215.7,
+      "mcap": 214.44,
       "price": 86.96,
       "basis": 53.37,
       "bxt_today": -3.85,
@@ -887,7 +887,7 @@
     {
       "sym": "TD",
       "name": "Toronto Dominion Bank (The)",
-      "mcap": 192.26,
+      "mcap": 192.5,
       "price": 117.88,
       "basis": 79.86,
       "bxt_today": -6.01,
@@ -910,7 +910,7 @@
     {
       "sym": "NEE",
       "name": "NextEra Energy, Inc.",
-      "mcap": 160.39,
+      "mcap": 160.24,
       "price": 76.83,
       "basis": 71.75,
       "bxt_today": -8.48,
@@ -933,7 +933,7 @@
     {
       "sym": "ENB",
       "name": "Enbridge Inc",
-      "mcap": 102.39,
+      "mcap": 102.46,
       "price": 45.97,
       "basis": 40.13,
       "bxt_today": -8.55,
@@ -956,7 +956,7 @@
     {
       "sym": "EQIX",
       "name": "Equinix, Inc. REIT",
-      "mcap": 101.68,
+      "mcap": 101.21,
       "price": 1025.72,
       "basis": 886.58,
       "bxt_today": -2.8,
@@ -979,7 +979,7 @@
     {
       "sym": "E",
       "name": "ENI S.p.A.",
-      "mcap": 78.64,
+      "mcap": 78.48,
       "price": 54.73,
       "basis": 38.26,
       "bxt_today": -3.98,
@@ -1002,7 +1002,7 @@
     {
       "sym": "WBD",
       "name": "Warner Bros. Discovery, Inc. Series A",
-      "mcap": 77.58,
+      "mcap": 77.57,
       "price": 30.94,
       "basis": 17.16,
       "bxt_today": -3.3,
@@ -1025,7 +1025,7 @@
     {
       "sym": "CP",
       "name": "Canadian Pacific Kansas City Limited Common Shares",
-      "mcap": 75.75,
+      "mcap": 75.55,
       "price": 85.94,
       "basis": 71.01,
       "bxt_today": -4.81,
@@ -1048,7 +1048,7 @@
     {
       "sym": "DAL",
       "name": "Delta Air Lines, Inc.",
-      "mcap": 55.2,
+      "mcap": 55.3,
       "price": 84.09,
       "basis": 61.44,
       "bxt_today": -0.05,
@@ -1071,7 +1071,7 @@
     {
       "sym": "WAB",
       "name": "Westinghouse Air Brake Technologies Corporation",
-      "mcap": 48.81,
+      "mcap": 48.57,
       "price": 287.54,
       "basis": 212.2,
       "bxt_today": -1.9,
@@ -1094,7 +1094,7 @@
     {
       "sym": "F",
       "name": "Ford Motor Company",
-      "mcap": 48.41,
+      "mcap": 48.25,
       "price": 12.1,
       "basis": 11.88,
       "bxt_today": -2.74,
@@ -1117,7 +1117,7 @@
     {
       "sym": "XEL",
       "name": "Xcel Energy Inc.",
-      "mcap": 44.62,
+      "mcap": 44.6,
       "price": 71.4,
       "basis": 66.62,
       "bxt_today": -8.76,
@@ -1140,7 +1140,7 @@
     {
       "sym": "AMP",
       "name": "Ameriprise Financial, Inc.",
-      "mcap": 43.44,
+      "mcap": 43.36,
       "price": 490.91,
       "basis": 484.57,
       "bxt_today": -3.73,
@@ -1163,7 +1163,7 @@
     {
       "sym": "SYY",
       "name": "Sysco Corporation",
-      "mcap": 37.17,
+      "mcap": 37.16,
       "price": 77.49,
       "basis": 74.55,
       "bxt_today": -5.06,
@@ -1209,7 +1209,7 @@
     {
       "sym": "ATI",
       "name": "ATI Inc.",
-      "mcap": 26.08,
+      "mcap": 26.2,
       "price": 192.42,
       "basis": 102.61,
       "bxt_today": -1.94,
@@ -1232,7 +1232,7 @@
     {
       "sym": "AWK",
       "name": "American Water Works Company, Inc.",
-      "mcap": 25.77,
+      "mcap": 25.88,
       "price": 130.25,
       "basis": 134.01,
       "bxt_today": -0.4,
@@ -1255,7 +1255,7 @@
     {
       "sym": "CINF",
       "name": "Cincinnati Financial Corporation",
-      "mcap": 24.88,
+      "mcap": 24.86,
       "price": 161.95,
       "basis": 120.46,
       "bxt_today": -9.45,
@@ -1278,7 +1278,7 @@
     {
       "sym": "INCY",
       "name": "Incyte Corp.",
-      "mcap": 23.29,
+      "mcap": 23.37,
       "price": 115.3,
       "basis": 83.65,
       "bxt_today": -0.07,
@@ -1301,7 +1301,7 @@
     {
       "sym": "CASY",
       "name": "Casey's General Stores, Inc.",
-      "mcap": 22.85,
+      "mcap": 22.83,
       "price": 617.76,
       "basis": 320.17,
       "bxt_today": -2.47,
@@ -1324,7 +1324,7 @@
     {
       "sym": "L",
       "name": "Loews Corporation",
-      "mcap": 21.66,
+      "mcap": 21.68,
       "price": 106.03,
       "basis": 68.6,
       "bxt_today": -1.41,
@@ -1347,7 +1347,7 @@
     {
       "sym": "PS",
       "name": "Pershing Square Inc.",
-      "mcap": 20.76,
+      "mcap": 21.1,
       "price": 52.76,
       "basis": 44.11,
       "bxt_today": -9.15,
@@ -1370,7 +1370,7 @@
     {
       "sym": "CW",
       "name": "Curtiss-Wright Corporation",
-      "mcap": 20.14,
+      "mcap": 20.15,
       "price": 545.64,
       "basis": 263.01,
       "bxt_today": -3.76,
@@ -1393,7 +1393,7 @@
     {
       "sym": "YPF",
       "name": "YPF Sociedad Anonima",
-      "mcap": 19.43,
+      "mcap": 19.47,
       "price": 49.67,
       "basis": 35.23,
       "bxt_today": -7.76,
@@ -1416,7 +1416,7 @@
     {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
-      "mcap": 19.09,
+      "mcap": 19.08,
       "price": 368.9,
       "basis": 250.57,
       "bxt_today": -2.6,
@@ -1439,7 +1439,7 @@
     {
       "sym": "NI",
       "name": "NiSource Inc",
-      "mcap": 18.95,
+      "mcap": 18.91,
       "price": 39.43,
       "basis": 30.95,
       "bxt_today": -10.93,
@@ -1485,7 +1485,7 @@
     {
       "sym": "LNT",
       "name": "Alliant Energy Corporation",
-      "mcap": 16.71,
+      "mcap": 16.68,
       "price": 64.33,
       "basis": 56.54,
       "bxt_today": -5.12,
@@ -1531,7 +1531,7 @@
     {
       "sym": "EQH",
       "name": "Equitable Holdings, Inc.",
-      "mcap": 14.42,
+      "mcap": 14.36,
       "price": 52.64,
       "basis": 45.14,
       "bxt_today": -7.8,
@@ -1554,7 +1554,7 @@
     {
       "sym": "WMG",
       "name": "Warner Music Group Corp.",
-      "mcap": 14.17,
+      "mcap": 14.03,
       "price": 26.82,
       "basis": 28.26,
       "bxt_today": -2.35,
@@ -1577,7 +1577,7 @@
     {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
-      "mcap": 13.25,
+      "mcap": 13.19,
       "price": 267.32,
       "basis": 217.17,
       "bxt_today": -0.77,
@@ -1600,7 +1600,7 @@
     {
       "sym": "EQX",
       "name": "Equinox Gold Corp. Common Shares",
-      "mcap": 12.93,
+      "mcap": 12.97,
       "price": 11.11,
       "basis": 12.52,
       "bxt_today": -3.08,
@@ -1623,7 +1623,7 @@
     {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
-      "mcap": 12.52,
+      "mcap": 12.54,
       "price": 46.34,
       "basis": 43.84,
       "bxt_today": -6.57,
@@ -1646,7 +1646,7 @@
     {
       "sym": "SANM",
       "name": "Sanmina Corporation",
-      "mcap": 12.18,
+      "mcap": 12.28,
       "price": 229.04,
       "basis": 125.12,
       "bxt_today": -0.3,
@@ -1715,7 +1715,7 @@
     {
       "sym": "AA",
       "name": "Alcoa Corporation",
-      "mcap": 11.16,
+      "mcap": 11.07,
       "price": 41.95,
       "basis": 36.98,
       "bxt_today": -4.69,
@@ -1738,7 +1738,7 @@
     {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
-      "mcap": 10.26,
+      "mcap": 10.21,
       "price": 143.74,
       "basis": 191.92,
       "bxt_today": -2.23,
@@ -1761,7 +1761,7 @@
     {
       "sym": "NYT",
       "name": "New York Times Company (The)",
-      "mcap": 9.97,
+      "mcap": 10.11,
       "price": 62.7,
       "basis": 46.03,
       "bxt_today": -3.06,
@@ -1851,29 +1851,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MOD",
-      "name": "Modine Manufacturing Company",
-      "mcap": 9.5,
-      "price": 178.2,
-      "basis": 66.94,
-      "bxt_today": -1.37,
-      "bxt_yest": 7.49,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 323.25,
-      "atl": 0.73,
-      "pct_to_ath": 81.4,
-      "pct_to_atl": 24311.0,
-      "wk52_high": 323.25,
-      "wk52_low": 111.18,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MUSA",
       "name": "Murphy USA Inc.",
       "mcap": 9.49,
@@ -1897,9 +1874,32 @@
       "atl_30d": 0
     },
     {
+      "sym": "MOD",
+      "name": "Modine Manufacturing Company",
+      "mcap": 9.46,
+      "price": 178.2,
+      "basis": 66.94,
+      "bxt_today": -1.37,
+      "bxt_yest": 7.49,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 323.25,
+      "atl": 0.73,
+      "pct_to_ath": 81.4,
+      "pct_to_atl": 24311.0,
+      "wk52_high": 323.25,
+      "wk52_low": 111.18,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "DY",
       "name": "Dycom Industries, Inc.",
-      "mcap": 8.3,
+      "mcap": 8.26,
       "price": 273.75,
       "basis": 146.26,
       "bxt_today": -8.55,
@@ -2427,7 +2427,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-03T13:32:54.788702+00:00",
+    "compared_to": "2026-10-03T17:35:28.740164+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

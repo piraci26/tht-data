@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-03T17:35:56.078784+00:00",
+  "updated_at": "2026-10-03T20:12:42.654353+00:00",
   "count": 22,
   "list": [
     {
       "sym": "NVDA",
       "name": "NVIDIA Corporation",
-      "mcap": 5650.4,
+      "mcap": 5649.19,
       "price": 233.95,
       "ath": 237.88,
       "atl": 0.03,
@@ -23,7 +23,7 @@
     {
       "sym": "AMD",
       "name": "Advanced Micro Devices, Inc.",
-      "mcap": 1007.88,
+      "mcap": 1034.84,
       "price": 633.91,
       "ath": 645.46,
       "atl": 1.61,
@@ -41,7 +41,7 @@
     {
       "sym": "PANW",
       "name": "Palo Alto Networks, Inc.",
-      "mcap": 328.39,
+      "mcap": 329.85,
       "price": 403.24,
       "ath": 409.5,
       "atl": 6.51,
@@ -59,7 +59,7 @@
     {
       "sym": "FTNT",
       "name": "Fortinet, Inc.",
-      "mcap": 132.33,
+      "mcap": 132.77,
       "price": 180.95,
       "ath": 183.09,
       "atl": 1.47,
@@ -77,7 +77,7 @@
     {
       "sym": "LITE",
       "name": "Lumentum Holdings Inc.",
-      "mcap": 97.29,
+      "mcap": 97.36,
       "price": 1085.42,
       "ath": 1091.61,
       "atl": 13.97,
@@ -95,7 +95,7 @@
     {
       "sym": "HPE",
       "name": "Hewlett Packard Enterprise Company",
-      "mcap": 92.25,
+      "mcap": 92.03,
       "price": 69.33,
       "ath": 70.29,
       "atl": 6.76,
@@ -113,7 +113,7 @@
     {
       "sym": "KEYS",
       "name": "Keysight Technologies Inc.",
-      "mcap": 65.41,
+      "mcap": 65.48,
       "price": 384.64,
       "ath": 387.93,
       "atl": 21.07,
@@ -131,7 +131,7 @@
     {
       "sym": "P",
       "name": "Everpure, Inc. common stock",
-      "mcap": 46.71,
+      "mcap": 46.7,
       "price": 140.14,
       "ath": 140.83,
       "atl": 7.93,
@@ -149,7 +149,7 @@
     {
       "sym": "NTAP",
       "name": "NetApp, Inc.",
-      "mcap": 44.66,
+      "mcap": 44.44,
       "price": 226.27,
       "ath": 231.9,
       "atl": 1.25,
@@ -167,7 +167,7 @@
     {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
-      "mcap": 24.45,
+      "mcap": 24.58,
       "price": 118.58,
       "ath": 118.82,
       "atl": 28.34,
