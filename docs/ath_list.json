@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T08:21:09.202569+00:00",
+  "updated_at": "2026-10-03T13:33:20.388431+00:00",
   "count": 22,
   "list": [
     {
@@ -7,7 +7,7 @@
       "name": "NVIDIA Corporation",
       "mcap": 5650.4,
       "price": 233.95,
-      "ath": 237.87,
+      "ath": 237.88,
       "atl": 0.03,
       "pct_to_ath": 1.7,
       "pct_to_atl": 701757.0,
@@ -187,7 +187,7 @@
       "name": "Semtech Corporation",
       "mcap": 18.32,
       "price": 194.88,
-      "ath": 201.97,
+      "ath": 201.99,
       "atl": 0.11,
       "pct_to_ath": 3.6,
       "pct_to_atl": 178076.0,
@@ -205,7 +205,7 @@
       "name": "Arrow Electronics, Inc.",
       "mcap": 12.35,
       "price": 242.01,
-      "ath": 247.24,
+      "ath": 247.25,
       "atl": 1.5,
       "pct_to_ath": 2.2,
       "pct_to_atl": 16034.0,
@@ -313,7 +313,7 @@
       "name": "MSC Industrial Direct Company, Inc.",
       "mcap": 6.87,
       "price": 130.12,
-      "ath": 132.32,
+      "ath": 132.33,
       "atl": 7.5,
       "pct_to_ath": 1.7,
       "pct_to_atl": 1634.9,

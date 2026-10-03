@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T08:20:35.947258+00:00",
+  "updated_at": "2026-10-03T13:32:37.259010+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.58,
+  "scan_seconds": 9.34,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -735,7 +735,7 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 9,
-      "ath": 132.32,
+      "ath": 132.33,
       "atl": 7.5,
       "pct_to_ath": 1.7,
       "pct_to_atl": 1634.9,
@@ -1714,7 +1714,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-03T02:21:23.714432+00:00",
+    "compared_to": "2026-10-03T08:20:35.947258+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
