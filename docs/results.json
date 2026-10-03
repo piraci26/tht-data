@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T20:11:08.052140+00:00",
+  "updated_at": "2026-10-03T23:04:43.156427+00:00",
   "timeframe": "daily",
-  "scan_seconds": 18.36,
+  "scan_seconds": 9.33,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -4333,29 +4333,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MSA",
-      "name": "MSA Safety Incorporated",
-      "mcap": 7.03,
-      "price": 181.23,
-      "basis": 184.62,
-      "bxt_today": 11.42,
-      "bxt_yest": -0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 208.92,
-      "atl": 2.78,
-      "pct_to_ath": 15.3,
-      "pct_to_atl": 6424.3,
-      "wk52_high": 208.92,
-      "wk52_low": 151.11,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "PACS",
       "name": "PACS Group, Inc.",
       "mcap": 7.03,
@@ -4375,6 +4352,29 @@
       "pct_to_atl": 471.3,
       "wk52_high": 49.49,
       "wk52_low": 10.31,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MSA",
+      "name": "MSA Safety Incorporated",
+      "mcap": 7.03,
+      "price": 181.23,
+      "basis": 184.62,
+      "bxt_today": 11.42,
+      "bxt_yest": -0.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 208.92,
+      "atl": 2.78,
+      "pct_to_ath": 15.3,
+      "pct_to_atl": 6424.3,
+      "wk52_high": 208.92,
+      "wk52_low": 151.11,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6636,7 +6636,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-03T17:34:41.000820+00:00",
+    "compared_to": "2026-10-03T20:11:08.052140+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
