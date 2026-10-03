@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T02:21:42.330163+00:00",
+  "updated_at": "2026-10-03T08:20:51.233158+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.66,
+  "scan_seconds": 6.75,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -2266,148 +2266,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-02T23:43:02.537311+00:00",
+    "compared_to": "2026-10-03T02:21:42.330163+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "SPOT",
-        "name": "Spotify Technology S.A. Ordinary Shares",
-        "mcap": 97.34,
-        "price": 472.89,
-        "basis": 494.88,
-        "bxt_today": -23.36,
-        "ath": 785.0,
-        "pct_to_ath": 66.0,
-        "wk52_high": 716.86,
-        "wk52_low": 405.0,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "NXT",
-        "name": "Nextpower Inc.",
-        "mcap": 12.73,
-        "price": 84.3,
-        "basis": 109.03,
-        "bxt_today": 0.69,
-        "ath": 163.13,
-        "pct_to_ath": 93.5,
-        "wk52_high": 163.13,
-        "wk52_low": 74.91,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "NVT",
-        "name": "nVent Electric plc Ordinary Shares",
-        "mcap": 27.63,
-        "price": 169.56,
-        "basis": 150.4,
-        "bxt_today": 7.07,
-        "ath": 184.64,
-        "pct_to_ath": 8.9,
-        "wk52_high": 184.64,
-        "wk52_low": 93.22,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ONTO",
-        "name": "Onto Innovation Inc.",
-        "mcap": 20.03,
-        "price": 327.77,
-        "basis": 273.3,
-        "bxt_today": 12.09,
-        "ath": 386.46,
-        "pct_to_ath": 17.9,
-        "wk52_high": 386.46,
-        "wk52_low": 118.97,
-        "ath_30d": 0
-      },
-      {
-        "sym": "ASTS",
-        "name": "AST SpaceMobile, Inc.",
-        "mcap": 17.52,
-        "price": 58.45,
-        "basis": 76.92,
-        "bxt_today": 2.22,
-        "ath": 133.86,
-        "pct_to_ath": 129.0,
-        "wk52_high": 133.86,
-        "wk52_low": 49.31,
-        "ath_30d": 0
-      },
-      {
-        "sym": "GPGI",
-        "name": "GPGI, Inc.",
-        "mcap": 3.4,
-        "price": 12.9,
-        "basis": 14.83,
-        "bxt_today": 7.59,
-        "ath": 26.78,
-        "pct_to_ath": 107.6,
-        "wk52_high": 26.78,
-        "wk52_low": 11.16,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LBRT",
-        "name": "Liberty Energy Inc. common stock",
-        "mcap": 3.15,
-        "price": 19.31,
-        "basis": 25.53,
-        "bxt_today": 7.29,
-        "ath": 34.48,
-        "pct_to_ath": 78.5,
-        "wk52_high": 34.48,
-        "wk52_low": 11.52,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "GFL",
-        "name": "GFL Environmental Inc. Subordinate voting shares, no par value",
-        "mcap": 18.3,
-        "price": 41.98,
-        "basis": 40.1,
-        "bxt_today": -2.71,
-        "ath": 52.0,
-        "pct_to_ath": 23.9,
-        "wk52_high": 47.01,
-        "wk52_low": 33.33,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EQH",
-        "name": "Equitable Holdings, Inc.",
-        "mcap": 14.42,
-        "price": 52.64,
-        "basis": 45.14,
-        "bxt_today": -7.8,
-        "ath": 56.61,
-        "pct_to_ath": 7.5,
-        "wk52_high": 55.06,
-        "wk52_low": 35.19,
-        "ath_30d": 0
-      },
-      {
-        "sym": "EQX",
-        "name": "Equinox Gold Corp. Common Shares",
-        "mcap": 12.93,
-        "price": 11.11,
-        "basis": 12.52,
-        "bxt_today": -3.08,
-        "ath": 18.96,
-        "pct_to_ath": 70.7,
-        "wk52_high": 18.96,
-        "wk52_low": 8.48,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

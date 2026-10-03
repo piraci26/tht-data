@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T02:21:02.617083+00:00",
+  "updated_at": "2026-10-03T08:20:17.221690+00:00",
   "timeframe": "daily",
-  "scan_seconds": 13.3,
+  "scan_seconds": 8.97,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -278,29 +278,6 @@
       "wk52_high": 72.56,
       "wk52_low": 38.0,
       "ath_30d": 3,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 25.18,
-      "price": 466.98,
-      "basis": 461.63,
-      "bxt_today": 18.36,
-      "bxt_yest": 10.39,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 31,
-      "bxt_streak": null,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 21.1,
-      "pct_to_atl": 16605.7,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
-      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -4011,29 +3988,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IMVT",
-      "name": "Immunovant, Inc.",
-      "mcap": 9.03,
-      "price": 33.62,
-      "basis": 38.75,
-      "bxt_today": 6.88,
-      "bxt_yest": -2.55,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 53.75,
-      "atl": 3.14,
-      "pct_to_ath": 59.9,
-      "pct_to_atl": 969.0,
-      "wk52_high": 45.42,
-      "wk52_low": 15.95,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "RUSHB",
       "name": "Rush Enterprises, Inc.",
       "mcap": 9.03,
@@ -4054,6 +4008,29 @@
       "wk52_high": 57.38,
       "wk52_low": 31.81,
       "ath_30d": 2,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IMVT",
+      "name": "Immunovant, Inc.",
+      "mcap": 9.03,
+      "price": 33.62,
+      "basis": 38.75,
+      "bxt_today": 6.88,
+      "bxt_yest": -2.55,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 53.75,
+      "atl": 3.14,
+      "pct_to_ath": 59.9,
+      "pct_to_atl": 969.0,
+      "wk52_high": 45.42,
+      "wk52_low": 15.95,
+      "ath_30d": 0,
       "atl_30d": 0
     },
     {
@@ -6659,8 +6636,9 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-02T23:42:20.344339+00:00",
-    "fvb_green_added": [
+    "compared_to": "2026-10-03T02:21:02.617083+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
@@ -6675,7 +6653,6 @@
         "ath_30d": 0
       }
     ],
-    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
