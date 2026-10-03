@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T23:43:38.585325+00:00",
+  "updated_at": "2026-10-03T02:22:07.687755+00:00",
   "count": 22,
   "list": [
     {
@@ -11,11 +11,11 @@
       "atl": 0.03,
       "pct_to_ath": 1.7,
       "pct_to_atl": 701757.0,
-      "wk52_high": 237.87,
+      "wk52_high": 237.88,
       "wk52_low": 164.27,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 237.87,
+      "last_high": 237.88,
       "last_low": 233.6,
       "made_ath_today": true,
       "made_atl_today": false
@@ -52,25 +52,7 @@
       "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 409.5,
-      "last_low": 400.0,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "mcap": 274.62,
-      "price": 270.04,
-      "ath": 273.54,
-      "atl": 7.99,
-      "pct_to_ath": 1.3,
-      "pct_to_atl": 3280.8,
-      "wk52_high": 273.54,
-      "wk52_low": 85.68,
-      "ath_30d": 13,
-      "atl_30d": 0,
-      "last_high": 273.54,
-      "last_low": 267.67,
+      "last_low": 399.95,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -209,12 +191,12 @@
       "atl": 0.11,
       "pct_to_ath": 3.6,
       "pct_to_atl": 178076.0,
-      "wk52_high": 201.97,
+      "wk52_high": 201.99,
       "wk52_low": 60.28,
       "ath_30d": 4,
       "atl_30d": 0,
-      "last_high": 201.97,
-      "last_low": 191.07,
+      "last_high": 201.99,
+      "last_low": 190.69,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -227,12 +209,12 @@
       "atl": 1.5,
       "pct_to_ath": 2.2,
       "pct_to_atl": 16034.0,
-      "wk52_high": 247.24,
+      "wk52_high": 247.25,
       "wk52_low": 101.79,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 247.24,
-      "last_low": 234.99,
+      "last_high": 247.25,
+      "last_low": 234.55,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -250,7 +232,7 @@
       "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 83.36,
-      "last_low": 77.18,
+      "last_low": 77.17,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -258,7 +240,7 @@
       "sym": "AVT",
       "name": "Avnet, Inc.",
       "mcap": 8.27,
-      "price": 106.93,
+      "price": 106.94,
       "ath": 108.63,
       "atl": 5.55,
       "pct_to_ath": 1.6,
@@ -309,6 +291,24 @@
       "made_atl_today": false
     },
     {
+      "sym": "ACA",
+      "name": "Arcosa, Inc.",
+      "mcap": 7.12,
+      "price": 146.5,
+      "ath": 147.0,
+      "atl": 22.94,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 538.6,
+      "wk52_high": 147.0,
+      "wk52_low": 89.03,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 147.0,
+      "last_low": 146.5,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
       "sym": "MSM",
       "name": "MSC Industrial Direct Company, Inc.",
       "mcap": 6.87,
@@ -317,12 +317,12 @@
       "atl": 7.5,
       "pct_to_ath": 1.7,
       "pct_to_atl": 1634.9,
-      "wk52_high": 132.32,
+      "wk52_high": 132.33,
       "wk52_low": 78.8,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 132.32,
-      "last_low": 129.9,
+      "last_high": 132.33,
+      "last_low": 129.52,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -358,7 +358,7 @@
       "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 116.13,
-      "last_low": 112.7,
+      "last_low": 112.71,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -394,31 +394,12 @@
       "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 58.18,
-      "last_low": 56.56,
+      "last_low": 56.52,
       "made_ath_today": true,
       "made_atl_today": false
     }
   ],
   "accumulator": [
-    {
-      "sym": "DDOG",
-      "name": "Datadog, Inc.",
-      "mcap": 98.78,
-      "price": 282.1,
-      "ath": 285.0,
-      "atl": 27.55,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 924.0,
-      "wk52_high": 285.0,
-      "wk52_low": 98.01,
-      "ath_30d": 2,
-      "atl_30d": 0,
-      "last_high": 285.0,
-      "last_low": 271.6,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-08-04T14:40:20.337425+00:00"
-    },
     {
       "sym": "PAY",
       "name": "Paymentus Holdings, Inc.",
@@ -4199,7 +4180,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-10-02T20:01:10.331187+00:00"
+    },
+    {
+      "sym": "ACA",
+      "name": "Arcosa, Inc.",
+      "mcap": 7.12,
+      "price": 146.5,
+      "ath": 147.0,
+      "atl": 22.94,
+      "pct_to_ath": 0.3,
+      "pct_to_atl": 538.6,
+      "wk52_high": 147.0,
+      "wk52_low": 89.03,
+      "ath_30d": 1,
+      "atl_30d": 0,
+      "last_high": 147.0,
+      "last_low": 146.5,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-10-03T02:22:07.687755+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "ACA"
+  ]
 }
