@@ -1,7 +1,7 @@
 {
   "threshold_b": 3.5,
   "count": 1434,
-  "updated_at": "2026-10-03T18:50:23.505658+00:00",
+  "updated_at": "2026-10-04T18:55:02.352106+00:00",
   "tickers": [
     "NVDA",
     "AAPL",
@@ -971,11 +971,11 @@
     "VNOM",
     "GTLB",
     "AVAV",
-    "WYNN",
     "UGI",
     "MXL",
     "ZETA",
     "AOS",
+    "WYNN",
     "SARO",
     "ATR",
     "MGM",
