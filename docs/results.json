@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T05:37:31.278154+00:00",
+  "updated_at": "2026-10-05T12:37:49.604043+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.26,
+  "scan_seconds": 10.98,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -3988,29 +3988,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "RUSHB",
-      "name": "Rush Enterprises, Inc.",
-      "mcap": 9.03,
-      "price": 56.71,
-      "basis": 52.75,
-      "bxt_today": 4.88,
-      "bxt_yest": -22.69,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 57.38,
-      "atl": 0.6,
-      "pct_to_ath": 1.2,
-      "pct_to_atl": 9282.2,
-      "wk52_high": 57.38,
-      "wk52_low": 31.81,
-      "ath_30d": 2,
-      "atl_30d": 0
-    },
-    {
       "sym": "IMVT",
       "name": "Immunovant, Inc.",
       "mcap": 9.03,
@@ -4031,6 +4008,29 @@
       "wk52_high": 45.42,
       "wk52_low": 15.95,
       "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "RUSHB",
+      "name": "Rush Enterprises, Inc.",
+      "mcap": 9.03,
+      "price": 56.71,
+      "basis": 52.75,
+      "bxt_today": 4.88,
+      "bxt_yest": -22.69,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 57.38,
+      "atl": 0.6,
+      "pct_to_ath": 1.2,
+      "pct_to_atl": 9282.2,
+      "wk52_high": 57.38,
+      "wk52_low": 31.81,
+      "ath_30d": 2,
       "atl_30d": 0
     },
     {
@@ -6636,7 +6636,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-05T00:10:01.945008+00:00",
+    "compared_to": "2026-10-05T05:37:31.278154+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
