@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05T00:11:10.977161+00:00",
-  "count": 22,
+  "updated_at": "2026-10-05T05:38:35.914877+00:00",
+  "count": 23,
   "list": [
     {
       "sym": "NVDA",
@@ -53,6 +53,24 @@
       "atl_30d": 0,
       "last_high": 409.5,
       "last_low": 399.95,
+      "made_ath_today": true,
+      "made_atl_today": false
+    },
+    {
+      "sym": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "mcap": 276.5,
+      "price": 270.04,
+      "ath": 273.54,
+      "atl": 7.99,
+      "pct_to_ath": 1.3,
+      "pct_to_atl": 3280.8,
+      "wk52_high": 273.54,
+      "wk52_low": 85.68,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 273.54,
+      "last_low": 267.67,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3726,25 +3744,6 @@
       "first_seen_at": "2026-09-29T16:58:49.244433+00:00"
     },
     {
-      "sym": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "mcap": 266.75,
-      "price": 262.74,
-      "ath": 267.69,
-      "atl": 7.99,
-      "pct_to_ath": 1.9,
-      "pct_to_atl": 3189.4,
-      "wk52_high": 267.69,
-      "wk52_low": 85.68,
-      "ath_30d": 10,
-      "atl_30d": 0,
-      "last_high": 267.69,
-      "last_low": 255.76,
-      "made_ath_today": true,
-      "made_atl_today": false,
-      "first_seen_at": "2026-09-30T05:57:26.400120+00:00"
-    },
-    {
       "sym": "EXEL",
       "name": "Exelixis, Inc.",
       "mcap": 14.59,
@@ -4199,7 +4198,28 @@
       "made_ath_today": true,
       "made_atl_today": false,
       "first_seen_at": "2026-10-03T02:22:07.687755+00:00"
+    },
+    {
+      "sym": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "mcap": 276.5,
+      "price": 270.04,
+      "ath": 273.54,
+      "atl": 7.99,
+      "pct_to_ath": 1.3,
+      "pct_to_atl": 3280.8,
+      "wk52_high": 273.54,
+      "wk52_low": 85.68,
+      "ath_30d": 13,
+      "atl_30d": 0,
+      "last_high": 273.54,
+      "last_low": 267.67,
+      "made_ath_today": true,
+      "made_atl_today": false,
+      "first_seen_at": "2026-10-05T05:38:35.914877+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "CRWD"
+  ]
 }
