@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09T19:05:26.998882+00:00",
+  "updated_at": "2026-10-09T23:13:37.846654+00:00",
   "count": 4,
   "list": [
     {
       "sym": "SFD",
       "name": "Smithfield Foods, Inc.",
       "mcap": 7.44,
-      "price": 18.53,
+      "price": 18.61,
       "ath": 29.81,
       "atl": 18.39,
-      "pct_to_ath": 60.8,
-      "pct_to_atl": 0.8,
+      "pct_to_ath": 60.2,
+      "pct_to_atl": 1.2,
       "wk52_high": 29.81,
       "wk52_low": 18.39,
       "ath_30d": 0,
@@ -24,11 +24,11 @@
       "sym": "XNDU",
       "name": "Xanadu Quantum Technologies Limited Subordinate Voting Shares",
       "mcap": 1.31,
-      "price": 3.88,
+      "price": 3.9,
       "ath": 42.44,
       "atl": 3.85,
-      "pct_to_ath": 995.2,
-      "pct_to_atl": 0.6,
+      "pct_to_ath": 988.2,
+      "pct_to_atl": 1.3,
       "wk52_high": 42.44,
       "wk52_low": 3.85,
       "ath_30d": 0,
@@ -42,11 +42,11 @@
       "sym": "YSS",
       "name": "York Space Systems Inc.",
       "mcap": 1.3,
-      "price": 7.04,
+      "price": 7.11,
       "ath": 44.54,
       "atl": 6.78,
-      "pct_to_ath": 532.7,
-      "pct_to_atl": 3.8,
+      "pct_to_ath": 526.4,
+      "pct_to_atl": 4.9,
       "wk52_high": 44.54,
       "wk52_low": 6.78,
       "ath_30d": 0,
@@ -60,16 +60,16 @@
       "sym": "NNNN",
       "name": "Anbio Biotechnology Ordinary Shares",
       "mcap": 0.27,
-      "price": 4.8,
+      "price": 4.66,
       "ath": 55.65,
       "atl": 4.2,
-      "pct_to_ath": 1059.4,
-      "pct_to_atl": 14.3,
+      "pct_to_ath": 1094.2,
+      "pct_to_atl": 11.0,
       "wk52_high": 44.73,
       "wk52_low": 4.2,
       "ath_30d": 0,
       "atl_30d": 4,
-      "last_high": 4.98,
+      "last_high": 5.16,
       "last_low": 4.2,
       "made_ath_today": false,
       "made_atl_today": true
@@ -948,8 +948,5 @@
       "first_seen_at": "2026-10-09T19:05:26.998882+00:00"
     }
   ],
-  "added_this_run": [
-    "NNNN",
-    "XNDU"
-  ]
+  "added_this_run": []
 }
