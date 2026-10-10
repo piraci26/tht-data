@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T23:13:37.842047+00:00",
-  "count": 19,
+  "updated_at": "2026-10-10T02:22:47.783393+00:00",
+  "count": 17,
   "list": [
     {
       "sym": "V",
@@ -16,7 +16,7 @@
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 386.84,
-      "last_low": 375.69,
+      "last_low": 375.5,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -25,15 +25,15 @@
       "name": "Palantir Technologies Inc.",
       "mcap": 496.98,
       "price": 209.05,
-      "ath": 209.31,
+      "ath": 209.58,
       "atl": 5.92,
-      "pct_to_ath": 0.1,
+      "pct_to_ath": 0.3,
       "pct_to_atl": 3431.3,
-      "wk52_high": 209.31,
+      "wk52_high": 209.58,
       "wk52_low": 106.37,
       "ath_30d": 1,
       "atl_30d": 0,
-      "last_high": 209.31,
+      "last_high": 209.58,
       "last_low": 198.3,
       "made_ath_today": true,
       "made_atl_today": false
@@ -129,24 +129,6 @@
       "made_atl_today": false
     },
     {
-      "sym": "PSX",
-      "name": "Phillips 66",
-      "mcap": 111.43,
-      "price": 278.18,
-      "ath": 286.57,
-      "atl": 28.75,
-      "pct_to_ath": 3.0,
-      "pct_to_atl": 867.6,
-      "wk52_high": 286.57,
-      "wk52_low": 126.74,
-      "ath_30d": 14,
-      "atl_30d": 0,
-      "last_high": 286.57,
-      "last_low": 276.72,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
       "sym": "DDOG",
       "name": "Datadog, Inc.",
       "mcap": 104.6,
@@ -232,7 +214,7 @@
       "ath_30d": 6,
       "atl_30d": 0,
       "last_high": 195.73,
-      "last_low": 190.49,
+      "last_low": 190.44,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -295,34 +277,16 @@
       "name": "Arcosa, Inc.",
       "mcap": 7.12,
       "price": 147.18,
-      "ath": 147.21,
+      "ath": 147.24,
       "atl": 22.94,
       "pct_to_ath": 0.0,
       "pct_to_atl": 541.6,
-      "wk52_high": 147.21,
+      "wk52_high": 147.24,
       "wk52_low": 89.03,
       "ath_30d": 3,
       "atl_30d": 0,
-      "last_high": 147.21,
+      "last_high": 147.24,
       "last_low": 146.37,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "INSW",
-      "name": "International Seaways, Inc.",
-      "mcap": 5.23,
-      "price": 119.82,
-      "ath": 122.75,
-      "atl": 10.36,
-      "pct_to_ath": 2.4,
-      "pct_to_atl": 1056.6,
-      "wk52_high": 122.75,
-      "wk52_low": 42.26,
-      "ath_30d": 12,
-      "atl_30d": 0,
-      "last_high": 122.75,
-      "last_low": 119.19,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4147,9 +4111,5 @@
       "first_seen_at": "2026-10-09T23:13:37.842047+00:00"
     }
   ],
-  "added_this_run": [
-    "DDOG",
-    "RUSHB",
-    "V"
-  ]
+  "added_this_run": []
 }
