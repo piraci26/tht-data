@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T02:21:02.550770+00:00",
+  "updated_at": "2026-10-10T08:41:09.951853+00:00",
   "timeframe": "daily",
-  "scan_seconds": 19.92,
+  "scan_seconds": 10.98,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -2838,29 +2838,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "GME",
-      "name": "GameStop Corporation",
-      "mcap": 13.37,
-      "price": 26.56,
-      "basis": 21.86,
-      "bxt_today": 9.32,
-      "bxt_yest": -17.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 120.75,
-      "atl": 0.64,
-      "pct_to_ath": 354.6,
-      "pct_to_atl": 4033.9,
-      "wk52_high": 26.88,
-      "wk52_low": 17.79,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "EQX",
       "name": "Equinox Gold Corp. Common Shares",
       "mcap": 13.37,
@@ -2880,6 +2857,29 @@
       "pct_to_atl": 386.0,
       "wk52_high": 18.96,
       "wk52_low": 8.48,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "GME",
+      "name": "GameStop Corporation",
+      "mcap": 13.37,
+      "price": 26.56,
+      "basis": 21.86,
+      "bxt_today": 9.32,
+      "bxt_yest": -17.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 120.75,
+      "atl": 0.64,
+      "pct_to_ath": 354.6,
+      "pct_to_atl": 4033.9,
+      "wk52_high": 26.88,
+      "wk52_low": 17.79,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5486,7 +5486,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-09T23:11:50.605089+00:00",
+    "compared_to": "2026-10-10T02:21:02.550770+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -5494,20 +5494,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "TCBI",
-        "name": "Texas Capital Bancshares, Inc.",
-        "mcap": 4.26,
-        "price": 90.58,
-        "basis": 96.16,
-        "bxt_today": -23.14,
-        "ath": 108.92,
-        "pct_to_ath": 20.2,
-        "wk52_high": 108.92,
-        "wk52_low": 75.41,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
