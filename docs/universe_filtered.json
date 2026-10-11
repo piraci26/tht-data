@@ -1,7 +1,7 @@
 {
   "threshold_b": 3.5,
   "count": 1435,
-  "updated_at": "2026-10-10T18:50:25.611614+00:00",
+  "updated_at": "2026-10-11T18:50:24.375449+00:00",
   "tickers": [
     "NVDA",
     "AAPL",
@@ -623,8 +623,8 @@
     "RBC",
     "INVH",
     "NVR",
-    "NWSA",
     "STRL",
+    "NWSA",
     "HST",
     "BALL",
     "ROL",
