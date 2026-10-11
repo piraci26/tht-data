@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-11T07:04:36.596006+00:00",
+  "updated_at": "2026-10-11T13:58:29.268267+00:00",
   "timeframe": "daily",
-  "scan_seconds": 31.61,
-  "scanned_count": 1497,
+  "scan_seconds": 30.06,
+  "scanned_count": 1496,
   "fvb_green": [
     {
       "sym": "MA",
@@ -1751,29 +1751,6 @@
       "pct_to_atl": 4246.9,
       "wk52_high": 96.68,
       "wk52_low": 28.19,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "DDS",
-      "name": "Dillard's, Inc.",
-      "mcap": 10.33,
-      "price": 642.24,
-      "basis": 647.05,
-      "bxt_today": -25.59,
-      "bxt_yest": -20.29,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 56,
-      "bxt_streak": null,
-      "ath": 741.98,
-      "atl": 2.5,
-      "pct_to_ath": 15.5,
-      "pct_to_atl": 25589.6,
-      "wk52_high": 741.98,
-      "wk52_low": 503.06,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -5486,11 +5463,25 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-11T01:02:30.456839+00:00",
+    "compared_to": "2026-10-11T07:04:36.596006+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
+    "fvb_red_removed": [
+      {
+        "sym": "DDS",
+        "name": "Dillard's, Inc.",
+        "mcap": 10.33,
+        "price": 642.24,
+        "basis": 647.05,
+        "bxt_today": -25.59,
+        "ath": 741.98,
+        "pct_to_ath": 15.5,
+        "wk52_high": 741.98,
+        "wk52_low": 503.06,
+        "ath_30d": 0
+      }
+    ],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
