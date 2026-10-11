@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T13:58:56.438338+00:00",
+  "updated_at": "2026-10-11T18:44:47.760816+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.23,
+  "scan_seconds": 11.31,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -1786,7 +1786,7 @@
       "name": "Intel Corporation",
       "mcap": 553.46,
       "price": 104.7,
-      "basis": 94.91,
+      "basis": 94.9,
       "bxt_today": -5.6,
       "bxt_yest": 2.84,
       "fvb_g": false,
@@ -2243,7 +2243,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-11T07:05:19.443422+00:00",
+    "compared_to": "2026-10-11T13:58:56.438338+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
