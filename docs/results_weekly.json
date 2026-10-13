@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T03:58:15.973807+00:00",
+  "updated_at": "2026-10-13T11:35:03.483552+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.06,
+  "scan_seconds": 8.85,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -1546,29 +1546,6 @@
       "pct_to_atl": 98045.7,
       "wk52_high": 547.2,
       "wk52_low": 269.23,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 24.96,
-      "price": 474.11,
-      "basis": 489.31,
-      "bxt_today": 3.15,
-      "bxt_yest": -4.34,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 19.3,
-      "pct_to_atl": 16860.8,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -3416,12 +3393,13 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-12T23:48:21.680425+00:00",
+    "compared_to": "2026-10-13T03:58:15.973807+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
+    "bxt_green_added": [],
+    "bxt_green_removed": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
@@ -3436,22 +3414,7 @@
         "ath_30d": 0
       }
     ],
-    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "PSKY",
-        "name": "Paramount Skydance Corporation",
-        "mcap": 10.99,
-        "price": 9.16,
-        "basis": 10.17,
-        "bxt_today": -8.53,
-        "ath": 101.97,
-        "pct_to_ath": 1013.2,
-        "wk52_high": 18.65,
-        "wk52_low": 7.62,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }

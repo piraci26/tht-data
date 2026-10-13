@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T03:58:36.076416+00:00",
+  "updated_at": "2026-10-13T11:35:23.383946+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.17,
+  "scan_seconds": 8.9,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -2219,6 +2219,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "EQX",
+      "name": "Equinox Gold Corp. Common Shares",
+      "mcap": 13.03,
+      "price": 11.2,
+      "basis": 12.52,
+      "bxt_today": -1.57,
+      "bxt_yest": 3.37,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 18.96,
+      "atl": 2.35,
+      "pct_to_ath": 69.3,
+      "pct_to_atl": 376.6,
+      "wk52_high": 18.96,
+      "wk52_low": 8.48,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "IVZ",
       "name": "Invesco Ltd",
       "mcap": 12.89,
@@ -3186,28 +3209,28 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-12T23:48:42.511693+00:00",
+    "compared_to": "2026-10-13T03:58:36.076416+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "EQX",
         "name": "Equinox Gold Corp. Common Shares",
         "mcap": 13.03,
         "price": 11.2,
-        "basis": 12.32,
-        "bxt_today": -3.24,
+        "basis": 12.52,
+        "bxt_today": -1.57,
         "ath": 18.96,
         "pct_to_ath": 69.3,
         "wk52_high": 18.96,
         "wk52_low": 8.48,
         "ath_30d": 0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
