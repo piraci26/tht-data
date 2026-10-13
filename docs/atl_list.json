@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:49:11.375035+00:00",
+  "updated_at": "2026-10-13T03:58:59.376434+00:00",
   "count": 3,
   "list": [
     {
@@ -33,7 +33,7 @@
       "wk52_low": 3.45,
       "ath_30d": 0,
       "atl_30d": 11,
-      "last_high": 3.76,
+      "last_high": 3.78,
       "last_low": 3.45,
       "made_ath_today": false,
       "made_atl_today": true
@@ -51,7 +51,7 @@
       "wk52_low": 6.67,
       "ath_30d": 0,
       "atl_30d": 8,
-      "last_high": 7.17,
+      "last_high": 7.18,
       "last_low": 6.67,
       "made_ath_today": false,
       "made_atl_today": true
@@ -930,7 +930,5 @@
       "first_seen_at": "2026-10-12T23:49:11.375035+00:00"
     }
   ],
-  "added_this_run": [
-    "YSS"
-  ]
+  "added_this_run": []
 }
