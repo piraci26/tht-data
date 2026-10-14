@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T23:06:03.696298+00:00",
+  "updated_at": "2026-10-14T01:51:16.729459+00:00",
   "count": 8,
   "list": [
     {
@@ -98,15 +98,15 @@
       "mcap": 1.31,
       "price": 3.38,
       "ath": 42.44,
-      "atl": 3.37,
-      "pct_to_ath": 1157.5,
-      "pct_to_atl": 0.3,
+      "atl": 3.36,
+      "pct_to_ath": 1155.6,
+      "pct_to_atl": 0.6,
       "wk52_high": 42.44,
-      "wk52_low": 3.37,
+      "wk52_low": 3.36,
       "ath_30d": 0,
       "atl_30d": 12,
       "last_high": 3.64,
-      "last_low": 3.37,
+      "last_low": 3.36,
       "made_ath_today": false,
       "made_atl_today": true
     },
