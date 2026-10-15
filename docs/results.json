@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-15T01:53:18.890839+00:00",
+  "updated_at": "2026-10-15T06:48:35.366189+00:00",
   "timeframe": "daily",
-  "scan_seconds": 15.56,
+  "scan_seconds": 22.85,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -4565,6 +4565,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 24.84,
+      "price": 473.37,
+      "basis": 461.0,
+      "bxt_today": -5.5,
+      "bxt_yest": 4.74,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 565.5,
+      "atl": 2.8,
+      "pct_to_ath": 19.5,
+      "pct_to_atl": 16834.3,
+      "wk52_high": 565.5,
+      "wk52_low": 403.82,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "IOT",
       "name": "Samsara Inc.",
       "mcap": 23.82,
@@ -6705,21 +6728,20 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-14T23:44:44.929842+00:00",
+    "compared_to": "2026-10-15T01:53:18.890839+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
         "mcap": 24.84,
         "price": 473.37,
-        "basis": 460.98,
+        "basis": 461.0,
         "bxt_today": -5.5,
         "ath": 565.5,
         "pct_to_ath": 19.5,
@@ -6727,6 +6749,7 @@
         "wk52_low": 403.82,
         "ath_30d": 0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }

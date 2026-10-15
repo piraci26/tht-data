@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T01:55:39.651376+00:00",
+  "updated_at": "2026-10-15T06:50:07.926145+00:00",
   "count": 20,
   "list": [
     {
@@ -7,9 +7,9 @@
       "name": "Visa Inc.",
       "mcap": 734.57,
       "price": 391.43,
-      "ath": 396.35,
+      "ath": 397.19,
       "atl": 10.44,
-      "pct_to_ath": 1.3,
+      "pct_to_ath": 1.5,
       "pct_to_atl": 3647.5,
       "wk52_high": 397.19,
       "wk52_low": 293.89,
@@ -97,7 +97,7 @@
       "name": "ConocoPhillips",
       "mcap": 173.23,
       "price": 142.34,
-      "ath": 142.54,
+      "ath": 142.55,
       "atl": 3.14,
       "pct_to_ath": 0.1,
       "pct_to_atl": 4426.6,
@@ -115,9 +115,9 @@
       "name": "Marathon Petroleum Corporation",
       "mcap": 140.12,
       "price": 484.92,
-      "ath": 485.07,
+      "ath": 485.22,
       "atl": 13.18,
-      "pct_to_ath": 0.0,
+      "pct_to_ath": 0.1,
       "pct_to_atl": 3580.6,
       "wk52_high": 485.22,
       "wk52_low": 161.93,
@@ -151,7 +151,7 @@
       "name": "Phillips 66",
       "mcap": 117.95,
       "price": 297.29,
-      "ath": 297.38,
+      "ath": 297.42,
       "atl": 28.75,
       "pct_to_ath": 0.0,
       "pct_to_atl": 934.1,
@@ -241,7 +241,7 @@
       "name": "HF Sinclair Corporation",
       "mcap": 22.95,
       "price": 127.69,
-      "ath": 129.35,
+      "ath": 129.37,
       "atl": 0.12,
       "pct_to_ath": 1.3,
       "pct_to_atl": 108861.7,
@@ -4165,7 +4165,5 @@
       "first_seen_at": "2026-10-15T01:55:39.651376+00:00"
     }
   ],
-  "added_this_run": [
-    "V"
-  ]
+  "added_this_run": []
 }
