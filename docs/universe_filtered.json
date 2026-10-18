@@ -1,7 +1,7 @@
 {
   "threshold_b": 3.5,
   "count": 1424,
-  "updated_at": "2026-10-17T18:50:24.865354+00:00",
+  "updated_at": "2026-10-18T18:50:25.970379+00:00",
   "tickers": [
     "NVDA",
     "AAPL",
@@ -1049,6 +1049,7 @@
     "ELF",
     "MXL",
     "GLBE",
+    "CAVA",
     "MTDR",
     "NOV",
     "ALKS",
@@ -1074,7 +1075,6 @@
     "ACI",
     "DOX",
     "ICL",
-    "CAVA",
     "ZG",
     "UBSI",
     "KNSA",
