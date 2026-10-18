@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-18T00:07:39.672651+00:00",
+  "updated_at": "2026-10-18T04:25:50.389049+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.71,
+  "scan_seconds": 26.19,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -220,7 +220,7 @@
       "name": "Home Depot, Inc. (The)",
       "mcap": 308.91,
       "price": 309.63,
-      "basis": 325.15,
+      "basis": 325.16,
       "bxt_today": 1.36,
       "bxt_yest": -11.92,
       "fvb_g": false,
@@ -2979,7 +2979,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-17T22:19:58.719265+00:00",
+    "compared_to": "2026-10-18T00:07:39.672651+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
