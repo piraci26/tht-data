@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-18T16:32:11.801741+00:00",
+  "updated_at": "2026-10-18T18:53:10.923203+00:00",
   "timeframe": "daily",
-  "scan_seconds": 14.68,
+  "scan_seconds": 30.14,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -925,6 +925,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "mcap": 6.69,
+      "price": 57.25,
+      "basis": 54.62,
+      "bxt_today": 36.22,
+      "bxt_yest": 27.13,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 33,
+      "bxt_streak": null,
+      "ath": 172.43,
+      "atl": 29.05,
+      "pct_to_ath": 201.2,
+      "pct_to_atl": 97.1,
+      "wk52_high": 98.79,
+      "wk52_low": 43.41,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "MTDR",
       "name": "Matador Resources Company",
       "mcap": 6.67,
@@ -944,29 +967,6 @@
       "pct_to_atl": 5082.0,
       "wk52_high": 66.84,
       "wk52_low": 37.14,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CAVA",
-      "name": "CAVA Group, Inc.",
-      "mcap": 6.39,
-      "price": 57.25,
-      "basis": 54.62,
-      "bxt_today": 36.22,
-      "bxt_yest": 27.13,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 33,
-      "bxt_streak": null,
-      "ath": 172.43,
-      "atl": 29.05,
-      "pct_to_ath": 201.2,
-      "pct_to_atl": 97.1,
-      "wk52_high": 98.79,
-      "wk52_low": 43.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4589,7 +4589,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-18T13:09:51.256928+00:00",
+    "compared_to": "2026-10-18T16:32:11.801741+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

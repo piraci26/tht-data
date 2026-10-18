@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-18T16:32:59.937445+00:00",
+  "updated_at": "2026-10-18T18:54:35.397069+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 14.09,
+  "scan_seconds": 26.58,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -768,6 +768,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "mcap": 6.69,
+      "price": 57.25,
+      "basis": 73.16,
+      "bxt_today": 5.97,
+      "bxt_yest": -4.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 172.43,
+      "atl": 29.05,
+      "pct_to_ath": 201.2,
+      "pct_to_atl": 97.1,
+      "wk52_high": 98.79,
+      "wk52_low": 43.41,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "DOX",
       "name": "Amdocs Limited Ordinary Shares",
       "mcap": 6.41,
@@ -787,29 +810,6 @@
       "pct_to_atl": 926.7,
       "wk52_high": 85.63,
       "wk52_low": 49.74,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
-      "sym": "CAVA",
-      "name": "CAVA Group, Inc.",
-      "mcap": 6.39,
-      "price": 57.25,
-      "basis": 73.16,
-      "bxt_today": 5.97,
-      "bxt_yest": -4.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 172.43,
-      "atl": 29.05,
-      "pct_to_ath": 201.2,
-      "pct_to_atl": 97.1,
-      "wk52_high": 98.79,
-      "wk52_low": 43.41,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2795,7 +2795,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-18T13:10:36.721260+00:00",
+    "compared_to": "2026-10-18T16:32:59.937445+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

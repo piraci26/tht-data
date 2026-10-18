@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-18T16:32:37.106234+00:00",
+  "updated_at": "2026-10-18T18:53:55.728341+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.06,
+  "scan_seconds": 26.45,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -2035,7 +2035,7 @@
     {
       "sym": "CAVA",
       "name": "CAVA Group, Inc.",
-      "mcap": 6.39,
+      "mcap": 6.69,
       "price": 57.25,
       "basis": 73.16,
       "bxt_today": 5.97,
@@ -2979,7 +2979,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-18T13:10:16.377713+00:00",
+    "compared_to": "2026-10-18T16:32:37.106234+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
