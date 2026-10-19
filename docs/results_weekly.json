@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T01:20:51.338195+00:00",
+  "updated_at": "2026-10-19T06:20:51.256951+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.49,
+  "scan_seconds": 8.98,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -220,7 +220,7 @@
       "name": "Home Depot, Inc. (The)",
       "mcap": 308.91,
       "price": 309.63,
-      "basis": 325.15,
+      "basis": 325.16,
       "bxt_today": 1.36,
       "bxt_yest": -11.92,
       "fvb_g": false,
@@ -2332,29 +2332,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "KTB",
-      "name": "Kontoor Brands, Inc.",
-      "mcap": 4.01,
-      "price": 73.28,
-      "basis": 74.27,
-      "bxt_today": 0.37,
-      "bxt_yest": -13.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 96.8,
-      "atl": 12.9,
-      "pct_to_ath": 32.1,
-      "pct_to_atl": 467.8,
-      "wk52_high": 88.96,
-      "wk52_low": 56.19,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "VVV",
       "name": "Valvoline Inc.",
       "mcap": 4.01,
@@ -2374,6 +2351,29 @@
       "pct_to_atl": 247.2,
       "wk52_high": 41.08,
       "wk52_low": 26.21,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "KTB",
+      "name": "Kontoor Brands, Inc.",
+      "mcap": 4.01,
+      "price": 73.28,
+      "basis": 74.27,
+      "bxt_today": 0.37,
+      "bxt_yest": -13.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 96.8,
+      "atl": 12.9,
+      "pct_to_ath": 32.1,
+      "pct_to_atl": 467.8,
+      "wk52_high": 88.96,
+      "wk52_low": 56.19,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2979,7 +2979,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-18T23:14:41.231715+00:00",
+    "compared_to": "2026-10-19T01:20:51.338195+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
