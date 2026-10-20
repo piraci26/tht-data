@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T06:41:07.377166+00:00",
+  "updated_at": "2026-10-20T12:14:15.561149+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 16.13,
+  "scan_seconds": 10.29,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -404,7 +404,7 @@
       "name": "Crown Castle Inc.",
       "mcap": 34.3,
       "price": 81.06,
-      "basis": 94.49,
+      "basis": 94.5,
       "bxt_today": 8.91,
       "bxt_yest": -1.85,
       "fvb_g": false,
@@ -2772,7 +2772,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-20T01:43:52.501582+00:00",
+    "compared_to": "2026-10-20T06:41:07.377166+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
