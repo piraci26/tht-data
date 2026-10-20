@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-20T01:43:23.849625+00:00",
+  "updated_at": "2026-10-20T06:40:37.352767+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.62,
+  "scan_seconds": 16.08,
   "scanned_count": 1497,
   "fvb_green": [
     {
@@ -1297,6 +1297,29 @@
       "atl_30d": 0
     },
     {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 24.61,
+      "price": 464.92,
+      "basis": 487.09,
+      "bxt_today": 0.91,
+      "bxt_yest": -0.82,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 565.5,
+      "atl": 2.8,
+      "pct_to_ath": 21.6,
+      "pct_to_atl": 16532.0,
+      "wk52_high": 565.5,
+      "wk52_low": 403.82,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
       "sym": "DRI",
       "name": "Darden Restaurants, Inc.",
       "mcap": 24.47,
@@ -2564,29 +2587,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 24.61,
-      "price": 461.1,
-      "basis": 487.77,
-      "bxt_today": -0.82,
-      "bxt_yest": 3.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 565.5,
-      "atl": 2.8,
-      "pct_to_ath": 22.6,
-      "pct_to_atl": 16395.4,
-      "wk52_high": 565.5,
-      "wk52_low": 403.82,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "RBA",
       "name": "RB Global, Inc.",
       "mcap": 14.71,
@@ -2887,13 +2887,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-19T23:02:17.488148+00:00",
+    "compared_to": "2026-10-20T01:43:23.849625+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
@@ -2908,7 +2907,9 @@
         "ath_30d": 0
       }
     ],
-    "bxt_red_added": [
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": [
       {
         "sym": "HUBB",
         "name": "Hubbell Inc",
@@ -2922,7 +2923,6 @@
         "wk52_low": 403.82,
         "ath_30d": 0
       }
-    ],
-    "bxt_red_removed": []
+    ]
   }
 }
