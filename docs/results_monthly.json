@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T23:02:44.783046+00:00",
+  "updated_at": "2026-10-20T01:43:52.501582+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 17.47,
+  "scan_seconds": 16.67,
   "scanned_count": 1496,
   "fvb_green": [
     {
@@ -1004,7 +1004,7 @@
       "name": "CrowdStrike Holdings, Inc.",
       "mcap": 234.17,
       "price": 228.1,
-      "basis": 176.42,
+      "basis": 176.4,
       "bxt_today": -12.67,
       "bxt_yest": 0.08,
       "fvb_g": false,
@@ -2772,240 +2772,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-19T19:31:11.676045+00:00",
+    "compared_to": "2026-10-19T23:02:44.783046+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [
-      {
-        "sym": "PCTY",
-        "name": "Paylocity Holding Corporation",
-        "mcap": 9.2,
-        "price": 166.7,
-        "basis": 159.11,
-        "bxt_today": 35.86,
-        "ath": 314.49,
-        "pct_to_ath": 88.7,
-        "wk52_high": 169.09,
-        "wk52_low": 92.99,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "CSAN",
-        "name": "Cosan S.A. ADS",
-        "mcap": 2.71,
-        "price": 2.75,
-        "basis": 2.76,
-        "bxt_today": -3.19,
-        "ath": 3.3,
-        "pct_to_ath": 20.0,
-        "wk52_high": 3.1,
-        "wk52_low": 2.71,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 184.06,
-        "basis": 69.13,
-        "bxt_today": 49.67,
-        "ath": 184.06,
-        "pct_to_ath": -0.0,
-        "wk52_high": 185.62,
-        "wk52_low": 182.8,
-        "ath_30d": 1
-      },
-      {
-        "sym": "GFS",
-        "name": "GlobalFoundries Inc. Ordinary Shares",
-        "mcap": 25.76,
-        "price": 46.62,
-        "basis": 58.26,
-        "bxt_today": 1.03,
-        "ath": 92.55,
-        "pct_to_ath": 98.5,
-        "wk52_high": 92.55,
-        "wk52_low": 32.02,
-        "ath_30d": 0
-      },
-      {
-        "sym": "PACS",
-        "name": "PACS Group, Inc.",
-        "mcap": 7.54,
-        "price": 46.53,
-        "basis": 39.92,
-        "bxt_today": 3.15,
-        "ath": 49.49,
-        "pct_to_ath": 6.4,
-        "wk52_high": 49.49,
-        "wk52_low": 10.31,
-        "ath_30d": 0
-      },
-      {
-        "sym": "SLGN",
-        "name": "Silgan Holdings Inc.",
-        "mcap": 3.94,
-        "price": 40.38,
-        "basis": 46.25,
-        "bxt_today": 0.73,
-        "ath": 58.14,
-        "pct_to_ath": 44.0,
-        "wk52_high": 49.55,
-        "wk52_low": 33.7,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AAUC",
-        "name": "Allied Gold Corporation Common Shares",
-        "mcap": 3.11,
-        "price": 21.13,
-        "basis": 25.31,
-        "bxt_today": 1.19,
-        "ath": 32.2,
-        "pct_to_ath": 52.4,
-        "wk52_high": 32.2,
-        "wk52_low": 14.6,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "ANET",
-        "name": "Arista Networks, Inc.",
-        "mcap": 231.03,
-        "price": 182.95,
-        "basis": 122.35,
-        "bxt_today": -0.34,
-        "ath": 217.41,
-        "pct_to_ath": 18.8,
-        "wk52_high": 217.41,
-        "wk52_low": 114.52,
-        "ath_30d": 4
-      },
-      {
-        "sym": "WBD",
-        "name": "Warner Bros. Discovery, Inc. Series A",
-        "mcap": 77.6,
-        "price": 30.97,
-        "basis": 30.91,
-        "bxt_today": -9.58,
-        "ath": 30.99,
-        "pct_to_ath": 0.1,
-        "wk52_high": 30.99,
-        "wk52_low": 30.94,
-        "ath_30d": 1
-      },
-      {
-        "sym": "AVB",
-        "name": "AvalonBay Communities, Inc.",
-        "mcap": 26.28,
-        "price": 65.91,
-        "basis": 65.55,
-        "bxt_today": -3.58,
-        "ath": 70.61,
-        "pct_to_ath": 7.1,
-        "wk52_high": 185.62,
-        "wk52_low": 182.8,
-        "ath_30d": 1
-      },
-      {
-        "sym": "ESTC",
-        "name": "Elastic N.V. Ordinary Shares",
-        "mcap": 9.99,
-        "price": 94.6,
-        "basis": 67.07,
-        "bxt_today": -1.16,
-        "ath": 189.84,
-        "pct_to_ath": 100.7,
-        "wk52_high": 108.0,
-        "wk52_low": 42.05,
-        "ath_30d": 0
-      },
-      {
-        "sym": "AUGO",
-        "name": "Aura Minerals Inc. Common Shares",
-        "mcap": 7.09,
-        "price": 86.03,
-        "basis": 85.18,
-        "bxt_today": -0.3,
-        "ath": 110.32,
-        "pct_to_ath": 28.2,
-        "wk52_high": 110.32,
-        "wk52_low": 29.11,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "STLD",
-        "name": "Steel Dynamics, Inc.",
-        "mcap": 35.06,
-        "price": 243.71,
-        "basis": 163.41,
-        "bxt_today": -0.94,
-        "ath": 288.74,
-        "pct_to_ath": 18.5,
-        "wk52_high": 288.74,
-        "wk52_low": 141.45,
-        "ath_30d": 0
-      },
-      {
-        "sym": "CRNX",
-        "name": "Crinetics Pharmaceuticals, Inc.",
-        "mcap": 9.01,
-        "price": 84.95,
-        "basis": 84.88,
-        "bxt_today": -4.6,
-        "ath": 85.01,
-        "pct_to_ath": 0.1,
-        "wk52_high": 85.01,
-        "wk52_low": 84.92,
-        "ath_30d": 1
-      },
-      {
-        "sym": "NJR",
-        "name": "NewJersey Resources Corporation",
-        "mcap": 5.19,
-        "price": 51.07,
-        "basis": 44.77,
-        "bxt_today": -0.38,
-        "ath": 60.86,
-        "pct_to_ath": 19.2,
-        "wk52_high": 60.86,
-        "wk52_low": 43.46,
-        "ath_30d": 0
-      },
-      {
-        "sym": "LBRDK",
-        "name": "Liberty Broadband Corporation Class C",
-        "mcap": 5.17,
-        "price": 36.02,
-        "basis": 35.87,
-        "bxt_today": -7.96,
-        "ath": 37.59,
-        "pct_to_ath": 4.4,
-        "wk52_high": 37.59,
-        "wk52_low": 35.01,
-        "ath_30d": 1
-      },
-      {
-        "sym": "CSAN",
-        "name": "Cosan S.A. ADS",
-        "mcap": 2.71,
-        "price": 2.75,
-        "basis": 2.76,
-        "bxt_today": -3.19,
-        "ath": 3.3,
-        "pct_to_ath": 20.0,
-        "wk52_high": 3.1,
-        "wk52_low": 2.71,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }

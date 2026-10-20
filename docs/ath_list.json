@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:03:23.784288+00:00",
+  "updated_at": "2026-10-20T01:44:34.761085+00:00",
   "count": 14,
   "list": [
     {
@@ -47,11 +47,11 @@
       "atl": 3.14,
       "pct_to_ath": 1.0,
       "pct_to_atl": 4518.8,
-      "wk52_high": 146.69,
+      "wk52_high": 146.7,
       "wk52_low": 85.57,
       "ath_30d": 7,
       "atl_30d": 0,
-      "last_high": 146.69,
+      "last_high": 146.7,
       "last_low": 144.27,
       "made_ath_today": true,
       "made_atl_today": false
@@ -65,11 +65,11 @@
       "atl": 13.18,
       "pct_to_ath": 4.2,
       "pct_to_atl": 3495.4,
-      "wk52_high": 493.69,
+      "wk52_high": 493.98,
       "wk52_low": 161.93,
       "ath_30d": 17,
       "atl_30d": 0,
-      "last_high": 493.69,
+      "last_high": 493.98,
       "last_low": 470.68,
       "made_ath_today": true,
       "made_atl_today": false
@@ -160,7 +160,7 @@
       "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 24.92,
-      "last_low": 24.51,
+      "last_low": 24.5,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -214,7 +214,7 @@
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 123.6,
-      "last_low": 121.68,
+      "last_low": 121.69,
       "made_ath_today": true,
       "made_atl_today": false
     },
