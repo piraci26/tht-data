@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T20:53:03.256982+00:00",
+  "updated_at": "2026-10-21T23:48:16.659485+00:00",
   "count": 25,
   "list": [
     {
@@ -412,7 +412,7 @@
       "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 84.06,
-      "last_low": 78.76,
+      "last_low": 78.74,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4255,12 +4255,5 @@
       "first_seen_at": "2026-10-21T20:53:03.256982+00:00"
     }
   ],
-  "added_this_run": [
-    "COP",
-    "CVX",
-    "MSM",
-    "RUSHB",
-    "SU",
-    "TRV"
-  ]
+  "added_this_run": []
 }
