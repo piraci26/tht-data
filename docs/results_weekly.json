@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T06:39:40.839373+00:00",
+  "updated_at": "2026-10-21T12:26:28.272355+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.26,
+  "scan_seconds": 13.26,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2404,7 +2404,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-21T01:49:08.851509+00:00",
+    "compared_to": "2026-10-21T06:39:40.839373+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -2412,20 +2412,6 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "HUBB",
-        "name": "Hubbell Inc",
-        "mcap": 24.32,
-        "price": 459.32,
-        "basis": 486.67,
-        "bxt_today": -2.39,
-        "ath": 565.5,
-        "pct_to_ath": 23.1,
-        "wk52_high": 565.5,
-        "wk52_low": 403.82,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
