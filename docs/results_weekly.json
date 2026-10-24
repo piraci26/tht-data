@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-24T13:15:25.596521+00:00",
+  "updated_at": "2026-10-24T16:40:27.124872+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.14,
+  "scan_seconds": 19.34,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -1895,29 +1895,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "RITM",
-      "name": "Rithm Capital Corp.",
-      "mcap": 5.18,
-      "price": 9.39,
-      "basis": 9.46,
-      "bxt_today": 0.4,
-      "bxt_yest": -11.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 18.75,
-      "atl": 2.91,
-      "pct_to_ath": 99.7,
-      "pct_to_atl": 222.7,
-      "wk52_high": 12.15,
-      "wk52_low": 8.31,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "FBIN",
       "name": "Fortune Brands Innovations, Inc.",
       "mcap": 5.18,
@@ -1937,6 +1914,29 @@
       "pct_to_atl": 355.1,
       "wk52_high": 64.84,
       "wk52_low": 32.34,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "RITM",
+      "name": "Rithm Capital Corp.",
+      "mcap": 5.18,
+      "price": 9.39,
+      "basis": 9.46,
+      "bxt_today": 0.4,
+      "bxt_yest": -11.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 18.75,
+      "atl": 2.91,
+      "pct_to_ath": 99.7,
+      "pct_to_atl": 222.7,
+      "wk52_high": 12.15,
+      "wk52_low": 8.31,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -2864,7 +2864,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-24T09:00:58.270027+00:00",
+    "compared_to": "2026-10-24T13:15:25.596521+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
