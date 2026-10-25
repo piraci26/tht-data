@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T19:05:13.843282+00:00",
+  "updated_at": "2026-10-25T21:43:15.451296+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.02,
-  "scanned_count": 1498,
+  "scan_seconds": 18.05,
+  "scanned_count": 1497,
   "fvb_green": [
     {
       "sym": "LDOS",
@@ -2864,7 +2864,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-25T16:13:12.833472+00:00",
+    "compared_to": "2026-10-25T19:05:13.843282+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

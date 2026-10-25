@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T19:04:47.836729+00:00",
+  "updated_at": "2026-10-25T21:42:44.625973+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.63,
+  "scan_seconds": 19.53,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -2957,7 +2957,7 @@
     {
       "sym": "STLD",
       "name": "Steel Dynamics, Inc.",
-      "mcap": 34.62,
+      "mcap": 34.35,
       "price": 241.53,
       "basis": 236.97,
       "bxt_today": -3.01,
@@ -3578,7 +3578,7 @@
     {
       "sym": "ALSN",
       "name": "Allison Transmission Holdings, Inc.",
-      "mcap": 8.8,
+      "mcap": 8.78,
       "price": 106.32,
       "basis": 115.38,
       "bxt_today": -11.53,
@@ -4267,7 +4267,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-25T16:12:44.106338+00:00",
+    "compared_to": "2026-10-25T19:04:47.836729+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T19:05:35.059817+00:00",
+  "updated_at": "2026-10-25T21:43:37.922989+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.95,
+  "scan_seconds": 12.86,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -147,7 +147,7 @@
     {
       "sym": "FER",
       "name": "Ferrovial N.V. Ordinary Shares",
-      "mcap": 35.74,
+      "mcap": 35.71,
       "price": 49.65,
       "basis": 52.51,
       "bxt_today": -44.13,
@@ -379,7 +379,7 @@
     {
       "sym": "KMI",
       "name": "Kinder Morgan, Inc.",
-      "mcap": 76.67,
+      "mcap": 76.7,
       "price": 34.43,
       "basis": 27.2,
       "bxt_today": 0.8,
@@ -1600,7 +1600,7 @@
     {
       "sym": "STLD",
       "name": "Steel Dynamics, Inc.",
-      "mcap": 34.62,
+      "mcap": 34.35,
       "price": 241.53,
       "basis": 163.36,
       "bxt_today": -2.12,
@@ -2588,7 +2588,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-25T16:13:37.315250+00:00",
+    "compared_to": "2026-10-25T19:05:35.059817+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
