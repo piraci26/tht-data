@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27T19:33:28.779943+00:00",
+  "updated_at": "2026-10-27T23:08:36.703410+00:00",
   "count": 1,
   "list": [
     {
       "sym": "IEP",
       "name": "Icahn Enterprises, L.P.",
       "mcap": 4.06,
-      "price": 5.55,
+      "price": 5.56,
       "ath": 149.77,
       "atl": 5.52,
-      "pct_to_ath": 2601.0,
-      "pct_to_atl": 0.5,
+      "pct_to_ath": 2593.7,
+      "pct_to_atl": 0.7,
       "wk52_high": 9.32,
       "wk52_low": 5.52,
       "ath_30d": 0,
