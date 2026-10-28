@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T02:10:54.121621+00:00",
+  "updated_at": "2026-10-28T08:31:33.787768+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.31,
+  "scan_seconds": 23.39,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -593,10 +593,10 @@
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 438.93,
-      "atl": 99.22,
-      "pct_to_ath": 43.7,
-      "pct_to_atl": 207.8,
+      "ath": 392.56,
+      "atl": 74.71,
+      "pct_to_ath": 28.5,
+      "pct_to_atl": 308.8,
       "wk52_high": 330.52,
       "wk52_low": 156.55,
       "ath_30d": 0,
@@ -7694,22 +7694,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-27T23:06:58.983486+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.72,
-        "price": 305.42,
-        "basis": 301.93,
-        "bxt_today": -7.31,
-        "ath": 438.93,
-        "pct_to_ath": 43.7,
-        "wk52_high": 330.52,
-        "wk52_low": 156.55,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-10-28T02:10:54.121621+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],

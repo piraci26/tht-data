@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T02:11:50.753396+00:00",
+  "updated_at": "2026-10-28T08:32:49.424844+00:00",
   "count": 13,
   "list": [
     {
@@ -97,7 +97,7 @@
       "name": "Waters Corporation",
       "mcap": 46.11,
       "price": 468.55,
-      "ath": 470.85,
+      "ath": 470.86,
       "atl": 3.5,
       "pct_to_ath": 0.5,
       "pct_to_atl": 13287.1,
@@ -151,9 +151,9 @@
       "name": "Halozyme Therapeutics, Inc.",
       "mcap": 13.79,
       "price": 128.5,
-      "ath": 128.65,
+      "ath": 128.94,
       "atl": 1.41,
-      "pct_to_ath": 0.1,
+      "pct_to_ath": 0.3,
       "pct_to_atl": 9013.5,
       "wk52_high": 128.94,
       "wk52_low": 61.23,
