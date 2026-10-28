@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T23:08:36.700570+00:00",
+  "updated_at": "2026-10-28T02:11:50.753396+00:00",
   "count": 13,
   "list": [
     {
@@ -16,7 +16,7 @@
       "ath_30d": 9,
       "atl_30d": 0,
       "last_high": 184.88,
-      "last_low": 179.78,
+      "last_low": 179.77,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -34,7 +34,7 @@
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 166.6,
-      "last_low": 161.96,
+      "last_low": 161.91,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -52,7 +52,7 @@
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 1179.62,
-      "last_low": 1131.24,
+      "last_low": 1131.25,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -70,7 +70,7 @@
       "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 304.73,
-      "last_low": 297.6,
+      "last_low": 297.56,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -88,7 +88,7 @@
       "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 105.45,
-      "last_low": 103.57,
+      "last_low": 103.48,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -101,11 +101,11 @@
       "atl": 3.5,
       "pct_to_ath": 0.5,
       "pct_to_atl": 13287.1,
-      "wk52_high": 470.85,
+      "wk52_high": 470.86,
       "wk52_low": 282.77,
       "ath_30d": 9,
       "atl_30d": 0,
-      "last_high": 470.85,
+      "last_high": 470.86,
       "last_low": 452.35,
       "made_ath_today": true,
       "made_atl_today": false
@@ -133,15 +133,15 @@
       "name": "Rubrik, Inc.",
       "mcap": 28.09,
       "price": 135.74,
-      "ath": 137.94,
+      "ath": 138.0,
       "atl": 28.34,
-      "pct_to_ath": 1.6,
+      "pct_to_ath": 1.7,
       "pct_to_atl": 379.0,
-      "wk52_high": 137.94,
+      "wk52_high": 138.0,
       "wk52_low": 42.25,
       "ath_30d": 13,
       "atl_30d": 0,
-      "last_high": 137.94,
+      "last_high": 138.0,
       "last_low": 132.13,
       "made_ath_today": true,
       "made_atl_today": false
@@ -155,11 +155,11 @@
       "atl": 1.41,
       "pct_to_ath": 0.1,
       "pct_to_atl": 9013.5,
-      "wk52_high": 128.65,
+      "wk52_high": 128.94,
       "wk52_low": 61.23,
       "ath_30d": 13,
       "atl_30d": 0,
-      "last_high": 128.65,
+      "last_high": 128.94,
       "last_low": 126.13,
       "made_ath_today": true,
       "made_atl_today": false
@@ -223,15 +223,15 @@
       "name": "Kiniksa Pharmaceuticals International, plc Ordinary Shares",
       "mcap": 6.28,
       "price": 89.2,
-      "ath": 90.77,
+      "ath": 90.8,
       "atl": 5.01,
       "pct_to_ath": 1.8,
       "pct_to_atl": 1680.4,
-      "wk52_high": 90.77,
+      "wk52_high": 90.8,
       "wk52_low": 35.2,
       "ath_30d": 4,
       "atl_30d": 0,
-      "last_high": 90.77,
+      "last_high": 90.8,
       "last_low": 82.26,
       "made_ath_today": true,
       "made_atl_today": false
@@ -4039,7 +4039,5 @@
       "first_seen_at": "2026-10-27T23:08:36.700570+00:00"
     }
   ],
-  "added_this_run": [
-    "RPRX"
-  ]
+  "added_this_run": []
 }
