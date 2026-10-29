@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-10-29T17:38:47.163331+00:00",
-  "count": 1,
+  "updated_at": "2026-10-29T22:01:59.911469+00:00",
+  "count": 2,
   "list": [
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 5.87,
+      "price": 6.41,
+      "ath": 48.11,
+      "atl": 6.37,
+      "pct_to_ath": 650.5,
+      "pct_to_atl": 0.6,
+      "wk52_high": 14.33,
+      "wk52_low": 6.37,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 6.72,
+      "last_low": 6.37,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
     {
       "sym": "IEP",
       "name": "Icahn Enterprises, L.P.",
       "mcap": 4.06,
-      "price": 5.22,
+      "price": 5.25,
       "ath": 149.77,
-      "atl": 5.22,
-      "pct_to_ath": 2771.9,
-      "pct_to_atl": 0.0,
+      "atl": 5.17,
+      "pct_to_ath": 2752.8,
+      "pct_to_atl": 1.5,
       "wk52_high": 9.32,
-      "wk52_low": 5.22,
+      "wk52_low": 5.17,
       "ath_30d": 0,
       "atl_30d": 9,
       "last_high": 5.38,
-      "last_low": 5.22,
+      "last_low": 5.17,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -921,25 +939,6 @@
       "first_seen_at": "2026-10-23T14:26:07.722781+00:00"
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 5.87,
-      "price": 6.58,
-      "ath": 48.11,
-      "atl": 6.4,
-      "pct_to_ath": 631.2,
-      "pct_to_atl": 2.8,
-      "wk52_high": 14.52,
-      "wk52_low": 6.4,
-      "ath_30d": 0,
-      "atl_30d": 1,
-      "last_high": 6.87,
-      "last_low": 6.4,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-10-23T18:35:45.923632+00:00"
-    },
-    {
       "sym": "SFD",
       "name": "Smithfield Foods, Inc.",
       "mcap": 7.35,
@@ -957,7 +956,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-10-28T15:25:59.948641+00:00"
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 5.87,
+      "price": 6.41,
+      "ath": 48.11,
+      "atl": 6.37,
+      "pct_to_ath": 650.5,
+      "pct_to_atl": 0.6,
+      "wk52_high": 14.33,
+      "wk52_low": 6.37,
+      "ath_30d": 0,
+      "atl_30d": 2,
+      "last_high": 6.72,
+      "last_low": 6.37,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-10-29T22:01:59.911469+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MBLY"
+  ]
 }
