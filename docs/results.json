@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T01:52:10.466427+00:00",
+  "updated_at": "2026-10-30T07:51:49.582571+00:00",
   "timeframe": "daily",
-  "scan_seconds": 19.98,
+  "scan_seconds": 10.73,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -4300,7 +4300,7 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 4,
-      "ath": 400.12,
+      "ath": 400.13,
       "atl": 8.92,
       "pct_to_ath": 0.3,
       "pct_to_atl": 4375.0,
@@ -6774,54 +6774,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-10-29T22:00:44.151495+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.72,
-        "price": 310.18,
-        "basis": 302.33,
-        "bxt_today": 12.14,
-        "ath": 392.56,
-        "pct_to_ath": 26.6,
-        "wk52_high": 330.52,
-        "wk52_low": 156.55,
-        "ath_30d": 0
-      }
-    ],
+    "compared_to": "2026-10-30T01:52:10.466427+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.72,
-        "price": 300.32,
-        "basis": 302.1,
-        "bxt_today": -3.7,
-        "ath": 392.56,
-        "pct_to_ath": 30.7,
-        "wk52_high": 330.52,
-        "wk52_low": 156.55,
-        "ath_30d": 0
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.72,
-        "price": 310.18,
-        "basis": 302.33,
-        "bxt_today": 12.14,
-        "ath": 392.56,
-        "pct_to_ath": 26.6,
-        "wk52_high": 330.52,
-        "wk52_low": 156.55,
-        "ath_30d": 0
-      }
-    ],
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
