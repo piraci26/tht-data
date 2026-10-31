@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T23:18:09.054823+00:00",
+  "updated_at": "2026-10-31T02:32:46.141112+00:00",
   "count": 4,
   "list": [
     {
@@ -21,6 +21,24 @@
       "made_atl_today": true
     },
     {
+      "sym": "SATS",
+      "name": "EchoStar  Corporation",
+      "mcap": 27.74,
+      "price": 93.25,
+      "ath": 96.0,
+      "atl": 92.0,
+      "pct_to_ath": 2.9,
+      "pct_to_atl": 1.4,
+      "wk52_high": 96.0,
+      "wk52_low": 92.0,
+      "ath_30d": 2,
+      "atl_30d": 2,
+      "last_high": 94.49,
+      "last_low": 92.0,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 6.02,
@@ -35,24 +53,6 @@
       "atl_30d": 5,
       "last_high": 22.9,
       "last_low": 20.92,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 5.87,
-      "price": 5.96,
-      "ath": 48.11,
-      "atl": 5.76,
-      "pct_to_ath": 707.2,
-      "pct_to_atl": 3.6,
-      "wk52_high": 14.33,
-      "wk52_low": 5.76,
-      "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 6.33,
-      "last_low": 5.76,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -1011,7 +1011,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-10-30T14:41:50.350561+00:00"
+    },
+    {
+      "sym": "SATS",
+      "name": "EchoStar  Corporation",
+      "mcap": 27.74,
+      "price": 93.25,
+      "ath": 96.0,
+      "atl": 92.0,
+      "pct_to_ath": 2.9,
+      "pct_to_atl": 1.4,
+      "wk52_high": 96.0,
+      "wk52_low": 92.0,
+      "ath_30d": 2,
+      "atl_30d": 2,
+      "last_high": 94.49,
+      "last_low": 92.0,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-10-31T02:32:46.141112+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "SATS"
+  ]
 }
