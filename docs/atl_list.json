@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-31T18:55:19.387822+00:00",
+  "updated_at": "2026-10-31T22:07:35.111513+00:00",
   "count": 4,
   "list": [
     {
       "sym": "MDLN",
       "name": "Medline Inc.",
-      "mcap": 28.1,
+      "mcap": 28.18,
       "price": 32.12,
       "ath": 50.88,
       "atl": 31.37,
@@ -23,7 +23,7 @@
     {
       "sym": "SATS",
       "name": "EchoStar  Corporation",
-      "mcap": 27.74,
+      "mcap": 27.03,
       "price": 93.25,
       "ath": 96.0,
       "atl": 92.0,
