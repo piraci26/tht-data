@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T19:04:25.310430+00:00",
+  "updated_at": "2026-11-01T22:45:01.273744+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.68,
+  "scan_seconds": 20.96,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -906,7 +906,7 @@
     {
       "sym": "ILMN",
       "name": "Illumina, Inc.",
-      "mcap": 35.63,
+      "mcap": 35.68,
       "price": 235.99,
       "basis": 265.92,
       "bxt_today": -23.46,
@@ -1088,29 +1088,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "ZBRA",
-      "name": "Zebra Technologies Corporation",
-      "mcap": 18.26,
-      "price": 361.26,
-      "basis": 373.85,
-      "bxt_today": -40.19,
-      "bxt_yest": -28.93,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 27,
-      "bxt_streak": null,
-      "ath": 615.0,
-      "atl": 3.22,
-      "pct_to_ath": 70.2,
-      "pct_to_atl": 11111.5,
-      "wk52_high": 392.78,
-      "wk52_low": 199.05,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "NTNX",
       "name": "Nutanix, Inc.",
       "mcap": 18.19,
@@ -1176,6 +1153,29 @@
       "pct_to_atl": 5468.5,
       "wk52_high": 230.32,
       "wk52_low": 166.96,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "mcap": 17.21,
+      "price": 361.26,
+      "basis": 373.85,
+      "bxt_today": -40.19,
+      "bxt_yest": -28.93,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 27,
+      "bxt_streak": null,
+      "ath": 615.0,
+      "atl": 3.22,
+      "pct_to_ath": 70.2,
+      "pct_to_atl": 11111.5,
+      "wk52_high": 392.78,
+      "wk52_low": 199.05,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -4682,7 +4682,7 @@
     {
       "sym": "ILMN",
       "name": "Illumina, Inc.",
-      "mcap": 35.63,
+      "mcap": 35.68,
       "price": 235.99,
       "basis": 265.92,
       "bxt_today": -23.46,
@@ -7027,7 +7027,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-01T14:27:18.175913+00:00",
+    "compared_to": "2026-11-01T19:04:25.310430+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

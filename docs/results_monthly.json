@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T19:05:16.566063+00:00",
+  "updated_at": "2026-11-01T22:46:08.435807+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.76,
+  "scan_seconds": 20.17,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -4383,7 +4383,7 @@
     {
       "sym": "AIT",
       "name": "Applied Industrial Technologies, Inc.",
-      "mcap": 10.99,
+      "mcap": 10.74,
       "price": 294.12,
       "basis": 155.43,
       "bxt_today": -2.86,
@@ -5693,7 +5693,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-01T14:28:18.018247+00:00",
+    "compared_to": "2026-11-01T19:05:16.566063+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
