@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T01:55:10.106737+00:00",
-  "count": 4,
+  "updated_at": "2026-11-02T08:46:56.880088+00:00",
+  "count": 5,
   "list": [
     {
       "sym": "MDLN",
@@ -53,6 +53,24 @@
       "atl_30d": 5,
       "last_high": 22.9,
       "last_low": 20.92,
+      "made_ath_today": false,
+      "made_atl_today": true
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 5.87,
+      "price": 5.96,
+      "ath": 48.11,
+      "atl": 5.76,
+      "pct_to_ath": 707.2,
+      "pct_to_atl": 3.5,
+      "wk52_high": 14.33,
+      "wk52_low": 5.76,
+      "ath_30d": 0,
+      "atl_30d": 3,
+      "last_high": 6.33,
+      "last_low": 5.76,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -956,25 +974,6 @@
       "first_seen_at": "2026-10-28T15:25:59.948641+00:00"
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 5.87,
-      "price": 6.41,
-      "ath": 48.11,
-      "atl": 6.37,
-      "pct_to_ath": 650.5,
-      "pct_to_atl": 0.6,
-      "wk52_high": 14.33,
-      "wk52_low": 6.37,
-      "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 6.72,
-      "last_low": 6.37,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-10-29T22:01:59.911469+00:00"
-    },
-    {
       "sym": "FIGR",
       "name": "Figure Technology Solutions, Inc.",
       "mcap": 6.02,
@@ -1030,7 +1029,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-10-31T02:32:46.141112+00:00"
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 5.87,
+      "price": 5.96,
+      "ath": 48.11,
+      "atl": 5.76,
+      "pct_to_ath": 707.2,
+      "pct_to_atl": 3.5,
+      "wk52_high": 14.33,
+      "wk52_low": 5.76,
+      "ath_30d": 0,
+      "atl_30d": 3,
+      "last_high": 6.33,
+      "last_low": 5.76,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-11-02T08:46:56.880088+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MBLY"
+  ]
 }
