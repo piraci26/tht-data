@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-11-03T16:20:58.774576+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-11-03T21:53:45.302203+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 5.87,
+      "price": 5.59,
+      "ath": 48.11,
+      "atl": 5.57,
+      "pct_to_ath": 760.6,
+      "pct_to_atl": 0.3,
+      "wk52_high": 14.33,
+      "wk52_low": 5.57,
+      "ath_30d": 0,
+      "atl_30d": 5,
+      "last_high": 5.74,
+      "last_low": 5.57,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -943,21 +962,23 @@
       "sym": "MBLY",
       "name": "Mobileye Global Inc.",
       "mcap": 5.87,
-      "price": 5.96,
+      "price": 5.59,
       "ath": 48.11,
-      "atl": 5.76,
-      "pct_to_ath": 707.2,
-      "pct_to_atl": 3.5,
+      "atl": 5.57,
+      "pct_to_ath": 760.6,
+      "pct_to_atl": 0.3,
       "wk52_high": 14.33,
-      "wk52_low": 5.76,
+      "wk52_low": 5.57,
       "ath_30d": 0,
-      "atl_30d": 3,
-      "last_high": 6.33,
-      "last_low": 5.76,
+      "atl_30d": 5,
+      "last_high": 5.74,
+      "last_low": 5.57,
       "made_ath_today": false,
       "made_atl_today": true,
-      "first_seen_at": "2026-11-02T08:46:56.880088+00:00"
+      "first_seen_at": "2026-11-03T21:53:45.302203+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "MBLY"
+  ]
 }
