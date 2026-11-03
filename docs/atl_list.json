@@ -1,44 +1,7 @@
 {
-  "updated_at": "2026-11-03T08:17:25.810133+00:00",
-  "count": 2,
-  "list": [
-    {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 5.87,
-      "price": 5.65,
-      "ath": 48.11,
-      "atl": 5.62,
-      "pct_to_ath": 751.5,
-      "pct_to_atl": 0.5,
-      "wk52_high": 14.33,
-      "wk52_low": 5.62,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 6.11,
-      "last_low": 5.62,
-      "made_ath_today": false,
-      "made_atl_today": true
-    },
-    {
-      "sym": "IEP",
-      "name": "Icahn Enterprises, L.P.",
-      "mcap": 4.06,
-      "price": 5.16,
-      "ath": 149.77,
-      "atl": 4.97,
-      "pct_to_ath": 2802.5,
-      "pct_to_atl": 3.8,
-      "wk52_high": 9.32,
-      "wk52_low": 4.97,
-      "ath_30d": 0,
-      "atl_30d": 11,
-      "last_high": 5.2,
-      "last_low": 4.97,
-      "made_ath_today": false,
-      "made_atl_today": true
-    }
-  ],
+  "updated_at": "2026-11-03T16:20:58.774576+00:00",
+  "count": 0,
+  "list": [],
   "accumulator": [
     {
       "sym": "BETA",
