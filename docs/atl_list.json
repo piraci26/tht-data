@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:50:15.229107+00:00",
+  "updated_at": "2026-11-06T02:55:00.248339+00:00",
   "count": 11,
   "list": [
     {
@@ -15,7 +15,7 @@
       "wk52_low": 21.32,
       "ath_30d": 0,
       "atl_30d": 4,
-      "last_high": 25.0,
+      "last_high": 25.06,
       "last_low": 21.32,
       "made_ath_today": false,
       "made_atl_today": true
@@ -51,7 +51,7 @@
       "wk52_low": 4.89,
       "ath_30d": 0,
       "atl_30d": 7,
-      "last_high": 5.28,
+      "last_high": 5.29,
       "last_low": 4.89,
       "made_ath_today": false,
       "made_atl_today": true
@@ -62,15 +62,15 @@
       "mcap": 5.23,
       "price": 18.21,
       "ath": 66.0,
-      "atl": 17.99,
+      "atl": 17.98,
       "pct_to_ath": 262.4,
-      "pct_to_atl": 1.2,
+      "pct_to_atl": 1.3,
       "wk52_high": 66.0,
-      "wk52_low": 17.99,
+      "wk52_low": 17.98,
       "ath_30d": 0,
       "atl_30d": 3,
       "last_high": 21.3,
-      "last_low": 17.99,
+      "last_low": 17.98,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -87,7 +87,7 @@
       "wk52_low": 20.06,
       "ath_30d": 0,
       "atl_30d": 1,
-      "last_high": 22.78,
+      "last_high": 22.79,
       "last_low": 20.06,
       "made_ath_today": false,
       "made_atl_today": true
