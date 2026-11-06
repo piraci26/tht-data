@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T02:55:00.243910+00:00",
+  "updated_at": "2026-11-06T10:14:28.409191+00:00",
   "count": 79,
   "list": [
     {
@@ -1330,7 +1330,7 @@
       "ath_30d": 1,
       "atl_30d": 0,
       "last_high": 1269.0,
-      "last_low": 1208.59,
+      "last_low": 1207.1,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -5227,7 +5227,5 @@
       "first_seen_at": "2026-11-06T02:55:00.243910+00:00"
     }
   ],
-  "added_this_run": [
-    "MSGS"
-  ]
+  "added_this_run": []
 }
