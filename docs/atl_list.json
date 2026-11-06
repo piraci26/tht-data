@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-11-06T17:32:52.258631+00:00",
+  "updated_at": "2026-11-06T22:21:00.564748+00:00",
   "count": 3,
   "list": [
     {
       "sym": "MAIR",
       "name": "Madison Air Solutions Corporation",
-      "mcap": 11.17,
-      "price": 22.33,
+      "mcap": 11.58,
+      "price": 23.04,
       "ath": 44.5,
       "atl": 20.85,
-      "pct_to_ath": 99.2,
-      "pct_to_atl": 7.1,
+      "pct_to_ath": 93.1,
+      "pct_to_atl": 10.5,
       "wk52_high": 44.5,
       "wk52_low": 20.85,
       "ath_30d": 0,
       "atl_30d": 5,
-      "last_high": 22.42,
+      "last_high": 23.33,
       "last_low": 20.85,
       "made_ath_today": false,
       "made_atl_today": true
@@ -23,18 +23,18 @@
     {
       "sym": "FPS",
       "name": "Forgent Power Solutions, Inc.",
-      "mcap": 5.23,
-      "price": 18.19,
+      "mcap": 5.26,
+      "price": 19.48,
       "ath": 66.0,
-      "atl": 17.93,
-      "pct_to_ath": 262.9,
-      "pct_to_atl": 1.4,
+      "atl": 17.67,
+      "pct_to_ath": 238.8,
+      "pct_to_atl": 10.2,
       "wk52_high": 66.0,
-      "wk52_low": 17.93,
+      "wk52_low": 17.67,
       "ath_30d": 0,
       "atl_30d": 4,
       "last_high": 19.88,
-      "last_low": 17.93,
+      "last_low": 17.67,
       "made_ath_today": false,
       "made_atl_today": true
     },
@@ -42,17 +42,17 @@
       "sym": "IEP",
       "name": "Icahn Enterprises, L.P.",
       "mcap": 4.06,
-      "price": 4.89,
+      "price": 4.75,
       "ath": 149.77,
-      "atl": 4.86,
-      "pct_to_ath": 2965.9,
-      "pct_to_atl": 0.6,
+      "atl": 4.73,
+      "pct_to_ath": 3053.1,
+      "pct_to_atl": 0.4,
       "wk52_high": 9.32,
-      "wk52_low": 4.86,
+      "wk52_low": 4.73,
       "ath_30d": 0,
       "atl_30d": 12,
       "last_high": 5.18,
-      "last_low": 4.86,
+      "last_low": 4.73,
       "made_ath_today": false,
       "made_atl_today": true
     }
@@ -1052,7 +1052,5 @@
       "first_seen_at": "2026-11-06T17:32:52.258631+00:00"
     }
   ],
-  "added_this_run": [
-    "IEP"
-  ]
+  "added_this_run": []
 }
