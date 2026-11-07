@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T22:21:00.560238+00:00",
+  "updated_at": "2026-11-07T02:03:48.820128+00:00",
   "count": 6,
   "list": [
     {
@@ -16,7 +16,7 @@
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 50.15,
-      "last_low": 49.6,
+      "last_low": 49.33,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -29,12 +29,12 @@
       "atl": 16.25,
       "pct_to_ath": 2.7,
       "pct_to_atl": 10497.8,
-      "wk52_high": 1767.99,
+      "wk52_high": 1806.58,
       "wk52_low": 1023.05,
       "ath_30d": 5,
       "atl_30d": 0,
-      "last_high": 1767.99,
-      "last_low": 1685.62,
+      "last_high": 1806.58,
+      "last_low": 1685.63,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -47,11 +47,11 @@
       "atl": 1.83,
       "pct_to_ath": 0.5,
       "pct_to_atl": 9169.9,
-      "wk52_high": 170.57,
+      "wk52_high": 170.58,
       "wk52_low": 129.85,
       "ath_30d": 6,
       "atl_30d": 0,
-      "last_high": 170.57,
+      "last_high": 170.58,
       "last_low": 165.01,
       "made_ath_today": true,
       "made_atl_today": false
@@ -60,11 +60,11 @@
       "sym": "FWONA",
       "name": "Liberty Media Corporation Series A Liberty Formula One",
       "mcap": 25.37,
-      "price": 101.01,
+      "price": 99.72,
       "ath": 102.0,
       "atl": 16.15,
-      "pct_to_ath": 1.0,
-      "pct_to_atl": 525.4,
+      "pct_to_ath": 2.3,
+      "pct_to_atl": 517.4,
       "wk52_high": 102.0,
       "wk52_low": 73.7,
       "ath_30d": 2,
@@ -3913,7 +3913,5 @@
       "first_seen_at": "2026-11-06T22:21:00.560238+00:00"
     }
   ],
-  "added_this_run": [
-    "FWONA"
-  ]
+  "added_this_run": []
 }
