@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07T19:26:44.635691+00:00",
+  "updated_at": "2026-11-07T22:54:44.033411+00:00",
   "count": 5,
   "list": [
     {
       "sym": "CHT",
       "name": "Chunghwa Telecom Co., Ltd.",
-      "mcap": 38.86,
+      "mcap": 38.67,
       "price": 49.85,
       "ath": 50.15,
       "atl": 15.11,
@@ -23,7 +23,7 @@
     {
       "sym": "MTD",
       "name": "Mettler-Toledo International, Inc.",
-      "mcap": 34.98,
+      "mcap": 34.25,
       "price": 1722.15,
       "ath": 1806.58,
       "atl": 16.25,
@@ -41,7 +41,7 @@
     {
       "sym": "AER",
       "name": "AerCap Holdings N.V. Ordinary Shares",
-      "mcap": 25.68,
+      "mcap": 25.76,
       "price": 169.64,
       "ath": 170.58,
       "atl": 1.83,
@@ -59,7 +59,7 @@
     {
       "sym": "FWONA",
       "name": "Liberty Media Corporation Series A Liberty Formula One",
-      "mcap": 25.37,
+      "mcap": 25.72,
       "price": 101.01,
       "ath": 102.0,
       "atl": 16.15,
