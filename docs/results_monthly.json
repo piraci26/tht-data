@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-08T15:41:54.091683+00:00",
+  "updated_at": "2026-11-08T19:59:01.573572+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.56,
+  "scan_seconds": 7.47,
   "scanned_count": 1499,
   "fvb_green": [
     {
@@ -1347,7 +1347,7 @@
     {
       "sym": "SCHW",
       "name": "Charles Schwab Corporation (The)",
-      "mcap": 158.22,
+      "mcap": 157.91,
       "price": 91.49,
       "basis": 68.95,
       "bxt_today": -4.69,
@@ -1671,7 +1671,7 @@
       "name": "Teradyne, Inc.",
       "mcap": 34.07,
       "price": 218.21,
-      "basis": 131.84,
+      "basis": 131.86,
       "bxt_today": -0.65,
       "bxt_yest": 10.72,
       "fvb_g": false,
@@ -1761,7 +1761,7 @@
     {
       "sym": "PPL",
       "name": "PPL Corporation",
-      "mcap": 26.94,
+      "mcap": 26.95,
       "price": 35.8,
       "basis": 30.63,
       "bxt_today": -2.68,
@@ -1876,7 +1876,7 @@
     {
       "sym": "NWSA",
       "name": "News Corporation",
-      "mcap": 14.19,
+      "mcap": 14.17,
       "price": 26.39,
       "basis": 27.35,
       "bxt_today": -6.69,
@@ -2614,7 +2614,7 @@
       "name": "Atlanta Braves Holdings, Inc. Series A",
       "mcap": 3.63,
       "price": 55.43,
-      "basis": 46.84,
+      "basis": 46.83,
       "bxt_today": -0.91,
       "bxt_yest": 8.21,
       "fvb_g": false,
@@ -2703,7 +2703,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-08T08:53:39.898745+00:00",
+    "compared_to": "2026-11-08T15:41:54.091683+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

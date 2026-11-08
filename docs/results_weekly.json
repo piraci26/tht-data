@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-08T15:41:33.906912+00:00",
+  "updated_at": "2026-11-08T19:58:44.612461+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.55,
+  "scan_seconds": 7.36,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -333,7 +333,7 @@
       "name": "Travere Therapeutics, Inc.",
       "mcap": 4.48,
       "price": 49.6,
-      "basis": 52.05,
+      "basis": 52.04,
       "bxt_today": -46.95,
       "bxt_yest": -46.81,
       "fvb_g": false,
@@ -1508,7 +1508,7 @@
     {
       "sym": "CVX",
       "name": "Chevron Corporation",
-      "mcap": 414.8,
+      "mcap": 414.86,
       "price": 212.61,
       "basis": 197.17,
       "bxt_today": -9.55,
@@ -1579,7 +1579,7 @@
       "name": "Texas Instruments Incorporated",
       "mcap": 253.58,
       "price": 277.36,
-      "basis": 277.88,
+      "basis": 277.89,
       "bxt_today": -7.46,
       "bxt_yest": 1.22,
       "fvb_g": false,
@@ -1876,7 +1876,7 @@
     {
       "sym": "ESLT",
       "name": "Elbit Systems Ltd. Ordinary Shares",
-      "mcap": 31.99,
+      "mcap": 32.0,
       "price": 682.59,
       "basis": 781.09,
       "bxt_today": -7.04,
@@ -2131,7 +2131,7 @@
       "name": "Viper Energy, Inc.",
       "mcap": 7.83,
       "price": 40.62,
-      "basis": 44.52,
+      "basis": 44.51,
       "bxt_today": -10.19,
       "bxt_yest": 0.62,
       "fvb_g": false,
@@ -2358,7 +2358,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-08T08:53:18.667527+00:00",
+    "compared_to": "2026-11-08T15:41:33.906912+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
