@@ -1,7 +1,26 @@
 {
-  "updated_at": "2026-11-10T11:51:44.189605+00:00",
-  "count": 0,
-  "list": [],
+  "updated_at": "2026-11-10T18:56:31.645183+00:00",
+  "count": 1,
+  "list": [
+    {
+      "sym": "EQPT",
+      "name": "EquipmentShare.com Inc",
+      "mcap": 3.58,
+      "price": 12.72,
+      "ath": 35.5,
+      "atl": 12.41,
+      "pct_to_ath": 179.0,
+      "pct_to_atl": 2.5,
+      "wk52_high": 35.5,
+      "wk52_low": 12.41,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 15.02,
+      "last_low": 12.41,
+      "made_ath_today": false,
+      "made_atl_today": true
+    }
+  ],
   "accumulator": [
     {
       "sym": "BETA",
@@ -598,25 +617,6 @@
       "first_seen_at": "2026-10-13T18:31:26.340502+00:00"
     },
     {
-      "sym": "EQPT",
-      "name": "EquipmentShare.com Inc",
-      "mcap": 3.9,
-      "price": 14.02,
-      "ath": 35.5,
-      "atl": 13.89,
-      "pct_to_ath": 153.1,
-      "pct_to_atl": 1.0,
-      "wk52_high": 35.5,
-      "wk52_low": 13.89,
-      "ath_30d": 0,
-      "atl_30d": 2,
-      "last_high": 15.2,
-      "last_low": 13.89,
-      "made_ath_today": false,
-      "made_atl_today": true,
-      "first_seen_at": "2026-10-14T17:33:54.266628+00:00"
-    },
-    {
       "sym": "NNNN",
       "name": "Anbio Biotechnology Ordinary Shares",
       "mcap": 0.18,
@@ -995,7 +995,28 @@
       "made_ath_today": false,
       "made_atl_today": true,
       "first_seen_at": "2026-11-06T17:32:52.258631+00:00"
+    },
+    {
+      "sym": "EQPT",
+      "name": "EquipmentShare.com Inc",
+      "mcap": 3.58,
+      "price": 12.72,
+      "ath": 35.5,
+      "atl": 12.41,
+      "pct_to_ath": 179.0,
+      "pct_to_atl": 2.5,
+      "wk52_high": 35.5,
+      "wk52_low": 12.41,
+      "ath_30d": 0,
+      "atl_30d": 4,
+      "last_high": 15.02,
+      "last_low": 12.41,
+      "made_ath_today": false,
+      "made_atl_today": true,
+      "first_seen_at": "2026-11-10T18:56:31.645183+00:00"
     }
   ],
-  "added_this_run": []
+  "added_this_run": [
+    "EQPT"
+  ]
 }
