@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-11-11T12:06:11.892884+00:00",
-  "count": 1,
-  "list": [
-    {
-      "sym": "EQPT",
-      "name": "EquipmentShare.com Inc",
-      "mcap": 3.58,
-      "price": 13.53,
-      "ath": 35.5,
-      "atl": 12.41,
-      "pct_to_ath": 162.3,
-      "pct_to_atl": 9.1,
-      "wk52_high": 35.5,
-      "wk52_low": 12.41,
-      "ath_30d": 0,
-      "atl_30d": 4,
-      "last_high": 15.02,
-      "last_low": 12.41,
-      "made_ath_today": false,
-      "made_atl_today": true
-    }
-  ],
+  "updated_at": "2026-11-11T19:33:45.893911+00:00",
+  "count": 0,
+  "list": [],
   "accumulator": [
     {
       "sym": "BETA",
