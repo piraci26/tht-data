@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T03:30:26.470715+00:00",
+  "updated_at": "2026-11-14T10:51:34.979935+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.14,
+  "scan_seconds": 11.02,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -5325,28 +5325,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-13T23:30:01.707570+00:00",
+    "compared_to": "2026-11-14T03:30:26.470715+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.72,
-        "price": 314.46,
-        "basis": 306.89,
-        "bxt_today": -8.6,
-        "ath": 331.77,
-        "pct_to_ath": 5.5,
-        "wk52_high": 331.77,
-        "wk52_low": 280.0,
-        "ath_30d": 1
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
