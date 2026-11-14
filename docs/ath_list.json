@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-14T16:48:20.285167+00:00",
+  "updated_at": "2026-11-14T21:00:22.155545+00:00",
   "count": 12,
   "list": [
     {
       "sym": "AAPL",
       "name": "Apple Inc.",
-      "mcap": 5194.16,
+      "mcap": 5177.38,
       "price": 356.27,
       "ath": 360.83,
       "atl": 0.06,
@@ -23,7 +23,7 @@
     {
       "sym": "JNJ",
       "name": "Johnson & Johnson",
-      "mcap": 690.37,
+      "mcap": 687.89,
       "price": 285.75,
       "ath": 288.11,
       "atl": 2.2,
@@ -41,7 +41,7 @@
     {
       "sym": "COST",
       "name": "Costco Wholesale Corporation",
-      "mcap": 488.25,
+      "mcap": 490.19,
       "price": 1106.21,
       "ath": 1109.5,
       "atl": 5.88,
@@ -59,7 +59,7 @@
     {
       "sym": "KO",
       "name": "Coca-Cola Company (The)",
-      "mcap": 426.86,
+      "mcap": 426.96,
       "price": 99.25,
       "ath": 99.3,
       "atl": 1.24,
@@ -77,7 +77,7 @@
     {
       "sym": "CHT",
       "name": "Chunghwa Telecom Co., Ltd.",
-      "mcap": 38.79,
+      "mcap": 38.69,
       "price": 49.87,
       "ath": 50.36,
       "atl": 15.11,
@@ -95,7 +95,7 @@
     {
       "sym": "SATS",
       "name": "EchoStar  Corporation",
-      "mcap": 28.1,
+      "mcap": 28.09,
       "price": 96.92,
       "ath": 97.0,
       "atl": 92.0,
@@ -113,7 +113,7 @@
     {
       "sym": "AER",
       "name": "AerCap Holdings N.V. Ordinary Shares",
-      "mcap": 26.56,
+      "mcap": 26.68,
       "price": 175.69,
       "ath": 183.22,
       "atl": 1.83,
