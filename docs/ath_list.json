@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:31:39.293186+00:00",
+  "updated_at": "2026-11-14T03:31:33.027664+00:00",
   "count": 12,
   "list": [
     {
@@ -16,7 +16,7 @@
       "ath_30d": 8,
       "atl_30d": 0,
       "last_high": 360.83,
-      "last_low": 355.76,
+      "last_low": 355.75,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -34,7 +34,7 @@
       "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 288.11,
-      "last_low": 284.03,
+      "last_low": 281.68,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -79,15 +79,15 @@
       "name": "Chunghwa Telecom Co., Ltd.",
       "mcap": 38.79,
       "price": 49.87,
-      "ath": 50.35,
+      "ath": 50.36,
       "atl": 15.11,
       "pct_to_ath": 1.0,
       "pct_to_atl": 230.0,
-      "wk52_high": 50.35,
+      "wk52_high": 50.36,
       "wk52_low": 39.28,
       "ath_30d": 9,
       "atl_30d": 0,
-      "last_high": 50.35,
+      "last_high": 50.36,
       "last_low": 49.87,
       "made_ath_today": true,
       "made_atl_today": false
@@ -124,7 +124,7 @@
       "ath_30d": 10,
       "atl_30d": 0,
       "last_high": 183.22,
-      "last_low": 174.38,
+      "last_low": 174.36,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -178,7 +178,7 @@
       "ath_30d": 2,
       "atl_30d": 0,
       "last_high": 38.8,
-      "last_low": 36.33,
+      "last_low": 36.0,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -4021,7 +4021,5 @@
       "first_seen_at": "2026-11-13T23:31:39.293186+00:00"
     }
   ],
-  "added_this_run": [
-    "FROG"
-  ]
+  "added_this_run": []
 }
