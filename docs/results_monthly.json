@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T14:58:56.063151+00:00",
+  "updated_at": "2026-11-15T20:16:21.095786+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.85,
+  "scan_seconds": 10.9,
   "scanned_count": 1499,
   "fvb_green": [
     {
@@ -517,7 +517,7 @@
     {
       "sym": "OMC",
       "name": "Omnicom Group Inc.",
-      "mcap": 24.14,
+      "mcap": 24.01,
       "price": 87.98,
       "basis": 78.52,
       "bxt_today": 4.33,
@@ -701,7 +701,7 @@
     {
       "sym": "ALSN",
       "name": "Allison Transmission Holdings, Inc.",
-      "mcap": 10.36,
+      "mcap": 10.41,
       "price": 126.69,
       "basis": 102.29,
       "bxt_today": 1.25,
@@ -1718,8 +1718,8 @@
       "mcap": 28.09,
       "price": 96.92,
       "basis": 95.99,
-      "bxt_today": -3.56,
-      "bxt_yest": 7.55,
+      "bxt_today": -3.57,
+      "bxt_yest": 7.54,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1853,7 +1853,7 @@
     {
       "sym": "NWSA",
       "name": "News Corporation",
-      "mcap": 14.48,
+      "mcap": 14.47,
       "price": 26.97,
       "basis": 27.36,
       "bxt_today": -2.13,
@@ -2427,7 +2427,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-15T07:38:20.040564+00:00",
+    "compared_to": "2026-11-15T14:58:56.063151+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

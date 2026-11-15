@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T14:58:10.619227+00:00",
+  "updated_at": "2026-11-15T20:15:37.757836+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.49,
+  "scan_seconds": 13.12,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -1483,7 +1483,7 @@
     {
       "sym": "FOXA",
       "name": "Fox Corporation",
-      "mcap": 38.75,
+      "mcap": 38.86,
       "price": 68.42,
       "basis": 64.84,
       "bxt_today": 3.3,
@@ -3417,7 +3417,7 @@
     {
       "sym": "TDY",
       "name": "Teledyne Technologies Incorporated",
-      "mcap": 29.84,
+      "mcap": 29.64,
       "price": 643.73,
       "basis": 629.86,
       "bxt_today": -0.32,
@@ -5325,7 +5325,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-15T07:37:41.049744+00:00",
+    "compared_to": "2026-11-15T14:58:10.619227+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
