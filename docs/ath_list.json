@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T22:40:50.071169+00:00",
+  "updated_at": "2026-11-18T03:53:55.591832+00:00",
   "count": 6,
   "list": [
     {
@@ -16,7 +16,7 @@
       "ath_30d": 4,
       "atl_30d": 0,
       "last_high": 1123.67,
-      "last_low": 1108.69,
+      "last_low": 1108.68,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -29,11 +29,11 @@
       "atl": 0.45,
       "pct_to_ath": 0.8,
       "pct_to_atl": 7556.0,
-      "wk52_high": 35.06,
+      "wk52_high": 35.07,
       "wk52_low": 25.08,
       "ath_30d": 4,
       "atl_30d": 0,
-      "last_high": 35.06,
+      "last_high": 35.07,
       "last_low": 34.74,
       "made_ath_today": true,
       "made_atl_today": false
@@ -52,7 +52,7 @@
       "ath_30d": 3,
       "atl_30d": 0,
       "last_high": 234.12,
-      "last_low": 230.31,
+      "last_low": 229.06,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3913,9 +3913,5 @@
       "first_seen_at": "2026-11-17T22:40:50.071169+00:00"
     }
   ],
-  "added_this_run": [
-    "CBC",
-    "DRI",
-    "GHC"
-  ]
+  "added_this_run": []
 }
