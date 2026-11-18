@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T03:52:21.492275+00:00",
+  "updated_at": "2026-11-18T12:28:21.153476+00:00",
   "timeframe": "daily",
-  "scan_seconds": 20.71,
+  "scan_seconds": 23.1,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -7004,42 +7004,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-17T22:39:35.720528+00:00",
+    "compared_to": "2026-11-18T03:52:21.492275+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [
-      {
-        "sym": "CCZ",
-        "name": "Comcast Holdings ZONES",
-        "mcap": 59,
-        "price": 62.32,
-        "basis": 63.41,
-        "bxt_today": 0.48,
-        "ath": 73.0,
-        "pct_to_ath": 17.1,
-        "wk52_high": 66.5,
-        "wk52_low": 55.1,
-        "ath_30d": 0
-      }
-    ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "BKH",
-        "name": "Black Hills Corporation",
-        "mcap": 6.63,
-        "price": 85.42,
-        "basis": 79.53,
-        "bxt_today": -24.62,
-        "ath": 88.37,
-        "pct_to_ath": 3.5,
-        "wk52_high": 88.37,
-        "wk52_low": 67.25,
-        "ath_30d": 8
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
