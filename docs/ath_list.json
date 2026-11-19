@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-11-18T20:52:25.951860+00:00",
+  "updated_at": "2026-11-19T02:06:55.190907+00:00",
   "count": 3,
   "list": [
     {
       "sym": "DRI",
       "name": "Darden Restaurants, Inc.",
       "mcap": 27.0,
-      "price": 239.83,
-      "ath": 240.2,
+      "price": 231.85,
+      "ath": 240.28,
       "atl": 4.02,
-      "pct_to_ath": 0.2,
-      "pct_to_atl": 5862.1,
-      "wk52_high": 240.2,
+      "pct_to_ath": 3.6,
+      "pct_to_atl": 5663.8,
+      "wk52_high": 240.28,
       "wk52_low": 169.0,
       "ath_30d": 4,
       "atl_30d": 0,
-      "last_high": 240.2,
+      "last_high": 240.28,
       "last_low": 228.73,
       "made_ath_today": true,
       "made_atl_today": false
@@ -24,11 +24,11 @@
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 13.74,
-      "price": 114.11,
+      "price": 105.1,
       "ath": 117.91,
       "atl": 16.36,
-      "pct_to_ath": 3.3,
-      "pct_to_atl": 597.6,
+      "pct_to_ath": 12.2,
+      "pct_to_atl": 542.6,
       "wk52_high": 117.91,
       "wk52_low": 34.05,
       "ath_30d": 4,
@@ -3859,7 +3859,5 @@
       "first_seen_at": "2026-11-18T20:52:25.951860+00:00"
     }
   ],
-  "added_this_run": [
-    "FROG"
-  ]
+  "added_this_run": []
 }
