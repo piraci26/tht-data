@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-19T19:02:08.312241+00:00",
+  "updated_at": "2026-11-20T01:12:10.410775+00:00",
   "count": 4,
   "list": [
     {
       "sym": "IBN",
       "name": "ICICI Bank Limited",
-      "mcap": 125.63,
-      "price": 35.15,
+      "mcap": 126.14,
+      "price": 34.89,
       "ath": 35.21,
       "atl": 0.45,
-      "pct_to_ath": 0.2,
-      "pct_to_atl": 7633.0,
+      "pct_to_ath": 0.9,
+      "pct_to_atl": 7575.8,
       "wk52_high": 35.21,
       "wk52_low": 25.08,
       "ath_30d": 5,
@@ -23,18 +23,18 @@
     {
       "sym": "SNDK",
       "name": "Sandisk Corporation",
-      "mcap": 109.1,
-      "price": 768.44,
+      "mcap": 109.3,
+      "price": 776.22,
       "ath": 846.76,
       "atl": 749.39,
-      "pct_to_ath": 10.2,
-      "pct_to_atl": 2.5,
+      "pct_to_ath": 9.1,
+      "pct_to_atl": 3.6,
       "wk52_high": 846.76,
       "wk52_low": 749.39,
       "ath_30d": 2,
       "atl_30d": 1,
       "last_high": 846.76,
-      "last_low": 755.0,
+      "last_low": 753.34,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -42,17 +42,17 @@
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 13.74,
-      "price": 109.43,
+      "price": 114.38,
       "ath": 121.85,
       "atl": 16.36,
-      "pct_to_ath": 11.4,
-      "pct_to_atl": 569.0,
+      "pct_to_ath": 6.5,
+      "pct_to_atl": 599.3,
       "wk52_high": 121.85,
       "wk52_low": 34.05,
       "ath_30d": 5,
       "atl_30d": 0,
       "last_high": 121.85,
-      "last_low": 108.68,
+      "last_low": 108.63,
       "made_ath_today": true,
       "made_atl_today": false
     },
@@ -3877,8 +3877,5 @@
       "first_seen_at": "2026-11-19T19:02:08.312241+00:00"
     }
   ],
-  "added_this_run": [
-    "IBN",
-    "SNDK"
-  ]
+  "added_this_run": []
 }
