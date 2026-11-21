@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-21T19:11:12.497674+00:00",
+  "updated_at": "2026-11-21T23:48:52.343123+00:00",
   "count": 15,
   "list": [
     {
       "sym": "SATS",
       "name": "EchoStar  Corporation",
-      "mcap": 24.77,
+      "mcap": 24.85,
       "price": 85.76,
       "ath": 97.0,
       "atl": 83.05,
@@ -23,7 +23,7 @@
     {
       "sym": "CRCL",
       "name": "Circle Internet Group, Inc.",
-      "mcap": 12.55,
+      "mcap": 12.19,
       "price": 47.51,
       "ath": 298.99,
       "atl": 47.32,
@@ -59,7 +59,7 @@
     {
       "sym": "PAYP",
       "name": "PayPay Corporation American Depository Shares",
-      "mcap": 8.03,
+      "mcap": 7.9,
       "price": 11.67,
       "ath": 24.89,
       "atl": 11.61,
@@ -185,7 +185,7 @@
     {
       "sym": "GLXY",
       "name": "Galaxy Digital Inc.",
-      "mcap": 2.1,
+      "mcap": 2.12,
       "price": 11.22,
       "ath": 45.92,
       "atl": 10.92,
