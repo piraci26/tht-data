@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T03:55:42.888548+00:00",
+  "updated_at": "2026-11-21T12:08:15.529926+00:00",
   "timeframe": "daily",
-  "scan_seconds": 10.37,
+  "scan_seconds": 14.39,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -6153,42 +6153,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-20T23:05:52.360989+00:00",
+    "compared_to": "2026-11-21T03:55:42.888548+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.26,
-        "price": 303.59,
-        "basis": 307.88,
-        "bxt_today": -37.36,
-        "ath": 331.77,
-        "pct_to_ath": 9.3,
-        "wk52_high": 331.77,
-        "wk52_low": 280.0,
-        "ath_30d": 1
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "SNDK",
-        "name": "Sandisk Corporation",
-        "mcap": 90.45,
-        "price": 79.24,
-        "basis": 145.84,
-        "bxt_today": -15.29,
-        "ath": 294.3,
-        "pct_to_ath": 271.4,
-        "wk52_high": 294.3,
-        "wk52_low": 22.88,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
