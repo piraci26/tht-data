@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22T03:33:13.072913+00:00",
-  "count": 3,
+  "updated_at": "2026-11-22T11:58:02.671784+00:00",
+  "count": 2,
   "list": [
     {
       "sym": "IBN",
@@ -35,24 +35,6 @@
       "atl_30d": 0,
       "last_high": 79.7,
       "last_low": 78.13,
-      "made_ath_today": true,
-      "made_atl_today": false
-    },
-    {
-      "sym": "ACA",
-      "name": "Arcosa, Inc.",
-      "mcap": 7.32,
-      "price": 149.15,
-      "ath": 149.21,
-      "atl": 144.38,
-      "pct_to_ath": 0.0,
-      "pct_to_atl": 3.3,
-      "wk52_high": 149.21,
-      "wk52_low": 144.38,
-      "ath_30d": 11,
-      "atl_30d": 0,
-      "last_high": 149.21,
-      "last_low": 148.9,
       "made_ath_today": true,
       "made_atl_today": false
     }
