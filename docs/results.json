@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T23:47:54.868859+00:00",
+  "updated_at": "2026-11-22T03:32:14.248401+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.36,
+  "scan_seconds": 10.12,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -1709,29 +1709,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "RRX",
-      "name": "Regal Rexnord Corporation",
-      "mcap": 10.15,
-      "price": 152.35,
-      "basis": 163.83,
-      "bxt_today": -37.16,
-      "bxt_yest": -29.99,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 18,
-      "bxt_streak": null,
-      "ath": 247.8,
-      "atl": 2.43,
-      "pct_to_ath": 62.7,
-      "pct_to_atl": 6159.6,
-      "wk52_high": 247.8,
-      "wk52_low": 128.45,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "BXP",
       "name": "BXP, Inc.",
       "mcap": 10.15,
@@ -1751,6 +1728,29 @@
       "pct_to_atl": 161.3,
       "wk52_high": 74.94,
       "wk52_low": 49.72,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "RRX",
+      "name": "Regal Rexnord Corporation",
+      "mcap": 10.15,
+      "price": 152.35,
+      "basis": 163.83,
+      "bxt_today": -37.16,
+      "bxt_yest": -29.99,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 18,
+      "bxt_streak": null,
+      "ath": 247.8,
+      "atl": 2.43,
+      "pct_to_ath": 62.7,
+      "pct_to_atl": 6159.6,
+      "wk52_high": 247.8,
+      "wk52_low": 128.45,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -6153,7 +6153,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-21T19:09:42.284083+00:00",
+    "compared_to": "2026-11-21T23:47:54.868859+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
