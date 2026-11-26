@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T09:18:10.433042+00:00",
+  "updated_at": "2026-11-26T19:09:22.248962+00:00",
   "timeframe": "daily",
-  "scan_seconds": 12.05,
+  "scan_seconds": 12.31,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -6403,29 +6403,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "IFS",
-      "name": "Intercorp Financial Services Inc. Common Shares",
-      "mcap": 5.32,
-      "price": 49.85,
-      "basis": 50.53,
-      "bxt_today": 8.06,
-      "bxt_yest": -6.75,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 61.38,
-      "atl": 17.67,
-      "pct_to_ath": 23.1,
-      "pct_to_atl": 182.1,
-      "wk52_high": 61.38,
-      "wk52_low": 39.51,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5.32,
@@ -6445,6 +6422,29 @@
       "pct_to_atl": 591.7,
       "wk52_high": 65.23,
       "wk52_low": 48.95,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "IFS",
+      "name": "Intercorp Financial Services Inc. Common Shares",
+      "mcap": 5.32,
+      "price": 49.85,
+      "basis": 50.53,
+      "bxt_today": 8.06,
+      "bxt_yest": -6.75,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 61.38,
+      "atl": 17.67,
+      "pct_to_ath": 23.1,
+      "pct_to_atl": 182.1,
+      "wk52_high": 61.38,
+      "wk52_low": 39.51,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -8016,42 +8016,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-26T00:58:29.171458+00:00",
+    "compared_to": "2026-11-26T09:18:10.433042+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "MSGS",
-        "name": "Madison Square Garden Sports Corp. (New)",
-        "mcap": 9.26,
-        "price": 317.01,
-        "basis": 308.55,
-        "bxt_today": 4.58,
-        "ath": 331.77,
-        "pct_to_ath": 4.7,
-        "wk52_high": 331.77,
-        "wk52_low": 280.0,
-        "ath_30d": 1
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": [
-      {
-        "sym": "SNDK",
-        "name": "Sandisk Corporation",
-        "mcap": 82.87,
-        "price": 73.61,
-        "basis": 145.44,
-        "bxt_today": -20.59,
-        "ath": 294.3,
-        "pct_to_ath": 299.8,
-        "wk52_high": 294.3,
-        "wk52_low": 22.88,
-        "ath_30d": 0
-      }
-    ]
+    "bxt_red_removed": []
   }
 }
