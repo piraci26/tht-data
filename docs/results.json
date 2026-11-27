@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T02:09:52.409708+00:00",
+  "updated_at": "2026-11-27T10:50:40.119511+00:00",
   "timeframe": "daily",
-  "scan_seconds": 11.73,
+  "scan_seconds": 21.49,
   "scanned_count": 1498,
   "fvb_green": [
     {
@@ -6403,29 +6403,6 @@
       "atl_30d": 0
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5.32,
-      "price": 57.69,
-      "basis": 55.3,
-      "bxt_today": 15.76,
-      "bxt_yest": -2.22,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 67.77,
-      "atl": 8.34,
-      "pct_to_ath": 17.5,
-      "pct_to_atl": 591.7,
-      "wk52_high": 65.23,
-      "wk52_low": 48.95,
-      "ath_30d": 0,
-      "atl_30d": 0
-    },
-    {
       "sym": "IFS",
       "name": "Intercorp Financial Services Inc. Common Shares",
       "mcap": 5.32,
@@ -6445,6 +6422,29 @@
       "pct_to_atl": 182.1,
       "wk52_high": 61.38,
       "wk52_low": 39.51,
+      "ath_30d": 0,
+      "atl_30d": 0
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5.32,
+      "price": 57.69,
+      "basis": 55.3,
+      "bxt_today": 15.76,
+      "bxt_yest": -2.22,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 67.77,
+      "atl": 8.34,
+      "pct_to_ath": 17.5,
+      "pct_to_atl": 591.7,
+      "wk52_high": 65.23,
+      "wk52_low": 48.95,
       "ath_30d": 0,
       "atl_30d": 0
     },
@@ -8016,7 +8016,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-11-26T19:09:22.248962+00:00",
+    "compared_to": "2026-11-27T02:09:52.409708+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
