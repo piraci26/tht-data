@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-27T19:43:54.668272+00:00",
+  "updated_at": "2026-11-28T02:13:12.192060+00:00",
   "count": 1,
   "list": [
     {
       "sym": "MBLY",
       "name": "Mobileye Global Inc.",
       "mcap": 3.83,
-      "price": 4.48,
+      "price": 4.49,
       "ath": 48.11,
       "atl": 4.36,
-      "pct_to_ath": 973.9,
-      "pct_to_atl": 2.8,
+      "pct_to_ath": 971.5,
+      "pct_to_atl": 3.0,
       "wk52_high": 14.33,
       "wk52_low": 4.36,
       "ath_30d": 0,
